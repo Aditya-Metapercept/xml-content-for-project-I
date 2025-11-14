@@ -12,14 +12,7 @@
          <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
          <keywords>
             <indexterm>metr-bat-space</indexterm>
-
-
-
-
-
-
-
-            
+           
             <indexterm>batch-house-operation</indexterm>
             <indexterm>operational-approval</indexterm>
             <indexterm>process-validation</indexterm>
