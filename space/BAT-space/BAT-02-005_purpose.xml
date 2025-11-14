@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1A8C04E-BB01-11F0-8794-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-11-06"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
+         <keywords>
+            <indexterm>metr-bat-space</indexterm>
+            <indexterm>batch-house-purpose</indexterm>
+            <indexterm>process-standardization</indexterm>
+            <indexterm>operational-efficiency</indexterm>
+            <indexterm>quality-control</indexterm>
+            <indexterm>consistency-assurance</indexterm>
+            <indexterm>automation-reliability</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>environmental-control</indexterm>
+            <indexterm>productivity-optimization</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>plant-safety</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>production-integrity</indexterm>
+            <indexterm>regulatory-adherence</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-BAT-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Batch House Operation — Purpose"/>
+         <othermeta name="shortdesc"
+                    content="Defines the purpose of batch house operations and process standardization to ensure quality, safety, and efficiency in production."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="operation-standard;process-control;automation-system;quality-objective;safety-guideline"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-production;usecase:governance-and-purpose;industry:glassmanufacturing"/>
+         <othermeta name="tags"
+                    content="purpose,operation,standardization,quality,efficiency"/>
+         <othermeta name="usecase" content="purpose-statement"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>To develop a procedure that applies to all plants for proper operation of the Batch House.</p>
+   </body>
+</topic>
