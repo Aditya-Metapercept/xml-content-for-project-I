@@ -12,12 +12,7 @@
 
 
 
-
-
-
-
-      
-      <metadata>
+    <metadata>
          <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
          <keywords>
             <indexterm>metr-bat-space</indexterm>
