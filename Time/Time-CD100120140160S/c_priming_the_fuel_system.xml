@@ -11,22 +11,10 @@
          <audience type="role"
                    otherprops="maintenance-personnel,service-technicians,industrial-engineers,reliability-engineers"/>
          <keywords><!-- Product layer -->
-
-
-
-
-
-
-
-
-         
             <indexterm>metr-time-cd100120140160s</indexterm>
             <indexterm>fuel-priming</indexterm>
             <indexterm>fuel-system</indexterm>
-
-
-
-           <indexterm>fuel-filter</indexterm>
+            <indexterm>fuel-filter</indexterm>
             <indexterm>prime-pump</indexterm>
             <!-- Process layer -->
             <indexterm>priming-procedure</indexterm>
