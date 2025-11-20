@@ -13,6 +13,7 @@
          <audience type="role"
                    otherprops="production,maintenance,quality,safety,engineering,management"/>
          <keywords><!-- Product layer -->
+         
             <indexterm>ups-with-bypass-transformer</indexterm>
             <indexterm>bypass-transformer</indexterm>
             <indexterm>top-cable-entry</indexterm>
