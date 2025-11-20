@@ -27,7 +27,7 @@
 
 
 
-            
+
             <indexterm>operator-manual</indexterm>
             <indexterm>fleet-management-interface</indexterm>
             <indexterm>control-system</indexterm>
@@ -51,6 +51,9 @@
          <othermeta name="shortdesc"
                     content="introduction to the equipment scope safety and how to use this operation and maintenance manual."/>
          <othermeta name="language" content="en-GB"/>
+
+
+         
          <othermeta name="version" content="1.0.0"/>
          <othermeta name="docStage" content="approved"/>
          <othermeta name="access.role" content="internal"/>
