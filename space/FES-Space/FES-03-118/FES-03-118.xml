@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m20984CC-BB02-11F0-1494-09173F13E4C5" xml:lang="en-us">
+   <title>Configuring Machine Server Backups</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="07-05-2022"/>
+      </critdates>
+   </topicmeta>
+   <topicref href="FES-03-118_configuring_machine_server_backups.xml"
+             chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="FES-03-118"/>
+         <othermeta name="RevisionDate" content="07-05-2022"/>
+      </topicmeta>
+      <topicref href="FES-03-118_purpose.xml"/>
+      <topicref href="FES-03-118_application.xml"/>
+      <topicref href="FES-03-118_safety.xml"/>
+      <topicref href="FES-03-118_procedure.xml"/>
+      <topicref href="FES-03-118_sop_used_in.xml"/>
+      <topicref href="FES-03-118_equipment.xml"/>
+      <topicref href="FES-03-118_references.xml"/>
+      <topicref href="FES-03-118_collaboration.xml" audience="internal"/>
+      <topicref href="FES-03-118_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>

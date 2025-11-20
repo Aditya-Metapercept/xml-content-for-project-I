@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8434BB-BB9C-11F0-5358-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Representatives of the Soul Approval Team<table id="table_dx2_gsg_fdc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="33.97%"/>
+               <colspec colname="c2" colwidth="56.19%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Person</p>
+                     </entry>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Paul Mohr</p>
+                     </entry>
+                     <entry>
+                        <p>Squad Lead, Forming Research and Development (R&amp;D)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Andrew Kandik</p>
+                     </entry>
+                     <entry>
+                        <p>Lead Forming Specialist II</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Phillip Wilson</p>
+                     </entry>
+                     <entry>
+                        <p>EHS Continuous Improvement Manager</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

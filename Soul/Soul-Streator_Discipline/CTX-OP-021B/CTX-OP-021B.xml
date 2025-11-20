@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC964556-BB9C-11F0-1353-09173F13E4C5" xml:lang="en-us">
+   <title>Basic Layout of the Information Screens</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2023-05-22"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="CTX-OP-021B_basic_layout_of_the_information_screens.xml">
+      <topicmeta>
+         <othermeta content="CTX-OP-021B" name="DocumentNumber"/>
+         <othermeta content="2023-05-22" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="CTX-OP-021B_purpose_application.xml"/>
+      <topicref href="CTX-OP-021B_ppe_required.xml"/>
+      <topicref href="CTX-OP-021B_safety_hazards.xml"/>
+      <topicref href="CTX-OP-021B_safety_controls.xml"/>
+      <topicref href="CTX-OP-021B_equipment_needed.xml"/>
+      <topicref href="CTX-OP-021B_comments.xml"/>
+      <topicref href="CTX-OP-021B_basic_layout_for_the_information_screens.xml">
+         <topicref href="CTX-OP-021B_rejects_screen.xml"/>
+         <topicref href="CTX-OP-021B_transport_screen.xml"/>
+         <topicref href="CTX-OP-021B_conveyor_screen_conveyor_button.xml"/>
+         <topicref href="CTX-OP-021B_dashboard_screen.xml"/>
+         <topicref href="CTX-OP-021B_distribution_screen.xml"/>
+         <topicref href="CTX-OP-021B_leanverticality_screen.xml"/>
+         <topicref href="CTX-OP-021B_diameter_screen.xml"/>
+         <topicref href="CTX-OP-021B_temperature_screen.xml"/>
+         <topicref href="CTX-OP-021B_tuning_screen.xml"/>
+      </topicref>
+      <topicref href="CTX-OP-021B_approval.xml"/>
+      <topicref href="CTX-OP-021B_revision_history.xml"/>
+   </topicref>
+</topic>
