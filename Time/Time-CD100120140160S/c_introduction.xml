@@ -53,7 +53,7 @@
          <othermeta name="language" content="en-GB"/>
 
 
-         
+
          <othermeta name="version" content="1.0.0"/>
          <othermeta name="docStage" content="approved"/>
          <othermeta name="access.role" content="internal"/>
@@ -67,6 +67,10 @@
          <othermeta name="usecase" content="orientation-and-safety-briefing"/>
       </metadata>
    </prolog>
+
+
+
+   
    <body>
       <p>The DL06 engine which is a high-power engine in compliance with the EPA/CARB TIER-4 (EURO
       STAGE Ⅳ) Engine Emissions Standard is provided with various systems. The DL06 engine is
