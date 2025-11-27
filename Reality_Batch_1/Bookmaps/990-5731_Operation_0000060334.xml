@@ -1,302 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
-         format="A4"
-         id="DocumentTypeProductFamilyNameSpecif-BA78BDF3c"
-         linking="none"
-         product="SchneiderElectric"
-         translate="yes"
-         xml:lang="en"
-         ditaarch:DITAArchVersion="1.3"
-
-
-         
-         domains="(map mapgroup-d)                
-                     (map bookmap)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic xnal-d)                            (topic markup-d xml-d)   ">
-   <booktitle>
-
-
-      <booklibrary>Operation</booklibrary>
-      <mainbooktitle>Reality PXC</mainbooktitle>
-      <booktitlealt>10–80 kVA</booktitlealt>
-      <booktitlealt/>
-      <booktitlealt>
-         <image href="../Images/Realitypxc_fl_v1_0000082090.svg"
-                height="150mm"
-                scalefit="yes"
-                placement="inline"/>
-      </booktitlealt>
-   </booktitle>
-   <bookmeta>
-      <authorinformation>
-         <organizationinfo>
-            <namedetails>
-               <organizationnamedetails>
-                  <organizationname>Schneider Electric</organizationname>
-               </organizationnamedetails>
-            </namedetails>
-            <addressdetails>
-               <thoroughfare>35 rue Joseph Monier</thoroughfare>
-               <locality>
-                  <postalcode>92500</postalcode>
-                  <localityname>Rueil
-Malmaison</localityname>
-               </locality>
-               <country>France</country>
-            </addressdetails>
-            <contactnumbers>
-               <contactnumber>+ 33 (0) 1 41 29 70 00</contactnumber>
-            </contactnumbers>
-            <urls>
-               <url href="http://www.schneider-electric.com" scope="external">www.schneider-electric.com</url>
-            </urls>
-         </organizationinfo>
-      </authorinformation>
-      <publisherinformation>
-         <organization>Schneider Electric</organization>
-      </publisherinformation>
-      <bookid>
-         <bookpartno>990–5731C–001</bookpartno>
-         <edition>12/2020</edition>
-      </bookid>
-      <bookrights>
-         <copyrfirst>
-            <year>2013</year>
-         </copyrfirst>
-         <copyrlast>
-            <year>2020</year>
-         </copyrlast>
-         <bookowner>
-            <organization>Schneider
-Electric</organization>
-         </bookowner>
-      </bookrights>
-      <data href="../DitaVal/990-5731_Reality_operation_iec_VAL_0000183474.xmlval"
-            name="ditavalref"/>
-   </bookmeta>
-   <frontmatter>
-      <booklists>
-         <toc/>
-      </booklists>
-   </frontmatter>
-   <chapter href="../Topics/Safety_Information_REF_0000015590.xml"
-            format="dita"
-            navtitle="Important Safety Information"
-            scope="local"
-            type="reference">
-      <topicref href="../Topics/Electromagnetic_Compatibility_REF_0000081968.xml"
-                format="dita"
-                navtitle="Electromagnetic Compatibility"
-                scope="local"
-                type="reference"/>
-      <topicref href="../Topics/Safety_Precautions_Installation_0000020867.xml"
-                format="dita"
-                navtitle="Safety Precautions"
-                scope="local"
-                type="reference">
-         <topicref href="../Topics/Electrical_Safety_REF_0000020866.xml"
-                   format="dita"
-                   navtitle="Electrical Safety"
-                   scope="local"
-                   type="reference"/>
-         <topicref href="../Topics/Battery_Safety_REF_0000020865.xml"
-                   format="dita"
-                   navtitle="Battery Safety"
-                   scope="local"
-                   type="reference"/>
-      </topicref>
-   </chapter>
-   <chapter href="../Topics/System_Overview_REF_0000070780.xml"
-            format="dita"
-            navtitle="Single System Overview"
-            scope="local"
-            type="reference"/>
-   <chapter href="../Topics/Parallel_System_Overview_REF_0000241155.xml"
-            format="dita"
-            navtitle="Parallel Redundant System Overview"
-            scope="local"
-            type="reference"/>
-   <chapter href="../Topics/User_Interface_REF_0000060304.xml"
-            format="dita"
-            navtitle="User Interface"
-            scope="local"
-            type="reference">
-      <topicref href="../Topics/Display_Overview_Menu_REF_0000103876.xml"
-                format="dita"
-                navtitle="Display Overview Menu"
-                scope="local"
-                type="reference"/>
-      <topicref href="../Topics/View_UPS_Measurements_TSK_0000060311.xml"
-                format="dita"
-                navtitle="View UPS Measurements"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/View_System_Configuration_TSK_0000060310.xml"
-                format="dita"
-                navtitle="View System Configuration"
-                scope="local"
-                type="task"/>
-   </chapter>
-   <chapter href="../Topics/Configuration_TSK_0000000492.xml"
-            format="dita"
-            navtitle="Configuration"
-            scope="local"
-            type="task">
-      <topicref href="../Topics/Set_the_Date_and_Time_TSK_0000060302.xml"
-                format="dita"
-                navtitle="Set the Date and Time"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/Set_Up_the_Display_TSK_0000060301.xml"
-                format="dita"
-                navtitle="Set Up the Display"
-                scope="local"
-                type="task">
-         <topicref href="../Topics/Reset_the_Display_Language_to_English_TSK_0000060300.xml"
-                   format="dita"
-                   navtitle="Reset the Display Language to English"
-                   scope="local"
-                   type="task"/>
-      </topicref>
-      <topicref href="../Topics/Set_Auto_Start_and_Auto_Boost_TSK_0000060299.xml"
-                format="dita"
-                navtitle="Set Auto Start and Auto Boost"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/Set_Battery_Charge_Mode_TSK_0000060298.xml"
-                format="dita"
-                navtitle="Set Battery Charge Mode"
-                scope="local"
-                type="task"/>
-   </chapter>
-   <chapter href="../Topics/Operation_REF_0000006541.xml"
-            format="dita"
-            navtitle="Operation"
-            scope="local"
-            type="reference">
-      <topicref href="../Topics/Service_Operation_modes_UPS_System_with_2-Position_Manual_Bypass_Switch_REF_0000116903.xml"
-                format="dita"
-                navtitle="Operation Modes"
-                scope="local"
-                type="reference"/>
-      <topicref href="../Topics/Operation_Procedures_TSK_0000000681.xml"
-                format="dita"
-                navtitle="Operation Procedures"
-                scope="local"
-                type="task">
-         <topicref href="../Topics/Turn_on_the_UPS_TSK_0000060297.xml"
-                   format="dita"
-                   navtitle="Turn on the UPS"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Turn_off_the_UPS_TSK_0000060296.xml"
-                   format="dita"
-                   navtitle="Turn off the UPS"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Transfer_from_Normal_Operation_to_Static_Bypass_Operation_TSK_0000060295.xml"
-                   format="dita"
-                   navtitle="Transfer from Normal Operation to Static Bypass Operation"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Transfer_from_Static_Bypass_Operation_to_Normal_Operation_TSK_0000060314.xml"
-                   format="dita"
-                   navtitle="Transfer from Static Bypass Operation to Normal Operation"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Transfer_from_Normal_Operation_to_Manual_Bypass_Operation_TSK_0000060313.xml"
-                   format="dita"
-                   navtitle="Transfer from Normal Operation to Manual Bypass Operation"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Transfer_from_Manual_Bypass_Operation_to_Normal_Operation_TSK_0000060312.xml"
-                   format="dita"
-                   navtitle="Transfer from Manual Bypass Operation to Normal Operation"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Reality_Parallel_Transfer_from_Normal_Operation_to_Manual_Bypass_Operation_0000070919.xml"
-                   format="dita"
-                   navtitle="Transfer from Normal Operation to Manual Bypass Operation – Parallel UPS System"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Reality_Parallel_Transfer_from_Manual_Bypass_Operation_to_Normal_Operation_0000070918.xml"
-                   format="dita"
-                   navtitle="Transfer from Manual Bypass Operation to Normal Operation – Parallel UPS System"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Isolate_One_UPS_in_a_Redundant_UPS_System_TSK_0000186396.xml"
-                   format="dita"
-                   navtitle="Isolate One UPS in a Redundant UPS System"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/Return_an_Isolated_UPS_to_a_Redundant_UPS_System_TSK_0000186395.xml"
-                   format="dita"
-                   navtitle="Return an Isolated UPS to a Redundant UPS System"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/View_the_Event_Log_TSK_0000060309.xml"
-                   format="dita"
-                   navtitle="View the Event Log"
-                   scope="local"
-                   type="task">
-            <topicref href="../Topics/Clear_the_Event_Log_TSK_0000060308.xml"
-                      format="dita"
-                      navtitle="Clear the Event Log"
-                      scope="local"
-                      type="task"/>
-         </topicref>
-         <topicref href="../Topics/View_the_Alarms_TSK_0000060307.xml"
-                   format="dita"
-                   navtitle="View the Alarms"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/View_Diagnosis_TSK_0000060306.xml"
-                   format="dita"
-                   navtitle="View Diagnosis"
-                   scope="local"
-                   type="task"/>
-         <topicref href="../Topics/View_Statistics_TSK_0000060305.xml"
-                   format="dita"
-                   navtitle="View Statistics"
-                   scope="local"
-                   type="task">
-            <topicref href="../Topics/Clear_Statistics_TSK_0000060324.xml"
-                      format="dita"
-                      navtitle="Clear Statistics"
-                      scope="local"
-                      type="task"/>
-         </topicref>
-      </topicref>
-   </chapter>
-   <chapter href="../Topics/Maintenance_TSK_0000000703.xml"
-            format="dita"
-            navtitle="Maintenance"
-            scope="local"
-            type="task">
-      <topicref href="../Topics/Replace_the_Filters_TSK_0000089634.xml"
-                format="dita"
-                navtitle="Replace the Filters"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/Perform_LED_and_Display_Test_TSK_0000060323.xml"
-                format="dita"
-                navtitle="Perform LED and Display Test"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/Perform_Advanced_Battery_Monitoring_ABM_Test_TSK_0000060322.xml"
-                format="dita"
-                navtitle="Perform Advanced Battery Monitoring (ABM) Test"
-                scope="local"
-                type="task"/>
-      <topicref href="../Topics/Perform_Discharge_Test_TSK_0000060321.xml"
-                format="dita"
-                navtitle="Perform Discharge Test"
-                scope="local"
-                type="task"/>
-   </chapter>
-   <chapter href="../Topics/Troubleshooting_REF_0000060320.xml"
-            format="dita"
-            navtitle="Troubleshooting"
-            scope="local"
-            type="reference"/>
-   <backmatter/>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" format="A4" id="InstallationRealityPXC1080KVAWithCoup-C7487A57" linking="none" product="SchneiderElectric" translate="yes" xml:lang="en" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (map bookmap) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic xnal-d) (topic markup-d xml-d) ">
+<booktitle>
+<booklibrary>Installation</booklibrary>
+<mainbooktitle>Reality PXC</mainbooktitle>
+<booktitlealt>10–80 kVA Parallel Redundant UPS System with Coupling Switches</booktitlealt>
+<booktitlealt/>
+<booktitlealt/>
+<booktitlealt>
+<image href="../Images/Realitypxc_fl_v1_0000082090.svg" height="150mm" scalefit="yes" placement="inline"/>
+</booktitlealt>
+</booktitle>
+<bookmeta>
+<shortdesc/>
+<authorinformation>
+<organizationinfo>
+<namedetails>
+<organizationnamedetails>
+<organizationname>Schneider Electric</organizationname>
+</organizationnamedetails>
+</namedetails>
+<addressdetails>
+<thoroughfare>35 rue Joseph Monier</thoroughfare>
+<locality>
+<postalcode>92500</postalcode>
+<localityname>Rueil Malmaison</localityname>
+</locality>
+<country>France</country>
+</addressdetails>
+<contactnumbers>
+<contactnumber>+ 33 (0) 1 41 29 70 00</contactnumber>
+</contactnumbers>
+<urls>
+<url href="http://www.schneider-electric.com" scope="external">www.schneider-electric.com</url>
+<url scope="external">*990-6071-001*</url>
+</urls>
+</organizationinfo>
+</authorinformation>
+<publisherinformation>
+<organization>Schneider Electric</organization>
+</publisherinformation>
+<bookid>
+<bookpartno>990-6071-001</bookpartno>
+<edition>10/2018</edition>
+</bookid>
+<bookrights>
+<copyrfirst>
+<year>2018</year>
+</copyrfirst>
+<copyrlast>
+<year>2018</year>
+</copyrlast>
+<bookowner>
+<organization>Schneider Electric</organization>
+</bookowner>
+</bookrights>
+<data href="../DitaVal/990-6071_Reality_iec_parallel_installation_val_VAL_0000248035.xmlval" name="ditavalref"/>
+</bookmeta>
+<frontmatter>
+<booklists>
+<toc/>
+</booklists>
+</frontmatter>
+<chapter href="../Topics/Safety_Information_REF_0000015590.xml" format="dita" navtitle="Safety Information" scope="local" type="reference">
+<topicref href="../Topics/Electromagnetic_Compatibility_REF_0000081968.xml" format="dita" navtitle="Electromagnetic Compatibility" scope="local" type="reference"/>
+<topicref href="../Topics/Safety_Precautions_Installation_0000020867.xml" format="dita" navtitle="Safety Precautions" scope="local" type="reference">
+<topicref href="../Topics/Electrical_Safety_REF_0000020866.xml" format="dita" navtitle="Electrical Safety" scope="local" type="reference"/>
+<topicref href="../Topics/Battery_Safety_REF_0000020865.xml" format="dita" navtitle="Battery Safety" scope="local" type="reference"/>
+</topicref>
+</chapter>
+<chapter href="../Topics/Specifications_REF_0000000332.xml" format="dita" navtitle="Specifications" scope="local" type="reference">
+<topicref href="../Topics/Input_Specifications_REF_0000043377.xml" format="dita" navtitle="Input Specifications" scope="local" type="reference">
+<topicref href="../Topics/Input_Specifications_for_Systems_without_Transformer_REF_0000074591.xml" format="dita" navtitle="Input Specifications for Systems without Transformer" scope="local" type="reference"/>
+<topicref href="../Topics/Input_Specifications_for_Systems_with_Rectifier_Input_Transformer_T001_0000074590.xml" format="dita" navtitle="Input Specifications for Systems with Rectifier Input Transformer (T001)" scope="local" type="reference"/>
+<topicref href="../Topics/Input_Specifications_for_Systems_with_Output_Transformer_T401_REF_0000074589.xml" format="dita" navtitle="Input Specifications for Systems with Output Transformer (T401)" scope="local" type="reference"/>
+<topicref href="../Topics/Input_Specifications_for_Systems_with_Rectifier_Input_Transformer_and_In_0000074588.xml" format="dita" navtitle="Input Specifications for Systems with Rectifier Input Transformer (T001) and Inverter Output Transformer (T401)" scope="local" type="reference"/>
+</topicref>
+<topicref href="../Topics/Bypass_Specifications_REF_0000043376.xml" format="dita" navtitle="Bypass Specifications" scope="local" type="reference">
+<topicref href="../Topics/Bypass_Specifications_for_Systems_without_Transformer_REF_0000074801.xml" format="dita" navtitle="Bypass Specifications for Systems without Transformer" scope="local" type="reference"/>
+<topicref href="../Topics/Bypass_Specifications_for_Systems_with_Transformer_T501_REF_0000074800.xml" format="dita" navtitle="Bypass Specifications for Systems with Transformer (T501)" scope="local" type="reference"/>
+</topicref>
+<topicref href="../Topics/Output_Specifications_REF_0000043375.xml" format="dita" navtitle="Output Specifications" scope="local" type="reference"/>
+<topicref href="../Topics/Battery_Specifications_REF_0000043374.xml" format="dita" navtitle="Battery Specifications" scope="local" type="reference"/>
+<topicref href="../Topics/Recommended_Upstream_Protection_REF_0000043373.xml" format="dita" navtitle="Recommended Upstream Protection" scope="local" type="reference"/>
+<topicref href="../Topics/Recommended_Cable_Sizes_REF_0000050716.xml" format="dita" navtitle="Recommended Cable Sizes" scope="local" type="reference"/>
+<topicref href="../Topics/Torque_Specifications_REF_0000085872.xml" format="dita" navtitle="Torque Specifications" scope="local" type="reference"/>
+<topicref href="../Topics/Environment_REF_0000043876.xml" format="dita" navtitle="Environment" scope="local" type="reference">
+<topicref href="../Topics/Heat_Dissipation_REF_0000043875.xml" format="dita" navtitle="Heat Dissipation" scope="local" type="reference"/>
+</topicref>
+<topicref href="../Topics/UPS_Weights_and_Dimensions_REF_0000043879.xml" format="dita" navtitle="UPS Weights and Dimensions" scope="local" type="reference"/>
+<topicref href="../Topics/Battery_Weights_and_Dimensions_REF_0000074799.xml" format="dita" navtitle="Battery Weights and Dimensions" scope="local" type="reference"/>
+<topicref href="../Topics/Clearance_REF_0000043877.xml" format="dita" navtitle="Clearance" scope="local" type="reference"/>
+</chapter>
+<chapter href="../Topics/Parallel_System_Overview_REF_0000241155.xml" format="dita" navtitle="System Overview" scope="local" type="reference"/>
+<chapter href="../Topics/Installation_Procedure_For_Bottom_Cable_Entry_System_0000240802.xml" format="dita" navtitle="Installation Procedure for Bottom Cable Entry System" scope="local" type="task"/>
+<chapter href="../Topics/Installation_Procedure_for_Top_Cable_Entry_System_0000208813.xml" format="dita" navtitle="Installation Procedure for Top Cable Entry System" scope="local" type="task"/>
+<chapter href="../Topics/Remove_Kick_Plates_TSK_0000161962.xml" format="dita" navtitle="Remove the Kick Plates" scope="local" type="task"/>
+<chapter href="../Topics/10-80kVA_Mount_the_UPS_System_to_the_Floor_0000235790.xml" format="dita" navtitle="Mount the UPS System to the Floor" scope="local" type="task"/>
+<chapter href="../Topics/Prepare_for_Cables_TSK_0000208812.xml" format="dita" navtitle="Prepare for Cables in Bottom Cable Entry System" scope="local" type="task"/>
+<chapter href="../Topics/10-80_kVA_Prepare_for_Cables_in_Top_Cable_Entry_System_TSK_0000235789.xml" format="dita" navtitle="Prepare for Cables in Top Cable Entry System" scope="local" type="task"/>
+<chapter href="../Topics/Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_Bottom_Cable_Entry_T_0000240801.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 10-40 kVA Bottom Cable Entry" scope="local" type="task"/>
+<chapter href="../Topics/10-80_Connect_the_Power_Cables_on_the_Parallel_50-80_kVA_Bottom_Cable_Entry_T_0000240800.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 50–80 kVA Bottom Cable Entry" scope="local" type="task"/>
+<chapter href="../Topics/Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_3_3_Bottom_Cable_Entr_0000237720.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 10-40 kVA Bottom Cable Entry with Common Bypass Transformer" scope="local" type="task"/>
+<chapter href="../Topics/10-80_kVA_Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_3_1_Bottom_W_byp_trans_0000235795.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 50-80 kVA Bottom Cable Entry with Common Bypass Transformer" scope="local" type="task"/>
+<chapter href="../Topics/10-80_Connect_the_Power_Cables_on_the_Parallel_10-80_kVA_Top_Cable_Entry_TSK_0000240799.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 10–80 kVA Top Cable Entry" scope="local" type="task"/>
+<chapter href="../Topics/10-80_Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_Top_Cable_Entry_with__0000240798.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 10-40 kVA Top Cable Entry with Common Bypass Transformer" scope="local" type="task"/>
+<chapter href="../Topics/10-80_Connect_the_Power_Cables_on_the_Parallel_50-80_kVA_Top_Cable_Entry_with__0000240797.xml" format="dita" navtitle="Connect the Power Cables on the Parallel 50-80 kVA Top Cable Entry with Common Bypass Transformer" scope="local" type="task"/>
+<chapter href="../Topics/Connect_the_Emergency_Power_Off_EPO_TSK_0000077629.xml" format="dita" navtitle="Connect the Signal Cables" scope="local" type="task">
+<topicref href="../Topics/10-80_kVA_Connect_the_Signal_Cable_for_the_Coupling_Switches_in_Parallel_Bottom_Ca_0000235797.xml" format="dita" navtitle="Connect the Signal Cable for the Coupling Switches in Parallel Bottom Cable Entry System" scope="local" type="task"/>
+<topicref href="../Topics/10-80_kVA_Connect_the_Signal_Cables_for_the_Coupling_Switches_in_Parallel_Top_Cabl_0000235796.xml" format="dita" navtitle="Connect the Signal Cables for the Coupling Switches in Parallel Top Cable Entry System" scope="local" type="task"/>
+</chapter>
+<chapter href="../Topics/Install_the_Kick_Plates_0000103941.xml" format="dita" navtitle="Reinstall the Kick Plates" scope="local" type="task"/>
+<backmatter/>
 </bookmap>
