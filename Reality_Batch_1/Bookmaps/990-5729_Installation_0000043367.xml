@@ -269,6 +269,10 @@ Electric</organization>
    <chapter href="../Topics/Install_the_Kick_Plates_0000103941.xml"
             format="dita"
             navtitle="Reinstall the Kick Plates"
+
+
+
+            
             scope="local"
             type="task"/>
    <backmatter/>
