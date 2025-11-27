@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t29677E1-BDF2-11F0-2053-09173F13E4C5" xml:lang="en">
+   <title>To log in to X-Author Contracts</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-24T17:43:00+05:30"/>
+         <revised modified="2025-11-24T17:43:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="legal-counsel,contract-administrator,it-admin,sales-rep"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-contractmac-power</indexterm>
+            <indexterm>x-author-contracts</indexterm>
+            <indexterm>power-x-author-mac</indexterm>
+            <indexterm>salesforce-single-sign-on</indexterm>
+            <indexterm>auth-integration</indexterm>
+            <!-- Process layer -->
+            <indexterm>log-in-to-x-author-contracts</indexterm>
+            <indexterm>authenticate-salesforce-user</indexterm>
+            <indexterm>oauth-flow</indexterm>
+            <indexterm>login-troubleshooting</indexterm>
+            <indexterm>session-establishment</indexterm>
+            <!-- Context layer -->
+            <indexterm>salesforce-document-access</indexterm>
+            <indexterm>end-user-onboarding</indexterm>
+            <indexterm>role-based-access</indexterm>
+            <indexterm>legal-document-editing</indexterm>
+            <indexterm>revops-integration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-contractmac-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Log in to X-Author Contracts for Mac"/>
+         <othermeta name="shortdesc"
+                    content="Stepwise instructions to authenticate and start a session in X-Author Contracts for Mac via Salesforce."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user-account;oauth-token;salesforce-org;session-cookie;sso-configuration"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:user-authentication;industry:financial-services"/>
+         <othermeta name="tags" content="login,authentication,oauth,sso"/>
+         <othermeta name="usecase"
+                    content="authenticate user to enable contract editing inside Salesforce-connected editor"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Launch Microsoft Word. Open a new document or the document you want to work with.</p>
+         </li>
+         <li>
+            <p>Launch the X-Author add-in as described in <xref href="../installing_x_author_contr_45220121/45220121.xml" format="dita">Installing X-Author Contracts</xref>.</p>
+         </li>
+         <li>
+            <p>After the X-Author add-in pane loads, hover over the  icon on the left-hand side to display the login menu.</p>
+            <p>
+               <fig>
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/45711457/49676296.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Depending on the org you want to connect to, select <uicontrol>Sign-In to Production</uicontrol> or <uicontrol>Sign-In to Sandbox</uicontrol>.</p>
+         </li>
+         <li>
+            <p>If it is the first time you are logging into the org, you will be prompted to allow X-Author to access Salesforce. Click <uicontrol>Allow</uicontrol> to proceed.</p>
+         </li>
+         <li>
+            <p>Enter your Salesforce credentials to log in.</p>
+         </li>
+      </ol>
+      <result id="result_bqk_lcq_12c">
+         <p>After successful login, the X-Author pane refreshes and displays additional tabs.</p>
+         <fig id="fig_a1d_rjj_12c">
+            <image height="400"
+                   placement="break"
+                   href="../attachments/45711457/49676297.png"
+                   id="image_b1d_rjj_12c"/>
+         </fig>
+      </result>
+   </body>
+</topic>
