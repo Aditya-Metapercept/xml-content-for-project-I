@@ -12,7 +12,7 @@
          
 
 
-         
+
          
             (map bookmap)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic xnal-d)                            (topic markup-d xml-d)   ">
    <booktitle>
@@ -56,6 +56,10 @@ Malmaison</localityname>
          </organizationinfo>
       </authorinformation>
       <publisherinformation>
+
+
+
+      
          <organization>Schneider Electric</organization>
       </publisherinformation>
       <bookid>
