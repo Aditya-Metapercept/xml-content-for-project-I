@@ -12,6 +12,16 @@
          <audience type="role"
                    otherprops="administrator,engineering,management,external-contractors,analyst"/>
          <keywords><!-- Product layer -->
+
+
+
+
+
+
+
+
+
+         
             <indexterm>scoring-configuration</indexterm>
             <indexterm>project-scoring</indexterm>
             <indexterm>scoring-attributes</indexterm>
