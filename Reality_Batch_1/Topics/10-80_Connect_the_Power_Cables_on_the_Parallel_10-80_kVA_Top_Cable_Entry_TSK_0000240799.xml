@@ -11,7 +11,12 @@
       </critdates>
       <metadata>
          <audience type="role"
-                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+                   otherprops="production,maintenance,quality
+                   
+                   
+                   
+                   
+                   ,safety,engineering,management"/>
          <keywords><!-- Product layer -->
             <indexterm>parallel-ups</indexterm>
             <indexterm>10-80-kva-ups</indexterm>

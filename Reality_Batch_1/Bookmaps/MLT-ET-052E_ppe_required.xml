@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC86B2A2-BB9C-11F0-2123-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>personal-protective-equipment</indexterm>
+            <indexterm>safety-glasses</indexterm>
+            <indexterm>hearing-protection</indexterm>
+            <indexterm>steel-toed-shoes</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-inspection</indexterm>
+            <indexterm>donning-doffing</indexterm>
+            <indexterm>work-permit-check</indexterm>
+            <indexterm>safety-briefing</indexterm>
+            <indexterm>ppe-maintenance</indexterm>
+            <indexterm>metR-MLT-Soul</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>work-zone</indexterm>
+            <indexterm>hot-environment</indexterm>
+            <indexterm>production-floor</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PPE Required"/>
+         <othermeta name="shortdesc"
+                    content="Required PPE including bump cap, safety glasses, hearing protection, long sleeves, and steel-toed shoes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bump cap;safety glasses;hearing protection;long sleeves;steel-toed safety shoes"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:workplace-safety;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="ppe,safety,hot-work,personal-protection,work-permits"/>
+         <othermeta name="usecase" content="workplace-safety"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_btg_njf_vcc">
+         <title>General</title>
+         <p>Bump cap, safety glasses, hearing protection, long sleeves, steel-toed safety shoes.</p>
+      </section>
+      <section id="section_vlk_njf_vcc">
+         <title>Required for Specific Sections</title>
+         <p>Aluminized apron and chaps, face shield with shaded lens for optical radiation hazard,
+            heat resistant balaclava, heat resistant gloves, cut resistant gloves, face shield, ear
+            plugs/ear muffs.</p>
+      </section>
+   </body>
+</topic>
