@@ -13,7 +13,7 @@
 
 
 
-         
+
          <keywords><!-- Product layer -->
             <indexterm>scoring-criteria</indexterm>
             <indexterm>planning-module</indexterm>
@@ -75,6 +75,12 @@
             <p>Click <uicontrol>New</uicontrol>.</p>
             <p>The new <uicontrol>SCORING CRITERIA </uicontrol>page is displayed.</p>
          </li>
+
+
+
+
+
+         
          <li>
             <p>In the<uicontrol>Name</uicontrol> box, enter the name of the scoring criteria.</p>
          </li>
