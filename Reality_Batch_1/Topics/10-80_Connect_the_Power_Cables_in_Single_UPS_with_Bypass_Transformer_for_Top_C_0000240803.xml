@@ -9,20 +9,7 @@
          <created date="2025-11-05+05:30"/>
          <revised modified="2025-05-05"/>
       </critdates>
-
-
-
-
-
-
-
-
-
       <metadata>
-
-
-
-      
          <audience type="role"
                    otherprops="production,maintenance,quality,safety,engineering,management"/>
          <keywords><!-- Product layer -->
@@ -31,35 +18,11 @@
             <indexterm>top-cable-entry</indexterm>
             <indexterm>power-cable</indexterm>
             <indexterm>terminal-lug</indexterm>
-
             <!-- Process layer -->
             <indexterm>connect-power-cables</indexterm>
             <indexterm>secure-terminal-lugs</indexterm>
             <indexterm>torque-tightening</indexterm>
             <indexterm>phase-sequence-verification</indexterm>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <indexterm>insulation-check</indexterm>
             <!-- Context layer -->
             <indexterm>ups-installation</indexterm>
@@ -90,20 +53,7 @@
          <othermeta name="usecase" content="procedure"/>
       </metadata>
    </prolog>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
+   <body>
       <ol>
          <li>
             <p>Connect the PE cables to the PE busbar.</p>
