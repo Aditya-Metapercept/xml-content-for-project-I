@@ -10,6 +10,7 @@
       <metadata>
          <audience type="role"
                    otherprops="production,maintenance,quality,safety,engineering,management"/>
+                   
          <keywords><!-- Product layer -->
             <indexterm>cooling-tower</indexterm>
             <indexterm>cooling-tower-fan</indexterm>
