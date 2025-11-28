@@ -6,6 +6,7 @@
    <prolog>
       <author>Pallavi</author>
       <critdates>
+<<<<<<< HEAD:Reality_Batch_1/10-80_Connect_the_Power_Cables_in_Single_UPS_with_Bypass_Transformer_for_Top_C_0000240803.xml
          <created date="2025-11-05+05:30"/>
          <revised modified="2025-05-05"/>
       </critdates>
@@ -20,9 +21,15 @@
 
       <metadata>
 
+=======
+>>>>>>> refs/remotes/origin/main:Reality_Batch_1/Topics/10-80_Connect_the_Power_Cables_in_Single_UPS_with_Bypass_Transformer_for_Top_C_0000240803.xml
 
 
       
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
          <audience type="role"
                    otherprops="production,maintenance,quality,safety,engineering,management"/>
          <keywords><!-- Product layer -->
@@ -31,35 +38,11 @@
             <indexterm>top-cable-entry</indexterm>
             <indexterm>power-cable</indexterm>
             <indexterm>terminal-lug</indexterm>
-
             <!-- Process layer -->
             <indexterm>connect-power-cables</indexterm>
             <indexterm>secure-terminal-lugs</indexterm>
             <indexterm>torque-tightening</indexterm>
             <indexterm>phase-sequence-verification</indexterm>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <indexterm>insulation-check</indexterm>
             <!-- Context layer -->
             <indexterm>ups-installation</indexterm>

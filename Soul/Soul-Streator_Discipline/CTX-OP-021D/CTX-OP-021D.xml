@@ -22,6 +22,7 @@
          <topicref href="CTX-OP-021D_startmain_menu__synchronization_screen.xml"/>
          <topicref href="CTX-OP-021D_startmain_menu__section_menu__article_topbottom_screen.xml"/>
          <topicref href="CTX-OP-021D_startmain_menu__section_menu__rejects__rejector_timing_screen.xml"/>
+
          <topicref href="CTX-OP-021D_startmain_menu__machine_screen.xml"/>
          <topicref href="CTX-OP-021D_startmain_menu__user_interface_screen.xml"/>
       </topicref>
@@ -29,3 +30,10 @@
       <topicref href="CTX-OP-021D_revision_history.xml"/>
    </topicref>
 </topic>
+
+
+
+
+
+
+

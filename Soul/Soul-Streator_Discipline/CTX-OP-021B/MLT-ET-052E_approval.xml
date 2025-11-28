@@ -9,18 +9,7 @@
       </critdates>
       <metadata>
          <audience type="role"
-                   otherprops="production,maintenance,quality,saf
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   
-                   ety,engineering,management"/>
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
          <keywords><!-- Product layer -->
             <indexterm>approval-matrix</indexterm>
             <indexterm>sign-off-sheet</indexterm>
