@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8FDAB1-BB9C-11F0-1954-09173F13E4C5" xml:lang="en-us">
+   <title>HE Treatment Hood Weekly Maintenance</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>HEP-03-001</p>
+      <p>Revised: 2021-03-15</p>
+   </body>
+</topic>

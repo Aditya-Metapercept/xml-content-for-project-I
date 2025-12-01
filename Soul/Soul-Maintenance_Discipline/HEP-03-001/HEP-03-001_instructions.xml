@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC8FF2B8-BB9C-11F0-1842-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ol id="steps_fqy_gpr_ncc">
+         <li>
+            <p>Before starting the work instruction activity, perform the following steps:</p>
+            <ol id="substeps_tzn_3pr_ncc">
+               <li>
+                  <p>Do not begin these tasks without confirmation that personnel directly
+                     involved have completed the required training associated with the work
+                     instruction activity and have reviewed this document.</p>
+               </li>
+               <li>
+                  <p>Gather all necessary tools and equipment as identified below in the Equipment
+                     Section.</p>
+               </li>
+               <li>
+                  <p>Wear and use any additional Personal Protective Equipment (PPE) and safety
+                     equipment required for this specific work instruction.</p>
+               </li>
+               <li>
+                  <p>Obey all applicable safety requirements and procedures.</p>
+               </li>
+               <li>
+                  <p>Notify all appropriate personnel of the activity and estimated time needed to
+                     complete the tasks.</p>
+               </li>
+               <li>
+                  <p>Follow all Lockout/Tagout procedures when work instruction activity requires
+                     isolating energy in the designated area. Verify energy is isolated before
+                     starting work.</p>
+               </li>
+               <li>
+                  <p>Only after energy is verified to be isolated, can the protective guarding be
+                     removed and safety interlock gates be opened.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To maintain Hot End Treatment Hoods, perform the following steps:</p>
+            <ol id="substeps_exh_npr_ncc">
+               <li>
+                  <p>Visually inspect pump for proper operation.</p>
+               </li>
+               <li>
+                  <p>Visually inspect air pressure regulator, lubricator, and filter.</p>
+               </li>
+               <li>
+                  <p>Visually inspect all blowers for operation and proper seal to the hood.</p>
+               </li>
+               <li>
+                  <p>Visually inspect proper operating temperature inside the hood.</p>
+               </li>
+               <li>
+                  <p>If applicable, visually inspect the finish blower filter. Replace as
+                     necessary.</p>
+               </li>
+               <li>
+                  <p>If applicable, lubricate the piston drive pump according to manufacturer’s
+                     specification.</p>
+               </li>
+               <li>
+                  <p>If applicable, visually inspect the desiccant cylinder. Replace as
+                     necessary.</p>
+               </li>
+               <li>
+                  <p>Visually inspect the proper operation of the control flowmeter condition and
+                     alarm operation.</p>
+               </li>
+               <li>
+                  <p>If applicable, record pressure and vacuum readings.</p>
+               </li>
+               <li>
+                  <p>If applicable, verify proper operation of the scale.</p>
+               </li>
+               <li>
+                  <p>If anything is out of specification, notify the appropriate SAP PM contact to
+                     issue a planned work order.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Upon completion of tasks, perform the following steps:</p>
+            <ol id="substeps_flz_tpr_ncc">
+               <li>
+                  <p>Replace the protective guarding and close the safety interlock gates.</p>
+               </li>
+               <li>
+                  <p>Confirm that the designated work area is clear and communicate to personnel
+                     the intent to restart energy.</p>
+               </li>
+               <li>
+                  <p>After the designated work area is confirmed clear and personnel are aware of
+                     the pending restart, follow all Lockout/Tagout procedures to restart the energy
+                     supplied to the designated area. Verify that the energy is active.</p>
+               </li>
+               <li>
+                  <p>Perform basic housekeeping duties. Clean up the work space, tools, and
+                     equipment. Dispose of trash. Put tools and equipment in their assigned
+                     areas.</p>
+               </li>
+               <li>
+                  <p>Record and report findings and results.</p>
+               </li>
+               <li>
+                  <p>Follow appropriate instructions for notification of findings and results
+                     relating to specifications, targets and/or reaction limits.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC574021-BB9C-11F0-1654-09173F13E4C5" xml:lang="en-us">
+   <title>Silo Feeding Screens</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Bowling_Green_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ul>
+         <li>Click the Silo Feeding tab at the top of the screen to display the main Silo Feeding screen, shown below.</li>
+         <li>Click the down arrow button to display the popup window to navigate to the other two
+            operation screens—for the majors silos 1-8, and for the minors silos 12-18. These
+            screens are shown on the following page.</li>
+      </ul>
+      <p>
+         <fig>
+            <title>Main Screen and Popup Window for the Silo Loading Operation</title>
+            <image href="media/image42.jpg"
+                   placement="break"
+                   id="image_lns_vcc_wcc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image43.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image44.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>
