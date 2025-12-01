@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2605A5C-BDF2-11F0-5868-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Getting Started with Deal Maximizer</title>
+   <topicref href="getting_started_with_deal_195690889/195690889.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Getting Started with Deal Maximizer</navtitle>
+      </topicmeta>
+      <mapref href="installing_deal_maximizer_195690950/195690950_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Installing Deal Maximizer</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="registering_for_Power_upg_195691192/195691192_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Registering for Power Upgrade Program</navtitle>
+         </topicmeta>
+      </mapref>
+      <topicref href="deal_maximizer_objects_vm_195691188/195691188.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Deal Maximizer Objects</navtitle>
+         </topicmeta>
+      </topicref>
+      <mapref href="195691205_1.xml" format="ditamap" xml:lang="en">
+         <topicmeta>
+            <navtitle>Configuring Post-Installation Settings Map</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

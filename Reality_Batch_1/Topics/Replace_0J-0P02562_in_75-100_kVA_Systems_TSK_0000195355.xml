@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Replace0J-0P02562In75100KVASystems-71315DB0" xml:lang="en">
+   <title>Replace the PCB Assembly (Current) 0J-0P2562 in 75–100
+kVA Systems</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>0j-0p02562</indexterm>
+            <indexterm>75-100-kva-ups</indexterm>
+            <indexterm>replacement-part</indexterm>
+            <indexterm>service-module</indexterm>
+            <indexterm>control-assembly</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-procedure</indexterm>
+            <indexterm>isolate-procedure</indexterm>
+            <indexterm>verify-procedure</indexterm>
+            <indexterm>test-procedure</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>documentation-update</indexterm>
+            <!-- Context layer -->
+            <indexterm>high-capacity-ups</indexterm>
+            <indexterm>plant-electrical-room</indexterm>
+            <indexterm>maintenance-activity</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>production-support</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace 0J-0P02562 in 75–100 kVA Systems"/>
+         <othermeta name="shortdesc"
+                    content="Task steps for replacing part 0J-0P02562 in 75–100 kVA UPS systems, covering isolation, replacement, testing and verification."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="0j-0p02562;75-100-kva-ups;service-module;control-assembly;replacement-part"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:part-replacement-high-capacity-ups;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="replace,75-100-kva,part-0j-0p02562,maintenance"/>
+         <othermeta name="usecase" content="part-replacement-high-capacity-ups"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 75–100 kVA systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the three indicated covers in the given order.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p2562-0j-0p2563_75-100kw_voltagesensingboard_remove3covers_w120mm_0000195345.png"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to 0P2562 and
+disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Slide out and remove the 0P2562 board to be replaced.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p2562_75-100kw_voltagesensingboard_change0p2562_w120mm_0000195344.png"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+0P2562 board.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2463A72-BDF2-11F0-1022-09173F13E4C5" xml:lang="en">
+   <title>To map object fields from the object page</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>power</indexterm>
+            <indexterm>object-page-interface</indexterm>
+            <indexterm>field-mapping-service</indexterm>
+            <indexterm>crm-field-view</indexterm>
+            <!-- Process layer -->
+            <indexterm>map-fields-from-object-page</indexterm>
+            <indexterm>select-object-field</indexterm>
+            <indexterm>add-field-mapping</indexterm>
+            <indexterm>configure-field-links</indexterm>
+            <indexterm>validate-page-level-mappings</indexterm>
+            <indexterm>sync-field-associations</indexterm>
+            <!-- Context layer -->
+            <indexterm>ui-based-mapping</indexterm>
+            <indexterm>crm-integration</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>data-alignment</indexterm>
+            <indexterm>object-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To map object fields from the object page"/>
+         <othermeta name="shortdesc"
+                    content="Map fields directly from the object page in Power to streamline configuration and quickly align fields with Dynamics 365."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="Dynamics 365;Power;field;object;object page"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:map-fields-from-object-page;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="object-page,field-mapping,dynamics-365,power,ui-mapping,configuration"/>
+         <othermeta name="usecase" content="map fields directly from the object page"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the object link under the Name column in the Map Objects table. </p>
+            <stepresult>The Map Object page is displayed.</stepresult>
+         </li>
+         <li>
+            <p>Scroll to the list of object fields. Click <uicontrol>New Map Field</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter information into the required fields to map the field between objects. Refer to the previous task for steps. </p>
+            <p>
+               <note type="note">
+                  <p>When you map fields from the object page, the ObjectId is automatically populated.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol> or <uicontrol>Save &amp; Close</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA70887-BB9C-11F0-6831-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>documentation-system</indexterm>
+            <indexterm>record-module</indexterm>
+            <indexterm>change-log</indexterm>
+            <indexterm>version-tracker</indexterm>
+            <!-- Process layer -->
+            <indexterm>revision</indexterm>
+            <indexterm>approval</indexterm>
+            <indexterm>review</indexterm>
+            <indexterm>change-management</indexterm>
+            <indexterm>version-control</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation</indexterm>
+            <indexterm>traceability</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>internal-control</indexterm>
+            <indexterm>compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision History"/>
+         <othermeta name="shortdesc"
+                    content="Track and record changes, version updates, and approval logs for documentation lifecycle management."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metR-sbs-soul ; documentation-system ; record-module ; change-log ; version-tracker"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:document-traceability;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metR-sbs-soul , documentation-system , record-module , change-log , version-tracker , revision , approval , review , change-management , version-control , documentation , traceability , quality-assurance , internal-control , compliance"/>
+         <othermeta name="usecase" content="document-traceability"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_xn3_hhm_lcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="45.08%"/>
+               <colspec colname="c2" colwidth="45.08%"/>
+               <tbody>
+                  <row>
+                     <entry morerows="1">2023-06-30</entry>
+                     <entry>
+                        <p>Approved by Johnathan Fisher, SBS Manager R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t272CF80-BDF2-11F0-9927-09173F13E4C5" xml:lang="en">
+   <title>Adding Analyze Deal Action to the Cart</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>analyze-deal-action</indexterm>
+            <indexterm>cart-action-button</indexterm>
+            <indexterm>shopping-cart</indexterm>
+            <indexterm>quote-proposal</indexterm>
+            <indexterm>action-configuration</indexterm>
+            <indexterm>ui-action-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-action-to-cart</indexterm>
+            <indexterm>configure-action-button</indexterm>
+            <indexterm>save-action-configuration</indexterm>
+            <indexterm>test-cart-action</indexterm>
+            <indexterm>enable-analyze-deal</indexterm>
+            <indexterm>validate-action-visibility</indexterm>
+            <!-- Context layer -->
+            <indexterm>sales-quote-process</indexterm>
+            <indexterm>shopping-cart-integration</indexterm>
+            <indexterm>deal-optimization-usecase</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>web-ui-configuration</indexterm>
+            <indexterm>user-action-workflow</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adding Analyze Deal Action to the Cart"/>
+         <othermeta name="shortdesc"
+                    content="Steps to add and configure the Analyze Deal action button so the Analyze action is available to users from the shopping cart."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="analyze-deal-action;cart-action-button;shopping-cart;action-configuration;save-action;ui-permissions"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="analyze-deal,cart-action,guidance-button,ui-configuration,save-action,shopping-cart"/>
+         <othermeta name="usecase" content="add-analyze-deal-action-to-shopping-cart"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the All Tabs icon (<image placement="inline" href="../attachments/195691351/195691343.png"/>) and select <uicontrol>Config
+                  Settings</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Select <uicontrol>Display Action Settings</uicontrol>.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Display Type</uicontrol> list, select <uicontrol>Cart Page</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Add a new action <uicontrol>Analyze Deal</uicontrol> and select <uicontrol>Display As</uicontrol> Action.
+               </p>
+            <p>
+               <fig>
+                  <image height="317"
+                         placement="break"
+                         width="600"
+                         href="../attachments/195691351/195691344.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>. </p>
+         </li>
+      </ol>
+      <result id="result_lsx_j33_rcc">The action button is available in the cart.</result>
+   </body>
+</topic>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminDeactUsrAcc">
+   <title>Deactivating a User Account</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>mind-user-management</indexterm>
+            <indexterm>user-account-module</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>authentication-service</indexterm>
+            <indexterm>web-portal</indexterm>
+            <indexterm>role-management</indexterm>
+            <!-- Process layer -->
+            <indexterm>deactivate-user-account</indexterm>
+            <indexterm>suspend-user-access</indexterm>
+            <indexterm>revoke-credentials</indexterm>
+            <indexterm>account-lifecycle-management</indexterm>
+            <indexterm>temporary-deactivation</indexterm>
+            <indexterm>user-access-audit</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>enterprise-security</indexterm>
+            <indexterm>user-provisioning</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>risk-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Deactivate user account"/>
+         <othermeta name="shortdesc" content="Steps to deactive a user account."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user-account;is-active-flag;authentication-service;roles;login-session;audit-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:administration;usecase:access-revocation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="deactivation,access-control,security,audit,provisioning"/>
+         <othermeta name="usecase" content="deactivate-or-suspend-user-account"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <p>The check box in the  <uicontrol>Is Active?</uicontrol> column of the user account is  selected.</p>
+      </prereq>
+      <context>You can deactivate an active user account to prevent a user from accessing the application. On deactivating an account, the user cannot log in to the application. However, the account is not deleted, and all details of the account are retained and available. </context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click<uicontrol>User Accounts</uicontrol>.</p>
+            <p>The<uicontrol>USER ACCOUNTS</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the appropriate active user accounts, and then click<uicontrol>Mark Active/Inactive</uicontrol>.</p>
+            <p>Alternatively, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Select the required active user account, and then click<uicontrol>Edit</uicontrol>.</p>
+                  <p>The <uicontrol>EDIT USER</uicontrol> page is displayed.</p>
+               </li>
+               <li>
+                  <p>From the<uicontrol>Status</uicontrol> drop-down list, select<uicontrol>Inactive</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Click<uicontrol>Save</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

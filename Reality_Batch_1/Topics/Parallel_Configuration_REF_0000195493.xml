@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ParallelConfiguration-78F26A02" xml:lang="en">
+   <title>Parallel Configuration</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>parallel-configuration-module</indexterm>
+            <indexterm>redundant-ups-module</indexterm>
+            <indexterm>load-sharing-controller</indexterm>
+            <indexterm>parallel-communication-bus</indexterm>
+            <indexterm>synchronisation-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-parallel-operation</indexterm>
+            <indexterm>enable-load-sharing</indexterm>
+            <indexterm>synchronise-inverters</indexterm>
+            <indexterm>parallel-commissioning-sequence</indexterm>
+            <indexterm>redundancy-verification</indexterm>
+            <indexterm>fault-handling-in-parallel-mode</indexterm>
+            <!-- Context layer -->
+            <indexterm>parallel-redundant-system</indexterm>
+            <indexterm>high-availability-power-systems</indexterm>
+            <indexterm>plant-critical-loads</indexterm>
+            <indexterm>system-redundancy-strategies</indexterm>
+            <indexterm>uptime-assurance</indexterm>
+            <indexterm>industrial-power-architecture</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Parallel Configuration"/>
+         <othermeta name="shortdesc"
+                    content="Describes configuration steps and considerations to run UPS units in parallel for redundancy and load sharing."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="parallel-controller;load-sharing-controller;synchronisation-unit;communication-bus"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:parallel-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="parallel-configuration,redundancy,load-sharing"/>
+         <othermeta name="usecase" content="configure-ups-for-parallel-redundant-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>See <xref href="Configure_UPS_Settings_with_Tuner_TSK_0000148966.xml"
+               format="dita"
+               scope="local"
+               type="task"/> for instructions
+on how to configure the parallel settings.</section>
+      <section>
+         <title>Parallel Settings</title>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Setting #</entry>
+                     <entry valign="top"> UPS1</entry>
+                     <entry valign="top"> UPS2</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>044</entry>
+                     <entry>1</entry>
+                     <entry>2</entry>
+                  </row>
+                  <row>
+                     <entry>045</entry>
+                     <entry>2</entry>
+                     <entry>2</entry>
+                  </row>
+                  <row>
+                     <entry>046</entry>
+                     <entry>N+1</entry>
+                     <entry>N+1</entry>
+                  </row>
+                  <row>
+                     <entry>438</entry>
+                     <entry>1</entry>
+                     <entry>1</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

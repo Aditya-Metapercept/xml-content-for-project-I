@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="task-4869">
+   <title>Submitting and Approving a Program</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>planning-module</indexterm>
+            <indexterm>program-management</indexterm>
+            <indexterm>program-workflow</indexterm>
+            <indexterm>planning-dashboard</indexterm>
+            <indexterm>program-list-page</indexterm>
+            <!-- Process layer -->
+            <indexterm>submit-program</indexterm>
+            <indexterm>approve-program</indexterm>
+            <indexterm>transition-workflow-status</indexterm>
+            <indexterm>select-actions-menu</indexterm>
+            <indexterm>close-program-record</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>fund-management</indexterm>
+            <indexterm>program-approval-process</indexterm>
+            <indexterm>record-lifecycle-management</indexterm>
+            <indexterm>enterprise-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Submitting and Approving a Program"/>
+         <othermeta name="shortdesc"
+                    content="Describes the steps for submitting, approving, and closing a program record using workflow transitions in the Planning module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="program record;workflow status;fund manager;program manager;submission;approval;closure action"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:program-approval;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="program,workflow,approval,submission,record-status"/>
+         <othermeta name="usecase"
+                    content="submit and approve a program record through workflow steps"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Based on the workflow status of the record, you must be assigned one of the following roles:<ul>
+                  <li>Fund Manager</li>
+                  <li>Program Manager</li>
+               </ul>
+            </li>
+         </ul>
+      </prereq>
+      <context>
+         <p>After creating a program, you can submit and approve a <uicontrol>Program</uicontrol> record.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In
+the module menu, click  <uicontrol>Planning</uicontrol>.</p>
+            <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click <uicontrol>Program</uicontrol>.</p>
+            <p>The <uicontrol>PROGRAM</uicontrol> list  page is displayed.</p>
+         </li>
+         <li>
+            <p>To submit and approve the <uicontrol>Program</uicontrol> record, perform the following steps:</p>
+            <p>
+               <note>The following steps cover only the positive and forward   workflow actions to reach the  <uicontrol>Closed</uicontrol> status.</note>
+            </p>
+            <p>
+               <table colsep="1" rowsep="1">
+                  <tgroup cols="3">
+                     <colspec colname="c1" colnum="1" colwidth="10%"/>
+                     <colspec colname="c2" colnum="2" colwidth="25%"/>
+                     <colspec colname="c3" colnum="3" colwidth="65%"/>
+                     <thead>
+                        <row>
+                           <entry>Phase</entry>
+                           <entry>Role </entry>
+                           <entry>Workflow Steps</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>1</entry>
+                           <entry>
+                              <ul>
+                                 <li>Fund Manager</li>
+                                 <li>Program Manager</li>
+                              </ul>
+                           </entry>
+                           <entry>
+                              <ol>
+                                 <li>
+                                    <p>In the  list page, select the appropriate record that is in the <uicontrol>Draft</uicontrol> workflow status, and then click <uicontrol>Select Actions</uicontrol>.</p>
+                                 </li>
+                                 <li>
+                                    <p>Click <uicontrol>Submit</uicontrol>, and in the <uicontrol>Mind</uicontrol> dialog box, click <uicontrol>OK</uicontrol>.</p>
+                                    <p>The workflow status of the record is set to <uicontrol>Submitted</uicontrol>.</p>
+                                 </li>
+                              </ol>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>2</entry>
+                           <entry morerows="1">Fund Manager</entry>
+                           <entry>
+                              <ol>
+                                 <li>
+                                    <p>In the  list page, select the appropriate record that is in the <uicontrol>Submitted</uicontrol> workflow status, and then click <uicontrol>Select Actions</uicontrol>.</p>
+                                 </li>
+                                 <li>
+                                    <p>Click <uicontrol>Approve</uicontrol>, and in the <uicontrol>Mind</uicontrol> dialog box, click <uicontrol>OK</uicontrol>.</p>
+                                    <p>The workflow status of the record is set to <uicontrol>Approved</uicontrol>.</p>
+                                 </li>
+                              </ol>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>3</entry>
+                           <entry>
+                              <ol>
+                                 <li>
+                                    <p>In the  list page, select the appropriate record that is in the <uicontrol>Approved</uicontrol> workflow status, and then click <uicontrol>Select Actions</uicontrol>.</p>
+                                 </li>
+                                 <li>
+                                    <p>Click <uicontrol>Close</uicontrol>, and in the <uicontrol>Mind</uicontrol> dialog box, click <uicontrol>OK</uicontrol>.</p>
+                                    <p>The workflow status of the record is set to <uicontrol>Closed</uicontrol>.</p>
+                                 </li>
+                              </ol>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

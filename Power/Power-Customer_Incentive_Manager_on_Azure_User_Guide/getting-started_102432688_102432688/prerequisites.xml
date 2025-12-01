@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25757DA-BDF2-11F0-1052-09173F13E4C5" xml:lang="en">
+   <title>Prerequisites</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>customer-incentive-manager</indexterm>
+            <indexterm>user-credentials</indexterm>
+            <indexterm>supported-browser</indexterm>
+            <indexterm>access-permissions</indexterm>
+            <indexterm>system-requirements</indexterm>
+            <indexterm>login-environment</indexterm>
+            <!-- Process layer -->
+            <indexterm>prepare-login</indexterm>
+            <indexterm>validate-permissions</indexterm>
+            <indexterm>check-browser</indexterm>
+            <indexterm>verify-readiness</indexterm>
+            <indexterm>enable-access</indexterm>
+            <indexterm>confirm-requirements</indexterm>
+            <!-- Context layer -->
+            <indexterm>system-access</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-compliance</indexterm>
+            <indexterm>user-readiness</indexterm>
+            <indexterm>application-access</indexterm>
+            <indexterm>security-baseline</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Prerequisites"/>
+         <othermeta name="shortdesc"
+                    content="Lists the required credentials, permissions, and environment settings needed before using Customer Incentive Manager."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user-credentials;browser;permission-set;system-policy;login-environment;application-endpoint"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="prerequisites,system-requirements,credentials,access,environment,readiness"/>
+         <othermeta name="usecase" content="define-prerequisites"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>To access the Customer Incentive Manager, you must have the followings:</p>
+      <ul>
+         <li>Customer Incentive Manager URL</li>
+         <li>User Credentials: User Name and Password</li>
+      </ul>
+   </body>
+</topic>

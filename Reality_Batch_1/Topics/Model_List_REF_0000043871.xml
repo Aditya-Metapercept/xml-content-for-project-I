@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ModelList-351FF93E" xml:lang="en">
+   <title>Model List</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>reality-pxc-series</indexterm>
+            <indexterm>reality-pxc-ups</indexterm>
+            <indexterm>reality-pxc-10kva</indexterm>
+            <indexterm>reality-pxc-20kva</indexterm>
+            <indexterm>reality-pxc-25kva</indexterm>
+            <indexterm>reality-pxc-50kva</indexterm>
+            <indexterm>reality-pxc-80kva</indexterm>
+            <indexterm>reality-pxc-100kva</indexterm>
+            <!-- Process layer -->
+            <indexterm>identify-ups-models</indexterm>
+            <indexterm>model-cataloguing</indexterm>
+            <indexterm>document-capacity-ratings</indexterm>
+            <indexterm>compare-with-transformer-variants</indexterm>
+            <indexterm>map-part-numbers</indexterm>
+            <indexterm>select-compatible-accessories</indexterm>
+            <indexterm>product-range-overview</indexterm>
+            <indexterm>capacity-variants</indexterm>
+            <indexterm>ups-family-structure</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-model-list</indexterm>
+            <indexterm>product-selection</indexterm>
+            <indexterm>procurement-specification</indexterm>
+            <indexterm>site-design-reference</indexterm>
+            <indexterm>installation-planning</indexterm>
+            <indexterm>equipment-inventory</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Model List"/>
+         <othermeta name="shortdesc"
+                    content="Catalog of Reality PXC UPS models and their variants (with and without transformer), capacities and relevant model IDs."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS-models;transformer-variants;capacity-ratings;part-numbers"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:model-inventory;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="model-list,product-catalog,capacity,transformer,part-numbers"/>
+         <othermeta name="usecase"
+                    content="reference-for-selecting-and-documenting-ups-models"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>UPS Model List</title>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0" rowsep="0">
+                        <fig>
+                           <title>10–80 kVA without Transformers10–40
+kVA with Two Transformers</title>
+                           <image href="../Images/2d_basic_40kva_1ph_opendoor_0000089405.svg"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry rowsep="0">
+                        <fig>
+                           <title>50–80 kVA UPS with Two Transformers</title>
+                           <image href="../Images/2d_basic_80kva_3ph_opendoor_0000089404.svg"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>Reality PXC 10 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 10 kVA UPS 3:1</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 20 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 20 kVA UPS 3:1</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 30 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 30 kVA UPS 3:1</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 40 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 40 kVA UPS 3:1</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>Reality PXC 50 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 50 kVA UPS 3:1</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 60 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 60 kVA UPS 3:1</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 80 kVA UPS 3:3</p>
+                           </li>
+                           <li>
+                              <p>Reality PXC 80 kVA UPS 3:1</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Cabinet Model List</title>
+         <ul>
+            <li>
+               <p>Battery Cabinet 600 mm: GUPXCAB600IEC</p>
+            </li>
+            <li>
+               <p>Battery Cabinet 800 mm: GUPXCAB800IEC</p>
+            </li>
+            <li>
+               <p>Battery Cabinet 600 mm adjacent: GUPXCAB600AIEC</p>
+            </li>
+            <li>
+               <p>Battery Cabinet 800 mm adjacent: GUPXCAB800AIEC</p>
+            </li>
+         </ul>
+      </section>
+   </body>
+</topic>

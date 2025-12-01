@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t3930648-BDF3-11F0-1720-09173F13E4C5" xml:lang="en-us">
+   <title>Walk-Around Inspection</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:00:00+05:30"/>
+         <revised modified="2025-11-15T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-and-compliance-officers,management"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>lift-truck-battery</indexterm>
+            <indexterm>steering-system</indexterm>
+            <indexterm>hydraulic-system</indexterm>
+            <indexterm>tyre-assembly</indexterm>
+            <indexterm>walk-around-inspection</indexterm>
+            <indexterm>fluid-leak-check</indexterm>
+            <indexterm>tyre-condition-check</indexterm>
+            <indexterm>attachment-security-check</indexterm>
+            <indexterm>visual-safety-check</indexterm>
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>fleet-management</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>operator-safety</indexterm>
+            <indexterm>pre-shift-check</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Walk-Around Inspection 1"/>
+         <othermeta name="shortdesc"
+                    content="Repeatable walk around checklist for operators to identify tyre damage, fluid leaks, loose fasteners and other hazards prior to use."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="tyres;hydraulic-lines;attachments;fuel-system;battery;cabin-controls"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:operator-checklist;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="inspection,operator,tyre,leak,attachment"/>
+         <othermeta name="usecase" content="operator prestart safety and condition check"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>For maximum service life of the lift truck, make a thorough walk-around inspection. Look
+      around and under the truck for such items as loose or missing bolts, debris or dirt buildup,
+      fuel, oil or coolant leaks and cut or gouged tyres.</p>
+         <p>Have any repairs made and debris removed, as needed.</p>
+         <fig id="fig_dqh_mrz_5gc">
+            <image href="media/image877.png" id="image_fqh_mrz_5gc" placement="inline"/>
+         </fig>
+         <p>Typical Example</p>
+      </context>
+      <ol>
+         <li>
+            <p>Inspect the tyres and wheels for cuts, gouges, foreign objects, inflation pressure and
+        loose or missing bolts.</p>
+         </li>
+         <li>
+            <p>Inspect the mast and lift chains for wear, broken links, pins and loose rollers.</p>
+         </li>
+         <li>
+            <p>Inspect the hydraulic system for leaks, worn hoses or damaged lines.</p>
+         </li>
+         <li>
+            <p>Look for transmission and drive axle leaks on the lift truck and on the ground.</p>
+            <p>
+               <fig id="fig_exw_mrz_5gc">
+                  <image href="media/image879.png" id="image_gxw_mrz_5gc" placement="inline"/>
+               </fig>
+               <p>Example of CABIN</p>
+            </p>
+         </li>
+         <li>
+            <p>Inspect the operator’s compartment for loose items and cleanliness.</p>
+         </li>
+         <li>
+            <p>Inspect the instrument panel for broken gauges and indicator lights.</p>
+         </li>
+         <li>
+            <p>Test the horn and other safety devices for proper operation.</p>
+            <p>
+               <fig id="fig_vnf_nrz_5gc">
+                  <image href="media/image873(1).png"
+                         id="image_xnf_nrz_5gc"
+                         placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Inspect the cooling system for leaks, worn hoses and debris buildup.</p>
+         </li>
+         <li>
+            <p>Inspect engine compartment for oil, coolant and fuel leaks.</p>
+         </li>
+         <li>
+            <p>Inspect the carriages, forks or attachments for wear, damage, and loose or missing
+        bolts.</p>
+            <p>
+               <ol>
+                  <li>Visually inspect forks for cracks, especially in the heel section, around the mounting
+            brackets, and all weld areas.</li>
+                  <li>Inspect for broken or jagged fork tips, bent or twisted blades and shanks.</li>
+                  <li>Make sure positioning lock is in place and working. Lock the forks in position before
+            using the truck. See Step 7 of “Forks” in “Every 2000 Service Hours or Yearly”.</li>
+                  <li>Remove all defective forks from service.</li>
+               </ol>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

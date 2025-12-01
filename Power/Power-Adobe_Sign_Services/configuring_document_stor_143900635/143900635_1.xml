@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m23CD8F9-BDF2-11F0-1154-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Configuring Document Storage Type</title>
+   <topicref chunk="to-content" href="143900635.xml" xml:lang="en">
+      <topicref href="to_configure_agreement_document_storage_type.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure agreement document storage type</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="agreement_document_storage_type_and_enable_file.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Agreement Document Storage Type and Enable File</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

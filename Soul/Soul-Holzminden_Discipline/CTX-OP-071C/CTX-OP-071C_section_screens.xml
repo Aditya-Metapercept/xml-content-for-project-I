@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8560B3-BB9C-11F0-2038-09173F13E4C5" xml:lang="en-us">
+   <title>Section Screens</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Press the<uicontrol> Section</uicontrol> button to show detailed information about the
+         measurement data of a section. You can quickly change to another section by pressing the
+         Section <uicontrol>arrow </uicontrol>buttons.</p>
+      <p>Press on a bottle image to show only that bottle and related information. Press again on the bottle image to show all bottles again.  Press on a bottle to see more data about a specific cavity.</p>
+      <p>
+         <fig id="fig_jgy_prg_fdc">
+            <image href="media/image1.jpg"
+                   placement="break"
+                   id="image_kgy_prg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig id="fig_ymg_srg_fdc">
+            <image href="media/image2.jpg"
+                   placement="break"
+                   id="image_zmg_srg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>Press on a graph to zoom on the image. Press again on the graph to return to the normal view.</p>
+      <p>
+         <fig id="fig_jrb_trg_fdc">
+            <image href="media/image3.jpg"
+                   placement="break"
+                   id="image_krb_trg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>Press on the up and down arrow keys to change the Region. Press on the arrow keys &lt; &gt; to go back and forward in time.</p>
+      <p>Press the Squares Icon to expand the view and show the bottles above each other.</p>
+      <p>
+         <fig id="fig_sh1_vrg_fdc">
+            <image href="media/image4.jpg"
+                   placement="break"
+                   id="image_th1_vrg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>Press the Filter Icon to filter the graph data. The screens below show no filter (left) and one filter (right).</p>
+      <p>
+         <fig id="fig_ed5_vrg_fdc">
+            <image href="media/image5.jpg"
+                   placement="break"
+                   id="image_fd5_vrg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig id="fig_lgk_wrg_fdc">
+            <image href="media/image6.jpg"
+                   placement="break"
+                   id="image_mgk_wrg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig id="fig_eh1_xrg_fdc">
+            <image href="media/image7.jpg"
+                   placement="break"
+                   id="image_fh1_xrg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

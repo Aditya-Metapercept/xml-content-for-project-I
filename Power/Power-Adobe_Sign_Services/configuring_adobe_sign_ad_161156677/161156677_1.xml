@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m23C896C-BDF2-11F0-2126-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Configuring Adobe Sign Admin Settings</title>
+   <topicref chunk="to-content" href="161156677.xml" xml:lang="en">
+      <topicref href="to_configure_the_adobe_sign_admin_settings.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure the Adobe Sign Admin Settings</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_add_ip_ranges.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To add IP ranges</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

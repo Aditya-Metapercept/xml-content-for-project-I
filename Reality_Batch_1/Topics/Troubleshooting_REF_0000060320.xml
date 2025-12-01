@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Troubleshooting-3C40C658" xml:lang="en">
+   <title>Troubleshooting</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>independent-static-bypass-switch-controller</indexterm>
+            <indexterm>battery-string</indexterm>
+            <indexterm>inverter</indexterm>
+            <indexterm>rectifier</indexterm>
+            <indexterm>transformer</indexterm>
+            <!-- Process layer -->
+            <indexterm>troubleshooting</indexterm>
+            <indexterm>measure-voltage-current</indexterm>
+            <indexterm>fault-diagnosis</indexterm>
+            <indexterm>replace-power-supply</indexterm>
+            <indexterm>check-main-contactor</indexterm>
+            <indexterm>test-battery-string</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>maintenance-procedures</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Troubleshooting"/>
+         <othermeta name="shortdesc"
+                    content="Troubleshooting guidance and diagnostic steps for UPS faults, including measurements, component checks and corrective actions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS; interface board; independent static bypass switch controller; battery string; transformer; inverter; rectifier; main contactor; bypass breaker; diagnostic tools"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:troubleshooting;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="troubleshooting,power-faults,diagnostics,maintenance,component-testing"/>
+         <othermeta name="usecase" content="troubleshooting"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>Alarm Messages</title>
+         <p>The following table lists
+all pop-up messages that can appear on the display:</p>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1" colwidth="9.53*"/>
+               <colspec colname="col3" colwidth="22.91*"/>
+               <colspec colname="COLSPEC1" colwidth="22.91*"/>
+               <colspec colname="col4" colwidth="39.5*"/>
+               <colspec colname="col5" colwidth="21.41*"/>
+               <thead>
+                  <row>
+                     <entry>Number</entry>
+                     <entry>Alarm Message</entry>
+                     <entry>Pop-Up Message</entry>
+                     <entry>Description</entry>
+                     <entry>Corrective Action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>2</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>System configuration not OK</uicontrol>
+                     </entry>
+                     <entry>System configuration not OK. Hardware inoperable or wrong configuration
+file loaded.</entry>
+                     <entry align="left">Check the configuration file</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">186</entry>
+                     <entry morerows="3">
+                        <uicontrol>Bat. temp. warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>Battery temperature has exceeded
+upper limit</uicontrol>
+                     </entry>
+                     <entry morerows="3">The battery temperature is above the configured
+warning level.</entry>
+                     <entry align="left">Check the air inlet</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the charge current</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the health of the battery</entry>
+                  </row>
+                  <row>
+                     <entry>266</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>High output voltage</uicontrol>
+                     </entry>
+                     <entry>The UPS output voltage (RMS) is above the configured voltage
+level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>269</entry>
+                     <entry>
+                        <uicontrol>Overload</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>UPS overloaded</uicontrol>
+                     </entry>
+                     <entry>The UPS output is overloaded (&gt;105%).</entry>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry>304</entry>
+                     <entry>
+                        <uicontrol>High Battery voltage</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery voltage too high</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is above the configured high battery voltage
+warning level. This warning is suppressed in battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>306</entry>
+                     <entry>
+                        <uicontrol>Battery discharged</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter shutdown due to low Battery</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+shutdown level.</entry>
+                     <entry align="left">Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry>826</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>Battery earth fault</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a battery earth fault.</entry>
+                     <entry align="left">Check the battery wiring</entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">312</entry>
+                     <entry morerows="1">
+                        <uicontrol>Battery weak</uicontrol>
+                     </entry>
+                     <entry morerows="1">
+                        <uicontrol>Battery weak</uicontrol>
+                     </entry>
+                     <entry morerows="1">The advanced battery monitoring test has detected
+a weak battery.</entry>
+                     <entry align="left">Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Maintain the battery</entry>
+                  </row>
+                  <row>
+                     <entry>313</entry>
+                     <entry>
+                        <uicontrol>Battery inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery inoperable</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has detected an inoperable
+battery.</entry>
+                     <entry align="left">Maintain the battery</entry>
+                  </row>
+                  <row>
+                     <entry>331</entry>
+                     <entry>
+                        <uicontrol>Q201/Q202: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery disconnected</uicontrol>
+                     </entry>
+                     <entry>The battery switch Q201 / Q202 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>351</entry>
+                     <entry>
+                        <uicontrol>ABUS term incorrect</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABUS termination incorrect</uicontrol>
+                     </entry>
+                     <entry>The ABUS wiring is disconnected or the ABUS termination is
+incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>371</entry>
+                     <entry>
+                        <uicontrol>No parallel master</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No Master present in the parallel
+system</uicontrol>
+                     </entry>
+                     <entry>No master is present in the redundant system.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>375</entry>
+                     <entry>
+                        <uicontrol>Redundancy alarm</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Loss of Parallel Redundancy</uicontrol>
+                     </entry>
+                     <entry>At least one UPS is isolated or turned off. In this case the
+redundancy operation is not assured.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>397</entry>
+                     <entry>
+                        <uicontrol>PBUS1 com inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Parallel bus communication on cable 1 inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS1 wiring (parallel bus) is disconnected
+or the PBUS1 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>398</entry>
+                     <entry>
+                        <uicontrol>PBUS2 com inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Parallel bus communication on cable 2 inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS2 wiring (parallel bus) is disconnected
+or the PBUS2 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>440</entry>
+                     <entry>
+                        <uicontrol>EPO active</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>EPO activated</uicontrol>
+                     </entry>
+                     <entry>The digital input "emergency power off (EPO)" is activated
+(contact open) or the EPO wiring is disconnected.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>447</entry>
+                     <entry>
+                        <uicontrol>Int inoperable state</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Internal inoperable state
+detected</uicontrol>
+                     </entry>
+                     <entry>An internal inoperable state was detected.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>803</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>Static Bypass Switch inoperable</uicontrol>
+                     </entry>
+                     <entry>The communication to the SBS is not working or DC is detected
+during requested static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">814</entry>
+                     <entry morerows="2">-</entry>
+                     <entry morerows="2">
+                        <uicontrol>Overtemperature in PM or Trafos</uicontrol>
+                     </entry>
+                     <entry morerows="2">The UPS measures a temperature above the threshold
+level in one of the power modules or in one of the power transformers.</entry>
+                     <entry align="left">Check the air inlet and the air filters</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the output load</entry>
+                  </row>
+                  <row>
+                     <entry>825</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>Fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer-, SBS- or power module fans is inoperable.</entry>
+                     <entry align="left">Check the correct functionality of the fans</entry>
+                  </row>
+                  <row>
+                     <entry>830</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>Rectifier inoperable</uicontrol>
+                     </entry>
+                     <entry>The PFC rectifier or the charger is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>831</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>HMI_1</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>ABUS communication inoperable</uicontrol>
+                     </entry>
+                     <entry>Communication via ABUS does not work.</entry>
+                     <entry align="left">Check the ABUS wiring</entry>
+                  </row>
+                  <row>
+                     <entry>HMI_2</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>ABUS supply missing</uicontrol>
+                     </entry>
+                     <entry>The SELV4 supply of the HMI is missing.</entry>
+                     <entry align="left">Check the ABUS wiring</entry>
+                  </row>
+                  <row>
+                     <entry>HMI_3</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>No more space for configurations
+in HMI FLASH memory</uicontrol>
+                     </entry>
+                     <entry>The HMI Flash memory does not offer enough free space to save
+the configuration change.</entry>
+                     <entry align="left">Unplug and reconnect HMI supply</entry>
+                  </row>
+                  <row>
+                     <entry>HMI_4</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>HMI SRAM is inoperable</uicontrol>
+                     </entry>
+                     <entry>The external SRAM on the HMI was detected to be inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>HMI_5</entry>
+                     <entry>-</entry>
+                     <entry>
+                        <uicontrol>HMI code memory checksum
+invalid</uicontrol>
+                     </entry>
+                     <entry>The HMI firmware detected an invalid code memory CRC.</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Log Event Descriptions</title>
+         <p>The following table
+lists all events that can appear on the display log and that can be
+assigned to LEDs and relays:</p>
+         <table pgwide="1">
+            <tgroup cols="6">
+               <colspec colname="col1" colwidth="8.32*"/>
+               <colspec colname="col2" colwidth="18.32*"/>
+               <colspec colname="col3" colwidth="18.39*"/>
+               <colspec colname="col4" colwidth="18.44*"/>
+               <colspec colname="col5" colwidth="18.27*"/>
+               <colspec colname="col6" colwidth="18.27*"/>
+               <thead>
+                  <row>
+                     <entry>Number</entry>
+                     <entry>Log Text for Alarm</entry>
+                     <entry>Log Text When Alarm is Resolved</entry>
+                     <entry>Alarm Text</entry>
+                     <entry>Alarm Description</entry>
+                     <entry>Corrective Action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>11</entry>
+                     <entry>
+                        <uicontrol>Standby</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Standby</uicontrol>
+                     </entry>
+                     <entry>The system is in standby.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>15</entry>
+                     <entry>
+                        <uicontrol>Battery operation</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery operation</uicontrol>
+                     </entry>
+                     <entry>The system is in battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>16</entry>
+                     <entry>
+                        <uicontrol>Normal operation</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Normal operation</uicontrol>
+                     </entry>
+                     <entry>The system is in normal operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>17</entry>
+                     <entry>
+                        <uicontrol>Requested Bypass</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Requested Static bypass</uicontrol>
+                     </entry>
+                     <entry>The system is in requested static bypass operation due to a
+user request.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>18</entry>
+                     <entry>
+                        <uicontrol>Temporary Bypass</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temporary Static bypass</uicontrol>
+                     </entry>
+                     <entry>The system is in temporary static bypass operation due to a
+problem in the system.</entry>
+                     <entry align="left">Check the event log for the reason, why the system
+has switched to static bypass operation</entry>
+                  </row>
+                  <row>
+                     <entry>40</entry>
+                     <entry>
+                        <uicontrol>Charger OFF</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Charger OFF</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to OFF state. The batteries
+are not charged in this state.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>41</entry>
+                     <entry>
+                        <uicontrol>Float charge</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Float charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Float charge</uicontrol> state. The batteries are charged with the configured float charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>42</entry>
+                     <entry>
+                        <uicontrol>Boost charge</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Boost charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Boost charge</uicontrol> mode. The batteries are charged with the configured boost charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>43</entry>
+                     <entry>
+                        <uicontrol>Initial charge</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Initial charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Initial charge</uicontrol> mode. The batteries are charged with the configured initial charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>44</entry>
+                     <entry>
+                        <uicontrol>Cyclic charge</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Cyclic charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Cyclic charge</uicontrol> mode. The batteries are charged with the configured cyclic charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>45</entry>
+                     <entry>
+                        <uicontrol>Boost/Init blocked</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Boost/Init allowed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Boost / Initial-Charge blocked</uicontrol>
+                     </entry>
+                     <entry>The digital input to block boost resp. initial charge is activated.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>102</entry>
+                     <entry>
+                        <uicontrol>PFC inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PFC OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PFC inoperable</uicontrol>
+                     </entry>
+                     <entry>The rectifier part of the power module is not working.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>110</entry>
+                     <entry>
+                        <uicontrol>Charger inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Charger OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Charger inoperable</uicontrol>
+                     </entry>
+                     <entry>The charger part of the power module is not working.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>132</entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter part of the power module is not working.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>146</entry>
+                     <entry>
+                        <uicontrol>Inverter async.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter sync.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter asynchronous</uicontrol>
+                     </entry>
+                     <entry>The UPS is unable to synchronize to the bypass source.</entry>
+                     <entry align="left">Check the bypass source quality (voltage, frequency)</entry>
+                  </row>
+                  <row>
+                     <entry>161</entry>
+                     <entry>
+                        <uicontrol>Static Bypass ON</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Static Bypass OFF</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS ON</uicontrol>
+                     </entry>
+                     <entry>The system is in static bypass operation. The bypass supplies
+the load (temporary or requested static bypass operation).</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">162</entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS OK</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry morerows="2">The static bypass switch is not energized, the
+communication wiring from the UPS controller to the static bypass
+switch controller is disconnected or the static bypass switch controller
+is inoperable.</entry>
+                     <entry align="left">Check if the static bypass switch controller board
+is energized</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the communication wiring between main controller
+and the static bypass switch controller</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the function of the static bypass switch
+controller board</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">163</entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS Indep fired</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS OK</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>SBS Independent fired</uicontrol>
+                     </entry>
+                     <entry morerows="2">The SBS is no longer controlled by the UPS controller
+and is locked in the fire state.</entry>
+                     <entry align="left">Check the communication wiring</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the function of the UPS controller</entry>
+                  </row>
+                  <row>
+                     <entry align="left">This state can only be left when the SBS controller
+board is reset. This should be done by switching the manual bypass
+switch to 'Bypass'</entry>
+                  </row>
+                  <row>
+                     <entry>164</entry>
+                     <entry>
+                        <uicontrol>SBS DC detected</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS DC OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS DC detected</uicontrol>
+                     </entry>
+                     <entry>DC content detected in requested static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>166</entry>
+                     <entry>
+                        <uicontrol>Q601: BYPASS</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>MBS: BYPASS</uicontrol>
+                     </entry>
+                     <entry>The manual bypass switch is in position <uicontrol>BYPASS</uicontrol>.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>167</entry>
+                     <entry>
+                        <uicontrol>Q601: AUTO</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>MBS: AUTO</uicontrol>
+                     </entry>
+                     <entry>The manual bypass switch is in position <uicontrol>AUTO</uicontrol>.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">181</entry>
+                     <entry morerows="3">
+                        <uicontrol>PM temp. warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>PM temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>PM Temperature warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">The power module temperature is above 90 °C.</entry>
+                     <entry align="left">Check the air inlet of the UPS</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the fan module</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">182</entry>
+                     <entry morerows="3">
+                        <uicontrol>PM overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>PM temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>PM Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The power module temperature is above 100 °C
+(delay 60 seconds). The inverter is shut down immediately.</entry>
+                     <entry align="left">Check the air inlet of the UPS</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the fan module</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry morerows="4">183</entry>
+                     <entry morerows="4">
+                        <uicontrol>T001 overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="4">
+                        <uicontrol>T001 temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="4">
+                        <uicontrol>T001 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="4">The rectifier mains transformer temperature is
+above the configured threshold level. After 10 minutes, the rectifier
+is shut down and the system changes to battery operation.</entry>
+                     <entry align="left">Check the air inlet of the UPS</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the fan module</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the battery charging current</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">184</entry>
+                     <entry morerows="3">
+                        <uicontrol>T401 overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>T401 temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>T401 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The output transformer temperature is above the
+configured threshold level. After 10 minutes, the system tries to
+change to static bypass operation within the next 2 minutes. If the
+change to static bypass operation is not possible due to bad bypass
+quality the inverter is shut down after these 2 minutes.</entry>
+                     <entry align="left">Check the air inlet of the UPS</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the fan module</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">185</entry>
+                     <entry morerows="3">
+                        <uicontrol>T501 overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>T501 temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>T501 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The bypass transformer temperature is above the
+threshold level.</entry>
+                     <entry align="left">Check the air inlet of the UPS</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the fan module</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">186</entry>
+                     <entry morerows="3">
+                        <uicontrol>Bat. temp. warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>Battery temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="3">
+                        <uicontrol>Battery temperature warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">The battery temperature is above the configured
+warning level.</entry>
+                     <entry align="left">Check the air inlet</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the charge current</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the health of the battery</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">187</entry>
+                     <entry morerows="2">
+                        <uicontrol>Bat. temp. shutdown</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>Battery temp. OK</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>Battery temperature shutdown</uicontrol>
+                     </entry>
+                     <entry morerows="2">The battery temperature is above the configured
+shutdown level. The battery charger switches off.</entry>
+                     <entry align="left">Check the air inlet</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the health of the battery</entry>
+                  </row>
+                  <row>
+                     <entry>189</entry>
+                     <entry>
+                        <uicontrol>Temp. 1 warning</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temp. 1 OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temperature 1 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>190</entry>
+                     <entry>
+                        <uicontrol>Temp. 2 warning</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temp. 2 OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temperature 2 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>191</entry>
+                     <entry>
+                        <uicontrol>Temp. 3 warning</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temp. 3 OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Temperature 3 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>192</entry>
+                     <entry>
+                        <uicontrol>T001 sensor inop.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T001 sensor OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T001 temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The mains input transformer temperature sensor is not connected
+or shorted.</entry>
+                     <entry align="left">Check the wiring of the temperature sensor</entry>
+                  </row>
+                  <row>
+                     <entry>193</entry>
+                     <entry>
+                        <uicontrol>T401 sensor inop.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T401 sensor OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T401 temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The output transformer temperature sensor is not connected
+or shorted.</entry>
+                     <entry align="left">Check the wiring of the temperature sensor</entry>
+                  </row>
+                  <row>
+                     <entry>194</entry>
+                     <entry>
+                        <uicontrol>T501 sensor inop.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T501 sensor OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>T501 Temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The bypass transformer temperature sensor is not connected
+or shorted.</entry>
+                     <entry align="left">Check the wiring of the temperature sensor</entry>
+                  </row>
+                  <row>
+                     <entry>200</entry>
+                     <entry>
+                        <uicontrol>PM fan inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PM fans OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PM fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the power module fans is inoperable.</entry>
+                     <entry align="left">Check the fans of the power modules</entry>
+                  </row>
+                  <row>
+                     <entry>201</entry>
+                     <entry>
+                        <uicontrol>SBS fan inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS fan OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the static bypass switch fans is inoperable.</entry>
+                     <entry align="left">Check the static bypass switch fans</entry>
+                  </row>
+                  <row>
+                     <entry>202</entry>
+                     <entry>
+                        <uicontrol>Trafo fan inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Trafo fans OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Trafo fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer fans is inoperable (rectifier transformer,
+output transformer or bypass transformer).</entry>
+                     <entry align="left">Check the transformer fans</entry>
+                  </row>
+                  <row>
+                     <entry>220</entry>
+                     <entry>
+                        <uicontrol>Mains RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains voltage is out of the configured tolerance.</entry>
+                     <entry align="left">Check the quality of the mains input (voltage
+and frequency)</entry>
+                  </row>
+                  <row>
+                     <entry>221</entry>
+                     <entry>
+                        <uicontrol>Mains Inp RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains Input RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains input RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains voltage on primary side of the input transformer
+is out of the configured tolerance.</entry>
+                     <entry align="left">Check the quality of the mains input (voltage
+and frequency)</entry>
+                  </row>
+                  <row>
+                     <entry>222</entry>
+                     <entry>
+                        <uicontrol>Mains FAST not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains FAST OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains voltage is out of tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>223</entry>
+                     <entry>
+                        <uicontrol>Mains freq. not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains frequency OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains frequency is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">224</entry>
+                     <entry morerows="2">
+                        <uicontrol>Mains phase missing</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>Mains phases OK</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>Mains phase missing</uicontrol>
+                     </entry>
+                     <entry morerows="2">A rectifier mains input phase is missing.</entry>
+                     <entry align="left">Check the contacts of the input switch</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the control wiring of the input voltage
+measurement</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the correct wiring of the input transformer</entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">225</entry>
+                     <entry morerows="1">
+                        <uicontrol>Mains In.Ph. missing</uicontrol>
+                     </entry>
+                     <entry morerows="1">
+                        <uicontrol>Mains Inp. phases OK</uicontrol>
+                     </entry>
+                     <entry morerows="1">
+                        <uicontrol>Mains input phase missing</uicontrol>
+                     </entry>
+                     <entry morerows="1">One phase of the rectifier mains voltage on the
+primary side of the input transformer is missing.</entry>
+                     <entry align="left">Check the contacts of the input switch</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the control wiring of the input voltage
+measurement</entry>
+                  </row>
+                  <row>
+                     <entry>228</entry>
+                     <entry>
+                        <uicontrol>Mains synch. missing</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains synch. OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains synch missing </uicontrol>
+                     </entry>
+                     <entry>The mains PFC rectifier is unable to synchronize to the rectifier
+mains input.</entry>
+                     <entry align="left">Check the quality of the mains input (voltage
+and frequency)</entry>
+                  </row>
+                  <row>
+                     <entry>229</entry>
+                     <entry>
+                        <uicontrol>Mains neutral lost</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains neutral OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains neutral missing</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains neutral is missing.</entry>
+                     <entry align="left">Check the mains neutral wiring</entry>
+                  </row>
+                  <row>
+                     <entry>240</entry>
+                     <entry>
+                        <uicontrol>Bypass RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance. The
+UPS is not able to transfer to static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>241</entry>
+                     <entry>
+                        <uicontrol>Byp. Inp. RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass Input RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass input RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass mains voltage on the primary side of the bypass
+transformer is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>242</entry>
+                     <entry>
+                        <uicontrol>Bypass FAST not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass FAST OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance. The
+UPS is unable to transfer to static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>243</entry>
+                     <entry>
+                        <uicontrol>Bypass freq. not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass frequency OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass frequency is out of the configured tolerance. The
+UPS is unable to transfer to static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>244</entry>
+                     <entry>
+                        <uicontrol>Bypass phase missing</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass phases OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the bypass mains is missing.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>245</entry>
+                     <entry>
+                        <uicontrol>Byp. In. phase miss.</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Byp. Inp. phases OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass input phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the bypass voltage on the primary side of the
+transformer is missing.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>260</entry>
+                     <entry>
+                        <uicontrol>Inv. Out. RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inv. Out. RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter output RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output voltage is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>261</entry>
+                     <entry>
+                        <uicontrol>Output RMS not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output RMS OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The output voltage on the secondary side of the output transformer
+is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>262</entry>
+                     <entry>
+                        <uicontrol>Output FAST not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output FAST OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output voltage is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>263</entry>
+                     <entry>
+                        <uicontrol>Output freq. not OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output frequency OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output frequency is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>264</entry>
+                     <entry>
+                        <uicontrol>Output phase missing</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output phases OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the output voltage on the secondary side of the
+transformer is missing.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>267</entry>
+                     <entry>
+                        <uicontrol>High load warning</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Load OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>High Load warning</uicontrol>
+                     </entry>
+                     <entry>The load is above the configured load alarm level.</entry>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry>268</entry>
+                     <entry>
+                        <uicontrol>Current limitation</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No limitation</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Current limitation</uicontrol>
+                     </entry>
+                     <entry>The inverter current limiter is active.</entry>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry>269</entry>
+                     <entry>
+                        <uicontrol>Overload</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No overload</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output overloaded</uicontrol>
+                     </entry>
+                     <entry>The UPS output is overloaded (&gt;105%).</entry>
+                     <entry align="left">Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry>301</entry>
+                     <entry>
+                        <uicontrol>High Bat.V. shutdown</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery voltage OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>High Battery shutdown</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is above the configured high battery voltage
+shutdown level. The charger is shut down.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>304</entry>
+                     <entry>
+                        <uicontrol>High Battery voltage</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery voltage OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>High Battery warning</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is above the configured high battery voltage
+warning level. This warning is suppressed in battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>305</entry>
+                     <entry>
+                        <uicontrol>Low Battery voltage</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery voltage OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery discharged</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+warning level.</entry>
+                     <entry align="left">Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry>306</entry>
+                     <entry>
+                        <uicontrol>Battery discharged</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Low Battery shutdown</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+shutdown level.</entry>
+                     <entry align="left">Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry>307</entry>
+                     <entry>
+                        <uicontrol>Bat. earth fault pos</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No bat. earth fault</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery earth fault positive</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a positive battery earth fault.</entry>
+                     <entry align="left">Check the battery wiring</entry>
+                  </row>
+                  <row>
+                     <entry>308</entry>
+                     <entry>
+                        <uicontrol>Bat. earth fault neg</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No bat. earth fault</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery earth fault negative</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a negative battery earth fault.</entry>
+                     <entry align="left">Check the battery wiring</entry>
+                  </row>
+                  <row>
+                     <entry>309</entry>
+                     <entry>
+                        <uicontrol>ABM test Start</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABM test started</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been started.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>310</entry>
+                     <entry>
+                        <uicontrol>ABM test End</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABM test done</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been completed.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>311</entry>
+                     <entry>
+                        <uicontrol>ABM test Stop</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABM test aborted</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been aborted.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">312</entry>
+                     <entry morerows="1">
+                        <uicontrol>Battery weak</uicontrol>
+                     </entry>
+                     <entry morerows="1">
+                        <uicontrol>Battery OK</uicontrol>
+                     </entry>
+                     <entry morerows="1">
+                        <uicontrol>Battery weak</uicontrol>
+                     </entry>
+                     <entry morerows="1">The advanced battery monitoring test has detected
+a weak battery.</entry>
+                     <entry align="left">Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Maintain the battery</entry>
+                  </row>
+                  <row>
+                     <entry>313</entry>
+                     <entry>
+                        <uicontrol>Battery inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery inoperable</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has detected an inoperable
+battery.</entry>
+                     <entry align="left">Maintain the battery</entry>
+                  </row>
+                  <row>
+                     <entry>314</entry>
+                     <entry>
+                        <uicontrol>Low runtime warning</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Runtime OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Low runtime warning</uicontrol>
+                     </entry>
+                     <entry>The battery runtime is less than 2 minutes above the configured
+warning level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>315</entry>
+                     <entry>
+                        <uicontrol>Low runtime alarm</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Runtime OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Low runtime alarm</uicontrol>
+                     </entry>
+                     <entry>The battery runtime is below the configured battery runtime
+level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>316</entry>
+                     <entry>
+                        <uicontrol>Discharge test Start</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Discharge test started</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been started.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>317</entry>
+                     <entry>
+                        <uicontrol>Discharge test End</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Discharge test done</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been completed.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>318</entry>
+                     <entry>
+                        <uicontrol>Discharge test Stop</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Discharge test aborted</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been aborted.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>330</entry>
+                     <entry>
+                        <uicontrol>Q001: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q001: closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q001 open</uicontrol>
+                     </entry>
+                     <entry>The rectifier mains input switch Q001 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>331</entry>
+                     <entry>
+                        <uicontrol>Q201/Q202: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q201/Q202: closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q201/Q202 open</uicontrol>
+                     </entry>
+                     <entry>The battery switch Q201 / Q202 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>332</entry>
+                     <entry>
+                        <uicontrol>Q501: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q501: closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q501 open</uicontrol>
+                     </entry>
+                     <entry>The bypass mains input switch Q501 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>334</entry>
+                     <entry>
+                        <uicontrol>Q611: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q611: closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q611 open</uicontrol>
+                     </entry>
+                     <entry>The load output switch Q611 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>338</entry>
+                     <entry>
+                        <uicontrol>K401:
+open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>K401:
+closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>K401
+open</uicontrol>
+                     </entry>
+                     <entry>The bypass backfeed
+contactor K401 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>339</entry>
+                     <entry>
+                        <uicontrol>Q528: open</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q528: closed</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Q528 open</uicontrol>
+                     </entry>
+                     <entry>The
+SBS input switch Q528 is open.</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>351</entry>
+                     <entry>
+                        <uicontrol>ABUS term incorrect</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABUS term OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ABUS termination incorrect</uicontrol>
+                     </entry>
+                     <entry>The ABUS wiring is disconnected or the ABUS termination is
+incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>371</entry>
+                     <entry>
+                        <uicontrol>No parallel master</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Par. master selected</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>No parallel Master</uicontrol>
+                     </entry>
+                     <entry>No master is present in the redundant system.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>374</entry>
+                     <entry>
+                        <uicontrol>Parallel load alarm</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Parallel load OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Parallel load alarm</uicontrol>
+                     </entry>
+                     <entry>The actual load is too high to guarantee the redundant operation.
+If one UPS switches OFF, the remaining systems would be overloaded.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>375</entry>
+                     <entry>
+                        <uicontrol>Redundancy alarm</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Redundancy OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Redundancy alarm</uicontrol>
+                     </entry>
+                     <entry>At least one UPS is isolated or turned off. In this case the
+redundancy operation is not assured.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>397</entry>
+                     <entry>
+                        <uicontrol>PBUS1 com inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS1 OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS1 communication inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS1 wiring (parallel bus) is disconnected
+or the PBUS1 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>398</entry>
+                     <entry>
+                        <uicontrol>PBUS2 com inoperable</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS2 OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS2 communication inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS2 wiring (parallel bus) is disconnected
+or the PBUS2 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>399</entry>
+                     <entry>
+                        <uicontrol>PBUS1 term incorrect</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS1 term OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS 1 termination incorect</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS1 wiring (parallel bus) is disconnected
+or the PBUS1 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>400</entry>
+                     <entry>
+                        <uicontrol>PBUS2 term incorrect</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS2 term OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>PBUS 2 termination incorect</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS2 wiring (parallel bus) is disconnected
+or the PBUS2 termination is incorrect.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>440</entry>
+                     <entry>
+                        <uicontrol>EPO active</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>EPO cleared</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Emergency Power Off (EPO)</uicontrol>
+                     </entry>
+                     <entry>The digital input "emergency power off (EPO)" is activated
+(contact open) or the EPO wiring is disconnected.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>447</entry>
+                     <entry>
+                        <uicontrol>Int inoperable state</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Int operation OK</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Internal inoperable state</uicontrol>
+                     </entry>
+                     <entry>An internal inoperable state was detected.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>448</entry>
+                     <entry>
+                        <uicontrol>Locked in Bypass</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass unlocked</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS locked</uicontrol>
+                     </entry>
+                     <entry>The system has been locked in static bypass operation after
+8 unsuccessful tries to switch back to normal or battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>663</entry>
+                     <entry>
+                        <uicontrol>LCM Fan Module</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>LCM Alert 1</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the fan modules.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>668</entry>
+                     <entry>
+                        <uicontrol>LCM Battery</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>LCM Alert 2</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the battery.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>673</entry>
+                     <entry>
+                        <uicontrol>LCM Power Module</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>LCM Alert 3</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the power modules.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>678</entry>
+                     <entry>
+                        <uicontrol>LCM Air Filter</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>LCM Alert 4</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the air filters.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>683</entry>
+                     <entry>
+                        <uicontrol>LCM 10 Year</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>LCM Alert 5</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to do the 10 year component
+replacement.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>738</entry>
+                     <entry>
+                        <uicontrol>BlockBst/Init</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ECB-In1</uicontrol>
+                     </entry>
+                     <entry>External connection board input 1 open / close</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>739</entry>
+                     <entry>
+                        <uicontrol>ForceToBoost</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>ECB-In2</uicontrol>
+                     </entry>
+                     <entry>External connection board input 2 open / close</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>800</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Common Alarm</uicontrol>
+                     </entry>
+                     <entry>There is at least one pending alert in the system.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>803</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry>The communication to the SBS is not working or DC is detected
+during requested static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>807</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Bypass out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance, a phase
+is missing, there is an invalid phase rotation or the frequency is
+out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>808</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Output out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The output voltage or the frequency is out of configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>812</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Mains out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The mains input voltage is out of the configured tolerance,
+a phase is missing, there is an invalid phase rotation or the frequency
+is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">814</entry>
+                     <entry morerows="2">
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry morerows="2">
+                        <uicontrol>Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="2">The UPS measures a temperature above the threshold
+level in one of the power modules or in one of the power transformers.</entry>
+                     <entry align="left">Check the air inlet and the air filters</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry align="left">Check the output load</entry>
+                  </row>
+                  <row>
+                     <entry>823</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is out of the configured tolerance or the
+battery runtime is too short.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>825</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer-, SBS- or power module fans is inoperable.</entry>
+                     <entry align="left">Check the correct functionality of the fans</entry>
+                  </row>
+                  <row>
+                     <entry>826</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Battery earth fault</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a battery earth fault.</entry>
+                     <entry align="left">Check the battery wiring</entry>
+                  </row>
+                  <row>
+                     <entry>830</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Rectifier inoperable</uicontrol>
+                     </entry>
+                     <entry>The PFC rectifier or the charger is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>831</entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>-</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>System Specific Alarm Indication LEDs</title>
+         <fig>
+            <title>Alarm LEDs on the Display Interface </title>
+            <image href="../Images/leds_0000082114.jpg" placement="inline"/>
+         </fig>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col2" colwidth="6.66*"/>
+               <colspec colname="col3" colwidth="24.48*"/>
+               <colspec colname="col4" colwidth="24.43*"/>
+               <colspec colname="col5" colwidth="24.43*"/>
+               <thead>
+                  <row>
+                     <entry>Number</entry>
+                     <entry>LED Text </entry>
+                     <entry>Alarm Description</entry>
+                     <entry>Corrective Action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>812</entry>
+                     <entry>
+                        <uicontrol>Mains out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The mains input voltage is out of the configured tolerance,
+a phase is missing, there is an invalid phase rotation or the frequency
+is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>807</entry>
+                     <entry>
+                        <uicontrol>Bypass out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance, a phase
+is missing, there is a phase rotation fault or the frequency is out
+of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>269</entry>
+                     <entry>
+                        <uicontrol>Output overloaded</uicontrol>
+                     </entry>
+                     <entry>The UPS output is overloaded (&gt;105%).</entry>
+                     <entry>Reduce the load</entry>
+                  </row>
+                  <row>
+                     <entry>146</entry>
+                     <entry>
+                        <uicontrol>Inverter asynchronous</uicontrol>
+                     </entry>
+                     <entry>The UPS is unable to synchronize to the bypass source.</entry>
+                     <entry>Check the bypass source quality (voltage, frequency)</entry>
+                  </row>
+                  <row>
+                     <entry>305</entry>
+                     <entry>
+                        <uicontrol>Battery discharged</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+warning level.</entry>
+                     <entry>Charge the battery</entry>
+                  </row>
+                  <row>
+                     <entry>331</entry>
+                     <entry>
+                        <uicontrol>Q201/Q202 open</uicontrol>
+                     </entry>
+                     <entry>The battery switch Q201 / Q202 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>830</entry>
+                     <entry>
+                        <uicontrol>Rectifier inoperable</uicontrol>
+                     </entry>
+                     <entry>The PFC rectifier or the charger is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>831</entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>803</entry>
+                     <entry>
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry>The communication to the static bypass switch is not working
+or DC is detected during requested static bypass operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>825</entry>
+                     <entry>
+                        <uicontrol>Fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer-, SBS- or power module fans is inoperable.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">814</entry>
+                     <entry morerows="2">
+                        <uicontrol>Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="2">The UPS measures a temperature above
+the threshold level in one of the power modules or in one of the power
+transformers.</entry>
+                     <entry>Check the air inlet
+and the air filters</entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the ambient temperature</entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the output load</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>System Specific Digital Inputs</title>
+         <table pgwide="1">
+            <tgroup cols="6">
+               <colspec colname="col1" colwidth="8.31*"/>
+               <colspec colname="col2" colwidth="8.34*"/>
+               <colspec colname="col3" colwidth="20.86*"/>
+               <colspec colname="col4" colwidth="20.93*"/>
+               <colspec colname="col5" colwidth="20.78*"/>
+               <colspec colname="col6" colwidth="20.78*"/>
+               <thead>
+                  <row>
+                     <entry>Digital Input</entry>
+                     <entry valign="top">Alarm Number</entry>
+                     <entry>Input Text</entry>
+                     <entry>Alarm Text</entry>
+                     <entry>Alarm Description</entry>
+                     <entry>Corrective Action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry valign="bottom">ECB-EPO</entry>
+                     <entry>440</entry>
+                     <entry valign="bottom">Emergency Power Off</entry>
+                     <entry valign="bottom">
+                        <uicontrol>EPO</uicontrol>
+                     </entry>
+                     <entry valign="bottom">The digital input "emergency power off (EPO)"
+is activated (contact open) or the EPO wiring is disconnected.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">ECB-In1</entry>
+                     <entry>738</entry>
+                     <entry valign="bottom">Blocking Boost/Initial Charge </entry>
+                     <entry valign="bottom">
+                        <uicontrol>BlockBst/Init</uicontrol>
+                     </entry>
+                     <entry valign="bottom">Block boost and inital charge</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">ECB-In2</entry>
+                     <entry>739</entry>
+                     <entry valign="bottom">Force to Boost Charge</entry>
+                     <entry valign="bottom">
+                        <uicontrol>ForceToBoost</uicontrol>
+                     </entry>
+                     <entry valign="bottom">Transfers the UPS into boost charge mode</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>System Specific Digital Outputs </title>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1" colwidth="8.32*"/>
+               <colspec colname="col2" colwidth="8.33*"/>
+               <colspec colname="col3" colwidth="27.84*"/>
+               <colspec colname="col4" colwidth="27.67*"/>
+               <colspec colname="col5" colwidth="27.84*"/>
+               <thead>
+                  <row>
+                     <entry>Digital Output</entry>
+                     <entry>Alarm Number</entry>
+                     <entry>Output Text</entry>
+                     <entry>Alarm Description</entry>
+                     <entry>Corrective Action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>ECB-ComAl</entry>
+                     <entry>800</entry>
+                     <entry>
+                        <uicontrol>Common Alarm</uicontrol>
+                     </entry>
+                     <entry>There is at least one pending alert in the system.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>ECB-Out01</entry>
+                     <entry>15</entry>
+                     <entry>
+                        <uicontrol>Battery operation</uicontrol>
+                     </entry>
+                     <entry>The system is in battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>ECB-Out02</entry>
+                     <entry>161</entry>
+                     <entry>
+                        <uicontrol>SBS ON</uicontrol>
+                     </entry>
+                     <entry>The system is in static bypass operation. The bypass supplies
+the load (temporary or requested static bypass operation).</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

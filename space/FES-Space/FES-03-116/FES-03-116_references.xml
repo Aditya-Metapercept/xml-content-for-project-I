@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r206D113-BB02-11F0-9707-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,maintenance,quality,network"/>
+         <keywords><!-- Product -->
+            <indexterm>SCS-0716-GR01 manual</indexterm>
+            <indexterm>forming-machine-server-guides</indexterm>
+            <indexterm>vendor-setup-notes</indexterm>
+            <indexterm>SOP-document</indexterm>
+            <indexterm>firmware-release-notes</indexterm>
+            <!-- Process -->
+            <indexterm>configuration-templates</indexterm>
+            <indexterm>network-setup-guides</indexterm>
+            <indexterm>MOC-forms</indexterm>
+            <indexterm>OAT-checklists</indexterm>
+            <indexterm>QA-templates</indexterm>
+            <!-- Context -->
+            <indexterm>site-operations-manuals</indexterm>
+            <indexterm>maintenance-archives</indexterm>
+            <indexterm>vendor-bulletins</indexterm>
+            <indexterm>plant-standards</indexterm>
+            <indexterm>asset-register</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="References"/>
+         <othermeta name="shortdesc"
+                    content="Authoritative references used for configuring the forming machine server: SCS-0716-GR01 manuals, SOPs, firmware/firmware-release notes, MOC forms, and vendor bulletins."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="entities"
+                    content="manuals;SOPs;MOC tickets;firmware releases;vendor bulletins"/>
+         <othermeta name="taxonomy"
+                    content="domain:knowledgebase;usecase:reference-collection;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="references,SOP,MOC,SCS-0716,firmware"/>
+         <othermeta name="usecase"
+                    content="list-normative-and-informative-references-for-configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_ts4_gvy_qzb">
+         <ul id="ul_xqf_hvy_qzb">
+            <li>SOPs covering the restoration of Machine Server Factory Default Software:, as shown
+               in the table below: <table id="table_n45_hvy_qzb">
+                  <tgroup cols="3">
+                     <colspec colname="c1" colwidth="1*"/>
+                     <colspec colname="c2" colwidth="1*"/>
+                     <colspec colname="c3" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Space Server Part #</p>
+                           </entry>
+                           <entry>
+                              <p>Server Model</p>
+                           </entry>
+                           <entry>
+                              <p>Restore SOP</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR06</p>
+                           </entry>
+                           <entry>
+                              <p>Portwell Ruby D711 (for Space plants)</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-15-010-A</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR05</p>
+                           </entry>
+                           <entry>
+                              <p>Portwell Ruby D711 (for Licensees)</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-15-009-A</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR04</p>
+                           </entry>
+                           <entry>
+                              <p>HP ML350p G8</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-15-001-B</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR03</p>
+                           </entry>
+                           <entry>
+                              <p>HP ML110 G7</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-12-007</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR02</p>
+                           </entry>
+                           <entry>
+                              <p>HP ML310 G5P</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-09-006-C</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>SCS-0716-GR01</p>
+                           </entry>
+                           <entry>
+                              <p>HP ML310 G5</p>
+                           </entry>
+                           <entry>
+                              <p>SOP-09-006-C</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </li>
+            <li>Machine Server User’s Manual (SCS-0288).</li>
+            <li>Creating Forming Electronics Software (SOP-08-001-E).</li>
+            <li>Installing Antivirus on a Forming Machine Server (SOP-15-004-C).</li>
+            <li>Updating DNS Information to the Current Space Global Standard (SOP-16-002-A).</li>
+            <li>Loading and Activating the Software Set on the Forming Machine Server
+               (FES-03-115)</li>
+         </ul>
+      </section>
+      <section id="section_l5p_jvy_qzb">
+         <title>Document Classification</title>
+         <ul id="ul_mcw_lvy_qzb">
+            <li>Asset Protection and Stability</li>
+            <li>Organization and Training</li>
+         </ul>
+      </section>
+   </body>
+</topic>

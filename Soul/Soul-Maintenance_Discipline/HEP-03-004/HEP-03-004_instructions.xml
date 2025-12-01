@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC925444-BB9C-11F0-7378-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ol id="steps_jvk_3bs_ncc">
+         <li>
+            <p>Before starting the work instruction activity, perform the following steps:</p>
+            <ol id="substeps_zhn_jbs_ncc">
+               <li>
+                  <p>Do not begin these tasks without confirmation that the personnel directly
+                     involved have completed the required training associated with the work
+                     instruction activity and have reviewed this document.</p>
+               </li>
+               <li>
+                  <p>Gather necessary tools and equipment as identified below in the Equipment
+                     Section.</p>
+               </li>
+               <li>
+                  <p>Wear and use any additional Personal Protective Equipment (PPE) and safety
+                     equipment required for this specific work instruction.</p>
+               </li>
+               <li>
+                  <p>Obey all applicable safety requirements and procedures.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel of the activity and the estimated time
+                     needed to complete the tasks.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>During a job change, perform the following tasks in the tin hood area:</p>
+            <ol id="substeps_o4q_lbs_ncc">
+               <li>
+                  <p>Ensure that containers cannot enter the tin hood. If necessary, deviate the
+                     containers to the hot-end chute.</p>
+               </li>
+               <li>
+                  <p>Clean the hood using a vacuum aspirator (or exchange the hood, if
+                     applicable). Do <i>not</i> clean the hood with compressed air.</p>
+               </li>
+               <li>
+                  <p>Confirm that the fan rotates properly.</p>
+               </li>
+               <li>
+                  <p>Allow the containers to begin entering the hood.</p>
+               </li>
+               <li>
+                  <p>Ensure that the temperature is over 80°C (175°F) before turning on the
+                     pump.</p>
+               </li>
+               <li>
+                  <p>Confirm that the TIN transfer pump is operating properly, if
+                     applicable.</p>
+               </li>
+               <li>
+                  <p>Working with the quality department, confirm that the tin hood is operating
+                     properly.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>If the new job uses DFE (DuPont 152a gas – 1,1-difluoroethane), perform the
+               following tasks to the DFE System before the machine is started:</p>
+            <ol id="substeps_lzb_4bs_ncc">
+               <li>
+                  <p>Set the height of the injection tube.</p>
+               </li>
+               <li>
+                  <p>Change the DFE tanks (if they are empty).</p>
+               </li>
+               <li>
+                  <p>Confirm that the alignment plates are properly installed.</p>
+               </li>
+               <li>
+                  <p>Confirm that all pressure alarms are operational.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>If the new job uses DFE (DuPont 152a gas – 1,1-difluoroethane), perform the
+               following tasks to the DFE System before the machine is started:</p>
+            <ol id="substeps_owt_pbs_ncc">
+               <li>
+                  <p>Set the correct air pressure.</p>
+               </li>
+               <li>
+                  <p>Set the correct DFE pressure.</p>
+               </li>
+               <li>
+                  <p>Set the injection timing.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Upon completion of tasks, perform the following steps:</p>
+            <ol id="substeps_fd5_qbs_ncc">
+               <li>
+                  <p>Perform basic housekeeping duties. Clean up the work space, tools, and
+                     equipment. Dispose of trash. Put tools and equipment in their assigned
+                     areas.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel that the work instruction activity has been
+                     completed</p>
+               </li>
+               <li>
+                  <p>Record and report findings and results.</p>
+               </li>
+               <li>
+                  <p>Follow appropriate instructions for the notification of findings and results
+                     relating to specifications, targets, and/or reaction limits.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

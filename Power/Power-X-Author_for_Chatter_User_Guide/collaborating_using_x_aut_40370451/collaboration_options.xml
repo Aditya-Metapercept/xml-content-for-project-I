@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="CollaboratingUsingXAuthorChatterCollaborationOptions" xml:lang="en">
+   <title>Collaboration Options</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>collaboration-options</indexterm>
+            <indexterm>x-author-chatter-online</indexterm>
+            <indexterm>communication-tools</indexterm>
+            <indexterm>enterprise-collaboration-suite</indexterm>
+            <indexterm>interactive-documentation-module</indexterm>
+            <indexterm>collaboration-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>selecting-collaboration-modes</indexterm>
+            <indexterm>managing-team-interactions</indexterm>
+            <indexterm>initiating-discussions</indexterm>
+            <indexterm>configuring-collaboration-workflows</indexterm>
+            <indexterm>engagement-controls</indexterm>
+            <indexterm>real-time-collaboration</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation-access</indexterm>
+            <indexterm>enterprise-collaboration</indexterm>
+            <indexterm>content-review</indexterm>
+            <indexterm>authoring-environment</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>document-feedback-loop</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-chatter-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Collaboration Options"/>
+         <othermeta name="shortdesc"
+                    content="Provides an overview of collaboration options available in the Chatter interface to support content discussions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="collaboration-panel;discussion-thread;interaction-controls;team-participants;document-items;review-environment"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="collaboration,discussion,review,team-interaction,chatter,engagement"/>
+         <othermeta name="usecase"
+                    content="exploring and using collaboration modes for document discussions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The following collaboration options are available in X-Author Chatter Online.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Collaboration Options</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>All</p>
+                     </entry>
+                     <entry>
+                        <p>Everyone in your organization who is on Chatter will see the content you share in the feed.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Groups</p>
+                     </entry>
+                     <entry>
+                        <p>You can select one group at a time to share the file with and everyone belonging to that group will have visibility into the file being shared.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Followers of you and who you follow</p>
+                     </entry>
+                     <entry>
+                        <p>You can select a single person to share the file with in your feed. If you want to share with a large number of people you should use a group, otherwise you will have to repeat the step of selecting individuals to share the feed with.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

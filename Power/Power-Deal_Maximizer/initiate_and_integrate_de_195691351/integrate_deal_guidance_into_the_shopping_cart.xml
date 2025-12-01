@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t272FB5A-BDF2-11F0-1932-09173F13E4C5" xml:lang="en">
+   <title>Integrate Deal Guidance into the Shopping Cart</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>shopping-cart</indexterm>
+            <indexterm>custom-settings</indexterm>
+            <indexterm>deal-guidance-rules</indexterm>
+            <indexterm>dimension-sets</indexterm>
+            <indexterm>guidance-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>integrate-deal-guidance</indexterm>
+            <indexterm>manage-custom-settings</indexterm>
+            <indexterm>create-deal-guidance-rules</indexterm>
+            <indexterm>map-dimensions-to-rules</indexterm>
+            <indexterm>deploy-guidance-engine</indexterm>
+            <indexterm>validate-guidance-in-cart</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>sales-quote-process</indexterm>
+            <indexterm>configuration-management</indexterm>
+            <indexterm>enterprise-sales-workflow</indexterm>
+            <indexterm>shopping-cart-integration</indexterm>
+            <indexterm>deal-optimization-usecase</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Integrate Deal Guidance into the Shopping Cart"/>
+         <othermeta name="shortdesc"
+                    content="Configure custom settings and rules to integrate deal guidance and dimension mapping so guidance appears and updates in the shopping cart."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="custom-settings;deal-guidance-rules;dimension-sets;shopping-cart;guidance-engine;mapping-tables"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="deal-guidance,custom-settings,dimension-mapping,deal-rules,shopping-cart,guidance-engine"/>
+         <othermeta name="usecase" content="integrate-deal-guidance-into-shopping-cart"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>Setup</uicontrol>
+                  <uicontrol>App Setup</uicontrol>
+                  <uicontrol>Develop</uicontrol>
+                  <uicontrol>Custom Settings</uicontrol>
+               </menucascade> and click <uicontrol>Manage</uicontrol> for Config Custom
+               Classes.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Edit</uicontrol> for Custom Classes.</p>
+         </li>
+         <li>
+            <p>In the Deal Maximizer Callback Class enter
+                     <i>
+                  <userinput>Apttus_CPQOpti.DealMaximizerCallback</userinput>
+               </i>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>. </p>
+         </li>
+      </ol>
+      <result id="result_df5_d33_rcc">Deal guidance information can now be displayed in the shopping
+         cart when it is available.</result>
+      <div>
+         <p>You can now configure color bands, dimensions, dimension sets, and deal guidance rules.</p>
+      </div>
+   </body>
+</topic>

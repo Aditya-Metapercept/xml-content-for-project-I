@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c37FEFEE-BDF3-11F0-1729-09173F13E4C5" xml:lang="en-us">
+   <title>Location of controls</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T12:00:00+05:30"/>
+         <revised modified="2025-11-15T12:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,trainers,service-technicians,safety-officers,industrial-engineers"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>operator-controls</indexterm>
+            <indexterm>dashboard-panel</indexterm>
+            <indexterm>joystick-module</indexterm>
+            <indexterm>display-unit</indexterm>
+            <indexterm>control-location-identification</indexterm>
+            <indexterm>pre-start-checks</indexterm>
+            <indexterm>control-calibration</indexterm>
+            <indexterm>fault-diagnosis</indexterm>
+            <indexterm>user-training-steps</indexterm>
+            <indexterm>operator-station</indexterm>
+            <indexterm>ergonomic-layout</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>safety-interlocks</indexterm>
+            <indexterm>site-operational-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Location of controls"/>
+         <othermeta name="shortdesc"
+                    content="Describes the position and function of operator controls and display elements for safe operation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="joystick;pedals;dashboard;visual-indicators;control-switches"/>
+         <othermeta name="taxonomy"
+                    content="domain:operations;usecase:control-identification;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="controls,operator,layout,safety"/>
+         <othermeta name="usecase" content="identify-controls-and-understand-functions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig id="fig_f3p_dxr_5gc">
+         <image href="media/image252.png" id="image_l3p_dxr_5gc" placement="inline"/>
+         <ol id="items_qqc_33q_wgc">
+            <li>
+                1
+                
+                  AM button: Select AM Radio mode.
+              </li>
+            <li>
+                2
+                
+                  FM button: Select FM Radio mode.
+              </li>
+            <li>
+                3
+                USB button: Select USB player.
+              </li>
+            <li>
+                4
+                AUX  button: Select AUX mode.
+              </li>
+            <li>
+                5
+                POWER/MUTE <image href="media/image244.png" id="image_rzx_p3q_wgc" placement="inline"/> button with VOLUME dial:
+                  Turn the power on or mute function on/off (press); turn the power off (press and
+                  hold); control the volume level (rotate).
+              </li>
+            <li>
+                6
+                Display window for Play/Reception/Menu state and information.
+              </li>
+            <li>
+                7
+                
+                  <ul id="ul_uwd_s3q_wgc">
+                  <li>PRESET [1∥] - [6 D+] buttons<p>Radio mode: Recall each stored
+                        station(press); store each station (press and hold)</p>
+                     <p>USB mode: Change the
+                          playback mode ([1∥]/[2 RPT]/[3 RDM] buttons); shows available information about
+                          the current track ([4INFO] button); move to folder down/up ([5 D-]/[6 D+]
+                          buttons).</p>
+                  </li>
+               </ul>
+            </li>
+            <li>
+                8
+                
+                  <ul id="ul_ty1_v3q_wgc">
+                  <li>SCN/AST button with│◀◀ TUNE/TRACK ▶▶│dial <itemgroup>
+                        <p>Radio mode: Plays frequencies with superior reception for 5 seconds each
+                          (press); Saves frequencies with superior reception to Preset buttons (press
+                          and hold). select the reception frequency manually (rotate).</p>
+                        <p>USB mode: Scans the beginning parts (approx. 10 seconds per track) of tracks
+                          (press); moves to the previous/next track (rotate); rewind or fast- forward
+                          the track (rotate and hold).</p>
+                     </itemgroup>
+                  </li>
+               </ul>
+            </li>
+            <li>
+                9
+                LOUD button: Turn the Loudness mode on/off.
+              </li>
+            <li>
+                10
+                MENU button: Enter the sound setting mode (press); show/hide the clock
+                  or when power is off, enter the clock setting mode (press and hold).
+              </li>
+            <li>
+                11 <ul id="ul_msp_x3q_wgc">
+                  <li>Input Terminal cover: Open the cover to connect the external audio device
+                      or the USB device.<itemgroup>
+                        <ul id="ul_pvj_x3q_wgc">
+                           <li>AUX IN jack: Connect the external audio device.</li>
+                           <li>USB port: Connect the USB device.</li>
+                        </ul>
+                     </itemgroup>
+                  </li>
+               </ul>
+            </li>
+         </ol>
+      </fig>
+   </body>
+</topic>

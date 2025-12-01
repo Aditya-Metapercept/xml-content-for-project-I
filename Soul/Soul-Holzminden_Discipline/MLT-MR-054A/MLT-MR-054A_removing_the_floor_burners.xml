@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC8B10A2-BB9C-11F0-1937-09173F13E4C5" xml:lang="en-us">
+   <title>Removing the Floor Burners</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>floor-burner</indexterm>
+            <indexterm>burner-assembly</indexterm>
+            <indexterm>burner-control-skid</indexterm>
+            <indexterm>furnace</indexterm>
+            <indexterm>gas-line</indexterm>
+            <!-- Process layer -->
+            <indexterm>removing-floor-burners</indexterm>
+            <indexterm>isolation-procedure</indexterm>
+            <indexterm>gas-purging</indexterm>
+            <indexterm>unbolting</indexterm>
+            <indexterm>mechanical-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>furnace-maintenance</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Removing the Floor Burners — Task"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step task instructions to isolate, purge, unbolt, and remove the floor burners safely from the furnace system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="floor burner;gas line;burner skid;socket wrench;bench vise;ppe;isolation valves"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:burner-removal-task;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="burner-removal,task,procedure,purge,isolation"/>
+         <othermeta name="usecase" content="burner-removal-task"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Follow this procedure to remove the floor burners:</p>
+      </context>
+      <ol>
+         <li>
+            <note id="note_z1t_nfz_5cc">
+               <table id="table_h43_4fz_5cc">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="c2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Lockout tagout.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </note>
+            <p>Close and lockout tagout all the valves on the combustion safety skid and nitrogen
+               skid.</p>
+            <p>
+               <ul>
+                  <li>Follow plant requirements for lockout tagout.  </li>
+               </ul>
+               <p>
+                  <fig id="fig_ul3_wfz_5cc">
+                     <image href="media/image1.jpg"
+                            placement="break"
+                            id="image_vl3_wfz_5cc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Shut off the individual burner gas and oxygen valves on all three burner control skids.</p>
+            <p>
+               <ul>
+                  <li>The gas and oxygen lines are automatically purged when the burner is turned off.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>In DFC, go to the Melter Cooling H3C screen and click the <uicontrol>Burner
+                  Skid</uicontrol> tab.</p>
+            <p>
+               <ul>
+                  <li>Click the <uicontrol>BNRx-WTR-FL</uicontrol> button.</li>
+                  <li>Click the <uicontrol>Alarming</uicontrol> tab.</li>
+                  <li>Check the <uicontrol>Shelved</uicontrol> checkbox to disable the burner
+                     cooling water alarm.</li>
+               </ul>
+               <p>
+                  <fig id="fig_l2k_lgz_5cc">
+                     <image href="media/image2.jpg"
+                            placement="break"
+                            id="image_m2k_lgz_5cc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+            <ol id="substeps_ft1_cgz_5cc">
+               <li>
+                  <p>Turn off the burner cooling water booster pumps at the local
+                     disconnects.</p>
+               </li>
+               <li>
+                  <p>Shut off the individual burner cooling water supply and return valves that
+                     are located underneath the melter.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <note id="note_ujg_ngz_5cc">
+               <table id="table_vjg_ngz_5cc">
+                  <tgroup cols="3">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                     <colspec colname="c2" colnum="3" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                           <entry/>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <p>PPE Required: Cut resistant gloves.</p>
+               <p>Tools Required: Socket wrench, bucket</p>
+            </note>
+            <p/>
+            <ol id="substeps_itj_qgz_5cc">
+               <li>
+                  <p>Remove the gas, oxygen, and cooling water lines from the burner.</p>
+                  <p>
+                     <ul id="ul_rwp_sgz_5cc">
+                        <li>Pull each loop to release the safety latches.</li>
+                        <li>Insert a blank into each line to prevent debris from entering. </li>
+                     </ul>
+                     <p>
+                        <fig id="fig_iht_wgz_5cc">
+                           <image href="media/image3.jpg"
+                                  placement="break"
+                                  id="image_jht_wgz_5cc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <note id="note_dt5_ygz_5cc">
+                     <table id="table_et5_ygz_5cc">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="1*"/>
+                           <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                           <tbody>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>Caution: Burners are heavy. </p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </note>
+                  <p>Remove the 4 bolts securing each burner.</p>
+                  <p>
+                     <ul id="ul_ntb_fhz_5cc">
+                        <li>Maintain upward pressure so that the burner does not fall.</li>
+                        <li>Carefully lower the burner, and place the burner in a safe space.</li>
+                        <li>If the burner is stuck, two jackbolts can be installed to push apart the
+                           flanges.</li>
+                     </ul>
+                     <note type="note" id="note_nkc_hhz_5cc">
+                        <p>The burner weighs in excess of  9 kg (20 lb ).</p>
+                     </note>
+                     <ul id="ul_ohb_lhz_5cc">
+                        <li>Hold the burner by the stem. </li>
+                        <li> Do not hold the burner by the sparger tube. </li>
+                     </ul>
+                     <p>
+                        <fig id="fig_bb1_4hz_5cc">
+                           <image href="media/image4.jpg"
+                                  placement="break"
+                                  id="image_cb1_4hz_5cc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Inspect the burner for physical damage and wear.  This includes but is not limited to:</p>
+            <p>
+               <ul>
+                  <li>Cracked or dented burners may require replacement.</li>
+                  <li>Look for evidence of moisture to find small cracks.</li>
+                  <li>Burners with metal contamination must be replaced.</li>
+                  <li>Inspect for erosion on the inside and outside of the burner tip.</li>
+                  <li>The burner wall thickness is 2.1 mm (0.083 inch).  </li>
+               </ul>
+               <p>
+                  <fig id="fig_xwt_phz_5cc">
+                     <image href="media/image5.jpg"
+                            placement="break"
+                            id="image_ywt_phz_5cc"
+                            align="center"/>
+                  </fig>
+               </p>
+               <p>
+                  <fig id="fig_jgw_qhz_5cc">
+                     <image href="media/image6.jpg"
+                            placement="break"
+                            id="image_w5r_rhz_5cc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Repeat this procedure for each burner.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

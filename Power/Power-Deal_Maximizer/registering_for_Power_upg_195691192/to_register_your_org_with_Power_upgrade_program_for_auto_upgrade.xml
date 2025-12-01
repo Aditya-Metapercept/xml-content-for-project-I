@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t27394E1-BDF2-11F0-1525-09173F13E4C5" xml:lang="en">
+   <title>To register your org with Power Upgrade Program for auto-upgrade</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>power-upgrade-program</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>auto-upgrade-service</indexterm>
+            <indexterm>upgrade-program-portal</indexterm>
+            <!-- Process layer -->
+            <indexterm>register-org</indexterm>
+            <indexterm>org-registration-flow</indexterm>
+            <indexterm>program-enrolment</indexterm>
+            <indexterm>version-eligibility-check</indexterm>
+            <indexterm>post-registration-validation</indexterm>
+            <indexterm>notification-handshake</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>upgrade-eligibility</indexterm>
+            <indexterm>org-admin-usecase</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Register your org with Power Upgrade Program for auto-upgrade"/>
+         <othermeta name="shortdesc"
+                    content="This section provides a high-level flow of the org registration for the Power Upgrade Program and points to program documentation for a comprehensive overview of features."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="organization;admin-user;upgrade-program;subscription-record;version-eligibility;notification-endpoint"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="auto-upgrade,org-registration,upgrade-eligibility,program-enrolment,release-management"/>
+         <othermeta name="usecase" content="register-org-for-power-upgrade-program"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>This section provides a high-level flow of the org registration process and early feedback programs. Refer to <i>Power Upgrade Program documentation</i> for a comprehensive overview of features.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Launch the <xref href="https://pushupgrades.Powercloud.com"
+                     format="html"
+                     scope="external">
+                  <u>Power Upgrade Program's registration page</u>
+               </xref>. </p>
+         </li>
+         <li>
+            <p>Select your Salesforce org type (<uicontrol>Production </uicontrol>or
+                  <uicontrol>Sandbox</uicontrol>). </p>
+            <stepresult>The Salesforce login page is displayed.</stepresult>
+         </li>
+         <li>
+            <p>Enter your credentials and click <uicontrol>Login</uicontrol>. </p>
+            <stepresult>You are redirected to the connected app called <uicontrol>Power Push Upgrade
+                  CA</uicontrol>, which prompts you to allow access to the org
+               information.</stepresult>
+         </li>
+         <li>
+            <p>Click <uicontrol>Allow</uicontrol>.</p>
+            <stepresult>The org registration form is displayed.</stepresult>
+         </li>
+         <li>
+            <p>Click <uicontrol>Set Package Access Control </uicontrol>to set the accessibility
+               for Power packages to be upgraded with Power Upgrade Program.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Submit</uicontrol>.</p>
+            <p>
+               <p>The <uicontrol>Early Feedback</uicontrol> pop-up is displayed. In addition, Power
+                  sends an email notification to the system administrator on successful registration
+                  with a list of packages (including dependent packages, if any) handled in the
+                  upgrade process.</p>
+               <note type="note">
+                  <p>The early feedback program executes a test suite to check if the customizations
+                     in your org are compatible with the upgrade. For more information, see the
+                        <xref href="https://documentation.Power.com/push-upgrade/summer-21/Power-automation-early-feedback-program-152572477.html"
+                           format="html"
+                           scope="external">
+                        <u>Power Automation Early Feedback
+                        program.</u>
+                     </xref>
+                  </p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Try Now</uicontrol>. A <uicontrol>Power Automation Dashboard</uicontrol> is displayed with a <uicontrol>Quick Guide</uicontrol> pop-up. Click <uicontrol>Yes </uicontrol>to go through the quick tour of the dashboard.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Click to see the test to</uicontrol> view a list of tests to be
+               executed for your org.</p>
+            <stepresult>A <uicontrol>List of Tests</uicontrol> pop-up is displayed.</stepresult>
+         </li>
+         <li>
+            <p>Enter your Email ID and Organization Name. You can enter multiple email ids.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Trigger Welcome Email</uicontrol>. </p>
+            <stepresult>Power sends a welcome email to the email ids entered in the previous step
+               with a list of tests performed in the early feedback program.</stepresult>
+         </li>
+         <li>
+            <p>Click <uicontrol>Proceed</uicontrol>.</p>
+            <stepresult>A <uicontrol>Power Services Test Automation Execution Page</uicontrol> is
+               displayed.</stepresult>
+         </li>
+         <li>
+            <p>Click the checkbox next to the Job ID and click <uicontrol>Begin Test Execution </uicontrol>to run the predefined automated test suite against your org. </p>
+         </li>
+      </ol>
+      <div>
+         <p>For the latest information on Power Upgrade Program, see <xref href="https://documentation.Power.com/push-upgrade/2022.4.0/Power-upgrade-program-193698855.html"
+                  format="html"
+                  scope="external">
+               <u>Power Upgrade Program documentation</u>
+            </xref>.</p>
+      </div>
+   </body>
+</topic>

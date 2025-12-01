@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3795D51-BDF3-11F0-8632-09173F13E4C5" xml:lang="en-us">
+   <title>Display window</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T11:00:00+05:30"/>
+         <revised modified="2025-11-14T11:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,training-personnel"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>display-window</indexterm>
+            <indexterm>operator-display</indexterm>
+            <indexterm>lcd-panel</indexterm>
+            <indexterm>display-housing</indexterm>
+            <!-- Process layer -->
+            <indexterm>display-diagnostics</indexterm>
+            <indexterm>backlight-replacement</indexterm>
+            <indexterm>firmware-update</indexterm>
+            <indexterm>cleaning-procedure</indexterm>
+            <indexterm>screen-calibration</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-feedback</indexterm>
+            <indexterm>fault-indication</indexterm>
+            <indexterm>environmental-dust-control</indexterm>
+            <indexterm>usability-ergonomics</indexterm>
+            <indexterm>maintenance-troubleshooting</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Display window"/>
+         <othermeta name="shortdesc"
+                    content="Information on the operator display window: indicators, diagnostics, cleaning and replacement guidance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="display module;lcd;backlight;connector;firmware"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery;usecase:operator-interface-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="display, diagnostics, cleaning, firmware, operator-interface"/>
+         <othermeta name="usecase" content="inspect-and-troubleshoot-operator-display"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image285.png" placement="inline"/>
+         <ol id="items_mvh_djq_wgc">
+            <li>1 USB/AUX indicators: When the External Device is connected, indicator is
+                    lights up.
+                </li>
+            <li>2 MP3/WMA indicators: When the Audio Stream is detected, indicator is
+                    lights up.
+                </li>
+            <li>3 Stereo [ST] indicator for FM stereo station: When a stereo Broadcast is
+                    received, indicator is lights up.
+                </li>
+            <li>4 <ul id="ul_hjq_gjq_wgc">
+                  <li>Playback mode indicators for USB mode<itemgroup>
+                        <ul id="ul_ebf_fjq_wgc">
+                           <li>
+                              <image href="media/image246.png" id="image_fbf_fjq_wgc" placement="inline"/> : Folder mode</li>
+                           <li>
+                              <image href="media/image247.png" id="image_gbf_fjq_wgc" placement="inline"/> : Intro
+                              playback</li>
+                           <li>
+                              <image href="media/image248.png" id="image_hbf_fjq_wgc" placement="inline"/> : Repeat
+                              playback</li>
+                           <li>
+                              <image href="media/image249.png" id="image_ibf_fjq_wgc" placement="inline"/> : Random
+                              playback</li>
+                        </ul>
+                     </itemgroup>
+                  </li>
+               </ul>
+            </li>
+            <li>5 <ul id="ul_qkl_hjq_wgc">
+                  <li>LOUD/EQ indicators for sound effect<itemgroup>
+                        <ul id="ul_oc4_fjq_wgc">
+                           <li>LOUD: Loudness mode on</li>
+                           <li>EQ: EQ mode on</li>
+                        </ul>
+                     </itemgroup>
+                  </li>
+               </ul>
+            </li>
+            <li>6 Multi-function display area for showing the information
+                </li>
+         </ol>
+      </fig>
+   </body>
+</topic>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ApttusSTPHomepageTonavigatetoApttusSTPhomepage" xml:lang="en">
+   <title>To navigate to Apttus STP home page</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>supplier-relationship-manager</indexterm>
+            <indexterm>salesforce-org</indexterm>
+            <indexterm>force-com-navigation</indexterm>
+            <indexterm>stp-homepage-access</indexterm>
+            <!-- Process Layer -->
+            <indexterm>login-to-salesforce</indexterm>
+            <indexterm>accessing-stp-homepage</indexterm>
+            <indexterm>force-com-menu-selection</indexterm>
+            <indexterm>ui-navigation-steps</indexterm>
+            <indexterm>application-launch-process</indexterm>
+            <indexterm>supplier-portal-navigation</indexterm>
+            <!-- Context Layer -->
+            <indexterm>salesforce-platform</indexterm>
+            <indexterm>cloud-applications</indexterm>
+            <indexterm>supplier-management-environment</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+            <indexterm>supplier-engagement-platform</indexterm>
+            <indexterm>online-enterprise-systems</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To navigate to Apttus STP home page"/>
+         <othermeta name="shortdesc"
+                    content="This task describes how to log into Salesforce and navigate through the Force.com menu to access the Apttus STP home page."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="salesforce;force com menu;apttus supplier relationship manager;stp home page;login credentials;user interface navigation"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:navigate-to-stp-homepage;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="salesforce,stp-navigation,login,force-com,supplier-portal,ui-navigation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Log in to your <uicontrol>Salesforce</uicontrol> org using Salesforce provided credentials.</p>
+         </li>
+         <li>
+            <p>From the <xref href="http://force.com/" format="html" scope="external">Force.com</xref> dropdown menu, click </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="20"
+                         href="../attachments/69206018/69206117.png"/>
+               </fig> and select <uicontrol>Apttus Supplier Relationship Manager.</uicontrol>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         href="../attachments/69206018/69206165.png"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

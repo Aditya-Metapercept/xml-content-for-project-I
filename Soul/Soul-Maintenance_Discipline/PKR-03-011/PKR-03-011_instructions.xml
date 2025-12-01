@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC94A9B7-BB9C-11F0-7030-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>stretch-wrapper</indexterm>
+            <indexterm>motor</indexterm>
+            <indexterm>gearbox</indexterm>
+            <indexterm>bearing</indexterm>
+            <indexterm>control-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspect-chain-sprockets</indexterm>
+            <indexterm>clean-sensors</indexterm>
+            <indexterm>adjust-belt-tension</indexterm>
+            <indexterm>replace-rollers</indexterm>
+            <indexterm>test-limit-switch</indexterm>
+            <!-- Context layer -->
+            <indexterm>metR-PKR-Soul</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PKR-03-011_instructions"/>
+         <othermeta name="shortdesc"
+                    content="Operational and maintenance instructions for the equipment; step-by-step procedures for technicians and operators."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="gearbox;wrap"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:operational-and-maintenance-instructions;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="stretch-wrapper,inspect-chain-sprockets,clean-sensors"/>
+         <othermeta name="usecase" content="operational-and-maintenance-instructions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol id="steps_cp1_pmx_ncc">
+         <li>
+            <p>Before starting the work instruction activity, perform the following steps:</p>
+            <ol id="substeps_ynh_qmx_ncc">
+               <li>
+                  <p>Do not begin these tasks without confirmation that the personnel directly
+                     involved have completed the required training associated with the work
+                     instruction activity and have reviewed this document.</p>
+               </li>
+               <li>
+                  <p>Gather necessary tools and equipment as identified below in the Equipment
+                     Section.</p>
+               </li>
+               <li>
+                  <p>Wear and use any additional Personal Protective Equipment (PPE) and safety
+                     equipment required for this specific work instruction.</p>
+               </li>
+               <li>
+                  <p>Obey all applicable safety requirements and procedures.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel of the activity and the estimated time
+                     needed to complete the tasks.</p>
+               </li>
+               <li>
+                  <p>Follow all Lockout/Tagout procedures when work instruction activity requires
+                     isolating energy in the designated area. Visually inspect and confirm that the
+                     energy is isolated before starting work.</p>
+               </li>
+               <li>
+                  <p>Only after all energy is verified to be isolated, can the protective guarding
+                     be removed and safety interlock gates be opened.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To maintain wrappers, perform the following steps:</p>
+            <ol id="substeps_yvv_smx_ncc">
+               <li>
+                  <p>Ensure that any outstanding maintenance that is identified on the monthly
+                     maintenance inspection is completed. Refer to PKR-03-009 Stretch Wrapper
+                     Monthly Maintenance.</p>
+               </li>
+               <li>
+                  <p>Change the gearbox oil according to the manufacturer’s specification.</p>
+               </li>
+               <li>
+                  <p>Collect a sample of the old oil and send it to plant-specified testing
+                     facility.</p>
+               </li>
+               <li>
+                  <p>If anything is found to be out of specification, notify the appropriate SAP
+                     PM contact to issue a planned work order.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Upon completion of tasks, perform the following steps:</p>
+            <ol id="substeps_khg_5mx_ncc">
+               <li>
+                  <p>Replace protective guarding and close the safety interlock gates.</p>
+               </li>
+               <li>
+                  <p>Confirm that the designated work area is clear and communicate to personnel
+                     the intent to restart energy.</p>
+               </li>
+               <li>
+                  <p>After the designated work area is confirmed clear and personnel are aware of
+                     the pending restart, follow all Lockout/Tagout procedures to restart energy
+                     supplied to the designated area. Visually inspect that the energy is
+                     active.</p>
+               </li>
+               <li>
+                  <p>Perform basic housekeeping duties. Clean up the work space, tools, and
+                     equipment. Dispose of trash. Put tools and equipment in their assigned areas.
+                  </p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel that the work instruction activity has been
+                     completed</p>
+               </li>
+               <li>
+                  <p>Record and report findings and results.</p>
+               </li>
+               <li>
+                  <p>Follow appropriate instructions for the notification of findings and results
+                     relating to specifications, targets, and/or reaction limits.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

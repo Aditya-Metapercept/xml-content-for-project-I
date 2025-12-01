@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheStaticSwitchControllerBoa-4A33E9A6" xml:lang="en">
+   <title>Replace the Static Switch Controller Board 0J–0P2560</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+      <keyword>10 kVA</keyword>
+      <keyword>20 kVA</keyword>
+      <keyword>30 kVA</keyword>
+      <keyword>40 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>60 kVA</keyword>
+      <keyword>80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance,engineering,production,safety,quality,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>static-switch-controller-board-0j-0p2560</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>interface-plate</indexterm>
+            <indexterm>ups-electronics-bay</indexterm>
+            <indexterm>auxiliary-control-board</indexterm>
+            <indexterm>wiring-harness-assembly</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-static-switch-controller-board</indexterm>
+            <indexterm>remove-interface-plate</indexterm>
+            <indexterm>disconnect-interface-board-cables</indexterm>
+            <indexterm>slide-out-interface-plate</indexterm>
+            <indexterm>disconnect-controller-board-cables</indexterm>
+            <indexterm>slide-out-controller-board</indexterm>
+            <indexterm>cut-voltage-configuration-connections</indexterm>
+            <indexterm>configure-board-for-system-phase</indexterm>
+            <indexterm>reverse-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>10-80-kva-ups-systems</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>field-service-maintenance</indexterm>
+            <indexterm>electrical-servicing</indexterm>
+            <indexterm>arc-flash-safety</indexterm>
+            <indexterm>ppe-requirements</indexterm>
+            <indexterm>internal-energy-source</indexterm>
+            <indexterm>hazardous-voltage-zones</indexterm>
+            <indexterm>wiring-identification</indexterm>
+            <indexterm>board-orientation</indexterm>
+            <indexterm>phase-configuration</indexterm>
+            <indexterm>voltage-configuration</indexterm>
+            <indexterm>component-handling-esd</indexterm>
+            <indexterm>capacitor-discharge-protocol</indexterm>
+            <indexterm>earthing-and-bonding</indexterm>
+            <indexterm>equipment-isolation</indexterm>
+            <indexterm>three-phase-ups-setup</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replace the Static Switch Controller Board 0J–0P2560"/>
+         <othermeta name="shortdesc"
+                    content="This procedure explains how to remove the interface plate, disconnect cabling, slide out the interface and controller boards, and configure and install the replacement Static Switch Controller Board 0J–0P2560 in 10–80 kVA UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static-switch-controller-board-0j-0p2560;interface-board;interface-plate;auxiliary-control-board;ups-electronics-bay;wiring-harness-assembly;phase-configuration-table;voltage-setting-connectors;mounting-screws;hazardous-voltage-terminals"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-component-replacement;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-switch-controller-board,interface-board,ups-maintenance,electrical-safety,board-removal,phase-configuration,voltage-configuration,wiring-identification,component-replacement"/>
+         <othermeta name="usecase" content="component-replacement-and-verification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnect device marked
+for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 80
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Loosen the six screws and remove the indicated plate.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_interface_board_remove_plate_in_front_of_board_0000102051.png"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the interface
+board and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Loosen the four bolts and the nut and slide out the interface
+plate with the interface board.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_sbs_conbox_0j-0n-0909_remove_interface_plate_and_board_0000102158.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the static
+switch controller board and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Loosen the nine screws and slide out the static switch
+controller board.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_static_switch_controller_board_slide_out_the_board_0000102155.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>On the new replacement static switch controller board:</p>
+            <ol>
+               <li>
+                  <p>Cut the 127 V and 220 V connections.</p>
+               </li>
+               <li>
+                  <p>Cut the connections as per the UPS system configuration
+as shown in the table below.</p>
+                  <stepxmp>
+                     <table pgwide="1">
+                        <tgroup cols="7">
+                           <colspec colname="col1" colwidth="61.00pt"/>
+                           <colspec colname="col2" colwidth="61.00pt"/>
+                           <colspec colname="col5" colwidth="61.00pt"/>
+                           <colspec colname="col6" colwidth="61.00pt"/>
+                           <colspec colname="col7" colwidth="61.00pt"/>
+                           <colspec colname="col8" colwidth="61.00pt"/>
+                           <colspec colname="col9" colwidth="61.00pt"/>
+                           <tbody>
+                              <row>
+                                 <entry align="center" valign="bottom">Voltage</entry>
+                                 <entry align="center" valign="bottom">Phase</entry>
+                                 <entry align="center" valign="middle">1</entry>
+                                 <entry align="center" valign="middle">2</entry>
+                                 <entry align="center" valign="middle">3</entry>
+                                 <entry align="center" valign="middle">4</entry>
+                                 <entry align="center" valign="middle">5</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">220</entry>
+                                 <entry align="center" valign="middle">1–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">230</entry>
+                                 <entry align="center" valign="middle">1–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">240</entry>
+                                 <entry align="center" valign="middle">1–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">380</entry>
+                                 <entry align="center" valign="middle">3–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">400</entry>
+                                 <entry align="center" valign="middle">3–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                              </row>
+                              <row>
+                                 <entry align="center" valign="middle">415</entry>
+                                 <entry align="center" valign="middle">3–phase</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                                 <entry align="center" valign="middle">-</entry>
+                                 <entry align="center" valign="middle">cut connection</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </stepxmp>
+               </li>
+               <li>
+                  <p>On a 3–phase UPS system configuration: Cut the
+connection.</p>
+               </li>
+               <li>
+                  <p>Cut the three connections.</p>
+                  <stepxmp>
+                     <fig expanse="page">
+                        <title>0P2560 Static Switch Controller Board</title>
+                        <image href="../Images/0p2560_with_callouts_0000160529.svg" placement="inline"/>
+                     </fig>
+                  </stepxmp>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+static switch controller board.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

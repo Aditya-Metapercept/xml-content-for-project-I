@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r3893A91-BDF3-11F0-2095-09173F13E4C5" xml:lang="en-us">
+   <title>Noise</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T16:10:00+05:30"/>
+         <revised modified="2025-11-15T16:10:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="safety-and-compliance-officers, maintenance-personnel, reliability-engineers, machine-operators, management"/>
+         <keywords><!-- product layer -->
+            <indexterm>engine-assembly</indexterm>
+            <indexterm>transmission</indexterm>
+            <indexterm>hydraulic-pump</indexterm>
+            <indexterm>exhaust-system</indexterm>
+            <indexterm>cabins-and-panels</indexterm>
+            <!-- process layer -->
+            <indexterm>noise-level-measurement</indexterm>
+            <indexterm>vibration-diagnostic</indexterm>
+            <indexterm>noise-reduction-measures</indexterm>
+            <indexterm>insulation-installation</indexterm>
+            <indexterm>component-balancing</indexterm>
+            <!-- context layer -->
+            <indexterm>occupational-safety</indexterm>
+            <indexterm>operator-comfort</indexterm>
+            <indexterm>regulatory-noise-limits</indexterm>
+            <indexterm>industrial-plant-environment</indexterm>
+            <indexterm>fleet-operational-standards</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Noise — diagnosis and mitigation"/>
+         <othermeta name="shortdesc"
+                    content="Methods to measure, diagnose and reduce noise sources on powered lift trucks and related equipment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="engine;hydraulic-pump;exhaust;cab-panel;vibration-sensor"/>
+         <othermeta name="taxonomy"
+                    content="domain:noise-and-vibration;usecase:measurement-and-mitigation;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="noise, vibration, measurement, mitigation"/>
+         <othermeta name="usecase" content="measure-and-reduce-equipment-noise"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table colsep="1" frame="all" rowsep="1">
+            <tgroup cols="7">
+               <colspec colname="col1" colnum="1" colwidth="1.2*"/>
+               <colspec colname="col2" colnum="2" colwidth="0.9*"/>
+               <colspec colname="col3" colnum="3" colwidth="0.6*"/>
+               <colspec colname="col4" colnum="4" colwidth="1*"/>
+               <colspec colname="col5" colnum="5" colwidth="0.9*"/>
+               <colspec colname="col6" colnum="6" colwidth="1*"/>
+               <colspec colname="col7" colnum="7" colwidth="1.4*"/>
+               <thead>
+                  <row>
+                     <entry morerows="2" nameend="col2" namest="col1">Model</entry>
+                     <entry nameend="col7" namest="col3">Noise Level [Unit : dB(A)]</entry>
+                  </row>
+                  <row>
+                     <entry nameend="col4" namest="col3">Sound Pressure Level at Operator’s ear (Leq.)</entry>
+                     <entry nameend="col6" namest="col5">Sound Pressure Level at By-stander position (AS
+                  3713)</entry>
+                     <entry morerows="1">Guaranteed Sound Power Level (LWA) by new Directive 2000/14/EC</entry>
+                  </row>
+                  <row>
+                     <entry>AS 3713</entry>
+                     <entry>prEN 12053</entry>
+                     <entry>Drive-By</entry>
+                     <entry>Lifting Mode</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry morerows="1">
+                        <p>CD100/120/140</p>
+                        <p>/160S-7</p>
+                     </entry>
+                     <entry>W/O Cabin</entry>
+                     <entry>78.3</entry>
+                     <entry>82.8</entry>
+                     <entry>83</entry>
+                     <entry>86</entry>
+                     <entry>104</entry>
+                  </row>
+                  <row>
+                     <entry>With Cabin</entry>
+                     <entry>75.0</entry>
+                     <entry>75.0</entry>
+                     <entry>83</entry>
+                     <entry>84</entry>
+                     <entry>104</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>* Test Model: CD160S-7</p>
+      </section>
+   </body>
+</topic>

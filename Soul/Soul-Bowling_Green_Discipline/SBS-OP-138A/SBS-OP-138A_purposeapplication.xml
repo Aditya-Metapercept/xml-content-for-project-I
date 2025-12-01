@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC6657AE-BB9C-11F0-1091-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>belt-conveyor</indexterm>
+            <indexterm>idler</indexterm>
+            <indexterm>drive-station</indexterm>
+            <indexterm>tensioning-station</indexterm>
+            <indexterm>support-structure</indexterm>
+            <!-- Process layer -->
+            <indexterm>operation</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>purpose-definition</indexterm>
+            <indexterm>application-scope</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>equipment-application</indexterm>
+            <indexterm>safety-considerations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose/Application"/>
+         <othermeta name="shortdesc"
+                    content="Defines the purpose and operational application of the belt conveyor system, including its intended scope and function within the production process."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="belt-conveyor;idler;drive-station;tensioning-station;support-structure"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:sbs-op-138a_purposeapplication;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="purpose,application,belt-conveyor,scope,usecase"/>
+         <othermeta name="usecase" content="sbs-op-138a_purposeapplication"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Provides an overview of the belt conveyor.</p>
+   </body>
+</topic>

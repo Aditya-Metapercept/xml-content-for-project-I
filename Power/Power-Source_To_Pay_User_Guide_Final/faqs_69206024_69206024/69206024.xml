@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan742" xml:lang="en">
+   <title>FAQs</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>source-to-pay-faqs</indexterm>
+            <indexterm>supplier-help-content</indexterm>
+            <indexterm>sourcing-event-faqs</indexterm>
+            <indexterm>supplier-self-registration</indexterm>
+            <!-- Process Layer -->
+            <indexterm>rfi-rfq-access</indexterm>
+            <indexterm>survey-submission-process</indexterm>
+            <indexterm>event-status-check</indexterm>
+            <indexterm>response-editing</indexterm>
+            <indexterm>self-registration-steps</indexterm>
+            <indexterm>supplier-evaluation-process</indexterm>
+            <!-- Context Layer -->
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-surveys</indexterm>
+            <indexterm>prospective-supplier</indexterm>
+            <indexterm>supplier-registration</indexterm>
+            <indexterm>supplier-guidance</indexterm>
+            <indexterm>procurement-environment</indexterm>
+         </keywords>
+         <!-- Product info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General metadata -->
+         <othermeta name="title" content="FAQs"/>
+         <othermeta name="shortdesc"
+                    content="This section contains frequently asked questions and solutions to common errors for suppliers."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="rfi;rfq;event status;event phase;phase status;self-registration form;surveys;sourcing event;buyer;supplier request"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:faqs-and-troubleshooting;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="faqs,supplier-help,sourcing-event,rfi,rfq,self-registration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This section contains frequently asked questions. It also provides the solution to frequently occurring errors. This FAQs section is for Suppliers only.</p>
+      <ul id="ul_ftx_mql_zdc">
+         <li>
+            <p>Why can't I click RFI, RFQ, or Award tab?</p>
+            <p>You can view the sourcing event if the event is published by the buyer and if you're
+               invited to any particular event.</p>
+         </li>
+         <li>
+            <p>Can I edit the response after I've submitted the response?</p>
+            <p>Yes, you can edit the RFI or RFQ response, even after you've submitted the response.
+               You can edit your responses until the RFI or RFQ deadline ends.</p>
+         </li>
+         <li>
+            <p>How do I know the current status of the sourcing event?</p>
+            <p>The Event Status, Event Phase, and Phase Status indicate the current state of the
+               sourcing event.</p>
+            <p>For more information on Event Status, Event Phase, and Phase Status, refer to <xref href="../managing_strategic_sourci_69206019/69206019.xml" format="dita">Managing
+                  Strategic Sourcing</xref>.</p>
+         </li>
+         <li>
+            <p>How do I self-register myself with the system of my buyer?</p>
+            <p>Your buyer will provide you a self-registration link. It can be either or on your
+               buyer's website or your buyer sends you an email containing the link.</p>
+            <p>If you still don't get the link, contact your buyer.</p>
+         </li>
+         <li>
+            <p>Why do I see other surveys in my self-registration form?</p>
+            <p>The surveys depend on the type of supplier. A general information survey is added to
+               your self-registration form by default. The other surveys have been added by your
+               buyer. You must respond to all the mentioned surveys, in order to complete your
+               self-registration form. You must submit the form to the buyer to get evaluated.</p>
+         </li>
+         <li>
+            <p>How do I create a prospective supplier request?</p>
+            <p>You, as a supplier, can not create a prospective supplier request. Instead, try
+               self-registering yourselves with the buyer.</p>
+         </li>
+      </ul>
+   </body>
+</topic>

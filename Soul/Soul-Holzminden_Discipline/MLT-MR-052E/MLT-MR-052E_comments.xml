@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC880A90-BB9C-11F0-2098-09173F13E4C5" xml:lang="en-us">
+   <title>Comments</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ul>
+         <li>Use team lifting.</li>
+         <li>Read a section thoroughly before starting the work.  Personnel performing the tasks in this document must have completed the required training.</li>
+         <li>Personnel must receive EUP training before working in electrical panels.</li>
+      </ul>
+   </body>
+</topic>

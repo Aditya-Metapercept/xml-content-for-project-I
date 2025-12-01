@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38E470B-BDF3-11F0-1917-09173F13E4C5" xml:lang="en-us">
+   <title>Hydraulic Return Filter – Change</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:05:00+05:30"/>
+         <revised modified="2025-11-15T15:05:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Maintenance Personnel, Reliability Engineers, Industrial Engineers, Safety and Compliance officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>return-line-filter</indexterm>
+            <indexterm>filter-housing</indexterm>
+            <indexterm>hydraulic-reservoir</indexterm>
+            <indexterm>filter-element</indexterm>
+            <indexterm>hydraulic-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>filter-change</indexterm>
+            <indexterm>filter-cleaning</indexterm>
+            <indexterm>isolation-procedure</indexterm>
+            <indexterm>bleeding-procedure</indexterm>
+            <indexterm>filter-condition-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>fluid-filtration</indexterm>
+            <indexterm>mro-maintenance</indexterm>
+            <indexterm>fleet-reliability</indexterm>
+            <indexterm>industrial-plant</indexterm>
+            <indexterm>contamination-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="hydraulic return filter change"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to safely replace hydraulic return line filter element and verify system integrity after change."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="return-line-filter;filter-element;gaskets;filter-housing;bleed-port"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:filter-replacement;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="filter,return-line,hydraulic,maintenance"/>
+         <othermeta name="usecase" content="filter replacement and contamination control"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note type="warning">
+            <p>Hot oil and components can cause personal injury. Do not allow hot oil or components to
+        contact skin.</p>
+         </note>
+         <p>Park the lift truck level with the forks lowered, parking brake engaged, transmission in
+      NEUTRAL and the engine stopped.</p>
+         <fig id="fig_vv2_yyz_5gc">
+            <image href="media/image939.png" id="image_xv2_yyz_5gc" placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>Open the floor plate by tilting cabin.</p>
+         </li>
+         <li>
+            <p>Remove bolts ① and filter housing ②.</p>
+         </li>
+         <li>
+            <p>Remove and discard filter element from filter housing ②.</p>
+         </li>
+         <li>
+            <p>Clean the filter housing with a clean, nonflammable solvent.</p>
+         </li>
+         <li>
+            <p>Clean the housing base ③.</p>
+         </li>
+         <li>
+            <p>Insert a new filter element into the filter housing.</p>
+         </li>
+         <li>
+            <p>Inspect the filter housing seal. Replace if necessary.</p>
+         </li>
+         <li>
+            <p>Apply a small amount of clean oil to the filter element seal and housing seal.</p>
+         </li>
+         <li>
+            <p>Install the filter housing ② with filter to the housing base ③. Install bolts ① and
+        tighten 60 to 70 N·m (45 to 50 lb·ft).</p>
+         </li>
+         <li>
+            <p>Start the engine and operate the hydraulic controls, and the steering system, through a
+        few cycles to fill the lines. Look for oil leaks.</p>
+         </li>
+         <li>
+            <p>Stop the engine and check the oil level. With all cylinders retracted, maintain the oil
+        level to the FULL mark on the dip stick/filler cap assembly.</p>
+            <p>
+               <fig>
+                  <image href="media/image944a.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

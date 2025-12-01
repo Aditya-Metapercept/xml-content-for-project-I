@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t26EFFAC-BDF2-11F0-1640-09173F13E4C5" xml:lang="en">
+   <title>To set Field Dependencies</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>business-objects</indexterm>
+            <indexterm>guidance-dimension-set</indexterm>
+            <indexterm>deal-guidance-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-field-dependencies</indexterm>
+            <indexterm>map-guidance-types</indexterm>
+            <indexterm>edit-salesforce-objects</indexterm>
+            <indexterm>publish-field-mappings</indexterm>
+            <indexterm>validate-dependency-rules</indexterm>
+            <indexterm>deploy-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>rbac</indexterm>
+            <indexterm>documentation-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To set Field Dependencies"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for configuring field dependencies for Guidance Types on relevant Salesforce objects so that Deal Guidance displays context-appropriate fields and options."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="guidance-types;salesforce-objects;picklist-fields;field-dependency-matrix;business-objects;configuration-records"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="field-dependencies,guidance-types,salesforce,configuration,validation,deploy"/>
+         <othermeta name="usecase"
+                    content="configuration-of-field-dependencies-for-deal-guidance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>Setup</uicontrol>
+                  <uicontrol>App Setup</uicontrol>
+                  <uicontrol>Objects</uicontrol>
+                  <uicontrol>Deal Guidance Dimension Set</uicontrol>
+                  <uicontrol>Guidance Type</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Field Dependencies</uicontrol> section click
+                  <uicontrol>New</uicontrol>.</p>
+         </li>
+         <li>
+            <p>For <uicontrol>Controlling Field</uicontrol> select <i>Guidance Type</i> and for <uicontrol>Dependent Field</uicontrol> select <i>Business Object</i> and click <uicontrol>Continue</uicontrol>.</p>
+         </li>
+         <li>
+            <p>For <uicontrol>Deal Level</uicontrol> and <uicontrol>Line Level</uicontrol> include the following:</p>
+            <p>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <i>
+                                       <uicontrol>Deal Level</uicontrol>
+                                    </i>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <ul>
+                                       <li>
+                                          <i>Opportunity</i>
+                                       </li>
+                                       <li>
+                                          <i> Apttus__APTS_Agreement__c</i>
+                                       </li>
+                                       <li>
+                                          <i>Apttus_DealMgr__Deal__c</i>
+                                       </li>
+                                       <li>
+                                          <i>Apttus_Config2__ProductConfiguration__c</i>
+                                       </li>
+                                    </ul>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <i>
+                                       <uicontrol>Line Level</uicontrol>
+                                    </i>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <ul>
+                                       <li>
+                                          <i>Apttus__AgreementLineItem__c</i>
+                                       </li>
+                                       <li>
+                                          <i>Apttus_DealMgr__DealLineItem__c</i>
+                                       </li>
+                                       <li>
+                                          <i> Apttus_Config2__LineItem__c</i>
+                                       </li>
+                                    </ul>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <fig id="fig_g1h_dg3_rcc">
+                  <image height="195"
+                         placement="break"
+                         width="600"
+                         href="../attachments/195691317/195691315.png"
+                         id="image_h1h_dg3_rcc"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>. When you create a <uicontrol>Deal Guidance Dimension Set</uicontrol>, the appropriate deal and line level values will be displayed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

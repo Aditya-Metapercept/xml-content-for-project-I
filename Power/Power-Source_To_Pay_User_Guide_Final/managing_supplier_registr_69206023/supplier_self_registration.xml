@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingSupplierRegistration_SupplierSelf_Registration"
+       xml:lang="en">
+   <title>Supplier Self-Registration</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Source_To_Pay_User_Guide_Final"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>A Supplier Self-Registration is a type of supplier registration where a supplier registers himself on the company's website by himself. Supplier Self-Registration is majorly used by the suppliers to register themselves with the buyers. These registrations are then evaluated and approved by Stakeholders. The approved suppliers are provided login access to supplier portal. After you get your login access, your compliance is checked using the compliance surveys. </p>
+      <note type="tip">
+         <p>Use Case</p>
+         <p>Edward Jones, for an instance, is a representative of a company called Speaker World. You want to self-register for Amttus Mobile Solutions. You are a supplier of microphones.</p>
+         <p>Edward Jones visits the website of Amttus and clicks on self-registration link. He responds to the surveys provided by the buyer. Follow the steps as mentioned in below section.</p>
+         <p>General Information</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Field Name</p>
+                        </entry>
+                        <entry>
+                           <p>Values</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Company Name</p>
+                        </entry>
+                        <entry>
+                           <p>Speaker World</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Contact Name</p>
+                        </entry>
+                        <entry>
+                           <p>Edward Jones</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Tax ID</p>
+                        </entry>
+                        <entry>
+                           <p>12-122345</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Phone Number</p>
+                        </entry>
+                        <entry>
+                           <p>789-987-8833</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Fax Number</p>
+                        </entry>
+                        <entry>
+                           <p>789-987-8833</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Email</p>
+                        </entry>
+                        <entry>
+                           <p>
+                              <xref href="mailto:ejones@speakerworld.com"
+                                    format="html"
+                                    scope="external">ejones@speakerworld.com</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Website</p>
+                        </entry>
+                        <entry>
+                           <p>
+                              <xref href="http://speakerworld.com" format="html" scope="external">speakerworld.com</xref>
+                           </p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Address 1</p>
+                        </entry>
+                        <entry>
+                           <p>404, Margaret Thacker Lane, South</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Address 2</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Country</p>
+                        </entry>
+                        <entry>
+                           <p>USA</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>State</p>
+                        </entry>
+                        <entry>
+                           <p>California</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>City</p>
+                        </entry>
+                        <entry>
+                           <p>San Mateo</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Zip Code</p>
+                        </entry>
+                        <entry>
+                           <p>35964</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry namest="col1" nameend="col2">
+                           <p>Product and Service Location</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Industry</p>
+                        </entry>
+                        <entry>
+                           <p>Engineering</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Commodity</p>
+                        </entry>
+                        <entry>
+                           <p>Speakers</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Region</p>
+                        </entry>
+                        <entry>
+                           <p>West</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Comments</p>
+                        </entry>
+                        <entry>
+                           <p>Reference: Global Speakers</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>Microphone Survey</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Questions</p>
+                        </entry>
+                        <entry>
+                           <p>Responses</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Wireless Microphones?</p>
+                        </entry>
+                        <entry>
+                           <p>Yes</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>For what all activities is your microphone suitable?</p>
+                        </entry>
+                        <entry>
+                           <p>Speech</p>
+                           <p>Singing</p>
+                           <p>Vocal</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Select the polar pattern of your microphone.</p>
+                        </entry>
+                        <entry>
+                           <p>Supercardoid</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>What is warranty period of your product in months?</p>
+                        </entry>
+                        <entry>
+                           <p>24</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>What is cost (in $) of 1 unit of your product?</p>
+                        </entry>
+                        <entry>
+                           <p>200</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>What is cost (in $) of 100 units of your product?</p>
+                        </entry>
+                        <entry>
+                           <p>1,50,000</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Are you willing to provide 1 day delivery?</p>
+                        </entry>
+                        <entry>
+                           <p>Yes</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>What is cost of 1-day delivery in $?</p>
+                        </entry>
+                        <entry>
+                           <p>1500</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </note>
+   </body>
+</topic>

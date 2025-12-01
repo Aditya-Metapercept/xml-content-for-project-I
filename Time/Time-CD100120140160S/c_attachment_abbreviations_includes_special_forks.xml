@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c375A348-BDF3-11F0-1488-09173F13E4C5" xml:lang="en-us">
+   <title>Attachment Abbreviations (includes Special Forks)</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T10:29:00+05:30"/>
+         <revised modified="2025-11-14T10:29:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="operators,warehouse-supervisors,maintenance-personnel,fleet-managers,safety-officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>special-forks</indexterm>
+            <indexterm>attachments-catalogue</indexterm>
+            <indexterm>fork-extensions</indexterm>
+            <indexterm>attachment-mounting-kit</indexterm>
+            <!-- Process layer -->
+            <indexterm>attachment-selection</indexterm>
+            <indexterm>mounting-and-removal</indexterm>
+            <indexterm>load-capacity-check</indexterm>
+            <indexterm>attachment-compatibility-validation</indexterm>
+            <indexterm>inspection-before-use</indexterm>
+            <!-- Context layer -->
+            <indexterm>material-handling-operations</indexterm>
+            <indexterm>lift-capacity-management</indexterm>
+            <indexterm>warehouse-handling-scenarios</indexterm>
+            <indexterm>heavy-load-transport</indexterm>
+            <indexterm>mro-and-inspection-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Attachment abbreviations — includes special forks"/>
+         <othermeta name="shortdesc"
+                    content="Reference guide to attachment abbreviations and guidance for selecting, mounting and inspecting special forks and attachments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="special-forks;attachments;mounting-pins;load-plate;safety-chains"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling-equipment;usecase:attachment-selection-and-safety;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="attachments,forks,load-capacity,compatibility"/>
+         <othermeta name="usecase" content="select-mount-and-inspect-attachments"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>SC- Special Carriage-increased width, height or
+outreach</p>
+      <p>SSS - Shaft-type Sideshift Carriage</p>
+      <p>HSS - Hook-type Sideshift Carriage (ITA)</p>
+      <p>CW - Counterweight</p>
+      <p>SF - Special Forks</p>
+      <p>SWS - Swing Shift, Sideshift</p>
+      <p>RAM - Ram or Boom</p>
+      <p>DBCBH - Double Cube Block Handler</p>
+      <p>HFP - Hydraulic Fork Positioner</p>
+      <p>CR - Crane Arm or Crane Boom</p>
+      <p>TH - Tyre Handler</p>
+      <p>CTH - Container Handler</p>
+      <p>LPP - Load Push-Pull Device</p>
+      <p>CC - Carton Clamp</p>
+      <p>RC - Roll Clamp</p>
+      <p>LS - Load Stabiliser</p>
+      <p>PWH - Pulp Wood Handler</p>
+      <p>SS-ST - Sideshift-Side Tilt Carriage</p>
+   </body>
+</topic>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InputContactsAndOutputRelays-94446902" xml:lang="en">
+   <title>Input Contacts and Output Relays</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>input-contacts</indexterm>
+            <indexterm>output-relays</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>relay-module</indexterm>
+            <indexterm>signal-contacts</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-input-contacts</indexterm>
+            <indexterm>set-output-relay-behaviour</indexterm>
+            <indexterm>validate-contact-states</indexterm>
+            <indexterm>perform-functional-test</indexterm>
+            <indexterm>troubleshoot-relay-faults</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-control-panel</indexterm>
+            <indexterm>commissioning-checklist</indexterm>
+            <indexterm>field-maintenance</indexterm>
+            <indexterm>safety-interlock</indexterm>
+            <indexterm>control-room-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Input Contacts and Output Relays"/>
+         <othermeta name="shortdesc"
+                    content="Configuration and operational details for input contacts and output relays, including default states and testing guidance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="input contacts;output relays;control-board;dipswitches;jumper-settings"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:relay-and-contact-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="relay-configuration,contact-states,testing,commissioning,alarms"/>
+         <othermeta name="usecase"
+                    content="configure-and-test-input-contacts-and-output-relays"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The input contacts and output relays are connected on
+the external connection board 0P2553. The default configuration settings
+are shown.</p>
+         <table pgwide="1">
+            <tgroup align="left" cols="6">
+               <colspec colname="COLSPEC4" colwidth="8.34*"/>
+               <colspec colname="col1" colwidth="8.31*"/>
+               <colspec colname="col3" colwidth="20.86*"/>
+               <colspec colname="col4" colwidth="20.93*"/>
+               <colspec colname="COLSPEC3" colwidth="20.78*"/>
+               <colspec colname="col5" colwidth="20.78*"/>
+               <thead>
+                  <row valign="top">
+                     <entry>Alarm number</entry>
+                     <entry>Name </entry>
+                     <entry>Description</entry>
+                     <entry>Location</entry>
+                     <entry>Alarm text</entry>
+                     <entry>Alarm
+description</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row valign="top">
+                     <entry>15</entry>
+                     <entry>Option
+1 OUT</entry>
+                     <entry>Output
+relay: Battery operation</entry>
+                     <entry>J1608
+on 0P2553</entry>
+                     <entry>
+                        <uicontrol>Battery operation</uicontrol>
+                     </entry>
+                     <entry>The
+system is in battery operation.</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>161</entry>
+                     <entry>Option
+2 OUT</entry>
+                     <entry>Output
+relay: Static bypass operation</entry>
+                     <entry>J1609
+on 0P2553</entry>
+                     <entry>
+                        <uicontrol>SBS ON</uicontrol>
+                     </entry>
+                     <entry>The
+system is in static bypass operation. The bypass supplies the load
+(temporary or requested static bypass operation).</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>440</entry>
+                     <entry>EPO</entry>
+                     <entry>Input contact: Emergency power off</entry>
+                     <entry>J1602 on 0P2553</entry>
+                     <entry>
+                        <uicontrol>EPO</uicontrol>
+                     </entry>
+                     <entry>The digital input
+"emergency power off (EPO)" is activated (contact open) or the EPO
+wiring is disconnected.</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>738</entry>
+                     <entry>Option 1 IN</entry>
+                     <entry>Input contact: Block boost/initial charge </entry>
+                     <entry>J1600 on 0P2553</entry>
+                     <entry>
+                        <uicontrol>BlockBst/Init</uicontrol>
+                     </entry>
+                     <entry>Block boost and
+inital charge.</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>739</entry>
+                     <entry>Option 2 IN</entry>
+                     <entry>Input contact:
+Force to boost charge</entry>
+                     <entry>J1601
+on 0P2553</entry>
+                     <entry>
+                        <uicontrol>ForceToBoost</uicontrol>
+                     </entry>
+                     <entry>Transfers the UPS
+into boost charge mode.</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>800</entry>
+                     <entry>Common
+Alarm</entry>
+                     <entry>Output relay: Common
+alarm</entry>
+                     <entry>J1607 on 0P2553</entry>
+                     <entry>
+                        <uicontrol>Common
+Alarm</uicontrol>
+                     </entry>
+                     <entry>There is at least one pending alarm in the system.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

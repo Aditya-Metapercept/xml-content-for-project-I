@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC93A1F3-BB9C-11F0-1442-09173F13E4C5" xml:lang="en-us">
+   <title>Stretch Wrapper Monthly Maintenance</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2021-02-26"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="PKR-03-009_stretch_wrapper_monthly_maintenance.xml">
+      <topicmeta>
+         <othermeta content="PKR-03-009" name="DocumentNumber"/>
+         <othermeta content="2021-02-26" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="PKR-03-009_purpose_and_application.xml"/>
+      <topicref href="PKR-03-009_safety.xml"/>
+      <topicref href="PKR-03-009_instructions.xml"/>
+      <topicref href="PKR-03-009_required_training.xml"/>
+      <topicref href="PKR-03-009_references.xml"/>
+      <topicref href="PKR-03-009_approval.xml"/>
+      <topicref href="PKR-03-009_revision_history.xml"/>
+   </topicref>
+</topic>

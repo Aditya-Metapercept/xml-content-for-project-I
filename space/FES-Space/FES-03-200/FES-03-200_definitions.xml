@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c20C3CF7-BB02-11F0-1812-09173F13E4C5" xml:lang="en-us">
+   <title>Definitions</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,engineering,quality,safety,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>digi-edgeport-416</indexterm>
+            <indexterm>db-25-connector</indexterm>
+            <indexterm>comsoc-1-interface</indexterm>
+            <indexterm>fsc-server</indexterm>
+            <indexterm>pic-application</indexterm>
+            <!-- Process layer -->
+            <indexterm>section-save</indexterm>
+            <indexterm>moc-save</indexterm>
+            <indexterm>error-code-definitions</indexterm>
+            <indexterm>communication-terminology</indexterm>
+            <indexterm>backup-terminology</indexterm>
+            <!-- Context layer -->
+            <indexterm>production-operations</indexterm>
+            <indexterm>control-room-terminology</indexterm>
+            <indexterm>maintenance-lingo</indexterm>
+            <indexterm>server-coexistence</indexterm>
+            <indexterm>operator-roles</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Definitions - Replacing the Digi Edgeport Interface"/>
+         <othermeta name="shortdesc"
+                    content="Definitions for terms used in this procedure (Edgeport, COMSOC 1, DB-25, FSC, PIC, section/MOC save differences)."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="Digi Edgeport 416;DB-25;COMSOC 1;FSC;PIC"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-automation;usecase:glossary;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="definitions,glossary,edgeport,comsoc"/>
+         <othermeta name="usecase" content="clarify-terms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table id="dl_kpt_3zz_qzb">
+         <tgroup cols="2">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <tbody>
+               <row>
+                  <entry>FSC</entry>
+                  <entry>Forming Supervising Computer – The server computer that connects to the Space Forming
+               Machines</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c285DD78-BDF2-11F0-9403-09173F13E4C5" xml:lang="en">
+   <title>Using Power Invoice Generation: Salesforce Revenue Cloud</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-invoice-generator</indexterm>
+            <indexterm>salesforce-adapter</indexterm>
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>publisher</indexterm>
+            <indexterm>installer</indexterm>
+            <indexterm>integration-kit</indexterm>
+            <!-- Process layer -->
+            <indexterm>installing-package</indexterm>
+            <indexterm>configure-salesforce</indexterm>
+            <indexterm>run-installation-steps</indexterm>
+            <indexterm>post-install-validation</indexterm>
+            <indexterm>data-sync</indexterm>
+            <indexterm>onboard-organization</indexterm>
+            <!-- Context layer -->
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>installation-ops</indexterm>
+            <indexterm>enterprise-setup</indexterm>
+            <indexterm>billing-operations</indexterm>
+            <indexterm>org-configuration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Using Power Invoice Generation: Salesforce Rev..."/>
+         <othermeta name="shortdesc"
+                    content="Starting on October 4th, completing the installation and configuration steps for Power Invoice Generation in Salesforce, including setup validation and post-install checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="salesforce;installer;package;org;configuration;post-install-checks;adapter"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:salesforce-installation;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="install,salesforce,configuration,validation,adapter,package"/>
+         <othermeta name="usecase" content="salesforce-installation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Starting on October 4th, completing the installation of the latest Composer package (8.263) and setting your Composer edition to “Salesforce Revenue Cloud” you can benefit from Power Invoice Generation: Salesforce Revenue Cloud, allowing you to customize and export invoices, quotes, and receipts, providing a free and powerful way to generate documents.</p>
+   </body>
+   <related-links>
+      <linklist>
+         <link href="../about_Power_invoice_231211778/231211778.xml" format="dita">
+            <linktext>About Power Invoice Generation: Salesforce Revenue Cloud</linktext>
+         </link>
+         <link href="../Power_invoice_genera_231211785/231211785.xml" format="dita">
+            <linktext>Power Invoice Generation: Salesforce Revenue Cloud Features and Functionality</linktext>
+         </link>
+         <link href="../create_a_custom_cong_231211789/231211789.xml" format="dita">
+            <linktext>Create a Custom Power Invoice Generation: Salesforce Revenue Cloud for Salesforce Billing Solution</linktext>
+         </link>
+      </linklist>
+   </related-links>
+</topic>

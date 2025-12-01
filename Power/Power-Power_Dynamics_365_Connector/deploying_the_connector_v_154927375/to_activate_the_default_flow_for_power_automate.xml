@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t24532BD-BDF2-11F0-2050-09173F13E4C5" xml:lang="en">
+   <title>To activate the default flow for Power Automate</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-automate-flow</indexterm>
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>dynamics-connector-package</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>automation-service</indexterm>
+            <indexterm>connector-application</indexterm>
+            <!-- Process layer -->
+            <indexterm>flow-activation</indexterm>
+            <indexterm>enabling-automation</indexterm>
+            <indexterm>validating-workflow</indexterm>
+            <indexterm>sync-flow-activation</indexterm>
+            <indexterm>workflow-testing</indexterm>
+            <indexterm>permissions-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>cloud-environment</indexterm>
+            <indexterm>dynamics-365-environment</indexterm>
+            <indexterm>workflow-orchestration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To Activate the Default Flow for Power Automate"/>
+         <othermeta name="shortdesc"
+                    content="Steps to activate the Default Power Automate flow used for data synchronization."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="default flow; automation triggers; power automate portal; connector workflow; sync logic; permissions"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:flow-activation;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="flow, activation, automate, workflow, sync, connector"/>
+         <othermeta name="usecase" content="flow activation for automated data sync"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Log in to the Power Automate <xref href="https://flow.microsoft.com" format="html" scope="external">portal</xref>. (Your credentials will most likely be the same as your admin credentials for Dynamics.)</p>
+         </li>
+         <li>
+            <p>From the left pane, navigate to <uicontrol>Solutions</uicontrol> and click on the imported solution: <uicontrol>Apttus.Dynamics.DataExchange</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Find and click on the <uicontrol>ScheduledSync.FlowManagement</uicontrol> flow.</p>
+         </li>
+         <li>
+            <p>From the Flow Detail page click <uicontrol>Edit</uicontrol>.</p>
+         </li>
+         <li>
+            <p>If there are no connections set up for the flow, you are prompted to provide a valid connection:</p>
+            <ol>
+               <li>
+                  <p>If a connection already exists, verify the valid (green) checkmark. Click the connection to continue.</p>
+               </li>
+               <li>
+                  <p>If no connections are available:</p>
+                  <p>
+                     <ol>
+                        <li>Click on the plus (+) icon to create a new connection</li>
+                        <li>Click <uicontrol>Sign In</uicontrol>.</li>
+                        <li>After signing in, the connection is set up. Click the connection to continue.</li>
+                     </ol>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>On the next page click <uicontrol>Save</uicontrol>. Go back to the Flow Detail page (step 4).</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Turn On</uicontrol>. Verify that the status has changed to 'On'.</p>
+         </li>
+      </ol>
+      <result>
+         <note type="note">
+            <p>Automated scheduling of data sync also requires a proper connection to Power Automate. Refer to <xref href="../configuring_data_sync_con_143899280/143899280.xml"
+                     format="dita">Configuring Data Sync Connections</xref> for steps. You can specify the frequency and interval for any sync group when you <xref href="../setting_up_sync_groups_vs_143888191/143888191.xml"
+                     format="dita">set up sync groups</xref>.</p>
+         </note>
+      </result>
+   </body>
+</topic>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC954718-BB9C-11F0-2134-09173F13E4C5" xml:lang="en-us">
+   <title>Stretch Wrapper Annual Maintenance</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>Wrap</indexterm>
+            <indexterm>Turntable</indexterm>
+            <indexterm>Film Carriage</indexterm>
+            <indexterm>Wrap Head</indexterm>
+            <indexterm>Control Panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspect-wrap-head</indexterm>
+            <indexterm>lubricate-bearings</indexterm>
+            <indexterm>replace-film-roll</indexterm>
+            <indexterm>adjust-belt-tension</indexterm>
+            <indexterm>calibrate-torque</indexterm>
+            <!-- Context layer -->
+            <indexterm>metR-PKR-Soul</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PKR-03-011_stretch_wrapper_annual_maintenance"/>
+         <othermeta name="shortdesc"
+                    content="Annual maintenance procedures for the stretch wrapper used on the packaging line; inspections and servicing steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="wrap"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:annual-maintenance-of-stretch-wrapper;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="wrap,inspect-wrap-head,lubricate-bearings"/>
+         <othermeta name="usecase" content="annual-maintenance-of-stretch-wrapper"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>PKR-03-011</p>
+      <p>Revised: 2021-02-26</p>
+   </body>
+</topic>

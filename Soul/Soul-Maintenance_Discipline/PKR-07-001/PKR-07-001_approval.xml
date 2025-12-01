@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9591AB-BB9C-11F0-1105-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>approval-sheet</indexterm>
+            <indexterm>authorized-signature</indexterm>
+            <indexterm>approval-entry</indexterm>
+            <indexterm>document-endorsment</indexterm>
+            <indexterm>review-form</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-procedure</indexterm>
+            <indexterm>sign-off-workflow</indexterm>
+            <indexterm>role-validation</indexterm>
+            <indexterm>endorsement-cycle</indexterm>
+            <indexterm>authorization-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>governance-framework</indexterm>
+            <indexterm>regional-approval</indexterm>
+            <indexterm>corporate-compliance</indexterm>
+            <indexterm>quality-assurance-context</indexterm>
+            <indexterm>metR-PKR-Soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Lists approval representatives and sign-off validation for the documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approvers; signatures; approval-dates; reviewer-roles"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:approval-validation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="approval,sign-off,representatives,authorization,governance"/>
+         <othermeta name="usecase"
+                    content="validate documentation through formal approvals"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Sanctioning Representatives of the Global Team<table id="table_gj2_q5s_4bc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="19.85%"/>
+               <colspec colname="c2" colwidth="38.47%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Region</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Europe</p>
+                     </entry>
+                     <entry>
+                        <p>Andre Slagboom, Pierluigi Caravaggi, Leslaw Bojarski, Rodolphe
+                           Vallienne</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Latin America</p>
+                     </entry>
+                     <entry>
+                        <p>Andres Ciudad</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>North America</p>
+                     </entry>
+                     <entry>
+                        <p>Randy Mason, David Smith</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Global Operations</p>
+                     </entry>
+                     <entry>
+                        <p>Richard Albanese</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

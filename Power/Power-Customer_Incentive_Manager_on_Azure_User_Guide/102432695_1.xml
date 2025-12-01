@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m24916E7-BDF2-11F0-1735-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Adding Products</title>
+   <topicref href="adding-products_102432695_102432695/102432695_1.xml"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Adding Products</navtitle>
+      </topicmeta>
+      <topicref href="adding-products_102432695_102432695/adding_products_using_add_button.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Adding Products Using Add Button</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="adding-products_102432695_102432695/browsing_and_selecting_products.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Browsing and Selecting Products</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="adding-products_102432695_102432695/searching_and_selecting_products.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Searching and Selecting Products</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="adding-products_102432695_102432695/adding_products_by_direct_typing.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Adding Products by Direct Typing</navtitle>
+         </topicmeta>
+         <topicref href="deleting_products_1024326_102432696/102432696.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Deleting Products</navtitle>
+            </topicmeta>
+         </topicref>
+         <topicref href="excluding_products_102432_102432697/102432697.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Excluding Products</navtitle>
+            </topicmeta>
+         </topicref>
+         <mapref href="exporting_products_102432_102432698/102432698_1.xml"
+                 format="ditamap"
+                 xml:lang="en">
+            <topicmeta>
+               <navtitle>Exporting Products</navtitle>
+            </topicmeta>
+         </mapref>
+         <topicref href="importing_products_102432_102432699/102432699.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Importing Products</navtitle>
+            </topicmeta>
+         </topicref>
+      </topicref>
+   </topicref>
+</topic>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t243C367-BDF2-11F0-1799-09173F13E4C5" xml:lang="en">
+   <title>To get the Power Automate Connection Id</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>power-automate</indexterm>
+            <indexterm>power-platform</indexterm>
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>connection-id</indexterm>
+            <indexterm>admin-portal</indexterm>
+            <!-- Process -->
+            <indexterm>retrieve-connection-id</indexterm>
+            <indexterm>navigate-power-portal</indexterm>
+            <indexterm>view-connection-details</indexterm>
+            <indexterm>validate-connection-id</indexterm>
+            <indexterm>map-power-connections</indexterm>
+            <indexterm>enable-data-sync</indexterm>
+            <!-- Context -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>automation-environment</indexterm>
+            <indexterm>system-administration</indexterm>
+            <indexterm>cloud-integration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To get the Power Automate Connection Id"/>
+         <othermeta name="shortdesc"
+                    content="To enable data syncing, you must obtain the Power Automate Connection Id from the Microsoft Power Automate portal."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-automate-portal;connection-id;environment-id;connection-list;workflow-connector;data-sync-settings"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:retrieve-power-connection-id;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="power-automate,connection-id,data-sync,connector,environment,portal"/>
+         <othermeta name="usecase" content="retrieve-connection-id"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>To enable data sync scheduling, you must get the Power Automate Connection Id from the Microsoft Power Automate portal.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Log in to Power Automate <xref href="https://flow.microsoft.com" format="html" scope="external">portal</xref>.</p>
+         </li>
+         <li>
+            <p>From the left pane, navigate to <menucascade>
+                  <uicontrol>Data</uicontrol>
+                  <uicontrol>Connections</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Click on the link labeled as the <uicontrol>Common Data Service</uicontrol> connection.</p>
+         </li>
+         <li>
+            <p>In the browser URL, find the value of 'connectionName'. Copy the value (you will need it for the next task). Example value: 11ffc2be-c465-446b-a4c1-d10fbad39834</p>
+         </li>
+      </ol>
+   </body>
+</topic>

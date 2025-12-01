@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3765F22-BDF3-11F0-1119-09173F13E4C5" xml:lang="en-us">
+   <title>Before MP3 [WMA] USB playback</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T11:00:00+05:30"/>
+         <revised modified="2025-11-14T11:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,training-personnel"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>mp3-playback</indexterm>
+            <indexterm>wma-playback</indexterm>
+            <indexterm>usb-interface</indexterm>
+            <indexterm>media-controller</indexterm>
+            <!-- process layer -->
+            <indexterm>media-playback-setup</indexterm>
+            <indexterm>usb-file-format-check</indexterm>
+            <indexterm>firmware-compatibility-check</indexterm>
+            <indexterm>audio-output-verification</indexterm>
+            <indexterm>troubleshoot-playback-errors</indexterm>
+            <!-- context layer -->
+            <indexterm>in-cab-entertainment</indexterm>
+            <indexterm>operator-comfort</indexterm>
+            <indexterm>electrical-integration</indexterm>
+            <indexterm>fleet-feature-configuration</indexterm>
+            <indexterm>workplace-noise-considerations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Before MP3/WMA USB playback"/>
+         <othermeta name="shortdesc"
+                    content="Preconditions and steps to prepare USB media for playback in the lift truck audio system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="usb-drive;media-player;audio-amplifier;file-system;firmware"/>
+         <othermeta name="taxonomy"
+                    content="domain:operator-comfort;usecase:media-playback-setup;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="mp3,wma,usb,playback,preparation"/>
+         <othermeta name="usecase"
+                    content="prepare-usb-media-and-verify-playback-before-use"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This unit cannot play the following files;</p>
+      <ul>
+         <li>MP3 files encoded with MP3i and MP3 PRO format.<ul>
+               <li>MP3 files encoded in an inappropriate format.</li>
+               <li>MP3 files encoded with Layer 1/2.</li>
+            </ul>
+         </li>
+      </ul>
+      <p>Folder selection order/File playback order;</p>
+      <fig>
+         <image href="media/image453a.png" placement="inline"/>
+      </fig>
+   </body>
+</topic>

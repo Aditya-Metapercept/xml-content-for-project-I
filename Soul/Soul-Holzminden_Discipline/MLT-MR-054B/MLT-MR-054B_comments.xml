@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8C0C60-BB9C-11F0-1705-09173F13E4C5" xml:lang="en-us">
+   <title>Comments</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ul>
+         <li>Use the buddy system.</li>
+         <li>Stay hydrated.</li>
+         <li>Some sections in this document require specific PPE and tools/equipment to perform tasks, and may also have specific safety hazards. Read a section thoroughly before starting the work. Personnel performing the tasks in this document must have completed the required training.</li>
+         <li>Personnel must have valid certification in Operation and Maintenance of Gas Systems (up to 5 bar) by the appropriate company before working on gas skids.</li>
+      </ul>
+   </body>
+</topic>

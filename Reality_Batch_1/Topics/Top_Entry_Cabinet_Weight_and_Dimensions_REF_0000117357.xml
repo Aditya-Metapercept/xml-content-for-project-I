@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TopEntryCabinetWeightAndDimensions-9B9B7423" xml:lang="en">
+   <title>Top Entry Cabinet Weight and Dimensions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>top-entry-cabinet</indexterm>
+            <indexterm>25-50-kva-ups</indexterm>
+            <indexterm>cabinet-enclosure-frame</indexterm>
+            <indexterm>cable-entry-structure</indexterm>
+            <indexterm>power-distribution-cabinet</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-weight-and-dimensions</indexterm>
+            <indexterm>verify-cabinet-specifications</indexterm>
+            <indexterm>support-installation-planning</indexterm>
+            <indexterm>equipment-handling</indexterm>
+            <indexterm>mechanical-integration</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>industrial-production-environment</indexterm>
+            <indexterm>equipment-dimensioning</indexterm>
+            <indexterm>installation-engineering</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Top Entry Cabinet Weight and Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Provides the weight and dimensional specifications for top-entry cabinets used with 25–50 kVA UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="top-entry cabinet;25–50 kVA UPS;cable entry structure;enclosure frame;power distribution cabinet"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:top-entry-cabinet-weight-and-dimensions;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="dimensions,weight,ups-cabinet,installation,engineering-data"/>
+         <othermeta name="usecase" content="top-entry-cabinet-weight-and-dimensions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>For top cable entry for the 25-50 kVA UPS.</p>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="col5"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Weight kg (lbs)</entry>
+                     <entry valign="top">Height mm (in)</entry>
+                     <entry valign="top">Width mm (in)</entry>
+                     <entry valign="top">Depth mm (in)</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Top entry cabinet</entry>
+                     <entry>91 (200)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>400
+(15.8)</entry>
+                     <entry>800
+(31.5)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SourceToPayFebruary2017UserGuide_Introduction" xml:lang="en">
+   <title>Introduction</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>source-to-pay-application</indexterm>
+            <indexterm>salesforce1-platform</indexterm>
+            <indexterm>buy-side-contract-management</indexterm>
+            <indexterm>supplier-community-platform</indexterm>
+            <indexterm>supplier-performance-module</indexterm>
+            <!-- Process Layer -->
+            <indexterm>procure-to-pay-lifecycle</indexterm>
+            <indexterm>supplier-onboarding-process</indexterm>
+            <indexterm>contract-management-workflows</indexterm>
+            <indexterm>supplier-spend-analysis</indexterm>
+            <indexterm>strategic-sourcing-flow</indexterm>
+            <indexterm>supplier-compliance-monitoring</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+            <indexterm>quote-to-cash-environment</indexterm>
+            <indexterm>procurement-teams</indexterm>
+            <indexterm>supplier-risk-management</indexterm>
+            <indexterm>financial-supply-chain</indexterm>
+         </keywords>
+         <!-- Product info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General metadata -->
+         <othermeta name="title" content="Introduction"/>
+         <othermeta name="shortdesc"
+                    content="Source To Pay is the process of strategically planning and managing all interactions with suppliers who provide goods or services to an organization."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="source to pay;suppliers;procure to pay lifecycle;quote to cash;contract management;supplier onboarding;supplier spend analysis;strategic sourcing;supplier compliance;supplier performance;financial supply chain"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:introduction-to-stp-capabilities;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="supplier-management,procurement,source-to-pay,contract-management,strategic-sourcing,spend-analysis"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Source To Pay (STP) is the process of strategically planning and managing all the interactions with the suppliers that supply goods or services to an organization. </p>
+      <p>When looking at the Quote-to-Cash process, the Quoting and Contract Management processes focus on closing deals. Apttus Source To Pay (Apttus STP), built on Apttus Buy-Side Contract Management, helps buyers and procurement professionals to control their expenditure and supplier commitments on the Salesforce1 platform. The Apttus STP application empowers you with greater visibility, control, and accountability over the entire lifecycle of procure-to-pay supplier contracts, commitments, interactions, and results - all on a single integrated platform. Built on the Salesforce1 platform, Apttus STP helps you develop a superior quality supply base and reduce costs and supplier risk.</p>
+      <p>You can use Apttus STP application in any of the following scenarios:</p>
+      <ul>
+         <li>Collaborative Supplier Communities, to leverage Salesforce Communities to build deeper enagement and collaboration with your suppliers.</li>
+         <li>Buy - Side Contract Management, to utilize the most comprehensive contract management solution on the market, featuring Microsoft Word integration to author and redline contract documents.</li>
+         <li>Supplier Spend Analysis, to offer visibility and transparency on all expenditures, across all categories, regions, and any custom dimensions.</li>
+         <li>Supplier Onboarding, to identify prospective suppliers and invite them to self-register and participate into the suppliers' community.</li>
+         <li>Strategic Sourcing, to simplify, automate, and accelerate sourcing processes, including managed input directly in Excel.</li>
+         <li>Supplier Compliance Management, to track obligations and commitments related to contracts and suppliers.</li>
+         <li>Supplier Performance Management, to manage supplier scorecards, supplier corrective action requests (SCARs), benchmarks against KPIs, and issue and dispute management.</li>
+         <li>Financial Supply Chain, to identify savings opportunities from supplier contracts, and forecast projected savings and impact to company financial statements, P&amp;L and balance sheet.</li>
+         <li>Multi-Device Support, to allow managers to manage supplier relations even in remote locations.</li>
+         <li>Advanced Workflows and Approvals, to streamline all supplier-related processes and improve responsiveness.</li>
+      </ul>
+      <p>Each of these scenarios require special handling by the Savings or Procurement teams to ensure that the supplies are managed accurately. As contracts become more complex and Sales offers more creative purchasing options, managing the suppliers can spiral out of control. Fortunately, all of this information already exists in your Quote-to-Cash process. It makes sense to manage your suppliers in the same place where you can directly access the necessary information to reduce the manual effort required by your Procurement team.</p>
+      <p>This is why Apttus is uniquely suited to handle the Source To Pay process. Only Apttus with its end-to-end view of the entire Quote-to-Cash process has all of the information required to resolve the challenges.</p>
+      <p>Using Apttus Source To Pay provides many benefits. You can.</p>
+      <ul>
+         <li>Drive collaborative and integrated supplier processes.</li>
+         <li>Enable a Global Supplier Suppliers.</li>
+         <li>Simplify Supplier Engagement.</li>
+         <li>Improve the bottom line.</li>
+         <li>Reduce the supplier risk.</li>
+         <li>Increase your market among global suppliers.</li>
+      </ul>
+      <note type="note">
+         <p>The target audience of STP User Guide are the Suppliers. Hence, you in this entire guide refers to a supplier. If you are a buyer or an admin, you must refer to <xref href="https://documentation.apttus.com/display/STPAGMAY16/Source+To+Pay+May+2016+Administrator+Guide"
+                  format="html"
+                  scope="external">STP Administrator Guide</xref>.</p>
+      </note>
+   </body>
+</topic>

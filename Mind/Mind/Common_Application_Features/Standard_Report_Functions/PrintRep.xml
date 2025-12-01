@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PrintRep">
+   <title>Printing a Report</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>report-generator</indexterm>
+            <indexterm>print-module</indexterm>
+            <indexterm>administration-portal</indexterm>
+            <indexterm>analytics-module</indexterm>
+            <indexterm>form-builder</indexterm>
+            <!-- Process layer -->
+            <indexterm>printing-report</indexterm>
+            <indexterm>selecting-print-options</indexterm>
+            <indexterm>rendering-report-pages</indexterm>
+            <indexterm>printing-selected-sections</indexterm>
+            <indexterm>report-output-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-reporting</indexterm>
+            <indexterm>data-analysis</indexterm>
+            <indexterm>administrative-operations</indexterm>
+            <indexterm>document-output</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Printing a Report"/>
+         <othermeta name="shortdesc"
+                    content="Users can print report pages and apply print settings such as page selection and layout configuration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="report; print-dialog; page-layout; report-section; printer"/>
+         <othermeta name="taxonomy"
+                    content="domain:administration;usecase:report-printing;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="report,print,layout,pages,output"/>
+         <othermeta name="usecase" content="print form-generated reports"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can print  the pages in a report. </p>
+         <p>Also,  you can select a printer and change print settings, such as pages to be printed and number of pages per sheet.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Generate the required report.</p>
+         </li>
+         <li>
+            <p>In the report toolbar, click<uicontrol>Print Report</uicontrol>. <image href="../../Icons/Print_Report.gif" placement="inline">
+                  <alt>Print Report</alt>
+               </image>
+            </p>
+            <p>The <uicontrol>Print</uicontrol> dialog box is displayed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

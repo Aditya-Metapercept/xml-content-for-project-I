@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC62FE49-BB9C-11F0-1539-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>sbs-op-136a_revision_history</indexterm>
+            <indexterm>revision-history</indexterm>
+            <indexterm>document-history</indexterm>
+            <indexterm>version-log</indexterm>
+            <indexterm>change-log</indexterm>
+            <!-- Process layer -->
+            <indexterm>revision-history</indexterm>
+            <indexterm>record</indexterm>
+            <indexterm>update</indexterm>
+            <indexterm>track</indexterm>
+            <indexterm>audit</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>quality</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SBS-OP-136A_revision_history"/>
+         <othermeta name="shortdesc" content=""/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sbs-op-136a_revision_history;revision-history;document-history;version-log;change-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:sbs-op-136a_revision_history;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="sbs-op-136a_revision_history,revision-history,document-history,version-log,change-log,record,update"/>
+         <othermeta name="usecase" content="revision-history"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_qyk_gmf_vcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="45.08%"/>
+               <colspec colname="c2" colwidth="45.08%"/>
+               <tbody>
+                  <row>
+                     <entry morerows="1">
+                        <p>2024-01-30</p>
+                     </entry>
+                     <entry>
+                        <p>Approved by Michael Hu, Process Development Squad Lead</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC64BF49-BB9C-11F0-1227-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Controls</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>guarding</indexterm>
+            <indexterm>interlock</indexterm>
+            <indexterm>ventilation-system</indexterm>
+            <indexterm>dust-extractor</indexterm>
+            <indexterm>ppe</indexterm>
+            <!-- Process layer -->
+            <indexterm>control-implementation</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>control-verification</indexterm>
+            <indexterm>monitoring</indexterm>
+            <!-- Context layer -->
+            <indexterm>occupational-safety</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>process-control</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Controls"/>
+         <othermeta name="shortdesc"
+                    content="Descriptions of engineered and administrative controls used to mitigate hazards on process equipment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="machine guards;interlocks;ventilation system;dust extractor;ppe"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:control-implementation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="controls,guarding,ventilation,interlocks,inspection"/>
+         <othermeta name="usecase" content="control-implementation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>The Hazard Communication Standard (HCS) requires chemicals to have Safety Data Sheets (SDS). Use the SDS for chemicals listed in this SOP for additional hazards, first aid measures, toxicological information, accidental release measures, and handling/storage of the chemical. </li>
+         <li>Review the Emergency Action Plan before performing work.</li>
+      </ul>
+   </body>
+</topic>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t26F560B-BDF2-11F0-6100-09173F13E4C5" xml:lang="en">
+   <title>To add values to the Measure picklist</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>measure-picklist</indexterm>
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>measure-configuration-module</indexterm>
+            <indexterm>scoring-engine</indexterm>
+            <indexterm>picklist-management</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-measure-values</indexterm>
+            <indexterm>configure-measure-picklist</indexterm>
+            <indexterm>define-scoring-parameters</indexterm>
+            <indexterm>validate-picklist-updates</indexterm>
+            <indexterm>update-measure-criteria</indexterm>
+            <indexterm>publish-measure-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>scoring-and-guidance</indexterm>
+            <indexterm>data-governance</indexterm>
+            <indexterm>configuration-administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To add values to the Measure picklist"/>
+         <othermeta name="shortdesc"
+                    content="Provides instructions for adding and validating measure values used in Deal Maximizer scoring configuration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="measure-picklist; measure; scoring-criteria; picklist-value; scoring-engine; configuration-module"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="measure,picklists,scoring,deals,criteria,configuration"/>
+         <othermeta name="usecase" content="add-and-configure-measure-values-for-scoring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>Setup</uicontrol>
+                  <uicontrol>App Setup</uicontrol>
+                  <uicontrol>Objects</uicontrol>
+                  <uicontrol>Deal Guidance Rule</uicontrol>
+                  <uicontrol>Business Objects</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol> next to the <uicontrol>Values</uicontrol>
+               section.</p>
+         </li>
+         <li>
+            <p>Enter <i>Custom</i>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>
+               <fig id="fig_tgj_xg3_rcc">
+                  <image placement="break"
+                         width="600"
+                         href="../attachments/195691330/195691327.png"
+                         id="image_ugj_xg3_rcc"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

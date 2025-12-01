@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC974780-BB9C-11F0-1921-09173F13E4C5" xml:lang="en-us">
+   <title>Lean/Verticality Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Lean screen shows the lean or verticality for each section. Depending on the system set
+         up, the lean is shown in mm (default) or as a percentage.<fig id="fig_akc_kxj_fcc">
+            <image href="media/image13.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_bkc_kxj_fcc"/>
+         </fig>
+      </p>
+   </body>
+</topic>

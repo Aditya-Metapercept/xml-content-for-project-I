@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PrepareForCablesInTopCableEntrySyst-C4B920C9" xml:lang="en">
+   <title>Prepare for Cables in Top Cable Entry System</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords>
+            <indexterm>top-cable-entry</indexterm>
+            <indexterm>cable-routing</indexterm>
+            <indexterm>cable-preparation</indexterm>
+            <indexterm>panel-cover</indexterm>
+            <indexterm>mounting-plate</indexterm>
+            <indexterm>prepare</indexterm>
+            <indexterm>install</indexterm>
+            <indexterm>tighten</indexterm>
+            <indexterm>verify-clearance</indexterm>
+            <indexterm>inspect-grommets</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>equipment-setup</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>safety-guidelines</indexterm>
+            <indexterm>industrial-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Prepare for Cables in Top Cable Entry System"/>
+         <othermeta name="shortdesc"
+                    content="Preparation steps for cable installation in a top cable entry UPS configuration, ensuring clearance and safety compliance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="cable-entry; mounting-plate; panel-cover; ups; grommet; cable-conduit"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="prepare,install,verify,clearance,safety"/>
+         <othermeta name="usecase" content="procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context/>
+      <ol>
+         <li>
+            <p>Remove the panel in the bottom of the UPS.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS</title>
+                  <image href="../Images/connect_power_cables_removebottompanel_0000066409.svg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the gland plates in the top of the AUX cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS</title>
+                  <image href="../Images/Realitypxc_general-topentryprepareforcables_w120mm_0000235801.svg"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Drill/punch holes for cables/conduits in the gland plates.
+Install conduits (not provided), if applicable.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>Hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>Do not drill or punch holes for cables or conduits with
+the gland plates installed and do not drill or punch holes in close
+proximity to the cabinet.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reinstall the gland plates in the top of the AUX cabinet(s).</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS</title>
+                  <image href="../Images/Realitypxc_general-topentryprepareforcablesreinstall_w120mm_0000235800.svg"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

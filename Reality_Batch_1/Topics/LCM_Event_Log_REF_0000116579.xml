@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="LCMEventLog-90B707AB" xml:lang="en">
+   <title>LCM Event Log</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>lcm</indexterm>
+            <indexterm>life-cycle-monitoring</indexterm>
+            <indexterm>event-log</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>ups</indexterm>
+            <!-- Process layer -->
+            <indexterm>event-log-review</indexterm>
+            <indexterm>life-cycle-monitoring</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>isolate-ups</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>industrial-production</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>ups-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="LCM Event Log REF 0000116579"/>
+         <othermeta name="shortdesc"
+                    content="Event-log reference for life-cycle monitoring (LCM); definitions and examples of LCM log events and their meanings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lcm;life-cycle-monitoring;event-log;control-board;interface-board;ups;event-log-review"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:life-cycle-monitoring;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,lcm,life-cycle-monitoring,event-log,log-events"/>
+         <othermeta name="usecase" content="life-cycle-monitoring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>All occurrences and alerts related to LCM create an event
+log entry.</p>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="10%"/>
+               <colspec colname="col2" colwidth="40%"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Event
+number</entry>
+                     <entry valign="top">Service port
+log event text</entry>
+                     <entry valign="top">Display log
+event text</entry>
+                     <entry valign="top">Comment</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>663</entry>
+                     <entry>LCM C1 Fan module replacement recommended</entry>
+                     <entry>LCM Fan Module</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>664</entry>
+                     <entry>LCM C1 Alert temp. ack.</entry>
+                     <entry>—</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>665</entry>
+                     <entry>LCM C1 Alert def. ack.</entry>
+                     <entry>—</entry>
+                     <entry>Action 002</entry>
+                  </row>
+                  <row>
+                     <entry>666</entry>
+                     <entry>LCM C1 Restarted</entry>
+                     <entry>—</entry>
+                     <entry>Action 012</entry>
+                  </row>
+                  <row>
+                     <entry>667</entry>
+                     <entry>LCM C1 Set</entry>
+                     <entry>—</entry>
+                     <entry>Action 032</entry>
+                  </row>
+                  <row>
+                     <entry>668</entry>
+                     <entry>LCM C2 Battery replacement recommended</entry>
+                     <entry>LCM Battery</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>669</entry>
+                     <entry>LCM C2 Alert temp.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>670</entry>
+                     <entry>LCM C2 Alert def.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry>Action 003</entry>
+                  </row>
+                  <row>
+                     <entry>671</entry>
+                     <entry>LCM C2 Restarted</entry>
+                     <entry>—</entry>
+                     <entry>Action 013</entry>
+                  </row>
+                  <row>
+                     <entry>672</entry>
+                     <entry>LCM C2 Set</entry>
+                     <entry>—</entry>
+                     <entry>Action 033</entry>
+                  </row>
+                  <row>
+                     <entry>673</entry>
+                     <entry>LCM C3 Power module replacement recommeded</entry>
+                     <entry>LCM Power Module</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>674</entry>
+                     <entry>LCM C3 Alert temp.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>675</entry>
+                     <entry>LCM C3 Alert def.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry>Action 004</entry>
+                  </row>
+                  <row>
+                     <entry>676</entry>
+                     <entry>LCM C3 Restarted</entry>
+                     <entry>—</entry>
+                     <entry>Action 014</entry>
+                  </row>
+                  <row>
+                     <entry>677</entry>
+                     <entry>LCM C3 Set</entry>
+                     <entry>—</entry>
+                     <entry>Action 034</entry>
+                  </row>
+                  <row>
+                     <entry>678</entry>
+                     <entry>LCM C4 Air filter replacement recommended</entry>
+                     <entry>LCM Air Filter</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>679</entry>
+                     <entry>LCM C4 Alert temp.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>680</entry>
+                     <entry>LCM C4 Alert def.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry>Action 005</entry>
+                  </row>
+                  <row>
+                     <entry>681</entry>
+                     <entry>LCM C4 Restarted</entry>
+                     <entry>—</entry>
+                     <entry>Action 015</entry>
+                  </row>
+                  <row>
+                     <entry>682</entry>
+                     <entry>LCM C4 Set</entry>
+                     <entry>—</entry>
+                     <entry>Action 035</entry>
+                  </row>
+                  <row>
+                     <entry>683</entry>
+                     <entry>LCM C5 10 year component replacement recommended</entry>
+                     <entry>LCM 10 Year</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>684</entry>
+                     <entry>LCM C5 Alert temp.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>685</entry>
+                     <entry>LCM C5 Alert def.
+ack.</entry>
+                     <entry>—</entry>
+                     <entry>Action 006</entry>
+                  </row>
+                  <row>
+                     <entry>686</entry>
+                     <entry>LCM C5 Restarted</entry>
+                     <entry>—</entry>
+                     <entry>Action 016</entry>
+                  </row>
+                  <row>
+                     <entry>687</entry>
+                     <entry>LCM C5 Set</entry>
+                     <entry>—</entry>
+                     <entry>Action 036</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3788CDA-BDF3-11F0-1888-09173F13E4C5" xml:lang="en-us">
+   <title>D-Console Tilt Angle Control Lever</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:00:00+05:30"/>
+         <revised modified="2025-11-14T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,service-technicians,industrial-engineers,training-instructors"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>tilt-angle-control</indexterm>
+            <indexterm>control-lever</indexterm>
+            <indexterm>operator-console</indexterm>
+            <indexterm>hydraulic-actuator</indexterm>
+            <!-- Process layer -->
+            <indexterm>tilt-adjustment-procedure</indexterm>
+            <indexterm>lever-calibration</indexterm>
+            <indexterm>console-setup</indexterm>
+            <indexterm>operator-ergonomics</indexterm>
+            <indexterm>fault-diagnosis</indexterm>
+            <!-- Context layer -->
+            <indexterm>load-stability</indexterm>
+            <indexterm>warehouse-material-handling</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>maintenance-checks</indexterm>
+            <indexterm>plant-floor-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="D Console — Tilt Angle Control Lever"/>
+         <othermeta name="shortdesc"
+                    content="Function, adjustment, and calibration procedures for the tilt-angle control lever on the operator console."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="control-lever;console;tilt-sensor;hydraulic-actuator;linkage;switch"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:operator-controls;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="tilt-control,operator-console,calibration,ergonomics,fault-finding"/>
+         <othermeta name="usecase" content="adjust-and-maintain-tilt-angle-control"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image232.png" placement="inline"/>
+      </fig>
+      <p>Typical Example</p>
+      <p>The tilting angle of the steering wheel is adjustable within a
+range of 6 degrees to suit individual operators. The steering
+column is unlocked by turning the lever counter clockwise and
+locked by turning it clockwise.</p>
+   </body>
+</topic>

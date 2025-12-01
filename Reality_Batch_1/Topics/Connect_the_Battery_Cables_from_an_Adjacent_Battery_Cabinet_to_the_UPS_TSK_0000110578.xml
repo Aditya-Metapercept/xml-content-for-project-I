@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ConnectTheBatteryCablesFromAdjacent-80C9FBCB" xml:lang="en">
+   <title>Prepare the UPS Cabinet for Cables in Systems with Adjacent
+Battery Cabinet(s)</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 75–100 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 75–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-cabinet</indexterm>
+            <indexterm>busbars</indexterm>
+            <indexterm>battery-cable</indexterm>
+            <indexterm>battery-breaker-kit</indexterm>
+            <indexterm>power-section</indexterm>
+            <!-- Process layer -->
+            <indexterm>connect-battery-cables</indexterm>
+            <indexterm>prepare-ups-cabinet</indexterm>
+            <indexterm>torque-terminals</indexterm>
+            <indexterm>busbar-positioning</indexterm>
+            <indexterm>electrical-isolation</indexterm>
+            <!-- Context layer -->
+            <indexterm>adjacent-battery-installation</indexterm>
+            <indexterm>on-site-wiring</indexterm>
+            <indexterm>site-commissioning</indexterm>
+            <indexterm>safety-isolation-procedure</indexterm>
+            <indexterm>maintenance-replacement</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Prepare the UPS Cabinet for Cables in Systems with Adjacent Battery Cabinet(s)"/>
+         <othermeta name="shortdesc"
+                    content="Task steps to prepare UPS cabinet and properly connect battery cables from an adjacent battery cabinet, including busbar orientation and safety checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery-cabinet;busbars;battery-cables;battery-breaker-kit;power-section"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-systems;usecase:battery-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="battery,connection,busbar,installation,safety"/>
+         <othermeta name="usecase"
+                    content="connect battery cables between adjacent cabinets and UPS power section"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Remove the plate in the bottom left side of the power section
+of the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/100_kva__connect_battery_cables_from_adjacent_battery_cabinet_remove_cover_120mm_0000110610.svg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the position of the two busbars inside the power section
+of the UPS cabinet and mark it on the left side panel.</p>
+         </li>
+         <li>
+            <p>Note the position of the cable inlet in the power section
+of the UPS cabinet and mark it on the left side panel.</p>
+         </li>
+         <li>
+            <p>Remove the left side panel from the power section of the
+UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/100_kva_remove_side_panel_120mm_0000110609.svg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Drill holes and install conduits for signal cables and
+power cables in the side panel. Conduits are not provided.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>Hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>Do not drill or cut holes for cables or conduits with
+the side panel installed and do not drill or cut holes in close proximity
+to the UPS.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/Reality_pxc_nam_75-100_kva_adjacent_battery_cabinet_busbar_placement_120mm_0000134962.svg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reinstall the side panel in the power section of the UPS
+cabinet.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

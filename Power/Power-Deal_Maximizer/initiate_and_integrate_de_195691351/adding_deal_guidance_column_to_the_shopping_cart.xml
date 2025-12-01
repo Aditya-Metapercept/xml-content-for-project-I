@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t272E5F9-BDF2-11F0-3754-09173F13E4C5" xml:lang="en">
+   <title>Adding Deal Guidance Column to the Shopping Cart</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>guidance-column</indexterm>
+            <indexterm>shopping-cart</indexterm>
+            <indexterm>cart-column-config</indexterm>
+            <indexterm>ui-table-column</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>cart-renderer</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-guidance-column</indexterm>
+            <indexterm>configure-cart-columns</indexterm>
+            <indexterm>map-guidance-data</indexterm>
+            <indexterm>refresh-cart-view</indexterm>
+            <indexterm>test-guidance-display</indexterm>
+            <indexterm>enable-column-visibility</indexterm>
+            <!-- Context layer -->
+            <indexterm>shopping-cart-integration</indexterm>
+            <indexterm>quote-generation</indexterm>
+            <indexterm>sales-workflow</indexterm>
+            <indexterm>deal-optimization-usecase</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>web-ui</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adding Deal Guidance Column to the Shopping Cart"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to add and configure a Guidance column in the shopping cart so deal guidance appears inline with cart items."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="guidance-column;shopping-cart;cart-column-config;guidance-data-mapping;cart-renderer;ui-table"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="guidance-column,shopping-cart,cart-configuration,guidance-display,ui-column,deal-guidance"/>
+         <othermeta name="usecase" content="display-deal-guidance-in-shopping-cart"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the All Tabs icon (<image placement="inline" href="../attachments/143899578/143899650.png"/>) and select <uicontrol>Config Settings</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Select <uicontrol>Display Column Settings</uicontrol>.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Display Type</uicontrol> list, select <uicontrol>Cart Line Item</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Add a new line and select <uicontrol>Guidance</uicontrol> for the <uicontrol>Field Name</uicontrol> or change an existing line.
+               </p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         width="289"
+                         href="../attachments/143899578/143899649.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p> Click <uicontrol>Save</uicontrol>. </p>
+         </li>
+      </ol>
+      <result id="result_i3t_g33_rcc">The Guidance column is available in the Shopping
+         Cart.</result>
+   </body>
+</topic>

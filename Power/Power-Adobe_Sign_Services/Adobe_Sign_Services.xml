@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2374310-BDF2-11F0-1074-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Adobe Sign Services No conditions</title>
+   <mapref href="about_adobe_sign_services_195698385/195698385_1.xml"
+           format="ditamap"
+           xml:lang="en">
+      <topicmeta>
+         <navtitle>About Adobe Sign Services</navtitle>
+      </topicmeta>
+   </mapref>
+   <topicref href="what_s_new_in_adobe_sign_ser_193698279/193698279.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>What's New in Adobe Sign Services Documentation</navtitle>
+      </topicmeta>
+   </topicref>
+   <mapref href="195696054_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Adobe Sign Services for Administrators Map</navtitle>
+      </topicmeta>
+   </mapref>
+   <mapref href="154938243_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Adobe Sign Services for Users Map</navtitle>
+      </topicmeta>
+   </mapref>
+   <mapref href="154938248_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Adobe Sign Services for REST API Developers Map</navtitle>
+      </topicmeta>
+   </mapref>
+   <topicref href="adobe_sign_services_featu_169280990/169280990_1.xml"
+             format="ditamap"/>
+   <mapref href="Power_customer_community_231214789/231214789_1.xml"
+           format="ditamap"
+           xml:lang="en">
+      <topicmeta>
+         <navtitle>Power Customer Community &amp; Learning Center Resources</navtitle>
+      </topicmeta>
+   </mapref>
+</topic>

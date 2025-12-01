@@ -12,8 +12,6 @@
          <othermeta content="CTX-OP-021B" name="DocumentNumber"/>
          <othermeta content="2023-05-22" name="RevisionDate"/>
       </topicmeta>
-
-      
       <topicref href="CTX-OP-021B_purpose_application.xml"/>
       <topicref href="CTX-OP-021B_ppe_required.xml"/>
       <topicref href="CTX-OP-021B_safety_hazards.xml"/>
@@ -35,27 +33,3 @@
       <topicref href="CTX-OP-021B_revision_history.xml"/>
    </topicref>
 </topic>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

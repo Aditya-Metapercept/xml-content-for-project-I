@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ModelList-54666AD3" xml:lang="en">
+   <title>Model List</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–100 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>reality-pxc-series</indexterm>
+            <indexterm>reality-pxc-ups</indexterm>
+            <indexterm>reality-pxc-25kva</indexterm>
+            <indexterm>reality-pxc-75kva</indexterm>
+            <indexterm>reality-pxc-100kva</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>ups-without-transformer</indexterm>
+            <!-- Process layer -->
+            <indexterm>list-supported-configurations</indexterm>
+            <indexterm>document-electrical-ratings</indexterm>
+            <indexterm>map-transformer-compatibility</indexterm>
+            <indexterm>prepare-spec-sheets</indexterm>
+            <indexterm>validate-model-availability</indexterm>
+            <indexterm>assign-internal-codes</indexterm>
+            <indexterm>rating-table</indexterm>
+            <indexterm>transformer-option</indexterm>
+            <indexterm>model-variant-identification</indexterm>
+            <!-- Context layer -->
+            <indexterm>capacity-planning</indexterm>
+            <indexterm>site-compatibility</indexterm>
+            <indexterm>ups-deployment</indexterm>
+            <indexterm>maintenance-scheduling</indexterm>
+            <indexterm>spare-parts-planning</indexterm>
+            <indexterm>technical-procurement</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Model List"/>
+         <othermeta name="shortdesc"
+                    content="Model listing for Reality PXC 25–100 kVA families covering transformer and non-transformer variants and electrical ratings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS-models;transformers;nameplates;rating-tables"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:model-selection;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="model-catalog,ratings,transformer-variants,capacity"/>
+         <othermeta name="usecase"
+                    content="compare-and-select-ups-models-for-site-requirements"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>UPS without Transformer</title>
+         <ul>
+            <li>
+               <p>Reality PXC 25 kVA (GUPXC25F)</p>
+            </li>
+            <li>
+               <p>Reality PXC 37.5 kVA (GUPXC37F)</p>
+            </li>
+            <li>
+               <p>Reality PXC 50 kVA (GUPXC50F)</p>
+            </li>
+            <li>
+               <p>Reality PXC 75 kVA (GUPXC75F)</p>
+            </li>
+            <li>
+               <p>Reality PXC 100 kVA (GUPXC100F)</p>
+            </li>
+         </ul>
+      </section>
+      <section>
+         <title>UPS with Transformer 480–208 V</title>
+         <ul>
+            <li>
+               <p>Reality PXC 25 kVA single mains (GUPXC25GFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 25 kVA dual mains (GUPXC25GFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 37.5 kVA single mains (GUPXC37GFI)</p>
+            </li>
+            <li>
+               <p>Reality PXC 37.5 kVA dual mains (GUPXC37GFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 50 kVA single mains (GUPXC50GFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 50 kVA dual mains (GUPXC50GFDI)</p>
+            </li>
+            <li>
+               <p>Reality PXC 75 kVA single mains (GUPXC75GFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 75 kVA dual mains (GUPXC75GFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 100 kVA single mains (GUPXC100GFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 100 kVA dual mains (GUPXC100GFDI)</p>
+            </li>
+         </ul>
+      </section>
+      <section>
+         <title>UPS with Transformer 600–208 V</title>
+         <ul>
+            <li>
+               <p>Reality PXC 25 kVA single mains (GUPXC25LFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 25 kVA dual mains (GUPXC25LFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 37.5 kVA single mains (GUPXC37LFI)</p>
+            </li>
+            <li>
+               <p>Reality PXC 37.5 kVA dual mains (GUPXC37LFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 50 kVA single mains (GUPXC50LFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 50 kVA dual mains (GUPXC50LFDI)</p>
+            </li>
+            <li>
+               <p>Reality PXC 75 kVA single mains (GUPXC75LFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 75 kVA dual mains (GUPXC75LFDI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 100 kVA single mains (GUPXC100LFI) </p>
+            </li>
+            <li>
+               <p>Reality PXC 100 kVA dual mains (GUPXC100LFDI)</p>
+            </li>
+         </ul>
+      </section>
+   </body>
+</topic>

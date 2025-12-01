@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m260482F-BDF2-11F0-1387-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Deal Maximizer for Users</title>
+   <topicref href="deal_maximizer_for_users__183763029/183763029.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Deal Maximizer for Users</navtitle>
+      </topicmeta>
+      <topicref href="about_deal_guidance_vwint_181310113/181310113.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>About Deal Guidance</navtitle>
+         </topicmeta>
+         <topicref href="using_deal_guidance_vfebr_239537350/239537350.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Using Deal Guidance</navtitle>
+            </topicmeta>
+         </topicref>
+      </topicref>
+      <topicref href="glossary_195691426/195691426.xml" format="dita" xml:lang="en">
+         <topicmeta>
+            <navtitle>Glossary</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

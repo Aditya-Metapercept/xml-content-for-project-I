@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC8684AE-BB9C-11F0-1649-09173F13E4C5" xml:lang="en-us">
+   <title>Cooling Tower Fan Failure</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>cooling-tower</indexterm>
+            <indexterm>cooling-tower-fan</indexterm>
+            <indexterm>fan-motor</indexterm>
+            <indexterm>pvag-control-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspect-alarm-log</indexterm>
+            <indexterm>troubleshoot-fan-motor</indexterm>
+            <indexterm>isolate-power</indexterm>
+            <indexterm>emergency-shutdown</indexterm>
+            <indexterm>fan-restart-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>emergency-response</indexterm>
+            <indexterm>cooling-system</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>metR-MLT-Soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Cooling Tower Fan Failure (Task)"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to follow during a cooling tower fan failure event."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="PVAG control panel;alarm log;cooling tower fan;fan motor;bearing assembly"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:emergency-response-cooling;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="cooling-tower,fan-failure,alarm,inspection,troubleshooting"/>
+         <othermeta name="usecase" content="emergency-response-cooling"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Follow this procedure in the event of a cooling tower fan failure</p>
+      </context>
+      <ol>
+         <li>
+            <p>Inspect the PVAG control panel for alarms.</p>
+            <p>
+               <ul>
+                  <li>Inspect the alarm log.</li>
+               </ul>
+               <p>
+                  <fig id="fig_ozf_1kf_vcc">
+                     <image href="media/image1.jpg"
+                            placement="break"
+                            id="image_pzf_1kf_vcc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Inspect the system for physical signs of equipment failure.</p>
+            <p>
+               <ul>
+                  <li>Damaged belts on the fan, smoking or overheating motors, etc.</li>
+                  <li>Inspect the fan VFD for alarms.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Call maintenance immediately to make the necessary repairs.</p>
+            <p>
+               <ul>
+                  <li>Reset the VFD to Auto mode once repairs are complete.</li>
+               </ul>
+               <p>
+                  <fig id="fig_jhp_ckf_vcc">
+                     <image href="media/image2.jpg"
+                            placement="break"
+                            id="image_khp_ckf_vcc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>If the fan cannot be repaired or the closed loop water temperature reaches the High alarm setpoint, a controlled drain is required.</p>
+            <p>
+               <ul>
+                  <li>Follow Steps 5.1–5.6 to drain the melter.</li>
+                  <li>If cooling water supply temperature is within 5 °C (41 °F) of the High-High
+                     alarm setpoint during the drain, close the secondary exit and perform an E-Stop
+                     of the melter.</li>
+                  <li>Refer to document MLT-MR-051-DE, General Melter Maintenance, if needed.</li>
+               </ul>
+               <note type="note" id="note_bzz_2kf_vcc">
+                  <p>Reduce the melter temperature to slow the rate of the water temperature
+                     rise.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <note id="note_ff2_hkf_vcc">
+               <table id="table_j3b_3kf_vcc">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="c2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry/>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </note>
+            <p/>
+            <p>
+               <p>PPE Required: Aluminized apron and chaps, face shield with shaded lens for
+                  optical radiation hazard, heat resistant balaclava, heat resistant gloves.</p>
+               <note type="note" id="note_ppg_jkf_vcc">
+                  <p>Use  the buddy system. Stay hydrated. </p>
+               </note>
+            </p>
+            <ol>
+               <li>
+                  <p>In DFC, go to the<uicontrol> Melter H3F</uicontrol> screen, and click the
+                        <uicontrol>H3F  Melter Energy</uicontrol> tab on the dropdown menu.</p>
+                  <p>
+                     <ul id="ul_a3f_4mf_vcc">
+                        <li>Verify the oxygen-gas ratio is 2.30. </li>
+                        <li>Lower Gas Flow SP in increments of 1.5 Nm³/h (0.056 MSCFH) to
+                           keep melter temperature below 1400 °C (2552 °F).</li>
+                        <li> Click the <uicontrol>Apply to All Burners</uicontrol> button.</li>
+                     </ul>
+                     <p>
+                        <fig id="fig_rpg_jkf_vcc">
+                           <image href="media/image3.jpg"
+                                  placement="break"
+                                  id="image_spg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                     <p>
+                        <fig id="fig_tpg_jkf_vcc">
+                           <image href="media/image4.jpg"
+                                  placement="break"
+                                  id="image_upg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <p>Go to the <uicontrol>Melter H3F screen </uicontrol>and click the
+                        <uicontrol>Control Overview</uicontrol> tab.</p>
+                  <p>
+                     <ul id="ul_f3y_pmf_vcc">
+                        <li>Click the <uicontrol>Charger Profile</uicontrol> button and check the
+                              <uicontrol>Suppress </uicontrol>checkbox to stop batch charging.</li>
+                     </ul>
+                     <p>
+                        <fig id="fig_vpg_jkf_vcc">
+                           <image href="media/image5.jpg"
+                                  placement="break"
+                                  id="image_wpg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                     <p>
+                        <fig id="fig_xpg_jkf_vcc">
+                           <image href="media/image6.jpg"
+                                  placement="break"
+                                  id="image_ypg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <p>Start the melter scraper.</p>
+                  <p>
+                     <p>
+                        <fig id="fig_zpg_jkf_vcc">
+                           <image href="media/image7.jpg"
+                                  placement="break"
+                                  id="image_aqg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <note id="note_iym_rkf_vcc">
+                     <table id="table_kp5_rkf_vcc">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="1*"/>
+                           <colspec colname="c2" colnum="2" colwidth="1*"/>
+                           <tbody>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>PPE Required: heat resistant gloves, heat resistant
+                                       balaclava, aluminized apron and chaps, face shield with
+                                       shaded lens for optical radiation hazard.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>Use caution.</p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </note>
+                  <p>Turn on cullet water to the drain chute.</p>
+                  <p>
+                     <p>
+                        <fig id="fig_bqg_jkf_vcc">
+                           <image href="media/image8.jpg"
+                                  placement="break"
+                                  id="image_cqg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <note id="note_dyy_flf_vcc">
+                     <table id="table_gy3_glf_vcc">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="1*"/>
+                           <colspec colname="c2" colnum="2" colwidth="1*"/>
+                           <tbody>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>PPE Required: heat resistant gloves, aluminized apron
+                                       and chaps, face shield with shaded lens for optical radiation
+                                       hazard, ear plugs/ear muffs.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>Use caution.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry/>
+                                 <entry>
+                                    <p>High noise level hazard.</p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                     <p>Tools Required: Air hammer, long pry bar.</p>
+                  </note>
+                  <p>Raise the secondary exit door by using the switch located on a nearby
+                     column.</p>
+                  <p>
+                     <ul id="ul_ws2_klf_vcc">
+                        <li>Use the air hammer or long pry bar to break through the frozen layer of
+                           glass if needed.</li>
+                        <li>Glass should stream out.</li>
+                     </ul>
+                     <note type="note" id="note_dqg_jkf_vcc">
+                        <p>Adjust the height on the secondary exit door as needed. </p>
+                        <ul id="ul_rxc_mlf_vcc">
+                           <li>Use the long pry bar to maintain a controlled flow of glass through
+                              the opening, and move big chunks of glass into the water flow to cool
+                              down.</li>
+                           <li> Close the secondary exit door once the melter is empty.</li>
+                        </ul>
+                     </note>
+                     <p>
+                        <fig id="fig_eqg_jkf_vcc">
+                           <image href="media/image9.jpg"
+                                  placement="break"
+                                  id="image_fqg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+               <li>
+                  <p>Go to the burner skids.</p>
+                  <p>
+                     <ul id="ul_nmn_5mf_vcc">
+                        <li>Use the burner lever switches to turn off the melter burners one at a
+                           time.</li>
+                     </ul>
+                     <note type="note" id="note_gqg_jkf_vcc">
+                        <p>Nitrogen will automatically flow through the burners until the melter
+                           temperature falls below 500 °C (932 °F). </p>
+                     </note>
+                     <p>
+                        <fig id="fig_hqg_jkf_vcc">
+                           <image href="media/image10.jpg"
+                                  placement="break"
+                                  id="image_iqg_jkf_vcc"
+                                  align="center"/>
+                        </fig>
+                     </p>
+                  </p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

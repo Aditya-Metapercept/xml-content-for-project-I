@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC6F1F82-BB9C-11F0-3613-09173F13E4C5" xml:lang="en-us">
+   <title>Container Handling - Tiama - MultiStation 4</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-INS-soul</indexterm>
+            <indexterm>tiama-multistation-4</indexterm>
+            <indexterm>container-handling-unit</indexterm>
+            <indexterm>inspection-table</indexterm>
+            <indexterm>rejection-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>container-transfer</indexterm>
+            <indexterm>defect-detection</indexterm>
+            <indexterm>handling-procedure</indexterm>
+            <indexterm>container-alignment</indexterm>
+            <indexterm>automated-sorting</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>quality-control</indexterm>
+            <indexterm>production-line-automation</indexterm>
+            <indexterm>industrial-inspection</indexterm>
+            <indexterm>equipment-operation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-INS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Container Handling – Tiama Multistation 4"/>
+         <othermeta name="shortdesc"
+                    content="Describes the container handling and inspection process at the Tiama Multistation 4, including alignment and defect rejection operations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="container-handling-unit;inspection-table;defect-rejection-system;alignment-mechanism;sensor-array"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:container-handling;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="container,handling,inspection,defect-detection,automation"/>
+         <othermeta name="usecase" content="container-handling-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>INS-03-031</p>
+      <p>Revised: 2015-12-15</p>
+   </body>
+</topic>

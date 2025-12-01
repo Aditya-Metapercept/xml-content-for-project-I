@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC677E1D-BB9C-11F0-8582-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>approval-record</indexterm>
+            <indexterm>sign-off-form</indexterm>
+            <indexterm>approver-list</indexterm>
+            <indexterm>approval-matrix</indexterm>
+            <indexterm>authorization-token</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-approval</indexterm>
+            <indexterm>review-process</indexterm>
+            <indexterm>sign-off-procedure</indexterm>
+            <indexterm>change-authorization</indexterm>
+            <indexterm>approval-audit</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>document-control</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>management-oversight</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval signatures, approver roles and sign-off metadata for conveyor operation and safety documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver names;signatures;approval dates;roles;review comments"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:document-approval;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="approval,sign-off,review,authorisation,compliance"/>
+         <othermeta name="usecase"
+                    content="capture approvals and sign-off metadata for governance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Representatives of the Soul Approval Team<table id="table_c5q_wqn_vcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="25.2%"/>
+               <colspec colname="c2" colwidth="64.8%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Person</p>
+                     </entry>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Michael Hu</p>
+                     </entry>
+                     <entry>
+                        <p>Process Development Squad Lead</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>David Jepsen</p>
+                     </entry>
+                     <entry>
+                        <p>Melter Training Specialist</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Phillip Wilson</p>
+                     </entry>
+                     <entry>
+                        <p>EHS Continuous Improvement Manager</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

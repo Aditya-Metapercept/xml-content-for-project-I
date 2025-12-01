@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2562D38-BDF2-11F0-9708-09173F13E4C5" xml:lang="en">
+   <title>About This Guide</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>user-guide</indexterm>
+            <indexterm>documentation-portal</indexterm>
+            <indexterm>dita-collection</indexterm>
+            <indexterm>knowledge-pipeline</indexterm>
+            <indexterm>search-index</indexterm>
+            <!-- Process layer -->
+            <indexterm>navigate-guide</indexterm>
+            <indexterm>search-topics</indexterm>
+            <indexterm>use-samples</indexterm>
+            <indexterm>follow-procedures</indexterm>
+            <indexterm>raise-support</indexterm>
+            <indexterm>report-issue</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation-access</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>knowledge-management</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>training-onboarding</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="About this guide"/>
+         <othermeta name="shortdesc"
+                    content="Overview of the guide structure, how to use the documentation, search and navigation tips, and where to raise support for content queries."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="guide;topic;search-index;navigation;support;sample"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="guide,how-to,search,documentation,metadata"/>
+         <othermeta name="usecase" content="orient-users-to-the-documentation-portal"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>With the <i>Customer Incentive Manager User Guide</i>, you can find out how Apttus Customer Incentive Manager works and how to set-up the Customer Incentive Manager.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Topic</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>What's Covered</p>
+                     </entry>
+                     <entry>
+                        <p>Customer Incentive Manager User Guide is designed to provide users with information on setting up billing program using Customer Incentive Manager. It covers information, step-by-step instructions, and use cases for the features provided by Apttus Customer Incentive Manager.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Primary Audience</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Contract Analysts</li>
+                              <li>Contract Manager</li>
+                              <li>Program Manager</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IT Environment</p>
+                     </entry>
+                     <entry>
+                        <p>Refer to the latest <i>Customer Incentive Manager on Azure Release Notes</i> for information on System Requirements and Supported Platforms.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Updates</p>
+                     </entry>
+                     <entry>
+                        <p>For a comprehensive list of updates to this guide for each release, refer to <xref href="../what_s_new_102432686/102432686.xml" format="dita">What's New</xref> topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Other Resources</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Contract Management User Guide: Refer to this guide for information about agreements.</li>
+                              <li>CPQ Administrator Guide: Refer this guide for setting up products, price lists, and constraint rules.</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>This guide describes the following tasks: </p>
+      <ul>
+         <li>Configuring the application according to your organizational needs.</li>
+         <li>Creating month-end billing program, reward savings program, bundle savings program, package saving program, and partnership savings program.</li>
+         <li>Performing on-demand validations on agreements</li>
+         <li>Duplicating sections</li>
+      </ul>
+      <p>Before using Customer Incentive Manager, you must be familiar with the following:</p>
+      <ul>
+         <li>Basic Apttus Omni administration</li>
+         <li>Apttus CPQ and Contract Management administration</li>
+         <li>Azure Platform and Apttus terms and definitions</li>
+      </ul>
+      <p>If you are new to Apttus Customer Incentive Manager, begin here: <xref href="../getting-started_102432688_102432688/102432688.xml"
+               format="dita">Getting Started</xref> and <xref href="../about_customer_incentive__102432687/102432687.xml"
+               format="dita">About Customer Incentive Manager</xref>.</p>
+   </body>
+</topic>

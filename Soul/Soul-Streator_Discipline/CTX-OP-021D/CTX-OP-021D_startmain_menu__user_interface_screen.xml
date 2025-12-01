@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9DC5A4-BB9C-11F0-1725-09173F13E4C5" xml:lang="en-us">
+   <title>Start/Main Menu➔ User Interface Screen</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>With the User Interface screen, you can customize the user interface to your needs.<fig id="fig_yfq_lm3_fcc">
+            <image href="media/image11.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_zfq_lm3_fcc"/>
+         </fig>
+      </p>
+      <p>Show equal images:  This option displays the bottle images in the overview with equal intensities.</p>
+      <p>Clean Touchscreen:  This feature disables the touchscreen for a short period in order to clean it.</p>
+      <p>Timeframe - Graphs:  Change the time period for the graphs in the Section Screens.</p>
+      <p>Timeframe - Overview Statistics: Change time period for statistics shown in upper
+         right of screens.<fig id="fig_fyq_mm3_fcc">
+            <image href="media/image12.jpg"
+                   placement="break"
+                   id="image_gyq_mm3_fcc"
+                   align="center"
+                   scale="50"/>
+         </fig>
+      </p>
+      <p>Alarm Indicators:  Enable (Use selected) the Alarm Indicators to display them on the Dashboard and Overview screens as dots located below the cavity and filled regions in the bottles.  </p>
+      <p>Choose between Alarm and Reject to show the indicators.<ul id="ul_dgf_4m3_fcc">
+            <li>If the Alarm is selected, whenever an alarm is generated (for glass distribution
+               etc.) or an inclusion is detected, an internal counter will be increased. </li>
+            <li>If the counter is equal or higher than the Number (in the screen below, 1) in the
+               Timeframe set (60s in the screen below), the indicator will be shown.</li>
+            <li>For the Source Reject it works the same.</li>
+         </ul>
+      </p>
+      <p>In the setup shown below, if one alarm is generated during the last 60 seconds, the alarm
+         indicator will be shown.<fig id="fig_pkb_443_fcc">
+            <image href="media/image13.jpg"
+                   placement="break"
+                   id="image_dpr_p43_fcc"
+                   align="center"
+                   scale="50"/>
+         </fig>
+      </p>
+      <p>Red Rectangle: Enable (Use selected) the Red Rectangle to display them on the
+         Dashboard and Overview screen as a rectangle around the cavity</p>
+      <p>Choose between Alarm and Reject to show the indicators.<ul id="ul_tpw_s43_fcc">
+            <li>If the Alarm is selected, whenever an alarm is generated (for glass distribution
+               etc.) or an inclusion is detected, an internal counter will be increased.</li>
+            <li>If the counter is equal or higher than the Number (in the screen below, 1) in the
+               Timeframe set (60s in the screen below), the indicator will be shown.</li>
+            <li>For the Source Reject it works the same.</li>
+            <li>Worst Cavities is the number of maximum rectangles shown.</li>
+         </ul>
+         <fig id="fig_nnh_y43_fcc">
+            <image href="media/image14.jpg"
+                   placement="break"
+                   id="image_fc5_y43_fcc"
+                   align="center"/>
+         </fig>
+      </p>
+      <p>Alarm Lamp: Enabling (Use selected) the Alarm Lamp will turn the 24VDC Lamp output
+         on IO-module on when the Red Rectangle is shown on the screen.</p>
+      <p>Disable With Rejector: Enabling this will disable the alarm Lamp when the Rejects
+         are turned off.</p>
+   </body>
+</topic>

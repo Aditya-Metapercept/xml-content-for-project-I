@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25E0370-BDF2-11F0-1168-09173F13E4C5" xml:lang="en">
+   <title>Qualifications and Benefits Page</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>qualifications-and-benefits-page</indexterm>
+            <indexterm>benefits-display</indexterm>
+            <indexterm>qualification-view</indexterm>
+            <indexterm>user-interface-widget</indexterm>
+            <indexterm>benefits-calculator</indexterm>
+            <indexterm>eligibility-summary</indexterm>
+            <!-- Process layer -->
+            <indexterm>display-qualifications</indexterm>
+            <indexterm>calculate-benefits</indexterm>
+            <indexterm>render-eligibility-summary</indexterm>
+            <indexterm>link-to-reward-program</indexterm>
+            <indexterm>refresh-benefit-data</indexterm>
+            <indexterm>audit-qualification-changes</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>customer-portal</indexterm>
+            <indexterm>user-interface</indexterm>
+            <indexterm>billing-system</indexterm>
+            <indexterm>support-and-service</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Qualifications and Benefits Page"/>
+         <othermeta name="shortdesc"
+                    content="Describes the qualifications and benefits UI page: how qualification data is displayed, benefits are calculated, and links to reward programs are surfaced to users."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="qualifications-page;ui-widget;benefits-calculator;eligibility-summary;user-session;api-endpoint"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="ui,qualifications,benefits,calculation,display,eligibility"/>
+         <othermeta name="usecase"
+                    content="documenting UI behavior for qualifications and benefits display"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="900"
+                   href="../attachments/102432718/109942246.png"/>
+         </fig>
+      </p>
+      <p>You can provide the following information on the Qualifications and Benefits page:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Bundle Name</p>
+                     </entry>
+                     <entry>
+                        <p>Select the bundle name for the set of products you want to buy.</p>
+                        <p>Mention the package name for the set of products, for which package is created, you want to buy.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Product Name</p>
+                     </entry>
+                     <entry>
+                        <p>Add products or categories in the Product Name column. For adding products or categories, please refer to the <xref href="../adding-products_102432695_102432695/102432695_1.xml"
+                                 format="dita">Adding Products</xref> section. Products are the list of products that are purchased by customers at the bundle level.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>UOM (Unit Of Measure)</p>
+                     </entry>
+                     <entry>
+                        <p>It defaults to Each.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Type</p>
+                     </entry>
+                     <entry>
+                        <p>Auto-populated based on selected products or categories.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Unit</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the unit of products that customer purchases.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Unit Price</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the price of the products per unit.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Extended Price</p>
+                     </entry>
+                     <entry>
+                        <p>It is the auto-calculated price for the whole unit of the product.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bundle Price</p>
+                     </entry>
+                     <entry>
+                        <p>Aggregated price of the products which are grouped in the bundle.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save</p>
+                     </entry>
+                     <entry>
+                        <p>Click Save to save the made changes.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>You can also import the bundle product by duplicate the entire bundle to perform the following actions:</p>
+      <ul>
+         <li>To add multiple bundles to the programs</li>
+         <li>To edit the start and end dates</li>
+         <li>To add new products to the bundles</li>
+      </ul>
+      <p>For more information about Tiered qualifications and benefits, please refer to the <xref href="../qualifications_and_benefi_102432700/102432700.xml"
+               format="dita">Qualifications and Benefits</xref> section.</p>
+      <p>Importing Benefit Line Items</p>
+      <p>For more information about importing the individual section of the Package Saving Program, please refer to the <xref href="../importing_benefit_line_it_102432715/102432715.xml"
+               format="dita">Importing Benefit Line Items</xref> section.</p>
+   </body>
+</topic>

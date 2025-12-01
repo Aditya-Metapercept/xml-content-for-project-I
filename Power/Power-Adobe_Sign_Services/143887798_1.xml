@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m236B6B3-BDF2-11F0-3836-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Setting Up Adobe Sign Services Map</title>
+   <topicref href="setting_up_adobe_sign_ser_143887798/143887798.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Setting Up Adobe Sign Services</navtitle>
+      </topicmeta>
+      <!--<topicref href="https://documentation.Power.com/display/ESIGN/.Pre-Installation+Requirements+vSeptember-22?src=contextnavpagetreemode"
+                format="dita"
+                class="- map/topicref "
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Pre-Installation Requirements</navtitle>
+         </topicmeta>
+      </topicref>-->
+      <mapref href="installing_adobe_sign_pac_143887799/143887799_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Installing Adobe Sign Packages</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="143887800_1.xml" format="ditamap" xml:lang="en">
+         <topicmeta>
+            <navtitle>Post-Installation Configuration Map</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="upgrading_adobe_sign_serv_195693003/195693003_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Upgrading Adobe Sign Services</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="registering_for_Power_upg_203495836/203495836_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Registering for Power Upgrade Program</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

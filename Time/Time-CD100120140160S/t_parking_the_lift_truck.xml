@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t3907DD3-BDF3-11F0-9992-09173F13E4C5" xml:lang="en-us">
+   <title>Parking the Lift Truck</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:48:00+05:30"/>
+         <revised modified="2025-11-15T14:48:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operator,safety-compliance-officer,management,maintenance-personnel"/>
+         <keywords><!-- product layer -->
+            <indexterm>parking-brake</indexterm>
+            <indexterm>lift-truck-parking</indexterm>
+            <indexterm>steering-lock</indexterm>
+            <indexterm>key-switch</indexterm>
+            <indexterm>parking-zone-markings</indexterm>
+            <!-- process layer -->
+            <indexterm>parking-procedure</indexterm>
+            <indexterm>secure-park-checklist</indexterm>
+            <indexterm>shutdown-procedure</indexterm>
+            <indexterm>battery-isolation</indexterm>
+            <indexterm>wheel-chocking</indexterm>
+            <!-- context layer -->
+            <indexterm>warehouse-safety</indexterm>
+            <indexterm>shift-changeover</indexterm>
+            <indexterm>fleet-management</indexterm>
+            <indexterm>accident-prevention</indexterm>
+            <indexterm>site-operational-procedure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Parking the Lift Truck"/>
+         <othermeta name="shortdesc"
+                    content="Safe parking procedure including shutdown, securing the vehicle and site-specific checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="parking-brake;key-switch;wheel-chock;battery-isolator;parking-area-signage"/>
+         <othermeta name="taxonomy"
+                    content="domain:workplace-safety;usecase:secure-vehicle-parking;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="parking,shutdown,safety,secure-park"/>
+         <othermeta name="usecase" content="safe-parking-and-shutdown"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig id="fig_izb_jzy_5gc">
+            <image href="media/image817.png" id="image_lzb_jzy_5gc" placement="inline"/>
+         </fig>
+         <p>Typical Example</p>
+         <p>Park the lift truck level, with the forks lowered and the mast tilted forward until the fork
+      tips touch the floor.</p>
+         <p>Block the drive wheels when parking on an incline.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Park in authorised area only. Do not block traffic.<image href="media/image819.png" placement="inline"/>
+            </p>
+         </li>
+         <li>
+            <p>Place the transmission controls in NEUTRAL.</p>
+         </li>
+         <li>
+            <p>Engage the parking brake (push the parking brake button). </p>
+            <p>
+               <fig>
+                  <image href="media/image799(1).png" placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Lower the forks to the ground.  </p>
+            <p>
+               <note type="warning">
+                  <p>Blocking the wheels will prevent unexpected lift truck movement, which could cause
+            personal injury.</p>
+               </note>
+               <note type="note">
+                  <p>Always run the engine at low idle for 5 minutes before turning off the engine.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Turn the ignition key switch to the OFF position and remove the key.</p>
+         </li>
+         <li>
+            <p>Actuate each loading lever several times to remove the residual pressure in the respective
+        cylinders and hoses.</p>
+         </li>
+         <li>
+            <p>Block the drive wheels if parking on an incline.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

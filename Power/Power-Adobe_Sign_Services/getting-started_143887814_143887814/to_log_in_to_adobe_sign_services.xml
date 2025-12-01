@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t23EB836-BDF2-11F0-1185-09173F13E4C5" xml:lang="en">
+   <title>To log in to Adobe Sign Services</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>adobe-sign-services</indexterm>
+            <indexterm>salesforce-connector</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>esignature-platform</indexterm>
+            <indexterm>agreement-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>log-in</indexterm>
+            <indexterm>authenticate-adobe-sign</indexterm>
+            <indexterm>access-signing-service</indexterm>
+            <indexterm>connector-authentication</indexterm>
+            <indexterm>user-login-flow</indexterm>
+            <indexterm>environment-selection</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>secure-access</indexterm>
+            <indexterm>crm-integrations</indexterm>
+            <indexterm>digital-authentication</indexterm>
+            <indexterm>uat-and-production-login</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To log in to Adobe Sign Services"/>
+         <othermeta name="shortdesc"
+                    content="Provides steps to log into Adobe Sign Services through Salesforce, including login via production and test environments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="login-page;username-field;password-field;toolbar-login;test-environment;production-environment;login-button;authentication-flow"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:user-authentication;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="login,authentication,adobe-sign,salesforce-login,production-login,uat-login,connector-access"/>
+         <othermeta name="usecase" content="user-authentication"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <xref href="http://www.salesforce.com/" format="html" scope="external">
+                  <u>http://www.salesforce.com</u>
+               </xref>.</p>
+            <p>
+               <p>
+                  <uicontrol>Or</uicontrol>
+               </p>
+               <p>If your organization is using a sandbox or test environment to access Adobe Sign (for example, if you are doing user acceptance testing), go to <xref href="http://test.salesforce.com/" format="html" scope="external">
+                     <u>http://test.salesforce.com</u>
+                  </xref> instead.</p>
+            </p>
+         </li>
+         <li>
+            <p>In the toolbar at the top of the page, click <uicontrol>Login</uicontrol>. The login page opens.</p>
+         </li>
+         <li>
+            <p>Enter your <uicontrol>User Name</uicontrol> and <uicontrol>Password</uicontrol>, and click <uicontrol>Log in</uicontrol>.</p>
+         </li>
+      </ol>
+      <div>
+         <p>You are successfully logged into Adobe Sign Service. </p>
+      </div>
+   </body>
+</topic>

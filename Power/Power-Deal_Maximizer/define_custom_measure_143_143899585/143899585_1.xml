@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m270C4F5-BDF2-11F0-1336-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Define Custom Measure</title>
+   <topicref chunk="to-content" href="143899585.xml" xml:lang="en">
+      <topicref href="using_a_custom_measure.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Using a Custom Measure</navtitle>
+         </topicmeta>
+         <topicref href="procedure.xml" xml:lang="en">
+            <topicmeta>
+               <navtitle>Procedure:</navtitle>
+            </topicmeta>
+         </topicref>
+      </topicref>
+   </topicref>
+</topic>

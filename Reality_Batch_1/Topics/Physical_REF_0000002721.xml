@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="REF_Physicalheading-F76F900A" xml:lang="en">
+   <title>Physical</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer (first indexterm must be product name) -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>nsx-breaker</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>main-contactor</indexterm>
+            <indexterm>power-supply-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>replace-power-supply</indexterm>
+            <indexterm>isolate-and-lockout</indexterm>
+            <indexterm>component-diagnostic-procedure</indexterm>
+            <indexterm>calibration-and-acceptance-test</indexterm>
+            <indexterm>preventive-maintenance-routine</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-plant-floor</indexterm>
+            <indexterm>power-distribution-rooms</indexterm>
+            <indexterm>safety-compliance-and-lockout</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Physical_REF (Gutor-Reality) — Replacement parts overview"/>
+         <othermeta name="shortdesc"
+                    content="Overview of replacement parts and guidance for replacing Physical_REF (Gutor-Reality) components in UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="physical_ref;gutor-reality;transformer;nsx-breaker;interface-board;main-contactor;power-supply-module"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:replacement-parts-overview;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="replacement-parts,component-replacements,ups-maintenance,diagnostics,preventive-maintenance"/>
+         <othermeta name="usecase"
+                    content="reference-and-procedural-guide-for-component-replacement"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

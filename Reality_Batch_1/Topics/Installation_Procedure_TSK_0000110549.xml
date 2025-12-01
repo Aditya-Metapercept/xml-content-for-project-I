@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallationProcedure-8038694E" xml:lang="en">
+   <title>Installation Procedure for the 25–50 kVA UPS with Bottom
+Cable Entry</title>
+   <shortdesc>
+      <keyword>Reality NAM 25–50 kVA UPS</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <indexterm>inverter</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>25-50-kva-ups</indexterm>
+            <indexterm>ups-cabinet</indexterm>
+            <indexterm>bottom-cable-entry</indexterm>
+            <indexterm>input-output-assembly</indexterm>
+            <indexterm>power-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>position-ups-cabinet</indexterm>
+            <indexterm>secure-cabinet-to-floor</indexterm>
+            <indexterm>connect-input-output-cables</indexterm>
+            <indexterm>check-clearances</indexterm>
+            <indexterm>electrical-grounding-procedure</indexterm>
+            <indexterm>installation-safety-verification</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>wiring-configuration</indexterm>
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>isolate-ups</indexterm>
+            <indexterm>event-log-review</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>data-centre-floor</indexterm>
+            <indexterm>low-profile-pallet-jack</indexterm>
+            <indexterm>site-logistics</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>installation-commissioning</indexterm>
+            <indexterm>industrial-production</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Installation Procedure TSK 0000110549"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step installation guidance including wiring and component placement for UPS systems; safety warnings included."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups;battery;control-board;main-contactors;inverter;ups-with-transformer;installation-procedure;wiring-configuration"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:installation-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,installation,wiring,ups,components"/>
+         <othermeta name="usecase" content="installation-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>The UPS is configured for dual mains as default.</note>
+         <note>Bottom cable entry is available for the UPS as a default. Top
+cable entry is available with the top entry cabinet.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Move the UPS cabinet to the installation location with
+a forklift or a low profile 21 inch pallet jack by lifting from the
+sides.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Remove_Kick_Plates_TSK_0000161962.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Only in systems with adjacent battery cabinet(s): <xref href="Prepare_for_Cables_on_the_25-50_kVA_UPS_with_an_Adjacent_Battery_Cabinet_0000114606.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Convert_25-50_kVA_UPS_from_Dual_Mains_to_Single_Mains_TSK_0000110501.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Prepare_the_25-50_kVA_UPS_for_Bottom_Cable_Entry_TSK_0000125402.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Power_Cables_on_the_25-50_kVA_UPS_0000103944.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Route_the_Bottom_Entry_Control_Cables_25-50_kVA_UPS_0000161514.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Control_Cables_for_the_25-50_kVA_UPS_0000161459.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Remote_Emergency_Power_Off_for_25-50_kVA_UPS_0000161515.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Input_Contacts_and_Output_Relays_Option_TSK_0000161513.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Install_the_Kick_Plates_0000103941.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Reinstall all plates and close the doors.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8AE2C1-BB9C-11F0-1158-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ppe-kit</indexterm>
+            <indexterm>safety-glasses</indexterm>
+            <indexterm>hearing-protection</indexterm>
+            <indexterm>bump-cap</indexterm>
+            <indexterm>splash-goggles</indexterm>
+            <!-- Process layer -->
+            <indexterm>donning-ppe</indexterm>
+            <indexterm>ppe-inspection</indexterm>
+            <indexterm>decontamination</indexterm>
+            <indexterm>glove-change</indexterm>
+            <indexterm>safety-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>production</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PPE Required"/>
+         <othermeta name="shortdesc"
+                    content="Specifies mandatory PPE and inspection steps required for the procedure."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bump cap;safety glasses;hearing protection;goggles;chemical gloves"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:ppe-requirements;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="ppe,safety,gloves,goggles,hearing"/>
+         <othermeta name="usecase" content="ppe-requirements"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_nvd_w2z_5cc">
+         <title>General</title>
+         <p>Bump cap, safety glasses, hearing protection, long sleeves, steel-toed safety shoes.</p>
+      </section>
+      <section id="section_hgg_w2z_5cc">
+         <title>Required for Specific Sections</title>
+         <p>Cut-resistant gloves, heat-resistant gloves, face shield, fire-resistant jacket,
+            chemical splash goggles, chemical-resistant gloves, cotton forming gloves.</p>
+      </section>
+   </body>
+</topic>

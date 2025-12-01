@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t285558E-BDF2-11F0-1735-09173F13E4C5" xml:lang="en">
+   <title>Step 2: Remove Permission Sets</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>cig-package</indexterm>
+            <indexterm>permission-sets</indexterm>
+            <indexterm>salesforce-security</indexterm>
+            <indexterm>admin-console</indexterm>
+            <indexterm>cig-components</indexterm>
+            <!-- Process layer -->
+            <indexterm>remove-permission-sets</indexterm>
+            <indexterm>security-cleanup</indexterm>
+            <indexterm>pre-uninstallation-step</indexterm>
+            <indexterm>access-revocation</indexterm>
+            <indexterm>package-preparation</indexterm>
+            <indexterm>user-access-audit</indexterm>
+            <!-- Context layer -->
+            <indexterm>salesforce-environment</indexterm>
+            <indexterm>system-preparation</indexterm>
+            <indexterm>cig-migration</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>enterprise-access-control</indexterm>
+            <indexterm>security-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Step 2: Remove Permission Sets"/>
+         <othermeta name="shortdesc"
+                    content="Remove all CIG-related permission sets from Salesforce as part of the cleanup required before uninstalling the previous package."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="permission-set;salesforce-user;profile;security-role;cig-component;cleanup-task"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:permission-set-removal;industry:revenue life-cycle-management"/>
+         <othermeta name="tags" content="permission,remove,cleanup,security,cig,access"/>
+         <othermeta name="usecase" content="permission-set-removal"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to Salesforce Setup &gt; Users &gt; Permission Sets.</p>
+         </li>
+         <li>
+            <p>Click the permission set CIQ Additional, click Manage Assignments, then select all users assigned to this permission set and click Remove Assignment.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

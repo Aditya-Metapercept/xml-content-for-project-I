@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25D05B8-BDF2-11F0-9117-09173F13E4C5" xml:lang="en">
+   <title>Program Type and Sub-Type</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>incentive-program-manager</indexterm>
+            <indexterm>billing-program</indexterm>
+            <indexterm>billing-type</indexterm>
+            <indexterm>program-sub-type</indexterm>
+            <indexterm>billing-configuration-module</indexterm>
+            <indexterm>metr-cim-power</indexterm>
+            <!-- Process layer -->
+            <indexterm>program-type-definition</indexterm>
+            <indexterm>sub-type-selection</indexterm>
+            <indexterm>program-classification</indexterm>
+            <indexterm>program-setup</indexterm>
+            <indexterm>billing-structure-creation</indexterm>
+            <indexterm>program-activation</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>incentive-management-context</indexterm>
+            <indexterm>billing-operations</indexterm>
+            <indexterm>program-hierarchy</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Program Type and Sub-Type"/>
+         <othermeta name="shortdesc"
+                    content="Details the Billing Program type and lists all administrator-created active sub-types in the Incentive Program Manager."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="billing program;month end billing program;reward saving program;package saving program;bundle saving program;partnership saving program"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="billing,program-type,program-sub-type,incentives,classification,structure"/>
+         <othermeta name="usecase" content="define-program-types-and-subtypes"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Incentive Program Manager has Billing as the Program Type.</p>
+      <p>The Billing Program has the following default program sub-types with the Administrator/Super User created program sub-types in Active status:</p>
+      <ul>
+         <li>Month End Billing Program</li>
+         <li>Reward Saving Program</li>
+         <li>Package Saving Program</li>
+         <li>Bundle Saving Program</li>
+         <li>Partnership Saving Program</li>
+      </ul>
+   </body>
+</topic>

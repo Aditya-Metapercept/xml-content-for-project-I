@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2802130-BDF2-11F0-1265-09173F13E4C5" xml:lang="en">
+   <title>About Power Invoice Generation</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>power-invoice-engine</indexterm>
+            <indexterm>template-engine</indexterm>
+            <indexterm>document-generator</indexterm>
+            <indexterm>composer</indexterm>
+            <indexterm>integration-adapter</indexterm>
+            <!-- Process layer -->
+            <indexterm>generate-invoice</indexterm>
+            <indexterm>apply-template</indexterm>
+            <indexterm>map-fields</indexterm>
+            <indexterm>render-document</indexterm>
+            <indexterm>manage-generation-jobs</indexterm>
+            <indexterm>validate-output</indexterm>
+            <!-- Context layer -->
+            <indexterm>invoice-processing</indexterm>
+            <indexterm>revops-automation</indexterm>
+            <indexterm>enterprise-document-generation</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>salesforce-environment</indexterm>
+            <indexterm>billing-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="About Power Invoice Generation"/>
+         <othermeta name="shortdesc"
+                    content="Overview of the Power Invoice Generation engine, including capabilities, template support, field mapping, and workflow integration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="template;composer;adapter;invoice-data;document;generation-job;workflow"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:invoice-generation-overview;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="invoice,generation,template,engine,composer,workflow"/>
+         <othermeta name="usecase" content="invoice-generation-overview"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Power Invoice Generation for Salesforce Billing is a Power product that works exclusively with Salesforce Billing. It allows Salesforce Billing customers to customize and export invoices, statements, and receipts that provide a free and powerful way to generate documents.</p>
+      <p>What's in the Package?</p>
+      <p>The Power Invoice Generation for Salesforce Billing package includes:</p>
+      <ul>
+         <li>Power Invoice Generation</li>
+         <li>Power Batch. For more information, refer to <xref href="https://documentation.Power.com/display/COMPOSER/.Power+Batch+vWinter-20"
+                  format="html"
+                  scope="external">
+               <u>Power Batch</u>
+            </xref> product documentation.</li>
+         <li>Power Trigger. For more information, refer to <xref href="https://documentation.Power.com/display/COMPOSER/.Power+Trigger+vWinter-20"
+                  format="html"
+                  scope="external">
+               <u>Power Trigger</u>
+            </xref> product documentation.</li>
+      </ul>
+      <p>What are the Limitations?</p>
+      <p>Power Invoice Generation for Salesforce Billing includes all of the features and functionality of Power Composer with the following exceptions:</p>
+      <ul>
+         <li>Customers can only generate documents from the objects within the Salesforce Billing installed package (those with the blng prefix).</li>
+         <li>Word and HTML Email are the only supported template types.</li>
+         <li>Email and PDF are the only output file types.</li>
+         <li>Up to 1,000 free invoices per month.</li>
+      </ul>
+   </body>
+</topic>

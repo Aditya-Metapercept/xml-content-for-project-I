@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m20BF569-BB02-11F0-1214-09173F13E4C5" xml:lang="en-us">
+   <title>Replacing the Digi Edgeport Interface</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="05-09-2022"/>
+      </critdates>
+   </topicmeta>
+   <topicref href="FES-03-200_replacing_the_digi_edgeport_interface.xml"
+             chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="FES-03-200"/>
+         <othermeta name="RevisionDate" content="05-09-2022"/>
+      </topicmeta>
+      <topicref href="FES-03-200_purpose.xml"/>
+      <topicref href="FES-03-200_application.xml"/>
+      <topicref href="FES-03-200_safety.xml"/>
+      <topicref href="FES-03-200_procedure.xml"/>
+      <topicref href="FES-03-200_required_training.xml"/>
+      <topicref href="FES-03-200_required_items.xml"/>
+      <topicref href="FES-03-200_definitions.xml"/>
+      <topicref href="FES-03-200_references.xml"/>
+      <topicref href="FES-03-200_collaboration.xml" audience="internal"/>
+      <topicref href="FES-03-200_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>

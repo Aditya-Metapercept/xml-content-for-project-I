@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromNormalOperationToStatic-8D2F8BCD" xml:lang="en">
+   <title>Transfer from Normal Operation to Requested Static Bypass Operation</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>static-bypass-module</indexterm>
+            <indexterm>pxc-control-board</indexterm>
+            <indexterm>bypass-switchgear</indexterm>
+            <indexterm>power-distribution-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-to-static-bypass</indexterm>
+            <indexterm>request-static-bypass-operation</indexterm>
+            <indexterm>disable-eco-mode-check</indexterm>
+            <indexterm>confirm-bypass-transfer</indexterm>
+            <indexterm>verify-load-transfer</indexterm>
+            <indexterm>monitor-bypass-alarms</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-operation</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>maintenance-window</indexterm>
+            <indexterm>critical-power-supply</indexterm>
+            <indexterm>industrial-control-room</indexterm>
+            <indexterm>site-commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Transfer from Normal Operation to Requested Static Bypass Operation"/>
+         <othermeta name="shortdesc"
+                    content="Stepwise task to transfer the UPS from normal operation into a requested static bypass mode, including prechecks and confirmation prompts."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static bypass;bypass switchgear;control panel;eco mode;transfer confirmation dialogue;25-100 kVA UPS"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:power-transfer-procedures;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-bypass,transfer-procedure,eco-mode,transfer-confirmation,25-100-kva"/>
+         <othermeta name="usecase" content="execute-transfer-to-static-bypass"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>This menu is only available if <uicontrol>ECO Mode</uicontrol> is disabled.</note>
+      </context>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS into Bypass NO, Abort►YES, UPS into Bypass</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS into Bypass</uicontrol> to transfer
+to requested static bypass operation. The following message will appear
+on the display:</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">The load is supplied via the static bypass switch</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>After the transfer to requested static bypass operation
+is complete, press the ESC key.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

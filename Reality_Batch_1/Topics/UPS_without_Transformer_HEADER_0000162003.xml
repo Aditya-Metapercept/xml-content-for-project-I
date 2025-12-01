@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UPSWithoutTransformer-10545C24" xml:lang="en">
+   <title>UPS without Transformer</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-without-transformer</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>battery-compartment</indexterm>
+            <indexterm>external-transformer-option</indexterm>
+            <!-- Process layer -->
+            <indexterm>pre-installation-checks</indexterm>
+            <indexterm>mounting-and-fixing</indexterm>
+            <indexterm>electrical-connection</indexterm>
+            <indexterm>battery-connection-procedure</indexterm>
+            <indexterm>commissioning-checklist</indexterm>
+            <indexterm>service-and-maintenance-routine</indexterm>
+            <!-- Context layer -->
+            <indexterm>server-room-deployment</indexterm>
+            <indexterm>floor-standing-installation</indexterm>
+            <indexterm>battery-room-safety</indexterm>
+            <indexterm>site-power-architecture</indexterm>
+            <indexterm>remote-monitoring-integration</indexterm>
+            <indexterm>environmental-constraints</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="UPS without Transformer"/>
+         <othermeta name="shortdesc"
+                    content="Header/reference for the Reality UPS variant without an internal transformer; covers inverter and battery layout considerations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="inverter;control-board;battery-compartment;external-transformer;terminal-rail"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-variants;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="inverter,battery,installation,commissioning,variant,layout"/>
+         <othermeta name="usecase"
+                    content="summarise UPS variant without internal transformer and highlight installation considerations"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

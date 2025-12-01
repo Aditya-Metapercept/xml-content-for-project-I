@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminViewOnlnUsrs">
+   <title>Viewing the List of Online Users</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>online-users</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>session-management</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>monitoring-tools</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-online-users</indexterm>
+            <indexterm>filter-online-users</indexterm>
+            <indexterm>search-online-users</indexterm>
+            <indexterm>display-session-details</indexterm>
+            <indexterm>export-session-list</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>system-monitoring</indexterm>
+            <indexterm>user-administration</indexterm>
+            <indexterm>security</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="View Online Users"/>
+         <othermeta name="shortdesc"
+                    content="Display and filter the list of users currently logged into the application."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user;session;ip-address;login-time;session-duration"/>
+         <othermeta name="taxonomy"
+                    content="domain:online-users;usecase:display-current-online-users;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="online-users,user-management,session-management,view-online-users,filter-online-users"/>
+         <othermeta name="usecase" content="display-current-online-users"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can view the list of users who are currently logged in to the application.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>User Management</uicontrol>, and then click<uicontrol> Online Users</uicontrol>.</p>
+            <p>The <uicontrol>ONLINE USERS LIST</uicontrol> page is displayed.</p>
+            <p>The page lists the user names of all the currently logged in users.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

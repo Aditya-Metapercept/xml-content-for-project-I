@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t390938E-BDF3-11F0-1735-09173F13E4C5" xml:lang="en-us">
+   <title>Playing a USB device</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:48:00+05:30"/>
+         <revised modified="2025-11-15T14:48:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operator,maintenance-personnel,management"/>
+         <keywords><!-- product layer -->
+            <indexterm>usb-interface</indexterm>
+            <indexterm>multimedia-player</indexterm>
+            <indexterm>infotainment-system</indexterm>
+            <indexterm>file-system-support</indexterm>
+            <indexterm>firmware-compatibility</indexterm>
+            <!-- process layer -->
+            <indexterm>usb-playback-procedure</indexterm>
+            <indexterm>file-format-check</indexterm>
+            <indexterm>safe-device-connection</indexterm>
+            <indexterm>troubleshooting-playback</indexterm>
+            <indexterm>firmware-update-process</indexterm>
+            <!-- context layer -->
+            <indexterm>operator-experience</indexterm>
+            <indexterm>cabin-entertainment</indexterm>
+            <indexterm>user-settings</indexterm>
+            <indexterm>eventual-data-security</indexterm>
+            <indexterm>site-policies</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Playing a USB Device"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to connect and play media from a USB device on the lift truck infotainment system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="usb-port;media-files;infotainment-unit;firmware;file-formats"/>
+         <othermeta name="taxonomy"
+                    content="domain:operator-experience;usecase:media-playback-and-setup;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="usb,media-playback,infotainment"/>
+         <othermeta name="usecase" content="connecting-and-playing-usb-media"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig>
+            <image href="media/image446.png" placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>Open the cover, plug the USB device to the USB port. </p>
+            <p>
+               <p>Once a USB is connected,
+          USB will automatically start playing from the first file within the USB.</p>
+               <p>If a
+          previously played USB is reconnected, then the file after the most recently played file is
+          played.</p>
+               <p>If a different USB is connected or the file information within the USB was
+          changed, then the USB will start playing from the first song within the USB.</p>
+               <fig>
+                  <image href="media/image447.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>When a USB device to be played is already connected, press the
+USB button to play USB device.
+</p>
+            <p>
+               <p>The previously selected file is played.</p>
+               <fig>
+                  <image href="media/image449a.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>While playing, press the [1∥] button to pause the file.
+</p>
+            <p>
+               <p>Press the button again to play the current file.</p>
+               <fig>
+                  <image href="media/image450.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Press the [4 INFO] button repeatedly to display information
+about the file being played.
+</p>
+            <p>
+               <p>The information displayed includes the file name, playing time,
+ID3 Tag or folder name information saved with the song.</p>
+               <p>If there is no information on the playing file, then the unit
+will display "NO INFO".</p>
+               <fig>
+                  <image href="media/image451.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Press MENU button repeatedly to select the
+Scroll setting mode. Tum the VOLUME dial to
+                changes the display method between Scroll On/Off.</p>
+            <p>
+               <ul>
+                  <li>SCROLL ON: activate the scroll function</li>
+                  <li>SCROLL OFF: deactivate the scroll function</li>
+               </ul>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

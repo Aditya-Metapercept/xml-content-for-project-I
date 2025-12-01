@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2386EF6-BDF2-11F0-2107-09173F13E4C5" xml:lang="en">
+   <title>Adobe Sign Services for Administrators</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign-services-api</indexterm>
+            <indexterm>adobe-sign-administrator-console</indexterm>
+            <indexterm>esign-adapter</indexterm>
+            <indexterm>contract-lifecycle-management</indexterm>
+            <indexterm>template-management-system</indexterm>
+            <indexterm>audit-trail-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>administration-setup</indexterm>
+            <indexterm>esignature-workflow-management</indexterm>
+            <indexterm>platform-configuration</indexterm>
+            <indexterm>system-requirements-review</indexterm>
+            <indexterm>release-documentation-tracking</indexterm>
+            <indexterm>contract-template-setup</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>digital-contract-management</indexterm>
+            <indexterm>cloud-implementation</indexterm>
+            <indexterm>administrator-guidance</indexterm>
+            <indexterm>integration-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adobe Sign Services for Administrators"/>
+         <othermeta name="shortdesc"
+                    content="Provides administrators with guidance on configuring Adobe Sign, managing eSignature workflows, reviewing system requirements, and accessing related implementation resources."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="adobe sign adapter; administrator guide; esignature workflows; contract manager role; system requirements; release notes; audit trail; mappings configuration; template editor; user guides"/>
+         <othermeta name="taxonomy"
+                    content="domain:enterprise-software;usecase:administrator-setup;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="administrator guide, configuration, esign adapter, workflows, clm, system requirements, mappings, templates"/>
+         <othermeta name="usecase" content="administrator-setup-and-configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>With the Adobe Sign Services Administrator Guide, you can find out how Adobe Sign Adapter works and how to manage your organization's and your customers' eSignature workflows. </p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Topic</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>What's Covered</p>
+                     </entry>
+                     <entry>
+                        <p>Adobe Sign Services Administrator Guide is designed to provide administrators with information on configuring and setting up Adobe Sign.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Primary Audience</p>
+                     </entry>
+                     <entry>
+                        <p>Contract Manager, Adobe Sign Administrator</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IT Environment</p>
+                     </entry>
+                     <entry>
+                        <p>Refer to the latest <xref href="https://documentation.Power.com/display/ESIGN/.Spring+%2721+Release+Notes+vSpring-21"
+                                 format="html"
+                                 scope="external">
+                              <u>Release Notes</u>
+                           </xref> for information on System Requirements and Supported Platforms.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Updates</p>
+                     </entry>
+                     <entry>
+                        <p>For a comprehensive list of updates to this guide for each release, refer to <xref href="https://documentation.Power.com/esign/latest/what-s-new-in-adobe-sign-services-documentation-152574977.html"
+                                 format="html"
+                                 scope="external">
+                              <u>What's New in Adobe Sign Services Documentation</u>
+                           </xref>.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Other Resources</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>
+                                 <i>Power CLM User Guide</i>: Refer to this guide to set-up the entire contract management process.</li>
+                              <li>
+                                 <i>Adobe Sign Services User Guide</i>: Refer to this guide to set-up the entire Adobe Sign process.</li>
+                              <li>
+                                 <i>X-Author for Contracts User Guide</i>: Refer to this guide for detailed instructions on setting up templates and editing agreement documents.</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+   <related-links>
+      <linklist>
+         <desc>Select one of the following topics for more information:</desc>
+         <link href="../setting_up_adobe_sign_ser_143887798/143887798.xml"/>
+         <link href="../creating_agreement_templa_143887894/143887894.xml"/>
+         <link href="../adding_the_audit_trail_14_143887808/143887808.xml"/>
+         <link href="../configuring_mappings_1438_143887809/143887809.xml"/>
+         <link href="../faqs_143887810/143887810.xml"/>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1AB03AA-BB01-11F0-1020-09173F13E4C5" xml:lang="en-us">
+   <title>Cullet Preheater Maintenance</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-11-06"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
+         <keywords>
+            <indexterm>metr-bat-space</indexterm>
+            <indexterm>cullet-preheater</indexterm>
+            <indexterm>preheater-maintenance</indexterm>
+            <indexterm>burner-servicing</indexterm>
+            <indexterm>heat-exchanger-inspection</indexterm>
+            <indexterm>conveyor-maintenance</indexterm>
+            <indexterm>sensor-replacement</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>lubrication-schedule</indexterm>
+            <indexterm>spare-parts-management</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>equipment-reliability</indexterm>
+            <indexterm>maintenance-safety</indexterm>
+            <indexterm>downtime-reduction</indexterm>
+            <indexterm>service-intervals</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-BAT-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Cullet Preheater — Maintenance"/>
+         <othermeta name="shortdesc"
+                    content="Maintenance guidance for the cullet preheater including preventive servicing, burner and heat-exchanger inspections, sensor replacement, and spare-parts handling."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="burner;heat-exchanger;conveyor;sensor;lubricant;spare-parts;maintenance-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-production;usecase:maintenance-and-service;industry:glassmanufacturing"/>
+         <othermeta name="tags"
+                    content="maintenance,preheater,preventive,spare-parts,inspection"/>
+         <othermeta name="usecase" content="maintenance-and-service"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

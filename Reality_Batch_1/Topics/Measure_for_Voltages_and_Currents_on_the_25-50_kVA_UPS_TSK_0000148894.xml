@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="MeasureForVoltagesAndCurrentsOnThe2-D22C34C9" xml:lang="en">
+   <title>Measure for Voltages and Currents on the 25–50 kVA UPS</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>transformer</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>battery-breaker-kit</indexterm>
+            <indexterm>control-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>isolate-ups</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>event-log-review</indexterm>
+            <indexterm>wiring-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>industrial-production</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Measure for Voltages and Currents on the 25-50 kVA UPS TSK 0000148894"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to access and measure voltages and currents on 25–50 kVA UPS units; includes safety steps and measurement points."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups;battery;transformer;ups-with-transformer;battery-breaker-kit;control-board;measure-for-voltage-and-current;wiring-configuration"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:measure-for-voltage-and-current;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,measure-for-voltage-and-current,ups,measurement,safety"/>
+         <othermeta name="usecase" content="measure-for-voltage-and-current"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Remove the plate in the bottom of the UPS cabinet and lift
+up the second plate that covers the busbars.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/0g_pxcupsn025_measure_for_voltages_0000181046.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Connect the equipment grounding conductor to the ground
+busbar.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_connect_power_cables_connect_ground_cable_120mm_0000104279.svg"
+                         scalefit="yes"
+                         translate="no"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Use a probe to measure for voltages and currents at the
+busbars:</p>
+            <ol>
+               <li>
+                  <p>UPS input at input L1, input L2, input L3 , and input
+N.</p>
+               </li>
+               <li>
+                  <p>Bypass at bypass L1, bypass L2, bypass L3, and bypass
+N.</p>
+               </li>
+               <li>
+                  <p>UPS output at output L1, output L2, output L3, and output
+N.</p>
+               </li>
+               <li>
+                  <p>Battery DC at battery + and battery - .</p>
+               </li>
+            </ol>
+            <stepxmp>
+               <fig expanse="page">
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_connect_power_cables_to_terminals_120mm_0000104237.svg"
+                         scalefit="yes"
+                         translate="no"
+                         placement="inline"/>
+               </fig>
+               <fig expanse="page">
+                  <title>Front View of the UPS Cabinet and Transformer Cabinet</title>
+                  <image href="../Images/Reality__50_kw_diups50ditransf_connectdualcables_w170mm_0000162094.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

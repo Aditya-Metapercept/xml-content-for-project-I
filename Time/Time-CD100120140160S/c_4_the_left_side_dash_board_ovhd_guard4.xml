@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c37464E3-BDF3-11F0-9021-09173F13E4C5" xml:lang="en-us">
+   <title>4 The Left Side Dash Board (OVHD Guard)</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operator,maintenance-personnel,industrial-engineer,safety-officer"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>operator-switches</indexterm>
+            <indexterm>ignition-switch</indexterm>
+            <indexterm>light-switches</indexterm>
+            <indexterm>mode-selector</indexterm>
+            <!-- Process layer -->
+            <indexterm>switch-operation</indexterm>
+            <indexterm>functional-testing</indexterm>
+            <indexterm>electrical-troubleshooting</indexterm>
+            <indexterm>replacement-procedure</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-cabin</indexterm>
+            <indexterm>daily-checks</indexterm>
+            <indexterm>safety-procedures</indexterm>
+            <indexterm>material-handling</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="3 The Operator — Switches"/>
+         <othermeta name="shortdesc"
+                    content="Descriptions and functional checks for operator switches in the cabin, including operation and maintenance guidance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ignition-switch;headlight-switch;horn-button;mode-selector;toggle-switches"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:switch-operation;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="switches,operation,testing"/>
+         <othermeta name="usecase" content="operate-and-test-switches"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image215.png" placement="inline"/>
+      </fig>
+      <note type="notice">
+         <p>To use side shift function, operate the lever with the switch on
+            the handle pressed down.</p>
+      </note>
+      <fig>
+         <ol id="items_c1r_gq5_vgc">
+            <li>
+            Regeneration(SCR Cleaning) Switch
+          </li>
+            <li>
+            Strobe Switch
+          </li>
+            <li>
+            Emergency Lamp Switch
+          </li>
+            <li>
+            Plug(Spare Room).
+          </li>
+            <li>
+            Air Compressor Switch
+          </li>
+            <li>
+            Economic Switch
+          </li>
+            <li>
+            Engine Stop Switch
+          </li>
+            <li>
+            Plug(Spare Room).
+          </li>
+            <li>
+            Plug(Spare Room).
+          </li>
+            <li>
+            Speed Meter
+          </li>
+         </ol>
+      </fig>
+   </body>
+</topic>

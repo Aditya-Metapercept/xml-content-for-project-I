@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InputSpecificationsForUPSWithoutTra-546A5C63" xml:lang="en">
+   <title>Input Specifications</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-without-transformer</indexterm>
+            <indexterm>transformerless-ups</indexterm>
+            <indexterm>inverter-input-stage</indexterm>
+            <indexterm>input-filters</indexterm>
+            <indexterm>surge-protection</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-input-requirements</indexterm>
+            <indexterm>verify-protection-and-grounding</indexterm>
+            <indexterm>measure-input-harmonics</indexterm>
+            <indexterm>confirm-earth-leakage-protection</indexterm>
+            <indexterm>record-installation-parameters</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-installation</indexterm>
+            <indexterm>utility-connection</indexterm>
+            <indexterm>power-quality-environment</indexterm>
+            <indexterm>service-access</indexterm>
+            <indexterm>operational-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Input Specifications for UPS without Transformer"/>
+         <othermeta name="shortdesc"
+                    content="Input technical requirements and safety guidance for UPS variants that do not use an input transformer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="transformerless-ups;filters;surge-devices;grounding;inverter-inputs"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:input-specifications-transformerless;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="transformerless,input-specs,safety,installation,protection"/>
+         <othermeta name="usecase"
+                    content="define-input-requirements-for-ups-without-transformer"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="7">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC2" namest="col2" valign="top">25
+kVA</entry>
+                     <entry nameend="COLSPEC4" namest="col3" valign="top">37.5 kVA</entry>
+                     <entry nameend="COLSPEC17" namest="COLSPEC18" valign="top">50
+kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC17" namest="col2">L1,
+L2, L3, N, G for single mainsL1, L2, L3, G for dual
+mains</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">±10%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+range (Hz)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">60
+±8%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal
+input current (A)</entry>
+                     <entry>75</entry>
+                     <entry>71</entry>
+                     <entry>112</entry>
+                     <entry>106</entry>
+                     <entry>149</entry>
+                     <entry>141</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input current (A)</entry>
+                     <entry>91</entry>
+                     <entry>86</entry>
+                     <entry>137</entry>
+                     <entry>129</entry>
+                     <entry>182</entry>
+                     <entry>172</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Total
+harmonic distortion (THDI)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">&lt;
+5% at 100% load </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input short circuit rating (kA)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">65</entry>
+                  </row>
+                  <row>
+                     <entry>Ramp-in</entry>
+                     <entry nameend="COLSPEC17" namest="col2">Up to 10 seconds</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC2" namest="col2" valign="top">75
+kVA</entry>
+                     <entry nameend="COLSPEC4" namest="col3" valign="top">100 kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC4" namest="col2">L1,
+L2, L3, N, G for single mainsL1, L2, L3, G for dual
+mains</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">±10%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+range (Hz)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">60
+±8%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal
+input current (A)</entry>
+                     <entry>221</entry>
+                     <entry>209</entry>
+                     <entry>295</entry>
+                     <entry>279</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input current (A)</entry>
+                     <entry>270</entry>
+                     <entry>255</entry>
+                     <entry>360</entry>
+                     <entry>340</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Total
+harmonic distortion (THDI)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">&lt;
+5% at 100% load </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input short circuit rating (kA)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">65</entry>
+                  </row>
+                  <row>
+                     <entry>Ramp-in</entry>
+                     <entry nameend="COLSPEC4" namest="col2">Up to 10 seconds</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

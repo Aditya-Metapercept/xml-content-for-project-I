@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c37A2AFF-BDF3-11F0-1058-09173F13E4C5" xml:lang="en-us">
+   <title>Engine Valve Lash - Check, Adjust</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:17:00+05:30"/>
+         <revised modified="2025-11-14T14:17:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="service-technician,maintenance-personnel,industrial-engineer,reliability-engineer,safety-officer"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>cylinder-head</indexterm>
+            <indexterm>valve-train</indexterm>
+            <indexterm>rocker-arm</indexterm>
+            <indexterm>adjusting-shim</indexterm>
+            <!-- Process layer -->
+            <indexterm>valve-lash-check</indexterm>
+            <indexterm>valve-adjustment-procedure</indexterm>
+            <indexterm>timing-positioning</indexterm>
+            <indexterm>measurement-tolerances</indexterm>
+            <indexterm>torque-and-locking</indexterm>
+            <!-- Context layer -->
+            <indexterm>diesel-engine-maintenance</indexterm>
+            <indexterm>performance-tuning</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>workshop-safety-practices</indexterm>
+            <indexterm>operational-reliability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Engine Valve Lash — Check and Adjust"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for checking and adjusting valve lash clearances with measurement limits, tools, and safety notes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="valves;rocker-arms;shims;pushrods;feelers;torque-wrench"/>
+         <othermeta name="taxonomy"
+                    content="domain:engine-maintenance;usecase:valve-clearance-adjustment;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="valve-lash,adjustment,tolerances,engine-performance"/>
+         <othermeta name="usecase"
+                    content="corrective and preventive valve clearance maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <note id="note_qpk_tnz_5gc" type="notice">
+         <p>The valve clearances are to be adjusted at the times of the following situations.</p>
+      </note>
+      <ul id="ul_wpk_tnz_5gc">
+         <li>When the engine is overhauled and the cylinder heads are disassembled.</li>
+         <li>When severe noise comes from valve train.</li>
+         <li>When the engine is not normally operated even though there is no trouble in the fuel
+        system.</li>
+      </ul>
+      <note type="warning">
+         <p>To prevent possible injury when adjusting diesel engines, do not use the starter motor to
+        turn the flywheel.</p>
+         <p>Hot engine components can cause burns. Allow additional time for the engine to cool before
+        measuring valve clearance.</p>
+      </note>
+      <note id="note_nv4_wnz_5gc" type="notice">
+         <p>Measure the valve lash with the engine stopped. To obtain an accurate measurement, allow at
+        least 20 minutes for the engine cylinder head and block to cool.</p>
+      </note>
+      <p>Set the clearance to the nominal appropriate clearance given in
+the “Valve Clearance Setting” chart shown below.</p>
+      <table colsep="1" frame="all" rowsep="1">
+         <tgroup cols="3">
+            <colspec colname="col1" colnum="1" colwidth="0.7*"/>
+            <colspec colname="col2" colnum="2" colwidth="1.1*"/>
+            <colspec colname="col3" colnum="3" colwidth="1.2*"/>
+            <thead>
+               <row>
+                  <entry nameend="col3" namest="col1">Valve Clearances </entry>
+               </row>
+               <row>
+                  <entry>Engine </entry>
+                  <entry>Valve </entry>
+                  <entry>Clearance </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="1">5.9 Liter Diesel</entry>
+                  <entry>Exhaust Valves</entry>
+                  <entry>0.4 mm (0.018 in)</entry>
+               </row>
+               <row>
+                  <entry>Intake Valves</entry>
+                  <entry>0.3 mm (0.012 in)</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>Refer to the “Service Manual” for the complete valve
+adjustment procedure.</p>
+   </body>
+</topic>

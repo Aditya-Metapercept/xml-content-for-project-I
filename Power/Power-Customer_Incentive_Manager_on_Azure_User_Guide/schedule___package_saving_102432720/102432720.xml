@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25EA697-BDF2-11F0-2899-09173F13E4C5" xml:lang="en">
+   <title>Schedule - Package Saving Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>package-saving-program</indexterm>
+            <indexterm>schedule-engine</indexterm>
+            <indexterm>payout-schedule-module</indexterm>
+            <indexterm>calculation-summary</indexterm>
+            <indexterm>calculation-details</indexterm>
+            <indexterm>metR-cim-power</indexterm>
+            <!-- Process layer -->
+            <indexterm>program-activation</indexterm>
+            <indexterm>payout-schedule-generation</indexterm>
+            <indexterm>package-calculation-processing</indexterm>
+            <indexterm>schedule-triggering</indexterm>
+            <indexterm>calculation-linking</indexterm>
+            <indexterm>discount-package-evaluation</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>schedule-management</indexterm>
+            <indexterm>package-saving-evaluation</indexterm>
+            <indexterm>pricing-workflows</indexterm>
+            <indexterm>enterprise-revenue-environment</indexterm>
+            <indexterm>documentation-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Schedule - Package Saving Program"/>
+         <othermeta name="shortdesc"
+                    content="Activating the program triggers the creation of payout schedules and performs package-saving calculations shown in summary and detail views."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="payout-schedule;package;calculation-engine;summary-page;details-page;discount-model"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="schedule,package-saving,payout,program,calculation,pricing"/>
+         <othermeta name="usecase"
+                    content="describe package-saving program schedule generation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Activating a program triggers jobs to create payout schedules.</p>
+      <p>Calculation for the package saving displays the following information on the Calculation Summary and Calculation Details page.</p>
+   </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m29493B2-BDF2-11F0-1726-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Checking Out an Agreement</title>
+   <topicref href="45220108.xml" xml:lang="en">
+      <topicref href="to_check_out_a_document.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To check out a document</navtitle>
+         </topicmeta>
+         <mapref href="../locking_and_unlocking_doc_45220101/45220101_1.xml"
+                 format="ditamap"
+                 xml:lang="en">
+            <topicmeta>
+               <navtitle>Locking and Unlocking Documents</navtitle>
+            </topicmeta>
+         </mapref>
+      </topicref>
+   </topicref>
+</topic>

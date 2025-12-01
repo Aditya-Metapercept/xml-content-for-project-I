@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25D9A97-BDF2-11F0-2073-09173F13E4C5" xml:lang="en">
+   <title>Tiered Qualifications</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>tiering-service</indexterm>
+            <indexterm>qualifications-engine</indexterm>
+            <indexterm>tiered-qualification-module</indexterm>
+            <indexterm>revenue-tier-service</indexterm>
+            <indexterm>tier-definition-tool</indexterm>
+            <indexterm>tier-policy-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-tier-rules</indexterm>
+            <indexterm>configure-tier-thresholds</indexterm>
+            <indexterm>assign-tiered-benefits</indexterm>
+            <indexterm>calculate-tiered-qualification</indexterm>
+            <indexterm>validate-tiered-logic</indexterm>
+            <indexterm>publish-tiered-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>sales-compensation</indexterm>
+            <indexterm>quota-management</indexterm>
+            <indexterm>deal-pricing</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Tiered Qualifications"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for creating and configuring tiered qualifications: tier types, thresholds, and how tiered benefits are applied."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="tiers;tier-thresholds;tier-types;tiered-benefits;calculation-rules;validation-rules"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="tiered-qualifications,tiers,thresholds,tiering,quota,validation"/>
+         <othermeta name="usecase" content="configure-and-manage-tiered-qualifications"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>A user can specify tiered qualifications by choosing a predefined qualification formula.</p>
+      <ul>
+         <li>Step Revenue Tier</li>
+         <li>Step Volume Tier</li>
+         <li>Non-step Revenue Tier</li>
+         <li>Non-step Volume Tier</li>
+         <li>Non Tier</li>
+      </ul>
+   </body>
+</topic>

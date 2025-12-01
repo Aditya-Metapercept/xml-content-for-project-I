@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMUpdtDoc">
+   <title>Updating a Document</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product -->
+            <indexterm>document-management</indexterm>
+            <indexterm>document-editor</indexterm>
+            <indexterm>revision-system</indexterm>
+            <indexterm>version-history</indexterm>
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Process -->
+            <indexterm>update-document</indexterm>
+            <indexterm>edit-file</indexterm>
+            <indexterm>upload-new-version</indexterm>
+            <indexterm>modify-content</indexterm>
+            <indexterm>apply-revisions</indexterm>
+            <!-- Context -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>technical-documentation</indexterm>
+            <indexterm>project-records</indexterm>
+            <indexterm>engineering-data</indexterm>
+            <indexterm>digital-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Updating Documents"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to update existing documents by uploading new versions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document;revision;new-version;metadata-fields;upload-control"/>
+         <othermeta name="taxonomy"
+                    content="domain:document-management;usecase:update;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="update,revision,version upload,document editing"/>
+         <othermeta name="usecase" content="updating and replacing document versions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Documents are checked out to incorporate any modifications to the existing file at any point in time. A checked-out document cannot be modified by other users to prevent overwriting and loss of information. The user name of the user who checked-out the document is displayed in the document list.</p>
+         <p>Documents wrongly checked out can be restored to their current version by choosing the <uicontrol>Discard Check Out</uicontrol> option. You can discard a check-out only before the document is checked-in.</p>
+         <p>On making modifications to a checked-out document, the document must be checked-in by the user who had checked out the document. On checking-in a document, document version number increments by 1.</p>
+      </context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>From the documents list page, select the appropriate document.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Check In/Out</uicontrol>, and then click <uicontrol>Check Out</uicontrol>.</p>
+            <p>The file is downloaded to the local storage.<note> If you want to discard the check-out, click <uicontrol>Check In/Out</uicontrol>, and then click <uicontrol>Discard Check Out</uicontrol>.</note>
+            </p>
+         </li>
+         <li>
+            <p>Make required modifications to the document, and save the document.</p>
+         </li>
+         <li>
+            <p>In the documents list page, select the checked-out document.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Check In/Out</uicontrol>, and then click<uicontrol>Check In</uicontrol>.</p>
+            <p>The<uicontrol>CHECKIN DOCUMENT</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Comments</uicontrol> box, enter the details about the modification as comments.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>New Document </uicontrol>box, click <uicontrol>Choose File</uicontrol> to select the modified document, select the updated document, and then click <uicontrol>Open</uicontrol>.</p>
+         </li>
+         <li>
+            <p>In <uicontrol>Document Type</uicontrol>, select the appropriate option.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Check In</uicontrol>.</p>
+            <p>The version number of the document increments by 1.
+                    <p>For information on document versions, refer to<xref href="ManageDocVers.xml">Managing Document Versions</xref>.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

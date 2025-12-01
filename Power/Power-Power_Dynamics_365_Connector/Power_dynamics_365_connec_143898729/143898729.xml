@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2448EEF-BDF2-11F0-2099-09173F13E4C5" xml:lang="en">
+   <title>Power-Dynamics 365 Connector</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-dynamics-365-connector</indexterm>
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>power</indexterm>
+            <!-- Process layer -->
+            <indexterm>data-sync</indexterm>
+            <indexterm>configuration</indexterm>
+            <indexterm>sandbox-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>master-data-management</indexterm>
+            <indexterm>transactional-data</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Power-Dynamics 365 Connector"/>
+         <othermeta name="shortdesc"
+                    content="Learn to use the Power-Dynamics 365 connector to configure and sync master and transactional data between Power and Dynamics 365."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="connector;sandbox-instance;field-mapping;api"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:data-sync;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="connector,data-sync,configuration,master-data,transactional-data"/>
+         <othermeta name="usecase" content="data-sync"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Learn to use the Power-Dynamics 365 connector to configure and schedule syncing of master and transactional data between Power and Dynamics 365.</p>
+   </body>
+</topic>

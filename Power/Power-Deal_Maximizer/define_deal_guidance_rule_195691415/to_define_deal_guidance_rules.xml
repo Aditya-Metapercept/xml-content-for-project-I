@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t271B442-BDF2-11F0-1974-09173F13E4C5" xml:lang="en">
+   <title>To define deal guidance rules</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>guidance-rules</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>rule-engine</indexterm>
+            <indexterm>guidance-thresholds</indexterm>
+            <indexterm>evaluation-outcomes</indexterm>
+            <!-- Process layer -->
+            <indexterm>defining-guidance-rules</indexterm>
+            <indexterm>configuring-rule-conditions</indexterm>
+            <indexterm>mapping-dimension-sets</indexterm>
+            <indexterm>adding-thresholds</indexterm>
+            <indexterm>setting-guidance-outcomes</indexterm>
+            <indexterm>saving-guidance-rules</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>deal-evaluation-workflow</indexterm>
+            <indexterm>enterprise-pricing</indexterm>
+            <indexterm>b2b-software</indexterm>
+            <indexterm>pricing-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To define deal guidance rules"/>
+         <othermeta name="shortdesc"
+                    content="Outlines the process of defining rule conditions and thresholds to produce guidance outcomes during deal evaluation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="guidance rule; threshold logic; dimension set; rule condition; outcome indicator"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="guidance rules,thresholds,deal evaluation,rule conditions,outcome logic"/>
+         <othermeta name="usecase"
+                    content="creating rule logic for determining deal guidance output"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to All Tabs (<image placement="inline" href="../attachments/195691415/195691414.png"/>) &gt; <uicontrol>Deal Guidance
+                  Rules</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New Deal Guidance Rule</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter the following details as described in the table. </p>
+            <p>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Rule Name</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Provide a descriptive, unique name for the dimension.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Sequence</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>This is the order in which Deal Maximizer will check the Guidance
+                                 Rules when a deal is evaluated. If multiple rules match the
+                                 criteria on the object, then the rule with the lowest sequence
+                                 number will be used.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Guidance Type</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Select one of the following, which controls which values are
+                                 available in the Business Object and Measure list:</p>
+                                 <p>Deal Level: this means the guidance will be based on a field
+                                 at the object level. For instance, it will be the total value of a
+                                 quote or deal that is judged, not a specific line item that makes
+                                 up part of the overall object value.</p>
+                                 <p>Line Level: this means the guidance will be based on a field
+                                 at the line item level.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Business Object</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>The values available here are dependent on the selected Guidance
+                                 Type. This should match the object you plan to use the deal
+                                 guidance for.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Dimension Set</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Select the Dimension Set the rule will use to evaluate the quality
+                                 of the deal. The available options are dependent on the Business
+                                 Object and Guidance Type.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Measure</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>It is a variable that participates in pricing during the quote
+                                 process. You can choose any one of the pricing fields such as Unit
+                                 Price, Net Price, and Annual Price. Discount Percentage, Discount
+                                 Amount, or Margin Percentage as Measure. See <xref href="../rule_measure_formulas_143_143899591/143899591.xml"
+                                          format="dita">Rule Measure Formulas</xref> for more details.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Custom Measure Source</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>The pre-defined set of Measures comes with a pre-defined
+                                    formula. If you have a custom pricing variable and want to
+                                    leverage this variable to drive deal guidance, you can do so
+                                    with the help of Custom Measures. This field is visible only if
+                                       <uicontrol>Measure</uicontrol> is set to <i>Custom</i>. All
+                                    fields from the selected Business object are listed here. You
+                                    can choose any field and define guidance rules for it.</p>
+                                 <p>When using a custom measure for deal guidance, it is expected that
+                                 the deal guidance popup content is also custom. Out-of-the-box
+                                 display of deal guidance content will not provide any meaningful
+                                 information when deal guidance is based on the custom measure. </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Custom Measure Band Direction</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>Set the guidance in a specific direction - Highlow or
+                                    Lowhigh.<p>Based on your Custom Measure, you can classify the
+                                    band values from either high-to-low or low-to-high. For example,
+                                    if your Custom Measure is a <uicontrol>Margin</uicontrol>, the
+                                    direction <i>hightolow</i> would signify that higher the margin,
+                                    better the deal. On the other hand, if your Custom Measure is a
+                                       <uicontrol>Discount</uicontrol>, the direction <i>lowhigh</i>
+                                    would signify that lower the discount, better the deal.</p>This
+                                 field is visible only if <uicontrol>Measure</uicontrol> is set to
+                                    <i>Custom</i>. See the example below.</entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Currency Scope</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Select the relevant currency from the Available box and move to the
+                                 Chosen box.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Active</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>This must be selected for the rule to be available for use. Note:
+                                 You should not activate the rule until it has been fully
+                                 configured.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>
+                                    <uicontrol>Description</uicontrol>
+                                 </p>
+                              </entry>
+                              <entry>
+                                 <p>Type a brief description. This is an optional field.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>You can add custom fields on the Deal Guidance Rule which will help you identify
+                  the constraint rule triggered for a line item. Access Deal Guidance Rule
+                  object and create a custom field of any datatype. Add this field to the Deal
+                  Guidance Rule Layout and provide a value for it.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p/>
+            <p>
+               <p>In the Rule Scope section, you can apply additional filters based on the
+                  Product family, Product Group, Service Location, Product and Account. You can see
+                  this section only if the <uicontrol>Guidance Type</uicontrol> is set to <i>Line
+                     Level</i>.</p>
+            </p>
+         </li>
+         <li>
+            <p>In the Rule Criteria section, create an equation for a field (dependent on
+               which Business Object is used) that you want to use to filter which deals the rule
+               could be applied to. You can include up to ten fields in the criteria. Since the
+               equations are by default linked by AND, all equations must be true for the overall
+               expression to evaluate as true. For extending the scope of a Rule Criteria you can
+               apply <uicontrol>Advanced Filter conditions</uicontrol>. You can use AND &amp; OR
+               operators to combine the rule parameters to get the desired results.  </p>
+         </li>
+         <li>
+            <p>In the Rule Entries section, the dimensions that are associated with the
+            dimension set selected earlier are displayed here. You must enter the values for the
+            dimensions and the rating values you want to correspond to the color bands.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>. Once saved and made active, the guidance rule is
+               available for use.</p>
+            <p>
+               <fig id="fig_mfr_vl3_rcc">
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/195691415/195691413.png"
+                         id="image_nfr_vl3_rcc"/>
+               </fig>
+               <p>You can edit the rule as required, as well as clone it. You must deactivate a rule
+                  before you can delete it.</p>
+               <note type="note" id="note_uxn_wl3_rcc">
+                  <p>Use Case 1: Deal Guidance Rule for Band Direction</p>
+                  <p>Band Direction - Low to High</p>
+                  <p>Let us assume that the Measure = %Discount</p>
+                  <p>You must specify all bands in the Deal guidance Rule set.</p>
+                  <p>
+                     <table id="table_vxn_wl3_rcc">
+                        <tgroup cols="5">
+                           <colspec colname="col1"/>
+                           <colspec colname="col2"/>
+                           <colspec colname="col3"/>
+                           <colspec colname="col4"/>
+                           <colspec colname="col5"/>
+                           <thead>
+                              <row>
+                                 <entry>
+                                    <p>Quantity</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Preferred</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Acceptable</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Not Acceptable</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Risky</p>
+                                 </entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <p>10</p>
+                                 </entry>
+                                 <entry>
+                                    <p>10</p>
+                                 </entry>
+                                 <entry>
+                                    <p>20</p>
+                                 </entry>
+                                 <entry>
+                                    <p>30</p>
+                                 </entry>
+                                 <entry>
+                                    <p>50</p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+                  <p>Since lower Discounts will make a profitable deal, the Band Direction
+                        <i>LowtoHigh</i> indicates that lower discounts are preferable and higher
+                     discounts are risky.</p>
+                  <p>Band Direction - High to Low</p>
+                  <p>Let us assume that the Custom Measure is set to <uicontrol>Margin%</uicontrol>.
+                     You can define the range for this custom measure as given in the table
+                     below.</p>
+                  <p>
+                     <table id="table_wxn_wl3_rcc">
+                        <tgroup cols="5">
+                           <colspec colname="col1"/>
+                           <colspec colname="col2"/>
+                           <colspec colname="col3"/>
+                           <colspec colname="col4"/>
+                           <colspec colname="col5"/>
+                           <thead>
+                              <row>
+                                 <entry>
+                                    <p>Quantity</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Preferred</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Acceptable</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Not Acceptable</p>
+                                 </entry>
+                                 <entry>
+                                    <p>Risky</p>
+                                 </entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <p>10</p>
+                                 </entry>
+                                 <entry>
+                                    <p>100</p>
+                                 </entry>
+                                 <entry>
+                                    <p>90</p>
+                                 </entry>
+                                 <entry>
+                                    <p>70</p>
+                                 </entry>
+                                 <entry>
+                                    <p>60</p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+                  <p>Since higher Margin% will make a profitable deal, the Band Direction
+                        <i>HightoLow</i> indicates that higher margins are preferable and lower
+                     margins are risky.</p>
+               </note>
+               <note type="note" id="note_xxn_wl3_rcc">
+                  <p>Use Case 2: Setting Deal Guidance Rules</p>
+                  <p>Admin Setup:</p>
+                  <ul id="ul_yxn_wl3_rcc">
+                     <li>There are different product families available in the Org such as:<ul id="ul_zxn_wl3_rcc">
+                           <li>Product Family A, Product Family B, Product Family C and so on.</li>
+                        </ul>
+                     </li>
+                     <li>Each product family has 10-15 products within it and maximum 15 rules
+                        associated with each product family.<ul id="ul_ayn_wl3_rcc">
+                           <li>Product Family A has 13 products</li>
+                           <li>Product Family B has 15 products</li>
+                           <li>Product Family C has 12 products</li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <p>And so on. With the above setup, your org may have thousands of rule
+                     entries.</p>
+                  <p>Sales Rep User Runtime:</p>
+                  <ul id="ul_byn_wl3_rcc">
+                     <li>One rule is applied to one product at the same time and maximum 10 rule
+                        entries are associated with each rule. Therefore, each product that you add
+                        or configure into the cart has 10 rule entries associated.</li>
+                     <li>Now, the sales rep creates the proposal and configures the cart.<ul id="ul_cyn_wl3_rcc">
+                           <li>Adds 100 products from the different product families, so there are
+                              100 rules applied into the cart.</li>
+                           <li>Therefore, 100*10=1000 total rule entries are applied to the cart
+                              seamlessly.</li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <p>But if the number of products and/or rules are increased, that lead to the
+                     increased number of rule entries into the cart, then the CPQ displays an error
+                     message.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

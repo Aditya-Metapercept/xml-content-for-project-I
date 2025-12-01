@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC912D61-BB9C-11F0-4111-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>he-treatment-hood</indexterm>
+            <indexterm>safety-interlocks</indexterm>
+            <indexterm>hood-assembly</indexterm>
+            <indexterm>loto-kit</indexterm>
+            <indexterm>ppe-equipment</indexterm>
+            <!-- Process layer -->
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>hazard-identification</indexterm>
+            <indexterm>emergency-response</indexterm>
+            <indexterm>safe-isolation</indexterm>
+            <indexterm>ppe-compliance</indexterm>
+            <!-- Context layer -->
+            <indexterm>metr-hep-soul</indexterm>
+            <indexterm>workplace-safety</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>regulatory</indexterm>
+            <indexterm>production-line</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-HEP-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety"/>
+         <othermeta name="shortdesc"
+                    content="Outlines safety precautions, PPE requirements, LOTO processes, and hazard controls necessary before conducting maintenance work."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="loto;ppe;hazard-controls;safety-interlocks;emergency-response"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:safety;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,loto,ppe,hazards,emergency"/>
+         <othermeta name="usecase"
+                    content="ensure safe working conditions during maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Soul standard safety requirements and procedures defined by the Global Environmental
+         Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+         national requirements. Safety equipment and instructions specific to the completion of this
+         work instruction are detailed in the Instructions Section.<table id="table_ryd_fv3_kcc">
+            <tgroup cols="3">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <colspec colname="c3" colnum="3" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

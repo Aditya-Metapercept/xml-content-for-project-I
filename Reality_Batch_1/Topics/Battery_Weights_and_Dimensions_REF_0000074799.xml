@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryWeightsAndDimensions-A033FC1C" xml:lang="en">
+   <title>Battery Cabinet Weights and Dimensions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,production,maintenance,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-cabinet</indexterm>
+            <indexterm>battery-module</indexterm>
+            <indexterm>mounting-bracket</indexterm>
+            <indexterm>support-frame</indexterm>
+            <indexterm>ups-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>verify-dimensions</indexterm>
+            <indexterm>measure-weight</indexterm>
+            <indexterm>plan-installation</indexterm>
+            <indexterm>layout-preparation</indexterm>
+            <indexterm>clearance-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>site-preparation</indexterm>
+            <indexterm>plant-layout</indexterm>
+            <indexterm>equipment-installation</indexterm>
+            <indexterm>industrial-power-room</indexterm>
+            <indexterm>maintenance-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery weights and dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Lists battery cabinet weights and overall dimensions to support installation and space planning for UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery-cabinet; module; bracket; support-frame; mounting-base"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="dimensions,weights,layout,installation,clearance,planning"/>
+         <othermeta name="usecase"
+                    content="provide dimensional data for layout and installation planning of battery cabinets"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <note>The UPS can be provided with a maximum of 3 battery
+cabinets.</note>
+      </section>
+      <section>
+         <title>15 Minutes Battery Runtime</title>
+         <sectiondiv>
+            <table pgwide="1">
+               <tgroup cols="5">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <thead>
+                     <row>
+                        <entry valign="top"/>
+                        <entry valign="top">
+                           <p>Weight kg</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Height mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Width mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Depth mm</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>10 kVA UPS</entry>
+                        <entry>454</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>20 kVA UPS</entry>
+                        <entry>614</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>30 kVA UPS</entry>
+                        <entry>870</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>40 kVA UPS</entry>
+                        <entry>870</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>50 kVA UPS</entry>
+                        <entry>1200</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>60 kVA UPS</entry>
+                        <entry>1210</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>80 kVA UPS</entry>
+                        <entry>1210</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>30 Minutes Battery Runtime</title>
+         <sectiondiv>
+            <table pgwide="1">
+               <tgroup cols="5">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <thead>
+                     <row>
+                        <entry valign="top"/>
+                        <entry valign="top">
+                           <p>Weight kg</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Height mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Width mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Depth mm</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>10 kVA UPS</entry>
+                        <entry>454</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>20 kVA UPS</entry>
+                        <entry>870</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>30 kVA UPS</entry>
+                        <entry>1210</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>40 kVA UPS</entry>
+                        <entry>1210</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>50 kVA UPS</entry>
+                        <entry>1715</entry>
+                        <entry>2100</entry>
+                        <entry>1200</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>60 kVA UPS</entry>
+                        <entry>2395</entry>
+                        <entry>2100</entry>
+                        <entry>1600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>80 kVA UPS</entry>
+                        <entry>2395</entry>
+                        <entry>2100</entry>
+                        <entry>1600</entry>
+                        <entry>800</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>60 Minutes Battery Runtime</title>
+         <sectiondiv>
+            <table pgwide="1">
+               <tgroup cols="5">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <thead>
+                     <row>
+                        <entry valign="top"/>
+                        <entry valign="top">
+                           <p>Weight kg</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Height mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Width mm</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Depth mm</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>10 kVA UPS</entry>
+                        <entry>614</entry>
+                        <entry>2100</entry>
+                        <entry>600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>20 kVA UPS</entry>
+                        <entry>1210</entry>
+                        <entry>2100</entry>
+                        <entry>800</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>30 kVA UPS</entry>
+                        <entry>1715</entry>
+                        <entry>2100</entry>
+                        <entry>1200</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>40 kVA UPS</entry>
+                        <entry>2395</entry>
+                        <entry>2100</entry>
+                        <entry>1600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>50 kVA UPS</entry>
+                        <entry>2395</entry>
+                        <entry>2100</entry>
+                        <entry>1600</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>60 kVA UPS</entry>
+                        <entry>3580</entry>
+                        <entry>2100</entry>
+                        <entry>2400</entry>
+                        <entry>800</entry>
+                     </row>
+                     <row>
+                        <entry>80 kVA UPS</entry>
+                        <entry>3580</entry>
+                        <entry>2100</entry>
+                        <entry>2400</entry>
+                        <entry>800</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>

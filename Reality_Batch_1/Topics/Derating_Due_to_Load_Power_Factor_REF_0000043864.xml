@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DeratingDueToLoadPowerFactor-35248E7E" xml:lang="en">
+   <title>Derating Due to Load Power Factor</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-rating</indexterm>
+            <indexterm>load-power-factor</indexterm>
+            <indexterm>apparent-power</indexterm>
+            <indexterm>real-power</indexterm>
+            <indexterm>power-factor-correction</indexterm>
+            <!-- Process layer -->
+            <indexterm>derating-due-to-load-pf</indexterm>
+            <indexterm>calculate-derating</indexterm>
+            <indexterm>apply-pf-correction</indexterm>
+            <indexterm>adjust-load-distribution</indexterm>
+            <indexterm>verify-derating-limits</indexterm>
+            <!-- Context layer -->
+            <indexterm>load-characteristics</indexterm>
+            <indexterm>industrial-power-distribution</indexterm>
+            <indexterm>data-center-power-planning</indexterm>
+            <indexterm>equipment-protection</indexterm>
+            <indexterm>installation-derating-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Derating Due to Load Power Factor"/>
+         <othermeta name="shortdesc"
+                    content="Reference explaining how load power factor affects UPS capacity, with calculation guidance and derating recommendations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-factor;apparent-power;real-power;derating-factor;pf-correction-equipment"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:power-factor-derating;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="derating,power-factor,capacity,calculation,guidance"/>
+         <othermeta name="usecase"
+                    content="explain-and-calculate-derating-for-load-power-factor"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="7">
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="col5"/>
+               <colspec colname="col6"/>
+               <colspec colname="col7"/>
+               <colspec colname="col8"/>
+               <thead>
+                  <row>
+                     <entry valign="top">
+                        <p>10 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>20 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>30 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>40 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>50 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>60 kVA</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>80 kVA</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry nameend="col8" namest="col2">0.5 leading to 0.5 lagging without derating
+(power factor 0.8)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t29527B0-BDF2-11F0-1165-09173F13E4C5" xml:lang="en">
+   <title>To import an offline agreement</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-24T17:00:00+05:30"/>
+         <revised modified="2025-11-24T17:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="contract-administrator,contract-manager,legal-counsel,it-admin,sales-ops"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-contractmac-power</indexterm>
+            <indexterm>x-author-contracts</indexterm>
+            <indexterm>offline-agreement-import</indexterm>
+            <indexterm>docx-import</indexterm>
+            <indexterm>aptitus-properties</indexterm>
+            <!-- Process layer -->
+            <indexterm>import-offline-agreement</indexterm>
+            <indexterm>check-in-offline</indexterm>
+            <indexterm>map-properties</indexterm>
+            <indexterm>validate-metadata</indexterm>
+            <indexterm>create-contract-record</indexterm>
+            <!-- Context layer -->
+            <indexterm>contract-lifecycle-management</indexterm>
+            <indexterm>document-ingestion</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>legal-operations</indexterm>
+            <indexterm>enterprise-workflow</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-contractmac-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To import an offline agreement"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to import a DOCX offline agreement into X-Author and check it in so it becomes a managed contract record."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="docx;contract record;salesforce;X-Author;metadata"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:offline-import;industry:financial-services"/>
+         <othermeta name="tags" content="import,offline,docx,contract-record"/>
+         <othermeta name="usecase" content="import-offline-docx-into-x-author"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Open the document in Microsoft Word.</p>
+            <p>
+               <fig>
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/45220098/50036971.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>From the X-Author menu, go to <uicontrol>List Agreements.</uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Scroll through the list of agreements or search for the agreement record you want to associate with this document.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Check In Offline</uicontrol>.</p>
+            <p>
+               <fig id="fig_hdv_lzp_12c">
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/45220098/50036972.png"
+                         id="image_idv_lzp_12c"/>
+               </fig>
+               <p>The document is imported into the agreement record, attached to the <i>Document
+                     Versions</i> Related List and adopts Apttus properties. </p>
+            </p>
+            <stepresult>
+               <p>The new draft is downloaded to your system.</p>
+            </stepresult>
+         </li>
+         <li>
+            <p> Open the draft that just downloaded in Word. Go to the Lock Status page and click <uicontrol>Acquire Lock </uicontrol>to check out and work with your document. You can now mark fields and clauses and use other X-Author features as needed.</p>
+            <p>
+               <fig>
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/45220098/50036973.png"/>
+               </fig>
+               <p>If you go to the agreement record in Salesforce, you can see the "Imported Offline
+                  Document" action in the <i>Activity History</i> Related List.</p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/45220098/50036974.png"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

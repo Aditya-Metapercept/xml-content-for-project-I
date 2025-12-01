@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t23D548D-BDF2-11F0-1524-09173F13E4C5" xml:lang="en">
+   <title>To configure the Admin Setting</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>admin-setting</indexterm>
+            <indexterm>custom-setting</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>crm-configuration</indexterm>
+            <indexterm>system-controls</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-admin-setting</indexterm>
+            <indexterm>set-default-values</indexterm>
+            <indexterm>update-admin-preferences</indexterm>
+            <indexterm>manage-global-configuration</indexterm>
+            <indexterm>validate-admin-configuration</indexterm>
+            <indexterm>edit-admin-level-flags</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>crm-integrations</indexterm>
+            <indexterm>configuration-governance</indexterm>
+            <indexterm>system-administration</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>feature-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To configure the admin setting"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to configure the admin setting to define system-wide default behaviors and establish global configuration controls."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="admin-setting;custom-setting;global-control;crm-object;flag-field;system-configuration;default-value;configuration-form"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:admin-configuration;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="admin-setting,configuration,custom-setting,global-controls,default-values,system-preferences"/>
+         <othermeta name="usecase" content="admin-configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>App Launcher </uicontrol>
+                  <uicontrol> Admin</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New.</uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Name </uicontrol>field, input APTS_DoNotCopyOpportunityToAdobeAgreement.</p>
+         </li>
+         <li>
+            <p>Set the <uicontrol>Value</uicontrol> to "true". </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>
+               <fig id="fig_zpq_b2k_rcc">
+                  <image height="195"
+                         placement="break"
+                         width="1159"
+                         href="../attachments/163938942/163940374.png"
+                         id="image_aqq_b2k_rcc"/>
+               </fig>
+               <p>Power-Adobe Custom Settings contains a <uicontrol>Don't Copy
+                     Opportunity</uicontrol> flag that allows you to prevent the Opportunity field
+                  from being copied to the Adobe Agreement object. This can be set as a default for
+                  the organization, or for individual Profile and User levels. </p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

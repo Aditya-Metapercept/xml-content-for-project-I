@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25FDF40-BDF2-11F0-1127-09173F13E4C5" xml:lang="en">
+   <title>Adding a Scope</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scope</indexterm>
+            <indexterm>adding-a-scope</indexterm>
+            <indexterm>saving-program</indexterm>
+            <indexterm>scope-section</indexterm>
+            <indexterm>program-header</indexterm>
+            <indexterm>scope-record</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-scope</indexterm>
+            <indexterm>select-options</indexterm>
+            <indexterm>choose-values</indexterm>
+            <indexterm>upload-attachments</indexterm>
+            <indexterm>click-save</indexterm>
+            <indexterm>follow-stepwise-ui</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>admin-portal</indexterm>
+            <indexterm>program-configuration</indexterm>
+            <indexterm>user-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adding a Scope"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step instructions to add a new scope: navigate to the Scope page, pick required options from dropdowns, attach images if needed, and click Save to persist."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="scope-form; value-dropdown; save-button; attachment-image; scope-record; program-header"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="add-scope,ui-steps,dropdown-selection,attachments,save-action,scope-creation"/>
+         <othermeta name="usecase" content="create-a-new-scope-entry"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This feature enables you to add a new scope.</p>
+      <p>To add a new scope, please perform the following steps:</p>
+      <ol>
+         <li>Click Add New on the Scope page.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432694/102432756.jpg"/>
+            </fig>
+         </li>
+         <li>Select the required options from the Field, Operator, and Value drop-down lists.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432694/102432755.jpg"/>
+            </fig>
+         </li>
+         <li>Click Add Row to add extra rows.</li>
+         <li>Click Save to save the changes.</li>
+         <li>Click Cancel to start fresh.</li>
+      </ol>
+   </body>
+</topic>

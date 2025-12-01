@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="LifeCycleMonitoringLCM-8D349697" xml:lang="en">
+   <title>Life Cycle Monitoring (LCM)</title>
+   <shortdesc>
+      <keyword>Reality NAM 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>life-cycle-monitoring</indexterm>
+            <indexterm>lcm</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>event-log</indexterm>
+            <!-- Process layer -->
+            <indexterm>life-cycle-monitoring</indexterm>
+            <indexterm>event-log-review</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>isolate-ups</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-production</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>ups-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Life Cycle Monitoring LCM REF 0000113400"/>
+         <othermeta name="shortdesc"
+                    content="Overview of life-cycle monitoring (LCM) features and event definitions for UPS systems; how LCM captures operational metrics."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="life-cycle-monitoring;lcm;event-log;control-board;interface-board;ups;maintenance-procedure"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:life-cycle-monitoring;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,life-cycle-monitoring,lcm,event-log,operational-metrics"/>
+         <othermeta name="usecase" content="life-cycle-monitoring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The life cycle monitoring (LCM) function provides UPS
+preventive maintenance advice. </p>
+         <p>The display shows the following
+messages:</p>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="1" colwidth="50.00*"/>
+               <colspec colname="2" colwidth="50.00*"/>
+               <thead>
+                  <row>
+                     <entry valign="top">LCM
+Alerts</entry>
+                     <entry valign="top">Corrective
+action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <uicontrol>Start-up reminder</uicontrol>
+                     </entry>
+                     <entry>Contact
+Schneider Electric for start-up.</entry>
+                  </row>
+                  <row>
+                     <entry colname="1" morerows="0" nameend="1" namest="1">
+                        <uicontrol>Fan module replacement recommended</uicontrol>
+                     </entry>
+                     <entry colname="2" morerows="0" nameend="2" namest="2">Technical
+check needed.</entry>
+                  </row>
+                  <row>
+                     <entry colname="1" morerows="0" nameend="1" namest="1">
+                        <uicontrol>Battery replacement recommended</uicontrol>
+                     </entry>
+                     <entry colname="2" morerows="0" nameend="2" namest="2">Technical
+check needed.</entry>
+                  </row>
+                  <row>
+                     <entry colname="1" morerows="0" nameend="1" namest="1">
+                        <uicontrol>Power module replacement recommended</uicontrol>
+                     </entry>
+                     <entry colname="2" morerows="0" nameend="2" namest="2">Technical
+check needed.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Air filter replacement recommended</uicontrol>
+                     </entry>
+                     <entry>Replace
+the air filters.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Warranty expired</uicontrol>
+                     </entry>
+                     <entry>The
+warranty on the product has expired.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

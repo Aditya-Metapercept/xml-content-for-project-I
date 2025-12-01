@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8F23F2-BB9C-11F0-1552-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="engineering,maintenance,production,quality,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>gas-ssov-limit-switch</indexterm>
+            <indexterm>melter-system</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>burner-system</indexterm>
+            <indexterm>process-controller</indexterm>
+            <!-- Process layer -->
+            <indexterm>adjustment-procedure</indexterm>
+            <indexterm>system-validation</indexterm>
+            <indexterm>maintenance-calibration</indexterm>
+            <indexterm>equipment-alignment</indexterm>
+            <indexterm>process-optimization</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>system-performance</indexterm>
+            <indexterm>industrial-control</indexterm>
+            <indexterm>equipment-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose/Application"/>
+         <othermeta name="shortdesc"
+                    content="Defines the purpose and scope of the SSOV limit switch adjustment procedure in the melting system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="SSOV; burner system; control panel; melter system"/>
+         <othermeta name="taxonomy"
+                    content="domain:engineering;usecase:procedure-definition;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="purpose, scope, ssov, procedure, application"/>
+         <othermeta name="usecase" content="procedure-definition"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Defines procedure for adjusting a gas SSOV limit switch.  </p>
+   </body>
+</topic>

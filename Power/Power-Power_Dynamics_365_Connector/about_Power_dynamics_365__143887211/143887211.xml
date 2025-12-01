@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2413A2B-BDF2-11F0-9408-09173F13E4C5" xml:lang="en">
+   <title>About Power-Dynamics 365 Data Sync</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-dynamics-connector</indexterm>
+            <indexterm>data-sync-plugin</indexterm>
+            <indexterm>sync-configuration-module</indexterm>
+            <indexterm>integration-services</indexterm>
+            <indexterm>dynamics-365-process-engine</indexterm>
+            <indexterm>power-applications</indexterm>
+            <!-- Process layer -->
+            <indexterm>sync-configuration</indexterm>
+            <indexterm>plugin-setup</indexterm>
+            <indexterm>process-scheduling</indexterm>
+            <indexterm>admin-configuration</indexterm>
+            <indexterm>workflow-initiation</indexterm>
+            <indexterm>synchronization-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>system-automation</indexterm>
+            <indexterm>integration-architecture</indexterm>
+            <indexterm>data-exchange-framework</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configuring Data Sync Using an Admin"/>
+         <othermeta name="shortdesc"
+                    content="Explains how an admin configures the data sync plug-in and schedules synchronization processes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="plugins;processes;schedules;admins;configurations"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:sync-configuration;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="configuration,admin,plugin,sync,scheduling,setup"/>
+         <othermeta name="usecase" content="admin configuration of sync workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>You can configure data sync using an administrator user interface (Admin UI) to perform synchronizations of master and transactional data at regular, scheduled intervals. The connector exists entirely in your Microsoft Dynamics instance and requires configuration of a plug-in as well as processes for scheduling.</p>
+   </body>
+</topic>

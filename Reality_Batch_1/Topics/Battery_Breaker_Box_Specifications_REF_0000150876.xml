@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryBreakerBoxSpecifications-E0897CAD" xml:lang="en">
+   <title>Battery Breaker Box Specifications</title>
+   <shortdesc>
+      <keyword>Battery breaker box, GUPXCD10BIEC, GUPXCD20BIEC,
+GUPXCD30BIEC, GUPXCD40BIEC, GUPXCD50BIEC, GUPXCD60BIEC, GUPXCD80BIEC</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-breaker-box</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>protective-enclosure</indexterm>
+            <indexterm>dc-distribution</indexterm>
+            <indexterm>terminal-block</indexterm>
+            <!-- Process layer -->
+            <indexterm>verify-specifications</indexterm>
+            <indexterm>review-safety-limits</indexterm>
+            <indexterm>check-rated-voltage</indexterm>
+            <indexterm>confirm-component-type</indexterm>
+            <indexterm>inspect-housing</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-reference</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>design-verification</indexterm>
+            <indexterm>component-certification</indexterm>
+            <indexterm>industrial-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery Breaker Box Specifications"/>
+         <othermeta name="shortdesc"
+                    content="Details the specifications of the UPS battery breaker box, including voltage rating, enclosure type, and installation requirements."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery-breaker-box; terminal-block; enclosure; distribution-board"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-reference;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="breaker,box,specification,safety,reference"/>
+         <othermeta name="usecase" content="ups-reference"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>The battery breaker box must only be used with the Reality
+PXC UPS.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+      </section>
+   </body>
+</topic>

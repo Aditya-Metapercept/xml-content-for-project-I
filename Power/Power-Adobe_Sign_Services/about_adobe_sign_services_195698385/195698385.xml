@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2375905-BDF2-11F0-2524-09173F13E4C5" xml:lang="en">
+   <title>About Adobe Sign Services</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign-services</indexterm>
+            <indexterm>signature-gateway</indexterm>
+            <indexterm>webhook-listener</indexterm>
+            <indexterm>api-client</indexterm>
+            <indexterm>signing-widget</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-signing-profile</indexterm>
+            <indexterm>create-signature-request</indexterm>
+            <indexterm>webhook-setup</indexterm>
+            <indexterm>status-polling</indexterm>
+            <indexterm>revoke-signature</indexterm>
+            <!-- Context layer -->
+            <indexterm>digital-contracts</indexterm>
+            <indexterm>revenue-collection</indexterm>
+            <indexterm>compliance-audit</indexterm>
+            <indexterm>enterprise-integration</indexterm>
+            <indexterm>document-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="About Adobe Sign Services"/>
+         <othermeta name="shortdesc"
+                    content="Describes Adobe Sign services and how to configure signing flows, webhooks, and templates for enterprise signature workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="adobe-sign;webhook;api-key;signing-template;signer;signature-request"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:configure-adobe-sign-integration;industry:revenue-life-cycle-management"/>
+         <othermeta name="tags"
+                    content="adobe-sign,e-signature,webhook,signing-flow,compliance"/>
+         <othermeta name="usecase" content="configure-and-manage-adobe-sign-integration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Adobe Sign integration enables customers to electronically sign any type of document associated with quotes or contracts. By integrating Power with Adobe Sign, customers can streamline the Quote-to-Cash process, improve responsiveness, and eliminate errors. The adapter allows users to obtain electronic signatures for documents associated with quotes or contracts and automatically update the status - all inside Salesforce.</p>
+      <p>When it's time to obtain final approvals for a quote or contract, this Adapter provides a streamlined point-and-click way for users to send attachments for electronic signature. Within the quote or contract, the Send for eSignature feature allows users to dramatically shorten approval cycles by quickly compiling the necessary documents, selecting the right contacts from their Salesforce instance, and easily sending personalized emails. As documents are routed, this Adapter ensures that documents adhere to the appropriate workflows. When legal documents are approved via Adobe Sign, the signature status is automatically updated inside Salesforce, and final signed documents are automatically attached to the quote or contract. With this Adapter, you have a fully secure, auditable, and trackable view of who has approved your documents for quotes or contracts.</p>
+      <p>This guide describes the following tasks:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Administrator Tasks</p>
+                     </entry>
+                     <entry>
+                        <p>User Tasks</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Installing Adobe Sign Services</li>
+                              <li>Creating Agreement Templates</li>
+                              <li>Adding the Audit Trail</li>
+                              <li>Configuring Mappings</li>
+                           </ul>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>eSignature Workflow</li>
+                              <li>Sending Document for eSignature</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>Before using Adobe Sign, you must be familiar with the following:</p>
+      <ul>
+         <li>Basic Salesforce administration</li>
+         <li>Salesforce and Power terms and definitions</li>
+         <li>Power CLM administration</li>
+      </ul>
+   </body>
+</topic>

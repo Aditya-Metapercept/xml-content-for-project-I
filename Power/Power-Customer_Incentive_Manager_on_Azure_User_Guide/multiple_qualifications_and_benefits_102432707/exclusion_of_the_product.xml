@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2586C73-BDF2-11F0-6215-09173F13E4C5" xml:lang="en">
+   <title>Exclusion of the Product</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>product-exclusion</indexterm>
+            <indexterm>qualification-product</indexterm>
+            <indexterm>benefit-product</indexterm>
+            <indexterm>program-exclusions</indexterm>
+            <indexterm>ui-exclude-control</indexterm>
+            <indexterm>exclusion-policy-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>exclude-product</indexterm>
+            <indexterm>mark-product-ineligible</indexterm>
+            <indexterm>apply-exclusion-to-section</indexterm>
+            <indexterm>review-exclusion-impact</indexterm>
+            <indexterm>reinclude-product</indexterm>
+            <indexterm>log-exclusion-action</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>beneficiary-management</indexterm>
+            <indexterm>compliance-and-controls</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>program-maintenance</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Exclusion of the Product"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to exclude products from qualifications or benefits so that selected products are not considered or benefited in a program; includes UI actions and expected effects."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="product;qualification-product;benefit-product;exclusion-flag;audit-log;section"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="product-exclusion,eligibility,ui-actions,compliance,program-controls,impact-analysis"/>
+         <othermeta name="usecase"
+                    content="exclude-or-reinstate-products-from-qualification-and-benefit-calculations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Exclusion of the products is enabled for all qualification and product rows that are listed either for product categories or for custom product groups. You can exclude certain products under the selected category which are being qualified or benefited.</p>
+      <p>Exclude() hyperlink is available on every product (except type as product group and product) row with a number included in the bracket which indicates any product exclusions are made and saved.</p>
+      <p>On clicking Exclude, a new dialog box appears as shown in the following figure. You can select products assigned at different nodes of the product category for exclusion.</p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="515"
+                   href="../attachments/102432707/107118629.png"/>
+         </fig>
+      </p>
+      <p>Deleting Products</p>
+      <p>You can delete the product rows for Reward Saving Program only in Draft or In Amendment statuses. You can also delete the qualification and benefits products by selecting the product row and clicking on the section level Delete button on the page.</p>
+   </body>
+</topic>

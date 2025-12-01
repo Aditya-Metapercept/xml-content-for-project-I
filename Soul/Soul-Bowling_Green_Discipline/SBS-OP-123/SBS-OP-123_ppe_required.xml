@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC5F7D3D-BB9C-11F0-1023-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ppe-equipment</indexterm>
+            <!-- Product layer -->
+            <indexterm>protective-gloves</indexterm>
+            <!-- Product layer -->
+            <indexterm>safety-glasses</indexterm>
+            <!-- Product layer -->
+            <indexterm>helmets</indexterm>
+            <!-- Product layer -->
+            <indexterm>ear-protection</indexterm>
+            <!-- Process layer -->
+            <indexterm>donning-ppe</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-inspection</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-maintenance</indexterm>
+            <!-- Process layer -->
+            <indexterm>personal-protection</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-compliance</indexterm>
+            <!-- Context layer -->
+            <indexterm>workshop-floor</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <!-- Context layer -->
+            <indexterm>hazard-assessment</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-task</indexterm>
+            <!-- Context layer -->
+            <indexterm>safety-policy</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SBS-OP-123 ppe required"/>
+         <othermeta name="shortdesc" content="Topic about SBS-OP-123 ppe required."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="gloves;helmet;goggles;ear defenders;protective clothing"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ppe-compliance;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="ppe, safety, donning, inspection, compliance"/>
+         <othermeta name="usecase" content="ppe-compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>General</title>
+         <p>Bump cap/hard hat, safety glasses with foam liner, proper hearing protection,
+            fire-resistant long-sleeved shirt, safety toe boots.</p>
+      </section>
+      <section>
+         <title>Additional Equipment</title>
+         <p>Have a respirator or PAPR available in the event of silica release.</p>
+      </section>
+   </body>
+</topic>

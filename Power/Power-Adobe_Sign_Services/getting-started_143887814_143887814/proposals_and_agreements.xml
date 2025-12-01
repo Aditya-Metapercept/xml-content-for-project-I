@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c23EA3E7-BDF2-11F0-1774-09173F13E4C5" xml:lang="en">
+   <title>Proposals and Agreements</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign-services</indexterm>
+            <indexterm>power-cpq</indexterm>
+            <indexterm>power-clm</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>proposal-management</indexterm>
+            <indexterm>agreement-management</indexterm>
+            <!-- Process layer -->
+            <indexterm>generate-proposal</indexterm>
+            <indexterm>prepare-agreement</indexterm>
+            <indexterm>connect-proposals-and-agreements</indexterm>
+            <indexterm>use-adobe-sign-connector</indexterm>
+            <indexterm>send-for-signature</indexterm>
+            <indexterm>document-lifecycle-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>contract-lifecycle</indexterm>
+            <indexterm>sales-automation</indexterm>
+            <indexterm>cpq-workflows</indexterm>
+            <indexterm>clm-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Proposals and Agreements"/>
+         <othermeta name="shortdesc"
+                    content="Explains how Adobe Sign integrates with Power CPQ and Power CLM to support proposal and agreement workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="proposal;agreement;connector;cpq;clm;esignature-request;workflow;document-package"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:proposal-and-agreement-management;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="proposals,agreements,cpq,clm,adobe-sign,connector,workflow-integration"/>
+         <othermeta name="usecase" content="proposal-and-agreement-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Adobe Sign Services works with both Power CPQ and Power CLM. The
+            connector works in the same way for both of the products and as a result, this
+         guide is generic in order to allow users of both products to use it. </p>
+   </body>
+</topic>

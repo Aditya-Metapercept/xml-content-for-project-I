@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryCabinetWeightsAndDimensions-89796BAA" xml:lang="en">
+   <title>Battery Cabinet Weights and Dimensions</title>
+   <shortdesc>
+      <keyword>25–100 kVA UPS NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-cabinet</indexterm>
+            <indexterm>25-100-kva-ups</indexterm>
+            <indexterm>cabinet-assembly</indexterm>
+            <indexterm>mounting-bracket</indexterm>
+            <indexterm>base-frame</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-cabinet-dimensions</indexterm>
+            <indexterm>record-weight</indexterm>
+            <indexterm>verify-label</indexterm>
+            <indexterm>check-fitment</indexterm>
+            <indexterm>inspect-structure</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-logistics</indexterm>
+            <indexterm>equipment-handling</indexterm>
+            <indexterm>manufacturing-reference</indexterm>
+            <indexterm>industrial-transport</indexterm>
+            <indexterm>storage-preparation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Battery Cabinet Weights and Dimensions (25–100 kVA NAM)"/>
+         <othermeta name="shortdesc"
+                    content="Provides weight and dimensional specifications for 25–100 kVA battery cabinets used in UPS installations and logistics planning."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery-cabinet; base-frame; mounting-bracket; ups-system"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-logistics;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="battery,cabinet,dimensions,weight,logistics"/>
+         <othermeta name="usecase" content="ups-logistics"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>Battery Cabinets for 25 kVA, 37.5 kVA, and 50 kVA
+UPSs</title>
+         <table pgwide="1">
+            <tgroup align="left" cols="5">
+               <colspec colname="col2" colwidth="27.11*"/>
+               <colspec colname="col10" colwidth="13.23*"/>
+               <colspec colname="col11" colwidth="13.32*"/>
+               <colspec colname="col12" colwidth="13.23*"/>
+               <colspec colname="col13" colwidth="12.02*"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Weight kg (lbs)</entry>
+                     <entry valign="top">Height mm (in)</entry>
+                     <entry valign="top">Width mm (in)</entry>
+                     <entry valign="top">Depth mm (in)</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB 12HX100 (GUPXCB150EN100)</entry>
+                     <entry>602 (1325)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB 12HX150 (GUPXCB150EN150)</entry>
+                     <entry>750 (1650)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB 12HX205 (GUPXCB150EN205)</entry>
+                     <entry>909 (2000)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB 12HX205 (GUPXCB200EN205)</entry>
+                     <entry>909 (2000)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB UPS12-100MR (GUPXCB150CD100)</entry>
+                     <entry>591 (1300)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB UPS12-150MR (GUPXCB150CD150)</entry>
+                     <entry>682 (1500)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB UPS12-210MR (GUPXCB150CD210)</entry>
+                     <entry>864 (1900)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB UPS12-210MR (GUPXCB200CD210)</entry>
+                     <entry>864 (1900)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>770 (30.3)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Cabinets for 37.5 kVA, 50 kVA, 75 kVA, and
+100 kVA UPSs</title>
+         <table pgwide="1">
+            <tgroup align="left" cols="5">
+               <colspec colname="col2" colwidth="27.11*"/>
+               <colspec colname="col10" colwidth="13.29*"/>
+               <colspec colname="col11" colwidth="13.15*"/>
+               <colspec colname="col12" colwidth="13.29*"/>
+               <colspec colname="col13" colwidth="12.08*"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Weight kg (lbs)</entry>
+                     <entry valign="top">Height mm (in)</entry>
+                     <entry valign="top">Width mm (in)</entry>
+                     <entry valign="top">Depth mm (in)</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB 12HX300 (GUPXCB150EN300)</entry>
+                     <entry>1182 (2600)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB 12HX300 (GUPXCB200EN300)</entry>
+                     <entry>1182 (2600)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 300A CB 12HX300 (GUPXCB300EN300)</entry>
+                     <entry>1182 (2600)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB 12HX540 (GUPXCB200EN540)</entry>
+                     <entry>1852 (4075)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 300A CB12HX540 (GUPXCB300EN540)</entry>
+                     <entry>1852 (4075)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 400A CB 12HX300 (GUPXCB400EN300)</entry>
+                     <entry>1182 (2600)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 400A CB 12HX540 (GUPXCB400EN540)</entry>
+                     <entry>1864 (4100)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 150A CB UPS12-300MR (GUPXCB150CD300)</entry>
+                     <entry>1159 (2550)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB UPS12-300MR (GUPXCB200CD300)</entry>
+                     <entry>1159 (2550)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 300A CB UPS12-300MR (GUPXCB300CD300)</entry>
+                     <entry>1159 (2550)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 200A CB UPS12-540MR (GUPXCB200CD540)</entry>
+                     <entry>1773 (3900)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 300A CBUPS12-540MR (GUPXCB300CD540)</entry>
+                     <entry>1773 (3900)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 400A CB UPS12-300MR (GUPXCB400CD300)</entry>
+                     <entry>1159 (2550)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Battery
+cabinet 400A CB UPS12-540MR (GUPXCB400CD540)</entry>
+                     <entry>1761 (3875)</entry>
+                     <entry>2100 (82.7)</entry>
+                     <entry>1008 (39.7)</entry>
+                     <entry>800 (31.5)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

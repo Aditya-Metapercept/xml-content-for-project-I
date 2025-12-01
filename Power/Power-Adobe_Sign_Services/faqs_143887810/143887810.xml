@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c23E2E36-BDF2-11F0-8945-09173F13E4C5" xml:lang="en">
+   <title>FAQs</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>document-cloud</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>merge-mappings</indexterm>
+            <indexterm>data-mapping</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-admin-settings</indexterm>
+            <indexterm>merge-salesforce-data</indexterm>
+            <indexterm>configure-merge-mappings</indexterm>
+            <indexterm>push-data-from-signed-agreements</indexterm>
+            <indexterm>document-cloud-sync</indexterm>
+            <indexterm>troubleshoot-common-issues</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>crm-integrations</indexterm>
+            <indexterm>contract-lifecycle</indexterm>
+            <indexterm>data-synchronization</indexterm>
+            <indexterm>user-support</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="FAQs"/>
+         <othermeta name="shortdesc"
+                    content="Provides frequently asked questions related to Adobe Sign, Salesforce integration, merge mappings, admin settings, and agreement data workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="admin-settings;merge-mapping;mapping-configuration;agreement-record;data-sync;document-cloud;crm-object;faq-item"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:user-support;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="faq,adobe-sign,merge-mapping,admin-settings,salesforce-integration,data-sync"/>
+         <othermeta name="usecase" content="user-support"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This section contains frequently asked questions. It also provides the solution to frequently occurring errors. </p>
+      <ul id="ul_l4g_4kp_rcc">
+         <li>
+            <p>How do I set up a user?</p>
+            <p>You can set up a user from the <uicontrol>Adobe Sign Admin Settings</uicontrol>
+               tab.</p>
+            <p>For more information on setting up a user, refer to <xref href="../configuring_adobe_sign_ad_161156677/161156677.xml"
+                     format="dita">Configuring Adobe Sign Admin Settings</xref>.</p>
+         </li>
+         <li>
+            <p>How do I merge data from Salesforce into my Document Cloud agreements before sending
+               for signature?</p>
+            <p>You can merge data from Salesforce into your Document Cloud agreements using
+                  <uicontrol>Merge Mappings</uicontrol>.</p>
+            <p>For more information on <uicontrol>Merge Mappings</uicontrol>, refer to <xref href="../configuring_mappings_1438_143887809/143887809.xml"
+                     format="dita">Configuring Mappings</xref>.</p>
+         </li>
+         <li>
+            <p>How do I push data from signed Document Cloud agreements back to Salesforce?</p>
+            <p>You can push data from signed Document Cloud agreements back to Salesforce
+                  using<uicontrol> Data Mappings.</uicontrol>
+            </p>
+            <p>For more information on <uicontrol> Data Mappings</uicontrol>, refer to <xref href="../configuring_mappings_1438_143887809/143887809.xml"
+                     format="dita">Configuring Mappings</xref>. </p>
+         </li>
+         <li>
+            <p>How do I add multiple signers in the document?</p>
+            <p>You can add multiple signers in the document. The order of the signers can also be
+               specified.</p>
+            <p>To add multiple signers,</p>
+            <ol id="ol_oht_vkp_rcc">
+               <li>Click the <uicontrol>Agreements</uicontrol> tab.</li>
+               <li>Select the agreement that you want to send for signature.</li>
+               <li>Click <uicontrol>eSignature</uicontrol>. Ensure that you have attached at least
+                  one file in <uicontrol>Notes &amp; Attachments</uicontrol> section.</li>
+               <li>Select the <uicontrol>attachment and template</uicontrol>.</li>
+               <li>Click <uicontrol>Select</uicontrol>.</li>
+               <li>On the <uicontrol>Document Cloud Actions</uicontrol> page, click <uicontrol>Add
+                     Recipient</uicontrol> and add as many recipients that you want.</li>
+               <li>Provide requisite information for other fields.</li>
+               <li>To send the agreement for signature, click <uicontrol>Send for
+                     Signature</uicontrol>.<p>-or-</p>
+                  <p>To save the agreement, click
+                        <uicontrol>Save Agreement</uicontrol>
+                  </p>.</li>
+            </ol>
+         </li>
+         <li>
+            <p>How do I check the status of the document?</p>
+            <p>To check the status of the document that is send for signature, you must have
+               configured the eSignature related list.</p>
+            <p>To check the status of the document,</p>
+            <ol id="ol_mzx_xkp_rcc">
+               <li>Click the <uicontrol>Agreements</uicontrol> tab.</li>
+               <li>Select the agreement that you want to view the agreement status for.</li>
+               <li>Scroll down to <uicontrol>eSignatures</uicontrol> related list.</li>
+               <li>You can view the status of the agreement under <uicontrol>Agreement
+                     Status</uicontrol> column. <fig id="fig_nzx_xkp_rcc">
+                     <image placement="break"
+                            width="700"
+                            href="../attachments/143887810/143887860.png"
+                            id="image_ozx_xkp_rcc"/>
+                  </fig>
+               </li>
+            </ol>
+         </li>
+      </ul>
+   </body>
+</topic>

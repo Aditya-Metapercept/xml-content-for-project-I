@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8EF305-BB9C-11F0-6624-09173F13E4C5" xml:lang="en-us">
+   <title>Equipment Needed</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance,engineering,production,quality,safety"/>
+         <keywords><!-- Product layer -->
+            <indexterm>socket-wrench</indexterm>
+            <indexterm>adjustable-wrench</indexterm>
+            <indexterm>sparger-height-tool</indexterm>
+            <indexterm>torque-wrench</indexterm>
+            <indexterm>teflon-ferrules</indexterm>
+            <!-- Process layer -->
+            <indexterm>equipment-setup</indexterm>
+            <indexterm>tool-preparation</indexterm>
+            <indexterm>maintenance-tooling</indexterm>
+            <indexterm>component-cleaning</indexterm>
+            <indexterm>assembly-readiness</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-environment</indexterm>
+            <indexterm>shop-floor</indexterm>
+            <indexterm>tool-management</indexterm>
+            <indexterm>industrial-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Equipment Needed"/>
+         <othermeta name="shortdesc"
+                    content="Lists tools and equipment required for performing the SSOV limit switch adjustment and related maintenance tasks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="socket wrench; sparger height tool; torque wrench; blind flange; Teflon ferrules"/>
+         <othermeta name="taxonomy"
+                    content="domain:maintenance;usecase:tool-preparation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="equipment, maintenance tools, safety, preparation, procedure"/>
+         <othermeta name="usecase" content="maintenance-tool-list"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Socket wrench, adjustable wrench, 19-liter (5-gallon) bucket, lint-free towel, rod, flashlight, Allen wrench, screwdriver, adjustable wrench, sparger height tool (SCM1-5-7, with 1-5/8 in. tall setting), blind flanges, flange gaskets, bench vise, powder-free nitrile gloves, fine-bristle stainless steel brush, wire brush, pick, scale, oxygen-safe Teflon tape, torque wrench, Teflon ferrules, crystal simple green solution.</li>
+         <li>Access to DFC software.</li>
+      </ul>
+   </body>
+</topic>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ViewUPSMeasurements-460FA49D" xml:lang="en">
+   <title>View UPS Measurements</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>input-sensor</indexterm>
+            <indexterm>output-sensor</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>temperature-sensor</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-ups-measurements</indexterm>
+            <indexterm>read-voltage</indexterm>
+            <indexterm>read-current</indexterm>
+            <indexterm>read-frequency</indexterm>
+            <indexterm>monitor-temperature</indexterm>
+            <indexterm>record-measurements</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-monitoring</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>production-quality</indexterm>
+            <indexterm>power-management</indexterm>
+            <indexterm>field-inspection</indexterm>
+            <indexterm>diagnostics</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="View UPS Measurements"/>
+         <othermeta name="shortdesc"
+                    content="How to view live UPS measurements (voltage, current, frequency, temperature) via the UI for monitoring and diagnostics."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS;Input Sensor;Output Sensor;Battery Bank;Temperature Sensor;Voltage Measurement;Current Measurement;Frequency Sensor"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:view-ups-measurements;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="measurements,voltage,current,frequency,temperature,monitoring"/>
+         <othermeta name="usecase" content="viewing-live-ups-measurements"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Status</uicontrol>
+               </menucascade> using the UP/DOWN
+keys and the ENTER key. </p>
+         </li>
+         <li>
+            <p>Use the UP/DOWN keys to browse through the different measurement
+screens.</p>
+         </li>
+      </ol>
+      <result>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Ø  Uin    Ubyp    Uout1  405.2  402.5  400.52  404.3  400.4  400.13  406.0  401.4  399.7↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <ul>
+               <li>
+                  <p>Input voltages: phase to phase</p>
+               </li>
+               <li>
+                  <p>Bypass voltages (only displayed if bypass input measurement
+is installed): phase to phase; phase to neutral if one phase bypass
+mains</p>
+               </li>
+               <li>
+                  <p>Output voltages: phase to phase; phase to neutral if one phase
+bypass mains</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Ø  Iin    Ibyp    Iout↑1  025.5  000.0  025.12  024.3  000.0  024.03  025.0  000.0  024.1↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <ul>
+               <li>
+                  <p>Input current per phase</p>
+               </li>
+               <li>
+                  <p>Bypass current per phase (only displayed if bypass input measurement
+is installed)</p>
+               </li>
+               <li>
+                  <p>Output current per phase</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Out  kW    kVA    PF  ↑1  017.3  019.4  096C2  020.3  020.3  1.003  016.7  018.7  0.81I↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <ul>
+               <li>
+                  <p>Real power on output</p>
+               </li>
+               <li>
+                  <p>Apparent power on output</p>
+               </li>
+               <li>
+                  <p>Power factor (cos phi) on output. <uicontrol>C</uicontrol> indicates
+capacitive load and <uicontrol>I</uicontrol> indicates inductive load.</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Fin   Fbyp  Fout  ↑
+50.1  50.0  50.0Load:     058.4kVA          055.2kW ↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <ul>
+               <li>
+                  <p>Input, bypass, and output frequencies</p>
+               </li>
+               <li>
+                  <p>Total output apparent power</p>
+               </li>
+               <li>
+                  <p>Total output active power</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Bat Voltage: 400.2V↑Bat Current:+005.3ABat Cap.:   098  %Runtime: 01h 37min ↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <ul>
+               <li>
+                  <p>Battery voltage</p>
+               </li>
+               <li>
+                  <p>Battery current (positive = charging, negative = discharging)</p>
+               </li>
+               <li>
+                  <p>Actual battery charge in % of installed capacity</p>
+               </li>
+               <li>
+                  <p>Calculated runtime for the actual load and battery charge</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Temperature       ↑
+Sensor 1:    028°CSensor 2:    024°CSensor 3:    036°C↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Total system status  ↑Load:        058.4kVA             054.3kWLoad-%:      073.0 % ↓</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>In a redundant system configuration:<ul>
+               <li>
+                  <p>Total actual output power</p>
+               </li>
+               <li>
+                  <p>Total apparent output power</p>
+               </li>
+               <li>
+                  <p>Total output power in percent of system rating</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <table outputclass="font:10">
+               <tgroup cols="1">
+                  <colspec colname="col1" colwidth="100.00*"/>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <screen xml:space="preserve">Total system status↑UPS is masterUPS availability:
+    1  of  2</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>In a redundant system configuration:<ul>
+               <li>
+                  <p>This system is isolated, the master or slave</p>
+               </li>
+               <li>
+                  <p>Number of available systems</p>
+               </li>
+            </ul>
+         </p>
+      </result>
+   </body>
+</topic>

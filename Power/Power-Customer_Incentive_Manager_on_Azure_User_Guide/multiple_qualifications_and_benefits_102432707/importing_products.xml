@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2589732-BDF2-11F0-4432-09173F13E4C5" xml:lang="en">
+   <title>Importing Products</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>importing-products</indexterm>
+            <indexterm>qualification-product</indexterm>
+            <indexterm>benefit-product</indexterm>
+            <indexterm>import-mapping</indexterm>
+            <indexterm>csv-import</indexterm>
+            <indexterm>data-loader</indexterm>
+            <!-- Process layer -->
+            <indexterm>import-qualification-lines</indexterm>
+            <indexterm>map-columns-to-fields</indexterm>
+            <indexterm>validate-import-file</indexterm>
+            <indexterm>run-import-job</indexterm>
+            <indexterm>review-import-errors</indexterm>
+            <indexterm>confirm-import</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>data-onboarding</indexterm>
+            <indexterm>integration-workflow</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>program-setup</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Importing Products"/>
+         <othermeta name="shortdesc"
+                    content="Shows how to import qualifications and benefits lines from CSV/flat files: mapping file columns to system fields, validating records, handling errors, and confirming import results."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="import-file;csv-file;qualification-product;benefit-product;mapping-definition;import-job"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="import,mapping,validation,error-handling,data-onboarding"/>
+         <othermeta name="usecase"
+                    content="ingest-qualification-and-benefit-data-from-flat-files-into-programs"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can import all qualifications and benefits lines from .csv files. You can import the products for page level as well as section level. In the .csv file, you can view the column "Product Classification" to indicate whether each line maps to a qualification product or benefit product. You can view the start date and end date for the Qualifications &amp; Benefits line in the section of the import file.</p>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>If the section id is provided in the .csv file, the CIM will update the existing section. And if the section id is not provided, it will create a new section with all the corresponding qualifications and benefits lines</p>
+         </note>
+         <p>
+            <uicontrol>Importing Products of an Entire Program</uicontrol>
+         </p>
+         <p>To import all the beneficiary lines of your program:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Navigate to the <uicontrol>Qualifications and Benefits</uicontrol> tab of your program.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Import. </uicontrol>
+            </p>
+            <p>
+               <p>The import pop-up opens.</p>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose a file. </uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Select a .csv file from your local drive.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Import</uicontrol>.</p>
+         </li>
+      </ol>
+      <div>
+         <note type="note">
+            <p>You can view the error log details (Import Products pop-up &gt; Log column) for the records which are not imported due to mandatory information that is not available in the .csv file. You need to contact the IT Support team if you get a warning message related to the <uicontrol>UOM</uicontrol>.</p>
+         </note>
+      </div>
+   </body>
+</topic>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2150813-BB02-11F0-1489-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="safety,operations,maintenance,supervisor"/>
+         <keywords><!-- Product -->
+            <indexterm>metR-fes-space</indexterm>
+            <indexterm>chute-assembly-ii</indexterm>
+            <indexterm>electrical-panel</indexterm>
+            <indexterm>servo-drive</indexterm>
+            <indexterm>proportional-valve</indexterm>
+            <!-- Process -->
+            <indexterm>safety-requirements</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>ppe</indexterm>
+            <indexterm>electrical-isolation</indexterm>
+            <indexterm>safe-torque-off</indexterm>
+            <indexterm>emergency-stop</indexterm>
+            <indexterm>arc-flash-assessment</indexterm>
+            <indexterm>risk-assessment</indexterm>
+            <!-- Context -->
+            <indexterm>production-environment</indexterm>
+            <indexterm>site-compliance</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>safety-officer</indexterm>
+            <indexterm>operator-awareness</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety — Electronic Chute Control II"/>
+         <othermeta name="shortdesc"
+                    content="Safety instructions for working on Electronic Chute Control II: PPE, LOTO, safe-torque-off for servo drives, electrical isolation, emergency-stop and risk assessments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="entities"
+                    content="PPE;LOTO;safe-torque-off;servo-drive;emergency-stop;arc-flash"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:safety-chute-ii;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,ppe,loto,servo,emergency-stop"/>
+         <othermeta name="usecase"
+                    content="Provide safety guidance for technicians working on Electronic Chute Control II"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Space standard safety requirements and procedures defined by the Global Environmental
+         Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+         national requirements. Safety equipment and instructions specific to the completion of this
+         work instruction are detailed in the <xref href="FES-03-701_instructions.xml">Instructions</xref> Section.<table id="table_ury_vzf_rzb">
+            <tgroup cols="3">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <colspec colname="c3" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <fig id="fig_vry_vzf_rzb">
+                              <title>Danger</title>
+                              <image href="media/image1.jpg"
+                                     id="image_wry_vzf_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_xry_vzf_rzb">
+                              <title>Electricity</title>
+                              <image href="media/image2.jpg"
+                                     id="image_yry_vzf_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_zry_vzf_rzb">
+                              <title>Hot Surface</title>
+                              <image href="media/image3.jpg"
+                                     id="image_asy_vzf_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

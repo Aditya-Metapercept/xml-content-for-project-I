@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t25741FA-BDF2-11F0-7657-09173F13E4C5" xml:lang="en">
+   <title>Logging into Customer Incentive Manager</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>customer-incentive-manager</indexterm>
+            <indexterm>login-screen</indexterm>
+            <indexterm>credentials</indexterm>
+            <indexterm>authentication</indexterm>
+            <indexterm>user-account</indexterm>
+            <indexterm>access-portal</indexterm>
+            <!-- Process layer -->
+            <indexterm>login-process</indexterm>
+            <indexterm>enter-username</indexterm>
+            <indexterm>enter-password</indexterm>
+            <indexterm>submit-login</indexterm>
+            <indexterm>validate-credentials</indexterm>
+            <indexterm>start-session</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>system-security</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>login-authentication</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Logging into Customer Incentive Manager"/>
+         <othermeta name="shortdesc"
+                    content="Walks the user through accessing the Customer Incentive Manager and logging in with valid credentials."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="login-page;username-field;password-field;authentication-service;session-engine;web-portal"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="login,authentication,credentials,customer-incentive-manager,access,security"/>
+         <othermeta name="usecase" content="user-login-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>To log in into the Customer Incentive Manager, please follow the below steps:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Go to the https://&lt;provide your domain name&gt;/ui/strategybuilder/sb/home.</p>
+         </li>
+         <li>
+            <p>Press <uicontrol>Enter.</uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Enter your username in the <uicontrol>Sign in </uicontrol>text field.</p>
+         </li>
+         <li>
+            <p>Enter your password in the <uicontrol>Enter password</uicontrol> text field.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Sign in.</uicontrol>
+            </p>
+            <p>
+               <p>You are logged in.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2559BE1-BDF2-11F0-9821-09173F13E4C5" xml:lang="en">
+   <title>Cloning Programs</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Customer_Incentive_Manager_on_Azure_User_Guide"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>You can choose to clone a Program from the Agreements or from the Customer Incentive Manager by performing the following steps:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>From the Agreement</p>
+                     </entry>
+                     <entry>
+                        <p>From the Customer Incentive Manager</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <ol>
+                              <li>Log in to Customer Incentive Manager and click <image placement="inline"
+                                        width="35"
+                                        href="../attachments/109940237/109940242.jpg"/> on the Home page.</li>
+                              <li>Go to Contract Lifecycle Management and then click Agreements.</li>
+                              <li>Click an existing Agreement.</li>
+                              <li>Go to the Program tab.</li>
+                              <li>Click the Program ID displayed in Blue color.</li>
+                              <li>Click Clone.</li>
+                           </ol>
+                        </p>
+                     </entry>
+                     <entry>
+                        <ol>
+                           <li>Log in to Customer Incentive Manager and click <image placement="inline"
+                                     width="35"
+                                     href="../attachments/109940237/109940242.jpg"/> on the Home page.</li>
+                           <li>Go to Customer Incentive Manager and then click Programs.</li>
+                           <li>Click the Program ID displayed in Blue color.</li>
+                           <li>Click Clone.</li>
+                        </ol>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>The Clone Program dialog box appears as follows.</p>
+      <p>Enter the Program Name, New Start &amp; End Date, and select the required option from the Include Program Elements which you want to clone, and click Save.</p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="612"
+                   href="../attachments/109940237/109940245.png"/>
+         </fig>
+      </p>
+   </body>
+</topic>

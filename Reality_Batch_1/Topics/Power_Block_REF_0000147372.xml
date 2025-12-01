@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PowerBlock-CEF6B90F" xml:lang="en">
+   <title>Power Block</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>power-block</indexterm>
+            <indexterm>dc-assembly</indexterm>
+            <indexterm>busbar</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <indexterm>interface-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspection-and-verification</indexterm>
+            <indexterm>power-block-installation</indexterm>
+            <indexterm>busbar-connection</indexterm>
+            <indexterm>torque-checks</indexterm>
+            <indexterm>functional-test</indexterm>
+            <indexterm>maintenance</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-power-stage</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>site-electrics</indexterm>
+            <indexterm>data-centre</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Power Block — Reference"/>
+         <othermeta name="shortdesc"
+                    content="Reference information for the power block assembly: components, connections, and verification steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-block;busbar;main-contactors;interface-board;dc-assembly;cable"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="power-block,busbar,main-contactors,installation,testing"/>
+         <othermeta name="usecase" content="reference-and-verification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>power block</indexterm>
+      </section>
+      <section>
+         <title>Power Block Principle Diagram</title>
+         <p>
+            <table pgwide="1">
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <tbody>
+                     <row>
+                        <entry colsep="0">
+                           <fig>
+                              <title>25 kVA Power Block</title>
+                              <image href="../Images/25_kva_nam_power_block_principle_diagram_85mm_0000147362.svg"
+                                     scalefit="yes"
+                                     scope="local"
+                                     translate="yes"
+                                     xml:lang="en"
+                                     placement="inline"/>
+                           </fig>
+                        </entry>
+                        <entry>
+                           <fig>
+                              <title>12.5 kVA Power Block</title>
+                              <image href="../Images/37half_kva_nam_power_block_principle_diagram_85mm_0000147361.svg"
+                                     scalefit="yes"
+                                     scope="local"
+                                     placement="inline"/>
+                           </fig>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>One power block consists of:<ul>
+               <li>
+                  <p>25 kVA: Two power modules, or </p>
+               </li>
+               <li>
+                  <p>12.5 kVA: One power module with a capacitor board and an empty
+power module box<footnote>The 12.5 kVA power block can be added to a 25
+kVA power block to make a 37.5 kVA UPS)</footnote>
+                  </p>
+               </li>
+               <li>
+                  <p>Controller box</p>
+               </li>
+               <li>
+                  <p>Power connection board</p>
+               </li>
+               <li>
+                  <p>Fan with fan monitor</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Power Block Structure</title>
+         <p>One power block consists
+of one or two power modules (maximum 25 kVA).<ul>
+               <li>
+                  <p>Up to four power blocks can be paralleled (maximum 100 kVA)</p>
+               </li>
+               <li>
+                  <p>Each power block has its own controller (maximum four controllers)<ul>
+                        <li>
+                           <p>Data collection, communication, load sharing and parallel behavior
+is controlled by the master controller</p>
+                        </li>
+                     </ul>
+                  </p>
+               </li>
+               <li>
+                  <p>Inverter self-test is run at every start-up</p>
+               </li>
+               <li>
+                  <p>Odd number of power modules is allowed</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <fig>
+               <title>Power Block Structure</title>
+               <image href="../Images/25-100_kva_nam_power_block_structure_120mm_0000147360.svg"
+                      scope="local"
+                      translate="yes"
+                      xml:lang="en"
+                      placement="inline"/>
+            </fig>
+         </p>
+      </section>
+   </body>
+</topic>

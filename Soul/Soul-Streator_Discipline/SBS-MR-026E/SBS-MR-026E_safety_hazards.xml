@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA2D3A7-BB9C-11F0-2146-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Hazards</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>electrical-hazards</indexterm>
+            <indexterm>mechanical-hazards</indexterm>
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>safety-hazards</indexterm>
+            <indexterm>chemical-hazards</indexterm>
+            <!-- Process layer -->
+            <indexterm>control-measures</indexterm>
+            <indexterm>hazard-identification</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>safety-audit</indexterm>
+            <!-- Context layer -->
+            <indexterm>compliance</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>operational-risk</indexterm>
+            <indexterm>worker-safety</indexterm>
+            <indexterm>environmental-hazards</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Hazards"/>
+         <othermeta name="shortdesc" content="Content pending documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="electrical-hazards; mechanical-hazards; metR-sbs-soul; safety-hazards; chemical-hazards; control-measures; hazard-identification; incident-reporting; risk-assessment; safety-audit"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="electrical-hazards, mechanical-hazards, metR-sbs-soul, safety-hazards, chemical-hazards, control-measures, hazard-identification, incident-reporting, risk-assessment, safety-audit, compliance, glass-manufacturing, operational-risk, worker-safety, environmental-hazards"/>
+         <othermeta name="usecase" content="maintenance and safety documentation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_uvl_fw2_lcc">
+            <tgroup cols="6">
+               <colspec colname="c1" colwidth="15.02%"/>
+               <colspec colname="c2" colwidth="15.02%"/>
+               <colspec colname="c3" colwidth="15.03%"/>
+               <colspec colname="c4" colwidth="15.03%"/>
+               <colspec colname="c5" colwidth="15.03%"/>
+               <colspec colname="c6" colwidth="15.03%"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

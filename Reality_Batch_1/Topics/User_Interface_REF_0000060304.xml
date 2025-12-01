@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DisplayInterface-3BD81366" xml:lang="en">
+   <title>User Interface</title>
+   <shortdesc>
+      <keyword>Reality EMEA UPS</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>user-interface</indexterm>
+            <indexterm>display-panel</indexterm>
+            <indexterm>front-panel-controls</indexterm>
+            <indexterm>lcd-navigation</indexterm>
+            <indexterm>softkeys</indexterm>
+            <!-- Process layer -->
+            <indexterm>menu-navigation-procedures</indexterm>
+            <indexterm>parameter-editing</indexterm>
+            <indexterm>status-monitoring</indexterm>
+            <indexterm>alert-acknowledgement</indexterm>
+            <indexterm>firmware-update-via-ui</indexterm>
+            <indexterm>user-access-levels</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-console</indexterm>
+            <indexterm>field-service-usage</indexterm>
+            <indexterm>control-room-display</indexterm>
+            <indexterm>on-site-configuration</indexterm>
+            <indexterm>remote-monitoring</indexterm>
+            <indexterm>human-machine-interface</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="User Interface"/>
+         <othermeta name="shortdesc"
+                    content="Overview of the UPS front-panel user interface: menus, navigation, and key display elements for operators and service staff."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="display-panel;softkeys;menu-tree;status-leds;alarm-buzzer;operator-levels"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:user-interface-reference;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="ui,menus,display,navigation,operator,alerts"/>
+         <othermeta name="usecase"
+                    content="explain UI menus, navigation and operator interactions for monitoring and configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <fig>
+            <title>User Interface on the UPS Cabinet</title>
+            <image href="../Images/Reality_pxc_emea_user_interface_0000168945.svg"
+                   placement="inline"/>
+            <ol>
+               <li>
+                  <p>Display</p>
+               </li>
+               <li>
+                  <p>Display navigation keys</p>
+               </li>
+               <li>
+                  <p>UPS status LEDs that show the current operation mode of the
+UPS</p>
+               </li>
+               <li>
+                  <p>ON and OFF buttons</p>
+               </li>
+               <li>
+                  <p>Mimic diagram<indexterm>Mimic diagram</indexterm> that shows
+the power flow of the UPS</p>
+               </li>
+               <li>
+                  <p>Alarm LEDs<indexterm>Alarm LEDs</indexterm>.</p>
+               </li>
+            </ol>
+         </fig>
+      </section>
+      <section>
+         <title>Display Navigation Keys</title>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="0.31*"/>
+               <colspec colname="col3" colwidth="1.69*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <fig>
+                           <image href="../Images/enter_button_25mm_0000116847.svg"
+                                  height="7mm"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>Use the ENTER key to enter the main menu, submenus, and confirm/save
+settings.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <image href="../Images/esc_button_25mm_0000116846.svg"
+                                  height="7mm"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>Use the ESC key to return to a higher level menu.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <image href="../Images/up_button_25mm_0000116845.svg"
+                                  height="7mm"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>Use the UP key to select a submenu or to change a setting upwards.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <image href="../Images/down_button_25mm_0000116844.svg"
+                                  height="7mm"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>Use the DOWN key to select a submenu or to change a setting
+downwards.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <fig>
+                           <image href="../Images/help_button_25mm_0000116843.svg"
+                                  height="7mm"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>Use the HELP key to access help information about a menu point.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>UPS Status LEDs</title>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="3">
+               <colspec colname="col1" colwidth="1.00*"/>
+               <colspec colname="col2" colwidth="0.50*"/>
+               <colspec colname="col3" colwidth="1.51*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <ph translate="no">Normal operation</ph> LED</entry>
+                     <entry>Green</entry>
+                     <entry>The load is supplied by the input source.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <ph translate="no">Battery operation</ph> LED</entry>
+                     <entry>Yellow</entry>
+                     <entry>The load is supplied by the batteries.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <ph translate="no">Bypass operation</ph> LED</entry>
+                     <entry>Yellow</entry>
+                     <entry>The load is supplied by the bypass source.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <ph translate="no">Common Alarm</ph> LED</entry>
+                     <entry>Red</entry>
+                     <entry>An alarm exists in the UPS system.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Mimic Diagram</title>
+         <fig>
+            <image href="../Images/Reality_pxc_emea_mimic_diagram_0000168944.svg"
+                   placement="inline"/>
+         </fig>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup align="left" cols="3">
+               <colspec colname="col1" colwidth="11.86*"/>
+               <colspec colname="col2" colwidth="13.98*"/>
+               <colspec colname="col4" colwidth="74.15*"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Position</entry>
+                     <entry valign="top">LED color</entry>
+                     <entry valign="top">Description</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row valign="top">
+                     <entry morerows="1">A</entry>
+                     <entry>Green</entry>
+                     <entry>The rectifier mains breaker Q001 is closed (ON)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The rectifier mains breaker Q001 is open (OFF)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">B</entry>
+                     <entry>Green</entry>
+                     <entry>The mains voltage is within range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The mains voltage is out of range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="2">C</entry>
+                     <entry>Green</entry>
+                     <entry>The rectifier is ON</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Orange</entry>
+                     <entry>At least one rectifier is inoperable</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The rectifier is inoperable</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="2">D</entry>
+                     <entry>Green</entry>
+                     <entry>The inverter is ON</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Orange</entry>
+                     <entry>At least one inverter is inoperable</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The inverter is inoperable</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">E</entry>
+                     <entry>Green</entry>
+                     <entry>The output voltage is within range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The output voltage is out of range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">F</entry>
+                     <entry>Green</entry>
+                     <entry>The unit output breaker is closed (ON)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The unit output breaker is open (OFF)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="2">G</entry>
+                     <entry>yellow</entry>
+                     <entry>
+                        <ph translate="no">Float</ph>: The battery is charged in float
+charge mode</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>yellow</entry>
+                     <entry>
+                        <ph translate="no">Boost cyclic</ph>: The battery is charged
+in boost charge mode or at cyclic charge level mode</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>yellow</entry>
+                     <entry>
+                        <ph translate="no">Initial</ph>: The battery is charged in
+initial charge mode</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">H</entry>
+                     <entry>Green</entry>
+                     <entry>The battery breaker Q201 is closed (ON)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The battery breaker Q201 is open (OFF)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">I</entry>
+                     <entry>Green</entry>
+                     <entry>The battery voltage is within range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The battery voltage is out of range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">J</entry>
+                     <entry>Green</entry>
+                     <entry>The bypass mains breaker Q501 is closed (ON)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The bypass mains breaker Q501 is open (OFF)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">K</entry>
+                     <entry>Green</entry>
+                     <entry>The bypass voltage is within range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The bypass voltage is out of range</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="2">L</entry>
+                     <entry>Green</entry>
+                     <entry>The static bypass switch is ON</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Orange</entry>
+                     <entry>The static bypass switch is independently switched on</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The static bypass switch is inoperable</entry>
+                  </row>
+                  <row valign="top">
+                     <entry morerows="1">M</entry>
+                     <entry>Green</entry>
+                     <entry>The manual bypass breaker Q601 is closed (ON)</entry>
+                  </row>
+                  <row valign="top">
+                     <entry>Red</entry>
+                     <entry>The manual bypass
+breaker Q601 is open (OFF)</entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">N</entry>
+                     <entry>Green</entry>
+                     <entry>The
+bypass input breaker Q528 is closed (ON)</entry>
+                  </row>
+                  <row>
+                     <entry>Red</entry>
+                     <entry>The bypass input
+breaker Q528 is open (OFF)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Menu Tree</title>
+         <table frame="none" outputclass="font:10" pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1"/>
+               <colspec colname="COLSPEC2"/>
+               <colspec colname="COLSPEC1"/>
+               <colspec colname="COLSPEC0"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry>Overview Menu</entry>
+                     <entry colsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Main Menu</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>System Status</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>System Control</uicontrol>
+                     </entry>
+                     <entry rowsep="0">
+                        <uicontrol>Charger Mode</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0">
+                        <uicontrol>Bypass Control</uicontrol>
+                     </entry>
+                     <entry/>
+                     <entry rowsep="0">
+                        <uicontrol>Start ABM test</uicontrol>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Functional Test</uicontrol>
+                     </entry>
+                     <entry rowsep="0">
+                        <uicontrol>ABM Test</uicontrol>
+                     </entry>
+                     <entry>
+                        <uicontrol>Reset ABM data</uicontrol>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Discharge test</uicontrol>
+                     </entry>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Event Logging</uicontrol>
+                     </entry>
+                     <entry rowsep="0">
+                        <uicontrol>View Alarms</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0">
+                        <uicontrol>View Log</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0">
+                        <uicontrol>View Statistics</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0">
+                        <uicontrol>Clear Log</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Clear Statistics</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Settings</uicontrol>
+                     </entry>
+                     <entry rowsep="0">
+                        <uicontrol>System</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0">
+                        <uicontrol>Date and time</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Display setup</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Diagnosis</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry rowsep="0"/>
+                     <entry>
+                        <uicontrol>Configuration</uicontrol>
+                     </entry>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry colsep="0" rowsep="0"/>
+                     <entry rowsep="0"/>
+                  </row>
+                  <row>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry colsep="0"/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

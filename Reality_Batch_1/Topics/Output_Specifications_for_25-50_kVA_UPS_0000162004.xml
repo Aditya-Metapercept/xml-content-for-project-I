@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OutputSpecificationsFor2550KVAUPS-10534CD5" xml:lang="en">
+   <title>Output Specifications</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>25-kva-ups</indexterm>
+            <indexterm>37.5-kva-ups</indexterm>
+            <indexterm>50-kva-ups</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>rectifier-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>voltage-range-testing</indexterm>
+            <indexterm>overload-capacity</indexterm>
+            <indexterm>bypass-operation-test</indexterm>
+            <indexterm>output-waveform-validation</indexterm>
+            <indexterm>short-term-current-capacity</indexterm>
+            <indexterm>load-response-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-supply</indexterm>
+            <indexterm>service-room-environment</indexterm>
+            <indexterm>production-continuity</indexterm>
+            <indexterm>site-acceptance-testing</indexterm>
+            <indexterm>battery-backed-supply</indexterm>
+            <indexterm>maintenance-window</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Output Specifications for 25-50 kVA UPS 0000162004"/>
+         <othermeta name="shortdesc"
+                    content="Output performance parameters for 25–50 kVA UPS models, including voltage range, overload capacity and bypass operation characteristics."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="25 kVA UPS;37.5 kVA UPS;50 kVA UPS;inverter module;rectifier module;bypass switch"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:output-specifications-25-50-kva;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="output-specifications,25-kva,50-kva,voltage-range,overload,bypass"/>
+         <othermeta name="usecase"
+                    content="define electrical output requirements for 25–50 kVA UPS units"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC18"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry valign="top">25
+kVA</entry>
+                     <entry valign="top">37.5 kVA</entry>
+                     <entry valign="top">50
+kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">208</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC18" namest="col2">L1,
+L2, L3, N, G</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Overload
+capacity</entry>
+                     <entry nameend="COLSPEC18" namest="col2">125%
+for 10 minutes150% for 1 minute230%
+for 60 ms1000% for 100 ms (bypass operation)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC18" namest="col2">±
+1%</entry>
+                  </row>
+                  <row>
+                     <entry>Power
+factor</entry>
+                     <entry nameend="COLSPEC18" namest="col2">1</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal
+output current (A)</entry>
+                     <entry>69</entry>
+                     <entry>104</entry>
+                     <entry>139</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Total
+harmonic distortion (THDU) </entry>
+                     <entry nameend="COLSPEC18" namest="col2">&lt;
+2% at 100% linear load&lt; 5% at 100% non-linear load</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+(Hz)</entry>
+                     <entry nameend="COLSPEC18" namest="col2">60
+Hz (sync to bypass)60 Hz ± 0.1% (free-running)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Slew
+rate (Hz/sec)</entry>
+                     <entry nameend="COLSPEC18" namest="col2">Programmable:
+0.25, 0.5, 1, 2, or 4</entry>
+                  </row>
+                  <row>
+                     <entry>Load
+crest factor</entry>
+                     <entry nameend="COLSPEC18" namest="col2">3:1</entry>
+                  </row>
+                  <row>
+                     <entry>Load power factor</entry>
+                     <entry nameend="COLSPEC18" namest="col2">0.5 leading to 0.5 lagging
+without derating</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

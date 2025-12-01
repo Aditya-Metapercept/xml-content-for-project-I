@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BypassSpecificationsForUPSWithoutTr-546EA6E1" xml:lang="en">
+   <title>Bypass Specifications</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="engineering,maintenance,production,quality,management,safety"/>
+         <keywords><!-- Product layer -->
+            <indexterm>bypass-system</indexterm>
+            <indexterm>bypass-circuit</indexterm>
+            <indexterm>l1-l2-l3-n-g</indexterm>
+            <indexterm>voltage-sensor</indexterm>
+            <indexterm>frequency-monitor</indexterm>
+            <indexterm>nominal-current-sensor</indexterm>
+            <indexterm>grounding-conductor</indexterm>
+            <indexterm>power-distribution-panel</indexterm>
+            <indexterm>multi-kva-ups-unit</indexterm>
+            <indexterm>phase-connection-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-nominal-current</indexterm>
+            <indexterm>check-frequency-deviation</indexterm>
+            <indexterm>test-voltage-range</indexterm>
+            <indexterm>validate-bypass-connections</indexterm>
+            <indexterm>configure-multi-phase-ups</indexterm>
+            <indexterm>record-load-current</indexterm>
+            <indexterm>verify-ground-continuity</indexterm>
+            <indexterm>monitor-electrical-parameters</indexterm>
+            <indexterm>balance-phase-loads</indexterm>
+            <indexterm>ensure-safety-isolation</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-ups-installation</indexterm>
+            <indexterm>multi-phase-power-environment</indexterm>
+            <indexterm>electrical-safety-standard</indexterm>
+            <indexterm>plant-power-distribution</indexterm>
+            <indexterm>load-transfer-environment</indexterm>
+            <indexterm>bypass-maintenance</indexterm>
+            <indexterm>equipment-commissioning</indexterm>
+            <indexterm>voltage-frequency-stability</indexterm>
+            <indexterm>power-continuity-setup</indexterm>
+            <indexterm>energy-supply-infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Bypass Specifications"/>
+         <othermeta name="shortdesc"
+                    content="Specifications for bypass configurations in 25–100 kVA UPS systems, including voltage, frequency, and current parameters with grounding and connection details."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bypass-system; voltage-sensor; frequency-monitor; grounding-conductor; nominal-current-sensor; power-distribution-panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:bypass-specifications;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="bypass,ups,voltage,current,frequency,grounding,connection,multi-phase,specifications"/>
+         <othermeta name="usecase"
+                    content="document-electrical-specifications-for-ups-bypass-systems"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="7">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC2" namest="col2" valign="top">25
+kVA</entry>
+                     <entry nameend="COLSPEC4" namest="col3" valign="top">37.5 kVA</entry>
+                     <entry nameend="COLSPEC17" namest="COLSPEC18" valign="top">50
+kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC17" namest="col2">L1,
+L2, L3, N, G</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">±10% </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+range(Hz)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">60
+± 8%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal bypass current
+(A)</entry>
+                     <entry>69</entry>
+                     <entry>66</entry>
+                     <entry>104</entry>
+                     <entry>98</entry>
+                     <entry>139</entry>
+                     <entry>131</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC2" namest="col2" valign="top">75
+kVA</entry>
+                     <entry nameend="COLSPEC4" namest="col3" valign="top">100 kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                     <entry valign="top">208</entry>
+                     <entry valign="top">220</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC4" namest="col2">L1,
+L2, L3, N, G</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">±10% </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+range (Hz)</entry>
+                     <entry nameend="COLSPEC4" namest="col2">60
+± 8%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal bypass current
+(A)</entry>
+                     <entry>208</entry>
+                     <entry>197</entry>
+                     <entry>278</entry>
+                     <entry>262</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

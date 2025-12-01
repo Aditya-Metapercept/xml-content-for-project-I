@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC56557F-BB9C-11F0-5123-09173F13E4C5" xml:lang="en-us">
+   <title>Faceplates</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Bowling_Green_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>If the cursor hovers over a piece of equipment on a screen and a “lightning bolt” appears,
+         click on the item to open a faceplate (popup window] that provides information about that
+         specific device. The faceplates vary depending on the type of equipment. For example, the
+         faceplates for a screw drive or dosing feeder are shown below, and include the ability to
+         change operating modes, change parameter values, and view alarms for that particular
+         device.</p>
+      <fig>
+         <image href="media/image41.jpg"
+                placement="break"
+                id="image_jjd_rcg_vcc"
+                align="center"/>
+      </fig>
+   </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="REF_Specifications-B929255A" xml:lang="en">
+   <title>Specifications</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>system-specifications</indexterm>
+            <indexterm>ups-module</indexterm>
+            <indexterm>power-module</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>control-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>verify-specifications</indexterm>
+            <indexterm>measure-electrical-parameters</indexterm>
+            <indexterm>load-testing</indexterm>
+            <indexterm>environmental-testing</indexterm>
+            <indexterm>thermal-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>design-engineering</indexterm>
+            <indexterm>product-development</indexterm>
+            <indexterm>compliance-testing</indexterm>
+            <indexterm>industrial-installation</indexterm>
+            <indexterm>site-acceptance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Specifications — Reference"/>
+         <othermeta name="shortdesc"
+                    content="Detailed technical specifications for UPS modules and components, with electrical, mechanical and environmental limits."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups module;power module;battery bank;control board;inverter"/>
+         <othermeta name="taxonomy"
+                    content="domain:design-engineering;usecase:reference-for-design-and-testing;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="specifications,testing,compliance,performance,parameters"/>
+         <othermeta name="usecase" content="reference-for-design-and-testing"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

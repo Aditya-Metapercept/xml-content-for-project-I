@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallationProcedureForSystemWitho-C748ECCE" xml:lang="en">
+   <title>Installation Procedure for Bottom Cable Entry System</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>bottom-cable-entry-system</indexterm>
+            <indexterm>cable-gland-assembly</indexterm>
+            <indexterm>cable-matrix</indexterm>
+            <indexterm>strain-relief</indexterm>
+            <indexterm>gland-plate</indexterm>
+            <!-- Process layer -->
+            <indexterm>bottom-entry-cable-routing</indexterm>
+            <indexterm>install-cable-glands</indexterm>
+            <indexterm>cable-identification-and-tagging</indexterm>
+            <indexterm>sealing-and-ip-protection</indexterm>
+            <indexterm>mechanical-fastening-procedure</indexterm>
+            <indexterm>grounding-and-bonding</indexterm>
+            <!-- Context layer -->
+            <indexterm>cabinet-integration</indexterm>
+            <indexterm>plant-floor-cabling</indexterm>
+            <indexterm>space-optimised-installation</indexterm>
+            <indexterm>maintenance-access</indexterm>
+            <indexterm>fire-and-safety-routing</indexterm>
+            <indexterm>electrical-distribution</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Installation procedure — bottom cable entry system"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for installing bottom cable entry systems including cable-gland assembly, sealing, identification and grounding procedures."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bottom-cable-entry-system;cable-glands;gland-plate;strain-relief;cables;sealing-compounds;earthing-strap"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-cabling;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="bottom-entry, cable-glands, sealing, grounding, cable-routing"/>
+         <othermeta name="usecase"
+                    content="Install bottom cable entry system and perform sealing and grounding"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0" rowsep="0">
+                        <fig>
+                           <title>10–80 kVA Parallel Redundant System</title>
+                           <image href="../Images/10-80_parallel_bottom_entry_85mm_0000208444.svg"
+                                  scope="local"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry rowsep="0">
+                        <fig>
+                           <title>10–80 kVA Parallel Redundant System with Bypass Transformer</title>
+                           <image href="../Images/10-80_parallel_bypass_transformer_bottom_entry_85mm_0000208443.svg"
+                                  scope="local"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry colsep="0" nameend="col2" namest="col1" rowsep="0">
+                        <fig>
+                           <image href="../Images/gvs_power-signalcablecolor_definition_w120mm_0000160929.svg"
+                                  scope="local"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <hazardstatement type="warning">
+            <messagepanel>
+               <typeofhazard>Tipping hazard</typeofhazard>
+               <howtoavoid>The cabinet is top-heavy. Move the cabinet carefully with
+a forklift or a low profile pallet jack by lifting from the front.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+      </context>
+      <ol>
+         <li>
+            <p>
+               <xref href="Remove_Kick_Plates_TSK_0000161962.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="10-80kVA_Mount_the_UPS_System_to_the_Floor_0000235790.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Prepare_for_Cables_TSK_0000208812.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Follow one of the procedures:</p>
+            <ul>
+               <li>
+                  <xref href="Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_Bottom_Cable_Entry_T_0000240801.xml"
+                        format="dita"
+                        scope="local"
+                        type="task"/>, or </li>
+               <li>
+                  <xref href="10-80_Connect_the_Power_Cables_on_the_Parallel_50-80_kVA_Bottom_Cable_Entry_T_0000240800.xml"
+                        format="dita"
+                        scope="local"
+                        type="task"/>, or </li>
+               <li>
+                  <xref href="10-80_kVA_Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_3_1_Bottom_W_byp_trans_0000235795.xml"
+                        format="dita"
+                        scope="local"
+                        type="task"/>, or </li>
+               <li>
+                  <xref href="Connect_the_Power_Cables_on_the_Parallel_10-40_kVA_3_3_Bottom_Cable_Entr_0000237720.xml"
+                        format="dita"
+                        scope="local"
+                        type="task"/>.</li>
+            </ul>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Emergency_Power_Off_EPO_TSK_0000077629.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="10-80_kVA_Connect_the_Signal_Cable_for_the_Coupling_Switches_in_Parallel_Bottom_Ca_0000235797.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Install_the_Kick_Plates_0000103941.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

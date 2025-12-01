@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2435C6F-BDF2-11F0-6636-09173F13E4C5" xml:lang="en">
+   <title>Configuring Data Sync Connections</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>power-automate</indexterm>
+            <indexterm>data-sync-admin</indexterm>
+            <indexterm>connected-app</indexterm>
+            <indexterm>oauth-client-credentials</indexterm>
+            <!-- Process -->
+            <indexterm>configure-data-sync</indexterm>
+            <indexterm>set-up-connections</indexterm>
+            <indexterm>generate-client-credentials</indexterm>
+            <indexterm>authenticate-oauth</indexterm>
+            <indexterm>retrieve-connection-id</indexterm>
+            <indexterm>validate-integration</indexterm>
+            <!-- Context -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>data-integration</indexterm>
+            <indexterm>cloud-environment</indexterm>
+            <indexterm>system-administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configuring Data Sync Connections"/>
+         <othermeta name="shortdesc"
+                    content="Before you use the data sync admin tool, you must configure connections to both Microsoft Dynamics and Power."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="dynamics-365-instance;power-automate-connection;client-id;client-secret;connection-id;data-sync-admin-tool"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:data-sync-configuration;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="data-sync,connection-setup,dynamics,power-automate,credentials,integration"/>
+         <othermeta name="usecase" content="configuring-data-sync-connections"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Before you use the data sync admin tool, you must configure connections to both Microsoft Dynamics and Power.</p>
+   </body>
+</topic>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceThe3FanSBSAssembly0J-0N-1080-6A11B118" xml:lang="en">
+   <title>Replace the 3 Fan SBS Assembly 0J-0N-10803</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>3-fan-sbs-assembly</indexterm>
+            <indexterm>fan-module</indexterm>
+            <indexterm>cooling-assembly</indexterm>
+            <indexterm>cabinet-covers</indexterm>
+            <!-- Process layer -->
+            <indexterm>remove-3-fan-sbs-assembly</indexterm>
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>fan-module-removal</indexterm>
+            <indexterm>electrical-safety-validation</indexterm>
+            <indexterm>cover-removal</indexterm>
+            <indexterm>component-disconnection</indexterm>
+            <indexterm>reverse-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>75-100-kva-systems</indexterm>
+            <indexterm>industrial-ups-environment</indexterm>
+            <indexterm>arc-flash-hazard</indexterm>
+            <indexterm>energy-storage-systems</indexterm>
+            <indexterm>hazardous-voltage-zones</indexterm>
+            <indexterm>equipment-grounding</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the 3 Fan SBS Assembly 0J-0N-10803"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to remove and replace the 3 fan SBS assembly in 75–100 kVA UPS systems, including safety guidelines and cable handling."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="3-fan-sbs-assembly;fan-module;covers;ups-system;cables;cabinet-frame;hazardous-voltage;capacitors;grounding-conductor"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-maintenance;usecase:replace-3-fan-sbs-assembly;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="fan-removal,ups-cooling,maintenance-procedure,electrical-safety,component-disconnection,75-100-kva"/>
+         <othermeta name="usecase" content="guided-maintenance-replacement-of-fan-assembly"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 75–100 kVA systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the three covers in the indicated order.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_remove3covers_w120mm_0000191099.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the four screws from the fan module and slide out
+the assembly as far as the cables allow.</p>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the fan module
+and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Remove the 3 fan SBS assembly.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10803_75-100kw_3fanssbsass_removefanass_w120mm_0000191098.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the 3 fan SBS
+assembly.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

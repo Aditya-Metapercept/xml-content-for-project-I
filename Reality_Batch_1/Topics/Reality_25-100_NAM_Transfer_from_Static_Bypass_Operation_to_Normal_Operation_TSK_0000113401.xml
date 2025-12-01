@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromStaticBypassOperationTo-8D2FB365" xml:lang="en">
+   <title>Transfer from Requested Static Bypass Operation to Normal Operation</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>static-bypass-module</indexterm>
+            <indexterm>pxc-control-board</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>bypass-switchgear</indexterm>
+            <indexterm>transfer-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-to-normal-operation</indexterm>
+            <indexterm>exit-static-bypass</indexterm>
+            <indexterm>confirm-ups-out-of-bypass</indexterm>
+            <indexterm>verify-system-parameters</indexterm>
+            <indexterm>restore-normal-load-path</indexterm>
+            <indexterm>post-transfer-health-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-operation</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>maintenance-restoration</indexterm>
+            <indexterm>control-room-procedures</indexterm>
+            <indexterm>industrial-power-operations</indexterm>
+            <indexterm>operator-console</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Transfer from Requested Static Bypass Operation to Normal Operation"/>
+         <othermeta name="shortdesc"
+                    content="Task to bring the UPS back from static bypass into normal operation, including confirmation prompts and safety checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static bypass;operator console;transfer confirmation;system parameters;25-100 kVA UPS"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:power-transfer-procedures;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="exit-static-bypass,normal-operation,transfer-confirmation,post-transfer-check,25-100-kva"/>
+         <othermeta name="usecase" content="restore-normal-operation-from-static-bypass"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>This menu is only available if ECO mode is disabled.</note>
+      </context>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS out of Bypass</uicontrol> to
+transfer to normal operation.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS out of Bypass NO, Abort►YES, UPS out of Bypass</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

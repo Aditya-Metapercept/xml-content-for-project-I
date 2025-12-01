@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t295C4CF-BDF2-11F0-1753-09173F13E4C5" xml:lang="en">
+   <title>To launch the X-Author Contracts add-in</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-24T17:00:00+05:30"/>
+         <revised modified="2025-11-24T17:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="legal-counsel,contract-manager,contract-administrator,it-admin,sales-ops"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-contractmac-power</indexterm>
+            <indexterm>x-author-contracts</indexterm>
+            <indexterm>x-author-launch</indexterm>
+            <indexterm>mac-addin-ui</indexterm>
+            <indexterm>pane-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>launch-addin</indexterm>
+            <indexterm>open-x-author-pane</indexterm>
+            <indexterm>sign-in-to-salesforce</indexterm>
+            <indexterm>load-contract-metadata</indexterm>
+            <indexterm>view-contract-properties</indexterm>
+            <!-- Context layer -->
+            <indexterm>contract-lifecycle-management</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>end-user-workflow</indexterm>
+            <indexterm>legal-review</indexterm>
+            <indexterm>document-editing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-contractmac-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To launch the X-Author Contracts add-in"/>
+         <othermeta name="shortdesc"
+                    content="How to open Microsoft Word and launch the X-Author Contracts add-in so the X-Author pane loads and connects to Salesforce."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Microsoft Word;X-Author pane;Salesforce;user-session"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:launch-and-connect;industry:financial-services"/>
+         <othermeta name="tags" content="launch,connect,salesforce,x-author"/>
+         <othermeta name="usecase" content="launch-x-author-and-connect-to-salesforce"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Open Microsoft Word.</p>
+         </li>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>Insert</uicontrol>
+                  <uicontrol>My Add-ins</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Choose <uicontrol>Apttus X-Author</uicontrol> from the list of add-ins displayed in
+               the drop-down. </p>
+            <stepresult>
+               <p>Apttus X-Author loads in a new pane to the right of the document window.</p>
+               <fig id="fig_ecw_2cq_12c">
+                  <image height="250"
+                         placement="break"
+                         width="641"
+                         href="../attachments/45220121/51576921.png"
+                         id="image_fcw_2cq_12c"/>
+               </fig>
+            </stepresult>
+         </li>
+      </ol>
+   </body>
+</topic>

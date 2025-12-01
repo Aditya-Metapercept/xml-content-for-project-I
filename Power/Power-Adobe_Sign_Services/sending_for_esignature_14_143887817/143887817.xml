@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2401BAE-BDF2-11F0-1318-09173F13E4C5" xml:lang="en">
+   <title>Sending for eSignature</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign-services</indexterm>
+            <indexterm>metR-asign-power</indexterm>
+            <indexterm>agreement-template</indexterm>
+            <indexterm>salesforce-document-management</indexterm>
+            <indexterm>quote-proposal-record</indexterm>
+            <indexterm>esignature-workflow-ui</indexterm>
+            <!-- Process layer -->
+            <indexterm>sending-for-esignature</indexterm>
+            <indexterm>recipient-routing</indexterm>
+            <indexterm>document-preparation</indexterm>
+            <indexterm>attachment-selection-process</indexterm>
+            <indexterm>template-selection-process</indexterm>
+            <indexterm>agreement-finalization</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>digital-agreement-management</indexterm>
+            <indexterm>salesforce-environment</indexterm>
+            <indexterm>document-governance</indexterm>
+            <indexterm>enterprise-esignature-ecosystem</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Sending for eSignature"/>
+         <othermeta name="shortdesc"
+                    content="Explains the prerequisites and process for sending agreements or quotes for eSignature using Adobe Sign Services, including required templates, documents, and related Salesforce records."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="agreement-template;quote-proposal-record;adobe-sign-action;attachments;templates;salesforce-document-record;esignature-recipients"/>
+         <othermeta name="taxonomy"
+                    content="domain:enterprise-software;usecase:send-for-esignature;industry:revenue-life-cycle-management"/>
+         <othermeta name="tags"
+                    content="esignature,agreement,quote,template,attachments,adobe-sign,salesforce"/>
+         <othermeta name="usecase" content="send-documents-for-electronic-signature"/>
+      </metadata>
+   </prolog>
+   <related-links>
+      <linklist>
+         <desc>Agreements or Quote/Proposals can be sent for eSignature using Adobe Sign Services.
+            You must have an existing agreement template, a Word file, or an existing document on
+            Salesforce to send your document for eSignature to your recipients. </desc>
+         <link href="../adding_attachments_143887_143887818/143887818.xml"/>
+         <link href="../selecting_attachments_and_143887937/143887937.xml"/>
+         <link href="../managing_adobe_sign_actio_190353539/190353539.xml"/>
+      </linklist>
+   </related-links>
+</topic>

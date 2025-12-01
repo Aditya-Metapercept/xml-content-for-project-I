@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallTheTopEntryCabinetOption-0D56CD6C" xml:lang="en">
+   <title>Connect the Power Cables in the Top Entry Cabinet for Single
+Mains</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+      <keyword>Reality top entry cabinet</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups</indexterm>
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>top-entry-cabinet</indexterm>
+            <indexterm>cabinet-gland-plate</indexterm>
+            <indexterm>busbar</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>input-breaker</indexterm>
+            <!-- Process layer -->
+            <indexterm>route-input-cables</indexterm>
+            <indexterm>connect-busbars</indexterm>
+            <indexterm>torque-terminal-connections</indexterm>
+            <indexterm>earthing-and-bonding</indexterm>
+            <indexterm>cable-gland-installation</indexterm>
+            <indexterm>verify-continuity-and-isolation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>single-mains-top-entry</indexterm>
+            <indexterm>commissioning-checks</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>industrial-engineering-floor</indexterm>
+            <indexterm>on-site-install</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Install the Top Entry Cabinet Option - Top-entry cable routing and connections"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to route and connect input power cables through the top-entry cabinet gland plate and make busbar and earth connections for single-mains UPS."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups;top-entry-cabinet;cable-gland-plate;input-cables;busbar;battery;earth-termination;terminal-lugs;breaker"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation-top-entry;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="installation,top-entry,cable-routing,earthing,busbar,commissioning"/>
+         <othermeta name="usecase" content="install-and-commission-ups-top-entry-cabinet"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context/>
+      <ol>
+         <li>
+            <p>Route the input cables through the top gland plate and
+connect to the input busbars (L1, L2, L3, N) and to the ground busbar
+in the top entry cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the Top Entry Cabinet</title>
+                  <image href="../Images/50kva_ups_and_top_entry_cabinet_1P_connect-cables_120mm_0000166012.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Route the output cables through the top gland plate and
+connect to the output busbars (L1, L2, L3, N) and to the ground busbar
+in the top entry cabinet.</p>
+         </li>
+         <li>
+            <p>Only in systems with remote battery cabinet(s):
+Route the battery cables from the remote battery cabinet(s) through
+the top gland plate and connect to the battery busbars (+, –)
+and the ground busbar in the top entry cabinet.</p>
+         </li>
+         <li>
+            <p>Route the preinstalled cables from the top entry cabinet
+through the transformer cabinet (if present) and into the UPS cabinet
+as shown.</p>
+            <stepxmp>
+               <table frame="none" outputclass="font:10" pgwide="1">
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry colsep="0">
+                              <fig>
+                                 <title>Front View of UPS Cabinet and Top Entry Cabinet</title>
+                                 <image href="../Images/Reality_25_kwupssinglewtopentrycab_powercableroute_w85mm_0000164473.svg"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                           <entry>
+                              <fig>
+                                 <title>Front View of UPS Cabinet, Transformer Cabinet, and Top Entry
+Cabinet</title>
+                                 <image href="../Images/Reality_25_kwupssinglewtopentrycabwtransf_powercableroute_w120_0000164634.svg"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

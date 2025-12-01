@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC9186CE-BB9C-11F0-1430-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ol id="steps_u1c_r1s_ncc">
+         <li>
+            <p>Before starting the work instruction activity, perform the following steps:</p>
+            <ol id="substeps_cpc_t1s_ncc">
+               <li>
+                  <p>Do not begin these tasks without confirmation that the personnel directly
+                     involved have completed the required training associated with the work
+                     instruction activity and have reviewed this document.</p>
+               </li>
+               <li>
+                  <p>Gather necessary tools and equipment as identified below in the Equipment
+                     Section.</p>
+               </li>
+               <li>
+                  <p>Wear and use any additional Personal Protective Equipment (PPE) and safety
+                     equipment required for this specific work instruction.</p>
+               </li>
+               <li>
+                  <p>Obey all applicable safety requirements and procedures.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel of the activity and the estimated time
+                     needed to complete the tasks.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To inspect the tin hood equipment, perform the following steps:</p>
+            <ol id="substeps_vdt_v1s_ncc">
+               <li>
+                  <p>Confirm proper exhaust draft system operation by checking for the odor of
+                     MBTC (Monobutyltin Trichloride).</p>
+               </li>
+               <li>
+                  <p>Monitor the level of MBTC (tracking usage) and any changes to the
+                     container.</p>
+               </li>
+               <li>
+                  <p>Monitor the temperature of the hood (tracking temperature) and ensure that
+                     the alarm operates properly.</p>
+               </li>
+               <li>
+                  <p>Monitor the MBTC pump settings.</p>
+               </li>
+               <li>
+                  <p>Inspect the jammed-ware detector and confirm that the sensor is operating
+                     properly.</p>
+               </li>
+               <li>
+                  <p>Confirm that the distance between the underside of the mid-section and the
+                     top of the finish of the bottle is 5mm.</p>
+               </li>
+               <li>
+                  <p>Confirm the proper operation of the Central Feeding Unit (CFU), if
+                     applicable</p>
+               </li>
+               <li>
+                  <p>Check the piston-pump reservoir oil level, if applicable.</p>
+               </li>
+               <li>
+                  <p>Check the pump area for leaks.</p>
+               </li>
+               <li>
+                  <p>Confirm that MBTC is available in the tank.</p>
+               </li>
+               <li>
+                  <p>Confirm the absence of bubbles inside the tube</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To inspect DFE (DuPont 152a gas – 1,1-difluoroethane) equipment when it is used in
+               a job, perform the following steps:</p>
+            <ol id="substeps_pvk_z1s_ncc">
+               <li>
+                  <p>Confirm that the DFE pressure and the air pressure are within
+                     specification.</p>
+               </li>
+               <li>
+                  <p>Confirm that the injection tube is in the proper location.</p>
+               </li>
+               <li>
+                  <p>Confirm that the alignment guides are correct.</p>
+               </li>
+               <li>
+                  <p>Confirm that there is a spare tank available.</p>
+               </li>
+               <li>
+                  <p>Review the quality DFE records.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Upon completion of tasks, perform the following steps:</p>
+            <ol id="substeps_jph_bbs_ncc">
+               <li>
+                  <p>Perform basic housekeeping duties. Clean up the work space, tools, and
+                     equipment. Dispose of trash. Put tools and equipment in their assigned areas.
+                  </p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel that the work instruction activity has been
+                     completed</p>
+               </li>
+               <li>
+                  <p>Record and report findings and results.</p>
+               </li>
+               <li>
+                  <p>Follow appropriate instructions for the notification of findings and results
+                     relating to specifications, targets, and/or reaction limits.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

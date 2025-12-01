@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c217333C-BB02-11F0-1945-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-fes-space</indexterm>
+            <indexterm>ois-03261-sensor</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>signal-cable-harness</indexterm>
+            <indexterm>servo-drive</indexterm>
+            <!-- Process layer -->
+            <indexterm>power-isolation</indexterm>
+            <indexterm>lockout-tagout-procedure</indexterm>
+            <indexterm>electrical-grounding</indexterm>
+            <indexterm>mechanical-restraint</indexterm>
+            <indexterm>personal-protective-equipment</indexterm>
+            <indexterm>sensor-safety-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-safety</indexterm>
+            <indexterm>glass-production-facility</indexterm>
+            <indexterm>maintenance-safety</indexterm>
+            <indexterm>electrical-hazard-control</indexterm>
+            <indexterm>work-environment-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety"/>
+         <othermeta name="shortdesc"
+                    content="Describes safety practices for handling electrical and mechanical systems during proximity sensor installation on the Servo Gob Distributor."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="electrical circuits;control cabinet;servo drive;proximity sensor assembly"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-safety;usecase:equipment-installation-safety;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="lockout-tagout,grounding,safety-barriers,electrical-protection,mechanical-restraint"/>
+         <othermeta name="usecase"
+                    content="Ensure worker safety during installation, alignment, and electrical setup of proximity sensor systems"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Space standard safety requirements and procedures defined by the Global Environmental
+         Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+         national requirements. Safety equipment and instructions specific to the completion of this
+         work instruction are detailed in the <xref href="FES-03-703_instructions.xml">Instructions</xref> Section.<table id="table_nhr_4kg_rzb">
+            <tgroup cols="3">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <colspec colname="c3" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <fig id="fig_ohr_4kg_rzb">
+                              <title>Danger</title>
+                              <image href="media/image1.jpg"
+                                     id="image_phr_4kg_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_qhr_4kg_rzb">
+                              <title>Electricity</title>
+                              <image href="media/image2.jpg"
+                                     id="image_rhr_4kg_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_shr_4kg_rzb">
+                              <title>Hot Surface</title>
+                              <image href="media/image3.jpg"
+                                     id="image_thr_4kg_rzb"
+                                     placement="break"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromMaintenanceBypassOperat-6A1AE05C" xml:lang="en">
+   <title>Transfer from Maintenance Bypass Operation to Normal Operation
+or ECO Mode – Redundant Parallel UPS System N+1</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>redundant-parallel-ups-n-plus-1</indexterm>
+            <indexterm>unit-input-breaker-uib</indexterm>
+            <indexterm>static-switch-input-breaker-ssib</indexterm>
+            <indexterm>kirk-key-solenoid-interlock</indexterm>
+            <indexterm>maintenance-bypass-breaker-mbb</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-from-maintenance-bypass</indexterm>
+            <indexterm>close-breakers-and-initialize-ups</indexterm>
+            <indexterm>manage-bypass-to-normal-transition</indexterm>
+            <indexterm>perform-parallel-ups-synchronization</indexterm>
+            <indexterm>enable-or-verify-eco-mode</indexterm>
+            <!-- Context layer -->
+            <indexterm>redundant-ups-operation</indexterm>
+            <indexterm>eco-mode-operation</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>bypass-operation-environment</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Transfer from Maintenance Bypass Operation to Normal Operation or ECO Mode – Redundant Parallel UPS System N+1"/>
+         <othermeta name="shortdesc"
+                    content="Provides step-by-step instructions to transfer an N+1 redundant UPS system from maintenance bypass operation to normal or ECO mode, including breaker sequencing and interlock operations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UIB;SSIB;battery breaker BB;unit output breaker UOB;maintenance bypass breaker MBB;parallel UPS system;Kirk key solenoid interlock;System Control menu;Bypass Control menu;ECO mode"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:transfer-from-maintenance-bypass-operation-to-normal-operation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="maintenance-bypass,normal-operation,eco-mode,parallel-ups,breaker-sequencing,interlock-operation"/>
+         <othermeta name="usecase"
+                    content="transfer-from-maintenance-bypass-operation-to-normal-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Perform the following steps on both UPS1 and UPS2.</p>
+            <ol>
+               <li>
+                  <p>Close the unit input breaker UIB.</p>
+               </li>
+               <li>
+                  <p>Close the static switch input breaker SSIB (only in
+configurations where SSIB is present).</p>
+               </li>
+               <li>
+                  <p>Press the ON button on the display to turn on the UPS.</p>
+               </li>
+               <li>
+                  <p>Close the battery breaker BB.</p>
+                  <stepresult>
+                     <note>If ECO mode is enabled, the UPSs will transfer to
+ECO mode 1 minute after the units have turned ON.</note>
+                  </stepresult>
+               </li>
+               <li>
+                  <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                        <uicontrol>System Control</uicontrol>
+                        <uicontrol>Bypass Control</uicontrol>
+                     </menucascade> using the UP/DOWN keys and the ENTER key.</p>
+               </li>
+               <li>
+                  <p>If the units are running in normal operation, select <uicontrol>YES, UPS into Bypass</uicontrol>. This action releases the key from
+the kirk key solenoid interlock.</p>
+                  <stepxmp>
+                     <table outputclass="font:10">
+                        <tgroup cols="1">
+                           <colspec colname="col1"/>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <screen xml:space="preserve">Confirm action:UPS into Bypass NO, Abort►YES, UPS into Bypass</screen>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                     <p>The following message will appear on the display:</p>
+                     <table outputclass="font:10">
+                        <tgroup cols="1">
+                           <colspec colname="col1"/>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <screen xml:space="preserve">The load is supplied via the static bypass switch</screen>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </stepxmp>
+               </li>
+               <li>
+                  <p>If ECO mode is enabled, verify that the units are running
+in ECO mode.</p>
+               </li>
+               <li>
+                  <p>Unlock and remove the key from the kirk key solenoid
+interlock KS.</p>
+               </li>
+               <li>
+                  <p>Insert the key into the unit output breaker UOB. Unlock
+and close the unit output breaker UOB. The key is now trapped.</p>
+               </li>
+               <li>
+                  <p>Open the maintenance bypass breaker MBB and lock the
+breaker in this position with its key. Remove the key.</p>
+               </li>
+               <li>
+                  <p>Insert the key into the kirk key solenoid interlock
+KS and lock it.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol> on one of the
+UPSs, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN
+keys and the ENTER key.</p>
+            <ul>
+               <li>With ECO mode enabled: Select <uicontrol>YES, UPS out
+of ECO Mode</uicontrol> to transfer both UPSs to normal operation.<table outputclass="font:10">
+                     <tgroup cols="1">
+                        <colspec colname="col1"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <screen xml:space="preserve">Confirm action:UPS out of ECO Mode NO, Abort►YES, UPS out of ECO Mode</screen>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+               <li>With ECO mode disabled:  Select <uicontrol>YES, UPS
+out of Bypass</uicontrol> to transfer both UPSs to normal operation.<table outputclass="font:10">
+                     <tgroup cols="1">
+                        <colspec colname="col1"/>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <screen xml:space="preserve">Confirm action:UPS out of Bypass NO, Abort►YES, UPS out of Bypass</screen>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+            </ul>
+            <stepresult>
+               <p>The UPS system is now in normal operation.</p>
+            </stepresult>
+         </li>
+      </ol>
+   </body>
+</topic>

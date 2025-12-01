@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ViewSystemConfiguration-53F4102A" xml:lang="en">
+   <title>View System Configuration</title>
+   <shortdesc>
+      <keyword>Reality NAM 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>temperature-sensor</indexterm>
+            <indexterm>input-sensor</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-system-configuration</indexterm>
+            <indexterm>edit-configuration</indexterm>
+            <indexterm>validate-settings</indexterm>
+            <indexterm>backup-configuration</indexterm>
+            <indexterm>restore-configuration</indexterm>
+            <indexterm>apply-changes</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>production-continuity</indexterm>
+            <indexterm>power-management</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>maintenance-ops</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="View System Configuration"/>
+         <othermeta name="shortdesc"
+                    content="Steps to access and verify UPS system configuration settings through the UI, including backup and restore options."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS;Battery Bank;Interface Board;Temperature Sensor;Input Sensor;Configuration Backup;Restore"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:view-system-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="system-configuration,backup,restore,settings,ups,monitoring"/>
+         <othermeta name="usecase" content="view-and-manage-system-configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>Configuration</uicontrol>
+               </menucascade> using the UP/DOWN
+keys and the ENTER key.</p>
+         </li>
+         <li>
+            <p>Use the UP/DOWN keys to browse through the system configuration
+screens. Here you can see information about the system configuration.</p>
+         </li>
+      </ol>
+      <result>
+         <table frame="none" outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <p>
+                           <table outputclass="font:10">
+                              <tgroup cols="1">
+                                 <colspec colname="col1" colwidth="100.00*"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <screen xml:space="preserve">Type:    PXC-ULConf.:  RedundantUPS:    2  of  2↓</screen>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>
+                                 <p>System type</p>
+                              </li>
+                              <li>
+                                 <p>System configuration: <uicontrol>Single</uicontrol> or <uicontrol>Redundant</uicontrol>
+                                 </p>
+                              </li>
+                              <li>
+                                 <p>UPS number</p>
+                              </li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table frame="none" outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <p>
+                           <table outputclass="font:10">
+                              <tgroup cols="1">
+                                 <colspec colname="col1" colwidth="100.00*"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <screen xml:space="preserve">Inp.    Byp.    Out.  ↑3x208V  3x208V  3x208V0058A  0058A  0174AT001    T003    T002↓</screen>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>
+                                 <p>Nominal voltages on input, bypass, and output</p>
+                              </li>
+                              <li>
+                                 <p>Nominal currents on input, bypass, and output</p>
+                              </li>
+                              <li>
+                                 <p>Installed transformers in the system (optional)</p>
+                              </li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table frame="none" outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <p>
+                           <table outputclass="font:10">
+                              <tgroup cols="1">
+                                 <colspec colname="col1" colwidth="100.00*"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <screen xml:space="preserve">Out. Freq.:   60Hz↑Out. Power:  050kVA                    ↓</screen>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>
+                                 <p>System output frequency</p>
+                              </li>
+                              <li>
+                                 <p>Nominal system output power</p>
+                              </li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table frame="none" outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <p>
+                           <table outputclass="font:10">
+                              <tgroup cols="1">
+                                 <colspec colname="col1" colwidth="100.00*"/>
+                                 <tbody>
+                                    <row>
+                                       <entry>
+                                          <screen xml:space="preserve">Alarm Thresholds:  ↑  Load:     050 kVA  Runtime:  00h 20min  Bat. Temp.:  25 °C</screen>
+                                       </entry>
+                                    </row>
+                                 </tbody>
+                              </tgroup>
+                           </table>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>
+                                 <p>Overload alarm threshold</p>
+                              </li>
+                              <li>
+                                 <p>Remaining battery runtime threshold</p>
+                              </li>
+                              <li>
+                                 <p>Battery temperature threshold</p>
+                              </li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </result>
+   </body>
+</topic>

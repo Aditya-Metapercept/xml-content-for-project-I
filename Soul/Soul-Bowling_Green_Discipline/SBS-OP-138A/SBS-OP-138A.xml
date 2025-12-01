@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC656D23-BB9C-11F0-7219-09173F13E4C5" xml:lang="en-us">
+   <title>Overview of the Belt Conveyor</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2024-02-15"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content" href="SBS-OP-138A_overview_of_the_belt_conveyor.xml">
+      <topicmeta>
+         <othermeta content="SBS-OP-138A" name="DocumentNumber"/>
+         <othermeta content="2024-02-15" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="SBS-OP-138A_purposeapplication.xml"/>
+      <topicref href="SBS-OP-138A_ppe_required.xml"/>
+      <topicref href="SBS-OP-138A_safety_hazards.xml"/>
+      <topicref href="SBS-OP-138A_respirable_crystalline_silica.xml"/>
+      <topicref href="SBS-OP-138A_safety_controls.xml"/>
+      <topicref href="SBS-OP-138A_equipment_needed.xml"/>
+      <topicref href="SBS-OP-138A_comments.xml"/>
+      <topicref href="SBS-OP-138A_related_resources.xml"/>
+      <topicref href="SBS-OP-138A_introduction.xml"/>
+      <topicref href="SBS-OP-138A_drive_station.xml"/>
+      <topicref href="SBS-OP-138A_tensioning_station.xml"/>
+      <topicref href="SBS-OP-138A_belt_cleaners_pneumatic.xml"/>
+      <topicref href="SBS-OP-138A_operating_modes.xml"/>
+      <topicref href="SBS-OP-138A_approval.xml"/>
+      <topicref href="SBS-OP-138A_revision_history.xml"/>
+   </topicref>
+</topic>

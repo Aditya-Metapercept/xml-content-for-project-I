@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t273FF4D-BDF2-11F0-2019-09173F13E4C5" xml:lang="en">
+   <title>To enable custom deal guidance page</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>custom-deal-guidance-page</indexterm>
+            <indexterm>deal-guidance-ui</indexterm>
+            <indexterm>config-system-properties</indexterm>
+            <indexterm>preview-service</indexterm>
+            <indexterm>activation-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>enable-custom-deal-guidance-page</indexterm>
+            <indexterm>select-quote-line-item</indexterm>
+            <indexterm>preview-and-activate</indexterm>
+            <indexterm>provide-custom-page-url</indexterm>
+            <indexterm>page-activation-workflow</indexterm>
+            <indexterm>validate-preview</indexterm>
+            <!-- Context layer -->
+            <indexterm>quote-proposal</indexterm>
+            <indexterm>sales-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>user-experience</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>customization-workflow</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To enable custom deal guidance page"/>
+         <othermeta name="shortdesc"
+                    content="For a selected Quote/Proposal Line Item, you can preview and activate the custom page if the preview is satisfactory."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="quote;proposal;line-item;custom-page;preview;activation-flag"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="enable-custom-page,preview,activate,quote-line-item"/>
+         <othermeta name="usecase" content="enable-and-validate-custom-deal-guidance-page"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to <menucascade>
+                  <uicontrol>Setup</uicontrol>
+                  <uicontrol>App Setup</uicontrol>
+                  <uicontrol>Develop</uicontrol>
+                  <uicontrol>Custom Settings</uicontrol>
+                  <uicontrol>Config System Properties</uicontrol>
+                  <uicontrol>Manage</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Edit</uicontrol> next to System Properties.</p>
+         </li>
+         <li>
+            <p>Enter the Deal Guidance custom page URL in the <uicontrol>Custom Deal Guidance
+                  Page</uicontrol> field. For example, enter <i>
+                  <xref href="https://na34.visual.force.com/apex/MyCustomDealGuidancePage"
+                        format="html"
+                        scope="external">
+                     <u>https://na34.visual.force.com/apex/MyCustomDealGuidancePage</u>
+                  </xref>
+               </i> for a custom page named <i>MyCustomDealGuidancePag</i>e.<i/>
+            </p>
+         </li>
+      </ol>
+      <result id="result_o4c_g43_rcc">
+         <p>For a selected Quote/Proposal Line Item, you can 'Preview' the custom Deal guidance
+            interface and activate the custom page if the preview is satisfactory.</p>
+      </result>
+   </body>
+</topic>

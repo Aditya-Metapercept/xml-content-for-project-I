@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3748ED7-BDF3-11F0-5005-09173F13E4C5" xml:lang="en-us">
+   <title>6 Steering Wheel</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operator,maintenance-personnel,industrial-engineer,alignment-technician,safety-officer"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>steering-wheel</indexterm>
+            <indexterm>steering-column</indexterm>
+            <indexterm>steering-assembly</indexterm>
+            <indexterm>steering-sensor</indexterm>
+            <!-- Process layer -->
+            <indexterm>alignment-check</indexterm>
+            <indexterm>steering-adjustment</indexterm>
+            <indexterm>torque-check</indexterm>
+            <indexterm>play-measurement</indexterm>
+            <indexterm>bearing-inspection</indexterm>
+            <!-- Context layer -->
+            <indexterm>material-handling</indexterm>
+            <indexterm>operator-controls</indexterm>
+            <indexterm>warehouse-environment</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>mro-activities</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="6 Steering Wheel"/>
+         <othermeta name="shortdesc"
+                    content="Steering wheel and column components, alignment checks, and maintenance guidance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="steering-wheel;steering-column;universal-joint;bearings;steering-sensor"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:steering-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="steering,alignment,maintenance"/>
+         <othermeta name="usecase" content="inspect-and-align-steering"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image240.png" placement="inline"/>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <tbody id="items_lyw_21v_vgc">
+                     <row>
+                        <entry>A. Steering Wheel</entry>
+                        <entry>Steering wheel controls travel direction by turning the steering
+                      tyres.</entry>
+                     </row>
+                     <row>
+                        <entry>B. Horn Switch</entry>
+                        <entry>To give alarm to fellow worker(s) around and in the path of your truck, press
+                      the centre of the steering wheel.<note type="warning" id="note_b1p_g1v_vgc">
+                              <p>Don’t run the truck while the alarm is sounding. It is dangerous to do
+                          so, since poor effect is expected.</p>
+                           </note>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>C. Steering Knob (If Equipped)</entry>
+                        <entry>There is a steering knob available for inclusion with new truck deliveries. This option is solely intended for slow travel situations when two handed steering is not possible due to hydraulic operations.<note type="warning" id="note_jy4_h1v_vgc">
+                              <p>Loss of stability can occur when a lift truck steering wheel is rotated quickly while the truck is in motion. A steering knob will assist with easy rotation of the steering wheel, but if a steering knob is improperly used (e.g., rotating the steering wheel quickly while the truck is in motion), this can contribute to truck instability and a tip over. A steering knob is intended for slow travel maneuverability ONLY.</p>
+                           </note>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>D. Direction Control Lever</entry>
+                        <entry>
+                           <fig id="fig_xgj_j1v_vgc">
+                              <image href="media/image241.png" id="image_ygj_j1v_vgc" placement="inline"/>
+                           </fig>
+                           <ul id="ul_sbn_2bv_vgc">
+                              <li>Forward - Reverse Lever<p>FORWARD (F) - Push the lever forward. The lift
+                            truck will move forward.</p>
+                                 <p>NEUTRAL (N) - Move the lever to centre position.
+                              The lift truck should not move when lever is in neutral.</p>
+                                 <p>REVERSE(R) - Pull
+                                the lever toward the operator. The lift truck will move in reverse.</p>
+                              </li>
+                           </ul>
+                           <ul id="ol_ybl_q1v_vgc">
+                              <li>
+                                 <itemgroup>
+                                    <p>Speed Selection</p>
+                                    <p>Rotating the direction control lever changes the speed of travel. With handle rotated counter (D) clockwise(towards the operator), the lift truck is in FIRST speed.</p>
+                                    <p>Rotate the lever clockwise(away from the operator) for the SECOND and THIRD speeds. Do not fail to place the forward-reverse lever in the neutral position before starting the engine.</p>
+                                 </itemgroup>
+                              </li>
+                              <li>
+                                 <itemgroup>
+                                    <p>Neutral Lever Lock</p>
+                                    <p>A transmission neutral lever lock is in base of the direction control lever.
+                              This neutral lever lock prevents the direction control lever from being moved
+                              out of “NEUTRAL”.</p>
+                                    <p>N “NEUTRAL LOCK” position.</p>
+                                    <p>Prevents the direction control lever to be moved out of “NEUTRAL”.</p>
+                                    <p>D “DRIVE” position</p>
+                                    <p>Allows the direction control lever to be moved from “NEUTRAL” to “FORWARD and
+                              REVERSE”.</p>
+                                    <note type="warning" id="note_yy5_k1v_vgc">
+                                       <p>“LOCK” the direction control lever. When parking the lift truck,
+                                make sure to “LOCK” the direction control lever at neutral position to
+                                prevent unwanted move.</p>
+                                    </note>
+                                 </itemgroup>
+                              </li>
+                           </ul>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>E. Direction Indicator Lamp Lever</entry>
+                        <entry>
+                           <ul id="ul_mcw_zbv_vgc">
+                              <li>When this lever is pushed forward or pulled backward, left turn or right turn signal lamp flashes. This lever can activate high beam or low beam in upper or lower position.Press the button at the tip of the lever to inject washer fluid.</li>
+                              <li>Press the button at the tip of the lever to inject washer fluid.</li>
+                              <li>Turn the lever forward to operate the front wiper for 3 seconds, or backward to operate it continuously.</li>
+                              <li>(2speed wiper and lever horn switch is option.)</li>
+                           </ul>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </fig>
+   </body>
+</topic>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC6848C5-BB9C-11F0-1243-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Controls</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>emergency-stop</indexterm>
+            <indexterm>interlock-switch</indexterm>
+            <indexterm>safety-guard</indexterm>
+            <indexterm>light-curtain</indexterm>
+            <indexterm>control-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>fail-safe-design</indexterm>
+            <indexterm>interlock-testing</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>safety-checklist</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-safety</indexterm>
+            <indexterm>machine-guarding</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>incident-response</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety controls"/>
+         <othermeta name="shortdesc"
+                    content="Descriptions of safety controls and protective devices for conveyors, and procedures for testing and maintenance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="emergency stop;interlock switch;safety guards;light curtains;control panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:safety-controls;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,interlocks,guarding,lockout-tagout,testing"/>
+         <othermeta name="usecase"
+                    content="specify and maintain safety control systems for conveyors"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Hazard Communication Standard (HCS) requires chemicals to have Safety Data Sheets (SDS).  Refer to the SDS for chemicals listed in this SOP for additional hazards, first aid measures, toxicological information, accidental release measures, and handling/storage of the chemical.</p>
+      <p>Review the Emergency Action Plan before performing work.</p>
+      <p>Have a fire extinguisher nearby</p>
+   </body>
+</topic>

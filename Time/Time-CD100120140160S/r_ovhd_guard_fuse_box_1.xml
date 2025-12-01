@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r38965C9-BDF3-11F0-8055-09173F13E4C5" xml:lang="en-us">
+   <title>[OVHD Guard, Fuse Box 1]</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T16:10:00+05:30"/>
+         <revised modified="2025-11-15T16:10:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel, electrical-technicians, safety-and-compliance-officers, machine-operators, reliability-engineers"/>
+         <keywords><!-- product layer -->
+            <indexterm>overhead-guard-fuse-box</indexterm>
+            <indexterm>fuse-assembly</indexterm>
+            <indexterm>protective-relay</indexterm>
+            <indexterm>roof-electrical-module</indexterm>
+            <indexterm>wiring-cluster</indexterm>
+            <!-- process layer -->
+            <indexterm>inspection-and-testing</indexterm>
+            <indexterm>fuse-replacement-procedure</indexterm>
+            <indexterm>cable-securement</indexterm>
+            <indexterm>electrical-isolation</indexterm>
+            <indexterm>functional-verification</indexterm>
+            <!-- context layer -->
+            <indexterm>overhead-guard-system</indexterm>
+            <indexterm>operator-safety-systems</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+            <indexterm>industrial-plant-operations</indexterm>
+            <indexterm>equipment-safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Overhead guard fuse box — unit 1"/>
+         <othermeta name="shortdesc"
+                    content="Inspection and replacement guidance for the overhead guard fuse box to maintain operator safety systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="fuse-box;overhead-guard;relay;wiring;fuse-holder"/>
+         <othermeta name="taxonomy"
+                    content="domain:electrical-systems;usecase:overhead-guard-electrics;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="overhead-guard, fuse-box, safety, electrical"/>
+         <othermeta name="usecase" content="inspect-and-maintain-overhead-guard-fuse-box"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table colsep="1" frame="all" rowsep="1">
+            <tgroup cols="3">
+               <colspec colname="col1" colnum="1" colwidth="0.4*"/>
+               <colspec colname="col2" colnum="2" colwidth="2.1*"/>
+               <colspec colname="col3" colnum="3" colwidth="0.6*"/>
+               <thead>
+                  <row>
+                     <entry>No. </entry>
+                     <entry>Use </entry>
+                     <entry/>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>1</entry>
+                     <entry>Engine start, Parking controller</entry>
+                     <entry>10AMP</entry>
+                  </row>
+                  <row>
+                     <entry>2</entry>
+                     <entry>OSS/Parking controller [power]</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>3</entry>
+                     <entry>Parking sol power Cleep speed power A/M Select power</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>4</entry>
+                     <entry>Clearance indicator lamp(gauge) Lamp relays power</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>5</entry>
+                     <entry>Beacon power</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>6</entry>
+                     <entry>Mast lamp power LCD display bat</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>7</entry>
+                     <entry>Rear Lamp power</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>8</entry>
+                     <entry>Head Lamp (Hi/Low Beam)</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>9</entry>
+                     <entry>T/M cooler Power</entry>
+                     <entry>15AMP</entry>
+                  </row>
+                  <row>
+                     <entry>10</entry>
+                     <entry>Cabin power, DC/DC converter (Cigar jack)</entry>
+                     <entry>30AMP</entry>
+                  </row>
+                  <row>
+                     <entry>11</entry>
+                     <entry>Fuel Filter/Option/EGR power</entry>
+                     <entry>30AMP</entry>
+                  </row>
+                  <row>
+                     <entry>12</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m23E68D5-BDF2-11F0-1079-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Getting Started</title>
+   <topicref chunk="to-content" href="143887814.xml" xml:lang="en">
+      <topicref href="logging_into_adobe_sign_services.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Logging into Adobe Sign Services</navtitle>
+         </topicmeta>
+         <topicref href="prerequisites_0.xml"/>
+         <topicref href="to_log_in_to_adobe_sign_services_0.xml"/>
+      </topicref>
+      <topicref href="proposals_and_agreements.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Proposals and Agreements</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

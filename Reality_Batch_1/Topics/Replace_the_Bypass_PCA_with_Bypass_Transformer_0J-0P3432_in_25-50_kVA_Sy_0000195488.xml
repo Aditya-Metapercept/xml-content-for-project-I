@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheBypassPCAWithBypassTransf-78FA90B8" xml:lang="en">
+   <title>Replace the Bypass PCA with Bypass Transformer 0J-0P3432 in
+25–50 kVA Systems with Transformer</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>37.5 kVA</keyword>
+      <keyword>50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>bypass-pca</indexterm>
+            <indexterm>bypass-transformer</indexterm>
+            <indexterm>bypass-pcb</indexterm>
+            <indexterm>ups-transformer-model</indexterm>
+            <indexterm>cabinet-cover</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-bypass-pca</indexterm>
+            <indexterm>remove-bypass-pca</indexterm>
+            <indexterm>disconnect-bypass-cables</indexterm>
+            <indexterm>remove-covers</indexterm>
+            <indexterm>slide-out-pcb</indexterm>
+            <indexterm>component-removal</indexterm>
+            <indexterm>reverse-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>25-50-kva-systems</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>industrial-ups-environment</indexterm>
+            <indexterm>arc-flash-hazard</indexterm>
+            <indexterm>hazardous-voltage-zones</indexterm>
+            <indexterm>ppe-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replace the Bypass PCA with Bypass Transformer 0J-0P3432 in 25–50 kVA Systems with Transformer"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for removing and replacing the bypass PCA with a bypass transformer in 25–50 kVA transformer-based UPS systems, including PCB removal and cable disconnection."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bypass-pca;bypass-transformer;bypass-pcb;cables;cabinet-cover;ups-transformer;hazardous-voltage;grounding-conductor;capacitors"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-maintenance;usecase:replace-bypass-pca-with-bypass-transformer;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="bypass-pca,transformer-based-ups,component-removal,pcb-slide-out,cable-handling,25-50-kva"/>
+         <othermeta name="usecase" content="guided-maintenance-replacement-of-bypass-pca"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 25–50 kVA systems with transformer.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the indicated cover.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p3432_25-50_kwdualinputtrans_bypasspcawbypasstrans_removecover_w120mm_0000195477.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Slide out the two PCBs from the bypass PCA.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p3432_25-50_kwdualinputtrans_bypasspcawbypasstrans_removepcb_w120mm_0000195511.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the bypass
+PCA and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Remove the bypass PCA.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p3432_25-50_bypass_w120mm_0000195510.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+bypass PCA with bypass transformer.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

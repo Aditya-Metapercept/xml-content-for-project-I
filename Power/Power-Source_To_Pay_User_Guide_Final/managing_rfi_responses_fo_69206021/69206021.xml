@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan746" xml:lang="en">
+   <title>Managing RFI Responses for Non-Portal Suppliers</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>source-to-pay-application</indexterm>
+            <indexterm>rfi-survey-module</indexterm>
+            <indexterm>sourcing-event-management</indexterm>
+            <indexterm>supplier-engagement-system</indexterm>
+            <!-- Process Layer -->
+            <indexterm>rfi-response-process</indexterm>
+            <indexterm>survey-notification-flow</indexterm>
+            <indexterm>email-notification-handling</indexterm>
+            <indexterm>survey-submission-process</indexterm>
+            <indexterm>supplier-redirect-workflow</indexterm>
+            <indexterm>survey-question-response</indexterm>
+            <!-- Context Layer -->
+            <indexterm>non-portal-suppliers</indexterm>
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-surveys</indexterm>
+            <indexterm>supplier-interactions</indexterm>
+            <indexterm>supplier-communication</indexterm>
+            <indexterm>procurement-environment</indexterm>
+         </keywords>
+         <!-- Product info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General metadata -->
+         <othermeta name="title" content="Managing RFI Responses for Non-Portal Suppliers"/>
+         <othermeta name="shortdesc"
+                    content="Non-Portal Suppliers receive an email notification about the RFI Survey for the sourcing event and are redirected through the survey pages to provide responses and complete the submission."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="non-portal suppliers;email notification;rfi survey;sourcing event;survey questions;survey responses;thank you page"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:managing-rfi-responses;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="rfi,supplier-survey,sourcing-event,non-portal-supplier,procurement,supplier-engagement"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Non-Portal Suppliers receive an email notification about the RFI Survey to the sourcing event. When you click Link, you will be redirected to the welcome page of RFI Survey. After you respond to the questions and respond to the RFI Survey, you will be redirected to Thank you page.</p>
+   </body>
+</topic>

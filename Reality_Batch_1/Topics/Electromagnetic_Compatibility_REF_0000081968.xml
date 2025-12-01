@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ElectromagneticCompatibility-C4D7B3BC" xml:lang="en">
+   <title>Electromagnetic Compatibility</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Reality-Batch_1"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <section>
+         <hazardstatement type="notice">
+            <messagepanel>
+               <typeofhazard>Risk of electromagnetic disturbance</typeofhazard>
+               <howtoavoid>This is a product Category C3 according to IEC 62040-2.
+This is a product for commercial and industrial applications in the
+second environment - installation restrictions or additional measures
+may be needed to prevent disturbances. The second environment includes
+all commercial, light industry, and industrial locations other than
+residential, commercial, and light industrial premises directly connected
+without intermediate transformer to a public low-voltage mains supply.
+The installation and cabling must follow the electromagnetic compatibility
+rules, e.g.:<sl>
+                     <sli>the segregation of cables,</sli>
+                     <sli>the use of shielded or special cables when relevant,</sli>
+                     <sli>the use of grounded metallic cable tray and supports.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+      </section>
+   </body>
+</topic>

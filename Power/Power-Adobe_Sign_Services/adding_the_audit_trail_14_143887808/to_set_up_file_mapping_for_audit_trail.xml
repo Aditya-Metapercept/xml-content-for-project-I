@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t23823FF-BDF2-11F0-5120-09173F13E4C5" xml:lang="en">
+   <title>To set up file mapping for audit trail</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>file-mapping-service</indexterm>
+            <indexterm>audit-trail-module</indexterm>
+            <indexterm>mapping-ui</indexterm>
+            <indexterm>api-endpoint</indexterm>
+            <indexterm>repository</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-mapping</indexterm>
+            <indexterm>validate-fields</indexterm>
+            <indexterm>map-to-audit-records</indexterm>
+            <indexterm>sync-files</indexterm>
+            <indexterm>test-mapping</indexterm>
+            <!-- Context layer -->
+            <indexterm>data-integration</indexterm>
+            <indexterm>audit-log-collection</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>traceability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To set up file mapping for audit trail"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to create and validate file mappings that associate documents with audit records and enable sync for audit-log collection."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mapping-rules;source-files;target-records;sync-job;validation-report;mapping-ui"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:configure-file-mapping-to-associate-documents-with-audit-records;industry:revenue-life-cycle-management"/>
+         <othermeta name="tags"
+                    content="file-mapping,audit-integration,sync,validation,mapping-ui"/>
+         <othermeta name="usecase"
+                    content="configure-file-mapping-to-associate-documents-with-audit-records"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the App Launcher, find and open the Power CLM app. You can perform the same action in Power CPQ app as well. </p>
+         </li>
+         <li>
+            <p>Click the<uicontrol> Data Mappings</uicontrol> tab from the navigation bar.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter the <uicontrol>Data Mapping Name</uicontrol>. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>Default Data Mapping</uicontrol> check box.</p>
+         </li>
+         <li>
+            <p>Under the <uicontrol>Fields Mapping</uicontrol> section, click <uicontrol>Add Mapping</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Selected Object</uicontrol> link and select <uicontrol>Agreement</uicontrol> from the picklist menu.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Select</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Under the <uicontrol>File Mapping</uicontrol> section, click <uicontrol>Add
+                  Mapping</uicontrol>.</p>
+         </li>
+         <li>
+            <p>From <uicontrol>Which File to Add?</uicontrol> picklist menu, select <uicontrol>Audit Trail</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>
+               <p>For more information on sending a document for eSignature, refer
+                     <uicontrol>Sending for eSignature </uicontrol>topic in <uicontrol>Adobe Sign
+                     Services on Salesforce User Guide</uicontrol>.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

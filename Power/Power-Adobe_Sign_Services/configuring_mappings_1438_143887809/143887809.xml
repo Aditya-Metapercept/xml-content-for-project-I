@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c23D9216-BDF2-11F0-6662-09173F13E4C5" xml:lang="en">
+   <title>Configuring Mappings</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>merge-mappings</indexterm>
+            <indexterm>mapping-configuration</indexterm>
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>data-mapping-engine</indexterm>
+            <indexterm>crm-object-model</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-mappings</indexterm>
+            <indexterm>define-field-mapping</indexterm>
+            <indexterm>map-salesforce-fields</indexterm>
+            <indexterm>validate-mapping-rules</indexterm>
+            <indexterm>apply-merge-mappings</indexterm>
+            <indexterm>edit-mapping-properties</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>crm-integrations</indexterm>
+            <indexterm>contract-lifecycle</indexterm>
+            <indexterm>data-synchronization</indexterm>
+            <indexterm>document-automation</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configuring Mappings"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to configure merge mappings, define mapping rules, and manage field-level synchronization between Salesforce and Adobe Sign."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mapping-record;mapping-table;field-mapping;merge-rule;crm-field;agreement-field;data-sync-logic;object-mapping"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:mapping-configuration;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="mapping,merge-mapping,field-mapping,data-sync,configuration,crm-mapping"/>
+         <othermeta name="usecase" content="mapping-configuration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <uicontrol>Adobe Sign</uicontrol> enables you to map data back and forth between the
+         agreement and the Salesforce org. For detailed information on Mappings, refer to.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Mapping</p>
+                     </entry>
+                     <entry>
+                        <p>Link</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Merge Mappings</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="https://helpx.adobe.com/content/dam/help/en/sign/Adobe_Sign_Best_Practices_SFDC.PDF"
+                                 format="html"
+                                 scope="external">
+                              <u>https://helpx.adobe.com/content/dam/help/en/sign/Adobe_Sign_Best_Practices_SFDC.PDF</u>
+                           </xref>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Data Mappings</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="https://helpx.adobe.com/content/dam/help/en/sign/Adobe_Sign_Best_Practices_SFDC.PDF"
+                                 format="html"
+                                 scope="external">
+                              <u>https://helpx.adobe.com/content/dam/help/en/sign/Adobe_Sign_Best_Practices_SFDC.PDF</u>
+                           </xref>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

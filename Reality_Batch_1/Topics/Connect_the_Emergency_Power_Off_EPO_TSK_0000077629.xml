@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ConnectTheEmergencyPowerOffEPO-AF31F0DF" xml:lang="en">
+   <title>Connect the Signal Cables</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>emergency-power-off-epo</indexterm>
+            <indexterm>epo-switch</indexterm>
+            <indexterm>safety-interlock</indexterm>
+            <indexterm>control-circuit</indexterm>
+            <indexterm>remote-epo-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>connect-epo-circuit</indexterm>
+            <indexterm>test-epo-function</indexterm>
+            <indexterm>label-and-secure-wiring</indexterm>
+            <indexterm>isolate-power-for-maintenance</indexterm>
+            <indexterm>reset-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>safety-procedure</indexterm>
+            <indexterm>emergency-shutdown</indexterm>
+            <indexterm>site-safety-compliance</indexterm>
+            <indexterm>maintenance-protection</indexterm>
+            <indexterm>operator-training</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Connect the Emergency Power Off (EPO)"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to wire, test and verify the Emergency Power Off (EPO) circuit for UPS systems to ensure safe shutdown capability."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="epo-switch;control-cable;safety-interlock;ups-control-panel;reset-button"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:emergency-shutdown;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,epo,shutdown,test,interlocks"/>
+         <othermeta name="usecase" content="connect-and-test-epo"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context/>
+      <ol>
+         <li>
+            <p>Route the signal cables as shown.</p>
+            <stepxmp>
+               <table frame="none" outputclass="font:10" pgwide="1">
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry colsep="0">
+                              <fig>
+                                 <title>Front View of Bottom Cable Entry System</title>
+                                 <image href="../Images/Realitypxc_general-howtoroutecombottomentry_w85mm_0000240981.svg"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                           <entry>
+                              <fig>
+                                 <title>Front View of Top Cable Entry System</title>
+                                 <image href="../Images/Realitypxc_general-howtoroutecomtopentry_w85mm_0000240980.svg"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Connect the building EPO to the J1602 EPO terminals on
+the external connection board 0P2553 in the UPS. Connect according
+to one of the options below:</p>
+            <stepxmp>
+               <p>The EPO circuit is considered <ph translate="no">Class
+2</ph> and <ph translate="no">SELV</ph>. <ph translate="no">Class
+2</ph> and <ph translate="no">SELV</ph> circuits must be isolated
+from the primary circuitry. Do not connect any circuit to the EPO
+terminals unless it can be confirmed that the circuit is <ph translate="no">Class 2</ph> or <ph translate="no">SELV</ph>.</p>
+               <p>All circuits connected must have the same 0 V reference.</p>
+               <table outputclass="font:10" pgwide="1">
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry colsep="0">
+                              <fig>
+                                 <title>Using the Internal Supply</title>
+                                 <image href="../Images/epo_internal_supply_0000077614.svg"
+                                        scalefit="yes"
+                                        scope="local"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                           <entry>
+                              <fig>
+                                 <title>Using an External Supply</title>
+                                 <image href="../Images/epo_external_supply_0000077613.svg"
+                                        scalefit="yes"
+                                        scope="local"
+                                        placement="inline"/>
+                              </fig>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Connect the signal cables to the input contacts and output
+relays on the external connection board 0P2553.</p>
+            <stepxmp>
+               <table>
+                  <title>Default Configuration Settings for Input Contacts and Output
+Relays</title>
+                  <tgroup cols="4">
+                     <colspec colname="col1" colwidth="11.05*"/>
+                     <colspec colname="col3" colwidth="24.36*"/>
+                     <colspec colname="col4" colwidth="14.09*"/>
+                     <colspec colname="COLSPEC3" colwidth="21.38*"/>
+                     <thead>
+                        <row valign="top">
+                           <entry>Name </entry>
+                           <entry>Description</entry>
+                           <entry>Location on external connection board
+0P2553</entry>
+                           <entry>Value</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row valign="top">
+                           <entry>Option 1 IN</entry>
+                           <entry>Input contact: Block boost/initial charge </entry>
+                           <entry>J1600</entry>
+                           <entry align="left">Closed state: Disable boost charge</entry>
+                        </row>
+                        <row valign="top">
+                           <entry>Option 2 IN</entry>
+                           <entry>Input contact:
+Force to boost charge</entry>
+                           <entry>J1601</entry>
+                           <entry>Closed
+state: Start boost charge</entry>
+                        </row>
+                        <row valign="top">
+                           <entry>Common alarm</entry>
+                           <entry>Output relay: Common alarm</entry>
+                           <entry>J1607</entry>
+                           <entry morerows="2">Normally open (NO)/Normally closed (NC) Maximum 250 VAC, 8 AMaximum 24 VDC, 8 A</entry>
+                        </row>
+                        <row>
+                           <entry>Option 1 OUT</entry>
+                           <entry>Output relay: Battery operation</entry>
+                           <entry>J1608</entry>
+                        </row>
+                        <row>
+                           <entry>Option 2 OUT</entry>
+                           <entry>Output relay: Static bypass operation</entry>
+                           <entry>J1609</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table>
+                  <title>Input Contact Specifications</title>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry>Internal DC supply voltage</entry>
+                           <entry>24 V limited (10 mA per input)</entry>
+                        </row>
+                        <row>
+                           <entry>Threshold resistance
+0 → 1</entry>
+                           <entry>Less than 520 Ohm
+→ 1</entry>
+                        </row>
+                        <row>
+                           <entry>Threshold resistance 1 → 0</entry>
+                           <entry>More
+than 1050 Ohm → 0</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table>
+                  <title>Output Relay Specifications</title>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <tbody>
+                        <row>
+                           <entry>AC voltage range</entry>
+                           <entry>5 V to 400 V</entry>
+                        </row>
+                        <row>
+                           <entry>DC voltage range</entry>
+                           <entry>5 VDC
+to 250 VDC</entry>
+                        </row>
+                        <row>
+                           <entry>AC current range</entry>
+                           <entry>2 mA
+at 24 V/10 mA at 5 V to 8 A</entry>
+                        </row>
+                        <row>
+                           <entry>DC current
+range</entry>
+                           <entry>2 mA at 24 V/10
+mA at 5 V to 0.3 mA at 300 V/8 A at 32 V</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Connect the battery temperature sensor cables to the external
+connection board 0P2553. </p>
+            <ul>
+               <li>For Reality battery cabinet: See battery solution documentation
+for connection details.</li>
+               <li>For third-party battery solution: Install and connect the
+temperature sensor (GUPXCXOPT01) in the battery solution.<fig>
+                     <image href="../Images/10-80_Reality_temp_sensor_connection_120mm_0000248564.svg"
+                            placement="inline"/>
+                  </fig>
+               </li>
+            </ul>
+         </li>
+         <li>
+            <p>Connect the signal cables from the external equipment to
+the network management card.</p>
+            <stepxmp>
+               <fig>
+                  <title>Network Management Card (AP9635) Overview</title>
+                  <image href="../Images/img_communicationcardap9635_0000004889.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+               <ul>
+                  <li>
+                     <p>
+                        <ph translate="no">Universal I/O</ph> port.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <ph translate="no">Modem</ph> (RJ 11) for Remote Monitoring
+Service (RMS) through dedicated line.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <ph translate="no">Modbus</ph> connector RS485 for Modbus protocol
+network.</p>
+                  </li>
+                  <li>
+                     <p>
+                        <ph translate="no">Network</ph> 10/100 Base T connector for
+Ethernet network. Supports the Modbus/TCP, the web interface (HTTP),
+and the SNMP functionality.</p>
+                  </li>
+                  <li>
+                     <p>The <ph translate="no">reset</ph> button resets the network
+management card while the power remains on.</p>
+                  </li>
+                  <li>
+                     <p>The <ph translate="no">Config</ph> serial configuration port
+connects the network management card to a local computer to configure
+initial network settings or access the command line interface.</p>
+                  </li>
+                  <li>
+                     <p>The status LED indicates network management card status.</p>
+                  </li>
+                  <li>
+                     <p>Link-RX/TX (10/100) LED indicates the status of the network.</p>
+                  </li>
+               </ul>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Connect the battery breaker signal cables from the battery
+solution to the terminal block. </p>
+            <ul>
+               <li>For Reality battery solution: See battery solution documentation
+for connection details.</li>
+               <li>For third-party battery solution: Connect a dry contact related
+to the position of the battery breaker to X010 (terminal 1 and 2)
+in the UPS. It must be a NO (Normal Open) dry contact.</li>
+            </ul>
+         </li>
+         <li>
+            <p>Only for parallel redundant systems: Connect the
+PBUS cables between UPS 1 and UPS 2 as shown:</p>
+            <stepxmp>
+               <note>The maximum allowed length of the PBUS cable is 20
+m. Standard length of the PBUS cables is for two UPSs in an adjacent
+configuration.</note>
+               <fig>
+                  <title>Front View of Parallel Board Connection on UPS 1 and UPS 2</title>
+                  <image href="../Images/Realitypxc10-80_general_connectpbus-0p2558_w120mm_0000249345.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Only for parallel redundant systems with external output
+breakers installed (one per UPS): Connect a dry contact related
+to the position of each external output breaker to X030 (terminal
+1 and 2) in the respective UPS. It must be a NO (Normal Open) dry
+contact. Ensure to connect the correct dry contact to the correct
+UPS. </p>
+         </li>
+      </ol>
+   </body>
+</topic>

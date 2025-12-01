@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ConnectTheControlCables-0D58FBD4a" xml:lang="en">
+   <title>Connect the Signal Cables for the Coupling Switches in Parallel
+Redundant Bottom Cable Entry System</title>
+   <shortdesc>
+      <keyword translate="no">Reality IEC UPS 10–80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords>
+            <indexterm>signal-cable</indexterm>
+            <indexterm>coupling-switch</indexterm>
+            <indexterm>parallel-ups</indexterm>
+            <indexterm>bottom-cable-entry</indexterm>
+            <indexterm>connector-block</indexterm>
+            <indexterm>connect</indexterm>
+            <indexterm>route-signal-cables</indexterm>
+            <indexterm>verify-polarity</indexterm>
+            <indexterm>tighten-terminals</indexterm>
+            <indexterm>test-communication</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>signal-routing</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>parallel-operation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Connect the Signal Cable for the Coupling Switches in Parallel – Bottom Cable Entry"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to connect and verify signal cables for coupling switches in parallel bottom-entry UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="signal-cable; coupling-switch; connector-block; ups; control-interface; signal-terminal"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="connect,signal,communication,parallel,safety"/>
+         <othermeta name="usecase" content="procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Route the signal cables (not provided) through the bottom
+entry gland plates in UPS 1 and AUX cabinet 2.</p>
+         </li>
+         <li>
+            <p>Connect the signal cables from control terminal block X030
+in the UPS 1 to control terminal block X092 in the AUX cabinet 2 as
+shown.</p>
+            <stepxmp>
+               <fig>
+                  <title/>
+                  <image href="../Images/pxp10-80kva_connectcouplingswitchcable-bottomentry_w120mm_0000235808.svg"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+            <stepxmp>
+               <fig expanse="page">
+                  <title>Front View of UPS 1 and UPS 2 with AUX Cabinet 2</title>
+                  <image href="../Images/Realitypxc_general-botomentryparallelconnectcouplingswitch_w170mm_0000235807.svg"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromNormalOperationToManual-699B4095" xml:lang="en">
+   <title>Transfer from Normal Operation to Manual Bypass Operation</title>
+   <shortdesc>
+      <keyword>Reality EMEA 10–80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>manual-bypass-switch</indexterm>
+            <indexterm>bypass</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>breaker</indexterm>
+            <indexterm>battery</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-to-manual-bypass</indexterm>
+            <indexterm>switch-over</indexterm>
+            <indexterm>verify-input-output</indexterm>
+            <indexterm>measure-voltage-and-current</indexterm>
+            <indexterm>replace-power-supply</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>control-room</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>site-maintenance</indexterm>
+            <indexterm>commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Transfer_from_Normal_Operation_to_Manual_Bypass_Operation_TSK_0000060313"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to transfer from normal operation to manual bypass — follow safety steps, operate manual bypass switch, and monitor displays."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="manual-bypass-switch;breaker;battery;ups"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:transfer-to-manual-bypass;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="manual-bypass-switch,bypass,ups,breaker,battery,transfer-to-manual-bypass,switch-over,ups-maintenance"/>
+         <othermeta name="usecase" content="transfer-to-manual-bypass"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS into Bypass</uicontrol> to transfer
+to bypass operation.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS into Bypass NO, Abort►YES, UPS into Bypass</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>If the UPS is able to turn on the static bypass switch,
+the following message appears <uicontrol>You may switch to manual
+bypass now!</uicontrol>. Perform the manual switch-over now to go
+to manual bypass operation.</p>
+         </li>
+         <li>
+            <p>When the UPS has transferred to manual bypass operation
+this message will appear on the display:</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">The load is supplied via the manual bypass switch.</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>To isolate the UPS, turn switch Q528 to OFF position.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

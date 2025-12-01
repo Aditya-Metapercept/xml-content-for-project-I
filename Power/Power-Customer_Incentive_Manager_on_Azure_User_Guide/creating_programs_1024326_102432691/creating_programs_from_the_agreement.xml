@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t255D9F6-BDF2-11F0-1114-09173F13E4C5" xml:lang="en">
+   <title>Creating Programs from the Agreement</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Customer_Incentive_Manager_on_Azure_User_Guide"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <context>
+         <p>To create programs from an agreement, perform the following steps:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Log in to the Customer Incentive Manager and click <image placement="inline"
+                      width="35"
+                      href="../attachments/102432691/107118605.jpg"/> on the Home page.</p>
+         </li>
+         <li>
+            <p>Go to <uicontrol>Contract Lifecycle Management </uicontrol>and then click <uicontrol>Agreement.</uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Click<uicontrol> New Agreement </uicontrol>to create an agreement.</p>
+            <p>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="499"
+                            href="../attachments/102432691/107118603.jpg"/>
+                  </fig>The New Agreement - Select Agreement Record Type page appears as follows:</p>
+               <p>
+                  <fig>
+                     <image height="250"
+                            placement="break"
+                            width="696"
+                            href="../attachments/102432691/108499843.png"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Select any one of the record types.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Continue</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Fill the mandatory information such as Agreement Name, Account, Start Date, and End Date.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>. </p>
+            <p>
+               <p>The new agreement is created.</p>
+            </p>
+         </li>
+         <li>
+            <p>After the agreement is created, click <uicontrol>New Program </uicontrol>to create a program.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/102432691/107118600.png"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

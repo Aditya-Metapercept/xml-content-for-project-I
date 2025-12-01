@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallTheKickPlates-54F3D5F7" xml:lang="en">
+   <title>Reinstall the Kick Plates</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="production,maintenance,engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>kick-plate</indexterm>
+            <indexterm>cabinet-cover</indexterm>
+            <indexterm>mounting-screw</indexterm>
+            <!-- Process layer -->
+            <indexterm>install-kick-plates</indexterm>
+            <indexterm>align-plate-holes</indexterm>
+            <indexterm>tighten-screws</indexterm>
+            <indexterm>secure-cabinet-base</indexterm>
+            <indexterm>inspect-fitment</indexterm>
+            <!-- Context layer -->
+            <indexterm>cabinet-installation</indexterm>
+            <indexterm>industrial-assembly</indexterm>
+            <indexterm>ups-enclosure</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>production-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Install the Kick Plates"/>
+         <othermeta name="shortdesc"
+                    content="Describes the procedure for mounting kick plates to the bottom of the UPS cabinet."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="kick-plate; cabinet; screw; base-panel; mounting-hole"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:cabinet-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="kick-plate,installation,cabinet,assembly,ups-system,engineering"/>
+         <othermeta name="usecase" content="install-cabinet-kick-plates"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>Front and rear kick plates are installed in the same
+way on all the cabinets.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Attach the kick plates to the spring clips.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View</title>
+                  <image href="../Images/50_kva_install_kick_plates_with_m5_screws_120mm_0000104309.svg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Fasten with the M5 screws.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC91E27F-BB9C-11F0-8428-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_j4v_rxs_4bc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="16.96%"/>
+               <colspec colname="c2" colwidth="73.2%"/>
+               <tbody>
+                  <row>
+                     <entry morerows="1">2018-09-19</entry>
+                     <entry>
+                        <p>Approved by Chris Swingle, Global Manager Asset Reliability and
+                           Maintenance</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="5">2021-02-12</entry>
+                     <entry>
+                        <p>Approved by Richard Albanese, Global Manager Asset Reliability</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Modified with the following changes: </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Format changes in Section 3 to accommodate SAPPM data entry</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Modified Appendix to Appendix of Images.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Modified Approval Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Added Document Classification and Fundamentals boxes</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

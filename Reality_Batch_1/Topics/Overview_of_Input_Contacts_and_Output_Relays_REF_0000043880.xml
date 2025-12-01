@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OverviewOfInputContactsAndOutputRel-3525EBE4" xml:lang="en">
+   <title>Overview of Input Contacts and Output Relays</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>input-contacts</indexterm>
+            <indexterm>output-relays</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <indexterm>auxiliary-contacts</indexterm>
+            <indexterm>relay-modules</indexterm>
+            <!-- Process layer -->
+            <indexterm>contact-wiring</indexterm>
+            <indexterm>relay-testing</indexterm>
+            <indexterm>signal-routing</indexterm>
+            <indexterm>functional-verification</indexterm>
+            <indexterm>fault-isolation</indexterm>
+            <indexterm>replacement-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-control-circuit</indexterm>
+            <indexterm>alarm-and-signal-integration</indexterm>
+            <indexterm>site-electrical-panel</indexterm>
+            <indexterm>on-site-maintenance</indexterm>
+            <indexterm>control-room-environment</indexterm>
+            <indexterm>production-power-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Overview of Input Contacts and Output Relays REF 0000043880"/>
+         <othermeta name="shortdesc"
+                    content="Describes input contacts, output relays and related wiring/testing notes for UPS control and signalling circuits."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="input contacts;output relays;main contactors;auxiliary contacts;relay modules;signal wiring"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:input-output-relays-overview;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="input-contacts,output-relays,relay-testing,control-circuit,wiring,signal-integration"/>
+         <othermeta name="usecase"
+                    content="provide identification and basic testing/wiring guidance for input contacts and output relays"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>External Connection Board A811</title>
+         <p>The digital
+inputs in the external connected board are designed for connection
+to equipment inside the cabinet and signal cables from these boards
+must not be routed out of the cabinet.</p>
+         <note>No external supply
+voltage is allowed.</note>
+         <fig expanse="page">
+            <image href="../Images/overview_external_connection_board_0000078727_0000523404.svg"
+                   placement="inline"/>
+         </fig>
+      </section>
+   </body>
+</topic>

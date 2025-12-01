@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC55DE52-BB9C-11F0-9159-09173F13E4C5" xml:lang="en-us">
+   <title>Batch Cullet Weighing Screens</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Bowling_Green_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Click the Batch Cullet Weighing tab at the top of the screen to display the main Batch Cullet Weighing screen, shown below.  </p>
+      <p>Click the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages:</p>
+      <ul>
+         <li>Status – provides an overview regarding the current weighing cycle of the scales</li>
+         <li>Formula - clicking the button opens a Formula screen where the cullet ratio is entered</li>
+         <li>Consumption – the production data for today and the previous 14 days are displayed</li>
+         <li>Timer - used to adjust scale and plant timers for the Integration system equipment</li>
+         <li>Preselection – used to select the active formula </li>
+      </ul>
+      <note type="note" id="note_pkn_l2g_vcc">
+         <p>The Integration system screen also allows these operations, as well as others. For
+            details, refer to SBS-OP-006 Operating the Integration System.</p>
+      </note>
+      <p>
+         <fig>
+            <title>Main Screen and Popup Window for the Batch Cullet Weighing Operation</title>
+            <image href="media/image57.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image58.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image59.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image60.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image61.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image62.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig/>
+      </p>
+   </body>
+</topic>

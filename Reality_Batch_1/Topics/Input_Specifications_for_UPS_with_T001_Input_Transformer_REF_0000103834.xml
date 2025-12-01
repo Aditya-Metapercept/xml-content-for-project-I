@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InputSpecificationsForUPSWithT001In-546DFF2C" xml:lang="en">
+   <title>Input Specifications</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-with-t001</indexterm>
+            <indexterm>input-transformer-t001</indexterm>
+            <indexterm>winding-config</indexterm>
+            <indexterm>tap-changer</indexterm>
+            <indexterm>protection-devices</indexterm>
+            <!-- Process layer -->
+            <indexterm>specify-input-transformer</indexterm>
+            <indexterm>verify-wiring-and-phasing</indexterm>
+            <indexterm>perform-insulation-tests</indexterm>
+            <indexterm>confirm-thermal-capacity</indexterm>
+            <indexterm>document-installation-requirements</indexterm>
+            <!-- Context layer -->
+            <indexterm>utility-supply-interface</indexterm>
+            <indexterm>substation-connections</indexterm>
+            <indexterm>industrial-electrical-room</indexterm>
+            <indexterm>commissioning-checklist</indexterm>
+            <indexterm>safety-and-clearances</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Input Specifications for UPS with T001 Input Transformer"/>
+         <othermeta name="shortdesc"
+                    content="Input transformer T001 specification reference for UPS systems — wiring, phasing, and testing guidance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="transformer-t001;phasing;protection-devices;insulation-tests;wiring-diagrams"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:input-specifications-t001;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="t001,input-transformer,specs,testing,phasing"/>
+         <othermeta name="usecase"
+                    content="provide-input-transformer-t001-specifications-and-tests"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="7">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC2" namest="col2" valign="top">25
+kVA</entry>
+                     <entry nameend="COLSPEC4" namest="col3" valign="top">37.5 kVA</entry>
+                     <entry nameend="COLSPEC17" namest="COLSPEC18" valign="top">50
+kVA</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">Input Voltage (V)</entry>
+                     <entry valign="top">480</entry>
+                     <entry valign="top">600</entry>
+                     <entry valign="top">480</entry>
+                     <entry valign="top">600</entry>
+                     <entry valign="top">480</entry>
+                     <entry valign="top">600</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Connections</entry>
+                     <entry nameend="COLSPEC17" namest="col2">L1,
+L2, L3, N, G for single mainsL1, L2, L3, G for dual
+mains</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Voltage
+range (V)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">±10%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Frequency
+(Hz)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">60
+±8%</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Nominal
+input current<footnote>Nominal input current based on nominal mains voltage
+and batteries fully charged at rated load.</footnote> (A)</entry>
+                     <entry>33</entry>
+                     <entry>27</entry>
+                     <entry>50</entry>
+                     <entry>40</entry>
+                     <entry>67</entry>
+                     <entry>53</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input current<footnote>Maximum input current based on nominal mains voltage
+and battery charging at rated load.</footnote> (A)</entry>
+                     <entry>42</entry>
+                     <entry>33</entry>
+                     <entry>63</entry>
+                     <entry>50</entry>
+                     <entry>83</entry>
+                     <entry>67</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Total
+harmonic distortion (THDI)</entry>
+                     <entry nameend="COLSPEC17" namest="col2">&lt;
+5% at 100% load </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Maximum
+input short-circuit rating</entry>
+                     <entry nameend="COLSPEC17" namest="col2">65
+kA at 480 V50 kA at 600 V</entry>
+                  </row>
+                  <row>
+                     <entry>Inrush
+current</entry>
+                     <entry nameend="COLSPEC17" namest="col2">11
+x nominal input current</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Protection</entry>
+                     <entry nameend="COLSPEC17" namest="col2">Upstream
+protection according to source, preferable current limiting</entry>
+                  </row>
+                  <row>
+                     <entry>Ramp-in</entry>
+                     <entry nameend="COLSPEC17" namest="col2">10% nominal power/sec</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

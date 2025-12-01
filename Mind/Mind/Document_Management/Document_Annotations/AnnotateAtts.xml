@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMAnntAttachs">
+   <title>Annotating Attachments</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>annotation-attributes</indexterm>
+            <indexterm>annotation-editor</indexterm>
+            <indexterm>document-annotations</indexterm>
+            <indexterm>annotation-files</indexterm>
+            <indexterm>annotation-service</indexterm>
+            <indexterm>attribute-schema</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>annotations-storage</indexterm>
+            <!-- Process layer -->
+            <indexterm>annotate-file</indexterm>
+            <indexterm>add-annotation-attributes</indexterm>
+            <indexterm>update-annotation-fields</indexterm>
+            <indexterm>validate-annotation-attributes</indexterm>
+            <indexterm>save-annotation-metadata</indexterm>
+            <indexterm>annotation-workflow</indexterm>
+            <indexterm>annotation-lifecycle</indexterm>
+            <indexterm>attach-annotation-data</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>enterprise-environment</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>annotation-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="AnnotateAtts"/>
+         <othermeta name="shortdesc"
+                    content="How to add and manage annotation attributes and metadata when annotating files."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="annotation;attribute;file;attachment;schema;user;group;document"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:document-annotation-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="annotate-file,annotation-attributes,metadata,attribute-schema,annotation-workflow"/>
+         <othermeta name="usecase" content="document-annotation-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can annotate files that are attachments to forms.</context>
+      <ol>
+         <li>
+            <p>In the navigation pane, click the appropriate form.</p>
+         </li>
+         <li>
+            <p>Select the appropriate record, and then click <uicontrol>Edit</uicontrol>.</p>
+         </li>
+         <li>
+            <p>To annotate an attachment, perform either of the following steps:</p>
+            <ul>
+               <li>
+                  <p>To annotate a document or image file, perform the following steps:</p>
+                  <ol>
+                     <li>In the <uicontrol>ATTACHMENTS</uicontrol> section, in the <uicontrol>Document Name</uicontrol> column, click the appropriate attachment. <p>The file is opened in the viewer.</p>
+                        <p>Alternatively, select the appropriate attachment, and then click <image href="../../Icons/Annotations_Icon.gif" placement="inline"/> in the toolbar.</p>
+                        <p>The <uicontrol>DOCUMENT ANNOTATION</uicontrol> list page is displayed.</p>
+                     </li>
+                     <li>
+                        <p>In the list page, click <uicontrol>New</uicontrol>.</p>
+                     </li>
+                     <li>If the annotations toolbar is unavailable, then in the document viewer, click <uicontrol>Edit</uicontrol>, and then click <uicontrol>Enable Annotations</uicontrol>. <p>The various annotation options are displayed.</p>
+                     </li>
+                     <li>Click the required annotation and add it to the document. <p>You can annotate documents using the various <xref href="Annotations.xml">annotation options</xref> that are available.</p>
+                     </li>
+                     <li>Click <uicontrol>Save</uicontrol>. <p>On saving the annotated document, a copy of the annotated document is saved with the timestamp of review and reviewer details.</p>
+                        <p>For information on accessing annotated copies of the attachment, refer to Accessing Annotated Attachment Documents.</p>
+                     </li>
+                  </ol>
+               </li>
+               <li>To annotate a drawing file, perform the following steps: <ol>
+                     <li>In the <uicontrol>ATTACHMENTS</uicontrol> section, select the appropriate drawing file. </li>
+                     <li>
+                        <p>Click <image href="../../Icons/Annotations_Icon.gif" placement="inline"/>in the toolbar.</p>
+                        <p>
+                           <note> The <image href="../../Icons/Annotations_Icon.gif" placement="inline"/> button is not available if multiple drawing files are selected.</note>
+                        </p>
+                        <p>The <uicontrol>DOCUMENT ANNOTATION</uicontrol> list page is displayed.</p>
+                     </li>
+                     <li>Click <uicontrol>New</uicontrol>.<p>The file is opened in the viewer.</p>
+                     </li>
+                     <li>Click the required annotation and add it to the document.<p>You can annotate documents using the various <xref product="Exclude_PG_Content" href="Annotations.xml">annotation options</xref>
+                           <ph product="Include_PG_Content">annotation options</ph> that are available.</p>
+                     </li>
+                     <li>Click <uicontrol>Save</uicontrol>.<p>On saving the annotated document, a copy of the annotated document is saved with the timestamp of review and reviewer details.</p>
+                        <p>For information on accessing annotated copies of the attachment, refer to <xref href="Accessing_Annotated_Attachments/AccessAnnAtts.xml">Accessing Annotated Attachment Documents</xref>.</p>
+                     </li>
+                  </ol>
+               </li>
+            </ul>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1FF89C0-BB01-11F0-1557-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,maintenance,quality"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-fes-space</indexterm>
+            <indexterm>vendor-manuals</indexterm>
+            <indexterm>installation-guides</indexterm>
+            <indexterm>standards-docs</indexterm>
+            <indexterm>test-reports</indexterm>
+            <!-- Process layer -->
+            <indexterm>reference-list</indexterm>
+            <indexterm>normative-standards</indexterm>
+            <indexterm>validation-checklist</indexterm>
+            <indexterm>test-methods</indexterm>
+            <indexterm>installation-procedures</indexterm>
+            <!-- Context layer -->
+            <indexterm>industry-standards</indexterm>
+            <indexterm>plant-procedures</indexterm>
+            <indexterm>supplier-manuals</indexterm>
+            <indexterm>quality-standards</indexterm>
+            <indexterm>regulatory-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="References — FES-03-105"/>
+         <othermeta name="shortdesc"
+                    content="Authoritative references, vendor manuals and standards used to support FES-03-105 activities and validation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="vendor-manual;installation-guide;test-report;standard-document"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:reference-materials;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="references,standards,vendor,test,validation"/>
+         <othermeta name="usecase"
+                    content="provide-authoritative-references-for-validation-and-testing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ul id="ul_iv4_hcs_qzb">
+            <li>FES-03-104 – Converting a DS15 MCS System to FSC</li>
+         </ul>
+      </section>
+      <section id="section_bf5_2cs_qzb">
+         <title>Document Classification</title>
+         <ul id="ul_plc_fcs_qzb">
+            <li>Asset Protection and Stability</li>
+            <li>Organization and Training</li>
+         </ul>
+      </section>
+   </body>
+</topic>

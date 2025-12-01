@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m236F5A5-BDF2-11F0-4289-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Sending for eSignature Map</title>
+   <topicref href="sending_for_esignature_14_143887817/143887817.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Sending for eSignature</navtitle>
+      </topicmeta>
+      <mapref href="adding_attachments_143887_143887818/143887818_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Adding Attachments</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="selecting_attachments_and_143887937/143887937_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Selecting Attachments and Templates</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="managing_adobe_sign_actio_190353539/190353539_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Managing Adobe Sign Actions</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

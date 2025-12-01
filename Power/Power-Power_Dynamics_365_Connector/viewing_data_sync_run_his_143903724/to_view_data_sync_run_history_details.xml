@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t248B12A-BDF2-11F0-7688-09173F13E4C5" xml:lang="en">
+   <title>To view data sync run history details</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>data-sync-run-history</indexterm>
+            <indexterm>sync-log-viewer</indexterm>
+            <indexterm>sync-status-dashboard</indexterm>
+            <indexterm>power-dynamics-365-connector</indexterm>
+            <indexterm>sync-run-details-panel</indexterm>
+            <indexterm>run-history-table</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-sync-runs</indexterm>
+            <indexterm>track-sync-status</indexterm>
+            <indexterm>inspect-error-messages</indexterm>
+            <indexterm>review-warning-details</indexterm>
+            <indexterm>analyze-run-duration</indexterm>
+            <indexterm>interpret-start-end-times</indexterm>
+            <!-- Context layer -->
+            <indexterm>data-synchronization</indexterm>
+            <indexterm>integration-monitoring</indexterm>
+            <indexterm>connector-activity-auditing</indexterm>
+            <indexterm>tenant-timezone-display</indexterm>
+            <indexterm>sync-execution-lifecycle</indexterm>
+            <indexterm>system-run-diagnostics</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To view data sync run history details"/>
+         <othermeta name="shortdesc"
+                    content="View detailed run history for each data sync job including status, duration, timestamps, errors, and warnings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sync-run;run-history-table;status-indicator;timestamp-fields;error-message;warning-message"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:view-sync-run-history;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="sync-run,status,error,warning,run-history,monitoring"/>
+         <othermeta name="usecase" content="view-sync-run-history"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Open the connector.</p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Run History</uicontrol> tab. The Run History page is displayed, sorted by the most recent data sync job.</p>
+         </li>
+         <li>
+            <p>Find a Sync Group in the Run History table and click the Sync Group <uicontrol>Name</uicontrol>. The Sync Status page is displayed.</p>
+         </li>
+         <li>
+            <p>Use the search field to look up sync status for one or more sync group objects. Refer to the following table for a description of the Sync Status fields.</p>
+            <p>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Sync Group Id</p>
+                              </entry>
+                              <entry>
+                                 <p>A link to the Sync Group associated with the sync job</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Sync Start Time</p>
+                              </entry>
+                              <entry>
+                                 <p>The date and time that the sync job started</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Sync End Time</p>
+                              </entry>
+                              <entry>
+                                 <p>The date and time that the sync job ended</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Last Synced Time</p>
+                              </entry>
+                              <entry>
+                                 <p>The date and time that the sync group was last synced</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Succeeded</p>
+                              </entry>
+                              <entry>
+                                 <p>Indicates if the sync succeeded or failed (Yes/No)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Inserted</p>
+                              </entry>
+                              <entry>
+                                 <p>The number of records inserted (new)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Updated</p>
+                              </entry>
+                              <entry>
+                                 <p>The number of records updated (modified)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Deleted</p>
+                              </entry>
+                              <entry>
+                                 <p>The number of records deleted</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Failed</p>
+                              </entry>
+                              <entry>
+                                 <p>The number of records that failed to sync</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Unprocessed</p>
+                              </entry>
+                              <entry>
+                                 <p>The number of records that were not processed</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Failure Reason</p>
+                              </entry>
+                              <entry>
+                                 <p>If the sync failed, the reason for the sync failure</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Sync Object Status (Table)</p>
+                              </entry>
+                              <entry>
+                                 <p>A table that displays a list of objects in the sync group</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Unprocessed Details</p>
+                              </entry>
+                              <entry>
+                                 <p>A table that displays a list of errors for each sync group object that failed</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>Sync start and end times are displayed in the logged-in user's time zone.</p>
+               </note>
+               <note type="note">
+                  <p>No information is displayed for records that were successfully synced. Records that failed to sync are displayed in the Sync Error Status list.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>If required, use the search field to look up sync error status for a specific sync group object.</p>
+            <p>
+               <p>For a table of common errors during the sync process and troubleshooting
+                  suggestions, refer to <xref href="../troubleshooting_error_mes_143887226/143887226.xml"
+                        format="dita">Troubleshooting Error Messages</xref> in the Appendices.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m25BB48A-BDF2-11F0-6999-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Primary and Secondary Packages</title>
+   <topicref chunk="to-content" href="102432721.xml" xml:lang="en">
+      <topicref href="to_create_a_secondary_package.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To Create a Secondary Package</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="mass_creating_beneficiary_lines_for_secondary_packages.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Mass Creating Beneficiary Lines for Secondary Packages</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

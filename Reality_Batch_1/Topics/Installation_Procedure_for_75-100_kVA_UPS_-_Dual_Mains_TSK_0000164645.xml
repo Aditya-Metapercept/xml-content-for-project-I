@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallationProcedureFor75100KVAUPS-169D2851" xml:lang="en">
+   <title>Installation Procedure for 75–100 kVA UPS – Dual
+Mains</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 75–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>ups-75-100-kva</indexterm>
+            <indexterm>dual-mains</indexterm>
+            <indexterm>static-transfer-switch</indexterm>
+            <indexterm>input-switchgear</indexterm>
+            <indexterm>redundant-power-modules</indexterm>
+            <!-- Process layer -->
+            <indexterm>dual-mains-integration</indexterm>
+            <indexterm>install-ups-75-100-kva</indexterm>
+            <indexterm>transfer-switch-configuration</indexterm>
+            <indexterm>parallel-operation-setup</indexterm>
+            <indexterm>protective-relay-setup</indexterm>
+            <indexterm>system-synchronization-checks</indexterm>
+            <!-- Context layer -->
+            <indexterm>substation-adjacent-installation</indexterm>
+            <indexterm>industrial-power-plant</indexterm>
+            <indexterm>high-availability-systems</indexterm>
+            <indexterm>maintenance-and-failover</indexterm>
+            <indexterm>electrical-safety-standards</indexterm>
+            <indexterm>site-commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Installation procedure — 75–100 kVA UPS (dual mains)"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for installing 75–100 kVA UPS systems in dual-mains configuration, including transfer-switch configuration, synchronization and commissioning."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS-75-100-kVA;dual-mains;static-transfer-switch;input-switchgear;protection-relays;power-modules;synchronizing-transformer"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="dual-mains, synchronization, transfer-switch, commissioning, high-availability"/>
+         <othermeta name="usecase"
+                    content="Install and synchronize dual-mains UPS for high-availability power"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>Top and bottom entry is available.</note>
+         <fig>
+            <image href="../Images/Reality_75-100_kwdual_topentryinstalloverview_w120mm_0000164632.svg"
+                   placement="inline"/>
+         </fig>
+         <image href="../Images/gvs_power-signalcablecolor_definition_w120mm_0000160929.svg"
+                scope="local"
+                placement="inline"/>
+      </context>
+      <ol>
+         <li>
+            <p>Move the cabinets to the final location with a forklift
+or a low profile 21 inch pallet jack by lifting from the sides.</p>
+            <stepxmp>
+               <hazardstatement type="warning">
+                  <messagepanel>
+                     <typeofhazard>Tipping hazard</typeofhazard>
+                     <howtoavoid>The cabinet is top-heavy. Move the cabinet carefully with
+a forklift or a low profile 21 inch pallet jack by lifting from the
+sides.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the right side panel from the I/O section of the
+UPS cabinet and install the side panel on the right side of the transformer
+cabinet.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Remove_Kick_Plates_TSK_0000161962.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="75-100_kVA_Install_the_Seismic_Anchoring_Option_0000164647.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Prepare_for_Cables_for_the_75-100_kVA_0000161958.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Only with adjacent battery cabinet(s): <xref href="Connect_the_Battery_Cables_from_an_Adjacent_Battery_Cabinet_to_the_UPS_TSK_0000110578.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Power_Cables_for_Dual_Mains_TSK_0000162693.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Route_the_Control_Cables_75-100_kVA_0000161959.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Control_Cables_for_the_25-50_kVA_UPS_0000161459.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Remote_Emergency_Power_Off_for_25-50_kVA_UPS_0000161515.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Input_Contacts_and_Output_Relays_Option_TSK_0000161513.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Final_Installation_0000161963.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

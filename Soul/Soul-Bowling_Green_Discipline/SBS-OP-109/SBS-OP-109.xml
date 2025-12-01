@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC5A514B-BB9C-11F0-1184-09173F13E4C5" xml:lang="en-us">
+   <title>Using a Glove Box to Fill the Minors Silos</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2024-02-15"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="SBS-OP-109_using_a_glove_box_to_fill_the_minors_silos_.xml">
+      <topicmeta>
+         <othermeta content="SBS-OP-109" name="DocumentNumber"/>
+         <othermeta content="2024-02-15" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="SBS-OP-109_purposeapplication.xml"/>
+      <topicref href="SBS-OP-109_ppe_required.xml"/>
+      <topicref href="SBS-OP-109_safety_hazards.xml"/>
+      <topicref href="SBS-OP-109_safety_controls.xml"/>
+      <topicref href="SBS-OP-109_equipment_needed.xml"/>
+      <topicref href="SBS-OP-109_comments.xml"/>
+      <topicref href="SBS-OP-109_related_resources.xml"/>
+      <topicref href="SBS-OP-109_filling_silos_7_and_8_by_using_a_glove_box.xml"/>
+      <topicref href="SBS-OP-109_approval.xml"/>
+      <topicref href="SBS-OP-109_revision_history.xml"/>
+   </topicref>
+</topic>

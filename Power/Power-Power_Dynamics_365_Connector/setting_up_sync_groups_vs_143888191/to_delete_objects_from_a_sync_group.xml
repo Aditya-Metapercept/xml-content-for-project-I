@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t24819AB-BDF2-11F0-2503-09173F13E4C5" xml:lang="en">
+   <title>To delete objects from a Sync Group</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>doc-manager</indexterm>
+            <indexterm>doc-editor</indexterm>
+            <indexterm>doc-publisher</indexterm>
+            <indexterm>admin-portal</indexterm>
+            <indexterm>integration-api</indexterm>
+            <!-- Process layer -->
+            <indexterm>delete-object</indexterm>
+            <indexterm>cleanup-mapping</indexterm>
+            <indexterm>permission-check</indexterm>
+            <indexterm>ingest-validation</indexterm>
+            <indexterm>data-retention-check</indexterm>
+            <indexterm>sync-run</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>maintenance-ops</indexterm>
+            <indexterm>crm-integration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To delete objects from a sync group"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to delete objects from a sync group, update mappings and run validation/cleanup."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="object;sync-group;mapping;retention;ingest;validation"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:metadata-enrichment;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="delete-object,cleanup,mapping,retention,validation"/>
+         <othermeta name="usecase" content="metadata-enrichment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the Sync Groups page, click to the left of the object you want to delete from the Sync Group to select it. You can select multiple objects in the list.</p>
+         </li>
+         <li>
+            <p>At the top of the list, click the More (...) menu and select <uicontrol>Delete Object Sync</uicontrol>. A confirmation dialog appears.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Delete</uicontrol> to delete the object or objects from the Sync Group.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

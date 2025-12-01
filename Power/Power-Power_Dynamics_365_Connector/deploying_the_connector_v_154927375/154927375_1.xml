@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m244DFE5-BDF2-11F0-5888-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Deploying the Connector</title>
+   <topicref chunk="to-content" href="154927375.xml" xml:lang="en">
+      <topicref href="importing_the_solution_into_dynamics.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Importing the Solution into Dynamics</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_install_the_Power_dynamics_365_connector_package.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To install the Power-Dynamics 365 Connector package</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="post_installation_setup_for_data_sync_scheduling.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Post-Installation Setup for Data Sync Scheduling</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_activate_the_default_flow_for_power_automate.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To activate the default flow for Power Automate</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="opening_the_connector_app_in_microsoft_dynamics.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Opening the Connector App in Microsoft Dynamics</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

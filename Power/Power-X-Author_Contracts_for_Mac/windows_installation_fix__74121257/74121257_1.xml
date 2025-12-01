@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m297F55F-BDF2-11F0-1501-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Windows Installation Fix</title>
+   <topicref chunk="to-content" href="74121257.xml" xml:lang="en">
+      <topicref href="microsoft_windows_installation_fix.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Microsoft Windows Installation Fix</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="prerequisites.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Prerequisites</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

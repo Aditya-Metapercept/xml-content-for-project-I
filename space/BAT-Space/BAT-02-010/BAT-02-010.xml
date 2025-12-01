@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m1A90493-BB01-11F0-8020-09173F13E4C5" xml:lang="en-us">
+   <title>Batch House Personnel Training</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="08-23-2020"/>
+      </critdates>
+      <prodinfo>
+         <prodname/>
+      </prodinfo>
+   </topicmeta>
+   <topicref href="BAT-02-010_batch_house_personnel_training.xml" chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="BAT-02-010"/>
+         <othermeta name="RevisionDate" content="08-23-2020"/>
+      </topicmeta>
+      <topicref href="BAT-02-010_purpose.xml"/>
+      <topicref href="BAT-02-010_reference.xml"/>
+      <topicref href="BAT-02-010_procedure.xml"/>
+      <topicref href="BAT-02-010_approval.xml" audience="internal"/>
+      <topicref href="BAT-02-010_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>

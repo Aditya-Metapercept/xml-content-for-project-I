@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t390527A-BDF3-11F0-3630-09173F13E4C5" xml:lang="en-us">
+   <title>Overhead Guard - Inspect</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:48:00+05:30"/>
+         <revised modified="2025-11-15T14:48:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel,safety-compliance-officer,industrial-engineer,operator"/>
+         <keywords><!-- product layer -->
+            <indexterm>overhead-guard</indexterm>
+            <indexterm>protective-structure</indexterm>
+            <indexterm>fasteners</indexterm>
+            <indexterm>cab-structure</indexterm>
+            <indexterm>load-backrest</indexterm>
+            <!-- process layer -->
+            <indexterm>inspection-procedure</indexterm>
+            <indexterm>damage-assessment</indexterm>
+            <indexterm>repair-or-replace-guideline</indexterm>
+            <indexterm>torque-and-fastener-check</indexterm>
+            <indexterm>pre-use-safety-check</indexterm>
+            <!-- context layer -->
+            <indexterm>operator-protection</indexterm>
+            <indexterm>site-safety-standards</indexterm>
+            <indexterm>maintenance-schedule</indexterm>
+            <indexterm>workplace-compliance</indexterm>
+            <indexterm>fleet-safety-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Overhead Guard Inspection"/>
+         <othermeta name="shortdesc"
+                    content="Inspection checklist for overhead guard integrity and mounting to ensure operator protection."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="overhead-guard;mounting-bolts;welds;load-backrest;inspection-tags"/>
+         <othermeta name="taxonomy"
+                    content="domain:safety-compliance;usecase:protective-structure-inspection;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="overhead-guard,inspection,safety"/>
+         <othermeta name="usecase" content="overhead-guard-inspection-and-assessment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig id="fig_sjt_txz_5gc">
+            <image href="media/image923.png" id="image_ujt_txz_5gc" placement="inline"/>
+         </fig>
+         <p>Typical Example</p>
+      </context>
+      <ol>
+         <li>
+            <p>Check tightness of overhead guard mounting bolts at 240 N·m (175 lb·ft).</p>
+         </li>
+         <li>
+            <p>Check overhead guard for bent or cracked sections. Have repairs made if needed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

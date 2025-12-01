@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceThePowerModuleFanAssembly0J--6A93AFC4" xml:lang="en">
+   <title>Replace the Fan Module 0J-0N-0904</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>power-module-fan-assembly</indexterm>
+            <indexterm>fan-module</indexterm>
+            <indexterm>fan-assembly</indexterm>
+            <indexterm>cooling-fan</indexterm>
+            <indexterm>power-module</indexterm>
+            <indexterm>power-supply</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-power-module-fan-assembly</indexterm>
+            <indexterm>remove-and-install-fan-module</indexterm>
+            <indexterm>inspect-for-damage</indexterm>
+            <indexterm>isolate-power</indexterm>
+            <indexterm>apply-lockout-tagout</indexterm>
+            <indexterm>verify-operation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>equipment-maintenance</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>safety-lockout-tagout</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the Power Module Fan Assembly 0J-0N-0904"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to replace the power module fan assembly that provides module cooling."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-module-fan-assembly;fan-module;cooling-fan;power-module;fan;power-supply"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="fan,maintenance,cooling,replacement,safety"/>
+         <othermeta name="usecase" content="fan-replacement"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 50
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Loosen the three screws on the right side and the two nuts
+on the left side of the cover and remove the cover.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removecover_w120mm_0000191097.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Loosen the two nuts and slide out the fan module in front
+of the power module as far as the cables allow.</p>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the fan module
+and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Move the fan module completely out of the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removefanass_w120mm_0000191096.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+fan module.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingStrategicSourcing_Toacceptordeclineasourcingevent"
+       xml:lang="en">
+   <title>To accept or decline a sourcing event</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Source_To_Pay_User_Guide_Final"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the <uicontrol>Sourcing Events</uicontrol> tab. All the events you are invited to are displayed here. </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>View</uicontrol> for the sourcing event that you want to open. </p>
+         </li>
+         <li>
+            <p>If your supplier has opted for NDA Required option, you will see Non-Disclosure Agreement screen. </p>
+         </li>
+         <li>
+            <p>To download the Agreement, click <uicontrol>Here</uicontrol>. Review all the terms and conditions mentioned in the agreement.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206019/69206123.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>If you agree to all the terms and conditions set by the buyer, click <uicontrol>Accept</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206019/69206146.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Accept </uicontrol>to accept the invitation to sourcing event. In order to decline the invitation to the sourcing event, click <uicontrol>Reject</uicontrol>. </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206019/69206049.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Back to Event List</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

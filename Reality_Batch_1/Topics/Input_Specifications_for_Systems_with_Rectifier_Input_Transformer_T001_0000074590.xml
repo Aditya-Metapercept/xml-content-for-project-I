@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InputSpecificationsForSystemsWithRe-9CA60D5F" xml:lang="en">
+   <title>Input Specifications for Systems with Rectifier Input Transformer
+(T001)</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>rectifier-input-transformer-t001</indexterm>
+            <indexterm>input-transformer-t001</indexterm>
+            <indexterm>rectifier-stage</indexterm>
+            <indexterm>input-protection</indexterm>
+            <indexterm>transformer-core</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-transformer-specs</indexterm>
+            <indexterm>verify-input-connections</indexterm>
+            <indexterm>perform-insulation-resistance-test</indexterm>
+            <indexterm>confirm-thermal-rating</indexterm>
+            <indexterm>record-wiring-diagrams</indexterm>
+            <!-- Context layer -->
+            <indexterm>substation-interface</indexterm>
+            <indexterm>power-distribution-room</indexterm>
+            <indexterm>commissioning-procedures</indexterm>
+            <indexterm>maintenance-inspections</indexterm>
+            <indexterm>industrial-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Input Specifications for Systems with Rectifier Input Transformer T001"/>
+         <othermeta name="shortdesc"
+                    content="Technical input specifications and test requirements for systems fitted with rectifier input transformer T001."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="transformer-t001;rectifier;input-wiring;insulation-tests;thermal-ratings"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:input-specifications-t001;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="t001,rectifier-transformer,specifications,testing,wiring"/>
+         <othermeta name="usecase"
+                    content="specify-and-validate-input-transformer-t001-requirements"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="13">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="COLSPEC1" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC3"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <colspec colname="COLSPEC16"/>
+               <colspec colname="COLSPEC15"/>
+               <colspec colname="COLSPEC19"/>
+               <colspec colname="COLSPEC14"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC1" namest="col2" valign="top">
+                        <p>10 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC3" namest="col3" valign="top">
+                        <p>20 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC16" namest="COLSPEC18" valign="top">
+                        <p>30 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="COLSPEC15" valign="top">
+                        <p>40 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Input Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>L1, L2, L3, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Voltage range (V)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>± 10% (342-418 V for 380 V systems, 360-440 V for 400 V systems,
+374-457 V for 415 V systems)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Frequency range (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>± 8% (46–54 Hz for 50 Hz systems, 55–65 Hz for
+60 Hz systems)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal input current (A)</p>
+                     </entry>
+                     <entry>
+                        <p>19</p>
+                     </entry>
+                     <entry>
+                        <p>18</p>
+                     </entry>
+                     <entry>
+                        <p>17</p>
+                     </entry>
+                     <entry>
+                        <p>33</p>
+                     </entry>
+                     <entry>
+                        <p>31</p>
+                     </entry>
+                     <entry>
+                        <p>30</p>
+                     </entry>
+                     <entry>
+                        <p>52</p>
+                     </entry>
+                     <entry>
+                        <p>49</p>
+                     </entry>
+                     <entry>
+                        <p>48</p>
+                     </entry>
+                     <entry>
+                        <p>65</p>
+                     </entry>
+                     <entry>
+                        <p>62</p>
+                     </entry>
+                     <entry>
+                        <p>60</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Maximum input current (A)</p>
+                     </entry>
+                     <entry>
+                        <p>25</p>
+                     </entry>
+                     <entry>
+                        <p>23</p>
+                     </entry>
+                     <entry>
+                        <p>22</p>
+                     </entry>
+                     <entry>
+                        <p>43</p>
+                     </entry>
+                     <entry>
+                        <p>40</p>
+                     </entry>
+                     <entry>
+                        <p>39</p>
+                     </entry>
+                     <entry>
+                        <p>68</p>
+                     </entry>
+                     <entry>
+                        <p>64</p>
+                     </entry>
+                     <entry>
+                        <p>62</p>
+                     </entry>
+                     <entry>
+                        <p>85</p>
+                     </entry>
+                     <entry>
+                        <p>81</p>
+                     </entry>
+                     <entry>
+                        <p>78</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Inrush current</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>10 x nominal input current</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDI)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>&lt; 5% at 100% load</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Maximum input short-circuit withstand (kA) Icc</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">65</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Protection</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p href="Bypass_Specifications_for_Systems_without_Transformer_REF_0000074801.dita#BypassSpecificationsForSystemsWitho-9FBD783D/SchneiderNSXcurrentLimitingOrFuseGL-4C7DEF15"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Ramp-in</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>10% nominal power/sec</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Backfeed protection</entry>
+                     <entry nameend="COLSPEC14" namest="col2">Backfeed protection is not
+installed in the UPS and must be provided by third party and installed
+upstream of the UPS.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table pgwide="1">
+            <tgroup cols="10">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="COLSPEC13"/>
+               <colspec colname="COLSPEC12"/>
+               <colspec colname="COLSPEC11"/>
+               <colspec colname="COLSPEC22"/>
+               <colspec colname="COLSPEC21"/>
+               <colspec colname="COLSPEC20"/>
+               <colspec colname="COLSPEC25"/>
+               <colspec colname="COLSPEC24"/>
+               <colspec colname="COLSPEC23"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC11" namest="COLSPEC13" valign="top">
+                        <p>50 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC20" namest="COLSPEC22" valign="top">
+                        <p>60 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC25" valign="top">
+                        <p>80 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Input Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>L1, L2, L3, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Voltage range (V)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>± 10% (342-418 V for 380 V systems,
+360-440 V for 400 V systems, 374-457 V for 415 V systems)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Frequency range (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>± 8% (46–54 Hz for 50
+Hz systems, 55–65 Hz for 60 Hz systems)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal input current (A)</p>
+                     </entry>
+                     <entry>
+                        <p>85</p>
+                     </entry>
+                     <entry>
+                        <p>80</p>
+                     </entry>
+                     <entry>
+                        <p>78</p>
+                     </entry>
+                     <entry>
+                        <p>98</p>
+                     </entry>
+                     <entry>
+                        <p>93</p>
+                     </entry>
+                     <entry>
+                        <p>90</p>
+                     </entry>
+                     <entry>
+                        <p>131</p>
+                     </entry>
+                     <entry>
+                        <p>124</p>
+                     </entry>
+                     <entry>
+                        <p>120</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Maximum input current (A)</p>
+                     </entry>
+                     <entry>
+                        <p>111</p>
+                     </entry>
+                     <entry>
+                        <p>104</p>
+                     </entry>
+                     <entry>
+                        <p>101</p>
+                     </entry>
+                     <entry>
+                        <p>127</p>
+                     </entry>
+                     <entry>
+                        <p>121</p>
+                     </entry>
+                     <entry>
+                        <p>117</p>
+                     </entry>
+                     <entry>
+                        <p>170</p>
+                     </entry>
+                     <entry>
+                        <p>161</p>
+                     </entry>
+                     <entry>
+                        <p>156</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Inrush current</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>10 x nominal input current</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDI)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>&lt; 5% at 100% load</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Maximum input short-circuit withstand (kA) Icc</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">65</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Protection</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p href="Bypass_Specifications_for_Systems_without_Transformer_REF_0000074801.dita#BypassSpecificationsForSystemsWitho-9FBD783D/SchneiderNSXcurrentLimitingOrFuseGL-4C7DEF15"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Ramp-in</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>10% nominal power/sec</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Backfeed protection</entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">Backfeed protection
+is not installed in the UPS and must be provided by third party and
+installed upstream of the UPS.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

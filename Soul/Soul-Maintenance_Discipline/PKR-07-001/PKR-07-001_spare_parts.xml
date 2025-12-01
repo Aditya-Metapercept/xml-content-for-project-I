@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="rC962C25-BB9C-11F0-8816-09173F13E4C5" xml:lang="en-us">
+   <title>Spare Parts</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>spare-component</indexterm>
+            <indexterm>drive-motor</indexterm>
+            <indexterm>proximity-sensor</indexterm>
+            <indexterm>timing-belt</indexterm>
+            <indexterm>coupling-set</indexterm>
+            <!-- Process layer -->
+            <indexterm>parts-identification</indexterm>
+            <indexterm>stock-cataloguing</indexterm>
+            <indexterm>replenishment-cycle</indexterm>
+            <indexterm>item-classification</indexterm>
+            <indexterm>procurement-tracking</indexterm>
+            <!-- Context layer -->
+            <indexterm>inventory-management</indexterm>
+            <indexterm>criticality-analysis</indexterm>
+            <indexterm>plant-maintenance</indexterm>
+            <indexterm>spare-parts-governance</indexterm>
+            <indexterm>metR-PKR-Soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Spare Parts"/>
+         <othermeta name="shortdesc"
+                    content="Lists spare parts, their descriptions, part identifiers, and stocking guidelines for packaging systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="motors; sensors; belts; couplings; spare-items"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:spare-parts-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="spares,inventory,stocking,procurement,components"/>
+         <othermeta name="usecase"
+                    content="catalogue spare parts for maintenance and stocking"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>
+            <table id="table_r5q_p5s_4bc">
+               <tgroup cols="4">
+                  <colspec colname="c1" colwidth="39.45%"/>
+                  <colspec colname="c2" colwidth="19.05%"/>
+                  <colspec colname="c3" colwidth="17.1%"/>
+                  <colspec colname="c4" colwidth="19.8%"/>
+                  <thead>
+                     <row>
+                        <entry morerows="1">
+                           <p>SPARE PART</p>
+                        </entry>
+                        <entry namest="c2" nameend="c4">
+                           <p>QUANTITY</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>NN = NON-NEGOTIABLE</p>
+                        </entry>
+                        <entry>
+                           <p>BR = BASELINE REQUIREMENT</p>
+                        </entry>
+                        <entry>
+                           <p>RE = RECOMMENDATION</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Photo eyes</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Limit switches</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical belts</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Gripping bags/fingers (if installed)</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Suction cups</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>VFD or Inverter </p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical motors</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Vacuum system parts</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Encoders</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical Bearing</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical pneumatic parts</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical wheels / cam-followers</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical burner system parts</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical strapper system parts</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical glue systems parts</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Flexible Wire Way (if installed)</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Strapper head</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>BR</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Critical chains and sprockets/pinions</p>
+                        </entry>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

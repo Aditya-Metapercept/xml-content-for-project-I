@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c271F562-BDF2-11F0-2559-09173F13E4C5" xml:lang="en">
+   <title>Glossary</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>sync-adapter</indexterm>
+            <indexterm>ci-cd-pipeline</indexterm>
+            <indexterm>doc-migrator</indexterm>
+            <indexterm>dita-transformer</indexterm>
+            <indexterm>validation-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-migration</indexterm>
+            <indexterm>dita-transformation</indexterm>
+            <indexterm>ci-cd-deploy</indexterm>
+            <indexterm>validation-checks</indexterm>
+            <indexterm>metadata-mapping</indexterm>
+            <indexterm>prolog-rewrite</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>documentation-migration</indexterm>
+            <indexterm>enterprise-integration</indexterm>
+            <indexterm>knowledge-pipeline</indexterm>
+            <indexterm>data-governance</indexterm>
+            <indexterm>audit-readiness</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="195691426.dita"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for DITA transformation, migration, and validation in the metR-deal-Power documentation pipeline."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sync-adapter;dita-transformer;validation-engine;doc-migrator;ci-cd-pipeline;metadata-mapper"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="document-migration,dita-transformation,validation-checks,metadata-mapping,prolog-rewrite,ci-cd-deploy"/>
+         <othermeta name="usecase" content="document-migration"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

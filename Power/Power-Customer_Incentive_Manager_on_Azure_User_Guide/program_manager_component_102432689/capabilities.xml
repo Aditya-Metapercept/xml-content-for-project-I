@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25CEFDA-BDF2-11F0-1453-09173F13E4C5" xml:lang="en">
+   <title>Capabilities</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>incentive-program-manager</indexterm>
+            <indexterm>billing-program</indexterm>
+            <indexterm>program-type</indexterm>
+            <indexterm>program-sub-type</indexterm>
+            <indexterm>program-management-module</indexterm>
+            <indexterm>metr-cim-power</indexterm>
+            <!-- Process layer -->
+            <indexterm>program-type-identification</indexterm>
+            <indexterm>sub-type-activation</indexterm>
+            <indexterm>billing-program-classification</indexterm>
+            <indexterm>program-configuration</indexterm>
+            <indexterm>program-setup</indexterm>
+            <indexterm>program-structure-definition</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>billing-operations</indexterm>
+            <indexterm>program-hierarchy</indexterm>
+            <indexterm>incentive-management-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Capabilities"/>
+         <othermeta name="shortdesc"
+                    content="Describes billing program types and the active sub-types available in the Incentive Program Manager."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="incentive program manager;billing program;month end billing program;reward saving program;package saving program;bundle saving program;partnership saving program"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="billing,program-type,program-sub-type,incentives,classification,program-setup"/>
+         <othermeta name="usecase" content="describe-program-types-and-subtypes"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Program Manager component provides the following capabilities:</p>
+      <ul>
+         <li>Setting up program header including specifying program general information, formulas used to calculated qualifications and benefits, program schedule information, and payment information if applicable.</li>
+         <li>Setting up program scope that includes filters to filter qualification and benefit lines.</li>
+         <li>Adding products.</li>
+         <li>Specifying benefit and benefit dates for products.</li>
+         <li>Adding participants.</li>
+         <li>Adding notes and attachment.</li>
+         <li>Program Template. Also called Program Accelerator. Any program can function as a program accelerator. Using the cloning functionality, a user can clone a program, make updates on the cloned copy and save as a new program.  </li>
+      </ul>
+   </body>
+</topic>

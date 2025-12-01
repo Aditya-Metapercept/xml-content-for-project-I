@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheLowVoltageModule0J-0N-964-4C3D4C57" xml:lang="en">
+   <title>Replace the Low Voltage Module 0J–0N–96455</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+      <keyword>10 kVA</keyword>
+      <keyword>20 kVA</keyword>
+      <keyword>30 kVA</keyword>
+      <keyword>40 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>60 kVA</keyword>
+      <keyword>80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>low-voltage-module-0j-0n-96455</indexterm>
+            <indexterm>low-voltage-module</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>power-supply</indexterm>
+            <indexterm>battery-management-module</indexterm>
+            <indexterm>pcb</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-low-voltage-module-0j-0n-96455</indexterm>
+            <indexterm>isolate-control-power</indexterm>
+            <indexterm>disconnect-control-connectors</indexterm>
+            <indexterm>remove-module-retainers</indexterm>
+            <indexterm>install-and-secure-module</indexterm>
+            <indexterm>verify-control-signals</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>control-system-maintenance</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>field-repair</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>service-center</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the Low Voltage Module 0J–0N–96455"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to replace low voltage module 0J–0N–96455: isolate control power, remove module, fit new module, and verify control signals."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="low-voltage-module-0j-0n-96455;interface-board;power-supply;pcb;battery-management-module;connectors"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:replace-low-voltage-module-0j-0n-96455;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="low-voltage-module,replacement,maintenance,safety,procedure,control"/>
+         <othermeta name="usecase" content="replace-low-voltage-module-0j-0n-96455"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnect device marked
+for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 80
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Note the location of the cables connected to the low voltage
+module and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Loosen the screws and slide out the low voltage module.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_smart_slot_board_0j-0p2887_slide_out_0n-96455_assembly_0000102364.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+low voltage module.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

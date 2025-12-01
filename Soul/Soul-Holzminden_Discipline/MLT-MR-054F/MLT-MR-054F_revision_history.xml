@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8E1211-BB9C-11F0-6048-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>document-control</indexterm>
+            <indexterm>revision-history</indexterm>
+            <indexterm>change-log</indexterm>
+            <indexterm>versioning</indexterm>
+            <!-- Process layer -->
+            <indexterm>record-revisions</indexterm>
+            <indexterm>change-management</indexterm>
+            <indexterm>approval-tracking</indexterm>
+            <indexterm>document-update</indexterm>
+            <indexterm>version-release</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>quality</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>traceability</indexterm>
+            <indexterm>internal-documentation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="MLT-MR-054F revision history"/>
+         <othermeta name="shortdesc"
+                    content="Tracks revisions, change descriptions, and approval dates for the document."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="document;version;change-log;approval"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:document-control;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="revision,version,change-log,approval,traceability"/>
+         <othermeta name="usecase" content="record-document-revisions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_szg_t5m_vcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="45.08%"/>
+               <colspec colname="c2" colwidth="45.08%"/>
+               <tbody>
+                  <row>
+                     <entry morerows="1">2020-11-10</entry>
+                     <entry>
+                        <p>Approved by Michael Hu, Melting Process Engineer – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">2021-07-15</entry>
+                     <entry>
+                        <p>Approved by Michael Hu, Melting Process Engineer – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Updated with the following changes: Various revisions in all sections</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">2023-05-25</entry>
+                     <entry>
+                        <p>Approved by Michael Hu, Melting Process Engineer – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Updated with the following change Added Section 8.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c249F49E-BDF2-11F0-1514-09173F13E4C5" xml:lang="en">
+   <title>Adding Products Using Add Button</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>add-button-ui</indexterm>
+            <indexterm>product-catalog</indexterm>
+            <indexterm>selection-controls</indexterm>
+            <indexterm>product-selection-ui</indexterm>
+            <indexterm>ui-action-buttons</indexterm>
+            <indexterm>program-products-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>adding-products</indexterm>
+            <indexterm>triggering-add-action</indexterm>
+            <indexterm>reviewing-product-selection</indexterm>
+            <indexterm>validating-selection</indexterm>
+            <indexterm>confirming-product-addition</indexterm>
+            <indexterm>workflow-execution</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>product-management-lifecycle</indexterm>
+            <indexterm>program-management</indexterm>
+            <indexterm>user-interface-interactions</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adding Products Using Add Button"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to add products using the Add button within the product selection interface."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="add-button;product-list;selection-controls;ui-components;product-item;action-triggers"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="add-button,adding-products,ui-actions,selection,workflow"/>
+         <othermeta name="usecase" content="add-products-using-action-button"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This feature enables you to add products using the Add button.</p>
+      <p>To add products using Add button, please follow the below steps:</p>
+      <ol>
+         <li>Go to the Qualifications &amp; Benefits page and click Add, as shown in the below image.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432767.jpg"/>
+            </fig>Product Catalog page appears.</li>
+         <li>Select the products which you want to add from the All Products section, and then click Add. Please view the below image.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432765.jpg"/>
+            </fig>
+         </li>
+         <li>Select the required fields, as shown in the below image, for the added products, and then click Save.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432764.jpg"/>
+            </fig>The selected products are added.<note type="note">
+               <p>For each product, Customer Incentive Manager performs real-time validation for all the mandatory fields and product duplication, and displays a validation message if applicable.</p>
+            </note>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38F8EAC-BDF3-11F0-1533-09173F13E4C5" xml:lang="en-us">
+   <title>Machine Lifting and Tiedown Information</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:00:00+05:30"/>
+         <revised modified="2025-11-15T15:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel,industrial-engineers,reliability-engineers,safety-compliance-officers,management,machine-operators"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>lift-truck-chassis</indexterm>
+            <indexterm>lifting-points</indexterm>
+            <indexterm>tie-down-anchors</indexterm>
+            <indexterm>hoisting-accessories</indexterm>
+            <!-- Process layer -->
+            <indexterm>machine-lifting</indexterm>
+            <indexterm>tiedown-procedure</indexterm>
+            <indexterm>safe-hoisting-practice</indexterm>
+            <indexterm>rigging-checklist</indexterm>
+            <indexterm>transport-preparation</indexterm>
+            <!-- Context layer -->
+            <indexterm>workshop-maintenance</indexterm>
+            <indexterm>vehicle-transport</indexterm>
+            <indexterm>out-of-service-repair</indexterm>
+            <indexterm>fleet-transportation</indexterm>
+            <indexterm>safety-regulation-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="machine lifting and tiedown information"/>
+         <othermeta name="shortdesc"
+                    content="Guidance for safe lifting and tiedown of the lift truck for maintenance and transport, including lifting points and rigging checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lifting-points;tie-downs;lifting-slings;jack-points;chassis"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:maintenance-transport;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="lifting,tiedown,rigging,transport-prep"/>
+         <othermeta name="usecase"
+                    content="safe lifting and transport preparation for maintenance and shipment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note id="note_zzj_11z_5gc" type="notice">
+            <p>Improper lifting or tiedowns can allow load to shift and cause injury and/or damage.</p>
+         </note>
+      </context>
+      <ol>
+         <li>
+            <p>Weight is given on the serial plate.</p>
+         </li>
+         <li>
+            <p>Use proper rated cables and slings for lifting. Position the
+crane for level lift truck lift.</p>
+         </li>
+         <li>
+            <p>Spreader bar widths should be sufficient to prevent contact
+with the lift truck</p>
+         </li>
+         <li>
+            <p>Use the tiedown locations provided for lift truck tiedown.</p>
+            <p>
+               <p>Check the state and local laws governing weight, width, and
+              length of a load.</p>
+               <p>Contact your Time Lift Truck branch for shipping instructions
+              for your lift truck.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

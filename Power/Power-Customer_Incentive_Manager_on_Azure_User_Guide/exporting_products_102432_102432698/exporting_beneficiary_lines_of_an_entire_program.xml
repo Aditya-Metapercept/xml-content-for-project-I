@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t256D445-BDF2-11F0-1743-09173F13E4C5" xml:lang="en">
+   <title>Exporting Beneficiary lines of an Entire Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>beneficiary-line</indexterm>
+            <indexterm>full-program-export</indexterm>
+            <indexterm>bulk-export-module</indexterm>
+            <indexterm>csv-download</indexterm>
+            <indexterm>incentive-program</indexterm>
+            <indexterm>beneficiary-data</indexterm>
+            <!-- Process layer -->
+            <indexterm>export-beneficiary-lines</indexterm>
+            <indexterm>bulk-data-extraction</indexterm>
+            <indexterm>file-generation</indexterm>
+            <indexterm>program-wide-export</indexterm>
+            <indexterm>apply-filters</indexterm>
+            <indexterm>download-csv</indexterm>
+            <!-- Context layer -->
+            <indexterm>beneficiary-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>program-operations</indexterm>
+            <indexterm>audit-reporting</indexterm>
+            <indexterm>data-extracts</indexterm>
+            <indexterm>enterprise-records</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Exporting Beneficiary Lines of an Entire Program"/>
+         <othermeta name="shortdesc"
+                    content="Provides instructions to export all beneficiary lines from a complete program into a single downloadable file."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="beneficiary-line;csv-file;export-job;program-record;bulk-export-engine;data-mapping-table"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="beneficiary,bulk-export,program-export,data-extraction,csv,reporting"/>
+         <othermeta name="usecase" content="export-beneficiary-lines"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>To export all the beneficiary lines of your program:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Navigate to the <uicontrol>Qualifications &amp; Benefits</uicontrol> tab of your program.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Manage Exports. </uicontrol>The export pop-up opens.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Export. </uicontrol>Clicking export submits an asynchronous batch job. The batch job status is visible in the export popup.</p>
+         </li>
+         <li>
+            <p>After the status changes to Completed, click on your file name to download it.</p>
+         </li>
+      </ol>
+      <div>
+         <p>The Primary and Secondary packages are denoted as Package Type 1 and Package Type 2 respectively in the .csv file.</p>
+      </div>
+   </body>
+</topic>

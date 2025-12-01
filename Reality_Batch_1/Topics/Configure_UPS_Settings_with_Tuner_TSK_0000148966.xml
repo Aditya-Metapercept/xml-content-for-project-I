@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ConfigureUPSSettingsWithTuner-D2A0B9DB" xml:lang="en">
+   <title>Configure UPS Settings with Tuner</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>tuner-application</indexterm>
+            <indexterm>settings-tab</indexterm>
+            <indexterm>user-settings-column</indexterm>
+            <indexterm>ups-parameter-list</indexterm>
+            <indexterm>config-uploader</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-ups-settings</indexterm>
+            <indexterm>parameter-editing</indexterm>
+            <indexterm>save-and-apply-settings</indexterm>
+            <indexterm>validation-after-change</indexterm>
+            <indexterm>user-permissions-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>local-console-configuration</indexterm>
+            <indexterm>commissioning-session</indexterm>
+            <indexterm>maintenance-visit</indexterm>
+            <indexterm>pre-deployment-testing</indexterm>
+            <indexterm>ops-configuration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configure UPS Settings with Tuner"/>
+         <othermeta name="shortdesc"
+                    content="Step task: use the Tuner application to edit and apply UPS settings via the Settings tab and User Settings column."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="tuner-application;settings-tab;user-settings;ups-parameters;config-files"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-systems;usecase:configuration-via-tuner;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="tuner,configuration,settings,validation,apply"/>
+         <othermeta name="usecase"
+                    content="edit and apply UPS configuration using the Tuner application"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>In Tuner, click on the <uicontrol>Settings</uicontrol> tab
+and click on <uicontrol>Edit Settings</uicontrol>.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/tuner1_0000148976.jpg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+               <p>In the column <uicontrol>Systems Settings</uicontrol> you
+see the present settings of the UPS.</p>
+               <p>In the column <uicontrol>User Settings</uicontrol> you can configure the UPS settings. Changed
+values in the <uicontrol>User Settings</uicontrol> column are red.</p>
+               <p/>
+            </stepxmp>
+         </li>
+         <li>
+            <p/>
+            <ul>
+               <li>Configure the setting parameters in the <uicontrol>User Settings</uicontrol> column as needed and click on the <uicontrol>Send</uicontrol> button
+to send them to the UPS.<fig>
+                     <image href="../Images/tuner_send_0000148975.jpg"
+                            scalefit="yes"
+                            placement="inline"/>
+                  </fig>
+               </li>
+               <li>Click on the <uicontrol>Export</uicontrol> button to export
+the settings as a binary (BIN) file. <fig>
+                     <image href="../Images/tuner_export_0000148974.jpg"
+                            scalefit="yes"
+                            placement="inline"/>
+                  </fig>
+               </li>
+               <li>Click on the <uicontrol>Import</uicontrol> button and browse
+to a stored settings file on your laptop to import these settings
+to the <uicontrol>User Settings</uicontrol> column. <fig>
+                     <image href="../Images/tuner_import_0000148973.jpg"
+                            scalefit="yes"
+                            placement="inline"/>
+                  </fig>
+               </li>
+               <li>Click on the <uicontrol>Reset</uicontrol> button to restore
+all the settings in the <uicontrol>User Settings</uicontrol> column
+to match the settings in the <uicontrol>Systems Settings</uicontrol> column.</li>
+            </ul>
+         </li>
+      </ol>
+   </body>
+</topic>

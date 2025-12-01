@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingStrategicSourcing_SourcingEvents" xml:lang="en">
+   <title>Sourcing Events</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Source_To_Pay_User_Guide_Final"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The initiator of the Sourcing event (buyer) selects the best suppliers by comparing and scoring the responses. Sourcing events are cadenced with phases and milestones to provide predictability and transparency to participants.</p>
+      <p>The buyer can set a Terms &amp; Conditions page to mention all the terms and conditions he wants you to accept. These terms and conditions are more on a global basis, as in set at the company level. You must accept the terms and conditions to proceed as a participant in any of the sourcing events. You, as a supplier, can participate in the sourcing event by accepting the invitation. If you decline the invitation, you cannot participate in the sourcing event. You will receive a notification via an email about the details of a sourcing event. However, you can accept or decline an event only after your buyer publishes the event. NDA is optional. If your buyer has opted for you to sign an NDA before you enter the sourcing event, you must read the terms and conditions and Accept NDA. The NDA is at the event level. Terms and Conditions are at the company level. </p>
+      <p>In our example, Kid Roger is invited to the Disinfecting Wipes Sourcing Event and he would like to participate in the event. </p>
+   </body>
+</topic>

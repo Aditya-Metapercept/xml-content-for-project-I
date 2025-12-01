@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC88AF28-BB9C-11F0-8491-09173F13E4C5" xml:lang="en-us">
+   <title>Testing the Diesel Pump </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <context>
+         <p>Follow this procedure to test the diesel pump:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Call the process lead.</p>
+            <p>
+               <ul>
+                  <li>Tell them that the diesel pump test can cause a possible disruption in the process.</li>
+                  <li>Test the diesel pump each month.</li>
+               </ul>
+               <note type="note" id="note_dzw_ybx_5cc">
+                  <p>Only test the diesel pump if the system is operating normally.</p>
+               </note>
+               <p>
+                  <fig id="fig_bd4_zbx_5cc">
+                     <image href="media/image1.jpg"
+                            placement="break"
+                            id="image_cd4_zbx_5cc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>In DFC, go to the <uicontrol>Cooling Water H3C</uicontrol> screen and click the
+                  <uicontrol>Closed Circuit</uicontrol> tab.</p>
+            <p>
+               <ul>
+                  <li>Inspect the current settings.</li>
+                  <li>Verify that only one closed circuit pump is running. </li>
+                  <li/>
+               </ul>
+               <p>
+                  <fig id="fig_wdz_3dx_5cc">
+                     <image href="media/image2.jpg"
+                            placement="break"
+                            id="image_xdz_3dx_5cc"
+                            align="center"
+                            scale="50"/>
+                  </fig>
+               </p>
+            </p>
+            <ol id="substeps_ejj_ldx_5cc">
+               <li>
+                  <p>If both closed circuit pumps are operating, or an alarm is present:</p>
+                  <p>
+                     <ul>
+                        <li>Postpone the diesel pump test.</li>
+                        <li>Testing may damage the system.</li>
+                        <li>Resolve all issues before testing the diesel pump.</li>
+                        <li>Refer to document MLT-ET-052-DE, Cooling System Emergency, if
+                           needed.</li>
+                     </ul>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <note id="note_fb4_f2x_5cc">
+               <table id="table_sx1_h2x_5cc">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="c2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Watch your step during wet or icy conditions.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Fuel spill hazard.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </note>
+            <p>Verify that the diesel pump fuel tank is at least 3/4 full.</p>
+            <p>
+               <note type="note">
+                  <p>If there is a fuel spill, contact the plant EHS representative.</p>
+               </note>
+               <p>
+                  <fig id="fig_nz1_k2x_5cc">
+                     <image href="media/image3.jpg"
+                            placement="break"
+                            id="image_oz1_k2x_5cc"
+                            align="center"
+                            scale="50"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Go to the diesel pump control panel.</p>
+            <p>
+               <ul>
+                  <li>Turn on the diesel pump.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <note>
+               <table id="table_k3m_q2x_5cc">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="c2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Watch your step during wet or icy conditions.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </note>
+            <p>Run the diesel pump for 15 minutes.</p>
+         </li>
+         <li>
+            <p>In DFC, go to the <uicontrol>Melter Cooling H3C</uicontrol> screen and click the
+                  <uicontrol>Main Overview</uicontrol> tab.</p>
+            <p>
+               <ul>
+                  <li>Verify that the flow rates are sufficient to sustain the melter
+                     operation.</li>
+               </ul>
+               <p>If there is an issue with low flow rates:<ul id="ul_ofb_lfx_5cc">
+                     <li>Refer to document MLT-ET-052-DE, Cooling System Emergencies, if
+                        needed.</li>
+                  </ul>
+               </p>
+               <p>
+                  <fig id="fig_anp_mfx_5cc">
+                     <image href="media/image4.jpg"
+                            placement="break"
+                            id="image_bnp_mfx_5cc"
+                            align="center"
+                            scale="50"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>After running the diesel pump for 15 minutes:</p>
+            <p>
+               <ul>
+                  <li>Turn off the diesel pump.</li>
+                  <li>The controller should show RUN and READY.</li>
+               </ul>
+               <p>
+                  <fig id="fig_xyk_pfx_5cc">
+                     <image href="media/image5.jpg"
+                            placement="break"
+                            id="image_yyk_pfx_5cc"
+                            align="center"
+                            scale="50"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Go to the PVAG control panel located in the basement pump room.</p>
+            <p>
+               <ul>
+                  <li>Click on <uicontrol>Alarms</uicontrol>.</li>
+                  <li>Clear alarms and set the system back to normal operation.</li>
+                  <li>Only one closed circuit pump should be running. </li>
+               </ul>
+               <p>
+                  <fig id="fig_sng_rfx_5cc">
+                     <image href="media/image6.jpg"
+                            placement="break"
+                            id="image_bwb_sfx_5cc"
+                            align="center"
+                            scale="50"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <note>
+               <table id="table_r12_tfx_5cc">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="1*"/>
+                     <colspec colname="c2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Watch your step during wet or icy conditions.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry/>
+                           <entry>
+                              <p>Fuel spill hazard.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </note>
+            <p>Add diesel to fill the diesel pump tank.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

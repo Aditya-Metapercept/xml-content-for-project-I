@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan841" xml:lang="en">
+   <title>
+      <image height="16"
+             width="16"
+             href="../images/icons/contenttypes/home_page_16.png"
+             placement="inline"/>X-Author Chatter Online June 2016 User Guide</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>x-author-chatter-online</indexterm>
+            <indexterm>user-guide-module</indexterm>
+            <indexterm>collaboration-portal</indexterm>
+            <indexterm>digital-authoring-environment</indexterm>
+            <indexterm>enterprise-content-suite</indexterm>
+            <indexterm>documentation-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>navigating-user-guide</indexterm>
+            <indexterm>accessing-features</indexterm>
+            <indexterm>viewing-content</indexterm>
+            <indexterm>user-orientation</indexterm>
+            <indexterm>documentation-browsing</indexterm>
+            <indexterm>guide-initialization</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation-access</indexterm>
+            <indexterm>enterprise-collaboration</indexterm>
+            <indexterm>author-support</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>training-context</indexterm>
+            <indexterm>product-familiarization</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-chatter-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="X-Author Chatter Online User Guide Overview"/>
+         <othermeta name="shortdesc"
+                    content="Provides an overview reference for the X-Author Chatter Online User Guide."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user-guide;online-help;authoring-interface;navigation-pane;collaboration-module;document-viewer"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="user-guide,overview,chatter-online,navigation,reference,access"/>
+         <othermeta name="usecase"
+                    content="overview and orientation for the X-Author Chatter Online guide"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <image height="16"
+                width="16"
+                href="../images/icons/contenttypes/home_page_16.png"
+                placement="inline"/> X-Author Chatter Online June 2016 User Guide : X-Author Chatter Online June 2016 User Guide</p>
+   </body>
+</topic>

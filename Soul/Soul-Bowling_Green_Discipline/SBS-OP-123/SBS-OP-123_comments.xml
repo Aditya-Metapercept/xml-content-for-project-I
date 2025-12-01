@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC5EF778-BB9C-11F0-1975-09173F13E4C5" xml:lang="en-us">
+   <title>Comments</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>commenting-system</indexterm>
+            <!-- Product layer -->
+            <indexterm>review-panel</indexterm>
+            <!-- Product layer -->
+            <indexterm>doc-review</indexterm>
+            <!-- Product layer -->
+            <indexterm>annotation-tool</indexterm>
+            <!-- Product layer -->
+            <indexterm>discussion-thread</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-comment</indexterm>
+            <!-- Process layer -->
+            <indexterm>resolve-comment</indexterm>
+            <!-- Process layer -->
+            <indexterm>review-feedback</indexterm>
+            <!-- Process layer -->
+            <indexterm>comment-threading</indexterm>
+            <!-- Process layer -->
+            <indexterm>stakeholder-collaboration</indexterm>
+            <!-- Context layer -->
+            <indexterm>peer-review</indexterm>
+            <!-- Context layer -->
+            <indexterm>technical-communication</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation-workflow</indexterm>
+            <!-- Context layer -->
+            <indexterm>engineering-review</indexterm>
+            <!-- Context layer -->
+            <indexterm>knowledge-capture</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SBS-OP-123 comments"/>
+         <othermeta name="shortdesc" content="Topic about SBS-OP-123 comments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="comment;thread;author;status;resolution"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:commenting-and-review;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="comments, review, feedback, annotation, collaboration"/>
+         <othermeta name="usecase" content="commenting-and-review"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Before starting work:</p>
+      <ul>
+         <li>Read this document thoroughly.  </li>
+         <li>Complete the required training.</li>
+         <li>Wear the required PPE. </li>
+      </ul>
+      <note type="note" id="note_zhl_bwg_vcc">
+         <p>This SOP uses Streator screens and images.</p>
+      </note>
+   </body>
+</topic>

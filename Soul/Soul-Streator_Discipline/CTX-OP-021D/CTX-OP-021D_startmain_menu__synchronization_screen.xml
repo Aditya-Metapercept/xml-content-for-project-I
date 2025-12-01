@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9DAAE1-BB9C-11F0-1267-09173F13E4C5" xml:lang="en-us">
+   <title>Start/Main Menu ➔Synchronization Screen</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Use this menu to synchronize the system with the forming machine.<ul id="ul_hqg_tk3_fcc">
+            <li>Press Start Synchronization in order to start the process.</li>
+            <li>Make sure at least 80% of the bottles are on the conveyor belt during
+               synchronization.</li>
+            <li>When all the bottle images are displayed in the correct sections, synchronization is
+               completed. <p>In the image below, the bottle intensity is going from low to high, and
+                  the synchronization is correct. </p>
+               <note type="note" id="note_iqg_tk3_fcc">
+                  <p> If the synchronization is not correct, check the conveyor order in the Job
+                     Settings menu.</p>
+               </note>
+               <fig id="fig_jqg_tk3_fcc">
+                  <image href="media/image5.jpg"
+                         placement="break"
+                         id="image_kqg_tk3_fcc"
+                         align="center"
+                         scale="50"/>
+               </fig>
+            </li>
+         </ul>
+      </p>
+   </body>
+</topic>

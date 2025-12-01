@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2471AD9-BDF2-11F0-5166-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Mapping Picklist Field Values</title>
+   <topicref chunk="to-content" href="143887218.xml" xml:lang="en">
+      <topicref href="to_create_a_select_option_set_for_mapping_picklist_values.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To create a Select Option Set for mapping picklist values</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_find_the_code_for_your_dynamics_365_picklist_value.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To find the code for your Dynamics 365 picklist value</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

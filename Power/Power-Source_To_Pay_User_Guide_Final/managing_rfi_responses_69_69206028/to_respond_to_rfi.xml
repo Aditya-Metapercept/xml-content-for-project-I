@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingRFIResponses_TorespondtoRFI" xml:lang="en">
+   <title>To respond to RFI</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>rfi-management</indexterm>
+            <indexterm>rfi-survey-processing</indexterm>
+            <indexterm>rfi-response-creation</indexterm>
+            <indexterm>supplier-rfi-workflow</indexterm>
+            <!-- Process Layer -->
+            <indexterm>respond-rfi</indexterm>
+            <indexterm>download-rfi</indexterm>
+            <indexterm>upload-attachment</indexterm>
+            <indexterm>edit-attachment</indexterm>
+            <indexterm>submit-rfi-response</indexterm>
+            <!-- Context Layer -->
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>procurement-lifecycle</indexterm>
+            <indexterm>supplier-collaboration</indexterm>
+            <indexterm>information-gathering</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To respond to RFI"/>
+         <othermeta name="shortdesc"
+                    content="Describes how suppliers navigate sourcing events, download RFIs, create responses, upload attachments, set permissions, save drafts, and submit completed RFI responses."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="rfi;survey;download;rfi.xls;create-response;attachments;permissions;public;private;selective-public;edit;delete;save;submit-response;sourcing-events;buyer"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:to-respond-to-rfi;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="rfi,response,attachments,permissions,submit,sourcing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the <uicontrol>Sourcing Events</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Select the appropriate sourcing event and click <uicontrol>View</uicontrol>. </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206028/69206106.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>RFI</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>View RFI.</uicontrol>
+            </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206028/69206097.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To download the RFI, click <uicontrol>Download</uicontrol>.</p>
+            <p>
+               <note type="note">
+                  <p>A file with an extension .xls will start downloading. To view the downloaded file, click on <uicontrol>RFI.xls</uicontrol> .</p>
+               </note>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="700"
+                            href="../attachments/69206028/69206108.png"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>To respond to RFI, click <uicontrol>Create Response</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206028/69206112.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Select the appropriate responses.</p>
+         </li>
+         <li>
+            <p>To upload an attachment, click <uicontrol>Upload.</uicontrol>
+            </p>
+            <p>
+               <p>
+                  <fig>
+                     <image placement="break"
+                            width="700"
+                            href="../attachments/69206028/69206043.png"/>
+                  </fig>
+               </p>
+               <note type="note">
+                  <p>For the <uicontrol>Attachments</uicontrol> in Apttus STP, you can upload any file. We allow files of the following extension types: (.PDF), (.RTF), (.RTX), (.TXT), (.JPG), (.JPEG), (.PNG), (.GIF), (.TIF), (.BMP), (.DOC), (.DOCX), (.DOCM), (.PPT), (.PPTX), (.PPTM), (.PPS), (.PPSX), (.XLS), (.XLSX), (.XLSM), (.ZIP), (.MP3), (.M4A), (.OGG), (.WAV), (.MP4), (.M4V), (.MOV), (.OGV), (.3GP), (.3G2). The application might become slow if you upload a file higher than 25 MB.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose File</uicontrol> and select the appropriate file.</p>
+         </li>
+         <li>
+            <p>Enter the <uicontrol>File</uicontrol>
+               <uicontrol>Description</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Select the appropriate permission from the Permissions picklist menu.</p>
+            <p>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Permission</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Public</p>
+                              </entry>
+                              <entry>
+                                 <p>To make the attachment available to all the Suppliers.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Private</p>
+                              </entry>
+                              <entry>
+                                 <p>To make the attachment available to only the Buyer.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Selective Public</p>
+                              </entry>
+                              <entry>
+                                 <p>To make the attachment available to the selected Supplier(s).</p>
+                                 <p>Note: At least one supplier must be selected for this option.</p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Attach.</uicontrol>
+            </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="550"
+                         href="../attachments/14680532/15630649.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To edit an attachment, click <uicontrol>Edit</uicontrol>.</p>
+         </li>
+         <li>
+            <p>To delete an attachment, click <uicontrol>Delete</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206028/69206110.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To submit your responses to the buyer, click <uicontrol>Submit Response</uicontrol>. </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206028/69206107.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Back to Sourcing Event </uicontrol>
+               <uicontrol>link</uicontrol>.</p>
+            <p>
+               <note type="note">
+                  <p>Once you submit your response to the buyer, <uicontrol>View RFI</uicontrol> and <uicontrol>View Response</uicontrol> links are visible on the Sourcing Event Detail page. You can edit the responses before the RFI deadline. To edit the responses, Click <uicontrol>Edit</uicontrol>. To download the responses, click <uicontrol>Download</uicontrol>. Ensure that you click <uicontrol>Submit Response</uicontrol> after you have edited the response.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

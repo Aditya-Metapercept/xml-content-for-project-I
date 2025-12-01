@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r200BAF0-BB02-11F0-8042-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,maintenance,quality,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metR-FES-Space</indexterm>
+            <indexterm>manufacturer manuals</indexterm>
+            <indexterm>service bulletins</indexterm>
+            <indexterm>installation guides</indexterm>
+            <indexterm>technical standards</indexterm>
+            <!-- Process -->
+            <indexterm>normative references</indexterm>
+            <indexterm>informative references</indexterm>
+            <indexterm>cross reference list</indexterm>
+            <indexterm>support contacts</indexterm>
+            <indexterm>versioned artifacts</indexterm>
+            <!-- Context -->
+            <indexterm>site procedures</indexterm>
+            <indexterm>regulatory guidance</indexterm>
+            <indexterm>vendor documentation</indexterm>
+            <indexterm>service history</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="References"/>
+         <othermeta name="shortdesc"
+                    content="Authoritative and informative references, manuals, standards and service bulletins relevant to FES-03-106."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="manufacturer manuals;standards bodies;service-bulletins;site-procedures"/>
+         <othermeta name="taxonomy"
+                    content="domain:knowledgebase;usecase:reference-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="references,manuals,standards,support"/>
+         <othermeta name="usecase"
+                    content="collect-and-present-relevant-references-and-sources"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ul>
+            <li>FSC Manual</li>
+         </ul>
+      </section>
+      <section id="section_ock_q3s_qzb">
+         <title>Document Classification</title>
+         <ul id="ul_hrf_r3s_qzb">
+            <li>Asset Protection and Stability</li>
+            <li>Organization and Training</li>
+         </ul>
+      </section>
+   </body>
+</topic>

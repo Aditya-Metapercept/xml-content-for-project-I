@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ApttusSTPLifecycleSystemRequirements" xml:lang="en">
+   <title>System Requirements</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>source-to-pay-application</indexterm>
+            <indexterm>web-based-stp</indexterm>
+            <indexterm>salesforce-platform</indexterm>
+            <indexterm>stp-system-requirements</indexterm>
+            <!-- Process Layer -->
+            <indexterm>system-prerequisites</indexterm>
+            <indexterm>browser-requirements</indexterm>
+            <indexterm>operating-system-requirements</indexterm>
+            <indexterm>environment-validation</indexterm>
+            <indexterm>installation-prechecks</indexterm>
+            <indexterm>application-access-requirements</indexterm>
+            <!-- Context Layer -->
+            <indexterm>salesforce-technical-requirements</indexterm>
+            <indexterm>web-browser-environment</indexterm>
+            <indexterm>cloud-based-application</indexterm>
+            <indexterm>online-platform-requirements</indexterm>
+            <indexterm>enterprise-procurement-environment</indexterm>
+            <indexterm>internet-access-dependency</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="System Requirements"/>
+         <othermeta name="shortdesc"
+                    content="Apttus Source To Pay is a web-based application accessed through a standard web browser, and users must meet the minimum system requirements before installation and use."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="operating system;browser;internet;web application;salesforce requirements;technical requirements;system prerequisites"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:system-requirements;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="system-requirements,stp,salesforce,browser,technical-prerequisites,installation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>Apttus Source To Pay is a web-based, on demand application that is accessed via a
+            standard web browser through the Internet. Before you install and start using Apttus
+            STP, you must ensure the minimum system requirements.</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry namest="col1" nameend="col2">
+                           <p>System Requirements</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Item</p>
+                        </entry>
+                        <entry>
+                           <p>Requirement</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Operating System</p>
+                        </entry>
+                        <entry>
+                           <p>Standard <xref href="http://salesforce.com/" format="html" scope="external">salesforce.com</xref> requirements. See
+                                        <xref href="https://help.salesforce.com/help/pdfs/en/salesforce_technical_requirements.pdf"
+                                    format="html"
+                                    scope="external">Salesforce Technical
+                                        Requirements</xref>.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Browser</p>
+                        </entry>
+                        <entry>
+                           <p>Standard <xref href="http://salesforce.com/" format="html" scope="external">salesforce.com</xref> requirements. See
+                                        <xref href="https://help.salesforce.com/help/pdfs/en/salesforce_technical_requirements.pdf"
+                                    format="html"
+                                    scope="external">Salesforce Technical
+                                        Requirements</xref>.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

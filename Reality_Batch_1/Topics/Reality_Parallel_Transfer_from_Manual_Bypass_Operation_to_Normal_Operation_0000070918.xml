@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromManualBypassOperationTo-85E601CB" xml:lang="en">
+   <title>Transfer from Manual Bypass Operation to Normal Operation –
+Parallel UPS System</title>
+   <shortdesc>
+      <keyword>Reality EMEA 10–80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>manual-bypass-gear</indexterm>
+            <indexterm>parallel-transfer-switch</indexterm>
+            <indexterm>pxc-control-board</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>switchgear</indexterm>
+            <!-- Process layer -->
+            <indexterm>parallel-transfer-to-normal</indexterm>
+            <indexterm>manual-bypass-to-normal-operation</indexterm>
+            <indexterm>coordinate-parallel-transfer</indexterm>
+            <indexterm>verify-synchronisation</indexterm>
+            <indexterm>closed-transition-transfer</indexterm>
+            <indexterm>post-transfer-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>operation-room</indexterm>
+            <indexterm>maintenance-activity</indexterm>
+            <indexterm>plant-floor-transfer</indexterm>
+            <indexterm>critical-load-management</indexterm>
+            <indexterm>operator-procedure</indexterm>
+            <indexterm>safety-clearance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Parallel Transfer from Manual Bypass Operation to Normal Operation"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for performing a parallel transfer to return UPS from manual bypass into normal operation, including synchronisation checks and validation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="manual bypass;parallel transfer switch;synchronisation signals;operator console;control relays"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:parallel-transfer;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="parallel-transfer,manual-bypass,synchronisation,closed-transition,post-transfer-check"/>
+         <othermeta name="usecase" content="perform-parallel-transfer-to-normal-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Check that switch Q528 on UPS1 and UPS2 is closed.</p>
+         </li>
+         <li>
+            <p>On one UPS: From the <uicontrol>Main Menu</uicontrol>,
+select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and
+the ENTER key. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS into Bypass</uicontrol> to transfer
+to bypass operation. All UPS units in the parallel system will now
+transfer to static bypass operation.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS into Bypass NO, Abort►YES, UPS into Bypass</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+            <stepresult>The following message will appear on the display: <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">The load is supplied via the static bypass switch</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepresult>
+         </li>
+         <li>
+            <p>If the UPS is able to turn on the static bypass switch,
+the following message appears <uicontrol>You may switch to auto now!</uicontrol>. </p>
+         </li>
+         <li>
+            <p>Turn switch Q601 on UPS1 from position <ph translate="no">BYPASS</ph> to position <ph translate="no">AUTO</ph>.</p>
+         </li>
+         <li>
+            <p>Turn switch Q601 on UPS2 from position <ph translate="no">BYPASS</ph> to position <ph translate="no">AUTO</ph>.</p>
+         </li>
+         <li>
+            <p>The overview screen now shows:</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1" colwidth="100.00*"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">   Requested Static  Bypass OperationLoad xxx% Cap. 093%405Uin xxxUot xxHz</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>On one UPS: From the <uicontrol>Main Menu</uicontrol>,
+select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and
+the ENTER key. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS out of Bypass</uicontrol> to
+transfer to normal operation. All UPS units in the parallel system
+will now transfer to normal operation.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS out of Bypass NO, Abort►YES, UPS out of Bypass</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+            <stepresult>The UPS is now in normal operation.</stepresult>
+         </li>
+         <li>
+            <p>Press the ESC key twice to return to the overview menu.
+The overview screen now shows:</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1" colwidth="100.00*"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">   Normal Operation  Float ChargeLoad xxx% Cap. 093%405Uin xxxUot xxHz</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

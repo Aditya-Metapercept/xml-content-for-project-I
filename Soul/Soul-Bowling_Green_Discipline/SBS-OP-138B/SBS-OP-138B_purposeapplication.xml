@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC67EF4F-BB9C-11F0-1319-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>conveyor-system</indexterm>
+            <indexterm>control-system</indexterm>
+            <indexterm>material-handling</indexterm>
+            <indexterm>inspection-kit</indexterm>
+            <indexterm>maintenance-tools</indexterm>
+            <!-- Process layer -->
+            <indexterm>operation-guideline</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>inspection-procedure</indexterm>
+            <indexterm>training-procedure</indexterm>
+            <indexterm>safety-assessment</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>quality-control</indexterm>
+            <indexterm>work-permit</indexterm>
+            <indexterm>operator-training</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose and application"/>
+         <othermeta name="shortdesc"
+                    content="Defines the scope, purpose and application context for conveyor operation and associated procedures."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="conveyor system;control system;operators;maintenance team;training program"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:scope-and-application;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="scope,purpose,application,operations,training"/>
+         <othermeta name="usecase"
+                    content="define scope and intended use of conveyor documentation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Describes the procedures for operating the belt conveyor.</p>
+   </body>
+</topic>

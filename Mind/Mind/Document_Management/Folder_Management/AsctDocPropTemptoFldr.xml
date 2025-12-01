@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMAssctDocTmplttoFldr">
+   <title>Associating a Document Property Template to a Folder</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>folder-management</indexterm>
+            <indexterm>document-property-template</indexterm>
+            <indexterm>standard-library-catalog</indexterm>
+            <indexterm>document-properties-module</indexterm>
+            <indexterm>library-management-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>associating-templates</indexterm>
+            <indexterm>selecting-template-from-catalog</indexterm>
+            <indexterm>applying-doc-properties</indexterm>
+            <indexterm>updating-folder-metadata</indexterm>
+            <indexterm>saving-template-association</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>document-governance</indexterm>
+            <indexterm>web-application-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Associating a Document Property Template to a Folder"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to associate an existing document property template with a folder using the library catalog."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="folder;document-property-template;catalog;library;document-properties"/>
+         <othermeta name="taxonomy"
+                    content="domain:folder-management;usecase:template-association;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="template,document-properties,catalog,folder-association,metadata"/>
+         <othermeta name="usecase" content="apply-document-property-template"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Documents are not uploaded to the folder.</li>
+         </ul>
+      </prereq>
+      <context>You can associate a document property template to a folder. The associated document property template is displayed when uploading documents to the folder.</context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>In the toolbar, click<uicontrol>Associate Document Property</uicontrol>.</p>
+            <p>The<uicontrol>Associate Document Folder</uicontrol> dialog box is displayed.</p>
+            <p>
+               <fig>
+                  <title>Associate Document Folder</title>
+                  <image href="../../Icons/Screenshots_Icons/Associate_DocProprty.jpg"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>From the<uicontrol>Document Property Set</uicontrol> drop-down list, select the requireddocument property template. Available options are document property templates published in the <uicontrol>Document Properties</uicontrol> catalog of the library.</p>
+            <p>
+               <ph product="Exclude_PG_Content">For information on document properties, refer to<xref href="../../Library_Management/Standard_Library_Catalogs/Document_Management/DocProps.xml">Document Properties</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t237D5BB-BDF2-11F0-1275-09173F13E4C5" xml:lang="en">
+   <title>To attach a document manually</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>document-upload-ui</indexterm>
+            <indexterm>attachment-service</indexterm>
+            <indexterm>file-mapping-service</indexterm>
+            <indexterm>audit-trail-module</indexterm>
+            <indexterm>signing-widget</indexterm>
+            <!-- Process layer -->
+            <indexterm>attach-document</indexterm>
+            <indexterm>map-fields</indexterm>
+            <indexterm>validate-format</indexterm>
+            <indexterm>upload-to-repository</indexterm>
+            <indexterm>initiate-signature</indexterm>
+            <!-- Context layer -->
+            <indexterm>user-workflow</indexterm>
+            <indexterm>manual-operations</indexterm>
+            <indexterm>content-management</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>document-lifecycle</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To attach a document manually"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step instructions for manually attaching a document, validating file format, mapping fields and initiating signature workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document;attachment;repository;signer;mapping-rule;validation-service"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:manual-document-attachment-and-mapping;industry:revenue-life-cycle-management"/>
+         <othermeta name="tags"
+                    content="attach-document,manual-upload,file-mapping,validation,ui"/>
+         <othermeta name="usecase" content="manual-document-attachment-and-mapping"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Select the agreement that you want to attach the document.</p>
+         </li>
+         <li>
+            <p>Under the <uicontrol>Notes &amp; Attachments</uicontrol> related list, click <uicontrol>Attach File</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose File</uicontrol> and select the agreement that you want to upload.</p>
+            <p>
+               <note type="note">Ensure that you do not upload a file of size over 12 MB. You can
+                  attach a file larger than 12 MB, but it will not be included in the envelope being
+                  sent for eSignature.</note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Attach File</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Done</uicontrol>.</p>
+            <p>
+               <note id="note_g4m_rk3_rcc">You can also attach the documents manually through
+                     <uicontrol>Files</uicontrol> related list. The uploaded documents are displayed
+                  in both <uicontrol>Files</uicontrol> and <uicontrol>Notes &amp;
+                     Attachments</uicontrol> related list. </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

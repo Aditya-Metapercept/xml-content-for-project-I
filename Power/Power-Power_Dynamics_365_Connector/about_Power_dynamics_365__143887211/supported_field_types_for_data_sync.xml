@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2418CF5-BDF2-11F0-1844-09173F13E4C5" xml:lang="en">
+   <title>Supported Field Types for Data Sync</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-dynamics-connector</indexterm>
+            <indexterm>data-sync-utility</indexterm>
+            <indexterm>field-type-engine</indexterm>
+            <indexterm>dynamics-365-fields</indexterm>
+            <indexterm>power-app-fields</indexterm>
+            <indexterm>integration-services</indexterm>
+            <!-- Process layer -->
+            <indexterm>field-type-support</indexterm>
+            <indexterm>sync-compatibility-checking</indexterm>
+            <indexterm>data-type-mapping</indexterm>
+            <indexterm>entity-field-validation</indexterm>
+            <indexterm>schema-alignment</indexterm>
+            <indexterm>sync-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-data-architecture</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>data-integrity-management</indexterm>
+            <indexterm>system-interoperability</indexterm>
+            <indexterm>cross-platform-data-migration</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Supported Field Types for Data Sync"/>
+         <othermeta name="shortdesc"
+                    content="Describes all field types supported when syncing data between Power and Dynamics 365."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="fields;tables;data-types;tgroup;columns"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:data-synchronization;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="fields,data-types,sync,rules,compatibility,mapping"/>
+         <othermeta name="usecase"
+                    content="defining field-type compatibility for synchronization"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Refer to the following table for a list of support field types for syncing between Power and Dynamics.</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Field Mapping Type</p>
+                     </entry>
+                     <entry>
+                        <p>Power</p>
+                     </entry>
+                     <entry>
+                        <p>Dynamics 365</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Money</p>
+                     </entry>
+                     <entry>
+                        <p>Currency</p>
+                     </entry>
+                     <entry>
+                        <p>Currency</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>SelectOption</p>
+                     </entry>
+                     <entry>
+                        <p>Picklist</p>
+                     </entry>
+                     <entry>
+                        <p>Option Set</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>LongString</p>
+                     </entry>
+                     <entry>
+                        <p>Textarea</p>
+                     </entry>
+                     <entry>
+                        <p>Multiple Lines of Text</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                     <entry>
+                        <p>URL</p>
+                     </entry>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Lookup</p>
+                     </entry>
+                     <entry>
+                        <p>Reference</p>
+                     </entry>
+                     <entry>
+                        <p>Lookup</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                     <entry>
+                        <p>Single Line of Text</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Boolean</p>
+                     </entry>
+                     <entry>
+                        <p>Boolean</p>
+                     </entry>
+                     <entry>
+                        <p>Two Options</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>DateTime</p>
+                     </entry>
+                     <entry>
+                        <p>Date</p>
+                     </entry>
+                     <entry>
+                        <p>Date and Time</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>DateTime</p>
+                     </entry>
+                     <entry>
+                        <p>DateTime</p>
+                     </entry>
+                     <entry>
+                        <p>Date and Time</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Decimal</p>
+                     </entry>
+                     <entry>
+                        <p>Number</p>
+                     </entry>
+                     <entry>
+                        <p>Whole Number</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Decimal</p>
+                     </entry>
+                     <entry>
+                        <p>Number</p>
+                     </entry>
+                     <entry>
+                        <p>Decimal Number</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                     <entry>
+                        <p>Email</p>
+                     </entry>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                     <entry>
+                        <p>Phone</p>
+                     </entry>
+                     <entry>
+                        <p>String</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

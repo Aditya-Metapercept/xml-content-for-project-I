@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="rC95AC59-BB9C-11F0-2563-09173F13E4C5" xml:lang="en-us">
+   <title>Packaging Systems</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>packaging-line</indexterm>
+            <indexterm>case-packer</indexterm>
+            <indexterm>bottle-conveyor</indexterm>
+            <indexterm>palletiser</indexterm>
+            <indexterm>depalletiser</indexterm>
+            <!-- Process layer -->
+            <indexterm>material-flow</indexterm>
+            <indexterm>unit-loading</indexterm>
+            <indexterm>case-handling</indexterm>
+            <indexterm>line-balancing</indexterm>
+            <indexterm>packaging-sequencing</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>end-of-line-handling</indexterm>
+            <indexterm>plant-operations</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>metR-PKR-Soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Packaging Systems"/>
+         <othermeta name="shortdesc"
+                    content="Describes packaging line components including conveyors, packers, palletisers, and operational flow."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="packaging-line; conveyors; case-packer; palletiser; depalletiser; load-transfer"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:packaging-flow;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="packaging,conveyors,palletising,line-flow,operations"/>
+         <othermeta name="usecase"
+                    content="explain packaging line architecture and functions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>
+            <table id="table_olb_l5s_4bc">
+               <tgroup cols="12">
+                  <colspec colname="c1" colwidth="13.5%"/>
+                  <colspec colname="c2" colwidth="31.42%"/>
+                  <colspec colname="c3" colwidth="16.12%"/>
+                  <colspec colname="c4" colwidth="3.78%"/>
+                  <colspec colname="c5" colwidth="3.87%"/>
+                  <colspec colname="c6" colwidth="3.78%"/>
+                  <colspec colname="c7" colwidth="3.87%"/>
+                  <colspec colname="c8" colwidth="3.78%"/>
+                  <colspec colname="c9" colwidth="3.87%"/>
+                  <colspec colname="c10" colwidth="3.78%"/>
+                  <colspec colname="c11" colwidth="3.87%"/>
+                  <colspec colname="c12" colwidth="3.76%"/>
+                  <thead>
+                     <row>
+                        <entry morerows="1">
+                           <p>SYSTEM COMPONENT</p>
+                        </entry>
+                        <entry morerows="1">
+                           <p>SPECIFIC TASKS</p>
+                        </entry>
+                        <entry morerows="1">
+                           <p>WORK INSTRUCTION</p>
+                        </entry>
+                        <entry namest="c4" nameend="c12">
+                           <p>FREQUENCY</p>
+                           <p>NN = NON-NEGOTIABLE</p>
+                           <p>BR = BASELINE REQUIREMENT</p>
+                           <p>RE = RECOMMENDATION</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Shift</p>
+                        </entry>
+                        <entry>
+                           <p>24 HOURS</p>
+                        </entry>
+                        <entry>
+                           <p>7 DAYS</p>
+                        </entry>
+                        <entry>
+                           <p>15 DAYS</p>
+                        </entry>
+                        <entry>
+                           <p>30 DAYS</p>
+                        </entry>
+                        <entry>
+                           <p>3 MONTHS</p>
+                        </entry>
+                        <entry>
+                           <p>6 MONTHS</p>
+                        </entry>
+                        <entry>
+                           <p>12 MONTHS</p>
+                        </entry>
+                        <entry>
+                           <p>4 YEARS</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry morerows="1">
+                           <p>Palletizer</p>
+                        </entry>
+                        <entry>
+                           <p>Monthly Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-001</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Quarterly Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-002</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry morerows="1">
+                           <p>Shrink Bagger</p>
+                        </entry>
+                        <entry>
+                           <p>Weekly Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-004</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Annual Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-005</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry morerows="2">
+                           <p>Strapper</p>
+                        </entry>
+                        <entry>
+                           <p>Daily Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-006</p>
+                        </entry>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Monthly Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-007</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Annual Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-008</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry morerows="1">
+                           <p>Wrapper</p>
+                        </entry>
+                        <entry>
+                           <p>Monthly Preventative Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-009</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Annual Preventative Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-011</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry morerows="1">
+                           <p>Shuttle Car</p>
+                        </entry>
+                        <entry>
+                           <p>Monthly Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-012</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Annual</p>
+                        </entry>
+                        <entry>
+                           <p>PKR-03-013</p>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry>
+                           <p>NN</p>
+                        </entry>
+                        <entry/>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

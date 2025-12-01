@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3784E37-BDF3-11F0-1267-09173F13E4C5" xml:lang="en-us">
+   <title>Coolant Water</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:00:00+05:30"/>
+         <revised modified="2025-11-14T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel,service-technicians,environmental-compliance-officers,industrial-engineers,laboratory-technicians"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>coolant-water</indexterm>
+            <indexterm>deionized-water</indexterm>
+            <indexterm>cooling-loop</indexterm>
+            <indexterm>water-treatment</indexterm>
+            <!-- Process layer -->
+            <indexterm>water-quality-testing</indexterm>
+            <indexterm>fill-and-drain-procedure</indexterm>
+            <indexterm>corrosion-control</indexterm>
+            <indexterm>contaminant-removal</indexterm>
+            <indexterm>additive-mixing</indexterm>
+            <!-- Context layer -->
+            <indexterm>plant-water-supply-standards</indexterm>
+            <indexterm>maintenance-environment</indexterm>
+            <indexterm>thermal-management</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+            <indexterm>environmental-regulations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Coolant Water"/>
+         <othermeta name="shortdesc"
+                    content="Guidance on coolant-water quality, testing, treatment, and procedures for filling or replacing water-based coolant in the cooling system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="coolant-water;deionized-water;corrosion-inhibitor;filter;test-kit;drain-plug"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:fluid-quality-control;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="water-quality,coolant-treatment,corrosion-control,testing,maintenance"/>
+         <othermeta name="usecase"
+                    content="ensure-correct-water-quality-and-treatment-for-cooling-systems"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Hard water, or water with high levels of calcium and magnesium
+ions, encourages the formation of insoluble chemical compounds by
+combining with cooling system additives such as silicates and
+phosphates.</p>
+      <p>The tendency of silicates and phosphates to precipitate
+out-of-solution increases with increasing water hardness. Hard
+water, or water with high levels of calcium and magnesium ions
+encourages the formation of insoluble chemicals, especially after a
+number of heating and cooling cycles.</p>
+      <p>Time prefers the use of distilled water or deionized water to
+reduce the potential and severity of chemical insolubility.</p>
+      <table colsep="1" frame="all" rowsep="1">
+         <tgroup cols="2">
+            <colspec colname="col1" colnum="1" colwidth="1*"/>
+            <colspec colname="col2" colnum="2" colwidth="1*"/>
+            <thead>
+               <row>
+                  <entry nameend="col2" namest="col1">Acceptable Water </entry>
+               </row>
+               <row>
+                  <entry>Water Content </entry>
+                  <entry>Limits (PPM) </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Chlorides (Cl)</entry>
+                  <entry>50 maximum</entry>
+               </row>
+               <row>
+                  <entry>Sulfates (SO<sub>4</sub>)</entry>
+                  <entry>50 maximum</entry>
+               </row>
+               <row>
+                  <entry>Total hardness</entry>
+                  <entry>80 mg/l</entry>
+               </row>
+               <row>
+                  <entry>Total solids</entry>
+                  <entry>250 maximum</entry>
+               </row>
+               <row>
+                  <entry>PH</entry>
+                  <entry>6.0 to 8.0</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>ppm = parts per million</p>
+      <p>Using water that meets the minimum acceptable water requirement
+may not prevent drop-out of these chemical compounds totally, but
+should minimise the rate to acceptable levels.</p>
+   </body>
+</topic>

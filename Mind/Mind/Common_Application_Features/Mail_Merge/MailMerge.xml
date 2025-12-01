@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="MailMerge" xml:lang="en-us">
+   <title>Mail Merge</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>mail-merge</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>document-builder</indexterm>
+            <indexterm>template-engine</indexterm>
+            <indexterm>administration-portal</indexterm>
+            <!-- Process layer -->
+            <indexterm>mail-merge-configuration</indexterm>
+            <indexterm>sending-mail-merge-documents</indexterm>
+            <indexterm>selecting-mail-templates</indexterm>
+            <indexterm>managing-mail-merge-settings</indexterm>
+            <indexterm>linking-merge-fields</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-communication</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>administrative-operations</indexterm>
+            <indexterm>form-records</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Mail Merge"/>
+         <othermeta name="shortdesc"
+                    content="The Mail Merge feature enables the configuration and sending of mail merge documents linked to form records."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mail-merge; form; record; template; merge-field"/>
+         <othermeta name="taxonomy"
+                    content="domain:administration;usecase:mail-merge;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="mail merge,templates,records,communication,automation"/>
+         <othermeta name="usecase" content="configure and manage mail merge workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Mail Merge feature enables you to send email notifications withspecific form information as an email attachment to specificrecipients. For example, you can send details ofa budget estimate as an email attachment to a set of configured recipients.You can configure the notification and the attachment to include budget estimate details such as the budget estimate ID, type, current workflow stage, and so on.</p>
+      <p>You can design a mail merge document, and create mail merge templates, and email body templates.</p>
+      <p>You can design a mail merge document in the Microsoft Word format with objects that are placeholders to include specific form information. You can then create a mail merge template by uploading the designed mail merge document. The mail merge template is configured for a form by mapping the objects in the mail merge document with the fields in the form. <ph product="Exclude_PG_Content">For more information on creating mail merge templates, refer to <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/MailMergeTemps.xml"/>.</ph>
+      </p>
+      <p>When the mail merge document is sent to configured recipients, the mapped objects are replaced with the actual field values defined in the selected record of the form. The mail merge document is sent as an email attachment to the recipients. The mail merge document can also be attached to a record of the associated form.</p>
+      <p>You can also design an email body template by defining the subject and message for the email notifications. These mail body templates are used when sending emails to the recipients. </p>
+      <p>
+         <fig>
+            <title>Mail Merge Process Overview</title>
+            <image href="../../PG_Information/Image/Mail_Merge_Functionality.jpg"
+                   placement="inline">
+               <alt>Mail Merge Process</alt>
+            </image>
+         </fig>
+      </p>
+      <p>The functional flow for mail merge is as follows:<ol>
+            <li product="Exclude_PG_Content">
+               <xref href="CrtMailMergeDcs.xml">Create mail merge documents with objects.</xref>
+            </li>
+            <li product="Exclude_PG_Content">
+               <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/MailMergeTemps.xml">Create mail merge templates.</xref>
+            </li>
+            <li product="Exclude_PG_Content">
+               <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/ConfigMailMerge.xml">Configure mail merge for a form.</xref>
+            </li>
+            <li product="Exclude_PG_Content">
+               <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/MailBodyTemps.xml">Create mail body templates.</xref>
+            </li>
+            <li>
+               <xref href="AtchMailMrgDcsToRec.xml">Attach mail merge documents to a form.</xref>
+            </li>
+            <li>
+               <xref href="SndMailMrgDcs.xml">Send mail merge documents to recipients.</xref>
+            </li>
+         </ol>
+      </p>
+   </body>
+</topic>

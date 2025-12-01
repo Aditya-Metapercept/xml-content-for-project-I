@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromNormalOperationToECOMod-170FB234" xml:lang="en">
+   <title>Transfer from Normal Operation to ECO Mode</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>eco-mode</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>display</indexterm>
+            <indexterm>breaker</indexterm>
+            <indexterm>bypass</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-to-eco-mode</indexterm>
+            <indexterm>verify-input-output</indexterm>
+            <indexterm>measure-voltage-and-current</indexterm>
+            <indexterm>switch-over</indexterm>
+            <indexterm>shutdown</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-operation</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>control-room</indexterm>
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>site-commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Transfer_from_Normal_Operation_to_ECO_Mode_TSK_0000164847"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to switch the UPS from normal operation into ECO mode — observe display and check indications before and after the transfer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="display;breaker;ups"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:transfer-to-eco-mode;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="eco-mode,ups,display,breaker,bypass,transfer-to-eco-mode,verify-input-output,ups-operation,production-floor"/>
+         <othermeta name="usecase" content="transfer-to-eco-mode"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>This menu is only available if ECO mode is enabled.</note>
+      </context>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS into ECO Mode NO, Abort►YES, UPS into ECO Mode</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS into ECO Mode</uicontrol> to
+transfer to ECO mode. The following message will appear on the display:</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">The load is supplied via the static bypass switch</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>After the transfer to ECO mode is complete, press the ESC
+key.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

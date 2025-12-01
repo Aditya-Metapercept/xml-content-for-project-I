@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC920E53-BB9C-11F0-2089-09173F13E4C5" xml:lang="en-us">
+   <title>Hot End Surface Treatment Operations Tasks - Job Change</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2021-02-12"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="HEP-03-004_hot_end_surface_treatment_operations_tasks_-_job_change.xml">
+      <topicmeta>
+         <othermeta content="HEP-03-004" name="DocumentNumber"/>
+         <othermeta content="2021-02-12" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="HEP-03-004_purpose_and_application.xml"/>
+      <topicref href="HEP-03-004_safety.xml"/>
+      <topicref href="HEP-03-004_instructions.xml"/>
+      <topicref href="HEP-03-004_required_training.xml"/>
+      <topicref href="HEP-03-004_references.xml"/>
+      <topicref href="HEP-03-004_approval.xml"/>
+      <topicref href="HEP-03-004_revision_history.xml"/>
+   </topicref>
+</topic>

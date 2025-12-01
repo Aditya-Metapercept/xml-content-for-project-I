@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC5FBFCB-BB9C-11F0-4648-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <!-- Product layer -->
+            <indexterm>document-management-system</indexterm>
+            <!-- Product layer -->
+            <indexterm>doc-publisher</indexterm>
+            <!-- Product layer -->
+            <indexterm>doc-manager</indexterm>
+            <!-- Product layer -->
+            <indexterm>git-repository</indexterm>
+            <!-- Process layer -->
+            <indexterm>revision-history</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>versioning</indexterm>
+            <!-- Process layer -->
+            <indexterm>change-log</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval</indexterm>
+            <!-- Context layer -->
+            <indexterm>engineering-documentation</indexterm>
+            <!-- Context layer -->
+            <indexterm>compliance</indexterm>
+            <!-- Context layer -->
+            <indexterm>configuration-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>production-release</indexterm>
+            <!-- Context layer -->
+            <indexterm>traceability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SBS-OP-123 revision history"/>
+         <othermeta name="shortdesc" content="Topic about SBS-OP-123 revision history."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="documentation system;version control repository;release notes;approval workflow;change request"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:revision-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="revision, versioning, approval, change-log, doc-control"/>
+         <othermeta name="usecase" content="revision-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="45.08%"/>
+               <colspec colname="c2" colwidth="45.08%"/>
+               <tbody>
+                  <row>
+                     <entry morerows="1">
+                        <p>2024-02-15</p>
+                     </entry>
+                     <entry>
+                        <p>Approved by Michael Hu, Process Development Squad Lead</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheNetworkManagementCardNMCA-712D8D4E" xml:lang="en">
+   <title>Replace the Network Management Card (NMC) AP9635</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>network-management-card-nmc-ap9635</indexterm>
+            <indexterm>network-management-card</indexterm>
+            <indexterm>ethernet-port</indexterm>
+            <indexterm>snmp-module</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>firmware</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-network-management-card-ap9635</indexterm>
+            <indexterm>isolate-management-power</indexterm>
+            <indexterm>disconnect-network-cable</indexterm>
+            <indexterm>update-firmware</indexterm>
+            <indexterm>verify-network-connectivity</indexterm>
+            <indexterm>backup-configurations</indexterm>
+            <!-- Context layer -->
+            <indexterm>remote-monitoring</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>service-center</indexterm>
+            <indexterm>site-commissioning</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>it-ops-integration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the Network Management Card (NMC) AP9635"/>
+         <othermeta name="shortdesc"
+                    content="Steps to remove and replace the NMC AP9635, including safe isolation, backing up config, firmware checks, and verification of network connectivity."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="network-management-card-ap9635;ethernet-port;snmp-module;interface-board;firmware;config-backup"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:replace-network-management-card-ap9635;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="network-management-card,replacement,firmware,maintenance,procedure,connectivity"/>
+         <othermeta name="usecase" content="replace-network-management-card-ap9635"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 50
+kVA UPS, but is applicable to all systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Note the location of the cables connected to the NMC and
+disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Slide out the NMC.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_ap9635_allkw_nmc_removenmc_w120mm_0000193690.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+NMC.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

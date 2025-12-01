@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan744" xml:lang="en">
+   <title>Managing Messages</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>messaging-module</indexterm>
+            <indexterm>buyer-supplier-communication</indexterm>
+            <indexterm>message-notifications</indexterm>
+            <indexterm>file-exchange</indexterm>
+            <!-- Process Layer -->
+            <indexterm>send-message</indexterm>
+            <indexterm>receive-message</indexterm>
+            <indexterm>manage-inbox</indexterm>
+            <indexterm>view-message-alerts</indexterm>
+            <indexterm>exchange-files</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>sourcing-communication</indexterm>
+            <indexterm>procurement-collaboration</indexterm>
+            <indexterm>buyer-supplier-interaction</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Managing Messages"/>
+         <othermeta name="shortdesc"
+                    content="Explains how buyers and suppliers use the messaging feature to send, receive, and track messages and file exchanges within the sourcing process."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="messages;communication;buyer;supplier;file-exchange;notifications;inbox;message-delivery"/>
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:managing-messages;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="messages,communication,buyer-supplier,inbox,notifications,file-sharing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Messages are the form of communication used by buyers and suppliers to exchange any information or files.</p>
+      <p>The buyer and supplier will get a notification if they have received any messages. The buyer and supplier can send and receive messages.</p>
+   </body>
+</topic>

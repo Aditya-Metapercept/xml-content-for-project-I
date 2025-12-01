@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC8DB3CE-BB9C-11F0-1664-09173F13E4C5" xml:lang="en-us">
+   <title>Inspecting a Mass Flow Controller (MFC) for Leaks</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>mass-flow-controller</indexterm>
+            <indexterm>mfc</indexterm>
+            <indexterm>flow-control-valve</indexterm>
+            <indexterm>gas-delivery-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspecting-mfc-for-leaks</indexterm>
+            <indexterm>pressure-hold-test</indexterm>
+            <indexterm>visual-inspection</indexterm>
+            <indexterm>leak-detection</indexterm>
+            <indexterm>functional-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-line</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>process-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="MLT-MR-054F inspecting a mass flow controller mfc for leaks"/>
+         <othermeta name="shortdesc"
+                    content="Stepwise instructions to inspect and verify a mass flow controller for leaks and safe operation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="mfc;valve;tubing;regulator;fitting"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:inspection;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="inspection,leak-test,maintenance,procedure,verification"/>
+         <othermeta name="usecase" content="inspect-mfc-for-leaks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Follow this procedure to inspect for leaks on the MFC after replacement:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Inspect the MFC for any possible leaks after the burner is restarted.</p>
+            <p>
+               <ul>
+                  <li>Use soapy water.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>If a leak has occurred at the flange</p>
+            <p>
+               <ul>
+                  <li>Tighten the flange bolts.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Tools Required Adjustable wrench, flange gaskets. </p>
+            <p>If the leak continues:<ul>
+                  <li>Switch back to the spare gas and oxygen circuit.</li>
+                  <li>Lockout tagout the leaking gas and oxygen circuit, and replace the flange
+                     gasket.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>After the burner is lit:</p>
+            <p>
+               <ul>
+                  <li>Go the display and press the <uicontrol>Logo</uicontrol> button to activate
+                     the backlight.</li>
+                  <li>Verify that the flow is within 5% of the setpoint. </li>
+               </ul>
+               <p>
+                  <fig id="fig_zjk_h5m_vcc">
+                     <image href="media/image1.jpg"
+                            placement="break"
+                            id="image_akk_h5m_vcc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Verify that the flow rates displayed on each MFC are at the setpoint valules on the DFC.</p>
+            <p>
+               <p>
+                  <fig id="fig_bfr_35m_vcc">
+                     <image href="media/image2.jpg"
+                            placement="break"
+                            id="image_cfr_35m_vcc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>If there is a deviation between the actual flow and the setpoint flow:</p>
+            <p>
+               <ul>
+                  <li>There may be a possible line clog.</li>
+                  <li>The MFC may require maintenance or repair.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>In DFC, go to the Melter H3C screen and click the <uicontrol>Comb. Skid
+                  1</uicontrol>, <uicontrol>Comb. Skid 2</uicontrol>, or <uicontrol>Comb. Skid
+                  3</uicontrol> tabs.</p>
+            <p>
+               <ul>
+                  <li>Verify that the line pressures are at similar values. </li>
+               </ul>
+               <p>
+                  <fig id="fig_wvl_p5m_vcc">
+                     <image href="media/image3.jpg"
+                            placement="break"
+                            id="image_xvl_p5m_vcc"
+                            align="center"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>If a line pressure is more than 0.35 bar (5.08 psi) higher than the other
+               values:</p>
+            <p>
+               <ul>
+                  <li>Inspect for any possible clogged lines between the MFC and burner.</li>
+               </ul>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

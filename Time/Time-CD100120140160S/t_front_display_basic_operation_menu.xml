@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c38D84D4-BDF3-11F0-5162-09173F13E4C5" xml:lang="en-us">
+   <title>a. Front Display (basic operation menu)</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:15:00+05:30"/>
+         <revised modified="2025-11-15T15:15:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords>
+            <indexterm>front-display</indexterm>
+            <indexterm>operator-panel</indexterm>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>display-module</indexterm>
+            <indexterm>power-on</indexterm>
+            <indexterm>menu-navigation</indexterm>
+            <indexterm>select-button</indexterm>
+            <indexterm>volume-adjust</indexterm>
+            <indexterm>basic-operations</indexterm>
+            <indexterm>operator-interface</indexterm>
+            <indexterm>training</indexterm>
+            <indexterm>user-operations</indexterm>
+            <indexterm>diagnostics</indexterm>
+            <indexterm>warehouse-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Front Display Basic Operation Menu"/>
+         <othermeta name="shortdesc"
+                    content="Description of front display buttons and basic menu navigation for operator interactions"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-button;select-button;display;speaker;menu-items"/>
+         <othermeta name="taxonomy"
+                    content="domain:powered-lift-trucks;usecase:t_front_display_basic_operation_menu;industry:heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags"
+                    content="operator-interface,display,menu-navigation,controls,training"/>
+         <othermeta name="usecase" content="operation-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image679a.png" placement="inline"/>
+         <ol id="items_uqr_wnq_wgc">
+            <li>1 POWER button<ul id="ul_nxj_znq_wgc">
+                  <li>Turns power on and off</li>
+               </ul>
+            </li>
+            <li>2 SELECT button<ul id="ul_zcm_c4q_wgc">
+                  <li>Switches camera and AV input image</li>
+               </ul>
+            </li>
+            <li>3 MENU button<ul id="ul_bzh_c4q_wgc">
+                  <li>Press shortly to adjust image</li>
+                  <li>Press 3 seconds to enter set up menu</li>
+               </ul>
+            </li>
+            <li>4 ‘▲’ button<ul id="ul_l3c_c4q_wgc">
+                  <li>Increases speaker volume</li>
+               </ul>
+            </li>
+            <li>5 ‘▼’ button<ul id="ul_fzw_b4q_wgc">
+                  <li>Decreases speaker volume</li>
+               </ul>
+            </li>
+         </ol>
+      </fig>
+   </body>
+</topic>

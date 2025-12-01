@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan740" xml:lang="en">
+   <title>Apttus STP Home page</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>stp-home-page</indexterm>
+            <indexterm>supplier-relationship-manager</indexterm>
+            <indexterm>stp-user-interface</indexterm>
+            <indexterm>sourcing-dashboard</indexterm>
+            <!-- Process Layer -->
+            <indexterm>search-functionality</indexterm>
+            <indexterm>create-new-items</indexterm>
+            <indexterm>ui-navigation</indexterm>
+            <indexterm>dashboard-review</indexterm>
+            <indexterm>recent-items-access</indexterm>
+            <indexterm>task-summary-view</indexterm>
+            <!-- Context Layer -->
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-management</indexterm>
+            <indexterm>procurement-platform</indexterm>
+            <indexterm>enterprise-dashboards</indexterm>
+            <indexterm>srm-setup-console</indexterm>
+            <indexterm>supplier-data-access</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="Apttus STP Home page"/>
+         <othermeta name="shortdesc"
+                    content="The Apttus STP Home page provides quick access to supplier information through search, dashboards, views, recent items, and task summaries."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="home page;search;create new;tabs;dashboard;recent items;tasks;sourcing events;accounts;contacts;reports"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:home-page-overview;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="stp-homepage,search,dashboard,tasks,ui-elements,sourcing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The Apttus STP Home page is the starting point of various functions in the application. The Home page enables you to access the supplier information in a variety of ways; Searching, Reporting, Dashboards, and Views.</p>
+         <p>The home page consists of the following components:</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Functionality</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Search</p>
+                        </entry>
+                        <entry>
+                           <p>This feature enables you to quickly search for various items like Sourcing Events, Sourcing Event Type, Agreements, Accounts, Contacts, Dashboards, and more. You can further search within the results for specific objects using Advanced Search feature. A search bar is available at the top of every window within the application, backed by an easy-to-use search elements.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Create New</p>
+                        </entry>
+                        <entry>
+                           <p>This button is located on the left hand side of the home page. This button provides an easy way to initiate new items like Event, Task, Account, Sourcing Event, Sourcing Event Type, Report and more.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Tabs</p>
+                        </entry>
+                        <entry>
+                           <p>These are individual tabs that provide you a broader view of specific items like Sourcing Events, SRM Setup Console, Sourcing Event Type, and more.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Dashboard</p>
+                        </entry>
+                        <entry>
+                           <p>Dashboards give you real-time snapshot of corporate metrics and key performance indicators. A dashboard is a group of different charts</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Recent Items</p>
+                        </entry>
+                        <entry>
+                           <p>The items you have visited recently.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>My Tasks</p>
+                        </entry>
+                        <entry>
+                           <p>Quick summary of tasks that are assigned to you.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallationProcedureInSystemWithBa-E1953727" xml:lang="en">
+   <title>Installation Procedure for Battery Cabinets with Control Terminal
+Block Kit</title>
+   <shortdesc>
+      <keyword>Battery cabinet, GUPXCAB600IEC, GUPXCAB600AIEC,
+GUPXCAB800IEC, GUPXCAB800AIEC</keyword>
+      <keyword>Control terminal block
+kit, GUPXCD00KIEC</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>ups-with-battery-breaker-box</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>breaker-panel</indexterm>
+            <indexterm>dc-disconnect</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <indexterm>battery-management-unit</indexterm>
+            <indexterm>breaker-assembly</indexterm>
+            <indexterm>dc-fuse</indexterm>
+            <indexterm>control-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>install-ups</indexterm>
+            <indexterm>battery-connection-procedure</indexterm>
+            <indexterm>breaker-box-wiring</indexterm>
+            <indexterm>torque-tightening</indexterm>
+            <indexterm>insulation-and-continuity-checks</indexterm>
+            <indexterm>commissioning-and-verification</indexterm>
+            <indexterm>battery-breaker-box-installation</indexterm>
+            <indexterm>battery-connection-and-polarity-checks</indexterm>
+            <indexterm>breaker-setting-adjustment</indexterm>
+            <indexterm>insulation-resistance-test</indexterm>
+            <indexterm>commissioning-sequence</indexterm>
+            <indexterm>safety-isolations</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>battery-room</indexterm>
+            <indexterm>industrial-plant-floor</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>maintenance-access</indexterm>
+            <indexterm>electrical-distribution</indexterm>
+            <indexterm>battery-room-layout</indexterm>
+            <indexterm>industrial-power-installation</indexterm>
+            <indexterm>battery-handling-procedures</indexterm>
+            <indexterm>electrical-safety-guidelines</indexterm>
+            <indexterm>fire-and-hazard-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Installation procedure — system with battery breaker box"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step installation for UPS systems integrated with a battery breaker box, covering battery connections, breaker-panel wiring and commissioning checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS;battery-bank;breaker-box;dc-disconnect;control-board;main-contactors;cables;busbars"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="installation, battery-breaker-box, wiring, commissioning, safety, torque-checks"/>
+         <othermeta name="usecase"
+                    content="Install and commission UPS with battery breaker box"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>HAZARD OF ELECTRIC SHOCK, EXPLOSION, OR ARC FLASH</typeofhazard>
+               <howtoavoid>Place the battery cabinets as close to the UPS cabinet
+as possible to limit the length of unprotected battery cable.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <table outputclass="font:10" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0" rowsep="0">
+                        <fig>
+                           <title>UPS Cabinet with Battery Breaker Box and One 600 mm or 800
+mm Battery Cabinet</title>
+                           <image href="../Images/gupxcab600-800iec_installoverview1cabnobreaker_w120mm_0000151274.svg"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry rowsep="0">
+                        <fig>
+                           <title>UPS Cabinet with Battery Breaker Box and Two 600 mm or 800
+mm Battery Cabinets</title>
+                           <image href="../Images/gupxcab600-800iec_installoverview2cabnobreaker_w120mm_0000151273.svg"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <fig>
+            <title>UPS Cabinet with Battery Breaker Box and Three 800 mm Battery
+Cabinets</title>
+            <image href="../Images/gupxcab800iec_installoverview3cabnobreaker_w120mm_0000151272.svg"
+                   placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>
+               <xref href="Remove_Kick_Plates_TSK_0000161962.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>(Only if more than one battery cabinet is installed): <xref href="Prepare_the_Battery_Cabinets_for_Installation_Reality_0000151264.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Optional: <xref href="Anchor_the_Battery_Cabinets_to_the_Floor_Option_TSK_0000151262.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Install_the_Control_Terminal_Block_Kit_TSK_0000151107.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Temperature_Sensor_Cables_TSK_0000151109.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Install_the_Kick_Plates_on_the_battery_cabinet_Reality_0000151265.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

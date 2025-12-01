@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2475CAA-BDF2-11F0-1839-09173F13E4C5" xml:lang="en">
+   <title>Performance Benchmarks</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>power-dynamics-365-connector</indexterm>
+            <!-- Process layer -->
+            <indexterm>performance-benchmarking</indexterm>
+            <indexterm>load-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>transactional-data</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Performance Benchmarks"/>
+         <othermeta name="shortdesc"
+                    content="Listed below are some the performance benchmarks:"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="benchmark-tables;test-cases;performance-metrics"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:performance-benchmarking;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="performance,benchmarks,load-testing,metrics"/>
+         <othermeta name="usecase" content="performance-benchmarking"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Listed below are some the performance benchmarks:</p>
+   </body>
+</topic>

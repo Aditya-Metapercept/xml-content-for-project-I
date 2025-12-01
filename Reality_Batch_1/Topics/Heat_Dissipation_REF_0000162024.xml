@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="HeatDissipation-106F43A0" xml:lang="en">
+   <title>Heat Dissipation</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>reality-nam-ups-with-transformer-25-50-kva</indexterm>
+            <indexterm>transformer</indexterm>
+            <indexterm>power-conversion-module</indexterm>
+            <indexterm>cabinet-fans</indexterm>
+            <indexterm>thermal-shroud</indexterm>
+            <!-- Process layer -->
+            <indexterm>calculate-heat-dissipation</indexterm>
+            <indexterm>perform-load-based-calculation</indexterm>
+            <indexterm>select-ventilation-solution</indexterm>
+            <indexterm>document-thermal-requirements</indexterm>
+            <indexterm>plan-cooling-capacity</indexterm>
+            <!-- Context layer -->
+            <indexterm>server-room-installation</indexterm>
+            <indexterm>ambient-condition-assessment</indexterm>
+            <indexterm>ventilation-layout</indexterm>
+            <indexterm>continuous-operation-environment</indexterm>
+            <indexterm>safety-clearances</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Heat Dissipation"/>
+         <othermeta name="shortdesc"
+                    content="Heat dissipation data for Reality NAM UPS with transformer (25–50 kVA) across specified voltage/ load conditions and guidance for cooling selection."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="transformer;power-module;cabinet-fans;thermal-shroud;kva-ratings"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:cooling-selection-for-ups;industry:industrial-engineering"/>
+         <othermeta name="tags"
+                    content="heat-dissipation,kva-thermal-data,ventilation-selection,cooling-capacity,installation-advice"/>
+         <othermeta name="usecase"
+                    content="determine-cooling-and-ventilation-requirements-for-25-50-kva-ups"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>480–208 V</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="34.00mm"/>
+               <colspec colname="col2"/>
+               <colspec colname="col5"/>
+               <colspec colname="col8"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">25 kVA</entry>
+                     <entry valign="top">37.5 kVA</entry>
+                     <entry valign="top">50 kVA</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Heat dissipation at 100% load (BTU/hr)</entry>
+                     <entry>9478</entry>
+                     <entry>14059</entry>
+                     <entry>18536</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 75% load (BTU/hr)</entry>
+                     <entry>7426</entry>
+                     <entry>10663</entry>
+                     <entry>13588</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 50% load (BTU/hr)</entry>
+                     <entry>5597</entry>
+                     <entry>7746</entry>
+                     <entry>9373</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 25% load (BTU/hr) <indexterm>Heat dissipation</indexterm>
+                     </entry>
+                     <entry>4524</entry>
+                     <entry>5868</entry>
+                     <entry>6600</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>600–208 V</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="34.00mm"/>
+               <colspec colname="col2"/>
+               <colspec colname="col5"/>
+               <colspec colname="col8"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">25 kVA</entry>
+                     <entry valign="top">37.5 kVA</entry>
+                     <entry valign="top">50 kVA</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <indexterm>Heat dissipation</indexterm>Heat dissipation at 100% load (BTU/hr)</entry>
+                     <entry>9901</entry>
+                     <entry>14693</entry>
+                     <entry>18536</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 75% load (BTU/hr)</entry>
+                     <entry>7746</entry>
+                     <entry>11139</entry>
+                     <entry>14217</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 50% load (BTU/hr)</entry>
+                     <entry>5982</entry>
+                     <entry>8313</entry>
+                     <entry>10114</entry>
+                  </row>
+                  <row>
+                     <entry>Heat dissipation at 25% load (BTU/hr)</entry>
+                     <entry>5166</entry>
+                     <entry>6786</entry>
+                     <entry>7824</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

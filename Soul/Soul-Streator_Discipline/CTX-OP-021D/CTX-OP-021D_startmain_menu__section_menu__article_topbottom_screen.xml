@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9D7822-BB9C-11F0-1673-09173F13E4C5" xml:lang="en-us">
+   <title>Start/Main Menu➔ Section Menu➔ Article Top/Bottom Screen </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>After the synchronization procedure has been completed, the Top and the Bottom of the
+         Article have to be set for each camera.<fig id="fig_wh2_xk3_fcc">
+            <image href="media/image6.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_xh2_xk3_fcc"/>
+         </fig>
+      </p>
+   </body>
+</topic>

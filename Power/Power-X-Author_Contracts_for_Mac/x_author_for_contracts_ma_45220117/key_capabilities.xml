@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c299FA8D-BDF2-11F0-1258-09173F13E4C5" xml:lang="en">
+   <title>Key Capabilities</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-24T12:00:00+05:30"/>
+         <revised modified="2025-11-24T12:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="product-manager,legal-counsel,contract-manager,revops,it-admin"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-contractmac-power</indexterm>
+            <indexterm>x-author-contracts</indexterm>
+            <indexterm>clm</indexterm>
+            <indexterm>integration-framework</indexterm>
+            <indexterm>template-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>clause-management</indexterm>
+            <indexterm>redline-collaboration</indexterm>
+            <indexterm>approval-routing</indexterm>
+            <indexterm>audit-and-reporting</indexterm>
+            <indexterm>field-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>contract-lifecycle</indexterm>
+            <indexterm>enterprise-legal</indexterm>
+            <indexterm>salesforce-ecosystem</indexterm>
+            <indexterm>procurement-automation</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-contractmac-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Key capabilities"/>
+         <othermeta name="shortdesc"
+                    content="Overview of core capabilities provided by Power X-Author Contracts for Mac."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="clause-engine;template;workflow;integration;report"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:feature-overview;industry:legaltech-clm"/>
+         <othermeta name="tags" content="capabilities, features, overview"/>
+         <othermeta name="usecase" content="summarise-capabilities"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Launch from Microsoft Word: Check out Apttus-tagged documents from the Microsoft Word ribbon and start negotiating immediately.</li>
+         <li>Increased Visibility and Control: Check-in, check-out, versioning, redlining and advanced reconciliation.</li>
+         <li>Centrally Controlled Contract Library: Easily access pre-approved clause library and business terms.</li>
+         <li>Salesforce1 Compatible: Merge data from Opportunities, Accounts and any other objects into contracts.</li>
+         <li>Audit Trails: Follow changes and actions.</li>
+      </ul>
+   </body>
+</topic>

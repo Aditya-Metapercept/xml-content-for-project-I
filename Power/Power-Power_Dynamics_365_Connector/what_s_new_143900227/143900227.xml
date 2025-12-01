@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c248C6ED-BDF2-11F0-5538-09173F13E4C5" xml:lang="en">
+   <title>What's New</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>release-notes</indexterm>
+            <indexterm>power-automate-activation</indexterm>
+            <indexterm>connector-solution-zip</indexterm>
+            <indexterm>import-wizard-interface</indexterm>
+            <indexterm>sync-scheduling-module</indexterm>
+            <indexterm>connector-deployment-assets</indexterm>
+            <!-- Process layer -->
+            <indexterm>activate-sync-scheduling</indexterm>
+            <indexterm>update-import-instructions</indexterm>
+            <indexterm>revise-solution-zip-path</indexterm>
+            <indexterm>correct-ui-documentation</indexterm>
+            <indexterm>enhance-release-guidance</indexterm>
+            <indexterm>apply-documentation-updates</indexterm>
+            <!-- Context layer -->
+            <indexterm>release-change-log</indexterm>
+            <indexterm>documentation-versioning</indexterm>
+            <indexterm>connector-maintenance-records</indexterm>
+            <indexterm>platform-update-history</indexterm>
+            <indexterm>sync-schedule-configuration-context</indexterm>
+            <indexterm>solution-deployment-lifecycle</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Release Notes"/>
+         <othermeta name="shortdesc"
+                    content="Release updates covering new sync scheduling steps, revised import instructions, and corrected solution ZIP file paths."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="solution-zip;import-wizard;sync-scheduler;configuration-step;release-row;ui-screenshot"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:release-note-update;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="release,update,sync-scheduling,solution-zip,import,instructions"/>
+         <othermeta name="usecase" content="release-note-update"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The following table lists changes in the documentation to support each release.</p>
+      <p>
+         <table>
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Document</p>
+                     </entry>
+                     <entry>
+                        <p>Publication Date</p>
+                     </entry>
+                     <entry>
+                        <p>Topic</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry morerows="1">
+                        <p>Summer '21</p>
+                     </entry>
+                     <entry morerows="1">
+                        <p>05 Jul 2021 </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <xref href="../configuring_email_notific_143903707/143903707.xml"
+                                 format="dita">Configuring Email Notifications</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>New topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../viewing_data_sync_run_his_143903724/143903724.xml"
+                                 format="dita">Viewing Data Sync Run History</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic to reflect several enhancements to Run History and Run History details.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">
+                        <p>Spring '21</p>
+                     </entry>
+                     <entry morerows="2"/>
+                     <entry>
+                        <p>
+                           <xref href="../deploying_the_connector_v_154927375/154927375.xml"
+                                 format="dita">Deploying the Connector</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic based on the new package deployment process.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../configuring_data_sync_con_143899280/143899280.xml"
+                                 format="dita">Configuring Data Sync Connections</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic based on changes to seeded connections.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../setting_up_sync_groups_vs_143888191/143888191.xml"
+                                 format="dita">Setting up Sync Groups</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic based on changes to seeded sync groups and updates required for users of Power Quote-to-Cash for Dynamics 365.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="8">
+                        <p>Winter '20</p>
+                     </entry>
+                     <entry morerows="8"/>
+                     <entry>
+                        <p>All topics.</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topics to reflect rebrand from Apttus-Dynamics 365 Connector to Power-Dynamics 365 Connector.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../about_this_administrator__143898850/143898850.xml"
+                                 format="dita">About this Administrator Guide</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic to reflect changes to sync scheduling.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../about_Power_dynamics_365__143887211/143887211.xml"
+                                 format="dita">About Power-Dynamics 365 Data Sync</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated connector flow diagram.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../deploying_the_connector_v_154927375/154927375.xml"
+                                 format="dita">Deploying the Connector</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>Added steps for activating Power Automate for sync scheduling.</li>
+                              <li>Updated import screenshot.</li>
+                              <li>Updated path for the solution ZIP file.</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../configuring_data_sync_con_143899280/143899280.xml"
+                                 format="dita">Configuring Data Sync Connections</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Added steps for updating the Dynamics 365 connection with Power Automate Connection Id.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../setting_up_sync_groups_vs_143888191/143888191.xml"
+                                 format="dita">Setting up Sync Groups</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic to add descriptions for sync scheduler fields.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../appending_text_to_a_field_143887219/143887219.xml"
+                                 format="dita">Appending Text to a Field Value</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>New topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Setting Up a Scheduler for Data Sync</p>
+                     </entry>
+                     <entry>
+                        <p>Deleted topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>
+                           <xref href="../data_sync_faq_vspring_21__143899274/143899274.xml"
+                                 format="dita">Data Sync FAQ</xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic due to changes in some processes and features.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Winter 2019 Patch 10 (Rev. E)</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>Deploying the Connector</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic to reflect changes to the connector deployment process in Dynamics.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Winter 2019 Patch 10 (Rev. D)</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>All topics</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topics to reflect label changes in the Data Sync connector UI.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry morerows="9">
+                        <p>Winter 2019 (Rev. C)</p>
+                     </entry>
+                     <entry morerows="9"/>
+                     <entry>
+                        <p>All topics</p>
+                     </entry>
+                     <entry>
+                        <p>Renamed document. Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>About Power-Dynamics 365 Data Sync</p>
+                     </entry>
+                     <entry>
+                        <p>Renamed and updated the topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Deploying the Connector</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Configuring Data Sync Connections</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Setting up Sync Groups</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Exporting and Importing Configurations</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Viewing Data Sync Run History</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Appendices</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Data Sync FAQ</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Known Limitations</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Winter 2019 (Rev. B)</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>Data Sync FAQ</p>
+                     </entry>
+                     <entry>
+                        <p>Updated topic to reflect changes to on-premise Dynamics support.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Winter 2019 (Rev. A)</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>Data Sync FAQ</p>
+                     </entry>
+                     <entry>
+                        <p>Updated FAQ.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Winter 2019</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>All topics</p>
+                     </entry>
+                     <entry>
+                        <p>New guide.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

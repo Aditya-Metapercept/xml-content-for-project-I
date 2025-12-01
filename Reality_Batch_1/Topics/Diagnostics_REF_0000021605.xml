@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Diagnostics-3B92A117" xml:lang="en">
+   <title>Diagnostics</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>diagnostics</indexterm>
+            <indexterm>diagnostic-tools</indexterm>
+            <indexterm>service-menu</indexterm>
+            <indexterm>event-log</indexterm>
+            <indexterm>self-test-routine</indexterm>
+            <!-- Process layer -->
+            <indexterm>run-diagnostics</indexterm>
+            <indexterm>read-event-logs</indexterm>
+            <indexterm>execute-self-test</indexterm>
+            <indexterm>collect-failure-data</indexterm>
+            <indexterm>interpret-error-codes</indexterm>
+            <!-- Context layer -->
+            <indexterm>fault-finding</indexterm>
+            <indexterm>maintenance-troubleshooting</indexterm>
+            <indexterm>service-visit-procedure</indexterm>
+            <indexterm>commissioning-checks</indexterm>
+            <indexterm>support-escalation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Diagnostics — Reference"/>
+         <othermeta name="shortdesc"
+                    content="Overview of diagnostic capabilities, test routines, event log interpretation and recommended steps for fault-finding and servicing."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="diagnostic-tools;event-log;error-code;self-test;test-routine"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:diagnostics-and-fault-finding;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="diagnostics,event-logs,self-test,troubleshooting,fault-finding"/>
+         <othermeta name="usecase"
+                    content="provide-diagnostic-procedures-and-log-interpretation-for-servicing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p/>
+      </section>
+   </body>
+</topic>

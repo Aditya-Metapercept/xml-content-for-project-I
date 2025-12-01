@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatterySpecifications-547E6EAA" xml:lang="en">
+   <title>Battery Specifications</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–100 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,maintenance,production,quality"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-module</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>ups-unit</indexterm>
+            <indexterm>dc-link</indexterm>
+            <indexterm>battery-connector</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-capacity</indexterm>
+            <indexterm>record-nominal-values</indexterm>
+            <indexterm>verify-voltage</indexterm>
+            <indexterm>inspect-terminals</indexterm>
+            <indexterm>document-specifications</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>equipment-validation</indexterm>
+            <indexterm>industrial-power-system</indexterm>
+            <indexterm>plant-operations</indexterm>
+            <indexterm>reliability-testing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery specifications — 10–80 kVA systems"/>
+         <othermeta name="shortdesc"
+                    content="Specifies electrical and physical parameters for UPS batteries rated for 10–80 kVA systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery-bank; dc-link; cabinet; connector; cell; casing"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-component-reference;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="specifications,capacity,voltage,current,dimensions,battery,design"/>
+         <othermeta name="usecase"
+                    content="reference technical characteristics of UPS batteries for engineering validation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="6">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="COLSPEC10" colwidth="1.13*"/>
+               <colspec colname="COLSPEC11" colwidth="1.28*"/>
+               <colspec colname="col2" colsep="1" colwidth="1.38*"/>
+               <colspec colname="col3" colsep="1" colwidth="1.36*"/>
+               <colspec colname="COLSPEC18" colwidth="1.36*"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry valign="top">25 kVA</entry>
+                     <entry valign="top">37.5 kVA</entry>
+                     <entry valign="top">50
+kVA</entry>
+                     <entry valign="top">75 kVA</entry>
+                     <entry valign="top">100
+kVA</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Charging
+power in % of output power </entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">20%</entry>
+                  </row>
+                  <row>
+                     <entry>Nominal
+battery voltage (VDC)</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">384</entry>
+                  </row>
+                  <row>
+                     <entry>Nominal
+float voltage (VDC)</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">436</entry>
+                  </row>
+                  <row>
+                     <entry>Boost
+charge voltage (VDC)</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">441</entry>
+                  </row>
+                  <row>
+                     <entry>End of discharge voltage (full load) (VDC)</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">321</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Battery
+current at full load and nominal battery voltage (A)</entry>
+                     <entry>69</entry>
+                     <entry>104</entry>
+                     <entry>138</entry>
+                     <entry>207</entry>
+                     <entry>276</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Battery
+current at full load and minimum battery voltage (A)</entry>
+                     <entry>83</entry>
+                     <entry>124</entry>
+                     <entry>165</entry>
+                     <entry>248</entry>
+                     <entry>331</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Restored
+energy time to 90% charge</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10">Up to 8 hours</entry>
+                  </row>
+                  <row>
+                     <entry>Temperature
+compensation</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> Adjustable</entry>
+                  </row>
+                  <row>
+                     <entry>Ripple
+current</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> &lt; 1%</entry>
+                  </row>
+                  <row>
+                     <entry>Battery
+test</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> Manual or automatic (selectable)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Deep
+discharge protection</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> Yes</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Recharge
+according to battery temperature</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> Yes</entry>
+                  </row>
+                  <row>
+                     <entry>Cold start</entry>
+                     <entry nameend="COLSPEC18" namest="COLSPEC10"> Yes</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

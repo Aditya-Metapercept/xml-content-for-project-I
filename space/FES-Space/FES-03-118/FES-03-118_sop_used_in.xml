@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c20A744E-BB02-11F0-9533-09173F13E4C5" xml:lang="en-us">
+   <title>SOP Used In</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,it-support,engineering"/>
+         <keywords><!-- Product Layer -->
+            <indexterm>metr-fes-space</indexterm>
+            <indexterm>machine-server</indexterm>
+            <indexterm>backup-sop</indexterm>
+            <indexterm>operational-procedure</indexterm>
+            <indexterm>maintenance-sop</indexterm>
+            <!-- Process Layer -->
+            <indexterm>sop-application</indexterm>
+            <indexterm>process-mapping</indexterm>
+            <indexterm>task-integration</indexterm>
+            <indexterm>procedure-reference</indexterm>
+            <indexterm>compliance-checks</indexterm>
+            <!-- Context Layer -->
+            <indexterm>production-operations</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-routines</indexterm>
+            <indexterm>quality-processes</indexterm>
+            <indexterm>safety-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SOP Used In"/>
+         <othermeta name="shortdesc"
+                    content="Maps where this SOP is applied across production, maintenance and IT operations for machine server backup configuration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sop-list;production-areas;maintenance-tasks;it-operations;quality-checkpoints"/>
+         <othermeta name="taxonomy"
+                    content="domain:operational-governance;usecase:map-sop-to-operations;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="sop, used-in, process-mapping, backup-sop"/>
+         <othermeta name="usecase" content="identify-processes-and-areas-where-sop-applies"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>FES-03-115 Loading and Activating a Software Set on a Forming Machine server</li>
+         <li>FES-03-116 Configuring a Forming Machine Server for Machine Operation</li>
+      </ol>
+   </body>
+</topic>

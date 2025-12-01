@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25D8588-BDF2-11F0-2038-09173F13E4C5" xml:lang="en">
+   <title>Qualifications</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>qualifications-engine</indexterm>
+            <indexterm>tiering-service</indexterm>
+            <indexterm>non-tiered-qualification-module</indexterm>
+            <indexterm>benefits-module</indexterm>
+            <indexterm>bucketing-service</indexterm>
+            <indexterm>qualification-dashboard</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-qualification</indexterm>
+            <indexterm>edit-qualification</indexterm>
+            <indexterm>define-tiered-qualification</indexterm>
+            <indexterm>define-non-tiered-qualification</indexterm>
+            <indexterm>associate-benefits</indexterm>
+            <indexterm>publish-qualification</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>sales-operations</indexterm>
+            <indexterm>compensation-administration</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>deal-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Qualifications"/>
+         <othermeta name="shortdesc"
+                    content="Overview of qualifications available in the product: explains qualification types, creation/editing workflows and association of benefits."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="qualification-types;qualification-workflows;benefit-associations;tiers;rules;qualification-dashboard"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="qualifications,qualification-types,creation-workflow,benefit-association,documentation,qualification-dashboard"/>
+         <othermeta name="usecase" content="document-qualification-types-and-workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The following qualifications are supported:</p>
+      <ul>
+         <li>Non-Tiered Qualifications</li>
+         <li>Tiered Qualifications</li>
+      </ul>
+   </body>
+</topic>

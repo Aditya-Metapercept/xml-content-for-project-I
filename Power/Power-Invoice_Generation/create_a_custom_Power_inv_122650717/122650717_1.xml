@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m283C7A9-BDF2-11F0-2196-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Create a Custom Power Invoice Generation for Salesforce Billing Solution</title>
+   <topicref chunk="to-content" href="122650717.xml" xml:lang="en">
+      <topicref href="create_your_own_document_generation_solution.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Create Your Own Document Generation Solution</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="create_documents_in_batches.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Create Documents in Batches</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="automate_with_Power_trigger.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Automate with Power Trigger</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="limitations.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Limitations</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

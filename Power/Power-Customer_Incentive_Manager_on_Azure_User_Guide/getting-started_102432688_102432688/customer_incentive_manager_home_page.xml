@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2572C49-BDF2-11F0-1283-09173F13E4C5" xml:lang="en">
+   <title>Customer Incentive Manager Home Page</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>customer-incentive-manager</indexterm>
+            <indexterm>dashboard</indexterm>
+            <indexterm>navigation-menu</indexterm>
+            <indexterm>program-summary</indexterm>
+            <indexterm>home-page</indexterm>
+            <indexterm>ui-elements</indexterm>
+            <!-- Process layer -->
+            <indexterm>navigate-dashboard</indexterm>
+            <indexterm>access-programs</indexterm>
+            <indexterm>review-sections</indexterm>
+            <indexterm>view-activities</indexterm>
+            <indexterm>open-modules</indexterm>
+            <indexterm>select-function</indexterm>
+            <!-- Context layer -->
+            <indexterm>incentive-operations</indexterm>
+            <indexterm>revenue-management</indexterm>
+            <indexterm>workflow-overview</indexterm>
+            <indexterm>program-management</indexterm>
+            <indexterm>operational-review</indexterm>
+            <indexterm>user-navigation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Customer Incentive Manager Home Page"/>
+         <othermeta name="shortdesc"
+                    content="Displays the key navigation and functional panels available on the Customer Incentive Manager home page."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="dashboard;ui-widget;menu-panel;program-summary;activity-tile;navigation-bar"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="dashboard,ui,customer-incentive-manager,navigation,program-management,overview"/>
+         <othermeta name="usecase" content="explain-ui-overview"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>After you logged in, you are navigated to the Home page. Home page displays program details for all the created programs, as shown in the below image.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="700"
+                   href="../attachments/102432688/102432737.jpg"/>
+         </fig>
+      </p>
+      <p>You can perform following actions on the Home page:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Field</p>
+                     </entry>
+                     <entry>
+                        <p>User Action</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>New Program</p>
+                     </entry>
+                     <entry>
+                        <p>Click New Program button to create a new program.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Select View</p>
+                     </entry>
+                     <entry>
+                        <p>Select the required option from the Select View drop-down list to set your desired view of the page.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Search Filter</p>
+                     </entry>
+                     <entry>
+                        <p>Select Search Filters to specify filter criteria and fields to display.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Display</p>
+                     </entry>
+                     <entry>
+                        <p>Select Display option to set the number of the programs to be displayed on the home page.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PrepareForCablesOnThe25-50KVAUPSWit-8D979F4E" xml:lang="en">
+   <title>Prepare the UPS Cabinet for Cables in Systems with Adjacent
+Battery Cabinet(s)</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–50 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>25-50-kva-ups</indexterm>
+            <indexterm>battery-cabinet</indexterm>
+            <indexterm>adjacent-battery-cabinet</indexterm>
+            <indexterm>power-cable</indexterm>
+            <indexterm>cable-entry</indexterm>
+            <!-- Process layer -->
+            <indexterm>prepare-for-cables</indexterm>
+            <indexterm>bottom-cable-entry-preparation</indexterm>
+            <indexterm>cable-routing</indexterm>
+            <indexterm>separation-and-clearance</indexterm>
+            <indexterm>shielding-and-earthing</indexterm>
+            <indexterm>commissioning</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>battery-cabinet-installation</indexterm>
+            <indexterm>25-50-kva-installation</indexterm>
+            <indexterm>site-environment</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Prepare for Cables on the 25–50 kVA UPS with an Adjacent Battery Cabinet"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to prepare cable entry and routing for 25–50 kVA UPS located next to a battery cabinet, covering clearances and earthing."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="25-50-kva-ups;battery-cabinet;power-cable;cable-entry;clearance;earthing"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags"
+                    content="25-50-kva,cables,battery-cabinet,clearance,earthing"/>
+         <othermeta name="usecase" content="prepare-for-cable-installation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Remove the two plates in the bottom of the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_connect_power_cables_remove_plates_120mm_0000104238.svg"
+                         scalefit="yes"
+                         scope="local"
+                         translate="no"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the position of the two cable inlets inside the UPS
+cabinet and mark it on the left side panel.</p>
+         </li>
+         <li>
+            <p>Remove the left side panel from the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_remove_left_side_panel_120mm_0000114596.svg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Drill/cut holes in the marked cable inlet positions and
+install conduits for power cables and for signal cables in the side
+panel. Conduits are not provided.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>Hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>Do not drill or cut holes for cables or conduits with
+the side panel installed and do not drill or cut holes in close proximity
+to the UPS.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50kva_hole_side-panel_for-Bcabinet_Iview_120mm_0000116510.svg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reinstall the side panel on the UPS cabinet.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

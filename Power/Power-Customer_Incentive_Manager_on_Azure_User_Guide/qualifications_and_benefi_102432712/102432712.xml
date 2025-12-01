@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25DC55E-BDF2-11F0-4964-09173F13E4C5" xml:lang="en">
+   <title>Qualifications and Benefits - Bundle Saving Programs</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>bundle-saving-program</indexterm>
+            <indexterm>bundle-configuration</indexterm>
+            <indexterm>bundle-eligibility-module</indexterm>
+            <indexterm>bundle-reward-engine</indexterm>
+            <indexterm>product-bundles</indexterm>
+            <indexterm>discount-rule-set</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-bundle-rewards</indexterm>
+            <indexterm>define-bundle-eligibility</indexterm>
+            <indexterm>map-products-to-bundles</indexterm>
+            <indexterm>apply-discount-rules</indexterm>
+            <indexterm>validate-bundle-conditions</indexterm>
+            <indexterm>publish-bundle-offer</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>promotions-and-offers</indexterm>
+            <indexterm>catalog-management</indexterm>
+            <indexterm>billing-and-invoicing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Qualifications and Benefits - Bundle Saving Programs"/>
+         <othermeta name="shortdesc"
+                    content="Describes how bundle saving programs are defined and managed: setting bundle eligibility, configuring discounted bundles, mapping SKUs to bundles and validating bundle-specific rewards."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bundle-program;product-bundle;discount-rule;sku;promotion-offer;billing-line-item"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="bundle,discount,promotion,sku,mapping,eligibility"/>
+         <othermeta name="usecase"
+                    content="configure and validate bundle-based reward programs"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Qualifications and Benefits feature allows you to provide benefits at the bundle level for a set of products or categories. Bundles are a set of products grouped together and sold at a parent level, but not at the individual product level. For more information about Tiered and Non-tiered qualifications and benefits, refer to the <xref href="../qualifications_and_benefi_102432700/102432700.xml"
+               format="dita">Qualifications and Benefits</xref> section.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="700"
+                   href="../attachments/102432712/107118620.jpg"/>
+         </fig>
+      </p>
+      <p>The following table describes the actions you can take on the Qualifications and Benefits page:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Bundle Name</p>
+                     </entry>
+                     <entry>
+                        <p>Select the bundle name for the set of products you want to buy.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Product Name</p>
+                     </entry>
+                     <entry>
+                        <p>Add products or categories in the Product Name column. For adding products or categories, please refer to the <xref href="../adding-products_102432695_102432695/102432695_1.xml"
+                                 format="dita">Adding Products</xref> section. Products are the list of products which are purchased by customers at the bundle level.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>UOM (Unit Of Measures)</p>
+                     </entry>
+                     <entry>
+                        <p>It defaults to Each.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Type</p>
+                     </entry>
+                     <entry>
+                        <p>Auto-populated based on the products or categories selected.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Unit</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the unit of the product.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Unit Price</p>
+                     </entry>
+                     <entry>
+                        <p>Enter the price of the product.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Extended Price</p>
+                     </entry>
+                     <entry>
+                        <p>Auto-calculated price for the whole unit of the product.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bundle Price</p>
+                     </entry>
+                     <entry>
+                        <p>Aggregated price of the products that are grouped in the bundle.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save</p>
+                     </entry>
+                     <entry>
+                        <p>Saves the changes.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

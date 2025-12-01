@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8A04E2-BB9C-11F0-1756-09173F13E4C5" xml:lang="en-us">
+   <title>Tools &amp; Equipment</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>hand-tools</indexterm>
+            <indexterm>calibration-equipment</indexterm>
+            <indexterm>pressure-testing-kit</indexterm>
+            <indexterm>maintenance-tools</indexterm>
+            <indexterm>metR-MLT-Soul</indexterm>
+            <!-- Process layer -->
+            <indexterm>equipment-preparation</indexterm>
+            <indexterm>tool-selection</indexterm>
+            <indexterm>instrument-calibration-support</indexterm>
+            <indexterm>maintenance-readiness</indexterm>
+            <indexterm>safe-tool-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>melter-operations</indexterm>
+            <indexterm>industrial-maintenance</indexterm>
+            <indexterm>process-engineering</indexterm>
+            <indexterm>work-environment-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Tools and Equipment"/>
+         <othermeta name="shortdesc"
+                    content="Lists the tools and equipment required for melter maintenance, calibration tasks, and pressure transmitter servicing."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="hand-tools;calibration-equipment;pressure-testing-kit;maintenance-tools;industrial-instrumentation"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:equipment-preparation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="tools,equipment,calibration,maintenance,melter,pressure-testing"/>
+         <othermeta name="usecase" content="equipment-preparation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>HEPA vacuum, long pry bar, mallet, reinforced shovel, air chisel, MSA air monitor.</li>
+         <li>Access to DFC software.</li>
+      </ul>
+   </body>
+</topic>

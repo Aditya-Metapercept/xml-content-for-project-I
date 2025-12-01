@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38B68AE-BDF3-11F0-1519-09173F13E4C5" xml:lang="en-us">
+   <title>Changing Secondary Element</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:30:00+05:30"/>
+         <revised modified="2025-11-15T15:30:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>secondary-element</indexterm>
+            <indexterm>component-replacement</indexterm>
+            <indexterm>assembly</indexterm>
+            <indexterm>service-part</indexterm>
+            <!-- Process layer -->
+            <indexterm>replacement</indexterm>
+            <indexterm>disassembly</indexterm>
+            <indexterm>reassembly</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>safety-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>industrial-plant</indexterm>
+            <indexterm>fleet-management</indexterm>
+            <indexterm>warehouse</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Changing Secondary Element"/>
+         <othermeta name="shortdesc"
+                    content="Steps to remove and replace a secondary element (service component), including precautions and validation checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="secondary-element;component;service-part"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery-and-industrial-equipment;usecase:component-replacement;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="change,secondary,element"/>
+         <othermeta name="usecase" content="service-replacement"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Replace the secondary element after the primary element has been
+cleaned three times or yearly.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the primary air cleaner element. See topic “Servicing Filter Element”. Clean
+        the inside of the air cleaner housing and cover.</p>
+            <p>
+               <fig id="fig_fhz_1wz_5gc">
+                  <image href="media/image1130.png"
+                         id="image_hhz_1wz_5gc"
+                         placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Remove the secondary element. Inspect the gasket between the air cleaner housing and
+        the engine inlet. Replace the gasket if it is damaged.</p>
+            <p>
+               <note id="note_y4h_cwz_5gc" type="notice">
+                  <p>Always replace the secondary element. Do not attempt to reuse it by cleaning.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Install a new secondary element. Install a new or cleaned
+primary element. Install the cover. Tighten the latches.</p>
+         </li>
+         <li>
+            <p>Start the engine and observe the air cleaner service indicator.
+If the indicator shows RED after installing a new secondary element
+and a cleaned primary (outer) element, replace the cleaned primary
+filter with a new element.</p>
+         </li>
+         <li>
+            <p>Stop the engine. Close the hood and seat assembly.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

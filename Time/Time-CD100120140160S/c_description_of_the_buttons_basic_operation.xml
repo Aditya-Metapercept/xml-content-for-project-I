@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c378DECF-BDF3-11F0-6214-09173F13E4C5" xml:lang="en-us">
+   <title>a. Description of the Buttons (Basic Operation)</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:00:00+05:30"/>
+         <revised modified="2025-11-14T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,training-instructors,service-technicians"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>operator-interface</indexterm>
+            <indexterm>push-button-array</indexterm>
+            <indexterm>display-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>basic-operation</indexterm>
+            <indexterm>button-functions</indexterm>
+            <indexterm>start-stop-procedure</indexterm>
+            <indexterm>control-panel-walkthrough</indexterm>
+            <indexterm>user-interface-checks</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-training</indexterm>
+            <indexterm>routine-operations</indexterm>
+            <indexterm>manual-handling-tasks</indexterm>
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>equipment-commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Description of the Buttons — Basic Operation"/>
+         <othermeta name="shortdesc"
+                    content="Explains the control-panel buttons, their functions, and the basic start/stop and operating procedures for the equipment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="control-panel;start-button;stop-button;emergency-stop;display;indicator-led"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:operator-interface;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="control-panel,operator-interface,emergency-stop,indicators,operational-checks"/>
+         <othermeta name="usecase" content="operator-orientation-and-basic-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <fig id="fig_tfl_w3k_ygc">
+            <image href="media/image612.png" id="image_ufl_w3k_ygc" placement="inline"/>
+            <ol id="items_vfl_w3k_ygc">
+               <li>1 POWER button<ul id="ul_wfl_w3k_ygc">
+                     <li>Touch the button to turn on the monitor.</li>
+                     <li>Touch the button again to turn the power off.</li>
+                  </ul>
+               </li>
+               <li>2 SELECT button<ul id="ul_xfl_w3k_ygc">
+                     <li>Touch the button to select a camera.</li>
+                     <li>The button is used to select an item on the Setup menu.</li>
+                  </ul>
+               </li>
+               <li>3 MENU button<ul id="ul_yfl_w3k_ygc">
+                     <li>Enter the menu selection mode by pressing the Display menu (press shortly) or
+                  the Main menu (press long), using the button.</li>
+                     <li>Touch once to enter the menu mode.</li>
+                     <li>Touch again to exit from the menu mode.</li>
+                     <li>The menu selection OSD menu will disappear within 7 seconds, if no touch is
+                  made.</li>
+                     <li>Touch the Menu button more than 2 seconds to return to the Main menu from the
+                  sub-menu.</li>
+                  </ul>
+               </li>
+               <li>4 5. ‘▲’button ‘▼’ button<ul id="ul_zfl_w3k_ygc">
+                     <li>Use the ▲ and ▼ button for the available menu option.</li>
+                     <li>Touch the Menu button to adjust brightness, contrast, color, tint, and other
+                  settings.</li>
+                  </ul>
+               </li>
+               <li>5 DAY/NIGHT SENSOR<ul id="ul_agl_w3k_ygc">
+                     <li>Automatic brightness control</li>
+                     <li>Screen brightness is automatically controlled according to surrounding
+                  brightness.</li>
+                  </ul>
+               </li>
+            </ol>
+         </fig>
+      </p>
+   </body>
+</topic>

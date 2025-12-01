@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UPSWeightsAndDimensions-35266BFC" xml:lang="en">
+   <title>UPS Weights and Dimensions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>shipping-pallet</indexterm>
+            <indexterm>packaging</indexterm>
+            <indexterm>crate</indexterm>
+            <indexterm>lifting-eyes</indexterm>
+            <!-- Process layer -->
+            <indexterm>weigh-and-dimensions</indexterm>
+            <indexterm>shipping</indexterm>
+            <indexterm>load-securing</indexterm>
+            <indexterm>forklift-handling</indexterm>
+            <indexterm>transport-safety</indexterm>
+            <indexterm>packaging-requirements</indexterm>
+            <!-- Context layer -->
+            <indexterm>factory-shipping</indexterm>
+            <indexterm>logistics</indexterm>
+            <indexterm>field-delivery</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="UPS Weights and Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Reference table of UPS weights and dimensions to inform handling, shipping and installation planning."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS; shipping pallet; crate; packaging materials; lifting eyes; forklift; weight tables; dimensions"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:shipping-and-handling;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="weights,dimensions,shipping,installation,logistics"/>
+         <othermeta name="usecase" content="shipping-and-handling"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="9">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="COLSPEC0"/>
+               <colspec colname="COLSPEC6"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="COLSPEC5"/>
+               <colspec colname="COLSPEC4"/>
+               <colspec colname="col5"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC6" namest="col2" valign="top">
+                        <p>Weight kg</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>Height mm</p>
+                     </entry>
+                     <entry nameend="COLSPEC4" namest="col4" valign="top">
+                        <p>Width mm</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>Depth mm</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Without Transformer</entry>
+                     <entry valign="top">With 1 Transformer</entry>
+                     <entry valign="top">With 2 Transformers</entry>
+                     <entry valign="top"/>
+                     <entry valign="top">Without Transformer</entry>
+                     <entry valign="top">With 1 Transformer</entry>
+                     <entry valign="top">With 2 Transformers</entry>
+                     <entry valign="top"/>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>10 kVA UPS</entry>
+                     <entry>310</entry>
+                     <entry>420</entry>
+                     <entry>530</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>20 kVA UPS</entry>
+                     <entry>310</entry>
+                     <entry>455</entry>
+                     <entry>600</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>30 kVA UPS</entry>
+                     <entry>340</entry>
+                     <entry>520</entry>
+                     <entry>700</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>40 kVA UPS</entry>
+                     <entry>340</entry>
+                     <entry>545</entry>
+                     <entry>750</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>50 kVA UPS</entry>
+                     <entry>420</entry>
+                     <entry>720</entry>
+                     <entry>1020</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>1000</entry>
+                     <entry>1000</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>60 kVA UPS</entry>
+                     <entry>420</entry>
+                     <entry>720</entry>
+                     <entry>1020</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>1000</entry>
+                     <entry>1000</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>80 kVA UPS</entry>
+                     <entry>460</entry>
+                     <entry>820</entry>
+                     <entry>1180</entry>
+                     <entry>2100</entry>
+                     <entry>600</entry>
+                     <entry>1000</entry>
+                     <entry>1000</entry>
+                     <entry>800</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

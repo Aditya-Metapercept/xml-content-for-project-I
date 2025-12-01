@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2371C69-BDF2-11F0-2105-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Adobe Sign Services for REST API Developers Map</title>
+   <topicref href="adobe_sign_services_for_r_154938248/154938248.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Adobe Sign Services for REST API Developers</navtitle>
+      </topicmeta>
+      <topicref href="about_rest_api_guide_vspr_143887969/143887969.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>About REST API Guide</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="what_s_new_in_rest_api_guide_143887975/143887975.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>What's New in REST API Guide</navtitle>
+         </topicmeta>
+      </topicref>
+      <mapref href="adobe_sign_services_rest__143887979/143887979_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Adobe Sign Services REST API</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m25668B6-BDF2-11F0-9068-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Duplicating Sections</title>
+   <topicref chunk="to-content" href="102432723.xml" xml:lang="en">
+      <topicref href="use_case_duplicating_a_section.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Use Case: Duplicating a section</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

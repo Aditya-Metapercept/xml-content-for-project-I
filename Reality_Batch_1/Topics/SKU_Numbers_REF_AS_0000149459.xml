@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SKUNumbers-DAD0DB6A" xml:lang="en">
+   <title>SKU Numbers</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>sku-list</indexterm>
+            <indexterm>part-number</indexterm>
+            <indexterm>battery-module</indexterm>
+            <indexterm>transformer</indexterm>
+            <indexterm>main-contactor</indexterm>
+            <!-- Process layer -->
+            <indexterm>lookup-sku</indexterm>
+            <indexterm>order-parts</indexterm>
+            <indexterm>inventory-management</indexterm>
+            <indexterm>part-replacement</indexterm>
+            <indexterm>validate-sku</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse-management</indexterm>
+            <indexterm>spare-parts-handling</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>procurement</indexterm>
+            <indexterm>manufacturing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SKU Numbers (AS)"/>
+         <othermeta name="shortdesc"
+                    content="Reference list of SKU and part numbers for modules and assemblies used in the UPS product family."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sku list;battery module;transformer;main contactor;control board"/>
+         <othermeta name="taxonomy"
+                    content="domain:warehouse-management;usecase:parts-identification-and-ordering;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="sku,parts,inventory,procurement,spares"/>
+         <othermeta name="usecase" content="parts-identification-and-ordering"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <note>The Reality PXC UPS system consists of a combination
+of the below SKU's</note>
+         <note>These references may be preceded and/or
+followed by additional alphanumeric characters.</note>
+      </section>
+      <section>
+         <title>Cabinets</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCUPS</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSH20</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSH40</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSH60</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSH80</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCUPSI20</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSI40</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSI60</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSI80</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Power Modules</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCUPS01</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPS02</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPS03</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPS04</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCUPS05</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPS06</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPS08</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Voltage</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCUPSV1</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSV2</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPSV3</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p> GUPXCINC01IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC01HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC02IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC02HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC03IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC03HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC04IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCINC04HIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Options</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <p>Integrated</p>
+                        <ul>
+                           <li>
+                              <p>GUPXCOPT1</p>
+                           </li>
+                           <li>
+                              <p>GUPXCOPT2</p>
+                           </li>
+                           <li>
+                              <p>GUPXCOPT3</p>
+                           </li>
+                           <li>
+                              <p>GUPXCOPT4</p>
+                           </li>
+                           <li>
+                              <p>GUPXCOPT5</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <p>External</p>
+                        <ul>
+                           <li>
+                              <p>GUPXCXOPT01IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCXOPT02IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCXOPT03IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCXOPT04IEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Transformers in the UPS</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCUPST1</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST2</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST3</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST4</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST5</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST6</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST7</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST8</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST9</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST10</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST11</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST12</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST13</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST14</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST15</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST16</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST17</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST18</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST19</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST20</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCUPST21</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST22</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST23</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST24</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST25</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST26</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST27</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST28</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST30</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST32</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST33</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST34</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST35</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST36</p>
+                           </li>
+                           <li>
+                              <p>GUPXCUPST38</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Auxiliary Cabinets and Options</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCTAUXIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX10HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX10IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX20HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX20IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX30HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX30IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX40HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX40IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX50HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX50IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX60HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX60IIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX80HIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCTAUX80IIEC	</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCAUXIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA400IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA600IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA400TIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA600TIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA400CIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA600CIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA400TCIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAA600TCIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAATIKIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAACIKIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Cabinets</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCAB400AIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAB600IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAB600AIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCAB800IEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCAB800AIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Breaker Boxes</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCD10BIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD20BIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD30BIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD40BIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCD50BIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD60BIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD80BIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Breaker and Terminal Block Kits</title>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <ul>
+                           <li>
+                              <p>GUPXCD00KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD10KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD20KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD30KIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                     <entry>
+                        <ul>
+                           <li>
+                              <p>GUPXCD40KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD50KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD60KIEC</p>
+                           </li>
+                           <li>
+                              <p>GUPXCD80KIEC</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <p>Wettingen, 4. April 2018</p>
+         <p>Gert Andersen</p>
+         <p>Chief Technology Officer</p>
+      </section>
+   </body>
+</topic>

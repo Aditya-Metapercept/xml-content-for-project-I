@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r202EDD4-BB02-11F0-1639-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="engineering,maintenance,network,operations,quality,management"/>
+         <keywords><!-- Product -->
+            <indexterm>integrity-fsc-server</indexterm>
+            <indexterm>MOC</indexterm>
+            <indexterm>JES</indexterm>
+            <indexterm>telnet</indexterm>
+            <indexterm>COM-SOC II</indexterm>
+            <!-- Process -->
+            <indexterm>reference-list</indexterm>
+            <indexterm>manuals-and-guides</indexterm>
+            <indexterm>firmware-and-boot-guides</indexterm>
+            <indexterm>network-configuration-guides</indexterm>
+            <indexterm>MOC-procedures-and-forms</indexterm>
+            <indexterm>JES-job-definitions</indexterm>
+            <indexterm>telnet-usage-and-security</indexterm>
+            <indexterm>COM-SOC-II-boot-procedures</indexterm>
+            <!-- Context -->
+            <indexterm>industrial-control-standards</indexterm>
+            <indexterm>plant-network-architecture</indexterm>
+            <indexterm>serial-console-reference</indexterm>
+            <indexterm>vendor-service-bulletins</indexterm>
+            <indexterm>site-operational-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="References"/>
+         <othermeta name="shortdesc"
+                    content="Normative and informative references for the Integrity FSC Server: MOC paperwork, JES specs, Telnet/security documentation, COM-SOC II boot and firmware resources, vendor bulletins and network configuration guides."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="internal-network"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="MOC tickets;JES job files;Telnet configuration documents;COM-SOC II boot manuals;vendor bulletins;firmware images"/>
+         <othermeta name="taxonomy"
+                    content="domain:knowledgebase;usecase:reference-collection;industry:industrial-automation"/>
+         <othermeta name="tags"
+                    content="references,MOC,JES,telnet,COM-SOC-II,firmware,network-guides"/>
+         <othermeta name="usecase"
+                    content="list-normative-and-informative-references-for-network-and-boot-operations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ul>
+            <li>SOP-16-001-A – Recommended DNS Settings for Space Plants</li>
+         </ul>
+      </section>
+      <section id="section_gzm_xpt_qzb">
+         <title>Document Classification</title>
+         <ul id="ul_e2x_ypt_qzb">
+            <li>Asset Protection and Stability</li>
+            <li>Organization and Training</li>
+         </ul>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t25AB7C3-BDF2-11F0-1473-09173F13E4C5" xml:lang="en">
+   <title>To Create a Secondary Package</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>secondary-package</indexterm>
+            <indexterm>package-saving-program</indexterm>
+            <indexterm>product-catalog</indexterm>
+            <indexterm>package-type</indexterm>
+            <indexterm>beneficiary-line</indexterm>
+            <indexterm>primary-package</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-secondary-package</indexterm>
+            <indexterm>select-product</indexterm>
+            <indexterm>set-package-type</indexterm>
+            <indexterm>add-beneficiary-lines</indexterm>
+            <indexterm>save-package</indexterm>
+            <indexterm>validate-secondary-package</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>catalog-management</indexterm>
+            <indexterm>billing-configuration</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>sales-operations</indexterm>
+            <indexterm>order-fulfilment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To Create a Secondary Package"/>
+         <othermeta name="shortdesc"
+                    content="You can also add a product as a secondary product directly from the product catalog, set Package Type as Secondary Package and save."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="secondary-package;product-catalog;package-type;beneficiary-line;save-action;validation-rule"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="create-secondary-package,product-selection,package-type,save,beneficiary-lines,validation"/>
+         <othermeta name="usecase"
+                    content="instructions-to-create-and-save-secondary-packages"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From your Package Savings Program, go to Qualifications and Benefits tab.</p>
+         </li>
+         <li>
+            <p>Add products to your package. By, default, the package type is Primary. Refer to <xref href="../adding-products_102432695_102432695/102432695_1.xml"
+                     format="dita">Adding Products</xref> for more details.</p>
+         </li>
+         <li>
+            <p>Click Save.</p>
+         </li>
+         <li>
+            <p>To add a product as secondary, under the Products in Bundle tab, click <uicontrol>Add Secondary Product</uicontrol> from the more menu.  A copy of the primary package is created with Package Type as Secondary.</p>
+         </li>
+         <li>
+            <p>Enter the unit price.</p>
+         </li>
+         <li>
+            <p>The bundle price is auto-calculated to reflect all the changes.</p>
+         </li>
+         <li>
+            <p>Click Save.</p>
+         </li>
+      </ol>
+      <div>
+         <p>You can also add a product as a secondary product directly from the Product Catalog. When adding a product from the product catalog, set Package Type as Secondary Package and save.</p>
+      </div>
+   </body>
+</topic>

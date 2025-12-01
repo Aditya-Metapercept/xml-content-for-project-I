@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ClearTheEventLog-461DF6EB" xml:lang="en">
+   <title>Clear the Event Log</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>event-log</indexterm>
+            <indexterm>ups-display</indexterm>
+            <indexterm>system-logs</indexterm>
+            <indexterm>log-entries</indexterm>
+            <indexterm>front-panel-ui</indexterm>
+            <!-- Process layer -->
+            <indexterm>clear-event-log</indexterm>
+            <indexterm>navigate-main-menu</indexterm>
+            <indexterm>select-event-log</indexterm>
+            <indexterm>confirm-delete</indexterm>
+            <indexterm>use-up-down-keys</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>log-management</indexterm>
+            <indexterm>diagnostics</indexterm>
+            <indexterm>operator-action</indexterm>
+            <indexterm>production-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Clear the Event Log"/>
+         <othermeta name="shortdesc"
+                    content="Task instructions to clear the UPS event log from the front-panel display using the navigation keys and confirmation steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="event log; log entry; display panel; confirmation prompt; navigation keys"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:log-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="event-log,clear-event-log,operator-steps,diagnostics,maintenance"/>
+         <othermeta name="usecase" content="diagnostic-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>Event Log</uicontrol>
+                  <uicontrol>Clear Log</uicontrol>
+                  <uicontrol>YES, Clear Log</uicontrol>
+               </menucascade> using the UP/DOWN
+keys and the ENTER key. </p>
+         </li>
+      </ol>
+   </body>
+</topic>

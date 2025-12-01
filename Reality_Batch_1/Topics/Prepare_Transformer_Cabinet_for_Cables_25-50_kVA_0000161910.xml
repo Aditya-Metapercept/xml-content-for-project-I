@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PrepareTransformerCabinetForCables-0F65C497" xml:lang="en">
+   <title>Prepare the Transformer Cabinet for Cables for Bottom Entry
+Systems</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>transformer-cabinet</indexterm>
+            <indexterm>pxc-module</indexterm>
+            <indexterm>distribution-board</indexterm>
+            <indexterm>power-distribution-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>prepare-transformer-cabinet</indexterm>
+            <indexterm>remove-bottom-front-plate</indexterm>
+            <indexterm>install-bottom-gland-plate</indexterm>
+            <indexterm>cable-entry-bottom-entry</indexterm>
+            <indexterm>secure-cable-clamps</indexterm>
+            <indexterm>verify-mechanical-fixing</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>transformer-cabinet-bottom-entry</indexterm>
+            <indexterm>industrial-plant-floor</indexterm>
+            <indexterm>on-site-cable-routing</indexterm>
+            <indexterm>maintenance-preparation</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Prepare the Transformer Cabinet for Cables for Bottom Entry Systems"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to remove the transformer cabinet bottom front plate, prepare the bottom gland plate and route bottom-entry power cables for 25–50 kVA UPS transformer cabinets."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="transformer cabinet;bottom gland plate;bottom front plate;power cables;cable clamps;25-50 kVA UPS"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="transformer-cabinet,cable-entry,bottom-gland-plate,25-50-kva,installation,mechanical-fixing"/>
+         <othermeta name="usecase"
+                    content="prepare-transformer-cabinet-for-bottom-cable-entry"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Remove the screws and the bottom front plate from the transformer
+cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the Transformer Cabinet</title>
+                  <image href="../Images/Reality_50ditransf_prepareremoveplateforpower_w120mm_0000161923.svg"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the bottom gland plate in the transformer cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the Transformer Cabinet</title>
+                  <image href="../Images/Reality_50ditransf_preparebottomentry_w120mm_0000161953.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Drill holes and install conduits for bypass cables in the
+bottom gland plate. Conduits are not provided.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>Hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>Do not drill or cut holes for cables or conduits with
+the gland plate installed and do not drill or cut holes in close proximity
+to the UPS.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reinstall the bottom gland plate in the transformer cabinet.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

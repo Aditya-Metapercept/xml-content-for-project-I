@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan751" xml:lang="en">
+   <title>
+      <image height="16"
+             width="16"
+             href="../images/icons/contenttypes/home_page_16.png"
+             placement="inline"/>Source To Pay February 2017 User Guide</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>source-to-pay-user-guide</indexterm>
+            <indexterm>stp-documentation</indexterm>
+            <indexterm>supplier-guidance</indexterm>
+            <indexterm>procurement-user-guide</indexterm>
+            <indexterm>stp-reference-manual</indexterm>
+            <!-- Process Layer -->
+            <indexterm>stp-overview</indexterm>
+            <indexterm>supplier-process-reference</indexterm>
+            <indexterm>procurement-documentation-process</indexterm>
+            <indexterm>source-to-pay-instructions</indexterm>
+            <indexterm>user-guide-navigation</indexterm>
+            <indexterm>documentation-workflow</indexterm>
+            <!-- Context Layer -->
+            <indexterm>source-to-pay</indexterm>
+            <indexterm>supplier-operations</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+            <indexterm>supplier-lifecycle</indexterm>
+            <indexterm>procurement-environment</indexterm>
+            <indexterm>supplier-ecosystem</indexterm>
+         </keywords>
+         <!-- Product info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- Metadata fields -->
+         <othermeta name="title" content="Source To Pay February 2017 User Guide"/>
+         <othermeta name="shortdesc"
+                    content="Source To Pay February 2017 User Guide provides supplier-facing reference information for using the Source To Pay features."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="source to pay user guide;supplier guidance;procurement documentation;stp features;user instructions"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:user-guide-overview;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="user-guide,source-to-pay,supplier-onboarding,procurement,documentation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <image height="16"
+                width="16"
+                href="../images/icons/contenttypes/home_page_16.png"
+                placement="inline"/>
+      Source To Pay February 2017 User Guide : Source To Pay February 2017 User Guide
+    </p>
+   </body>
+</topic>

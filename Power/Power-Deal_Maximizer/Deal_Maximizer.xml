@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2609161-BDF2-11F0-2022-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Deal Maximizer</title>
+   <mapref href="about_Power_deal_maximize_195690867/195690867_1.xml"
+           format="ditamap"
+           xml:lang="en">
+      <topicmeta>
+         <navtitle>About Power Deal Maximizer</navtitle>
+      </topicmeta>
+   </mapref>
+   <topicref href="what_s_new_in_deal_maximizer_239537356/239537356.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>What's New in Deal Maximizer Documentation</navtitle>
+      </topicmeta>
+   </topicref>
+   <mapref href="183763017_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Deal Maximizer for Administrators Map</navtitle>
+      </topicmeta>
+   </mapref>
+   <mapref href="183763029_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Deal Maximizer for Users Map</navtitle>
+      </topicmeta>
+   </mapref>
+   <mapref href="deal_maximizer_features_b_183763079/183763079_1.xml"
+           format="ditamap"/>
+   <mapref href="Power_customer_community_184422356/184422356_1.xml"
+           format="ditamap"
+           xml:lang="en">
+      <topicmeta>
+         <navtitle>Power Customer Community &amp; Learning Center Resources</navtitle>
+      </topicmeta>
+   </mapref>
+</topic>

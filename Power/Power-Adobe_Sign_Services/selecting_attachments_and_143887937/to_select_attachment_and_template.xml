@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2400759-BDF2-11F0-1230-09173F13E4C5" xml:lang="en">
+   <title>To select attachment and template</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>power-automation</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>adobe-sign-services</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>agreement-template-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>select-attachment</indexterm>
+            <indexterm>select-template</indexterm>
+            <indexterm>configure-template</indexterm>
+            <indexterm>attachment-mapping</indexterm>
+            <indexterm>primary-agreement-update</indexterm>
+            <indexterm>agreement-workflow-selection</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>contract-management</indexterm>
+            <indexterm>document-automation</indexterm>
+            <indexterm>remote-signing</indexterm>
+            <indexterm>crm-integrations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To select attachment and template"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to select attachments and templates before sending an agreement for signature in Adobe Sign."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="attachment;template;agreement;recipient;lookup-field;primary-agreement;custom-configuration;crm-record;document-package"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:template-and-attachment-selection;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="template-selection,attachment-selection,adobe-sign,power-automation,agreement-preparation,crm-integration"/>
+         <othermeta name="usecase" content="template-and-attachment-selection"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click <uicontrol>Send For Adobe Sign</uicontrol>.  </p>
+         </li>
+         <li>
+            <p>Select the <uicontrol>Show attachments from parent agreement</uicontrol> checkbox
+               to display the documents, added in <uicontrol>Notes &amp; Attachments</uicontrol>
+               related list, in the <uicontrol>Select Attachments</uicontrol> section.</p>
+            <p>
+               <p> -or-</p>
+               <p>Select the <uicontrol>Show attachments from sibling agreements</uicontrol>
+                  checkbox to display the documents, added in <uicontrol>Notes &amp;
+                     Attachments</uicontrol> related list, in the <uicontrol>Select
+                     Attachments</uicontrol> section.</p>
+               <p> -or-</p>
+               <p>Select the <uicontrol>Show attachments from child agreements</uicontrol> checkbox
+                  to display the documents, added in Notes &amp; Attachments related list, in the
+                  Select Attachments section. </p>
+               <note type="note" id="note_hkg_cj4_rcc">
+                  <p>The visibility of  Show attachments from parent agreements and Show
+                     attachments from sibling agreements depends on the <uicontrol>Hide Related
+                        Agreement Selection</uicontrol> custom setting. For more information on
+                     custom settings, refer to <xref href="../system_properties_vspring_143887888/143887888.xml"
+                           format="dita">System Properties</xref>.</p>
+               </note>
+               <fig id="fig_q23_jl3_rcc">
+                  <image placement="break"
+                         width="750"
+                         href="../attachments/143887937/143887928.png"
+                         id="image_r23_jl3_rcc"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Under the <uicontrol>Select Attachments</uicontrol> section, select the attachments that you want to send for eSignature. You can select multiple attachments. </p>
+         </li>
+         <li>
+            <p>Under the <uicontrol>Select Template</uicontrol> section, select a template that you want to use to send your document for eSignature.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Next</uicontrol>.</p>
+            <p>
+               <note type="note">
+                  <p>Prior to Power CLM Adobe Sign Integration 9.64, you are redirected to the
+                        <wintitle>Order Attachments</wintitle> page after you click
+                        <uicontrol>Next</uicontrol>. The reordering of attachments is now available
+                     out of the box by Adobe. </p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>You are redirected to the Adobe Sign Actions page. If you have selected multiple
+               attachments, you are able to reorder them under the <uicontrol>Files</uicontrol>
+               section of the page by dragging and dropping them into the desired order.</p>
+         </li>
+      </ol>
+      <result id="result_w2d_3j4_rcc">You have selected the attachment(s) and template.</result>
+      <div>
+         <p> Now you can perform Adobe Sign Actions.</p>
+         <note type="note">
+            <p>Sending Documents with Related Agreements</p>
+            <p>Adobe Sign Services enables you to select attachments from the
+               related/sibling/parent/child agreements as well. This feature is controlled by the
+                  <uicontrol>Hide Related Agreement Selection</uicontrol> custom setting in
+                  <uicontrol>Apttus-Adobe eSignature Properties</uicontrol>. To ensure that the
+               signed documents are returned back to the respective related/sibling/parent/child
+               agreement records, you must add the Attachment Trigger custom code in your
+               Salesforce org.</p>
+            <p>The table below represents the scenarios and behavior of various custom settings. The following custom settings might affect your system, collectively. </p>
+            <p>
+               <table>
+                  <tgroup cols="4">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <colspec colname="col3"/>
+                     <colspec colname="col4"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Hide Related Agreement Selection checked?</p>
+                           </entry>
+                           <entry>
+                              <p>Don't Copy Signed Documents checked?</p>
+                           </entry>
+                           <entry>
+                              <p>Update Related Agreements checked?</p>
+                           </entry>
+                           <entry>
+                              <p>Result</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from the primary agreement only. After the document(s) are signed, the signed agreements are not copied to the Agreements record and the Agreement Status is updated only in primary agreement.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from the primary agreement only. After the document(s) are signed, the signed agreements are not copied to the Agreements record and the Agreement Status is updated only in primary agreement. </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from the primary agreement only. After the document(s) are signed, the signed agreements are copied to the Agreements record and the Agreement Status is updated only in primary agreement. </p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from both primary and
+                                 related/parent/sibling/child agreements. After the document(s) are
+                                 signed, the signed agreements are not copied to the Agreements
+                                 record and the <uicontrol>Agreement Status</uicontrol> is updated
+                                 in both primary and related/parent/sibling/child agreements.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from both primary and
+                                 related/parent/sibling/child agreements. After the document(s) are
+                                 signed, the signed agreements are not copied to the Agreements
+                                 record and the <uicontrol>Agreement Status </uicontrol>is updated
+                                 only in primary agreement.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>No </p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from both primary and
+                                 related/parent/sibling/child agreements. After the document(s) are
+                                 signed, the signed agreements are copied to the Agreements record
+                                 and the <uicontrol>Agreement Status</uicontrol> is updated in both
+                                 primary and related/parent/sibling/child agreements.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>Yes</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from the primary
+                                 agreement only. After the document(s) are signed, the signed
+                                 agreements are copied to the Agreements record and the
+                                    <uicontrol>Agreement Status</uicontrol> is updated only in
+                                 primary agreement.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>No</p>
+                           </entry>
+                           <entry>
+                              <p>The user will be able to select documents from both primary and
+                                 related/parent/sibling/child agreements. After the document(s) are
+                                 signed, the signed agreements are copied to the Agreements record
+                                 and the <uicontrol>Agreement Status</uicontrol>is updated only in
+                                 primary agreement.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <p> Contact Support for the custom configuration and the steps to implement the custom
+               configuration in your Salesforce org. </p>
+         </note>
+      </div>
+   </body>
+</topic>

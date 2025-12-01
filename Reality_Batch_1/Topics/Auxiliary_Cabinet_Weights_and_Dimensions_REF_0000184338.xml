@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AuxiliaryCabinetWeightsAndDimension-587CD6A0" xml:lang="en">
+   <title>Auxiliary Cabinet Weights and Dimensions</title>
+   <shortdesc>
+      <keyword>Reality EMEA 10–80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>auxiliary-cabinet</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>top-entry-cabinet</indexterm>
+            <indexterm>mounting-panel</indexterm>
+            <indexterm>lifting-point</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-dimensions</indexterm>
+            <indexterm>record-weights</indexterm>
+            <indexterm>verify-cabinet-type</indexterm>
+            <indexterm>inspect-structure</indexterm>
+            <indexterm>document-specifications</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-logistics</indexterm>
+            <indexterm>shipping-handling</indexterm>
+            <indexterm>equipment-setup</indexterm>
+            <indexterm>manufacturing-reference</indexterm>
+            <indexterm>industrial-application</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Auxiliary Cabinet Weights and Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Provides physical specifications including weights and overall dimensions for auxiliary UPS cabinets used in top-entry configurations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="auxiliary-cabinet; ups-system; lifting-point; cabinet-assembly"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-logistics;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="auxiliary,cabinet,dimensions,logistics,weight"/>
+         <othermeta name="usecase" content="ups-logistics"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="col5"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Weight kg</entry>
+                     <entry valign="top">Height mm</entry>
+                     <entry valign="top">Width mm</entry>
+                     <entry valign="top">Depth mm</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Top entry cabinet</entry>
+                     <entry>UPS
++ 150</entry>
+                     <entry>2100</entry>
+                     <entry>UPS
++ 400</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 10 kVA UPS</entry>
+                     <entry>UPS + 240</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 20 kVA UPS</entry>
+                     <entry>UPS + 290</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 30 kVA UPS</entry>
+                     <entry>UPS + 330</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 40 kVA UPS</entry>
+                     <entry>UPS + 355</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 50 kVA UPS</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 60 kVA UPS</entry>
+                     <entry>UPS + 400</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 600</entry>
+                     <entry>800</entry>
+                  </row>
+                  <row>
+                     <entry>Auxiliary cabinet with bypass transformer for 80 kVA UPS</entry>
+                     <entry>UPS + 440</entry>
+                     <entry>2100</entry>
+                     <entry>UPS + 600</entry>
+                     <entry>800</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

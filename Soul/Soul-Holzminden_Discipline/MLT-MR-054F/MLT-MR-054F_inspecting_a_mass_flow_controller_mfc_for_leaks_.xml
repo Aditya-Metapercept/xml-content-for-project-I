@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8DCC43-BB9C-11F0-8844-09173F13E4C5" xml:lang="en-us">
+   <title>Inspecting a Mass Flow Controller (MFC) for Leaks </title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>mass-flow-controller</indexterm>
+            <indexterm>mfc</indexterm>
+            <indexterm>gas-delivery-system</indexterm>
+            <indexterm>flow-control-valve</indexterm>
+            <!-- Process layer -->
+            <indexterm>inspecting-mfc-for-leaks</indexterm>
+            <indexterm>leak-detection</indexterm>
+            <indexterm>visual-inspection</indexterm>
+            <indexterm>pneumatic-testing</indexterm>
+            <indexterm>routine-maintenance</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>process-control</indexterm>
+            <indexterm>gas-handling</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="MLT-MR-054F inspecting a mass flow controller mfc for leaks"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to inspect a mass flow controller (MFC) for leaks and verify integrity before operation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="mfc;valve;tubing;regulator;fitting"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:inspection;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="inspection,leak-test,ppe,safety-controls,equipment-list"/>
+         <othermeta name="usecase" content="inspect-mfc-for-leaks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>MLT-M-054F</p>
+      <p>Revised: 2023-05-25</p>
+   </body>
+</topic>

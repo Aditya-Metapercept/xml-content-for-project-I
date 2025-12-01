@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8C1FD4-BB9C-11F0-4088-09173F13E4C5" xml:lang="en-us">
+   <title>Equipment Needed</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ul>
+         <li>Socket wrench, adjustable wrench, 19-liter (5-gallon) bucket, lint-free towel, rod, flashlight, Allen wrench, screwdriver, adjustable wrench, sparger height tool (SCM1-5-7, with 1-5/8 in. tall setting), blind flanges, flange gaskets, bench vise, powder-free nitrile gloves, fine-bristle stainless steel brush, wire brush, pick, scale, oxygen-safe Teflon tape, torque wrench, Teflon ferrules, crystal simple green solution.</li>
+         <li>Access to DFC software.</li>
+      </ul>
+   </body>
+</topic>

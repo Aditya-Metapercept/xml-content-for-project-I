@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38E06DC-BDF3-11F0-1258-09173F13E4C5" xml:lang="en-us">
+   <title>Hydraulic High Pressure Filter - Change</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:05:00+05:30"/>
+         <revised modified="2025-11-15T15:05:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Maintenance Personnel, Reliability Engineers, Industrial Engineers, Safety and Compliance officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>high-pressure-filter</indexterm>
+            <indexterm>hydraulic-pump</indexterm>
+            <indexterm>pressure-relief-valve</indexterm>
+            <indexterm>filter-head</indexterm>
+            <indexterm>filter-element</indexterm>
+            <!-- Process layer -->
+            <indexterm>high-pressure-filter-change</indexterm>
+            <indexterm>system-isolation</indexterm>
+            <indexterm>pressure-bleed</indexterm>
+            <indexterm>torque-specs</indexterm>
+            <indexterm>leak-test</indexterm>
+            <!-- Context layer -->
+            <indexterm>safety-critical-maintenance</indexterm>
+            <indexterm>mro-procedures</indexterm>
+            <indexterm>industrial-plant</indexterm>
+            <indexterm>fleet-reliability</indexterm>
+            <indexterm>contamination-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="high pressure hydraulic filter replacement"/>
+         <othermeta name="shortdesc"
+                    content="Safety critical procedure to replace the high pressure hydraulic filter including isolation and pressure bleed steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="high-pressure-filter;filter-element;pressure-gauge;relief-valve;seals"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:high-pressure-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="high-pressure,filter-replacement,hydraulic,safety"/>
+         <othermeta name="usecase" content="safety critical filter maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Park the lift truck with the forks lowered, parking brake
+engaged, transmission in NEUTRAL and the engine stopped.</p>
+         <fig>
+            <image href="media/image953a.png" placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the floor plate or tilt the cabin</p>
+         </li>
+         <li>
+            <p>Remove filter housing ②.</p>
+         </li>
+         <li>
+            <p>Remove and discard filter element from filter housing
+②.</p>
+         </li>
+         <li>
+            <p>Clean the filter housing with a clean, nonflammable
+solvent.</p>
+         </li>
+         <li>
+            <p>Insert a new filter element into the filter housing</p>
+         </li>
+         <li>
+            <p>Inspect the filter housing seal. Replace if necessary.</p>
+         </li>
+         <li>
+            <p>Apply a small amount of clean oil to the filter element seal
+and housing seal.</p>
+         </li>
+         <li>
+            <p>Install the filter housing ② with filter to the housing
+base ① and tighten 40 to 46 N·m (30 to 35
+lbs·ft).</p>
+         </li>
+         <li>
+            <p>Start the engine and step on the acceleration pedal. Look for
+oil leaks.</p>
+         </li>
+         <li>
+            <p>Stop the engine and check the oil level. With all cylinders
+retracted, maintain the oil level to the FULL mark on the dip
+stick/filler cap assembly</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="LogEventDescriptions-94443E1A" xml:lang="en">
+   <title>Log Events</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>event-log</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>lcm</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>event-log-review</indexterm>
+            <!-- Process layer -->
+            <indexterm>event-log-review</indexterm>
+            <indexterm>log-event-description</indexterm>
+            <indexterm>life-cycle-monitoring</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>industrial-production</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>ups-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Log Event Descriptions REF 0000116862"/>
+         <othermeta name="shortdesc"
+                    content="Descriptions and meanings for log events captured by UPS systems; guidance on interpreting event codes and actions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="event-log;control-board;interface-board;lcm;ups;log-event-description;event-log-review"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:event-log-description;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,log-events,event-descriptions,lcm,event-log"/>
+         <othermeta name="usecase" content="event-log-description"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The following table lists events that can appear on the
+display log and some assigned to LEDs on the user interface:</p>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="5.70*"/>
+               <colspec align="left" colname="col4" colwidth="19.34*"/>
+               <colspec align="left" colname="col5" colwidth="19.16*"/>
+               <colspec align="left" colname="col6" colwidth="19.11*"/>
+               <thead>
+                  <row>
+                     <entry>Message number</entry>
+                     <entry valign="top">Log</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Corrective action</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>11</entry>
+                     <entry>
+                        <uicontrol>Standby</uicontrol>
+                     </entry>
+                     <entry>The system is in standby.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>15</entry>
+                     <entry>
+                        <uicontrol>Battery operation</uicontrol>
+                     </entry>
+                     <entry>The system is in battery operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>16</entry>
+                     <entry>
+                        <uicontrol>Normal operation</uicontrol>
+                     </entry>
+                     <entry>The system is in normal operation.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>17</entry>
+                     <entry>
+                        <uicontrol>Requested Static bypass</uicontrol>
+                     </entry>
+                     <entry>The system is in requested static bypass operation due to a
+user request.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="1">18</entry>
+                     <entry morerows="1">
+                        <uicontrol>Temporary Static bypass</uicontrol>
+                     </entry>
+                     <entry morerows="1">The system is in temporary static bypass
+operation due to a problem in the system.</entry>
+                     <entry>Check the event log to find out why the system has switched
+to static bypass operation. </entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>40</entry>
+                     <entry>
+                        <uicontrol>Charger OFF</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to OFF state. The batteries
+are not charged in this state.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>41</entry>
+                     <entry>
+                        <uicontrol>Float charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Float charge</uicontrol> state. The batteries are charged with the configured float charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>42</entry>
+                     <entry>
+                        <uicontrol>Boost charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Boost charge</uicontrol> mode. The batteries are charged with the configured boost charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>43</entry>
+                     <entry>
+                        <uicontrol>Initial charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Initial charge</uicontrol> mode. The batteries are charged with the configured initial charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>44</entry>
+                     <entry>
+                        <uicontrol>Cyclic charge</uicontrol>
+                     </entry>
+                     <entry>The battery charger has been set to <uicontrol>Cyclic charge</uicontrol> mode. The batteries are charged with the configured cyclic charge
+voltage.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>45</entry>
+                     <entry>
+                        <uicontrol>Boost / Initial-Charge blocked</uicontrol>
+                     </entry>
+                     <entry>The digital input to block boost/initial charge is activated.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>102</entry>
+                     <entry>
+                        <uicontrol>PFC inoperable</uicontrol>
+                     </entry>
+                     <entry>The rectifier part of the power module is not working.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>110</entry>
+                     <entry>
+                        <uicontrol>Charger inoperable</uicontrol>
+                     </entry>
+                     <entry>The charger part of the power module is not working.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>132</entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter part of the power module is not working.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">146</entry>
+                     <entry morerows="2">
+                        <uicontrol>Inverter asynchronous</uicontrol>
+                     </entry>
+                     <entry morerows="2">The UPS is unable to synchronize to the
+bypass source.</entry>
+                     <entry>Check that the inverter is on. </entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the bypass source quality (voltage, frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>161</entry>
+                     <entry>
+                        <uicontrol>SBS ON</uicontrol>
+                     </entry>
+                     <entry>The system is in static bypass operation. The bypass supplies
+the load (temporary or requested static bypass operation).</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>162</entry>
+                     <entry>
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry>The
+static bypass switch is not energized, the communication wiring from
+the UPS controller to the static bypass switch controller is disconnected
+or the static bypass switch controller is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>163</entry>
+                     <entry>
+                        <uicontrol>SBS Independent fired</uicontrol>
+                     </entry>
+                     <entry>The
+static bypass switch is no longer controlled by the UPS controller
+and is locked in the on state.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>164</entry>
+                     <entry>
+                        <uicontrol>SBS DC detected</uicontrol>
+                     </entry>
+                     <entry>DC content detected in requested static bypass operation.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>169</entry>
+                     <entry>
+                        <uicontrol>MBB closed</uicontrol>
+                     </entry>
+                     <entry>The maintenance bypass breaker MBB is closed.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">181</entry>
+                     <entry morerows="3">
+                        <uicontrol>PM Temperature warning</uicontrol>
+                     </entry>
+                     <entry morerows="3">The power module temperature is above
+90 °C.</entry>
+                     <entry>Check the air inlet of the UPS.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce the load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">182</entry>
+                     <entry morerows="3">
+                        <uicontrol>PM Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The power module temperature is above
+100 °C (delay 60 seconds). The inverter is shut down immediately.</entry>
+                     <entry>Check the air inlet of the UPS.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce the load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">186</entry>
+                     <entry morerows="2">
+                        <uicontrol>Battery temperature warning</uicontrol>
+                     </entry>
+                     <entry morerows="2">The battery temperature is above the configured
+warning level.</entry>
+                     <entry>Check the air inlet.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="2">187</entry>
+                     <entry morerows="2">
+                        <uicontrol>Battery temperature shutdown</uicontrol>
+                     </entry>
+                     <entry morerows="2">The battery temperature is above the configured
+shutdown level. The battery charger switches off.</entry>
+                     <entry>Check the air inlet.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>189</entry>
+                     <entry>
+                        <uicontrol>Temperature 1 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>190</entry>
+                     <entry>
+                        <uicontrol>Temperature 2 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>191</entry>
+                     <entry>
+                        <uicontrol>Temperature 3 warning</uicontrol>
+                     </entry>
+                     <entry>The sensor, connected to the external connection board, measures
+a temperature above the configured warning level.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>200</entry>
+                     <entry>
+                        <uicontrol>PM fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the power module fans is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>201</entry>
+                     <entry>
+                        <uicontrol>SBS fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the static bypass switch fans is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>202</entry>
+                     <entry>
+                        <uicontrol>Transformer
+fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer
+fans is inoperable (input transformer, output transformer or bypass
+transformer).</entry>
+                     <entry>Contact Schneider
+Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="4">203</entry>
+                     <entry morerows="4">
+                        <uicontrol>T001 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="4">The input transformer temperature is
+above the configured threshold level. After 10 minutes, the rectifier
+is shut down and the system changes to battery operation.</entry>
+                     <entry>Check
+the air inlet of the UPS.</entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce
+the battery charging current.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce
+the load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">204</entry>
+                     <entry morerows="3">
+                        <uicontrol>T002 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The output transformer temperature is
+above the configured threshold level. After 10 minutes, the system
+tries to change to static bypass operation within the next 2 minutes.
+If the change to static bypass operation is not possible due to bad
+bypass quality the inverter is shut down after these 2 minutes.</entry>
+                     <entry>Check
+the air inlet of the UPS.</entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce
+the load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">205</entry>
+                     <entry morerows="3">
+                        <uicontrol>T003 Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The bypass transformer temperature is
+above the threshold level.</entry>
+                     <entry>Check
+the air inlet of the UPS.</entry>
+                  </row>
+                  <row>
+                     <entry>Check
+the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Reduce
+the load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>206</entry>
+                     <entry>
+                        <uicontrol>T001 temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The
+mains input transformer temperature sensor is not connected or shorted.</entry>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>207</entry>
+                     <entry>
+                        <uicontrol>T002 temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The
+output transformer temperature sensor is not connected or shorted.</entry>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>208</entry>
+                     <entry>
+                        <uicontrol>T003 Temperature sensor inoperable</uicontrol>
+                     </entry>
+                     <entry>The
+bypass transformer temperature sensor is not connected or shorted.</entry>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>220</entry>
+                     <entry>
+                        <uicontrol>Mains RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The input voltage is out of the configured tolerance.</entry>
+                     <entry>Check the quality of the input (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>221</entry>
+                     <entry>
+                        <uicontrol>Mains input RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The input voltage on primary side of the input transformer
+is out of the configured tolerance.</entry>
+                     <entry>Check the quality of the input (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>222</entry>
+                     <entry>
+                        <uicontrol>Mains FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The input voltage is out of tolerance.</entry>
+                     <entry>Check the quality of the input (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>223</entry>
+                     <entry>
+                        <uicontrol>Mains frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The input frequency is out of the configured tolerance.</entry>
+                     <entry>Check the quality of the input (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>224</entry>
+                     <entry>
+                        <uicontrol>Mains phase missing</uicontrol>
+                     </entry>
+                     <entry>A input input phase is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>225</entry>
+                     <entry>
+                        <uicontrol>Mains input phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the input voltage on the primary side of the input
+transformer is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>228</entry>
+                     <entry>
+                        <uicontrol>Mains synch missing </uicontrol>
+                     </entry>
+                     <entry>The mains PFC rectifier is unable to synchronize to the input
+input.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>229</entry>
+                     <entry>
+                        <uicontrol>Mains neutral missing</uicontrol>
+                     </entry>
+                     <entry>The input neutral is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>240</entry>
+                     <entry>
+                        <uicontrol>Bypass RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance. The
+UPS is not able to transfer to static bypass operation.</entry>
+                     <entry>Check the quality of the bypass (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>241</entry>
+                     <entry>
+                        <uicontrol>Bypass input RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass mains voltage on the primary side of the bypass
+transformer is out of the configured tolerance.</entry>
+                     <entry>Check the quality of the bypass (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>242</entry>
+                     <entry>
+                        <uicontrol>Bypass FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance. The
+UPS is unable to transfer to static bypass operation.</entry>
+                     <entry>Check the quality of the bypass (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>243</entry>
+                     <entry>
+                        <uicontrol>Bypass frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The bypass frequency is out of the configured tolerance. The
+UPS is unable to transfer to static bypass operation.</entry>
+                     <entry>Check the quality of the bypass (voltage and frequency).</entry>
+                  </row>
+                  <row>
+                     <entry>244</entry>
+                     <entry>
+                        <uicontrol>Bypass phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the bypass mains is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>245</entry>
+                     <entry>
+                        <uicontrol>Bypass input phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the bypass voltage on the primary side of the
+transformer is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>260</entry>
+                     <entry>
+                        <uicontrol>Inverter output RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output voltage is out of the configured tolerance.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>261</entry>
+                     <entry>
+                        <uicontrol>Output RMS not OK</uicontrol>
+                     </entry>
+                     <entry>The output voltage on the secondary side of the output transformer
+is out of the configured tolerance.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>262</entry>
+                     <entry>
+                        <uicontrol>Output FAST not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output voltage is out of the configured tolerance.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>263</entry>
+                     <entry>
+                        <uicontrol>Output frequency not OK</uicontrol>
+                     </entry>
+                     <entry>The UPS output frequency is out of the configured tolerance.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>264</entry>
+                     <entry>
+                        <uicontrol>Output phase missing</uicontrol>
+                     </entry>
+                     <entry>One phase of the output voltage on the secondary side of the
+transformer is missing.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>267</entry>
+                     <entry>
+                        <uicontrol>High Load warning</uicontrol>
+                     </entry>
+                     <entry>The load is above the configured load alarm level.</entry>
+                     <entry>Reduce the load.</entry>
+                  </row>
+                  <row>
+                     <entry>268</entry>
+                     <entry>
+                        <uicontrol>Current limitation</uicontrol>
+                     </entry>
+                     <entry>The inverter current limiter is active.</entry>
+                     <entry>Reduce the load.</entry>
+                  </row>
+                  <row>
+                     <entry>269</entry>
+                     <entry>
+                        <uicontrol>Output overloaded</uicontrol>
+                     </entry>
+                     <entry>The UPS output is overloaded (&gt;105%).</entry>
+                     <entry>Reduce the load.</entry>
+                  </row>
+                  <row>
+                     <entry>301</entry>
+                     <entry>
+                        <uicontrol>High Battery shutdown</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is above the configured high battery voltage
+shutdown level. The charger is shut down.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>304</entry>
+                     <entry>
+                        <uicontrol>High Battery warning</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is above the configured high battery voltage
+warning level. This warning is suppressed in battery operation.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>305</entry>
+                     <entry>
+                        <uicontrol>Battery discharged</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+warning level.</entry>
+                     <entry>Charge the battery. If the battery does not charge, contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>306</entry>
+                     <entry>
+                        <uicontrol>Low Battery shutdown</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is below the configured low battery voltage
+shutdown level.</entry>
+                     <entry>Charge the battery.</entry>
+                  </row>
+                  <row>
+                     <entry>307</entry>
+                     <entry>
+                        <uicontrol>Battery earth fault positive</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a positive battery earth fault.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>308</entry>
+                     <entry>
+                        <uicontrol>Battery earth fault negative</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a negative battery earth fault.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>309</entry>
+                     <entry>
+                        <uicontrol>ABM test started</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been started.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>310</entry>
+                     <entry>
+                        <uicontrol>ABM test done</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been completed.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>311</entry>
+                     <entry>
+                        <uicontrol>ABM test aborted</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has been aborted.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>312</entry>
+                     <entry>
+                        <uicontrol>Battery weak</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has detected a weak battery.</entry>
+                     <entry>Charge the battery. If the battery does not charge, contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>313</entry>
+                     <entry>
+                        <uicontrol>Battery inoperable</uicontrol>
+                     </entry>
+                     <entry>The advanced battery monitoring test has detected an inoperable
+battery.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>314</entry>
+                     <entry>
+                        <uicontrol>Low runtime warning</uicontrol>
+                     </entry>
+                     <entry>The battery runtime is less than 2 minutes above the configured
+warning level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>315</entry>
+                     <entry>
+                        <uicontrol>Low runtime alarm</uicontrol>
+                     </entry>
+                     <entry>The battery runtime is below the configured battery runtime
+level.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>316</entry>
+                     <entry>
+                        <uicontrol>Discharge test started</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been started.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>317</entry>
+                     <entry>
+                        <uicontrol>Discharge test done</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been completed.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>318</entry>
+                     <entry>
+                        <uicontrol>Discharge test aborted</uicontrol>
+                     </entry>
+                     <entry>The battery discharge test has been aborted.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>340</entry>
+                     <entry>
+                        <uicontrol>UIB open</uicontrol>
+                     </entry>
+                     <entry>The unit input breaker UIB is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>341</entry>
+                     <entry>
+                        <uicontrol>BB open</uicontrol>
+                     </entry>
+                     <entry>The battery breaker BB is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>349</entry>
+                     <entry>
+                        <uicontrol>SSIB open</uicontrol>
+                     </entry>
+                     <entry>The static switch input breaker SSIB is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>342</entry>
+                     <entry>
+                        <uicontrol>UOB open</uicontrol>
+                     </entry>
+                     <entry>The unit output breaker UOB is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>338</entry>
+                     <entry>
+                        <uicontrol>K401
+open</uicontrol>
+                     </entry>
+                     <entry>The bypass backfeed
+contactor K401 is open.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>351</entry>
+                     <entry>
+                        <uicontrol>ABUS termination incorrect</uicontrol>
+                     </entry>
+                     <entry>The ABUS wiring is disconnected or the ABUS termination is
+incorrect.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>371</entry>
+                     <entry>
+                        <uicontrol>No parallel Master</uicontrol>
+                     </entry>
+                     <entry>No master is present in the redundant system.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>374</entry>
+                     <entry>
+                        <uicontrol>Parallel load alarm</uicontrol>
+                     </entry>
+                     <entry>The actual load is too high for redundant operation. If one
+UPS switches OFF, the remaining systems would be overloaded.</entry>
+                     <entry>Reduce the load. Check that all the UPSs are ON.</entry>
+                  </row>
+                  <row>
+                     <entry>375</entry>
+                     <entry>
+                        <uicontrol>Redundancy alarm</uicontrol>
+                     </entry>
+                     <entry>At least one UPS is isolated or turned off. In this case the
+redundancy operation is not available.</entry>
+                     <entry>Reduce the load. Check that all the UPSs are ON.</entry>
+                  </row>
+                  <row>
+                     <entry>397</entry>
+                     <entry>
+                        <uicontrol>PBUS1 communication inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS1 wiring (parallel bus) is disconnected
+or the PBUS1 termination is incorrect.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>398</entry>
+                     <entry>
+                        <uicontrol>PBUS2 communication inoperable</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS2 wiring (parallel bus) is disconnected
+or the PBUS2 termination is incorrect.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>399</entry>
+                     <entry>
+                        <uicontrol>PBUS 1 termination incorect</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS1 wiring (parallel bus) is disconnected
+or the PBUS1 termination is incorrect.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>400</entry>
+                     <entry>
+                        <uicontrol>PBUS 2 termination incorect</uicontrol>
+                     </entry>
+                     <entry>The internal or external PBUS2 wiring (parallel bus) is disconnected
+or the PBUS2 termination is incorrect.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>440</entry>
+                     <entry>
+                        <uicontrol>Emergency Power Off (EPO)</uicontrol>
+                     </entry>
+                     <entry>The digital input "emergency power off (EPO)" is activated
+(contact open) or the EPO wiring is disconnected.</entry>
+                     <entry>Check the EPO switch. If the EPO is off, contact Schneider
+Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>447</entry>
+                     <entry>
+                        <uicontrol>Internal inoperable state</uicontrol>
+                     </entry>
+                     <entry>An internal inoperable state was detected.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>448</entry>
+                     <entry>
+                        <uicontrol>SBS locked</uicontrol>
+                     </entry>
+                     <entry>The system has been locked in static bypass operation after
+eight unsuccessful tries to switch back to normal or battery operation.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>663</entry>
+                     <entry>
+                        <uicontrol>Fan module replacement recommended</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the fan modules.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>668</entry>
+                     <entry>
+                        <uicontrol>Battery replacement recommended</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the battery.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>673</entry>
+                     <entry>
+                        <uicontrol>Power module replacement recommended</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the power modules.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>678</entry>
+                     <entry>
+                        <uicontrol>Air filter replacement recommended</uicontrol>
+                     </entry>
+                     <entry>The life cycle monitoring recommends to replace the air filters.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>683</entry>
+                     <entry>
+                        <uicontrol>Warranty expired</uicontrol>
+                     </entry>
+                     <entry>The warranty on the product has expired.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>738</entry>
+                     <entry>
+                        <uicontrol>ECB- input 1</uicontrol>
+                     </entry>
+                     <entry>External connection board input 1 open / close</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>739</entry>
+                     <entry>
+                        <uicontrol>ECB- input 2</uicontrol>
+                     </entry>
+                     <entry>External connection board input 2 open / close</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>800</entry>
+                     <entry>
+                        <uicontrol>Common Alarm</uicontrol>
+                     </entry>
+                     <entry>There is at least one pending alert in the system.</entry>
+                     <entry>Check alarm.</entry>
+                  </row>
+                  <row>
+                     <entry>803</entry>
+                     <entry>
+                        <uicontrol>SBS inoperable</uicontrol>
+                     </entry>
+                     <entry>The communication to the static bypass switch is not working
+or DC is detected during requested static bypass operation.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>807</entry>
+                     <entry>
+                        <uicontrol>Bypass out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The bypass voltage is out of the configured tolerance, a phase
+is missing, there is an invalid phase rotation or the frequency is
+out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>808</entry>
+                     <entry>
+                        <uicontrol>Output out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The output voltage or the frequency is out of configured tolerance.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>812</entry>
+                     <entry>
+                        <uicontrol>Mains out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The mains input voltage is out of the configured tolerance,
+a phase is missing, there is an invalid phase rotation or the frequency
+is out of the configured tolerance.</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry morerows="3">814</entry>
+                     <entry morerows="3">
+                        <uicontrol>Overtemperature</uicontrol>
+                     </entry>
+                     <entry morerows="3">The UPS measures a temperature above
+the threshold level in one of the power modules or in one of the transformers.</entry>
+                     <entry>Check the air inlet and the air filters.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the ambient temperature.</entry>
+                  </row>
+                  <row>
+                     <entry>Check the output load.</entry>
+                  </row>
+                  <row>
+                     <entry>Contact
+Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>823</entry>
+                     <entry>
+                        <uicontrol>Battery out of tolerance</uicontrol>
+                     </entry>
+                     <entry>The battery voltage is out of the configured tolerance or the
+battery runtime is too short.</entry>
+                     <entry>Check if the UPS is in battery operation. If the UPS is not
+in battery operation, contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>825</entry>
+                     <entry>
+                        <uicontrol>Fan inoperable</uicontrol>
+                     </entry>
+                     <entry>One of the transformer-, static bypass switch- or power module
+fans is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>826</entry>
+                     <entry>
+                        <uicontrol>Battery earth fault</uicontrol>
+                     </entry>
+                     <entry>The UPS measures a battery earth fault.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>830</entry>
+                     <entry>
+                        <uicontrol>Rectifier inoperable</uicontrol>
+                     </entry>
+                     <entry>The PFC rectifier or the charger is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+                  <row>
+                     <entry>831</entry>
+                     <entry>
+                        <uicontrol>Inverter inoperable</uicontrol>
+                     </entry>
+                     <entry>The inverter is inoperable.</entry>
+                     <entry>Contact Schneider Electric.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c27070C4-BDF2-11F0-2058-09173F13E4C5" xml:lang="en">
+   <title>Define Color Bands and Shapes</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>color-bands</indexterm>
+            <indexterm>shape-definitions</indexterm>
+            <indexterm>guidance-visuals</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>pricing-ui-elements</indexterm>
+            <!-- Process layer -->
+            <indexterm>defining-color-bands</indexterm>
+            <indexterm>configuring-shapes</indexterm>
+            <indexterm>mapping-guidance-visuals</indexterm>
+            <indexterm>interpreting-band-values</indexterm>
+            <indexterm>validating-color-logic</indexterm>
+            <indexterm>referencing-guidance-icons</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>pricing-guidance-environment</indexterm>
+            <indexterm>b2b-software</indexterm>
+            <indexterm>enterprise-pricing</indexterm>
+            <indexterm>deal-desk-visualization</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Define Color Bands and Shapes"/>
+         <othermeta name="shortdesc"
+                    content="Explains the available color bands and associated shapes used for visual guidance within deal evaluations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="color band; shape marker; guidance icon; visual indicator; deal guidance rule; threshold band"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="color bands,shape definitions,guidance visuals,deal evaluation indicators"/>
+         <othermeta name="usecase"
+                    content="reviewing and referencing color bands for guidance visualization"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Color bands provide a visual indication of the potential quality of a deal and are associated with guidance rules. You can use different combinations of colors and shapes to define the color bands. A color or a shape on its own does not have any value, but they serve as the framework for building your deal rating range with guidance rules.</p>
+      <note type="note">
+         <p>Only one global color band structure can be set up for your entire org.</p>
+      </note>
+      <p>The following six colors and six shapes are available in the org by default.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Deal Color</p>
+                     </entry>
+                     <entry>
+                        <p>Default Hexadecimal Code</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Green</p>
+                     </entry>
+                     <entry>
+                        <p>#387C35</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Light Green</p>
+                     </entry>
+                     <entry>
+                        <p>#90EE90</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Yellow</p>
+                     </entry>
+                     <entry>
+                        <p>#F7FE2E</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Orange</p>
+                     </entry>
+                     <entry>
+                        <p>#E36F1E</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Red</p>
+                     </entry>
+                     <entry>
+                        <p>#B2102C</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Black Blue</p>
+                     </entry>
+                     <entry>
+                        <p>#0000A0</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>You can change the colors by modifying the color code of an existing Deal Color while defining the Deal Color Band. If you change the value of the color code the name of the Deal Color is not changed. You can also add a new Deal Color to the picklist in the Deal Color Band object. The custom value you add to the picklist is not associated with any color code, you must manually enter the hexadecimal value while defining the Deal Color Band. You must ensure that the Hexadecimal values are accurate. Otherwise, the color defaults to Black.</p>
+      <p>The color of the shape changes according to the Deal Color you define. You can select from the following shapes.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Name</p>
+                     </entry>
+                     <entry>
+                        <p>Shape</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Circle</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image placement="break"
+                                     width="26"
+                                     href="../attachments/195691384/195691377.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Triangle</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image height="27"
+                                     placement="break"
+                                     href="../attachments/195691384/195691381.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Diamond</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image placement="break"
+                                     width="30"
+                                     href="../attachments/195691384/195691382.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Square</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image height="22"
+                                     placement="break"
+                                     href="../attachments/195691384/195691379.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Pentagon</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image height="28"
+                                     placement="break"
+                                     href="../attachments/195691384/195691378.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Star</p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig>
+                              <image height="26"
+                                     placement="break"
+                                     href="../attachments/195691384/195691380.png"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>You can associate the same shape to multiple colors. However, that is not ideal, as it reduces the element of distinction between deals. That can make it difficult for the Sales rep to use the feature effectively. You can create a maximum of 6 Deal Bands.</p>
+      <p>When you go to the Deal Color Bands page, you will note that while there are listings for
+         each color band with corresponding <uicontrol>Edit</uicontrol> buttons, the links all go to
+         the same Color Bands Edit page regardless of which one you select.</p>
+      <p>Once you have initially set up your color bands and have begun using them, any subsequent changes will impact guidance rules that are being used in your live environment.</p>
+   </body>
+</topic>

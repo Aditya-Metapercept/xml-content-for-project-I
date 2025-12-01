@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8DF9D1-BB9C-11F0-1145-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>mass-flow-controller</indexterm>
+            <indexterm>process-control-system</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>gas-delivery-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>purpose-and-application</indexterm>
+            <indexterm>system-overview</indexterm>
+            <indexterm>operational-scope</indexterm>
+            <indexterm>intended-use</indexterm>
+            <indexterm>functional-specification</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-line</indexterm>
+            <indexterm>process-control</indexterm>
+            <indexterm>engineering-specification</indexterm>
+            <indexterm>safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="MLT-MR-054F purposeapplication"/>
+         <othermeta name="shortdesc"
+                    content="Explains the purpose and application scope of the equipment or procedure including intended operational context."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mass-flow-controller;process-control-system;gas-delivery-system;control-panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:system-overview;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="purpose,application,scope,requirements,overview"/>
+         <othermeta name="usecase" content="describe-purpose-and-application"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Defines procedure for inspecting a MFC for leaks.</p>
+   </body>
+</topic>

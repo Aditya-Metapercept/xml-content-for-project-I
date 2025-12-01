@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2862269-BDF2-11F0-1527-09173F13E4C5" xml:lang="en">
+   <title>What's New in CIG Documentation</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>cig-documentation</indexterm>
+            <indexterm>power-invoice</indexterm>
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>docs-repository</indexterm>
+            <indexterm>docpublisher</indexterm>
+            <indexterm>release-notes</indexterm>
+            <!-- Process layer -->
+            <indexterm>documenting-changes</indexterm>
+            <indexterm>release-noting</indexterm>
+            <indexterm>content-review</indexterm>
+            <indexterm>doc-publishing</indexterm>
+            <indexterm>update-tracking</indexterm>
+            <indexterm>change-log-creation</indexterm>
+            <!-- Context layer -->
+            <indexterm>documentation-management</indexterm>
+            <indexterm>product-release</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>technical-communication</indexterm>
+            <indexterm>knowledge-base</indexterm>
+            <indexterm>support-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="What's New in CIG Documentation"/>
+         <othermeta name="shortdesc"
+                    content="This section covers all the changes in the CIG documentation set, release notes and update guidance for content authors and maintainers."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="documentation;release-notes;change-log;authors;maintainers;doc-repository;version"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:doc-release-management;industry:revenue life-cycle-management"/>
+         <othermeta name="tags" content="release,docs,change-log,cig,update,maintain"/>
+         <othermeta name="usecase" content="documentation-release-notes"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This section covers all the changes in the documentation to support each release.</p>
+      <p>February '23</p>
+      <p>
+         <table>
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Document</p>
+                     </entry>
+                     <entry>
+                        <p>Publication Date</p>
+                     </entry>
+                     <entry>
+                        <p>Topic</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>February '23</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>
+                           <xref href="https://documentation.Power.com/composer/latest/support-of-salesforce-api-version-with-composer-203491933.html"
+                                 format="html"
+                                 scope="external">
+                              <u>Support of Salesforce API Version</u>
+                           </xref>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>Updated the topic with information about the impact of Salesforce API Version Retirement on the Power Invoice Generation custom button.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

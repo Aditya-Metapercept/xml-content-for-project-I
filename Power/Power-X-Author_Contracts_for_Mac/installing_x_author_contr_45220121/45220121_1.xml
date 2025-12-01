@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m29595D1-BDF2-11F0-1090-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Installing X-Author Contracts</title>
+   <topicref chunk="to-content" href="45220121.xml" xml:lang="en">
+      <topicref href="to_install_the_x_author_contracts_add_in.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To install the X-Author Contracts add-in</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_launch_the_x_author_contracts_add_in.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To launch the X-Author Contracts add-in</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

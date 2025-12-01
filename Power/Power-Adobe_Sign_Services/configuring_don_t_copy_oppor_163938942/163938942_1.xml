@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m23D2B95-BDF2-11F0-1474-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Configuring Don't Copy Opportunity Setting</title>
+   <topicref chunk="to-content" href="163938942.xml" xml:lang="en">
+      <topicref href="to_configure_the_admin_setting.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure the Admin Setting</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="levels_of_priority.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Levels of Priority</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_configure_the_custom_setting_for_profile_user.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure the Custom Setting for Profile/User</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_configure_the_custom_setting_for_default.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure the Custom Setting for Default</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

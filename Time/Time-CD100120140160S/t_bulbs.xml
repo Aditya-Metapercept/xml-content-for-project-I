@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38AFD83-BDF3-11F0-1377-09173F13E4C5" xml:lang="en-us">
+   <title>Bulbs</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:30:00+05:30"/>
+         <revised modified="2025-11-15T15:30:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,safety-compliance-officers,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>lift-truck-lighting</indexterm>
+            <indexterm>indicator-bulb</indexterm>
+            <indexterm>worklight-assembly</indexterm>
+            <indexterm>headlamp-module</indexterm>
+            <indexterm>electrical-wiring-harness</indexterm>
+            <!-- Process layer -->
+            <indexterm>bulb-inspection</indexterm>
+            <indexterm>bulb-replacement</indexterm>
+            <indexterm>electrical-connector-check</indexterm>
+            <indexterm>lighting-fuse-check</indexterm>
+            <indexterm>functional-test</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse-visibility</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+            <indexterm>material-handling-equipment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Inspect and replace bulbs"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to inspect, test and replace bulbs and lighting components on the lift truck."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bulb;lamp-socket;connector;wiring-harness;fuse;headlamp-assembly"/>
+         <othermeta name="taxonomy"
+                    content="domain:maintenance;usecase:lighting-inspection;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="bulb,lighting,inspection,replacement,safety"/>
+         <othermeta name="usecase" content="inspect-and-replace-bulbs"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Bulbs are identified as follows;</p>
+      </context>
+      <ol>
+         <li>
+            <p>Bulb-head lamp halogen(24V-70/75W)</p>
+         </li>
+         <li>
+            <p>Bulb-rear(24V-70/75W)</p>
+         </li>
+         <li>
+            <p>Bulb-turn signal(Front, 24V-25/10W)</p>
+         </li>
+         <li>
+            <p>Bulb-turn signal(Rear, 24V-25W)</p>
+         </li>
+         <li>
+            <p>Bulb-back up (24V-10W)</p>
+         </li>
+      </ol>
+   </body>
+</topic>

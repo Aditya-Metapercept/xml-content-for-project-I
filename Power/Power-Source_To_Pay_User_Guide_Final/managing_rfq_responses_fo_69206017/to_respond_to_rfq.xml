@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingRFQResponsesforNonPortalSuppliers_TorespondtoRFQ"
+       xml:lang="en">
+   <title>To respond to RFQ</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>rfq-management</indexterm>
+            <indexterm>non-portal-rfq</indexterm>
+            <indexterm>rfq-welcome-page</indexterm>
+            <indexterm>rfq-price-modifiers</indexterm>
+            <!-- Process Layer -->
+            <indexterm>respond-rfq</indexterm>
+            <indexterm>view-rfq-survey</indexterm>
+            <indexterm>enter-pricing</indexterm>
+            <indexterm>upload-rfq-attachment</indexterm>
+            <indexterm>submit-rfq-response</indexterm>
+            <!-- Context Layer -->
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>procurement-lifecycle</indexterm>
+            <indexterm>competitive-bidding</indexterm>
+            <indexterm>supplier-collaboration</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To respond to RFQ"/>
+         <othermeta name="shortdesc"
+                    content="Describes how non-portal suppliers access an RFQ through an email link, enter pricing details, upload attachments, and submit their RFQ responses."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="rfq;welcome-page;view-survey;pricing;price-modifiers;attachments;upload;choose-file;file-name;attach;submit;thank-you-page"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:to-respond-to-rfq;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="rfq,pricing,attachments,submit,non-portal-supplier,sourcing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click on the<uicontrol> Link</uicontrol> in the email you have received.</p>
+            <stepresult>You are directed to the Welcome page of RFQ.</stepresult>
+         </li>
+         <li>
+            <p>Click <uicontrol>View Survey</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter the price and price modifiers.</p>
+         </li>
+         <li>
+            <p>To upload an attachment, click <uicontrol>Upload</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose File</uicontrol> ansd select the file that you want to
+               upload. </p>
+         </li>
+         <li>
+            <p>Enter the <uicontrol>File Name</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Attach</uicontrol>.</p>
+         </li>
+         <li>
+            <p>After you have entered all the responses, click <uicontrol>Submit</uicontrol>.You
+               will be redirected to Thank you page.</p>
+            <p>
+               <note type="note">
+                  <p>You can respond to the RFQ only once. Once you click Submit, you will not able
+                     to edit or resend the responses of RFQ. If you try to click the link in your
+                     email after you have responded to RFQ, you will be redirected to Thank you
+                     page.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

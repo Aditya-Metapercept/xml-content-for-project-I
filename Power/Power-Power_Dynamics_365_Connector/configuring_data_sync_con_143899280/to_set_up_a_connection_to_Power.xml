@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t243D823-BDF2-11F0-1248-09173F13E4C5" xml:lang="en">
+   <title>To set up a connection to Power</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>power-dynamics-connector</indexterm>
+            <indexterm>power-automate</indexterm>
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>oauth-client</indexterm>
+            <indexterm>connector-configuration</indexterm>
+            <!-- Process -->
+            <indexterm>set-up-power-connector</indexterm>
+            <indexterm>configure-connection-settings</indexterm>
+            <indexterm>authenticate-power-access</indexterm>
+            <indexterm>map-dynamics-power-fields</indexterm>
+            <indexterm>validate-power-connection</indexterm>
+            <indexterm>troubleshoot-connection-errors</indexterm>
+            <!-- Context -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>integration-environment</indexterm>
+            <indexterm>workflow-automation</indexterm>
+            <indexterm>system-administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To set up a connection to Power"/>
+         <othermeta name="shortdesc" content="Open the Power-Dynamics 365 Connector."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-connector;dynamics-endpoint;connector-settings;authentication-profile;connection-fields;workflow-mapping"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:configure-power-connector;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="power-connector,connection-setup,authentication,integration,data-sync,workflow"/>
+         <othermeta name="usecase" content="set-up-power-connector"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Open the Power-Dynamics 365 Connector.</p>
+         </li>
+         <li>
+            <p>Under Groups in the left side panel, select <uicontrol>Connections</uicontrol>. A
+               list of connections is displayed (if this is the first time you are using the
+               connector you will see two connections: Power and Dynamics 365).</p>
+         </li>
+         <li>
+            <p>To configure the Power connection, click the hyperlink corresponding to the Connection Name.</p>
+         </li>
+         <li>
+            <p>Enter the following information in the fields provided:</p>
+            <p>
+               <p>
+                  <table>
+                     <tgroup cols="3">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <colspec colname="col3"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Notes / Example</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <p>Name</p>
+                              </entry>
+                              <entry>
+                                 <p>A name for the connection</p>
+                              </entry>
+                              <entry>
+                                 <p>This is seeded (read-only) and cannot be changed: Power</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Type</p>
+                              </entry>
+                              <entry>
+                                 <p>CRM type</p>
+                              </entry>
+                              <entry>
+                                 <p>This is seeded (read-only) and cannot be changed: Power</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Username</p>
+                              </entry>
+                              <entry>
+                                 <p>User name of admin account in Power</p>
+                              </entry>
+                              <entry>
+                                 <p>Account must have full read/write/delete permissions for the objects being synced.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Password</p>
+                              </entry>
+                              <entry>
+                                 <p>Password for admin account user</p>
+                              </entry>
+                              <entry/>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Api Endpoint</p>
+                              </entry>
+                              <entry>
+                                 <p>The API endpoint for Power instance</p>
+                              </entry>
+                              <entry>
+                                 <p>/services/data/v46.0</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>IsActive</p>
+                              </entry>
+                              <entry>
+                                 <p>Indicates whether the connection should be active or not</p>
+                              </entry>
+                              <entry>
+                                 <p>Yes / No. This flag is set to 'Yes' for the initial connections set up when the connector is first installed. If set to 'No' and the connector version is updated (package is redeployed), a new connection is created with IsActive set to 'Yes'.</p>
+                                 <note type="note">
+                                    <p>You cannot have more than one active Power connection at a time.</p>
+                                 </note>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>IsTest</p>
+                              </entry>
+                              <entry>
+                                 <p>Indicates whether the Power instance is a test environment</p>
+                              </entry>
+                              <entry>
+                                 <p>Yes / No</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>InstanceUrl</p>
+                              </entry>
+                              <entry>
+                                 <p>Service URL of the Power instance</p>
+                              </entry>
+                              <entry>
+                                 <p>
+                                    <xref href="https://cs60.salesforce.com/services/Soap/u/22.0/00D3C000000H4uu"
+                                          format="html"
+                                          scope="external">https://cs60.salesforce.com/services/Soap/u/22.0/00D3C000000H4uu</xref>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Client Id</p>
+                              </entry>
+                              <entry>
+                                 <p>The client Id you generated in the previous task</p>
+                              </entry>
+                              <entry>
+                                 <p>Get from the Connected App.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Client Secret</p>
+                              </entry>
+                              <entry>
+                                 <p>The client secret you generated in the previous task</p>
+                              </entry>
+                              <entry>
+                                 <p>Get from the Connected App.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Password Security Token</p>
+                              </entry>
+                              <entry>
+                                 <p>The password security token, if required</p>
+                              </entry>
+                              <entry/>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Token Request URL</p>
+                              </entry>
+                              <entry>
+                                 <p>OAuth token URL</p>
+                              </entry>
+                              <entry>
+                                 <p>https://#ENV#.<xref href="http://salesforce.com/services/oauth2/token"
+                                          format="html"
+                                          scope="external">salesforce.com/services/oauth2/token</xref>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

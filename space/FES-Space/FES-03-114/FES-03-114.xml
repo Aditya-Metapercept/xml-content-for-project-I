@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m203F033-BB02-11F0-8785-09173F13E4C5" xml:lang="en-us">
+   <title>Activating a Backup Machine Server</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="06-29-2022"/>
+      </critdates>
+   </topicmeta>
+   <topicref href="FES-03-114_activating_a_backup_machine_server.xml"
+             chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="FES-03-114"/>
+         <othermeta name="RevisionDate" content="06-29-2022"/>
+      </topicmeta>
+      <topicref href="FES-03-114_purpose.xml"/>
+      <topicref href="FES-03-114_application.xml"/>
+      <topicref href="FES-03-114_safety.xml"/>
+      <topicref href="FES-03-114_procedure.xml"/>
+      <topicref href="FES-03-114_equipment.xml"/>
+      <topicref href="FES-03-114_reference.xml"/>
+      <topicref href="FES-03-114_collaboration.xml"/>
+      <topicref href="FES-03-114_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>

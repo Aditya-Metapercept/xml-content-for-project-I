@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c37A6926-BDF3-11F0-9934-09173F13E4C5">
+   <title>Environment Protection</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:17:00+05:30"/>
+         <revised modified="2025-11-14T14:17:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="safety-officer,environmental-compliance-officer,operations-manager,maintenance-personnel"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>secondary-containment</indexterm>
+            <indexterm>environmental-ppe</indexterm>
+            <indexterm>absorbent-materials</indexterm>
+            <indexterm>disposal-containers</indexterm>
+            <!-- Process layer -->
+            <indexterm>containment-and-cleanup</indexterm>
+            <indexterm>hazardous-material-handling</indexterm>
+            <indexterm>waste-labeling</indexterm>
+            <indexterm>drain-protection</indexterm>
+            <indexterm>incident-escalation</indexterm>
+            <!-- Context layer -->
+            <indexterm>workshop-environment-protection</indexterm>
+            <indexterm>maintenance-bay-operations</indexterm>
+            <indexterm>corporate-environment-policy</indexterm>
+            <indexterm>site-incident-response</indexterm>
+            <indexterm>regulatory-reporting</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Environment Protection (Supplementary)"/>
+         <othermeta name="shortdesc"
+                    content="Supplementary environmental protection measures: containment, PPE, labeling and incident escalation for maintenance activities."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="containment-trays;absorbents;ppe;label-printers;hazardous-waste-bags"/>
+         <othermeta name="taxonomy"
+                    content="domain:safety-and-environment;usecase:protection-measures;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="containment,cleanup,PPE,waste-labeling"/>
+         <othermeta name="usecase"
+                    content="prevent contamination and ensure safe cleanup during maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Environment Protection 190</p>
+      <table colsep="1" frame="all" rowsep="1" id="table_jxz_rlz_5gc">
+         <tgroup cols="11">
+            <colspec colname="col1" colnum="1" colwidth="4.1*"/>
+            <colspec colname="col2" colnum="2" colwidth="2.1*"/>
+            <colspec colname="col3" colnum="3" colwidth="1.1*"/>
+            <colspec colname="col4" colnum="4" colwidth="0.5*"/>
+            <colspec colname="col5" colnum="5" colwidth="0.6*"/>
+            <colspec colname="col6" colnum="6" colwidth="0.4*"/>
+            <colspec colname="col7" colnum="7" colwidth="0.4*"/>
+            <colspec colname="col8" colnum="8" colwidth="0.4*"/>
+            <colspec colname="col9" colnum="9" colwidth="0.4*"/>
+            <colspec colname="col10" colnum="10" colwidth="0.4*"/>
+            <colspec colname="col11" colnum="11" colwidth="0.4*"/>
+            <thead>
+               <row>
+                  <entry nameend="col2" namest="col1">Quick Reference to Maintenance Schedule </entry>
+                  <entry/>
+                  <entry/>
+                  <entry morerows="1"> When Required </entry>
+                  <entry> FIRST </entry>
+                  <entry nameend="col11" namest="col7"> EVERY </entry>
+               </row>
+               <row>
+                  <entry> ITEMS </entry>
+                  <entry> SERVICES </entry>
+                  <entry> PAGE </entry>
+                  <entry> 50-100 Service Hours or a Week </entry>
+                  <entry> 10 Service Hours or a Day </entry>
+                  <entry> 500 Service Hours or 3 Months </entry>
+                  <entry> 1000 Service Hours or 6 Months </entry>
+                  <entry> 1500 Service Hours or 9 Months </entry>
+                  <entry> 2000 Service Hours or a Year </entry>
+                  <entry> 4500 Service Hours or 36 Months </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Air Cleaner Indicator</entry>
+                  <entry>Check</entry>
+                  <entry>161</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Air Intake System</entry>
+                  <entry>Check, Clean</entry>
+                  <entry>145</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Air Intake System</entry>
+                  <entry>Change</entry>
+                  <entry>171</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Back-Up Alarm</entry>
+                  <entry>Test</entry>
+                  <entry>163</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Battery Terminal</entry>
+                  <entry>Clean, Inspect</entry>
+                  <entry>176</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Belts</entry>
+                  <entry>Check, Adjust</entry>
+                  <entry>172</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Brake Cam Shaft &amp; Slack Adjuster</entry>
+                  <entry>Lubricate</entry>
+                  <entry>175</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Brake Oil Tank and Strainer (OCDB)</entry>
+                  <entry>Clean, Change</entry>
+                  <entry>169,171</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Carriage Roller Extrusion</entry>
+                  <entry>Adjust</entry>
+                  <entry>156</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Coolant Level</entry>
+                  <entry>Check</entry>
+                  <entry>160</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Cooling System</entry>
+                  <entry>Clean, Change</entry>
+                  <entry>185</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Crosshead Rollers</entry>
+                  <entry>Inspect</entry>
+                  <entry>173</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>DEF/Ad-Blue Fluid Level</entry>
+                  <entry>Check</entry>
+                  <entry>161</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>DEF/Ad-Blue Supply Module Filter Replacement</entry>
+                  <entry/>
+                  <entry>189</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+               </row>
+               <row>
+                  <entry>Draining the Water From the Fuel Filter</entry>
+                  <entry/>
+                  <entry>148</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Drive Axle Oil</entry>
+                  <entry>Change</entry>
+                  <entry>168,182</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Engine Oil &amp; Filter</entry>
+                  <entry>Change</entry>
+                  <entry>171</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Engine Oil &amp; Oil Filter</entry>
+                  <entry>Change</entry>
+                  <entry>165</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Engine Oil Level</entry>
+                  <entry>Check</entry>
+                  <entry>160</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Engine Valve Lash</entry>
+                  <entry>Check, Adjust</entry>
+                  <entry>148</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Exhaust System</entry>
+                  <entry>Inspect</entry>
+                  <entry>188</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Fork</entry>
+                  <entry>Inspect</entry>
+                  <entry>186</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Fuel Filter</entry>
+                  <entry>Change</entry>
+                  <entry>147</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Fuel Lines &amp; Fittings</entry>
+                  <entry>Check</entry>
+                  <entry>188</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Fuel Tank Filler Cap &amp; Screen (If Equipped)</entry>
+                  <entry>Clean</entry>
+                  <entry>149</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Fuses, Bulbs &amp; Circuit Breaker</entry>
+                  <entry>Change, Reset</entry>
+                  <entry>153</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Horn and Lights(If Equipped)</entry>
+                  <entry>Check</entry>
+                  <entry>174</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Hydraulic High Pressure Filter</entry>
+                  <entry>Change</entry>
+                  <entry>179</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Hydraulic Oil</entry>
+                  <entry>Change</entry>
+                  <entry>188</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Hydraulic Oil Level</entry>
+                  <entry>Check</entry>
+                  <entry>164</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Hydraulic Return Filter</entry>
+                  <entry>Change</entry>
+                  <entry>178</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Hydraulic Strainer &amp; Breather</entry>
+                  <entry>Check, Clean, Change</entry>
+                  <entry>177</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Lift Chain Adjustment</entry>
+                  <entry/>
+                  <entry>180</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Lift Chains</entry>
+                  <entry>Test, Check, Adjust</entry>
+                  <entry>180</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Mast Channels (Roller Mast Only)</entry>
+                  <entry>Lubricate</entry>
+                  <entry>163</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Mast Hinge Pins</entry>
+                  <entry>Lubricate</entry>
+                  <entry>173</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Mast, Carriage, Lift Chains &amp; Attachments</entry>
+                  <entry>Inspect, Lubricate</entry>
+                  <entry>173</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Overhead Guard</entry>
+                  <entry>Inspect</entry>
+                  <entry>174</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Parking Brake</entry>
+                  <entry>Test, Adjust</entry>
+                  <entry>170,175</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Priming the Fuel System</entry>
+                  <entry/>
+                  <entry>148</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Radiator Cap</entry>
+                  <entry>Clean, Change</entry>
+                  <entry>155</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>SCR Cleaning</entry>
+                  <entry>DeSOx</entry>
+                  <entry>150</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Seat</entry>
+                  <entry>Check, Lubricate</entry>
+                  <entry>149</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Steer Wheel Bearings</entry>
+                  <entry>Reassemble</entry>
+                  <entry>183</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Steering Mechanism</entry>
+                  <entry>Check, Lubricate</entry>
+                  <entry>175</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Tilt Cylinders</entry>
+                  <entry>Check, Adjust, Lubricate</entry>
+                  <entry>172</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Transmission Display</entry>
+                  <entry>Check</entry>
+                  <entry>157</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Transmission Oil &amp; Oil Filter</entry>
+                  <entry>Change</entry>
+                  <entry>166,181</entry>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Transmission Oil Level</entry>
+                  <entry>Check</entry>
+                  <entry>163</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Tyres and Wheels</entry>
+                  <entry>Inspect, Check</entry>
+                  <entry>155</entry>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Universal Joint</entry>
+                  <entry>Inspect, Lubricate</entry>
+                  <entry>175</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Walk-Around Inspection</entry>
+                  <entry/>
+                  <entry>162</entry>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>Wheel Nuts</entry>
+                  <entry>Check, Inspect</entry>
+                  <entry>176</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>O</entry>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

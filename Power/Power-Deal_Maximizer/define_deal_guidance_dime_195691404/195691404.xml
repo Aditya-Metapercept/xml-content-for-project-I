@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c27107F6-BDF2-11F0-1143-09173F13E4C5" xml:lang="en">
+   <title>Define Deal Guidance Dimensions</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>guidance-dimensions</indexterm>
+            <indexterm>pricing-dimension</indexterm>
+            <indexterm>dimension-attributes</indexterm>
+            <indexterm>guidance-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>defining-dimensions</indexterm>
+            <indexterm>selecting-dimension-attributes</indexterm>
+            <indexterm>mapping-dimension-criteria</indexterm>
+            <indexterm>evaluating-dimension-relevance</indexterm>
+            <indexterm>configuring-deal-dimensions</indexterm>
+            <indexterm>managing-guidance-inputs</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>deal-evaluation-environment</indexterm>
+            <indexterm>enterprise-pricing</indexterm>
+            <indexterm>b2b-software</indexterm>
+            <indexterm>deal-quality-assessment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Define Deal Guidance Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Explains how deal guidance dimensions represent attributes used to assess deal quality and drive guidance rules."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="dimension; attribute; dimension criteria; deal guidance rule; evaluation metric"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="guidance dimensions,dimension attributes,deal quality,pricing inputs"/>
+         <othermeta name="usecase"
+                    content="defining deal guidance attributes used for evaluating deals"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Dimensions are used to populate Dimension Sets, which are subsequently used by Guidance Rules.</p>
+      <p>Dimensions can be attributes of products, quotes, quote line items, deals, and deal line items. Dimensions enable you to set the criteria which will be used to judge the quality of a deal.</p>
+      <note type="note">
+         <p>By default, out of the box, Line Item and Product Configuration are supported. To enable Deal Maximizer for other objects, customers should contact professional services.</p>
+      </note>
+   </body>
+</topic>

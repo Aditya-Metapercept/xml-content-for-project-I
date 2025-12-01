@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m284C300-BDF2-11F0-1529-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Migration Path for Power Invoice Generation to the New Composer Package</title>
+   <topicref chunk="to-content" href="231212826.xml" xml:lang="en">
+      <topicref href="step_1_export_cig_templates__queries_and_solutions.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Step 1: Export CIG Templates, Queries and Solutions</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="step_2_remove_permission_sets.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Step 2: Remove Permission Sets</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="step_3_uninstall_Power_invoice_generation.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Step 3: Uninstall Power Invoice Generation</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="example.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Example</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="step_4_install_composer.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Step 4: Install Composer</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="example_1.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Example_1</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="using_salesforce_data_loader_to_export_and_import_templates.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Using Salesforce Data Loader to Export and Import Templates:</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="exporting_your_templates.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Exporting your Templates</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="import_your_templates_into_your_org_.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Import your Templates into your Org.</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="uploading_your_templates.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Uploading your Templates</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

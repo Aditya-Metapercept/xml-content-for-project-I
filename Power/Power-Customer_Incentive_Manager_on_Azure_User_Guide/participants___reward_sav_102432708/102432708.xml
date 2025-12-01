@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25AF873-BDF2-11F0-2045-09173F13E4C5" xml:lang="en">
+   <title>Participants - Reward Savings Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>package-saving-program</indexterm>
+            <indexterm>reward-savings-program</indexterm>
+            <indexterm>bundle-saving-program</indexterm>
+            <indexterm>secondary-package</indexterm>
+            <indexterm>beneficiary-line</indexterm>
+            <indexterm>product-catalog</indexterm>
+            <!-- Process layer -->
+            <indexterm>add-participants</indexterm>
+            <indexterm>assign-beneficiary-lines</indexterm>
+            <indexterm>configure-pricing-tiers</indexterm>
+            <indexterm>create-program</indexterm>
+            <indexterm>validate-eligibility</indexterm>
+            <indexterm>clone-beneficiary-lines</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>billing-workflow</indexterm>
+            <indexterm>monthly-billing</indexterm>
+            <indexterm>gpo-membership</indexterm>
+            <indexterm>enterprise-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Participants - Reward Savings Program"/>
+         <othermeta name="shortdesc"
+                    content="Participants are an additional set of customers or members eligible to a price defined in the program."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="package;participant;beneficiary-line;product-catalog;pricing-tier;program"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="participants,package-savings,eligibility,pricing,beneficiary-lines,program-configuration"/>
+         <othermeta name="usecase"
+                    content="explain-participant-configuration-for-savings-program"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Participants are an additional set of customers or members which can be added to a program. For example, they can be members of IDN, members of GPO or set of independent customers. Adding the participants to this section make these set of customers/members eligible to a price defined in the program.</p>
+      <p>Order lines can be uploaded for each of the participants and based on Benefit Level setting on the program header, the system shall calculate the aggregations for individual participants.</p>
+      <p>This section also enables you to add, modify, import, export, and delete one or more participants in the program. For adding, modifying, and deleting the participants, please refer to the <xref href="../participants_102432701_102432701/102432701.xml" format="dita">Participants</xref> section.</p>
+      <p>The below table displays information about the added participants:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Field</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Account Name</p>
+                     </entry>
+                     <entry>
+                        <p>Name of the participants.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Parent Account Name</p>
+                     </entry>
+                     <entry>
+                        <p>Name of the parent account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Account Type</p>
+                     </entry>
+                     <entry>
+                        <p>Type of the account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Account Id</p>
+                     </entry>
+                     <entry>
+                        <p>ID of the account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Effective Start Date</p>
+                     </entry>
+                     <entry>
+                        <p>Program Start Date. You can modify the date manually.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Effective End Date</p>
+                     </entry>
+                     <entry>
+                        <p>Program End Date. You can modify the date manually.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save</p>
+                     </entry>
+                     <entry>
+                        <p>Click Save to confirm the set of participants in the program.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <note type="note">
+         <p>Note</p>
+         <p>The system will throw a validation if the same participant is added multiple times in an overlapping time period.</p>
+      </note>
+   </body>
+</topic>

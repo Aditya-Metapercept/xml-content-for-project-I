@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t25E4170-BDF2-11F0-9322-09173F13E4C5" xml:lang="en">
+   <title>Creating Reward Saving Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>reward-saving-program</indexterm>
+            <indexterm>reward-setup-workflow</indexterm>
+            <indexterm>configuration-workspace</indexterm>
+            <indexterm>reward-engine</indexterm>
+            <indexterm>qualification-module</indexterm>
+            <indexterm>benefit-scheduler</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-reward-program</indexterm>
+            <indexterm>define-eligibility-criteria</indexterm>
+            <indexterm>map-products-to-rewards</indexterm>
+            <indexterm>configure-reward-tiers</indexterm>
+            <indexterm>test-and-validate-program</indexterm>
+            <indexterm>activate-deploy-program</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>testing-and-validation</indexterm>
+            <indexterm>staging-and-production</indexterm>
+            <indexterm>customer-account-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Creating Reward Saving Program"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step guidance for creating a reward saving program: set up configuration, define eligibility rules, map products and tiers, run validation and deploy the program."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="reward-program;configuration-workspace;eligibility-criteria;test-case;deployment-job;audit-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="create,configure,deploy,validate,eligibility,mapping"/>
+         <othermeta name="usecase"
+                    content="procedural guide to creating and deploying reward programs"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>To create Reward Saving program, please follow the below steps:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Go to the <uicontrol>Customer Incentive Manager</uicontrol> Home page <uicontrol>&gt;</uicontrol>
+               <uicontrol>CLM</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Create or select a created agreement and then click <uicontrol>New Program.</uicontrol>
+            </p>
+            <p>
+               <p>For more information on how to create a new program from Agreement, please refer to the <i>Creating a Program from the Agreement</i> topic.</p>
+            </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>Billing</uicontrol> from the <uicontrol>Program Type</uicontrol> and <uicontrol>Reward Saving Program </uicontrol>from the <uicontrol>Program Sub-Type</uicontrol> drop-down lists as shown in the below image.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="500"
+                         href="../attachments/102432704/107118593.jpg"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Continue.</uicontrol>
+            </p>
+            <p>
+               <p>
+                  <uicontrol>Billing - New Program </uicontrol>page appears.</p>
+               <p>A user can specify the following information on the program header page:</p>
+               <p>
+                  <table>
+                     <tgroup cols="2">
+                        <colspec colname="col1"/>
+                        <colspec colname="col2"/>
+                        <thead>
+                           <row>
+                              <entry>
+                                 <p>Field</p>
+                              </entry>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Program Header</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Type</p>
+                              </entry>
+                              <entry>
+                                 <p>This field is auto-populated.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Sub-Type</p>
+                              </entry>
+                              <entry>
+                                 <p>This field is auto-populated.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>General Information</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Name</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter a name of the Program.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Data Source</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Data Source</uicontrol> from the drop-down list. The values are <uicontrol>Order Line Item</uicontrol> and <uicontrol>External Summary Order Item.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Code</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the incentive code.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Account Type</p>
+                              </entry>
+                              <entry>
+                                 <p>Value of this field controls how the participant accounts are matched against the accounts, whether based on sold to or bill to, on the transaction lines. Account types are: <uicontrol>Sold to, Bill to, Ship to,</uicontrol> and<uicontrol> All.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Start Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Start Date</uicontrol> of the Program.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program End Date</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>End Date</uicontrol> of the Program.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Term Length (Months)</p>
+                              </entry>
+                              <entry>
+                                 <p>Refers to the period for the program. It is calculated automatically by the system in terms of <uicontrol>Months.</uicontrol> The formula to calculate term length: round ((end date - start date)/30)</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Label</p>
+                              </entry>
+                              <entry>
+                                 <p>How to classify the programs for reporting and searching purpose.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Description</p>
+                              </entry>
+                              <entry>
+                                 <p>Enter the program description.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Currency</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the currency type.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Create Bundles?</p>
+                              </entry>
+                              <entry>
+                                 <p>Refers to whether this program is for an ad-hoc bundle (Create Bundle). If set to <uicontrol>Yes,</uicontrol> a user can create an ad-hoc bundle for qualification and benefit calculation. Some benefit formulas control whether the benefit is for a bundle. In this case, the selection of such benefit formula also sets the ad-hoc bundle flag to be <uicontrol>true.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Agreement</p>
+                              </entry>
+                              <entry>
+                                 <p>Name of the agreement the program is linked to.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Can Be Combined?</p>
+                              </entry>
+                              <entry>
+                                 <p>This attribute controls whether this program can be executed on top of other qualified programs. If set to <uicontrol>Yes,</uicontrol> the program can be combined with other programs which also have this flag set to <uicontrol>Yes.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Account</p>
+                              </entry>
+                              <entry>
+                                 <p>Contracted customer for the program.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Measurement Frequency</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the measurement frequency. This field captures the measurement/performance period over which the total purchase volume or amount is used to qualify for tiers. Values include <uicontrol>Monthly </uicontrol>(Default),<uicontrol> Quarterly, Half Yearly, </uicontrol>and<uicontrol> Yearly</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Benefit Level</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Benefit Level</uicontrol> from the drop-down list. The values are <uicontrol>Agreement Account</uicontrol> and <uicontrol>Individual Participants</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Formula</uicontrol>
+                                    <image height="154"
+                                           placement="inline"
+                                           width="900"
+                                           href="../attachments/102432704/108499847.png"/>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Qualification Formula</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Qualification Formula </uicontrol>from the list. A user can specify how the program qualification is calculated. Program sub-type determines which qualification formula(s) are available for the program manager to choose from. The value includes <uicontrol>Non Tier</uicontrol>, <uicontrol>Volume Tier, Multiple Qualification-Revenue, Multiple Qualification-Volume.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Benefit Formula</p>
+                              </entry>
+                              <entry>
+                                 <p>User can specify how the program benefit amount is calculated. Program sub-type determines which benefit formula(s) are available for the program manager to choose from. The value is the <uicontrol>Benefit Per Unit.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Schedule</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Calendar</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Calendar.</uicontrol> Values include <uicontrol>Gregorian</uicontrol> (default value), Fiscal Calendar.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Billing Frequency</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Billing Frequency</uicontrol>. Values include <uicontrol>Monthly </uicontrol>(Default),<uicontrol> Quarterly, Half Yearly, </uicontrol>and<uicontrol> Yearly</uicontrol>.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Billing Rule</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the<uicontrol> Billing Rule</uicontrol>. Values include <uicontrol>Bill in Advance, Bill in Arrears (Default),</uicontrol> and <uicontrol>Milestone Billing.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Program Schedule Day</p>
+                              </entry>
+                              <entry>
+                                 <p>Date to considered for a period generation.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Ready for Billing After</p>
+                              </entry>
+                              <entry>
+                                 <p>The maximum number of days to accept the order lines for a previous period, before changing the status of the period to calculation complete.</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Payment &amp; Delivery Information</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Payment Term</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Payment Term</uicontrol>. The Values are Net 30 (Default), Net 60</p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Payment Method</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Payment Method. </uicontrol>The Values are <uicontrol>Adjustment Voucher Credit Memo, Electronic Fund Transfer (Default), Check,</uicontrol> and<uicontrol> Wire.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Invoice Delivery Method</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Invoice Delivery Method. </uicontrol>The Values are <uicontrol>Email (Default), Print, 3rd party,</uicontrol> and<uicontrol> N/A.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Invoice Output Format</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Invoice Output Format. </uicontrol>The Values are <uicontrol>PDF (Default), DOC, DOCX,</uicontrol> and<uicontrol> RTF.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Benefit Level</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Benefit Level.</uicontrol> The Values are <uicontrol>Agreement Account</uicontrol> and <uicontrol>Individual Participant.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Invoice Email Template</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Invoice Email Template.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Invoice Template</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Invoice Template.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry namest="col1" nameend="col2">
+                                 <p>
+                                    <uicontrol>Program Setting</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <p>Calculation Frequency</p>
+                              </entry>
+                              <entry>
+                                 <p>Select the <uicontrol>Calculation Frequency </uicontrol>from the drop-down list. The values are <uicontrol>Daily, Weekly, Bi-weekly, Monthly, Quarterly, Half yearly</uicontrol>, and <uicontrol>Yearly.</uicontrol>
+                                 </p>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </p>
+               <note type="note">
+                  <p>Fields marked with an Asterisk (*) are mandatory to select or fill.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save.</uicontrol>
+            </p>
+            <p>
+               <p>
+                  <uicontrol>Program Details </uicontrol>page appears.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

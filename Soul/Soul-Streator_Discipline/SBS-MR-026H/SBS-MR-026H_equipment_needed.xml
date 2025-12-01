@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA68F59-BB9C-11F0-1312-09173F13E4C5" xml:lang="en-us">
+   <title>Equipment Needed</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>inspection-tools</indexterm>
+            <indexterm>measuring-devices</indexterm>
+            <indexterm>lifting-station</indexterm>
+            <indexterm>motor-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>equipment-setup</indexterm>
+            <indexterm>calibration</indexterm>
+            <indexterm>preparation</indexterm>
+            <indexterm>validation</indexterm>
+            <indexterm>assembly</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>plant-readiness</indexterm>
+            <indexterm>operations</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>workplace-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Equipment Needed"/>
+         <othermeta name="shortdesc"
+                    content="List of essential tools, instruments, and lifting units required to perform maintenance and inspection activities."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metR-sbs-soul ; inspection-tools ; measuring-devices ; lifting-station ; motor-unit"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:setup-and-validation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metR-sbs-soul , inspection-tools , measuring-devices , lifting-station , motor-unit , equipment-setup , calibration , preparation , validation , assembly , glass-manufacturing , plant-readiness , operations , maintenance , workplace-safety"/>
+         <othermeta name="usecase" content="setup-and-validation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Access to the MSK control panel</li>
+         <li>Fire extinguisher in the cage</li>
+      </ul>
+   </body>
+</topic>

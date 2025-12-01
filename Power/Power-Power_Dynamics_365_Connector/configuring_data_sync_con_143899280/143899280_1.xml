@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2436EF0-BDF2-11F0-5993-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Configuring Data Sync Connections</title>
+   <topicref chunk="to-content" href="143899280.xml" xml:lang="en">
+      <topicref href="setting_up_the_dynamics_365_connection.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Setting up the Dynamics 365 Connection</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="generate_a_client_id_and_client_secret.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Generate a client Id and client secret</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_get_the_power_automate_connection_id.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To get the Power Automate Connection Id</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_set_up_a_connection_to_your_dynamics_instance.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To set up a connection to your Dynamics instance</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="setting_up_the_Power_connection.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Setting up the Power Connection</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_set_up_a_connection_to_Power.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To set up a connection to Power</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

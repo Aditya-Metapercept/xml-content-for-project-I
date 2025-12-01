@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2593E79-BDF2-11F0-1284-09173F13E4C5" xml:lang="en">
+   <title>Excluding Products and Categories</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>excluding-products</indexterm>
+            <indexterm>category-exclusion</indexterm>
+            <indexterm>product-filter</indexterm>
+            <indexterm>exclusion-rule</indexterm>
+            <indexterm>catalog-management</indexterm>
+            <indexterm>sku-exclusion</indexterm>
+            <!-- Process layer -->
+            <indexterm>exclude-products</indexterm>
+            <indexterm>apply-filters</indexterm>
+            <indexterm>validate-exclusions</indexterm>
+            <indexterm>sync-catalog</indexterm>
+            <indexterm>audit-exclusions</indexterm>
+            <indexterm>rollback</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>product-catalog</indexterm>
+            <indexterm>sales-incentives</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Excluding products and categories"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to exclude products and categories from qualification scopes using exclusion rules and catalog filters."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="excluding products; category exclusion; product filter; exclusion rule; catalog management; sku exclusion"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="exclude products, category exclusion, product filter, catalog management, exclusion rule, sku exclusion"/>
+         <othermeta name="usecase"
+                    content="exclude-products-and-categories-from-qualifications"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>You can exclude products or categories from the qualification rows. The Exclude button is enabled after the products or categories are added.</p>
+      <p>To exclude a product and category:</p>
+      <ol>
+         <li>Click Exclude.The Exclude Products page pop-up appears as follows and it is not editable.<fig>
+               <image height="250"
+                      placement="break"
+                      href="../attachments/108500817/108500810.png"/>
+            </fig>
+         </li>
+         <li>Select the categories in the Included Products tab.</li>
+         <li>Click Exclude and Save.<p>You cannot view the excluded categories or products in the Category/Products tab but you can view the excluded categories in the Excluded Products tab.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

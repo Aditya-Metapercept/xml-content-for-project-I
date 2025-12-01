@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC90088E-BB9C-11F0-1089-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose and Application</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Maintenance_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <section id="section_owr_dft_4bc">
+         <title>Purpose</title>
+         <p>To define a work instruction for performing weekly maintenance on a hot end treatment
+            hood.</p>
+      </section>
+      <section id="section_fk1_2ft_4bc">
+         <title>Application</title>
+         <p>This work instruction applies to all Soul manufacturing facilities with the relevant
+            system.</p>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c258D550-BDF2-11F0-6796-09173F13E4C5" xml:lang="en">
+   <title>Multiple Qualifications and Benefits (Revenue Tier)</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>qualification-108500817</indexterm>
+            <indexterm>multiple-qualification-engine</indexterm>
+            <indexterm>qualification-catalog</indexterm>
+            <indexterm>qualification-rule-engine</indexterm>
+            <indexterm>qualification-ui</indexterm>
+            <indexterm>qualification-api</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-qualification</indexterm>
+            <indexterm>configure-qualification-criteria</indexterm>
+            <indexterm>validate-qualification-rules</indexterm>
+            <indexterm>activate-qualification</indexterm>
+            <indexterm>audit-qualification-changes</indexterm>
+            <indexterm>rollback-qualification</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>incentive-management</indexterm>
+            <indexterm>catalog-management</indexterm>
+            <indexterm>sales-compensation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Multiple Qualifications and Benefits (Revenue Tier)"/>
+         <othermeta name="shortdesc"
+                    content="Defines the configuration, validation and activation steps for Multiple Qualifications and Benefits (Revenue Tier) within the multiple-qualification engine."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="qualification 108500817; qualification rule engine; qualification catalog; UI configuration; API endpoints; audit log"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="qualification, configuration, validation, activation, audit, multiple-qualification"/>
+         <othermeta name="usecase" content="configure-and-activate-qualification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Multiple Qualifications and Benefits is an additional type of setup for the Reward Saving Program, where multiple products can be defined as qualification criteria and as benefit products. You can enable different ways to calculate qualifiers and benefits for a particular time period. You can set up multiple qualifications and benefits for a program to combine one or more qualification products to determine revenue and define benefits/price that needs to be offered.</p>
+   </body>
+</topic>

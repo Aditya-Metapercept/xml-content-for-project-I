@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceThe0J-REM-008617RelayIn2550K-963F1D51" xml:lang="en">
+   <title>Replace the 0J-REM-008617 relay in 25–50 kVA Systems</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-PXC-Reality</indexterm>
+            <indexterm>relay-0j-rem-008617</indexterm>
+            <indexterm>control-relay</indexterm>
+            <indexterm>25-50-kva-ups</indexterm>
+            <indexterm>relay-socket</indexterm>
+            <indexterm>control-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-relay</indexterm>
+            <indexterm>isolate-control-circuit</indexterm>
+            <indexterm>remove-relay</indexterm>
+            <indexterm>install-new-relay</indexterm>
+            <indexterm>confirm-coil-activation</indexterm>
+            <indexterm>update-service-records</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>kva-25-50</indexterm>
+            <indexterm>control-system-maintenance</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>safety-isolation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replace the 0J-REM-008617 Relay in 25–50 kVA Systems — Task"/>
+         <othermeta name="shortdesc"
+                    content="Task procedure to replace control relay 0J-REM-008617 in 25–50 kVA UPS systems, including isolation, replacement, and verification of control signals."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="relay-0j-rem-008617;relay-socket;control-circuit;25-50-kva-ups;coil"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="relay,replacement,control-system,maintenance,testing"/>
+         <othermeta name="usecase" content="control-component-replacement"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 25–50 kVA systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Slide out the indicated cover as far as the cables allow
+to remove the relay (s).</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_xxx_25-50kw_powersupply2_removeboard__w120mm_0000191907.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the relay(s)</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-rem008617_relay_25-50kw_w120mm_0000211054.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+relay(s).</p>
+         </li>
+      </ol>
+   </body>
+</topic>

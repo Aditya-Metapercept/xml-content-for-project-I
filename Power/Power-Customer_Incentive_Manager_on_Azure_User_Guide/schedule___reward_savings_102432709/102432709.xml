@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25EF802-BDF2-11F0-1171-09173F13E4C5" xml:lang="en">
+   <title>Schedule - Reward Savings Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>reward-savings-program</indexterm>
+            <indexterm>payout-schedule-engine</indexterm>
+            <indexterm>program-activation-module</indexterm>
+            <indexterm>calculation-framework</indexterm>
+            <indexterm>benefit-configuration</indexterm>
+            <!-- Process -->
+            <indexterm>schedule-generation</indexterm>
+            <indexterm>program-activation</indexterm>
+            <indexterm>payout-computation</indexterm>
+            <indexterm>workflow-triggering</indexterm>
+            <indexterm>tier-assessment</indexterm>
+            <indexterm>benefit-processing</indexterm>
+            <!-- Context -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>incentive-programs</indexterm>
+            <indexterm>enterprise-systems</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>business-performance-metrics</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Schedule - Reward Savings Program"/>
+         <othermeta name="shortdesc"
+                    content="Activating a program triggers jobs to create payout schedules"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="reward savings program; payout schedule; activation jobs; payout tiers; benefit configuration; workflow triggers"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="payout schedule, program activation, reward program, payout tiers, benefit calculation, job triggers"/>
+         <othermeta name="usecase"
+                    content="describe payout schedule generation for activated programs"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Activating a program triggers jobs to create payout schedules. Primarily these payout schedules are created based on the settings of three attributes on the Program Definition.</p>
+      <p>The attributes include:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Fields</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Billing Frequency</p>
+                     </entry>
+                     <entry>
+                        <p>The setting defines, the schedule frequency Monthly, Quarterly, Semi-Annual, and Yearly.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Program Schedule Day</p>
+                     </entry>
+                     <entry>
+                        <p>The setting defines the dates to be considered for a period generation.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Ready For Invoice Day</p>
+                     </entry>
+                     <entry>
+                        <p>The setting defines, the maximum number of days to accept the order lines for a previous period, before changing the status of the period to calculation complete.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="750"
+                   href="../attachments/102432709/107118642.jpg"/>
+         </fig>
+      </p>
+      <p>Schedule section lists details of all the schedules.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="700"
+                   href="../attachments/102432709/107118640.jpg"/>
+         </fig>
+      </p>
+   </body>
+</topic>

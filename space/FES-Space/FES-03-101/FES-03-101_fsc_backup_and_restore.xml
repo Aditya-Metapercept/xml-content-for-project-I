@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1FA3ED7-BB01-11F0-3212-09173F13E4C5" xml:lang="en-us">
+   <title>FSC Backup and Restore</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-11-07"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,maintenance,production"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-FES-Space</indexterm>
+            <indexterm>fsc</indexterm>
+            <indexterm>Forming Supervisory Computer</indexterm>
+            <indexterm>backup-agent</indexterm>
+            <indexterm>repository-server</indexterm>
+            <indexterm>configuration-image</indexterm>
+            <!-- Process layer -->
+            <indexterm>full-backup</indexterm>
+            <indexterm>incremental-backup</indexterm>
+            <indexterm>restore-to-point-in-time</indexterm>
+            <indexterm>restore-validation</indexterm>
+            <indexterm>schedule-and-retention</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>furnace-supervision</indexterm>
+            <indexterm>disaster-recovery</indexterm>
+            <indexterm>operational-availability</indexterm>
+            <indexterm>it-ot-boundary</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="FES-03-101 — FSC backup and restore"/>
+         <othermeta name="shortdesc"
+                    content="Detailed backup and restore procedures for FSCs: full/incremental backups, scheduling, restore steps and validation checks for supervisory computers."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="backup-job;repository;snapshot;restore-point;validation-report"/>
+         <othermeta name="taxonomy"
+                    content="domain:operations;usecase:fsc-backup-restore;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="backup,restore,schedule,validation"/>
+         <othermeta name="usecase" content="procedure"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

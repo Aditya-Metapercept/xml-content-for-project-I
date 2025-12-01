@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9D921F-BB9C-11F0-2595-09173F13E4C5" xml:lang="en-us">
+   <title>Start/Main Menu ➔Section Menu ➔Rejects Rejector Timing Screen</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>To set the rejector timing:<ol id="ol_z22_bl3_fcc">
+            <li>Press Distance to Reject (Rejector), and enter the distance between the main camera
+               viewpoint on the conveyor and the rejector. Normally this value is only set during
+               the installation of the system and does not need to be changed.</li>
+            <li>Press Pulse Time, and enter the pulse time in milliseconds (the time the reject
+               valve is activated).</li>
+            <li>Press Blow Off, and select one of the sections to reject.</li>
+            <li>If the reject pulse is too early, increase the Distance to Reject value. If the
+               pulse is too late, decrease the value.</li>
+            <li>Repeat these steps until the rejector functions correctly.<fig id="fig_yry_2l3_fcc">
+                  <image href="media/image7.jpg"
+                         placement="break"
+                         id="image_zry_2l3_fcc"
+                         align="center"
+                         scale="50"/>
+               </fig>
+               <fig id="fig_dq5_3l3_fcc">
+                  <image href="media/image8.jpg"
+                         placement="break"
+                         align="center"
+                         id="image_eq5_3l3_fcc"
+                         scale="50"/>
+               </fig>
+            </li>
+         </ol>
+      </p>
+      <p>
+         <note type="note" id="note_tdw_tl3_fcc"> In case the ISWatch system uses the forming
+            machine rejector, and the machine reject pulse is connected to the ISWatch system, the
+            Distance to Reject value can be calculated automatically by the system.</note>
+         <ol id="ol_f5m_cm3_fcc">
+            <li>Press Pulse Time, and enter the pulse time (the time the reject valve is
+               activated).</li>
+            <li>Press Start Procedure.</li>
+            <li>Press Synchronization and select one section.</li>
+            <li>Start rejecting bottles of this section with the forming machine reject (and ONLY
+               one section). The ISWatch measures the distance during 5 rejects.</li>
+            <li>Press Blow Off, and select one of the cavities/sections to reject.</li>
+            <li>If the reject pulse is too early, increase the Distance to Reject value. If the
+               pulse is too late, decrease the value.</li>
+            <li>Repeat steps 5 and 6 until the reject system functions correctly.<fig id="fig_g5m_cm3_fcc">
+                  <image href="media/image9.jpg"
+                         placement="break"
+                         align="center"
+                         scale="50"
+                         id="image_h5m_cm3_fcc"/>
+               </fig>
+            </li>
+         </ol>
+      </p>
+   </body>
+</topic>

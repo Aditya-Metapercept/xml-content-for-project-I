@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c375230A-BDF3-11F0-4704-09173F13E4C5" xml:lang="en-us">
+   <title>Air-205 kPa (30 psi) Maximum Pressure</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T10:29:00+05:30"/>
+         <revised modified="2025-11-14T10:29:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="service-technicians,maintenance-personnel,safety-officers,industrial-engineers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>air-pressure-specification</indexterm>
+            <indexterm>205-kpa-30-psi</indexterm>
+            <indexterm>pneumatic-system</indexterm>
+            <indexterm>pressure-relief-valve</indexterm>
+            <!-- Process layer -->
+            <indexterm>pressure-check-procedure</indexterm>
+            <indexterm>safety-valve-setting</indexterm>
+            <indexterm>pneumatic-system-maintenance</indexterm>
+            <indexterm>pressure-testing</indexterm>
+            <indexterm>leak-detection</indexterm>
+            <!-- Context layer -->
+            <indexterm>pneumatic-controls</indexterm>
+            <indexterm>hydraulic-and-pneumatic-integration</indexterm>
+            <indexterm>worksite-safety-standards</indexterm>
+            <indexterm>fleet-mro-standards</indexterm>
+            <indexterm>industrial-operational-limits</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Air system: 205 kPa / 30 psi maximum pressure"/>
+         <othermeta name="shortdesc"
+                    content="Specification and safety procedures for pneumatic systems with a maximum rated pressure of 205 kPa (30 psi)."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="pressure-relief-valve;air-compressor;piping;pressure-gauge;fittings"/>
+         <othermeta name="taxonomy"
+                    content="domain:pneumatics-and-controls;usecase:safety-and-specification;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="pressure-specs,pneumatics,safety,testing"/>
+         <othermeta name="usecase"
+                    content="verify-and-maintain-air-system-pressure-within-rated-limits"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <fig id="fig_gdl_knz_5gc">
+            <image href="media/image824.png" id="image_idl_knz_5gc" placement="inline"/>
+         </fig>
+      </p>
+      <p>Typical Example</p>
+      <p>Direct air on the inside and outside of the element along the
+length of the pleats. Check the element for any tears, rips or
+damage.</p>
+   </body>
+</topic>

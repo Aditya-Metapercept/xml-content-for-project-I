@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC55C541-BB9C-11F0-1582-09173F13E4C5" xml:lang="en-us">
+   <title>Basic Layout of Each Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Bowling_Green_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Zippe operating system has two SCADA workstations (based on Windows 10).  One station is in the SBS control room, and the other is in the melter control room.  The screens available through the workstations are used to control and monitor operations, and respond to alarms. </p>
+      <p>As shown below on the main menu, each screen is divided into three sections: Overview Area at the top, Working Area in the middle, and Button Bar at the bottom.</p>
+      <p>
+         <fig>
+            <image href="media/image1.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

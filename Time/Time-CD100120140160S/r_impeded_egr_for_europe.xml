@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r388FA77-BDF3-11F0-1897-09173F13E4C5">
+   <title>Impeded EGR for Europe</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T16:10:00+05:30"/>
+         <revised modified="2025-11-15T16:10:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel, reliability-engineers, machine-operators, safety-and-compliance-officers, management"/>
+         <keywords><!-- product layer -->
+            <indexterm>exhaust-gas-recirculation-valve</indexterm>
+            <indexterm>egr-cooler</indexterm>
+            <indexterm>egr-pipework</indexterm>
+            <indexterm>intake-manifold</indexterm>
+            <indexterm>engine-control-unit</indexterm>
+            <!-- process layer -->
+            <indexterm>impediment-diagnosis</indexterm>
+            <indexterm>soot-cleaning-procedure</indexterm>
+            <indexterm>flow-verification-test</indexterm>
+            <indexterm>component-replacement</indexterm>
+            <indexterm>preventive-maintenance-check</indexterm>
+            <!-- context layer -->
+            <indexterm>europe-emissions-standards</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+            <indexterm>heavy-equipment-operation</indexterm>
+            <indexterm>plant-environment</indexterm>
+            <indexterm>on-vehicle-repair</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Impeded EGR — Europe"/>
+         <othermeta name="shortdesc"
+                    content="Diagnosis and remediation of impeded EGR flow including cleaning and component checks in European regulatory context."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="EGR valve;EGR cooler;soot-deposit;intake-manifold;cleaning-tools"/>
+         <othermeta name="taxonomy"
+                    content="domain:engine-systems;usecase:egr-diagnosis-and-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="egr, soot-cleaning, diagnostics, maintenance"/>
+         <othermeta name="usecase" content="diagnose-clean-and-restore-egr-flow"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>
+            <table colsep="1" frame="all" rowsep="1" id="table_qch_psy_5gc">
+               <tgroup cols="9">
+                  <colspec colname="col1" colnum="1" colwidth="1.1*"/>
+                  <colspec colname="col2" colnum="2" colwidth="1*"/>
+                  <colspec colname="col3" colnum="3" colwidth="0.9*"/>
+                  <colspec colname="col4" colnum="4" colwidth="1*"/>
+                  <colspec colname="col5" colnum="5" colwidth="1.1*"/>
+                  <colspec colname="col6" colnum="6" colwidth="1*"/>
+                  <colspec colname="col7" colnum="7" colwidth="1*"/>
+                  <colspec colname="col8" colnum="8" colwidth="1*"/>
+                  <colspec colname="col9" colnum="9" colwidth="0.9*"/>
+                  <thead>
+                     <row>
+                        <entry morerows="2"> Inducement Stage </entry>
+                        <entry morerows="2">Condition </entry>
+                        <entry morerows="2">Repeat Offence (within 40hrs) </entry>
+                        <entry nameend="col9" namest="col4">Inducement Strategy </entry>
+                     </row>
+                     <row>
+                        <entry>DEF Level Indicator </entry>
+                        <entry>DEF Indicator </entry>
+                        <entry>Engine Check Lamp </entry>
+                        <entry>Buzzer </entry>
+                        <entry>Torque Reduction </entry>
+                        <entry>RPM Limit </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <image href="media/image950a.png"
+                                  id="image_lvd_cvy_5gc"
+                                  placement="inline"/>
+                        </entry>
+                        <entry>
+                           <image href="media/image951a.png"
+                                  id="image_mvd_cvy_5gc"
+                                  placement="inline"/>
+                        </entry>
+                        <entry>
+                           <image href="media/image763b.png"
+                                  id="image_nvd_cvy_5gc"
+                                  placement="inline"/>
+                        </entry>
+                        <entry>
+                           <image href="media/image764.png" id="image_ovd_cvy_5gc" placement="inline"/>
+                        </entry>
+                        <entry/>
+                        <entry/>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Normal</entry>
+                        <entry>NA</entry>
+                        <entry morerows="3">≥ 95% of counter value for severe
+                                    inducement</entry>
+                        <entry>Green ON</entry>
+                        <entry>Off</entry>
+                        <entry>Off</entry>
+                        <entry>Off</entry>
+                        <entry>0%</entry>
+                        <entry>NA</entry>
+                     </row>
+                     <row>
+                        <entry>Level1</entry>
+                        <entry>Blocked EGR detected</entry>
+                        <entry>Green ON</entry>
+                        <entry>On</entry>
+                        <entry>On</entry>
+                        <entry>Off</entry>
+                        <entry>0%</entry>
+                        <entry>NA</entry>
+                     </row>
+                     <row>
+                        <entry>Level2</entry>
+                        <entry>36~100hrs</entry>
+                        <entry>Green ON</entry>
+                        <entry>On</entry>
+                        <entry>On</entry>
+                        <entry>At starting &amp; Every 20min</entry>
+                        <entry>25%</entry>
+                        <entry>NA</entry>
+                     </row>
+                     <row>
+                        <entry>Level3</entry>
+                        <entry>over 100hrs</entry>
+                        <entry>Green ON</entry>
+                        <entry>Blinking</entry>
+                        <entry>Blink</entry>
+                        <entry>Every 10min</entry>
+                        <entry>50%</entry>
+                        <entry>60% (about 1500rpm)</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table colsep="1" frame="all" rowsep="1" id="table_wch_psy_5gc">
+               <tgroup cols="5">
+                  <colspec colname="col1" colnum="1" colwidth="0.7*"/>
+                  <colspec colname="col2" colnum="2" colwidth="0.7*"/>
+                  <colspec colname="col3" colnum="3" colwidth="0.7*"/>
+                  <colspec colname="col4" colnum="4" colwidth="1.2*"/>
+                  <colspec colname="col5" colnum="5" colwidth="1.6*"/>
+                  <thead>
+                     <row>
+                        <entry morerows="2">Inducement Stage </entry>
+                        <entry morerows="2">Condition </entry>
+                        <entry morerows="2">Repeat Offence (within 40hrs) </entry>
+                        <entry nameend="col5" namest="col4">LCD Display </entry>
+                     </row>
+                     <row>
+                        <entry>Method </entry>
+                        <entry>Message on the Display </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <image href="media/image781.png" id="image_xch_psy_5gc" placement="inline"/>
+                        </entry>
+                        <entry>
+                           <image href="media/image782.png" id="image_ych_psy_5gc" placement="inline"/>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Normal</entry>
+                        <entry>NA</entry>
+                        <entry morerows="3">≥ 95% of counter value for severe
+                                    inducement</entry>
+                        <entry>NA</entry>
+                        <entry>NA</entry>
+                     </row>
+                     <row>
+                        <entry>Level1</entry>
+                        <entry>Blocked EGR detected</entry>
+                        <entry>At starting &amp; Every 20min</entry>
+                        <entry>
+                           <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                           <p>Engine Power will be Reduced</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>Level2</entry>
+                        <entry>36~100hrs</entry>
+                        <entry>Every 10min</entry>
+                        <entry>
+                           <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                           <p>Engine Power is Reduced By 25%</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>Level3</entry>
+                        <entry>over 100hrs</entry>
+                        <entry>Continuous</entry>
+                        <entry>
+                           <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                           <p>Engine Power is Reduced By 50%</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

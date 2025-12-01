@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UPSShippingWeightsAndDimensions-547F7BB6" xml:lang="en">
+   <title>UPS Shipping Weights and Dimensions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>shipping-pallet</indexterm>
+            <indexterm>packaging</indexterm>
+            <indexterm>crate</indexterm>
+            <indexterm>lifting-eyes</indexterm>
+            <!-- Process layer -->
+            <indexterm>shipping</indexterm>
+            <indexterm>weigh-and-dimensions</indexterm>
+            <indexterm>load-securing</indexterm>
+            <indexterm>forklift-handling</indexterm>
+            <indexterm>transport-safety</indexterm>
+            <indexterm>packaging-requirements</indexterm>
+            <!-- Context layer -->
+            <indexterm>factory-shipping</indexterm>
+            <indexterm>logistics</indexterm>
+            <indexterm>field-delivery</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="UPS Shipping Weights and Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Shipping and packaging reference listing weights, dimensions and handling requirements for UPS models to support logistics and safe transport."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS; shipping pallet; crate; packaging materials; lifting eyes; forklift; weight tables; dimensions"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:shipping-and-handling;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="shipping,weights,dimensions,packaging,logistics"/>
+         <othermeta name="usecase" content="shipping-and-handling"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="col5"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Weight kg (lbs)</entry>
+                     <entry valign="top">Height mm (in)</entry>
+                     <entry valign="top">Width mm (in)</entry>
+                     <entry valign="top">Depth mm (in)</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>25 kVA</entry>
+                     <entry>380 (835)</entry>
+                     <entry>2300 (90.5)</entry>
+                     <entry>820 (32.3)</entry>
+                     <entry>1082
+(42.6)</entry>
+                  </row>
+                  <row>
+                     <entry>37.5 kVA</entry>
+                     <entry>459 (1010)</entry>
+                     <entry>2300 (90.5)</entry>
+                     <entry>820 (32.3)</entry>
+                     <entry>1082
+(42.6)</entry>
+                  </row>
+                  <row>
+                     <entry>50 kVA</entry>
+                     <entry>505 (1110)</entry>
+                     <entry>2300 (90.5)</entry>
+                     <entry>820
+(32.3)</entry>
+                     <entry>1082
+(42.6)</entry>
+                  </row>
+                  <row>
+                     <entry>75 kVA</entry>
+                     <entry>780
+(1715)</entry>
+                     <entry>2300
+(90.5)</entry>
+                     <entry>1420
+(55.9)</entry>
+                     <entry>1082
+(42.6)</entry>
+                  </row>
+                  <row>
+                     <entry>100 kVA</entry>
+                     <entry>870
+(1915)</entry>
+                     <entry>2300
+(90.5)</entry>
+                     <entry>1420
+(55.9)</entry>
+                     <entry>1082
+(42.6)</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

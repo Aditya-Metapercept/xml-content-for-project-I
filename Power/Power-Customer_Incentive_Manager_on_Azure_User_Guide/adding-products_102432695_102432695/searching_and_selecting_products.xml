@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c24A2096-BDF2-11F0-1320-09173F13E4C5" xml:lang="en">
+   <title>Searching and Selecting Products</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>product-search-module</indexterm>
+            <indexterm>search-filter-ui</indexterm>
+            <indexterm>product-selection-ui</indexterm>
+            <indexterm>product-list-component</indexterm>
+            <indexterm>search-bar</indexterm>
+            <indexterm>search-results-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>searching-products</indexterm>
+            <indexterm>selecting-products</indexterm>
+            <indexterm>filtering-products</indexterm>
+            <indexterm>validating-search-results</indexterm>
+            <indexterm>adding-products</indexterm>
+            <indexterm>refining-search-queries</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>program-management</indexterm>
+            <indexterm>search-driven-product-discovery</indexterm>
+            <indexterm>user-interface-interactions</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Searching and Selecting Products"/>
+         <othermeta name="shortdesc"
+                    content="Allows users to search the catalog using the search and filter controls and select products from the results."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="search-bar;search-filter;product-results-list;selection-controls;ui-components;product-item"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="searching,filtering,selecting,product-results,search-ui,workflow"/>
+         <othermeta name="usecase" content="search-and-select-products"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Searching and selecting option enables you to add products using the search and select option.</p>
+      <p>To add products using search and select option, please follow the below steps:</p>
+      <ol>
+         <li>Go to the Qualifications &amp; Benefits page and click Add, as shown in the below image.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432767.jpg"/>
+            </fig>Product Catalog page appears.</li>
+         <li>Click Search Filters.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432763.jpg"/>
+            </fig>
+         </li>
+         <li>Search Filters page appears.<p>You can search for products by using the Basic and Advanced search filters.</p>
+            <p>
+               <table>
+                  <tgroup cols="2">
+                     <colspec colname="col1"/>
+                     <colspec colname="col2"/>
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Search Filters</p>
+                           </entry>
+                           <entry>
+                              <p>Values</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Basic Search Filters</p>
+                           </entry>
+                           <entry>
+                              <p>In the Basic Search filter, you can search the products using the product Name, Product Code, and Product ID.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Advanced Search Filters</p>
+                           </entry>
+                           <entry>
+                              <p>In the Advanced Search filter, you can search the products using the Field, Operator, and Value.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/102432695/102432762.jpg"/>
+               </fig>
+            </p>
+         </li>
+         <li>Click Search.</li>
+         <li>Select the products from the searched list, and then click Add.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432761.jpg"/>
+            </fig>
+         </li>
+         <li>Select the required fields, as shown in the below image, for the added products, and then click Save.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432695/102432764.jpg"/>
+            </fig>The selected products are added.</li>
+      </ol>
+      <note type="note">
+         <p>For each product, Customer Incentive Manager performs real-time validation for all the mandatory fields and product duplication, and displays a validation message if applicable.</p>
+      </note>
+   </body>
+</topic>

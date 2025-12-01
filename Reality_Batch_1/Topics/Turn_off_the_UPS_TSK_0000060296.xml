@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TurnOffTheUPS-46082515" xml:lang="en">
+   <title>Turn off the UPS</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>main-contactor</indexterm>
+            <indexterm>bypass-breaker</indexterm>
+            <indexterm>battery-string</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>inverter</indexterm>
+            <!-- Process layer -->
+            <indexterm>turn-off-ups</indexterm>
+            <indexterm>power-down-procedure</indexterm>
+            <indexterm>safe-shutdown</indexterm>
+            <indexterm>isolate-battery</indexterm>
+            <indexterm>verify-load-transfer</indexterm>
+            <indexterm>de-energise-circuits</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-procedures</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Turn off the UPS"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step safe shutdown procedure for turning off the UPS, including isolation and verification checks to protect personnel and equipment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS; main contactor; bypass breaker; battery string; interface board; protective relays; control panel; load"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:power-down-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="turn-off,shutdown,safety,maintenance,load-isolation"/>
+         <othermeta name="usecase" content="power-down-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Press the ON and the OFF buttons simultaneously on the
+display. The UPS will shut down with no voltage on the output.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>After this operation, power will still be present on the
+power connection terminals. Ensure that the protection covers are
+installed.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

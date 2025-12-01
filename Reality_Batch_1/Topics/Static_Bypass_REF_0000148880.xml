@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="StaticBypass-D22492F6" xml:lang="en">
+   <title>Static Bypass</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>static-bypass</indexterm>
+            <indexterm>bypass-switch</indexterm>
+            <indexterm>bypass-transformer</indexterm>
+            <indexterm>isolation-contactor</indexterm>
+            <indexterm>bypass-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>engage-static-bypass</indexterm>
+            <indexterm>bypass-switching-procedure</indexterm>
+            <indexterm>transfer-to-bypass</indexterm>
+            <indexterm>bypass-testing</indexterm>
+            <indexterm>maintenance-bypass</indexterm>
+            <!-- Context layer -->
+            <indexterm>emergency-power</indexterm>
+            <indexterm>maintenance-mode</indexterm>
+            <indexterm>uptime-management</indexterm>
+            <indexterm>critical-loads</indexterm>
+            <indexterm>production-facility</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Static Bypass — Reference"/>
+         <othermeta name="shortdesc"
+                    content="Reference describing the static bypass system, switching procedures and safety considerations for maintenance and emergency transfer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static bypass;bypass switch;bypass transformer;isolation contactor;bypass panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:emergency-power;usecase:manage-static-bypass-for-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-bypass,bypass,transfer,maintenance,emergency"/>
+         <othermeta name="usecase" content="manage-static-bypass-for-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>static bypass</indexterm>
+      </section>
+      <section>
+         <p>
+            <fig>
+               <image href="../Images/Reality_nam_thyristors_120mm_0000148870.svg"
+                      scalefit="yes"
+                      scope="local"
+                      translate="yes"
+                      xml:lang="en"
+                      placement="inline"/>
+            </fig>
+         </p>
+         <p>The static bypass consists of the following main parts:<ul>
+               <li>
+                  <p>Thyristors (Q401)</p>
+               </li>
+               <li>
+                  <p>Static bypass controller (A401)</p>
+               </li>
+               <li>
+                  <p>Fan with fan monitoring (E401)</p>
+               </li>
+            </ul>
+         </p>
+         <p>The static bypass provides the following functions:<ul>
+               <li>
+                  <p>Built-in PSU supplied from bypass mains input</p>
+               </li>
+               <li>
+                  <p>Dual speed fan supply for the static bypass fans (the fan speed
+is controlled from the interface board via an input contact)</p>
+               </li>
+               <li>
+                  <p>Galvanically isolated thyristor drivers for the static bypass </p>
+               </li>
+               <li>
+                  <p>Snubber RC networks for the static bypass thyristors</p>
+               </li>
+               <li>
+                  <p>Output voltage measurement. If the UPS main controller or the
+communication interface becomes inoperable, the board monitors the
+system output phase-neutral voltage and independently enables the
+static bypass if the output is lost</p>
+               </li>
+               <li>
+                  <p>Communication interface to the UPS controller</p>
+               </li>
+               <li>
+                  <p>Two signal outputs to indicate the state of the controller</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+   </body>
+</topic>

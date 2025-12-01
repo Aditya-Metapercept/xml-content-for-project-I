@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25B0D63-BDF2-11F0-9655-09173F13E4C5" xml:lang="en">
+   <title>Participants</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>participant-bulk-ops</indexterm>
+            <indexterm>template-repository</indexterm>
+            <indexterm>import-export-service</indexterm>
+            <indexterm>id-mapping-engine</indexterm>
+            <indexterm>audit-log-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>bulk-participant-operations</indexterm>
+            <indexterm>csv-template-usage</indexterm>
+            <indexterm>id-mapping-and-resolution</indexterm>
+            <indexterm>batch-validation</indexterm>
+            <indexterm>scheduling-batch-jobs</indexterm>
+            <indexterm>verifying-batch-results</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>data-onboarding</indexterm>
+            <indexterm>integration-workflow</indexterm>
+            <indexterm>enterprise-operations</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>data-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Participants"/>
+         <othermeta name="shortdesc"
+                    content="Reference topic for bulk participant operations: CSV templates, ID mapping, batch validation, scheduling, and audit verification for large imports/exports."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="csv template; id mapping engine; batch job; scheduler; validation service; result report"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="bulk,participants,csv,batch,validation,id-mapping"/>
+         <othermeta name="usecase" content="reference-for-bulk-participant-operations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Participants are an additional set of customers or members which can be added to a program. For example, they can be members of IDN, members of GPO or set of independent customers. Adding the participants to this section make these set of customers/members eligible to a price defined in the program.</p>
+      <p>Order lines can be uploaded for each of the participants and based on Benefit Level setting on the program header, the system shall calculate the aggregations for individual participants.</p>
+      <p>This section also enables you to add, modify, import, export, and delete one or more participants in the program.</p>
+      <p>The below table displays information about the added participants:</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Field</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Account Name</p>
+                     </entry>
+                     <entry>
+                        <p>Name of the participants.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Parent Account Name</p>
+                     </entry>
+                     <entry>
+                        <p>Name of the parent account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Account Type</p>
+                     </entry>
+                     <entry>
+                        <p>Type of the account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Account Id</p>
+                     </entry>
+                     <entry>
+                        <p>ID of the account.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Effective Start Date</p>
+                     </entry>
+                     <entry>
+                        <p>Program Start Date. You can modify the date manually.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Effective End Date</p>
+                     </entry>
+                     <entry>
+                        <p>Program End Date. You can modify the date manually.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Save</p>
+                     </entry>
+                     <entry>
+                        <p>Click Save to confirm the set of participants in the program.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <note type="note">
+         <p>All the functionality mentioned below (Add, Import, Export, Modify, and Delete Participants) is also supported for the Programs created based on the Administrator/Super User defined program sub-type definitions.</p>
+      </note>
+   </body>
+</topic>

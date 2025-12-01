@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="FinalInstallationSteps-0FD95AAB" xml:lang="en">
+   <title>Final Installation Steps</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="[production,maintenance,quality,safety,engineering,management]"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-system</indexterm>
+            <indexterm>external-connection-board</indexterm>
+            <indexterm>battery-string</indexterm>
+            <indexterm>distribution-cabinet</indexterm>
+            <indexterm>output-transformer</indexterm>
+            <!-- Process layer -->
+            <indexterm>site-commissioning</indexterm>
+            <indexterm>final-installation</indexterm>
+            <indexterm>cable-routing</indexterm>
+            <indexterm>connect-and-secure</indexterm>
+            <indexterm>functional-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>site-commissioning</indexterm>
+            <indexterm>field-commissioning</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>power-distribution</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Final Installation"/>
+         <othermeta name="shortdesc"
+                    content="Final installation procedures and checklist for commissioning the system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups system;external connection board;battery string;output transformer;distribution cabinet"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:installation-and-commissioning;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="installation,commissioning,cabling,testing,safety"/>
+         <othermeta name="usecase" content="installation-and-commissioning"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Reinstall all covers and plates on the cabinet(s).</p>
+         </li>
+         <li>
+            <p>Only for seismic anchoring: Install the front seismic
+anchoring bracket on the cabinet(s).</p>
+            <stepxmp>
+               <fig>
+                  <title>Front View</title>
+                  <image href="../Images/Reality_25-50_kw_installfrontseismic_w120mm_0000164471.svg"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reattach the kick plates to the spring clips on the cabinet(s). </p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/50_kva_install_kick_plates_with_m5_screws_120mm_0000104309.svg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Fasten the kick plates with the M5 screws.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

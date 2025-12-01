@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25994CB-BDF2-11F0-1773-09173F13E4C5" xml:lang="en">
+   <title>Scheduling Calculation for Revenue Tiers</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scheduling-calculation</indexterm>
+            <indexterm>revenue-tiers</indexterm>
+            <indexterm>tier-calculation</indexterm>
+            <indexterm>cron-schedule</indexterm>
+            <indexterm>batch-job</indexterm>
+            <indexterm>calculation-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>schedule-calculation</indexterm>
+            <indexterm>run-batch-job</indexterm>
+            <indexterm>recalculate-tiers</indexterm>
+            <indexterm>monitor-job</indexterm>
+            <indexterm>handle-failures</indexterm>
+            <indexterm>notify-stakeholders</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>reporting</indexterm>
+            <indexterm>data-pipelines</indexterm>
+            <indexterm>finance-ops</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Scheduling calculation for revenue tiers"/>
+         <othermeta name="shortdesc"
+                    content="Define and schedule revenue-tier calculations using batch jobs or cron schedules and monitor results."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="scheduling calculation; revenue tiers; tier calculation; cron schedule; batch job; calculation engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="scheduling calculation, revenue tiers, batch job, cron schedule, calculation engine, monitor job"/>
+         <othermeta name="usecase" content="schedule-revenue-tier-calculations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Creating a Job Schedule</p>
+      <p>To create a new schedule, please follow the below steps:</p>
+      <ol>
+         <li>On the Apttus Omni page, select the Home <image placement="inline"
+                   width="22"
+                   href="../attachments/108500817/108500811.jpg"/> icon and select Admin &gt; Admin Console.</li>
+         <li>Click Application Administration &gt; Customer Incentive Management (CIM).</li>
+         <li>Click JobSchedules.<p>The Schedule page appears.</p>
+         </li>
+         <li>Click New Schedule.The below section appears, as shown in the image.<fig>
+               <image height="198"
+                      placement="break"
+                      width="921"
+                      href="../attachments/108500817/109941827.png"/>
+            </fig>
+         </li>
+         <li>Enter a meaningful process name in the Process Name field.</li>
+         <li>Enter a description in the Description field.</li>
+         <li>Select the applicable process from the Process drop-down list.</li>
+         <li>Select schedule frequency as Daily, Weekly, or Monthly from the Schedule Frequency drop-down list.</li>
+         <li>Provide a Start Date, for example, today or tomorrow's date, and then select a time.</li>
+         <li>Provide an End Date and time.</li>
+         <li>Click Schedule at the top right corner.<note type="note">
+               <p>Note</p>
+               <p>Fields marked with an asterisk (*) are mandatory.</p>
+            </note>
+            <p>After you saved the schedule, go to the Schedule main page and validate the entry.</p>
+         </li>
+      </ol>
+      <p>The created schedule and related details are listed on the New Schedule page, as shown in the below image.</p>
+      <p>
+         <fig>
+            <image height="250"
+                   placement="break"
+                   width="1030"
+                   href="../attachments/108500817/109941828.png"/>
+         </fig>
+      </p>
+      <p>Procedure for Scheduling the Calculations:</p>
+      <ol>
+         <li>Select Customer Incentive Manager &gt; Monitor Processes.</li>
+         <li>Click the New Process.</li>
+         <li>You can view the jobs created using the new process page and the schedule page in the monitor process page when they are triggered to run.<note type="note">To trigger the calculation process, schedules and results must be in either open or active status. </note>
+         </li>
+         <li>In the configuration page, enter the Job Name and Description.</li>
+         <li>Select the Job Type as Calculation and the Program Type as Billing Program. <p>Search and search result fields are displayed depends upon the type of program selected.</p>
+         </li>
+         <li>Selected program lookup field displays the following options if you select the Billing Program.<ol>
+               <li>All Programs</li>
+               <li>Search for Programs</li>
+            </ol>
+         </li>
+         <li>On selecting Search for Programs, you can view the search filter with all programs. Select one or many programs.<note type="note">You can add program schedule status in the search field for calculation. The program schedule must be in open status for calculation.</note>
+         </li>
+         <li>Click Process Immediately for immediate calculation.</li>
+         <li>Click Schedule. A new window is displayed for scheduling.</li>
+         <li>Select the Schedule and click Calculate.A new window is displayed with a calculation summary.<fig>
+               <image height="250"
+                      placement="break"
+                      width="984"
+                      href="../attachments/108500817/109940185.png"/>
+            </fig>
+         </li>
+         <li>Enter either the Account Name, or Line Item Id, or Product Name in any combination. You can view the calculation details for the selected account or program.<fig>
+               <image height="250"
+                      placement="break"
+                      width="1016"
+                      href="../attachments/108500817/109940191.png"/>
+            </fig>
+         </li>
+      </ol>
+   </body>
+</topic>

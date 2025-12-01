@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PerformInstrumentsTest-469508F3" xml:lang="en">
+   <title>Perform Instruments Test</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>instrumentation-panel</indexterm>
+            <indexterm>measurement-sensors</indexterm>
+            <indexterm>test-interface</indexterm>
+            <indexterm>digital-metering-module</indexterm>
+            <indexterm>signal-conditioning-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>perform-instruments-test</indexterm>
+            <indexterm>calibrate-measuring-instruments</indexterm>
+            <indexterm>verify-sensor-readings</indexterm>
+            <indexterm>compare-to-reference-values</indexterm>
+            <indexterm>document-calibration-results</indexterm>
+            <indexterm>safety-verification-before-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>instrumentation-verification</indexterm>
+            <indexterm>metering-calibration</indexterm>
+            <indexterm>plant-instrumentation-maintenance</indexterm>
+            <indexterm>operational-accuracy-checks</indexterm>
+            <indexterm>data-integrity-for-monitoring</indexterm>
+            <indexterm>quality-assurance-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Perform Instruments Test"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to test and validate instrumentation and metering modules for correct readings and calibration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="meters;sensors;instrumentation-panel;calibration-reference"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:instrumentation-testing;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="instrument-test,calibration,meters"/>
+         <othermeta name="usecase" content="validate-instrument-readings-and-calibration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Instrument test</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. The test
+is now started.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Functional test:</screen>
+                              <screen xml:space="preserve">Discharge testABM test►Instruments test</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <note>The test function subsequently sets the analogue outputs
+to <uicontrol>OFF</uicontrol>, 0%, 25%, 50%, 75%, 100%, and then back
+to 0%. When the test sequence is completed, the analogue outputs again
+show the actual measurements.</note>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

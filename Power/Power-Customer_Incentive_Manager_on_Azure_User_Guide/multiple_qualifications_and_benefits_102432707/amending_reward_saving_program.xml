@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2585761-BDF2-11F0-9007-09173F13E4C5" xml:lang="en">
+   <title>Amending Reward Saving Program</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>reward-saving-program</indexterm>
+            <indexterm>multiple-qualifications-and-benefits</indexterm>
+            <indexterm>qualification-product</indexterm>
+            <indexterm>benefit-product</indexterm>
+            <indexterm>program-editor</indexterm>
+            <indexterm>configuration-api</indexterm>
+            <!-- Process layer -->
+            <indexterm>amend-program</indexterm>
+            <indexterm>edit-qualifier</indexterm>
+            <indexterm>update-benefit</indexterm>
+            <indexterm>save-program-changes</indexterm>
+            <indexterm>validate-program</indexterm>
+            <indexterm>rollback-changes</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>program-maintenance</indexterm>
+            <indexterm>change-management</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>release-management</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Amending Reward Saving Program"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to edit the Qualification and Benefits page when the program is active: amend qualifiers, add or remove products, and update benefit calculations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="program;qualification-product;benefit-product;qualifier;calculation-rule;audit-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="program-amendment,qualifier-edit,benefit-update,change-management,validation,audit"/>
+         <othermeta name="usecase"
+                    content="update-and-validate-reward-saving-program-configurations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>You can edit the Qualification and Benefits page when the program is in In Amendment status.</p>
+      <p>You can perform one or more of the actions listed below:</p>
+      <ul>
+         <li>Duplicating a section</li>
+         <li>Deleting a section</li>
+         <li>Adding a new section</li>
+         <li>Deleting a row</li>
+         <li>Adding new products (qualification as well as benefits)</li>
+         <li>Excluding a product from a product category</li>
+         <li>Removing/Deleting exclusions</li>
+         <li>Modifying the expression and the min/max option</li>
+         <li>Importing product rows</li>
+      </ul>
+      <p>Following actions are restricted on the qualification and benefits page while amending the program.</p>
+      <ul>
+         <li>Editing number of tiers</li>
+         <li>Editing the start and end date on existing product rows</li>
+      </ul>
+   </body>
+</topic>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38D188E-BDF3-11F0-1124-09173F13E4C5" xml:lang="en-us">
+   <title>Engine stop switch</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:15:00+05:30"/>
+         <revised modified="2025-11-15T15:15:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>lift-truck</indexterm>
+            <indexterm>engine</indexterm>
+            <indexterm>starter-motor</indexterm>
+            <indexterm>stop-switch</indexterm>
+            <!-- Process layer -->
+            <indexterm>engine-stop</indexterm>
+            <indexterm>shut-down-procedure</indexterm>
+            <indexterm>safety-lockout</indexterm>
+            <indexterm>pre-shutdown-check</indexterm>
+            <indexterm>operator-control</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-bay</indexterm>
+            <indexterm>workshop</indexterm>
+            <indexterm>fleet-management</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>operational-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname> metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Engine Stop Switch"/>
+         <othermeta name="shortdesc"
+                    content="Procedure and operator control for stopping the engine using the stop switch and related safety steps"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="engine;stop-switch;starter-motor;operator-control;control-panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:powered-lift-trucks;usecase:t_engine_stop_switch;industry:heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags"
+                    content="engine,stop-switch,shutdown,operator-control,safety"/>
+         <othermeta name="usecase" content="operation-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig id="fig_p5l_l5r_5gc">
+            <image href="media/image229.png" id="image_u5l_l5r_5gc" placement="inline"/>
+            <image href="media/image230.png" id="image_v5l_l5r_5gc" placement="inline"/>
+         </fig>
+         <p>This switch stops the engine under an emergency condition.</p>
+      </context>
+      <ol>
+         <li>
+            <p>At this position, the engine stops.</p>
+         </li>
+         <li>
+            <p>At this position, the basic condition is maintained</p>
+         </li>
+      </ol>
+   </body>
+</topic>

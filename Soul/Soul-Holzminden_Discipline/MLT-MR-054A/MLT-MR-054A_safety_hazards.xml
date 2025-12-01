@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8B6A30-BB9C-11F0-5337-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Hazards</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>hot-surface</indexterm>
+            <indexterm>gas-leak</indexterm>
+            <indexterm>toxic-fumes</indexterm>
+            <indexterm>burner</indexterm>
+            <indexterm>refractory</indexterm>
+            <!-- Process layer -->
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>hot-work-control</indexterm>
+            <indexterm>gas-monitoring</indexterm>
+            <indexterm>fume-extraction</indexterm>
+            <indexterm>manual-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>health</indexterm>
+            <indexterm>production</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Hazards"/>
+         <othermeta name="shortdesc"
+                    content="Identifies safety hazards involved in burner removal, including heat, fumes, gas leaks, and handling risks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="hot surfaces;gas leaks;toxic fumes;manual handling risk;slip hazards"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:hazard-identification;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="hazard,heat,fumes,gas,handling"/>
+         <othermeta name="usecase" content="hazard-identification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_dhy_tkx_5cc">
+            <tgroup cols="4">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <colspec colname="c3" colnum="3" colwidth="1*"/>
+               <colspec colname="c4" colnum="4" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

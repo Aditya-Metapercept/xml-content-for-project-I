@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2943A8E-BDF2-11F0-1795-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Checking in an Agreement Document</title>
+   <topicref href="45220109.xml" xml:lang="en">
+      <topicref href="to_check_in_an_agreement_document.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To check in an agreement document</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="contract_document_versions.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Contract Document Versions</navtitle>
+         </topicmeta>
+      </topicref>
+      <mapref href="../reconciliation_45220099_45220099/45220099_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Reconciliation</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

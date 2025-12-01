@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2709B15-BDF2-11F0-7746-09173F13E4C5" xml:lang="en">
+   <title>To define color bands</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>color-bands</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>color-mapping</indexterm>
+            <indexterm>guidance-rules</indexterm>
+            <indexterm>visual-indicators</indexterm>
+            <!-- Process layer -->
+            <indexterm>defining-color-bands</indexterm>
+            <indexterm>adding-color-values</indexterm>
+            <indexterm>saving-band-configurations</indexterm>
+            <indexterm>validating-band-thresholds</indexterm>
+            <indexterm>setting-guidance-conditions</indexterm>
+            <indexterm>creating-dependent-objects</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>deal-guidance-setup</indexterm>
+            <indexterm>configuration-environment</indexterm>
+            <indexterm>b2b-software</indexterm>
+            <indexterm>enterprise-pricing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To define color bands"/>
+         <othermeta name="shortdesc"
+                    content="Provides the steps to create and save color bands that are later used for setting up deal guidance rules within the pricing workflow."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="color band; band threshold; color selector; shape icon; deal guidance rule; dimension set"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="color band definition,guidance rules,color configuration,deal setup"/>
+         <othermeta name="usecase"
+                    content="configuring color bands and preparing them for guidance rule creation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to All Tabs (<image placement="inline" href="../attachments/195691384/195691383.png"/>) &gt; <uicontrol>Deal Color Bands</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New Deal Color Band</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter a name for the band in <uicontrol>Band Name</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Select a <uicontrol>Deal Color</uicontrol>.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Color Code</uicontrol> field, use the default value or enter your own hexadecimal color code value.</p>
+            <p>
+               <note type="note">
+                  <p>A custom Deal Color is not associated with a Hexadecimal value. You must find a
+                     hexadecimal value for colors on the internet and enter the value manually in
+                     the <uicontrol>Color Code</uicontrol> field.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Select a shape in <uicontrol>Deal Shape</uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Enter a Description if necessary.</p>
+         </li>
+         <li>
+            <p>Click <image placement="inline" href="../attachments/195691384/195691369.png"/> to enter another band</p>
+            <p>
+               <p>- or -</p>
+               <p>Click <uicontrol>Save</uicontrol>.</p>
+               <fig id="fig_mdf_pk3_rcc">
+                  <image height="250"
+                         placement="break"
+                         href="../attachments/195691384/195691376.png"
+                         id="image_ndf_pk3_rcc"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+      <result id="result_lxj_qk3_rcc">
+         <p>The color bands are saved and are now available to be used in setting up deal guidance
+            rules.</p>
+      </result>
+      <div>
+         <p>Create the remaining objects required for deals, such as dimensions, dimension sets, and deal guidance rules.</p>
+      </div>
+   </body>
+</topic>

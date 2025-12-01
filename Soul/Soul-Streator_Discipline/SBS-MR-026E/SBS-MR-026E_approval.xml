@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA20AD4-BB9C-11F0-1775-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>document-control</indexterm>
+            <indexterm>management-approval</indexterm>
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>sign-off</indexterm>
+            <indexterm>approval</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-process</indexterm>
+            <indexterm>document-signing</indexterm>
+            <indexterm>quality-approval</indexterm>
+            <indexterm>recording-decisions</indexterm>
+            <indexterm>review-cycle</indexterm>
+            <!-- Context layer -->
+            <indexterm>audit-trail</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>governance</indexterm>
+            <indexterm>internal-approval</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc" content="Content pending documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document-control; management-approval; metR-sbs-soul; sign-off; approval; approval-process; document-signing; quality-approval; recording-decisions; review-cycle"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="document-control, management-approval, metR-sbs-soul, sign-off, approval, approval-process, document-signing, quality-approval, recording-decisions, review-cycle, audit-trail, compliance, document-management, governance, internal-approval"/>
+         <othermeta name="usecase" content="maintenance and safety documentation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Representatives of the Soul Approval Team<table id="table_fvh_q1f_lcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="25.2%"/>
+               <colspec colname="c2" colwidth="46.8%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Person</p>
+                     </entry>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Johnathan Fisher</p>
+                     </entry>
+                     <entry>
+                        <p>SBS Manager – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Phillip Wilson</p>
+                     </entry>
+                     <entry>
+                        <p>EHS Continuous Improvement Manager</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Jeremy Singletary</p>
+                     </entry>
+                     <entry>
+                        <p>Shift Leader, Research &amp; Development</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

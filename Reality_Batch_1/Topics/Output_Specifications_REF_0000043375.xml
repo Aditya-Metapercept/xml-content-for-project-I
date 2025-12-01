@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OutputSpecifications-2DE26890" xml:lang="en">
+   <title>Output Specifications</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>output-specifications-reference</indexterm>
+            <indexterm>10-kva-ups</indexterm>
+            <indexterm>20-kva-ups</indexterm>
+            <indexterm>inverter-stage</indexterm>
+            <indexterm>bypass-switch</indexterm>
+            <!-- Process layer -->
+            <indexterm>overload-testing</indexterm>
+            <indexterm>duration-rating</indexterm>
+            <indexterm>voltage-stability-test</indexterm>
+            <indexterm>harmonic-distortion-check</indexterm>
+            <indexterm>short-term-overcurrent-test</indexterm>
+            <indexterm>specification-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>equipment-specification</indexterm>
+            <indexterm>factory-power-distribution</indexterm>
+            <indexterm>service-and-support</indexterm>
+            <indexterm>site-acceptance-test</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>safety-standards</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Output Specifications REF 0000043375"/>
+         <othermeta name="shortdesc"
+                    content="Reference output specifications across multiple small to medium UPS ratings: overload capacity, duration ratings, and voltage stability test parameters."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="10 kVA UPS;20 kVA UPS;inverter stage;bypass switch;measurement instrumentation;protection relays"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:output-specifications-reference;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="output-specifications,overload,voltage-stability,duration-ratings,reference"/>
+         <othermeta name="usecase"
+                    content="provide consolidated output-specification reference for small/medium UPS models"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>3:1</title>
+         <table pgwide="1">
+            <tgroup cols="13">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="COLSPEC1" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC3"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <colspec colname="COLSPEC16"/>
+               <colspec colname="COLSPEC15"/>
+               <colspec colname="COLSPEC19"/>
+               <colspec colname="COLSPEC14"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC1" namest="col2" valign="top">
+                        <p>10 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC3" namest="col3" valign="top">
+                        <p>20 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC16" namest="COLSPEC18" valign="top">
+                        <p>30 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="COLSPEC15" valign="top">
+                        <p>40 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Output Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>L, N, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Overload capacity</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">150%
+for 1 minute125% for 10 minutes230%
+for 60 ms1000% for 100 ms (bypass operation)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output voltage tolerance</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">±
+1%</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">0.8</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal output current (A)</p>
+                     </entry>
+                     <entry>45</entry>
+                     <entry>43</entry>
+                     <entry>42</entry>
+                     <entry>91</entry>
+                     <entry>87</entry>
+                     <entry>83</entry>
+                     <entry>136</entry>
+                     <entry>130</entry>
+                     <entry>125</entry>
+                     <entry>182</entry>
+                     <entry>174</entry>
+                     <entry>167</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDU) </p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>&lt; 2% at 100% linear load</p>
+                        <p>&lt; 5% at 100% non-linear load
+(IEC 62040–3)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output frequency (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">50/60
+Hz (sync to bypass)50/60 Hz ± 0.1% (free-running)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Slew rate (Hz/sec)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">Programmable:
+0.25, 0.5, 1, 2, or 4</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output performance classification (according to IEC/EN62040-3)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">VFI-SS-111</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load crest factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">Unlimited</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">0.5 leading to 0.5 lagging
+without derating</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table pgwide="1">
+            <tgroup cols="10">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="COLSPEC13"/>
+               <colspec colname="COLSPEC12"/>
+               <colspec colname="COLSPEC11"/>
+               <colspec colname="COLSPEC22"/>
+               <colspec colname="COLSPEC21"/>
+               <colspec colname="COLSPEC20"/>
+               <colspec colname="COLSPEC25"/>
+               <colspec colname="COLSPEC24"/>
+               <colspec colname="COLSPEC23"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC11" namest="COLSPEC13" valign="top">
+                        <p>50 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC20" namest="COLSPEC22" valign="top">
+                        <p>60 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC25" valign="top">
+                        <p>80 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Output Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>220 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>230 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>240 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>L, N, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Overload capacity</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">150% for 1 minute125%
+for 10 minutes230% for 60 ms1000%
+for 100 ms (bypass operation)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output voltage tolerance</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">± 1%</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">0.8</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal output current (A)</p>
+                     </entry>
+                     <entry>227</entry>
+                     <entry>217</entry>
+                     <entry>208</entry>
+                     <entry>273</entry>
+                     <entry>261</entry>
+                     <entry>250</entry>
+                     <entry>364</entry>
+                     <entry>348</entry>
+                     <entry>333</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDU) </p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>&lt; 2% at 100% linear load</p>
+                        <p>&lt; 5% at 100% non-linear load (IEC 62040–3)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output frequency (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">50/60 Hz (sync to bypass)50/60 Hz ± 0.1% (free-running)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Slew rate (Hz/sec)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">Programmable: 0.25, 0.5, 1, 2, or 4</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output performance classification (according to IEC/EN62040-3)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">VFI-SS-111</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load crest factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">Unlimited</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">0.5 leading to 0.5 lagging
+without derating</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>3:3</title>
+         <table pgwide="1">
+            <tgroup cols="13">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="COLSPEC2" colsep="1"/>
+               <colspec colname="COLSPEC1" colsep="1"/>
+               <colspec colname="col3" colsep="1"/>
+               <colspec colname="COLSPEC4" colsep="1"/>
+               <colspec colname="COLSPEC3"/>
+               <colspec colname="COLSPEC18"/>
+               <colspec colname="COLSPEC17"/>
+               <colspec colname="COLSPEC16"/>
+               <colspec colname="COLSPEC15"/>
+               <colspec colname="COLSPEC19"/>
+               <colspec colname="COLSPEC14"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC1" namest="col2" valign="top">
+                        <p>10 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC3" namest="col3" valign="top">
+                        <p>20 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC16" namest="COLSPEC18" valign="top">
+                        <p>30 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="COLSPEC15" valign="top">
+                        <p>40 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Output Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>L1, L2, L3, N, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Overload capacity</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">150%
+for 1 minute125% for 10 minutes230%
+for 60 ms1000% for 100 ms (bypass operation)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output voltage tolerance</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">±
+1%</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">0.8</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal output current (A)</p>
+                     </entry>
+                     <entry>15</entry>
+                     <entry>14</entry>
+                     <entry>14</entry>
+                     <entry>30</entry>
+                     <entry>29</entry>
+                     <entry>28</entry>
+                     <entry>46</entry>
+                     <entry>43</entry>
+                     <entry>42</entry>
+                     <entry>61</entry>
+                     <entry>58</entry>
+                     <entry>56</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDU) </p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">
+                        <p>&lt; 2% at 100% linear load</p>
+                        <p>&lt; 5% at 100% non-linear load
+(IEC 62040–3)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output frequency (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">50/60
+Hz (sync to bypass)50/60 Hz ± 0.1% (free-running)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Slew rate (Hz/sec)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">Programmable:
+0.25, 0.5, 1, 2, or 4</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output performance classification (according to IEC/EN62040-3)</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">VFI-SS-111</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load crest factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">Unlimited</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC14" namest="col2">0.5 leading to 0.5 lagging
+without derating</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <table pgwide="1">
+            <tgroup cols="10">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="COLSPEC13"/>
+               <colspec colname="COLSPEC12"/>
+               <colspec colname="COLSPEC11"/>
+               <colspec colname="COLSPEC22"/>
+               <colspec colname="COLSPEC21"/>
+               <colspec colname="COLSPEC20"/>
+               <colspec colname="COLSPEC25"/>
+               <colspec colname="COLSPEC24"/>
+               <colspec colname="COLSPEC23"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry nameend="COLSPEC11" namest="COLSPEC13" valign="top">
+                        <p>50 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC20" namest="COLSPEC22" valign="top">
+                        <p>60 kVA</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC25" valign="top">
+                        <p>80 kVA</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry valign="top">
+                        <p>Output Voltage (V)</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>380 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>400 V</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>415 V</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Connections</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>L1, L2, L3, N, PE</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Overload capacity</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">150% for 1 minute125%
+for 10 minutes230% for 60 ms1000%
+for 100 ms (bypass operation)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output voltage tolerance</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">± 1%</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">0.8</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Nominal output current (A)</p>
+                     </entry>
+                     <entry>76</entry>
+                     <entry>72</entry>
+                     <entry>70</entry>
+                     <entry>91</entry>
+                     <entry>87</entry>
+                     <entry>83</entry>
+                     <entry>122</entry>
+                     <entry>115</entry>
+                     <entry>111</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Total harmonic distortion (THDU) </p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">
+                        <p>&lt; 2% at 100% linear load</p>
+                        <p>&lt; 5% at 100% non-linear load (IEC 62040–3)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Output frequency (Hz)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">50/60 Hz (sync to bypass)50/60 Hz ± 0.1% (free-running)</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Slew rate (Hz/sec)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">Programmable: 0.25, 0.5, 1, 2, or 4</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output performance classification (according to IEC/EN62040-3)</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">VFI-SS-111</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load crest factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">Unlimited</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Load power factor</p>
+                     </entry>
+                     <entry nameend="COLSPEC23" namest="COLSPEC13">0.5 leading to 0.5 lagging
+without derating</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

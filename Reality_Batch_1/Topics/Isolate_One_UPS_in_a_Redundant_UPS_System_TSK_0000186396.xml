@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="IsolateOneUPSInARedundantUPSSystem-5E443F52" xml:lang="en">
+   <title>Isolate One UPS in a Redundant UPS System</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <indexterm>interface-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>isolate-ups</indexterm>
+            <indexterm>maintenance-procedure</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>wiring-configuration</indexterm>
+            <indexterm>measure-for-voltage-and-current</indexterm>
+            <indexterm>event-log-review</indexterm>
+            <!-- Context layer -->
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>power-systems</indexterm>
+            <indexterm>industrial-production</indexterm>
+            <indexterm>manufacturing-floor</indexterm>
+            <indexterm>ups-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Isolate One UPS in a Redundant UPS System TSK 0000186396"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to safely isolate a single UPS from a redundant UPS configuration for service or replacement while maintaining system availability."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups;redundant-ups-system;control-board;battery;main-contactors;interface-board;isolate-ups;maintenance-procedure"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:isolate-ups;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metr-pxc-reality,redundant-ups,isolation,maintenance,service-procedure"/>
+         <othermeta name="usecase" content="isolate-ups"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>Check that the other UPS in the redundant UPS system
+is working correctly with no pending alarms and can supply the load
+by itself.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Press the ON and the OFF buttons simultaneously on the
+display. The UPS will shut down with no voltage on the output.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>After this operation, power will still be present on the
+power connection terminals. Ensure that the protection covers are
+installed.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Open coupling switch Q694 for UPS2 or Q692 for UPS1 (if
+present).</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>In a redundant system without coupling switches there
+will be voltage backfeed from the other UPS when only UPS is switched
+off for maintenance.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Open switch Q501.</p>
+         </li>
+         <li>
+            <p>Open battery switch Q201 and/or Q211.</p>
+         </li>
+         <li>
+            <p>Open switch Q001.</p>
+         </li>
+         <li>
+            <p>Wait five minutes for the DC capacitors to discharge.</p>
+         </li>
+         <li>
+            <p>Measure for voltage on all terminals before working on
+the UPS.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>Hazardous voltage is still present on the connecting terminals
+as input source, bypass source, and batteries are still connected.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

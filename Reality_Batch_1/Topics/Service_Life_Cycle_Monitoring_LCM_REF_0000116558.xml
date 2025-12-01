@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="LifeCycleMonitoringLCM-8F37063D" xml:lang="en">
+   <title>Life Cycle Monitoring (LCM)</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="[production, maintenance, quality, safety, engineering, management]"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>lcm-module</indexterm>
+            <indexterm>monitoring-sensor</indexterm>
+            <indexterm>telemetry-board</indexterm>
+            <indexterm>fan-monitor-board-0p2554</indexterm>
+            <indexterm>data-logger</indexterm>
+            <!-- Process layer -->
+            <indexterm>data-logging</indexterm>
+            <indexterm>counter-increment</indexterm>
+            <indexterm>condition-monitoring</indexterm>
+            <indexterm>predictive-maintenance</indexterm>
+            <indexterm>lifecycle-reporting</indexterm>
+            <indexterm>firmware-update</indexterm>
+            <!-- Context layer -->
+            <indexterm>asset-management</indexterm>
+            <indexterm>maintenance-scheduling</indexterm>
+            <indexterm>remote-monitoring</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>traceability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Life Cycle Monitoring (LCM)"/>
+         <othermeta name="shortdesc"
+                    content="Description of the LCM feature, counters, and monitoring points for tracking UPS component life and maintenance needs."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lcm-module; telemetry-board; monitoring-sensor; fan-monitor-board-0p2554; counters"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:lifecycle-monitoring;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="life-cycle-monitoring, counters, condition-monitoring, predictive-maintenance, telemetry"/>
+         <othermeta name="usecase" content="monitoring-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>life cycle monitoring</indexterm>
+      </section>
+      <section>
+         <p>The standard Life Cycle Monitoring (LCM) feature uses
+basic time counters for the monitored components. For each component
+an initial expected lifetime is configured at first start-up of the
+product, and this lifetime will be decreased by the same value day
+by day until it reaches zero.</p>
+         <p>The actual operating conditions
+of the component will have no impact on the estimated remaining lifetime,
+only the time in operation has. This means that the estimated lifetime
+will not be accurate, except if the component is only exposed to the
+wear and exact conditions taken into account when the initial nominal
+lifetime was calculated.</p>
+      </section>
+      <section>
+         <title>Life Cycle Reminders</title>
+         <p>There are five possible
+reminders.<table>
+               <tgroup cols="2">
+                  <colspec colname="col1" colwidth="20%"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">#</entry>
+                        <entry valign="top">Reminder</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>1</entry>
+                        <entry>Start-up
+reminder</entry>
+                     </row>
+                     <row>
+                        <entry>2</entry>
+                        <entry>Fan module replacement recommended</entry>
+                     </row>
+                     <row>
+                        <entry>3</entry>
+                        <entry>Battery replacement recommended</entry>
+                     </row>
+                     <row>
+                        <entry>4</entry>
+                        <entry>Power module replacement recommended</entry>
+                     </row>
+                     <row>
+                        <entry>5</entry>
+                        <entry>Air filter replacement recommended</entry>
+                     </row>
+                     <row>
+                        <entry>6</entry>
+                        <entry>Warranty expired</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>After a configured period (individual periods for each reminder),
+an event pop-up is shown on the display and the event is logged in
+the event log. </p>
+      </section>
+      <section>
+         <title>LCM Reminder Pop-Ups</title>
+         <p>When and LCM reminder
+becomes active, a pop-up is displayed. The pop-up message differs
+depending on the firmware revision of the HMI.<table pgwide="1">
+               <tgroup cols="3">
+                  <colspec colname="COLSPEC1" colwidth="10%"/>
+                  <colspec colname="col1"/>
+                  <colspec colname="COLSPEC0"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">#</entry>
+                        <entry valign="top">Reminder</entry>
+                        <entry align="center" valign="top">Display pop-up
+message</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>1</entry>
+                        <entry>Start-up
+reminder</entry>
+                        <entry>
+                           <screen xml:space="preserve">Contact Schneider Electric for startupwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>2</entry>
+                        <entry>Fan
+module replacement recommended</entry>
+                        <entry>
+                           <screen xml:space="preserve">Technical check neededwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>3</entry>
+                        <entry>Battery
+replacement recommended</entry>
+                        <entry>
+                           <screen xml:space="preserve">Technical check neededwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>4</entry>
+                        <entry>Power
+module replacement recommended</entry>
+                        <entry>
+                           <screen xml:space="preserve">Technical check neededwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>5</entry>
+                        <entry>Air
+filter replacement recommended</entry>
+                        <entry>
+                           <screen xml:space="preserve">Air filter replace-ment recommendedwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>6</entry>
+                        <entry>Warranty
+expired</entry>
+                        <entry>
+                           <screen xml:space="preserve">Warranty expiredwww.apc.com/support/contact</screen>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+         <p>An LCM reminder can be temporarily removed from the
+display by the user by pressing the <uicontrol>Enter</uicontrol> key
+to acknowledge the alarm, but after a defined period (default is set
+to 30 days) the pop-up message will reappear. After a configured amount
+of repeats (default is set to 3 times), the pop-up will not reoccur.
+Final acknowledgement and timer restart can only be performed by an
+FSR.</p>
+         <p>The <uicontrol>Common Alarm</uicontrol> LED is blinking
+(0.5s ON, 0.5s OFF...) and the buzzer is activated when an LCM reminder
+pop-up message is shown on the display. </p>
+      </section>
+      <section>
+         <title>Setting Sheet</title>
+         <p>All configuration parameters
+of the LCM functionality are stored in the setting sheet. The parameters
+are set to default values and normally require no modification during
+system configuration.</p>
+         <p>The LCM module also stores its counters’
+status information in a setting. This value requires no modification.</p>
+         <p>To modify the LCM configuration parameters, see <xref href="Service_Serviceport_LCM_Status_Menu_REF_0000116555.xml"
+                  format="dita"
+                  scope="local"
+                  type="reference"/> and <xref href="Service_Serviceport_LCM_Action_Menu_REF_0000116582.xml"
+                  format="dita"
+                  scope="local"
+                  type="reference"/>.</p>
+      </section>
+      <section>
+         <title>Default Counter Periods</title>
+         <table>
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="20%"/>
+               <colspec colname="col2"/>
+               <colspec colname="COLSPEC3"/>
+               <colspec colname="COLSPEC2"/>
+               <thead>
+                  <row>
+                     <entry valign="top">#</entry>
+                     <entry valign="top">Reminder</entry>
+                     <entry valign="top">Default
+period</entry>
+                     <entry valign="top">Setting
+#</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>1</entry>
+                     <entry>Start-up
+reminder</entry>
+                     <entry>5
+days</entry>
+                     <entry>—</entry>
+                  </row>
+                  <row>
+                     <entry>2</entry>
+                     <entry>Fan module replacement
+recommended</entry>
+                     <entry>5
+years</entry>
+                     <entry>441</entry>
+                  </row>
+                  <row>
+                     <entry>3</entry>
+                     <entry>Battery replacement
+recommended</entry>
+                     <entry>4
+years</entry>
+                     <entry>443</entry>
+                  </row>
+                  <row>
+                     <entry>4</entry>
+                     <entry>Power module replacement
+recommended</entry>
+                     <entry>9
+years</entry>
+                     <entry>445</entry>
+                  </row>
+                  <row>
+                     <entry>5</entry>
+                     <entry>Air filter replacement
+recommended</entry>
+                     <entry>6
+months</entry>
+                     <entry>447</entry>
+                  </row>
+                  <row>
+                     <entry>6</entry>
+                     <entry>Warranty expired</entry>
+                     <entry>10
+years</entry>
+                     <entry>449</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

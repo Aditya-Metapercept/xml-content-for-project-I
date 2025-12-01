@@ -5,50 +5,10 @@
       <critdates>
          <revised modified="2023-05-22"/>
       </critdates>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    </topicmeta>
-
-
-
-
-
-
-
-
-
-
-
-
-
    <topicref chunk="to-content" href="CTX-OP-071C_section_screens_.xml">
       <topicmeta>
-
-
-
-
-
-         <othermeta content=
-         
-         
-         
-         "CTX-OP-071C" name="DocumentNumber"/>
+         <othermeta content="CTX-OP-071C" name="DocumentNumber"/>
          <othermeta content="2023-05-22" name="RevisionDate"/>
       </topicmeta>
       <topicref href="CTX-OP-071C_purpose_application.xml"/>

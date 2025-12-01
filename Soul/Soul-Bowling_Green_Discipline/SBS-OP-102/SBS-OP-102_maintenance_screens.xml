@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC566B3A-BB9C-11F0-1739-09173F13E4C5" xml:lang="en-us">
+   <title>Maintenance Screens</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Bowling_Green_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Click the Maintenance tab at the top of the screen to display the main Maintenance screen,
+         shown below. (You can also click the Plant Network button on the bottom of the
+            screen.)<image href="media/image74.jpg"
+                placement="break"
+                id="image_gkr_hbc_wcc"
+                align="center"/>
+      </p>
+      <p>Click the down arrow button to display the popup window to navigate to the following operation screens, which are shown on the following pages:</p>
+      <ul>
+         <li>Network – shows how the individual network components are connected, and whether they communicate with each other.</li>
+         <li>Maintenance – provides an overview of the connected PLC systems and their underlaying
+            Profinet devices.</li>
+         <li>Scale Adjustment – displays the status of the minors scales, and is used to calibrate
+            them.</li>
+      </ul>
+      <p>
+         <fig>
+            <image href="media/image64.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image65.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image66.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>
+         <fig>
+            <image href="media/image67.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

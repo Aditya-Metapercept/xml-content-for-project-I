@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2565672-BDF2-11F0-4146-09173F13E4C5" xml:lang="en">
+   <title>Duplicating Sections</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>integration-adapter</indexterm>
+            <indexterm>api-gateway</indexterm>
+            <indexterm>message-bus</indexterm>
+            <indexterm>connector</indexterm>
+            <indexterm>transform-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-integration</indexterm>
+            <indexterm>map-fields</indexterm>
+            <indexterm>retry-on-failure</indexterm>
+            <indexterm>transform-payload</indexterm>
+            <indexterm>monitor-queue</indexterm>
+            <indexterm>validate-schema</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>data-governance</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>system-integration</indexterm>
+            <indexterm>support-workflow</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Duplicating Sections"/>
+         <othermeta name="shortdesc"
+                    content="Steps to configure system integrations: mapping fields, validating payloads, configuring retries, and monitoring message queues."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="adapter;api-gateway;message-bus;payload;schema;queue"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags" content="integration,api,adapter,mapping,monitoring"/>
+         <othermeta name="usecase" content="configure-and-monitor-integrations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>For a program with bundles, you can duplicate the existing bundle structure to create Bundles or Sections with the Sub Category and Exclusions if added. After duplicating a bundle, you can update the product quantity and amount for the new section. You cannot update the number of tiers for the new section. Duplicating a section eliminates the need to re-configure the products in a bundle when you want to provide a discount or a hike for a particular time frame. When you duplicate a section, the start date and end date of the original section is changed to accommodate the contract period.</p>
+      <p>Duplicating Section functionality is available for the following programs:</p>
+      <ul>
+         <li>Bundle Saving Program</li>
+         <li>Package Saving Program</li>
+      </ul>
+   </body>
+</topic>

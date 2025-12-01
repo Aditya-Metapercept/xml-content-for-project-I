@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38C2ADF-BDF3-11F0-7110-09173F13E4C5" xml:lang="en-us">
+   <title>Daily Inspection</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T12:55:00+05:30"/>
+         <revised modified="2025-11-15T12:55:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,shift-supervisors,maintenance-personnel,quality-technicians,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>powered-lift-truck</indexterm>
+            <indexterm>inspection-checklist</indexterm>
+            <indexterm>instrument-panel</indexterm>
+            <indexterm>tyre-and-wheel</indexterm>
+            <!-- Process layer -->
+            <indexterm>daily-inspection</indexterm>
+            <indexterm>pre-shift-checks</indexterm>
+            <indexterm>safety-interlocks-test</indexterm>
+            <indexterm>brake-function-check</indexterm>
+            <indexterm>reporting-defects</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-safety</indexterm>
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>fleet-readiness</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>shift-handover</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="daily inspection checklist"/>
+         <othermeta name="shortdesc"
+                    content="Daily pre-shift inspection checklist for powered lift trucks to ensure operational safety and readiness."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="brakes;steering;tyres;battery;control-switches"/>
+         <othermeta name="taxonomy"
+                    content="domain:inspection;usecase:daily-inspection;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="inspection,pre-shift,safety,checklist"/>
+         <othermeta name="usecase" content="perform-daily-pre-shift-inspection"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Visually inspect forks for cracks, especially in the heel
+section, around the mounting brackets, and all weld areas. Inspect
+for broken or jagged fork tips, bent or twisted blades and
+shanks.</p>
+         </li>
+         <li>
+            <p>Make sure positioning lock is in place and working. Lock the
+forks in position before using the truck. See “2000 Service
+Hours or Yearly” in “Maintenance Intervals”.</p>
+         </li>
+         <li>
+            <p>Remove all defective forks from service.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

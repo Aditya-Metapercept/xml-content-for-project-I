@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2603595-BDF2-11F0-1166-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Deal Maximizer for Administrators</title>
+   <topicref href="deal_maximizer_for_admini_183763017/183763017.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Deal Maximizer for Administrators</navtitle>
+      </topicmeta>
+      <mapref href="195690889_1.xml" format="ditamap" xml:lang="en">
+         <topicmeta>
+            <navtitle>Getting Started with Deal Maximizer Map</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="195691357_1.xml" format="ditamap" xml:lang="en">
+         <topicmeta>
+            <navtitle>Setting Up Deals Map</navtitle>
+         </topicmeta>
+      </mapref>
+      <topicref href="glossary_of_deal_maximize_195691421/195691421.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Glossary of Deal Maximizer Terms</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

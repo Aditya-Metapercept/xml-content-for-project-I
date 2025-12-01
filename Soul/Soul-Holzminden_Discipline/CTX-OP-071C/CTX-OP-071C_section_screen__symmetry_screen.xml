@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC851D81-BB9C-11F0-1821-09173F13E4C5" xml:lang="en-us">
+   <title>Section Screen  Symmetry Screen</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Soul-Holzminden_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Symmetry screen shows the trend graphs for the symmetry.</p>
+      <p>The symmetry of a region is the difference in the amount of infrared radiation (= glass) between the left (L) and the right (R) part.</p>
+      <p>Symmetry = abs ((L-R) / (L+R)) * 100%. For example:</p>
+      <p>Left radiation = L = 60; </p>
+      <p>Right radiation = R = 40;</p>
+      <p>Symmetry = abs ((60-40)/(60+40))*100% = 20%</p>
+      <p>
+         <fig id="fig_lvl_zrg_fdc">
+            <image href="media/image9.jpg"
+                   placement="break"
+                   id="image_mvl_zrg_fdc"
+                   align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

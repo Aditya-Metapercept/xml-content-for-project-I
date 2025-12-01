@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m24415F0-BDF2-11F0-1410-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Configuring Email Notifications</title>
+   <topicref chunk="to-content" href="143903707.xml" xml:lang="en">
+      <topicref href="to_configure_email_notifications.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To configure email notifications</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="example_email_notification.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Example Email Notification</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

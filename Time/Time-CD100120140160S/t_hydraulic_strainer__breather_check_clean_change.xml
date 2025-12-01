@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38E5C8B-BDF3-11F0-1015-09173F13E4C5" xml:lang="en-us">
+   <title>Hydraulic Strainer &amp; Breather - Check, Clean, Change</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:05:00+05:30"/>
+         <revised modified="2025-11-15T15:05:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Maintenance Personnel, Reliability Engineers, Industrial Engineers, Machine Operators, Safety and Compliance officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>hydraulic-strainer</indexterm>
+            <indexterm>breather-cap</indexterm>
+            <indexterm>reservoir-breather</indexterm>
+            <indexterm>filter-element</indexterm>
+            <indexterm>hydraulic-reservoir</indexterm>
+            <!-- Process layer -->
+            <indexterm>strainer-clean</indexterm>
+            <indexterm>breather-inspect</indexterm>
+            <indexterm>replace-breather</indexterm>
+            <indexterm>contamination-inspection</indexterm>
+            <indexterm>reassembly-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>contamination-control</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>mro-procedures</indexterm>
+            <indexterm>material-handling</indexterm>
+            <indexterm>industrial-plant</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="hydraulic strainer and breather check clean and change"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to inspect, clean or replace hydraulic reservoir strainer and breather to prevent contamination and ensure venting."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="strainer;breather-cap;reservoir;gaskets;cleaning-tools"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:breather-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="strainer,breather,clean,replace,contamination"/>
+         <othermeta name="usecase" content="strainer and breather maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note type="warning">
+            <p>Hot oil and components can cause personal injury. Do not allow hot oil or components to
+        contact skin.</p>
+         </note>
+         <p>Park the lift truck level with the forks lowered, parking brake
+engaged, transmission in NEUTRAL and the engine stopped.</p>
+         <p>
+            <fig id="fig_ic2_tyz_5gc">
+               <image href="media/image928.png" id="image_kc2_tyz_5gc" placement="inline"/>
+            </fig>
+         </p>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the hydraulic tank drain plug located on the bottom of the frame. Allow the oil
+        to drain in a suitable container. Clean and install the plug.</p>
+            <p>
+               <fig id="fig_sn4_tyz_5gc">
+                  <image href="media/image885(1).png"
+                         id="image_un4_tyz_5gc"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Loosen the bolts of the hydraulic tank cover.</p>
+         </li>
+         <li>
+            <p>Remove the strainer from the tank.</p>
+         </li>
+         <li>
+            <p>Install the new strainer by hand.</p>
+         </li>
+         <li>
+            <p>Install the hydraulic tank cover and fasten the bolts.</p>
+            <p>
+               <fig id="fig_ozp_5yz_5gc">
+                  <image href="media/image937.png" id="image_qzp_5yz_5gc" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Remove the breather.</p>
+         </li>
+         <li>
+            <p>Wash the breather in clean, nonflammable solvent and dry
+it.</p>
+         </li>
+         <li>
+            <p>Fill the hydraulic tank. See topic, “Refill
+Capacities.”</p>
+         </li>
+         <li>
+            <p>Install the breather.</p>
+         </li>
+         <li>
+            <p>Start the engine and operate the hydraulic controls, and the
+steering system, through a few cycles to fill the lines. Look for
+oil leaks.</p>
+         </li>
+         <li>
+            <p>Stop the engine and check the oil level. With all cylinders
+retracted, maintain the oil level to the FULL mark on the dip
+stick/filler cap assembly.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

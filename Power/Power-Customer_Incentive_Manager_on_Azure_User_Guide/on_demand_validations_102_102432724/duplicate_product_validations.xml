@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c259FCE5-BDF2-11F0-2687-09173F13E4C5" xml:lang="en">
+   <title>Duplicate Product Validations</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>customer-incentive-manager</indexterm>
+            <indexterm>duplicate-product-checker</indexterm>
+            <indexterm>product-validation-service</indexterm>
+            <indexterm>exclusion-list-engine</indexterm>
+            <indexterm>bill-to-product-auditor</indexterm>
+            <!-- Process layer -->
+            <indexterm>detect-duplicate-products</indexterm>
+            <indexterm>product-exclusion-evaluation</indexterm>
+            <indexterm>bill-to-account-scope-check</indexterm>
+            <indexterm>agreement-period-product-filter</indexterm>
+            <indexterm>product-validation-rule-application</indexterm>
+            <indexterm>product-uniqueness-enforcement</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>bill-to-account</indexterm>
+            <indexterm>product-catalog</indexterm>
+            <indexterm>agreement-date-period</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Duplicate Product Validations"/>
+         <othermeta name="shortdesc"
+                    content="Validate that active products are not duplicated for the same bill-to account within the agreement date period, respecting excluded products."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Agreement;Program;Product;Bill-to Account;Exclusion List;Validation Engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="duplicate-product,product-validation,exclusion-list,bill-to-account,product-uniqueness,agreement-period"/>
+         <othermeta name="usecase" content="prevent-duplicate-product-entries-per-account"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>For each agreement, validate features checks that across programs, you do not have duplicate products and participants for the same Bill-to Account within the same agreement date period. Validations are performed at the SKU level.</p>
+      <p>For different kinds of programs, validation for different products is done as follows:</p>
+      <ul>
+         <li>Package Saving Program - For package saving programs, you can have overlapping products between primary and secondary packages of the same section. The same product can be a part of the primary as well as a secondary package within the program. A validation error is only thrown if the product is duplicated in the same package.</li>
+         <li>Bundle Saving Program - In bundle saving programs, duplicate child products are allowed but you cannot have duplicate top line products. Between bundle saving program and other programs, you cannot have any duplicate products.</li>
+         <li>Reward Saving Program - In reward saving program, only benefit products are validated.</li>
+         <li>Partnership Saving Program - In partnership saving program, you cannot have duplicate products in parent line and child lines of the program.</li>
+         <li>Month End Billing Program - In Month End Billing program, you cannot have duplicate products across programs.</li>
+      </ul>
+      <note type="note">
+         <p>Duplicate product validation feature does not consider excluded products.</p>
+      </note>
+   </body>
+</topic>

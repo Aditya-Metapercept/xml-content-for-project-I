@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Environment-60416476" xml:lang="en">
+   <title>Environment</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–100 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Reality-Batch_1"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="3">
+               <colspec colname="col1" colsep="1"/>
+               <colspec colname="col2" colsep="1"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top"/>
+                     <entry valign="top">Operating</entry>
+                     <entry valign="top">Storage</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Temperature <indexterm>Temperature</indexterm>
+                     </entry>
+                     <entry>
+                        <p>0 °C to 40 °C (32 °F to 104 °F)</p>
+                        <p>0 °C
+to 25 °C (32 °F to 77 °F)  for batteries</p>
+                     </entry>
+                     <entry>
+                        <p>-30 °C
+to 80 °C (-22 °F to 176 °F) </p>
+                        <p>-15 °C
+to 40 °C (5 °F to 104 °F)  for batteries</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Relative
+humidity <indexterm>Relative humidity</indexterm>
+                     </entry>
+                     <entry>
+                        <p>0-95% non-condensing</p>
+                     </entry>
+                     <entry>
+                        <p>0-95% non-condensing</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Elevation
+according to IEC 62040–3 <indexterm>Elevation</indexterm>
+                     </entry>
+                     <entry>
+                        <p>1000 m (3280 ft): 1.0001500 m (4921 ft): 0.9752000 m (6561 ft): 0.9502500 m (8202 ft): 0.9253000 m (9842 ft):
+0.900</p>
+                     </entry>
+                     <entry>
+                        <p>≤ 5000 m (16404 ft) above sea-level (or
+in an environment with equivalent atmospheric pressure)</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Audible
+noise (1 m (3 ft) from surface) <indexterm>Audible noise</indexterm>
+                     </entry>
+                     <entry nameend="col3" namest="col2">
+                        <p>65 dBA at 100% load</p>
+                     </entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>Protection
+class <indexterm>Protection class</indexterm>
+                     </entry>
+                     <entry nameend="col3" namest="col2">
+                        <p>UL type 1/NEMA1 (IP42)</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Color</entry>
+                     <entry nameend="col3" namest="col2">
+                        <p>Light gray RAL7035</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

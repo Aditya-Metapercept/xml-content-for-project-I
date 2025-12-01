@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m27FEBC7-BDF2-11F0-8255-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Invoice Generation</title>
+   <topicref href="about_Power_invoice_gener_208504329/208504329.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>About Power Invoice Generation</navtitle>
+      </topicmeta>
+   </topicref>
+   <topicref href="what_s_new_in_cig_do_208504141/208504141.xml"/>
+   <mapref href="122650722_1.xml" format="ditamap" xml:lang="en">
+      <topicmeta>
+         <navtitle>Using Power Invoice Generation</navtitle>
+      </topicmeta>
+   </mapref>
+   <topicref href="Power_customer_commu_231214851/231214851_1.xml" format="ditamap"/>
+   <topicref href="using_Power_invoice_231211771/using_Power_invoice_generation_salesforce_revenue_cloud_map_1.xml"
+             format="ditamap"/>
+</topic>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c3831EF7-BDF3-11F0-1416-09173F13E4C5" xml:lang="en-us">
+   <title>Rear view/Connectors</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T12:36:00+05:30"/>
+         <revised modified="2025-11-15T12:36:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance personnel, industrial engineer, machine operator, safety and compliance officer, electrician"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>rear-view-camera</indexterm>
+            <indexterm>video-connector</indexterm>
+            <indexterm>power-connector</indexterm>
+            <indexterm>cable-harness</indexterm>
+            <!-- process layer -->
+            <indexterm>connector-inspection</indexterm>
+            <indexterm>video-wiring</indexterm>
+            <indexterm>signal-troubleshoot</indexterm>
+            <indexterm>connector-replacement</indexterm>
+            <indexterm>grounding-check</indexterm>
+            <!-- context layer -->
+            <indexterm>rear-visibility</indexterm>
+            <indexterm>operator-assist-system</indexterm>
+            <indexterm>warehouse-reverse</indexterm>
+            <indexterm>mro-electrical</indexterm>
+            <indexterm>safety-camera-system</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Rear view connectors"/>
+         <othermeta name="shortdesc"
+                    content="Connector types, wiring and inspection steps for rear view camera systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="video connector;power connector;cable harness;rear camera;monitor"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:electrical-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="rear-view,camera,connectors,wiring,inspection"/>
+         <othermeta name="usecase"
+                    content="help technicians inspect and maintain rear view electrical connections"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image277.png" placement="inline"/>
+         <ol id="items_bgz_pjq_wgc">
+            <li>
+                  1
+                  Antenna jack: To plug the FM antenna cable.
+                </li>
+            <li>
+                  2
+                  I/0 connector: To plug the 1/0 cable.<table colsep="1" frame="all" rowsep="1" id="table_rpy_rjq_wgc">
+                  <tgroup cols="2">
+                     <colspec colname="col1" colnum="1" colwidth="1*"/>
+                     <colspec colname="col2" colnum="2" colwidth="1*"/>
+                     <tbody>
+                        <row>
+                           <entry>&lt;ARA-5080WF: 18 Pin&gt;</entry>
+                           <entry>&lt;ARA-5081WF: 18 Pin&gt;</entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <fig id="fig_spy_rjq_wgc">
+                                 <image href="media/image311.png" id="image_tpy_rjq_wgc" placement="inline"/>
+                              </fig>
+                           </entry>
+                           <entry>
+                              <fig id="fig_upy_rjq_wgc">
+                                 <image href="media/image326.png" id="image_vpy_rjq_wgc" placement="inline"/>
+                              </fig>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <ul id="ol_wpy_rjq_wgc">
+                                 <li>1. Front R (+)</li>
+                                 <li>2. Rear R (+)</li>
+                                 <li>3. Illumination (+)</li>
+                                 <li>4. ACC (+)</li>
+                                 <li>5. Battery (B+)</li>
+                                 <li>6. N.C</li>
+                                 <li>7. Rear L (+)</li>
+                                 <li>8. Front L (+)</li>
+                                 <li>9. Front R (-)</li>
+                                 <li>10. Rear R (-)</li>
+                                 <li>11. N.C / Illumination (-)</li>
+                                 <li>12. N.C</li>
+                                 <li>13. REM GND</li>
+                                 <li>14. GND</li>
+                                 <li>15. 5V Output</li>
+                                 <li>16. REM Data</li>
+                                 <li>17. Rear L (-)</li>
+                                 <li>18. Front L (-)</li>
+                              </ul>
+                           </entry>
+                           <entry>
+                              <ul id="ol_xpy_rjq_wgc">
+                                 <li>1. Tel Mute</li>
+                                 <li>2. Rear R (+)</li>
+                                 <li>3. Illumination (+)</li>
+                                 <li>4. ACC (+)</li>
+                                 <li>5. Battery (B+)</li>
+                                 <li>6. DMB GND</li>
+                                 <li>7. Rear L (+)</li>
+                                 <li>8. DMB L-CH</li>
+                                 <li>9. H/F GND</li>
+                                 <li>10. Rear R (-)</li>
+                                 <li>11. DMB Det</li>
+                                 <li>12. DMB Mute</li>
+                                 <li>13. REM GND</li>
+                                 <li>14. GND</li>
+                                 <li>15. 5V Output</li>
+                                 <li>16. REM Data</li>
+                                 <li>17. Rear L (-)</li>
+                                 <li>18. DMB R-CH</li>
+                              </ul>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </li>
+         </ol>
+      </fig>
+   </body>
+</topic>

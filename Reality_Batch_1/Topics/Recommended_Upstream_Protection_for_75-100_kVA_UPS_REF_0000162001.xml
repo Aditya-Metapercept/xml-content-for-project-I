@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RecommendedUpstreamProtectionFor751-105607AE" xml:lang="en">
+   <title>Recommended Upstream Protection</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 75–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>75-100-kva-ups</indexterm>
+            <indexterm>upstream-protection-guidance</indexterm>
+            <indexterm>breaker-selection</indexterm>
+            <indexterm>fuse-selection</indexterm>
+            <indexterm>isolation-device</indexterm>
+            <!-- Process layer -->
+            <indexterm>selection-procedure</indexterm>
+            <indexterm>configure-procedure</indexterm>
+            <indexterm>test-procedure</indexterm>
+            <indexterm>commissioning-procedure</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>validation-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>electrical-room</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>plant-infrastructure</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>power-availability</indexterm>
+            <indexterm>maintenance-activity</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Recommended Upstream Protection for 75–100 kVA UPS"/>
+         <othermeta name="shortdesc"
+                    content="Selection and configuration guidance for upstream protection devices suitable for 75–100 kVA UPS installations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="75-100-kva-ups;breaker;fuse;isolation-device;upstream-protection"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:upstream-protection-selection;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="upstream-protection,breaker-selection,fuse-selection"/>
+         <othermeta name="usecase" content="upstream-protection-selection"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>Hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>A suitable surge protective device rated not greater than
+2500 V must be installed on the input source.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <table pgwide="1">
+            <tgroup cols="5">
+               <colspec colname="col1" colsep="1" colwidth="40mm"/>
+               <colspec colname="COLSPEC13"/>
+               <colspec colname="COLSPEC1"/>
+               <colspec colname="COLSPEC0"/>
+               <colspec colname="COLSPEC12"/>
+               <thead>
+                  <row rowsep="1">
+                     <entry valign="top">80% rated circuit breaker</entry>
+                     <entry nameend="COLSPEC1" namest="COLSPEC13">75 kVA</entry>
+                     <entry nameend="COLSPEC12" namest="COLSPEC0"> 100 kVA</entry>
+                  </row>
+                  <row>
+                     <entry valign="top">Voltage (V)</entry>
+                     <entry valign="top">480</entry>
+                     <entry valign="top">600</entry>
+                     <entry valign="top">480</entry>
+                     <entry valign="top">600</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>Input
+(A)</entry>
+                     <entry>175</entry>
+                     <entry>150</entry>
+                     <entry>225</entry>
+                     <entry>175</entry>
+                  </row>
+                  <row>
+                     <entry>Bypass (A)</entry>
+                     <entry>175</entry>
+                     <entry>150</entry>
+                     <entry>225</entry>
+                     <entry>175</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m25FCA2B-BDF2-11F0-1935-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Scope</title>
+   <topicref chunk="to-content" href="102432694.xml" xml:lang="en">
+      <topicref href="adding_a_scope.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Adding a Scope</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="modifying_the_scope.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Modifying the Scope</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

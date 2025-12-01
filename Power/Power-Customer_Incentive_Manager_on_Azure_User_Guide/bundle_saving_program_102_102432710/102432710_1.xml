@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2555A8E-BDF2-11F0-6256-09173F13E4C5" xml:lang="en">
+   <title>Bundle Saving Program</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Customer_Incentive_Manager_on_Azure_User_Guide"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Bundle Savings Program offers monthly billing of a fixed cost per procedure based on projected utilization. Procedure price can be adjusted quarterly after comparing the actual utilization against the projected amount.</p>
+   </body>
+</topic>

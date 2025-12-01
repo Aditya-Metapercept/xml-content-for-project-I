@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ExternalConnectionBoardA811-D225C64E" xml:lang="en">
+   <title>External Connection Board (A811)</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="[production,maintenance,quality,safety,engineering,management]"/>
+         <keywords><!-- Product layer -->
+            <indexterm>external-connection-board</indexterm>
+            <indexterm>terminal-block</indexterm>
+            <indexterm>connector-pin</indexterm>
+            <indexterm>signal-cable</indexterm>
+            <indexterm>grounding-rail</indexterm>
+            <!-- Process layer -->
+            <indexterm>terminal-wiring</indexterm>
+            <indexterm>connector-inspection</indexterm>
+            <indexterm>grounding</indexterm>
+            <indexterm>signal-routing</indexterm>
+            <indexterm>secure-mounting</indexterm>
+            <!-- Context layer -->
+            <indexterm>interface-hardware</indexterm>
+            <indexterm>field-connections</indexterm>
+            <indexterm>installation-bay</indexterm>
+            <indexterm>control-room</indexterm>
+            <indexterm>service-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="External Connection Board A811"/>
+         <othermeta name="shortdesc"
+                    content="Details and wiring for the external connection board (A811) including terminals and grounding."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="external connection board;terminal block;grounding rail;signal cable;connector pin"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:external-connectivity-and-wiring;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="connections,terminal-wiring,grounding,interfaces,installation"/>
+         <othermeta name="usecase" content="external-connectivity-and-wiring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>external connection board</indexterm>
+         <p>The external
+connection board contains terminals and connectors for external connections
+to and from the UPS. Terminals are mounted for connection to:<ul>
+               <li>
+                  <p>various signalling switches</p>
+               </li>
+               <li>
+                  <p>ON/OFF buttons</p>
+               </li>
+               <li>
+                  <p>emergency stop (may be supplied from an external source)</p>
+               </li>
+               <li>
+                  <p>a temperature sensor</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <hazardstatement type="notice">
+               <messagepanel>
+                  <typeofhazard/>
+                  <howtoavoid>
+                     <sl>
+                        <sli>The input contacts on the external connection board are designed
+for internal use only. The wires connected to these terminals must
+not be lead out of the UPS cabinet. No external supply voltage is
+allowed.</sli>
+                     </sl>
+                     <sl>
+                        <sli>Do not interchange wires of different functions (battery temperature
+sensors, REPO, input contacts and output relays) as this will damage
+the board.</sli>
+                     </sl>
+                  </howtoavoid>
+               </messagepanel>
+            </hazardstatement>
+         </p>
+         <fig>
+            <title>Board layout</title>
+            <image href="../Images/0p2553a_pcb_external_connection_board_w120mm_0000104040.svg"
+                   placement="inline"/>
+         </fig>
+      </section>
+      <section>
+         <title>Input Contacts and Output Relays</title>
+         <p>Summary
+of signals:<ul>
+               <li>
+                  <p>1 common alarm output relays</p>
+               </li>
+               <li>
+                  <p>2 free programmable output relays</p>
+               </li>
+               <li>
+                  <p>1 REPO input contact</p>
+               </li>
+               <li>
+                  <p>2 free programmable inputs contacts</p>
+               </li>
+               <li>
+                  <p>1 battery temperature input and/or ambient temperature (free
+programmable)</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Assignment</title>
+         <p>All of the input contacts and
+output relays can be assigned to functions and alarms by configuration
+(no fixed assignments). The Remote Emergency Power OFF (REPO) is an
+exception as it is always assigned as shown in the connection diagram
+for the external connection board. There are two connection options:</p>
+         <table outputclass="font:10">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <fig>
+                           <title>REPO with Internal Supply</title>
+                           <image href="../Images/Reality_nam_connect_epo_with_internal_supply_85mm_0000111797.svg"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>
+                        <fig>
+                           <title>REPO with 24 VDC External Supply, Maximum 20 mADC</title>
+                           <image href="../Images/Reality_nam_connect_epo_with_external_supply_85mm_0000111796.svg"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Input Contacts and Output Relays Configuration Settings</title>
+         <p>The default configuration settings are shown.</p>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1" colwidth="11.05*"/>
+               <colspec colname="col3" colwidth="24.36*"/>
+               <colspec colname="col4" colwidth="14.09*"/>
+               <colspec colname="COLSPEC3" colwidth="21.38*"/>
+               <thead>
+                  <row>
+                     <entry>Name </entry>
+                     <entry>Description</entry>
+                     <entry>Location</entry>
+                     <entry>Value</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry valign="bottom">EPO</entry>
+                     <entry valign="bottom">Emergency power off</entry>
+                     <entry valign="bottom">J1602 on 0P2553</entry>
+                     <entry align="left"/>
+                  </row>
+                  <row>
+                     <entry valign="bottom">Option 1 IN</entry>
+                     <entry valign="bottom">Input contact: Block boost/initial charge </entry>
+                     <entry valign="bottom">J1600
+on 0P2553</entry>
+                     <entry align="left">Closed state: Disable boost charge</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">Option
+2 IN</entry>
+                     <entry valign="bottom">Input
+contact: Force to boost charge</entry>
+                     <entry valign="bottom">J1601 on 0P2553</entry>
+                     <entry>Closed
+state: Start boost charge</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">Common alarm</entry>
+                     <entry valign="bottom">Output relay: Common alarm</entry>
+                     <entry valign="bottom">J1607 on 0P2553</entry>
+                     <entry morerows="2">Normally
+open (NO)/Normally closed (NC) Maximum
+250 VAC, 8 AMaximum 24 VDC, 8A</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">Option 1 OUT</entry>
+                     <entry valign="bottom">Output relay: Battery operation</entry>
+                     <entry valign="bottom">J1608 on 0P2553</entry>
+                  </row>
+                  <row>
+                     <entry valign="bottom">Option 2 OUT</entry>
+                     <entry valign="bottom">Output relay: Static bypass operation</entry>
+                     <entry valign="bottom">J1609 on 0P2553</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section/>
+      <section>
+         <title>Temperature Sensors</title>
+         <p>
+            <ul>
+               <li>
+                  <p>1 input</p>
+               </li>
+               <li>
+                  <p>Configurable as ambient or battery temperature sensor</p>
+               </li>
+               <li>
+                  <p>Temperature sensor name configurable</p>
+               </li>
+               <li>
+                  <p>Alarm level configurable</p>
+               </li>
+               <li>
+                  <p>Battery temperature compensation function selectable</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+   </body>
+</topic>

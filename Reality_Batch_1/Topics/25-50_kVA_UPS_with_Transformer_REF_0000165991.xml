@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="KVAUPSWithTransformer-19A2B84C" xml:lang="en">
+   <title>25–50 kVA UPS with Transformer</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords>
+            <indexterm>ups</indexterm>
+            <indexterm>transformer</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>panel</indexterm>
+            <indexterm>cabinet</indexterm>
+            <indexterm>connect</indexterm>
+            <indexterm>install</indexterm>
+            <indexterm>mount</indexterm>
+            <indexterm>test</indexterm>
+            <indexterm>verify</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>operation</indexterm>
+            <indexterm>floor</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="25–50 kVA UPS with Transformer"/>
+         <othermeta name="shortdesc" content="25–50 kVA UPS with Transformer"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups; battery; transformer; cabinet; power-cable; signal-cable"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="connect,cable,installation,torque,safety"/>
+         <othermeta name="usecase" content="procedure"/>
+      </metadata>
+   </prolog>
+   <body/>
+</topic>

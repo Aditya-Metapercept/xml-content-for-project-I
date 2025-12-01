@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2864D6D-BDF2-11F0-6396-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>X-Author for Contracts Mac May 2017 User Guide</title>
+   <topicref href="x_author_for_contracts_ma_45220117/45220117.xml" xml:lang="en">
+      <topicmeta>
+         <navtitle>X-Author for Contracts Mac May 2017 User Guide</navtitle>
+      </topicmeta>
+      <topicref href="x_author_for_contracts_ma_45220117/key_capabilities.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Key Capabilities</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="x_author_for_contracts_ma_45220117/benefits.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Benefits</navtitle>
+         </topicmeta>
+         <mapref href="45220129_1.xml" format="ditamap" xml:lang="en">
+            <topicmeta>
+               <navtitle>Getting Started</navtitle>
+            </topicmeta>
+         </mapref>
+         <mapref href="45220122_1.xml" format="ditamap" xml:lang="en">
+            <topicmeta>
+               <navtitle>Working with Agreements</navtitle>
+            </topicmeta>
+         </mapref>
+         <topicref href="tracking_clauses_in_your__45220100/45220100.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Tracking Clauses in your Agreement Document</navtitle>
+            </topicmeta>
+         </topicref>
+      </topicref>
+   </topicref>
+</topic>

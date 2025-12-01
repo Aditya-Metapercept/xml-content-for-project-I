@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1F93EDA-BB01-11F0-2551-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-11-07"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="management,engineering,quality"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-FES-Space</indexterm>
+            <indexterm>inverter-system</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>power-conversion-module</indexterm>
+            <indexterm>electrical-distribution-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-process</indexterm>
+            <indexterm>safety-signoff</indexterm>
+            <indexterm>change-control</indexterm>
+            <indexterm>design-verification</indexterm>
+            <indexterm>compliance-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>plant-acceptance</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>operational-readiness</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="FES-02-250 — Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval criteria, signoff authorities and compliance checks required before commissioning or modification of inverter systems in production plants."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver;checklist;test-report;compliance-document;signoff"/>
+         <othermeta name="taxonomy"
+                    content="domain:governance;usecase:approval-process;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="approval,compliance,qa,commissioning"/>
+         <othermeta name="usecase" content="governance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_psw_g2x_pzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Region</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Asia Pacific</p>
+                     </entry>
+                     <entry>
+                        <p>John Pillen</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Europe</p>
+                     </entry>
+                     <entry>
+                        <p>Jean-Pierre Locato, Marco Marchelli, Ruud Bormans, Rafal Szkoda</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Americas South</p>
+                     </entry>
+                     <entry>
+                        <p>Paul Arriz</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Americas North</p>
+                     </entry>
+                     <entry>
+                        <p>Daniel Devries</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Global Operations</p>
+                     </entry>
+                     <entry>
+                        <p>Juan Ishiguro, Franklin Barrios</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

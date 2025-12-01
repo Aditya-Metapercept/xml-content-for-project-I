@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2474719-BDF2-11F0-6621-09173F13E4C5" xml:lang="en">
+   <title>To find the code for your Dynamics 365 picklist value</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>dynamics-365</indexterm>
+            <indexterm>metr-365-power</indexterm>
+            <indexterm>power</indexterm>
+            <indexterm>picklist-service</indexterm>
+            <indexterm>crm-ui</indexterm>
+            <indexterm>option-metadata-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>retrieve-picklist-code</indexterm>
+            <indexterm>view-option-metadata</indexterm>
+            <indexterm>identify-picklist-values</indexterm>
+            <indexterm>open-advanced-settings</indexterm>
+            <indexterm>inspect-system-customization</indexterm>
+            <indexterm>locate-attribute-metadata</indexterm>
+            <!-- Context layer -->
+            <indexterm>crm-customization</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>metadata-discovery</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>dynamics-power-integration</indexterm>
+            <indexterm>picklist-mapping-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-365-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="To find the code for your Dynamics 365 picklist value"/>
+         <othermeta name="shortdesc"
+                    content="Retrieve the numeric code for a picklist value in Dynamics 365 so it can be mapped correctly to a matching value in Power."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Dynamics 365;Power;picklist;metadata;field;option code"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:retrieve-picklist-code;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="picklist,metadata,code,dynamics-365,mapping,option-values"/>
+         <othermeta name="usecase"
+                    content="retrieve picklist codes for cross-system mapping"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Navigate to <menucascade>
+                  <uicontrol>Settings</uicontrol>
+                  <uicontrol>Customizations</uicontrol>
+                  <uicontrol>Customize the System</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>From the left navigation bar, click <uicontrol>Entities</uicontrol> under Components.</p>
+            <p>
+               <fig>
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/143887218/143887232.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Use Ctrl+F (Command+F on a Mac) to search for the entity where the picklist field exists and double-click the entity (for example, "Agreement").</p>
+         </li>
+         <li>
+            <p>From the left navigation bar, click <uicontrol>Fields</uicontrol> under the entity name.</p>
+            <p>
+               <fig>
+                  <image height="400"
+                         placement="break"
+                         href="../attachments/143887218/143887231.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Use Ctrl+F (Command + F on a Mac) to search for the picklist field and double-click the field name (the type must be "Option Set").</p>
+         </li>
+         <li>
+            <p>Click an <uicontrol>Option</uicontrol> to see its value displayed in the <uicontrol>Value</uicontrol> field to the right.</p>
+            <p>
+               <fig>
+                  <image height="150"
+                         placement="break"
+                         href="../attachments/143887218/143887233.png"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceAPowerBlockPlane-6D1A303E" xml:lang="en">
+   <title>Replace a Power Back Plane</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>power-back-plane</indexterm>
+            <indexterm>power-module</indexterm>
+            <indexterm>fan-module</indexterm>
+            <indexterm>ups-cover</indexterm>
+            <indexterm>ups-cabinet</indexterm>
+            <indexterm>ribbon-cable</indexterm>
+            <indexterm>cable-harness</indexterm>
+            <indexterm>mounting-plates</indexterm>
+            <indexterm>nuts-and-bolts</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-power-back-plane</indexterm>
+            <indexterm>remove-cover</indexterm>
+            <indexterm>loosen-screws</indexterm>
+            <indexterm>remove-nuts</indexterm>
+            <indexterm>remove-plates</indexterm>
+            <indexterm>slide-out-power-module</indexterm>
+            <indexterm>disconnect-cables</indexterm>
+            <indexterm>disconnect-ribbon-cable</indexterm>
+            <indexterm>remove-fan-module</indexterm>
+            <indexterm>install-replacement-back-plane</indexterm>
+            <indexterm>verify-absence-of-voltage</indexterm>
+            <indexterm>apply-ppe</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>discharge-capacitors</indexterm>
+            <indexterm>grounding-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>ups-servicing</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>arc-flash-hazard</indexterm>
+            <indexterm>hazardous-voltage</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>25-100-kva-systems</indexterm>
+            <indexterm>cabinet-servicing</indexterm>
+            <indexterm>field-replacement</indexterm>
+            <indexterm>ppe-compliance</indexterm>
+            <indexterm>equipment-grounding</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace a Power Back Plane"/>
+         <othermeta name="shortdesc"
+                    content="This procedure explains how to remove and replace the power back plane in 25–100 kVA UPS systems, including fan module removal, cable and ribbon disconnection, and sliding out power modules."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-back-plane;power-modules;fan-module;mounting-plates;nuts;bolts;covers;ribbon-cable;cable-harness;protective-earth;disconnection-devices;grounding-conductor;ups-cabinet"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:replace-power-component;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="power-back-plane,fan-module,power-module-removal,cable-management,ups-maintenance,electrical-safety,arc-flash,ppe"/>
+         <othermeta name="usecase" content="replace-power-component"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <table frame="none">
+            <title>Overview of the Power Back Plane(s)</title>
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="1.00*"/>
+               <colspec colname="col2" colwidth="1.00*"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <fig>
+                           <title>25–50 kVA UPS Systems</title>
+                           <image href="../Images/replace_0j-0n-0936_or_0j-0n-0937_25-50kw_powerbackplaneass_overviewoffwhere_w85mm_0000191989.png"
+                                  scalefit="yes"
+                                  scope="local"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>
+                        <fig>
+                           <title>75–100 kVA UPS Systems</title>
+                           <image href="../Images/replace_0j-0n-87673_or_0j-0n-87674_75-100kw_powerbackplaneass_overviewoffwhere_w85mm_0000191988.png"
+                                  scalefit="yes"
+                                  scope="local"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <note>This procedure shows the 50 kVA system but is identical
+for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Loosen the three screws on the right side and the two nuts
+on the left side of the cover and remove the cover.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removecover_w120mm_0000191097.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Loosen the two nuts and slide out the fan module in front
+of the power module as far as the cables allow.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removefanass_w120mm_0000191096.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the fan module
+and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Move the fan module completely out of the UPS cabinet.</p>
+         </li>
+         <li>
+            <p>Remove the two nuts and the two bolts from each plate on
+the left side of the power modules and remove the plates.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removetwoplatespower_w120mm_0000191095.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Disconnect the ribbon cable and slide out the power module(s).
+Start with the upper power module.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removepowerm_w120mm_0000191094.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the power
+back plane and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Remove the power back plane.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-0936_or_0j-0n-0937_25-50kw_powerbackplaneass_changebackplane_w120mm_0000191987.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+power back plane.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

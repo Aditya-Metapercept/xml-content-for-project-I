@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheStaticSwitchConnectionBox-4CB18F0E" xml:lang="en">
+   <title>Replace the Static Switch Connection Box 0J–0N–96451</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+      <keyword>10 kVA</keyword>
+      <keyword>20 kVA</keyword>
+      <keyword>30 kVA</keyword>
+      <keyword>40 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>60 kVA</keyword>
+      <keyword>80 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance,engineering,production,safety,quality,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>static-switch-connection-box-0j-0n-96451</indexterm>
+            <indexterm>power-connection-assembly</indexterm>
+            <indexterm>fan-module</indexterm>
+            <indexterm>power-modules</indexterm>
+            <indexterm>ups-electronics-bay</indexterm>
+            <indexterm>cabinet-rail-assembly</indexterm>
+            <indexterm>auxiliary-control-board</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-static-switch-connection-box</indexterm>
+            <indexterm>loosen-front-screws</indexterm>
+            <indexterm>loosen-rear-screws</indexterm>
+            <indexterm>remove-cabinet-cover</indexterm>
+            <indexterm>disconnect-fan-module-cables</indexterm>
+            <indexterm>slide-out-power-modules</indexterm>
+            <indexterm>remove-power-connection-assembly</indexterm>
+            <indexterm>slide-out-static-switch-connection-box</indexterm>
+            <indexterm>disconnect-ups-cabling</indexterm>
+            <indexterm>reverse-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>10-80-kva-ups-systems</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>field-service-maintenance</indexterm>
+            <indexterm>electrical-servicing</indexterm>
+            <indexterm>arc-flash-safety</indexterm>
+            <indexterm>ppe-requirements</indexterm>
+            <indexterm>hazardous-voltage-zones</indexterm>
+            <indexterm>internal-energy-source</indexterm>
+            <indexterm>cabinet-access-clearance</indexterm>
+            <indexterm>fan-cooling-pathway</indexterm>
+            <indexterm>module-sequencing</indexterm>
+            <indexterm>wiring-identification</indexterm>
+            <indexterm>equipment-isolation</indexterm>
+            <indexterm>capacitor-discharge-protocol</indexterm>
+            <indexterm>earthing-and-bonding</indexterm>
+            <indexterm>component-handling-esd</indexterm>
+            <indexterm>power-path-assembly</indexterm>
+            <indexterm>repair-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replace the Static Switch Connection Box 0J–0N–96451"/>
+         <othermeta name="shortdesc"
+                    content="This procedure describes how to remove the fan module, power modules, and power connection assembly to access, disconnect, and replace the Static Switch Connection Box 0J–0N–96451 in 10–80 kVA UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static-switch-connection-box-0j-0n-96451;fan-module;power-modules;power-connection-assembly;cabinet-rail-assembly;ups-electronics-bay;auxiliary-control-board;cable-harness;hazardous-voltage-terminals;grounding-conductor"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-component-replacement;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-switch-connection-box,power-modules,fan-module,ups-maintenance,electrical-safety,component-extraction,cable-identification,power-assembly-removal,field-servicing"/>
+         <othermeta name="usecase" content="component-replacement-and-verification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnect device marked
+for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 80
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Loosen the two nuts and remove the cover in the right side.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_power_module_remove_cover_in_right_side_0000101752.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Loosen the two nuts and slide out the fan module in front
+of the power module as long as the cables allow.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_power_module_remove_fan_module_0000101751.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the fan module
+and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Move the fan module completely out of the UPS cabinet.</p>
+         </li>
+         <li>
+            <p>Loosen the two screws and the two nuts of each plate and
+remove the plates.</p>
+            <stepxmp>
+               <image href="../Images/img_80_kva_replace-0p4916_remove1_0000104210.png"
+                      scalefit="yes"
+                      placement="inline"/>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Slide out the power modules. Start with upper power module.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_capacity_board_0p4916_slide_out_both_pms_0000104209.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Loosen the four screws and remove the rail.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_power_connection_assembly_remove_rail_0000105040.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Lift the power connection assembly up and out of the UPS
+cabinet as long as the cables allow. Note the location of the cables
+connected to the power connection assembly and disconnect the cables.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_connection_assembly_up_and_out_0000105039.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Slide the power connection assembly completely out of the
+UPS cabinet.</p>
+         </li>
+         <li>
+            <p>Loosen the six screws from the front of the cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_ssw_connection_box_0j-0n-96451_loosen_screws_front_0000103096.png"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>With the hand through the hole in the side, loosen the
+six screws in the rear of the cabinet.</p>
+         </li>
+         <li>
+            <p>Slide out the static switch connection box as long as the
+cables allow. Note the location of the cables connected to the static
+switch connection box and disconnect the cables.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace-0j-0n-96451_slide-out_0000103095.png"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Slide the static switch connection box completely out of
+the UPS cabinet.</p>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+static switch connection box.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallTheUPSTuner-96703DAF" xml:lang="en">
+   <title>Install the UPS Tuner</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-tuner</indexterm>
+            <indexterm>tuning-module</indexterm>
+            <indexterm>frequency-adjuster</indexterm>
+            <indexterm>control-tuner</indexterm>
+            <indexterm>parameter-tuner</indexterm>
+            <!-- Process layer -->
+            <indexterm>tuner-installation</indexterm>
+            <indexterm>firmware-configuration</indexterm>
+            <indexterm>parameter-tuning</indexterm>
+            <indexterm>calibration-sequence</indexterm>
+            <indexterm>post-install-verification</indexterm>
+            <indexterm>driver-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>system-configuration</indexterm>
+            <indexterm>commissioning-environment</indexterm>
+            <indexterm>control-system-integration</indexterm>
+            <indexterm>operational-optimisation</indexterm>
+            <indexterm>plant-performance</indexterm>
+            <indexterm>installation-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Install the UPS Tuner"/>
+         <othermeta name="shortdesc"
+                    content="Task steps to install and configure the UPS tuner module, including calibration, firmware setup and verification checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups-tuner;tuner-firmware;calibration-tools;configuration-file;control-software;verification-checklist"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:installation-and-calibration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="installation,calibration,firmware,configuration,tuning"/>
+         <othermeta name="usecase" content="installation-and-calibration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry>Required operating system</entry>
+                     <entry>Required hardware</entry>
+                  </row>
+                  <row>
+                     <entry>MS Windows 7 64 bit / 32 bit versionMS Windows
+10 64 bit version</entry>
+                     <entry>USB or serial port28 MB free of space on your
+laptop’s hard drive</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <note>You must have administrator rights to install and use
+the software.</note>
+         <note>The date and time on the laptop must be
+correct. If a former release of the UPS Tuner is already installed,
+you must remove the older version when asked before installing the
+new version of the UPS Tuner.</note>
+      </prereq>
+      <ol>
+         <li>
+            <p>Open the UPS Tuner installation file and follow the instructions
+on your laptop. </p>
+            <stepxmp>
+               <note>The default installation directory is: <uicontrol>C:\Program
+Files\Schneider IT Services\UPS Tuner Reality PXC</uicontrol> or <uicontrol>C:\Program Files (x86)\Schneider IT Services\UPS Tuner Reality PXC</uicontrol> (for 64 bit Windows version) on your computer for a first time installation.
+If a previous installation directory exists on your laptop, this directory
+will be used.</note>
+            </stepxmp>
+         </li>
+         <li>
+            <p>When the installation is finished, launch the UPS Tuner
+software.</p>
+            <stepxmp>
+               <note>You will be asked for a license code on a first start-up.
+If this is the case, follow steps 3 and 4.</note>
+            </stepxmp>
+         </li>
+         <li>
+            <p>To obtain the license, copy the environment code from the
+license requested window by clicking <uicontrol>Copy</uicontrol> and
+send this code to your licensing server or your local Schneider Electric
+contact. See Service View for more information.</p>
+         </li>
+         <li>
+            <p>When you receive your license code, paste it into the <uicontrol>Your license</uicontrol> field and click <uicontrol>Valid</uicontrol>. This license is valid for a year.</p>
+            <stepxmp>The UPS Tuner is now ready for use.</stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

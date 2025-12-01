@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m26F284B-BDF2-11F0-4084-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Configuration for Deal Guidance Rules</title>
+   <topicref chunk="to-content" href="195691330.xml" xml:lang="en">
+      <topicref href="to_a_the_business_objects_picklist.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To A the Business Objects picklist</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_add_values_to_the_measure_picklist.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To add values to the Measure picklist</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_set_field_dependencies.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To set Field Dependencies</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

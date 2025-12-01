@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OverviewOfUPSSystem-46868955" xml:lang="en">
+   <title>Overview of the UPS System</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-with-transformer</indexterm>
+            <indexterm>power-conversion-module</indexterm>
+            <indexterm>rectifier-module</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>bypass-switch</indexterm>
+            <!-- Process layer -->
+            <indexterm>system-overview-and-schematic-reading</indexterm>
+            <indexterm>installation-checklist</indexterm>
+            <indexterm>power-flow-analysis</indexterm>
+            <indexterm>initialisation-and-commissioning</indexterm>
+            <indexterm>routine-inspection</indexterm>
+            <indexterm>fault-isolation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>ups-commissioning</indexterm>
+            <indexterm>industrial-power-systems</indexterm>
+            <indexterm>plant-operations</indexterm>
+            <indexterm>electrical-distribution</indexterm>
+            <indexterm>backup-power-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Overview of the UPS System"/>
+         <othermeta name="shortdesc"
+                    content="High-level description of UPS system components, power flow, and operational context for installation and maintenance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="rectifier;inverter;bypass-switch;transformer;control-unit;battery-bank"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:system-overview;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="system-overview,power-flow,installation,commissioning"/>
+         <othermeta name="usecase"
+                    content="provide-a-high-level-system-overview-for-ops-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <fig expanse="page">
+            <title>UPS principle diagram</title>
+            <image href="../Images/upsprinciplediagram_0000117222.png"
+                   translate="no"
+                   xml:lang="en"
+                   placement="inline"/>
+         </fig>
+      </section>
+      <section>
+         <title>The Components in the UPS Principle Diagram</title>
+         <table pgwide="1">
+            <tgroup cols="3">
+               <colspec colname="col1" colwidth="9.99%"/>
+               <colspec colname="col2" colwidth="29.72%"/>
+               <colspec colname="col3" colwidth="41.00*"/>
+               <thead>
+                  <row>
+                     <entry valign="top"/>
+                     <entry valign="top">Component</entry>
+                     <entry valign="top">Explanation</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>X001</entry>
+                     <entry>Rectifier mains terminal</entry>
+                     <entry>This terminal provides for the connection of the rectifier
+mains (L1, L2, L3, PE).</entry>
+                  </row>
+                  <row>
+                     <entry>T001</entry>
+                     <entry>Option: Rectifier mains transfomer</entry>
+                     <entry>Matches the rectifier mains voltage to the correct value for
+the rectifier, and provides galvanic isolation.</entry>
+                  </row>
+                  <row>
+                     <entry>Q001</entry>
+                     <entry>Rectifier mains
+input switch</entry>
+                     <entry>This switch ensures
+isolation of the rectifier mains input (no trip function).</entry>
+                  </row>
+                  <row>
+                     <entry>K101</entry>
+                     <entry>Input
+backfeed contactor</entry>
+                     <entry>See <xref href="Service_Power_Connection_Board_A101_REF_0000103189.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A101</entry>
+                     <entry>Power connection
+board</entry>
+                     <entry>See <xref href="Service_Power_Connection_Board_A101_REF_0000103189.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A102</entry>
+                     <entry>Controller box</entry>
+                     <entry>See <xref href="Service_Controller_Box_A102_REF_0000103188.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>T101 — T102</entry>
+                     <entry>Power modules</entry>
+                     <entry>See <xref href="Service_Power_Module_T101_T102_REF_0000102069.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>X201</entry>
+                     <entry>Battery terminal</entry>
+                     <entry>This terminal ensures the connection of the battery positive
+pole (B+) and the negative pole (B-).</entry>
+                  </row>
+                  <row>
+                     <entry>Q201</entry>
+                     <entry>Battery switch</entry>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry>Q401</entry>
+                     <entry>Static bypass switch (Thyristors)</entry>
+                     <entry>See <xref href="Service_Static_Bypass_Switch_Module_SBS_REF_0000103119.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A401</entry>
+                     <entry>Static bypass switch controller</entry>
+                     <entry>See <xref href="Service_SBS_Controller_A401_REF_0000103064.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>T401</entry>
+                     <entry>Option: Inverter output transformer</entry>
+                     <entry>This transformer galvanically isolates the load from the battery
+and adapts the output voltage to the required voltage of the inverter
+power module. No transformer is used, if no galvanic isolation is
+required, and if the required output voltage is in the range from
+380–415 V for 3–phase system and 220–240 V for
+1–phase systems.</entry>
+                  </row>
+                  <row>
+                     <entry>X501</entry>
+                     <entry>Bypass mains input terminal</entry>
+                     <entry>This terminal provides for the connection of the bypass mains:
+1, 2, or 3 phases, neutral and ground, dependent on the configuration
+and type. For 3–phase systems one common set of terminals for
+rectifier and bypass mains is possible.</entry>
+                  </row>
+                  <row>
+                     <entry>Q501</entry>
+                     <entry>Bypass mains input switch</entry>
+                     <entry>This switch isolates the bypass mains input.</entry>
+                  </row>
+                  <row>
+                     <entry>T501</entry>
+                     <entry>Option: Bypass
+mains input transformer</entry>
+                     <entry>This component
+provides for the galvanic isolation between the bypass mains input
+and the load. It can also be installed in the case of a different
+bypass mains input voltage and output voltage. A stabilizer can be
+installed instead of a transformer.</entry>
+                  </row>
+                  <row>
+                     <entry>Q528</entry>
+                     <entry>Bypass
+mains input switch</entry>
+                     <entry>Provides
+for the isolation of the bypass static switch input.</entry>
+                  </row>
+                  <row>
+                     <entry>Q601</entry>
+                     <entry>Manual
+bypass switch (MBS)</entry>
+                     <entry>This
+switch enables service or maintenance work. Two positions are available:<ul>
+                           <li>
+                              <p>Auto: in this position the load is supplied from the
+system (inverter or static bypass)</p>
+                           </li>
+                           <li>
+                              <p>Bypass: in this position the load is supplied directly
+from the bypass mains. The static switch is isolated from the bypass
+mains. For a total isolation of the system part, Q001 and Q201 must
+also be open.</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>X601</entry>
+                     <entry>System
+output terminal (Load terminal)</entry>
+                     <entry>This
+terminal provides for the connection of the load.</entry>
+                  </row>
+                  <row>
+                     <entry>A801</entry>
+                     <entry>Interface
+board</entry>
+                     <entry>See <xref href="Service_Interface_Board_A801_REF_0000116986.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A802,A803</entry>
+                     <entry>Current
+sense boards</entry>
+                     <entry>These
+boards contain the burden resistor for the appropriate current transformer.</entry>
+                  </row>
+                  <row>
+                     <entry>A805,A806</entry>
+                     <entry>Voltage
+sense boards</entry>
+                     <entry>These
+boards convert the acquired voltage via the interface board to a standard
+value.</entry>
+                  </row>
+                  <row>
+                     <entry>A810</entry>
+                     <entry>Human
+Machine Interface (HMI)</entry>
+                     <entry>See <xref href="Service_Human_Machine_Interface_A810_REF_0000117151.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A811</entry>
+                     <entry>External
+connection board</entry>
+                     <entry>See <xref href="Service_External_Connection_Board_A811_REF_0000103066.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A812</entry>
+                     <entry>Option:
+Parallel connection board</entry>
+                     <entry>This
+board is installed if two units are connected in parallel. The board’s
+functions are:<ul>
+                           <li>
+                              <p>Communication between the individual units</p>
+                           </li>
+                           <li>
+                              <p>Load sharing between the individual units. Each unit takes
+over the same proportional part of the load.</p>
+                           </li>
+                        </ul>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>E101E102E401E701</entry>
+                     <entry>Fan
+system</entry>
+                     <entry>Consists
+of:<ul>
+                           <li>
+                              <p>fans with internal hall sensor for monitoring of the rotation
+speed</p>
+                           </li>
+                           <li>
+                              <p>fan monitor for monitoring the rotation speed of each fan.
+If the rotation speed falls below the threshold value an alarm is
+generated</p>
+                           </li>
+                        </ul>See <xref href="Service_Power_Module_Ventilation_E101___E701_REF_0000103117.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/> and <xref href="Service_SBS_Ventilation_E401_REF_0000103065.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>A103A104</entry>
+                     <entry>Capacitor boards</entry>
+                     <entry>See <xref href="Service_Capacitor_Board_A103___A104_REF_0000103190.xml"
+                              format="dita"
+                              scope="local"
+                              type="reference"/>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan739" xml:lang="en">
+   <title>Apttus Copyright Disclaimer</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>apttus-software</indexterm>
+            <indexterm>x-author</indexterm>
+            <indexterm>stp-documentation</indexterm>
+            <indexterm>apttus-legal-notices</indexterm>
+            <!-- Process Layer -->
+            <indexterm>copyright-disclaimer</indexterm>
+            <indexterm>license-restrictions</indexterm>
+            <indexterm>intellectual-property-protection</indexterm>
+            <indexterm>software-usage-limitations</indexterm>
+            <indexterm>reverse-engineering-prohibition</indexterm>
+            <indexterm>third-party-liability-terms</indexterm>
+            <!-- Context Layer -->
+            <indexterm>commercial-computer-software</indexterm>
+            <indexterm>us-government-end-users</indexterm>
+            <indexterm>dangerous-applications-warning</indexterm>
+            <indexterm>third-party-content</indexterm>
+            <indexterm>software-licensing-environment</indexterm>
+            <indexterm>enterprise-compliance</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="Apttus Copyright Disclaimer"/>
+         <othermeta name="shortdesc"
+                    content="This section outlines Apttus copyright terms, software usage restrictions, intellectual property protections, and liability disclaimers."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="copyright;license agreement;intellectual property;software restrictions;us government end users;dangerous applications;third party products;software documentation"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:legal-disclaimer;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="legal,disclaimer,ip-protection,software-licensing,third-party,compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Copyright © 2017 Apttus Corporation (“Apttus”) and/or its affiliates. All rights reserved.</p>
+      <p>No part of this document, or any information linked to or referenced herein, may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written consent of Apttus. All information contained herein is subject to change without notice and is not warranted to be error free.</p>
+      <p>This document may describe certain features and functionality of software that Apttus makes available for use under a license agreement containing restrictions on use and disclosure and are protected by intellectual property laws. Except as expressly permitted in your license agreement or allowed by law, you may not, in any form, or by any means, use, copy, reproduce, translate, broadcast, modify, license, transmit, distribute, exhibit, perform, publish, or display any part of the software. Reverse engineering, disassembly, decompilation of, or the creation of derivative work(s) from, the software is strictly prohibited. Additionally, this document may contain descriptions of software modules that are optional and for which you may not have purchased a license. As a result, your specific software solution and/or implementation may differ from those described in this document.</p>
+      <p>U.S. GOVERNMENT END USERS: Apttus software, including any operating system(s), integrated software, any programs installed on the hardware, and/or documentation, delivered to U.S. Government end users are “commercial computer software” pursuant to the applicable Federal Acquisition Regulation and agency-specific supplemental regulations. As such, use, duplication, disclosure, modification, and adaptation of the programs, including any operating system, integrated software, any programs installed on the hardware, and/or documentation, shall be subject to license terms and license restrictions applicable to the programs. No other rights are granted to the U.S. Government.</p>
+      <p>Neither the software nor the documentation were developed or intended for use in any inherently dangerous applications, including applications that may create a risk of personal injury. If you use this software or hardware in dangerous applications, then you shall be responsible to take all appropriate fail-safe, backup, redundancy, and other measures to ensure its safe use. Apttus and its affiliates disclaim any liability for any damages caused by use of this software or hardware in dangerous applications.</p>
+      <p>Apttus and X-Author are registered trademarks of Apttus and/or its affiliates.</p>
+      <p>The documentation and/or software may provide links to Web sites and access to content, products, and services from third parties. Apttus is not responsible for the availability of, or any content provided by third parties. You bear all risks associated with the use of such content. If you choose to purchase any products or services from a third party, the relationship is directly between you and the third party. Apttus is not responsible for: (a) the quality of third-party products or services; or (b) fulfilling any of the terms of the agreement with the third party, including delivery of products or services and warranty obligations related to purchased products or services. Apttus is not responsible for any loss or damage of any sort that you may incur from dealing with any third party.</p>
+      <p>For additional resources and support, please visit <xref href="https://apttusportal.force.com/community"
+               format="html"
+               scope="external">https://apttusportal.force.com/community</xref>. </p>
+   </body>
+</topic>

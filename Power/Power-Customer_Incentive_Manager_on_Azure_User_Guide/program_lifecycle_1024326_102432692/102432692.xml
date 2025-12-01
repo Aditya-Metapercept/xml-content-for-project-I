@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25BF2E3-BDF2-11F0-1545-09173F13E4C5" xml:lang="en">
+   <title>Program Lifecycle</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>program-manager</indexterm>
+            <indexterm>agreement-engine</indexterm>
+            <indexterm>payout-engine</indexterm>
+            <indexterm>program-lifecycle-service</indexterm>
+            <indexterm>compensation-calculator</indexterm>
+            <!-- Process layer -->
+            <indexterm>program-creation</indexterm>
+            <indexterm>program-activation</indexterm>
+            <indexterm>program-amendment</indexterm>
+            <indexterm>program-completion</indexterm>
+            <indexterm>program-date-management</indexterm>
+            <indexterm>payout-generation</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>incentive-compensation</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>partner-management</indexterm>
+            <indexterm>agreement-life-cycle</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Program Lifecycle"/>
+         <othermeta name="shortdesc"
+                    content="A Program Manager or a Program Analyst can create, activate, amend and complete programs; agreements and programs are tracked as part of the agreement lifecycle."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="program;agreement;payout-schedule;qualification-rule;effective-date;audit-log;analyst;program-version"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="program-lifecycle,agreement-management,payout-scheduling,amendments,activation,completion"/>
+         <othermeta name="usecase"
+                    content="manage program lifecycle including creation, activation, amendment and completion"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>A Program Manager or a Program Analyst or any user who has permission to create a program can create or manage the program from the contract or from a stand-alone program. Billing Programs are associated with agreements and managed as part of the agreement life cycle. Programs are associated with an agreement. When agreements are activated, programs are activated.</p>
+      <p>Agreement life cycle statuses supported in conjunction with the program are as follows:</p>
+      <p>Agreement Status</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Status</p>
+                     </entry>
+                     <entry>
+                        <p>Transition</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Request</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>New Agreement.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>In Amendment</p>
+                     </entry>
+                     <entry>
+                        <p>From Activated</p>
+                     </entry>
+                     <entry>
+                        <p>Programs are amended independently from Agreements.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Activated</p>
+                     </entry>
+                     <entry>
+                        <p>From Request or after Amendment</p>
+                     </entry>
+                     <entry>
+                        <p>When the Agreement is Activated/Approved the Program is Activated.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Terminated</p>
+                     </entry>
+                     <entry>
+                        <p>From Activated</p>
+                     </entry>
+                     <entry>
+                        <p>Is manually set on the agreement. The versioned (original) Agreement status. Status Category is set to Superseded.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Cancel</p>
+                     </entry>
+                     <entry>
+                        <p>From In Amendment </p>
+                     </entry>
+                     <entry>
+                        <p>When the agreement is In Amendment, it can be canceled. The In Amendment version is deleted and the agreement Being Amended is re-activated along with originally activated programs.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>When you create a program from an agreement, the program will inherit all the above Status from the Agreement alongside, Account, Start Date and End Date. For example, if a user performs Generate action and the Status category is Request, the program inherits the same Status as Request from the Contract.</p>
+      <p>As soon as the contract is in Activate action, the system will automatically update the Status of a Program to Activated.</p>
+      <p>After the Contract is activated and the Program is in In Effect/Activated status, a user cannot edit the attributes.</p>
+      <note type="note">
+         <p>Only Amending Changes (like Add Participants) are allowed on the contract.</p>
+      </note>
+      <p>Programs have their own statuses which are managed through the Agreement Life Cycle and through jobs that are scheduled as needed.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="700"
+                   href="../attachments/102432692/102432751.png"/>
+         </fig>
+      </p>
+      <p>Program Status</p>
+      <p>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Status</p>
+                     </entry>
+                     <entry>
+                        <p>Transition</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Draft</p>
+                     </entry>
+                     <entry/>
+                     <entry>
+                        <p>
+                           <ul>
+                              <li>New Program being set up or</li>
+                              <li>The new version of an Active program</li>
+                           </ul>
+                        </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Activated</p>
+                     </entry>
+                     <entry>
+                        <p>From Draft</p>
+                     </entry>
+                     <entry>
+                        <p>Program is reviewed and approved.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>In Amendment</p>
+                     </entry>
+                     <entry>
+                        <p>From Activated</p>
+                     </entry>
+                     <entry>
+                        <p>Program is being edited.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Terminated</p>
+                     </entry>
+                     <entry>
+                        <p>From Agreement Termination</p>
+                        <p>or</p>
+                        <p>Next program version is activated</p>
+                     </entry>
+                     <entry>
+                        <p>The New copy of the amended program is Activated (older version is terminated)</p>
+                        <p>Agreement or Program is terminated.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Completed</p>
+                     </entry>
+                     <entry>
+                        <p>From Active</p>
+                     </entry>
+                     <entry>
+                        <p>Program cycle is complete: end date (+ grace period) is reached and all schedules are closed.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

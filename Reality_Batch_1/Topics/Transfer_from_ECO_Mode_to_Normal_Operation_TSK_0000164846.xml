@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransferFromECOModeToNormalOperatio-170FFAD3" xml:lang="en">
+   <title>Transfer from ECO Mode to Normal Operation</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>reality-25-100-kva-ups</indexterm>
+            <indexterm>eco-mode-controller</indexterm>
+            <indexterm>system-control-menu</indexterm>
+            <indexterm>bypass-control-module</indexterm>
+            <indexterm>ups-operating-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>transfer-from-eco-mode</indexterm>
+            <indexterm>navigate-ups-menu</indexterm>
+            <indexterm>initiate-normal-operation</indexterm>
+            <indexterm>confirm-operational-command</indexterm>
+            <indexterm>exit-energy-saving-mode</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-operation</indexterm>
+            <indexterm>eco-mode-operation</indexterm>
+            <indexterm>system-control-environment</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Transfer from ECO Mode to Normal Operation"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to navigate the UPS interface to transfer the system from ECO mode to normal operation using System Control and Bypass Control menus."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Reality 25–100 kVA UPS;System Control menu;Bypass Control menu;ECO mode;UPS operating panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:transfer-from-eco-mode-to-normal-operation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="eco-mode,normal-operation,ups-menu-navigation,system-control,bypass-control"/>
+         <othermeta name="usecase" content="transfer-from-eco-mode-to-normal-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>This menu is only available if ECO mode is enabled.</note>
+      </context>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Bypass Control</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>YES, UPS out of ECO Mode</uicontrol> to
+transfer to normal operation.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Confirm action:UPS out of ECO Mode NO, Abort►YES, UPS out of ECO Mode</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

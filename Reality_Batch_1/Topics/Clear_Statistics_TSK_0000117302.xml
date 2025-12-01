@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ClearStatistics-9B770FD2" xml:lang="en">
+   <title>Clear Statistics</title>
+   <shortdesc>
+      <keyword>Reality 25–100 kVA NAM</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-interface</indexterm>
+            <indexterm>event-logging</indexterm>
+            <indexterm>statistics-menu</indexterm>
+            <indexterm>display-panel</indexterm>
+            <indexterm>menu-tree</indexterm>
+            <!-- Process layer -->
+            <indexterm>clear-statistics</indexterm>
+            <indexterm>navigate-event-logging</indexterm>
+            <indexterm>select-statistics-option</indexterm>
+            <indexterm>confirm-clearance</indexterm>
+            <indexterm>use-enter-key</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-guidance</indexterm>
+            <indexterm>plant-maintenance</indexterm>
+            <indexterm>downtime-reduction</indexterm>
+            <indexterm>data-cleanup</indexterm>
+            <indexterm>equipment-logs</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Clear Statistics"/>
+         <othermeta name="shortdesc"
+                    content="Guided task for clearing statistics via the UPS event logging/statistics menu on the display panel."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="display panel; event logging; statistics record; menu options; enter key"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:operator-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="clear-statistics,event-logging,operator-steps,maintenance,display-panel"/>
+         <othermeta name="usecase" content="operational-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>Event Logging</uicontrol>
+                  <uicontrol>Clear Statistics</uicontrol>
+                  <uicontrol>YES, Clear Statistics</uicontrol>
+               </menucascade> using the
+UP/DOWN keys and the ENTER key. </p>
+         </li>
+      </ol>
+   </body>
+</topic>

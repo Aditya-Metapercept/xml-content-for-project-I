@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Compliance-5468A9B6" xml:lang="en">
+   <title>Compliance</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–100 kVA</keyword>
+      <keyword>Reality NAM UPS with transformer 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>compliance-guidance</indexterm>
+            <indexterm>safety-datasheet</indexterm>
+            <indexterm>certification-matrix</indexterm>
+            <indexterm>emc-report</indexterm>
+            <indexterm>installation-labels</indexterm>
+            <!-- Process layer -->
+            <indexterm>compliance-documentation</indexterm>
+            <indexterm>test-plan-execution</indexterm>
+            <indexterm>non-conformance-handling</indexterm>
+            <indexterm>safety-training</indexterm>
+            <indexterm>label-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>factory-testing</indexterm>
+            <indexterm>field-deployment</indexterm>
+            <indexterm>maintenance-inspection</indexterm>
+            <indexterm>customer-audit</indexterm>
+            <indexterm>service-delivery</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Compliance"/>
+         <othermeta name="shortdesc"
+                    content="Detailed compliance guidance and records for certification, testing and safety verification of UPS systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="certification-reports;test-plans;safety-datasheets;non-conformance-records;labels"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-systems;usecase:compliance-records;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="compliance,testing,certification,audit,records"/>
+         <othermeta name="usecase"
+                    content="record and verify compliance status for UPS deliveries and service"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <table pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1" colsep="1" colwidth="30mm"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Safety</p>
+                     </entry>
+                     <entry>UL 1778 5th edition</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>EMC/EMI/RFI</p>
+                     </entry>
+                     <entry>FCC Part 15 Class
+A</entry>
+                  </row>
+                  <row rowsep="1">
+                     <entry>
+                        <p>Markings</p>
+                     </entry>
+                     <entry>UL 1778 / ULC</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

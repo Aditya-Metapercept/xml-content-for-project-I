@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RouteTheBottomEntryControlCables-0ED18FF3" xml:lang="en">
+   <title>Route the Signal Cables in Bottom Entry Systems</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS 25–50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>control-cable-harness</indexterm>
+            <indexterm>ups-25-50-kva</indexterm>
+            <indexterm>bottom-entry-cabinet</indexterm>
+            <indexterm>cable-ducting</indexterm>
+            <indexterm>strain-relief</indexterm>
+            <!-- Process layer -->
+            <indexterm>route-bottom-entry-control-cables</indexterm>
+            <indexterm>separate-battery-and-signal-cables</indexterm>
+            <indexterm>secure-cable-clamps</indexterm>
+            <indexterm>apply-strain-relief</indexterm>
+            <indexterm>cable-labeling-and-identification</indexterm>
+            <indexterm>verify-clearance-and-bend-radius</indexterm>
+            <!-- Context layer -->
+            <indexterm>installation-25-50-kva</indexterm>
+            <indexterm>cabinet-cable-management</indexterm>
+            <indexterm>site-cabling-standards</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>industrial-installation-practices</indexterm>
+            <indexterm>service-accessibility</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Route the Bottom Entry Control Cables — 25–50 kVA UPS"/>
+         <othermeta name="shortdesc"
+                    content="Guidance for routing control cables in bottom-entry 25–50 kVA UPS systems: separation from battery cables, securing, strain relief, and labeling."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="control cables;battery cables;cable clamps;strain relief;bottom-entry cabinet;cable-labels"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="cable-routing,bottom-entry,installation-guidelines,signal-cabling"/>
+         <othermeta name="usecase" content="cable-routing-and-installation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Route the signal cables through the bottom of the UPS cabinet
+to the control terminal block TB1. </p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_TB1_control_terminal_block_in_ups_85mm_0000111800.svg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Only in systems with adjacent battery cabinet(s): Route the adjacent battery signal cables through the left side
+panel of the UPS to the control terminal block TB1.</p>
+         </li>
+         <li>
+            <p>Route the signal cables through the bottom of the UPS cabinet
+through the dedicated opening to the external connection board 0P2553. </p>
+            <stepxmp>
+               <fig>
+                  <title>Front View of the UPS Cabinet</title>
+                  <image href="../Images/50_kva_epo_connection_120mm_0000104308.svg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

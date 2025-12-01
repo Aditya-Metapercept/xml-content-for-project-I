@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c271DFCA-BDF2-11F0-1663-09173F13E4C5" xml:lang="en">
+   <title>Getting Started with Deal Maximizer</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>metadata-engine</indexterm>
+            <indexterm>indexer-service</indexterm>
+            <indexterm>sync-adapter</indexterm>
+            <indexterm>auth-service</indexterm>
+            <indexterm>storage-layer</indexterm>
+            <!-- Process layer -->
+            <indexterm>indexing-pipeline</indexterm>
+            <indexterm>schema-validation</indexterm>
+            <indexterm>term-extraction</indexterm>
+            <indexterm>prolog-insertion</indexterm>
+            <indexterm>role-mapping</indexterm>
+            <indexterm>access-control</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-documentation</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>knowledge-curation</indexterm>
+            <indexterm>audit-traceability</indexterm>
+            <indexterm>cpu-first-pipeline</indexterm>
+            <indexterm>rAG-retrieval</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="195690889.dita"/>
+         <othermeta name="shortdesc"
+                    content="Procedural instructions for validating and indexing topics using the metR metadata engine and indexing pipeline."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metadata-engine;indexer-service;storage-layer;auth-service;role-mapper;prolog-generator"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="indexing-pipeline,schema-validation,term-extraction,access-control,role-mapping,prolog-insertion"/>
+         <othermeta name="usecase" content="prolog-generation"/>
+      </metadata>
+   </prolog>
+   <related-links>
+      <linklist>
+         <desc>Select one of the following topics for more information about Deal Maximizer.</desc>
+         <link href="../installing_deal_maximizer_195690950/195690950.xml"/>
+         <link href="../registering_for_Power_upg_195691192/195691192.xml"/>
+         <link href="../deal_maximizer_objects_vm_195691188/195691188.xml"/>
+         <link href="../configuring_post_installa_195691205/195691205.xml"/>
+      </linklist>
+   </related-links>
+</topic>

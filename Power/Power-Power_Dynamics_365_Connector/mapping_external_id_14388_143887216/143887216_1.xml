@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2469F55-BDF2-11F0-1801-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Mapping External Id</title>
+   <topicref chunk="to-content" href="143887216.xml" xml:lang="en">
+      <topicref href="to_map_the_id_field_for_object_sync.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To map the Id field for object sync</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

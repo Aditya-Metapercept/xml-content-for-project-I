@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25F4919-BDF2-11F0-8790-09173F13E4C5" xml:lang="en">
+   <title>Calculation Summary</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>calculation-summary-page</indexterm>
+            <indexterm>reward-savings-program</indexterm>
+            <indexterm>benefit-level-configuration</indexterm>
+            <indexterm>product-level-summary</indexterm>
+            <indexterm>order-level-aggregation</indexterm>
+            <!-- Process -->
+            <indexterm>summary-calculation</indexterm>
+            <indexterm>benefit-rollup</indexterm>
+            <indexterm>program-summary-generation</indexterm>
+            <indexterm>data-grouping</indexterm>
+            <indexterm>summary-evaluation</indexterm>
+            <indexterm>tier-level-rollup</indexterm>
+            <!-- Context -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>program-summary-context</indexterm>
+            <indexterm>enterprise-incentive-analysis</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>product-performance-overview</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Calculation Summary"/>
+         <othermeta name="shortdesc"
+                    content="The Calculation Summary page displays summarized calculation data per customer, order, and product"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="calculation summary; orders; customers; products; benefit level settings; tier rollup"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="summary, calculation, customer summary, product summary, benefit rollup, program evaluation"/>
+         <othermeta name="usecase" content="interpret summarized calculation results"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The Calculation Summary page displays aggregated Price, Freight Amount (if specified in the order line item), Quantity for a combination of Customer, and Product based on the setting made at the benefit level. You can see the total freight charges applicable at the schedule level in the Schedule Period Information section. Billing consumes the details provided in the calculation summary.</p>
+      <p>
+         <fig>
+            <image placement="break"
+                   width="1000"
+                   href="../attachments/102432709/109940272.png"/>
+         </fig>
+      </p>
+      <note type="note">
+         <ul>
+            <li>The Account Number column is displayed for Month End Billing, Bundle Saving, Package Saving, Partnership Programs, and Reward Saving Program - Revenue Tier.</li>
+            <li>The Section ID column is displayed for the Reward Saving Program - Revenue Tier.</li>
+            <li>The Override Tier and Override Amount columns are displayed only for the Reward Saving Program - Volume Tier.</li>
+         </ul>
+      </note>
+   </body>
+</topic>

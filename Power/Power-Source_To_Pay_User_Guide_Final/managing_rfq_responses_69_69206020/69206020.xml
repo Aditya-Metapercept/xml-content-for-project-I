@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan747" xml:lang="en">
+   <title>Managing RFQ Responses</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>rfq-management</indexterm>
+            <indexterm>quotation-processing</indexterm>
+            <indexterm>pricing-modifiers</indexterm>
+            <indexterm>rfq-evaluation</indexterm>
+            <!-- Process Layer -->
+            <indexterm>create-rfq-response</indexterm>
+            <indexterm>edit-rfq</indexterm>
+            <indexterm>download-rfq-response</indexterm>
+            <indexterm>submit-rfq</indexterm>
+            <indexterm>score-rfq</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>procurement-lifecycle</indexterm>
+            <indexterm>supplier-shortlisting</indexterm>
+            <indexterm>competitive-bidding</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="Managing RFQ Responses"/>
+         <othermeta name="shortdesc"
+                    content="Explains the RFQ process, how shortlisted suppliers create, edit, download, and submit RFQ responses, and how these responses are scored for competitive quotation evaluation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="rfq;quotation;pricing-modifiers;shortlisted-suppliers;responses;evaluation;submission;scoring"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:managing-rfq-responses;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="rfq,responses,quotation,pricing,submission,sourcing"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Request for Quotation (RFQ) is for collecting the pricing quotes from the suppliers for the products or services that the buyer needs to procure.</p>
+      <p>A request for quotation (RFQ) is used when discussions with suppliers are not required (mainly when the specifications of a product or service are already known) and when price is the main or only factor in selecting the successful supplier. In this scenario, the shortlisted suppliers are selected and requested to respond to RFQ. RFQ can be closed and reopened as well. The buyer then scores the Suppliers on the basis of RFQ responses received. You can also add comments in the price modifiers. </p>
+      <p>The principal benefit of using an RFQ is that you can provide the most competitive quotation and win the deal.</p>
+      <p>You can respond to RFQ only if your supplier has shortlisted your RFI. You can create, edit, and download the RFQ responses from the RFQ tab on supplier portal. You will receive a notification via an email the buyer starts RFQ phase. You can then create appropriate response and submit it to the buyer. You can edit your response even if you have submitted your response to the buyer. You must submit your final response before the RFQ deadline ends. Your RFQ responses will be scored and shortlisted, if eligible. </p>
+      <p>In our example, Rex and Kid are shortlisted and have to respond to RFQ. On the basis of the quotations sent, Sam will shortlist the suppliers for award phase. </p>
+   </body>
+</topic>

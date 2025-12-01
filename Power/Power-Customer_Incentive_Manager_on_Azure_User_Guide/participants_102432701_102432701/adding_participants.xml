@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25B36F9-BDF2-11F0-7925-09173F13E4C5" xml:lang="en">
+   <title>Adding Participants</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-cim-power</indexterm>
+            <indexterm>participant-management-module</indexterm>
+            <indexterm>account-data-service</indexterm>
+            <indexterm>user-profile-store</indexterm>
+            <indexterm>participant-validation-engine</indexterm>
+            <indexterm>participant-timeline-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>adding-participants</indexterm>
+            <indexterm>configuring-participant-details</indexterm>
+            <indexterm>validating-overlapping-entries</indexterm>
+            <indexterm>saving-participant-records</indexterm>
+            <indexterm>selecting-account-information</indexterm>
+            <indexterm>reviewing-participant-data</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>operational-data-management</indexterm>
+            <indexterm>participant-engagement-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Adding Participants"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to add a participant by selecting an account, entering participation details, and validating overlapping participant timelines."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="account selector; participant details form; role dropdown; duration fields; save action; validation engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="participants,accounts,roles,validation,overlap-check,participation-duration"/>
+         <othermeta name="usecase" content="guidance-for-adding-participants"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This feature enables you to add one or more participants in the program.</p>
+      <p>To add a participant, please follow the below steps:</p>
+      <ol>
+         <li>Go to the Participants page.</li>
+         <li>Click Add Participant.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432701/107118614.jpg"/>
+            </fig>
+         </li>
+         <li>Enter or select the participants' name which you want to add, in the Account Name column. Please view the below image.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432701/107118613.jpg"/>
+            </fig>
+         </li>
+         <li>Click Save.<p>The participant is added.</p>
+            <note type="note">
+               <p>Note</p>
+               <p>The system will throw a validation if the same participant is added multiple times in an overlapping time period.</p>
+            </note>
+         </li>
+      </ol>
+   </body>
+</topic>

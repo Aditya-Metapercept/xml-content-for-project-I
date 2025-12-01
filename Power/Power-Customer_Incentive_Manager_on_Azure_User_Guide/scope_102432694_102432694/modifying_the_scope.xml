@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25FF38C-BDF2-11F0-5863-09173F13E4C5" xml:lang="en">
+   <title>Modifying the Scope</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scope</indexterm>
+            <indexterm>modifying-the-scope</indexterm>
+            <indexterm>saving-program</indexterm>
+            <indexterm>scope-section</indexterm>
+            <indexterm>program-header</indexterm>
+            <indexterm>scope-record</indexterm>
+            <!-- Process layer -->
+            <indexterm>modify-scope</indexterm>
+            <indexterm>update-fields</indexterm>
+            <indexterm>click-save</indexterm>
+            <indexterm>navigate-to-scope</indexterm>
+            <indexterm>validate-changes</indexterm>
+            <indexterm>edit-record</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>admin-portal</indexterm>
+            <indexterm>program-configuration</indexterm>
+            <indexterm>user-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Modifying the Scope"/>
+         <othermeta name="shortdesc"
+                    content="Guided steps to modify an existing scope: open the Scope page, change required field values, and click Save to persist modifications."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="scope-record; scope-form; save-button; program-header; screenshot-image; configuration-fields"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="modify-scope,edit-record,ui-steps,save-action,field-validation,configuration"/>
+         <othermeta name="usecase" content="update-an-existing-scope-entry"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This feature enables you to modify the added scope.</p>
+      <p>To modify the added scope, please follow the below steps:</p>
+      <ol>
+         <li>Click Edit on the Scope page.<fig>
+               <image height="140"
+                      placement="break"
+                      width="700"
+                      href="../attachments/102432694/102432754.jpg"/>
+            </fig>
+         </li>
+         <li>Modify the required field values.</li>
+         <li>Click Save to save the changes.</li>
+      </ol>
+   </body>
+</topic>

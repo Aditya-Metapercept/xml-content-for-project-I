@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c380BC5D-BDF3-11F0-4185-09173F13E4C5" xml:lang="en-us">
+   <title>Make proper antifreeze additions.</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T12:00:00+05:30"/>
+         <revised modified="2025-11-15T12:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel,service-technicians,reliability-engineers,safety-compliance-officers"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>coolant-system</indexterm>
+            <indexterm>antifreeze-spec</indexterm>
+            <indexterm>radiator-capacity</indexterm>
+            <indexterm>coolant-mix</indexterm>
+            <!-- process layer -->
+            <indexterm>coolant-addition</indexterm>
+            <indexterm>dilution-procedure</indexterm>
+            <indexterm>freeze-point-check</indexterm>
+            <indexterm>contamination-control</indexterm>
+            <indexterm>drain-and-fill</indexterm>
+            <!-- context layer -->
+            <indexterm>cold-climate-operation</indexterm>
+            <indexterm>engine-cooling</indexterm>
+            <indexterm>fleet-maintenance</indexterm>
+            <indexterm>safety-environmental</indexterm>
+            <indexterm>mro-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Make proper antifreeze additions"/>
+         <othermeta name="shortdesc"
+                    content="Guidance on selecting mixing and adding antifreeze to cooling systems to protect against freezing and corrosion"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="coolant;radiator;antifreeze;mixing-container;freeze-point-tester"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:cooling-system-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="coolant,antifreeze,dilution,freeze-point,corrosion-protection"/>
+         <othermeta name="usecase"
+                    content="explain correct antifreeze selection mixing and addition for cooling systems"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Adding pure antifreeze as a makeup solution for cooling system
+top-up is an unacceptable practice. It increases the concentration
+of antifreeze in the cooling system which increase the
+concentration of dissolved solids and undissolved chemical
+inhibitors in the cooling system. Add antifreeze mixed with water
+to the same freeze protection as your cooling system.</p>
+      <p>Use the chart below to assist in determining the concentration
+of antifreeze to use.</p>
+      <table colsep="1" frame="all" rowsep="1">
+         <tgroup cols="2">
+            <colspec colname="col1" colnum="1" colwidth="1*"/>
+            <colspec colname="col2" colnum="2" colwidth="1*"/>
+            <thead>
+               <row>
+                  <entry nameend="col2" namest="col1">Antifreeze Concentrations </entry>
+               </row>
+               <row>
+                  <entry>Protection Temperature </entry>
+                  <entry>Concentrations </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Protection to –15°C (5°F)</entry>
+                  <entry>
+                     <p>30% antifreeze and 70%</p>
+                     <p>water</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Protection to -23°C (-10°F)</entry>
+                  <entry>
+                     <p>40% antifreeze and 60%</p>
+                     <p>water</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Protection to -37°C (-34°F)</entry>
+                  <entry>
+                     <p>50% antifreeze and 50%</p>
+                     <p>water</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Protection to -51°C (-60°F)</entry>
+                  <entry>
+                     <p>60% antifreeze and 40%</p>
+                     <p>water</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

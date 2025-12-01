@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WeRealityElectronicsLLCHardstrasse72--DACF6337" xml:lang="en">
+   <title/>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-system</indexterm>
+            <indexterm>australian-standards</indexterm>
+            <indexterm>compliance-document</indexterm>
+            <indexterm>regulatory-specification</indexterm>
+            <indexterm>product-conformance</indexterm>
+            <!-- Process layer -->
+            <indexterm>review-standards</indexterm>
+            <indexterm>validate-conformance</indexterm>
+            <indexterm>document-certification</indexterm>
+            <indexterm>audit-compliance</indexterm>
+            <indexterm>reference-guidelines</indexterm>
+            <!-- Context layer -->
+            <indexterm>regulatory-reference</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>manufacturing-safety</indexterm>
+            <indexterm>ups-certification</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="AS Standard Introduction"/>
+         <othermeta name="shortdesc"
+                    content="Declares product compliance with applicable Australian Standards (AS 62040 series) ensuring conformity to safety and performance regulations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups-system; as-standards; compliance-document; certificate; manufacturer-declaration"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:regulatory-reference;industry:uninterruptible-power-supply"/>
+         <othermeta name="tags" content="as-standards,compliance,certification,regulation"/>
+         <othermeta name="usecase" content="regulatory-reference"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>We, Reality Electronics LLC, Hardstrasse 72-74, CH-5430
+Wettingen, hereby declare that the product(s) below conform to the
+applicable requirements of the appropriate Australian Standards. This
+declaration shall cease to be valid if modifications are made to
+the equipment without our approval.</p>
+      </section>
+   </body>
+</topic>

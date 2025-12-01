@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38D9A94-BDF3-11F0-5175-09173F13E4C5" xml:lang="en-us">
+   <title>Fuel Filter - Change</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:15:00+05:30"/>
+         <revised modified="2025-11-15T15:15:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords>
+            <indexterm>fuel-filter</indexterm>
+            <indexterm>fuel-system</indexterm>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>fuel-line</indexterm>
+            <indexterm>filter-element</indexterm>
+            <indexterm>filter-change</indexterm>
+            <indexterm>drain-fuel</indexterm>
+            <indexterm>replace-filter</indexterm>
+            <indexterm>vent-system</indexterm>
+            <indexterm>leak-check</indexterm>
+            <indexterm>fuel-maintenance</indexterm>
+            <indexterm>service-bay</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>combustion-engine-care</indexterm>
+            <indexterm>safety-procedure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Fuel Filter Change"/>
+         <othermeta name="shortdesc"
+                    content="Step by step procedure to change the fuel filter including draining, replacement and safety checks"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="fuel-filter;filter-element;fuel-line;drain-plug;left-side-cover"/>
+         <othermeta name="taxonomy"
+                    content="domain:powered-lift-trucks;usecase:t_fuel_filter_change;industry:heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags"
+                    content="fuel-filter,filter-change,drain-fuel,replacement,maintenance"/>
+         <othermeta name="usecase" content="operation-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>Park lift truck with the forks lowered, parking brake applied,
+transmission in neutral, engine stopped and cool.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Raise the left side cover.</p>
+            <p>
+               <note type="warning">
+                  <p>Fuel leaked or spilled onto hot surfaces or electrical components can cause a fire.
+            Turn the disconnect switch OFF or disconnect the battery when changing fuel filters.</p>
+               </note>
+               <fig id="fig_img_pnz_5gc">
+                  <image href="media/image834.png" id="image_kmg_pnz_5gc" placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Remove fuel filter cartridge assembly.</p>
+         </li>
+         <li>
+            <p>Before installing a new cartridge assembly, apply a small amount of clean fuel to the
+        filter cartridge gasket.  </p>
+            <p>
+               <note id="note_oph_qnz_5gc" type="notice">
+                  <p>Do not fill fuel filters with fuel before installing them. Contaminated fuel will cause
+            accelerated wear to fuel system parts.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Install the new fuel filter cartridge assembly.</p>
+         </li>
+         <li>
+            <p>Turn the new fuel filter cartridge assembly until the filter
+gasket is fitted against the sealing face.</p>
+         </li>
+         <li>
+            <p>Turn the fuel filter cartridge assembly an additional 2/3 of
+turn.</p>
+         </li>
+         <li>
+            <p>Close the left side cover.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

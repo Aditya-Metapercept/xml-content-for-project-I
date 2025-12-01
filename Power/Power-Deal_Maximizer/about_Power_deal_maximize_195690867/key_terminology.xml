@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c260D2B7-BDF2-11F0-2055-09173F13E4C5" xml:lang="en">
+   <title>Key Terminology</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>deal-guidance</indexterm>
+            <indexterm>business-objects</indexterm>
+            <indexterm>guidance-dimension-set</indexterm>
+            <indexterm>deal-guidance-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-key-terminology</indexterm>
+            <indexterm>standardise-term-usage</indexterm>
+            <indexterm>map-terms-to-entities</indexterm>
+            <indexterm>align-terminology-with-ontology</indexterm>
+            <indexterm>maintain-glossary</indexterm>
+            <indexterm>resolve-term-ambiguity</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>salesforce-integration</indexterm>
+            <indexterm>rbac</indexterm>
+            <indexterm>documentation-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Key Terminology"/>
+         <othermeta name="shortdesc"
+                    content="Defines important terms used when working with Deal Maximizer so authors, administrators and implementers share a consistent vocabulary."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="glossary-terms;deal-guidance-entities;dimension-sets;business-objects;configuration-model;ui-components"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="terminology,glossary,standardisation,ontology,definitions,alignment"/>
+         <othermeta name="usecase" content="establish-and-communicate-domain-terminology"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>It is important to understand how terms are used when working with Deal Maximizer.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Term</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Color Bands</p>
+                     </entry>
+                     <entry>
+                        <p>Color and shape are used to depict the pricing bands based on the deal guidance rule that matches the deal or line items on the cart.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Deal Maximizer</p>
+                     </entry>
+                     <entry>
+                        <p>Power solution that enables a rule-based system to deliver pricing guidance for in-flight deals that meet corporate revenue and margin objectives.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Deal Ratings</p>
+                     </entry>
+                     <entry>
+                        <p>Rating of a deal for line items to indicate whether a given deal is good or bad for the organization. The deal rating is calculated based on Deal Guidance Rules.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Dimension</p>
+                     </entry>
+                     <entry>
+                        <p>Dimension is a business object field used to trigger the deal guidance. For example, line item fields can be defined as a dimension and used to identify the matching deal guidance rules and evaluate the deal for the given line item.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Dimension Sets</p>
+                     </entry>
+                     <entry>
+                        <p>A set of fields defined as dimensions that are used to configure Deal Guidance rules.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Deal Guidance Rules</p>
+                     </entry>
+                     <entry>
+                        <p>Deal Guidance rules are used to identify the appropriate pricing deal for the given line item in or all line items. The rules are evaluated to find the appropriate rule entry that matches with the given cart line item or the deal.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p> For more information about terms used with Power products, see <xref href="https://documentation.Power.com/display/CPG/Deal+Maximizer"
+               format="html"
+               scope="external">
+            <u>Power Product Glossary</u>
+         </xref>.</p>
+   </body>
+</topic>

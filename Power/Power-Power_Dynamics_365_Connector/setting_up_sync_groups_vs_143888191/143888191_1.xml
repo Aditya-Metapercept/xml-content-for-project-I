@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m247C312-BDF2-11F0-2084-09173F13E4C5" xml:lang="en" rev="2.0">
+   <title>Setting up Sync Groups</title>
+   <topicref chunk="to-content" href="143888191.xml" xml:lang="en">
+      <topicref href="to_create_a_new_sync_group.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To create a new Sync Group</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="updating_an_existing_sync_group.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Updating an Existing Sync Group</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_add_a_new_object_to_an_existing_sync_group.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To add a new object to an existing Sync Group</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_add_or_remove_object_fields_from_an_object_in_an_existing_sync_group.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To add or remove object fields from an object in an existing Sync Group</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_update_punch_out_sync_groups_for_Power_quote_to_cash_for_dynamics_365.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>To update Punch Out Sync Groups for Power Quote-to-Cash for Dynamics 365</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_delete_objects_from_a_sync_group.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To delete objects from a Sync Group</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

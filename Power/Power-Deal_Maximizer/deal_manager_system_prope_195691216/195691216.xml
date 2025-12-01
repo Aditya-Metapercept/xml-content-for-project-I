@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r26FF0A1-BDF2-11F0-7542-09173F13E4C5" xml:lang="en">
+   <title>Deal Manager System Properties</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>deal-manager</indexterm>
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>system-properties-engine</indexterm>
+            <indexterm>configuration-console</indexterm>
+            <indexterm>admin-settings-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-system-properties</indexterm>
+            <indexterm>manage-admin-settings</indexterm>
+            <indexterm>adjust-deal-manager-preferences</indexterm>
+            <indexterm>optimize-configuration-values</indexterm>
+            <indexterm>run-system-diagnostics</indexterm>
+            <indexterm>validate-settings-changes</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>admin-console</indexterm>
+            <indexterm>governance-and-controls</indexterm>
+            <indexterm>operational-performance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Deal Manager System Properties"/>
+         <othermeta name="shortdesc"
+                    content="Provides descriptions and configuration steps for Deal Manager system properties accessible from the Setup console."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="system-property; admin-console; deal-manager; configuration-table; setup-navigation; preferences"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="system-properties,deal-manager,configuration,setup,admin-settings"/>
+         <othermeta name="usecase"
+                    content="configure-and-manage-deal-manager-system-properties"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The following table provides a brief description of all the Deal Manager System
+         Properties. Go to <uicontrol>Setup</uicontrol> &gt; <uicontrol>Custom Settings</uicontrol>
+         &gt; click <uicontrol>Manage</uicontrol> next to Deal Manager System Properties.</p>
+         <p>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <thead>
+                     <row>
+                        <entry>
+                           <p>Setting</p>
+                        </entry>
+                        <entry>
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>Deal Guidance Callback Class</p>
+                        </entry>
+                        <entry>
+                           <p>The deal guidance callback class name. The class should implement the <i>CustomClass.IDealGuidanceCallback</i> interface.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Deal Optimizer Callback Class</p>
+                        </entry>
+                        <entry>
+                           <p>The deal optimizer callback class name. The class should implement the <i>CustomClass.IDealOptimizerCallback</i> interface.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display Dimensions In Guidance</p>
+                        </entry>
+                        <entry>
+                           <p>Enable this setting to display rule dimensions in the pricing guidance detail.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Display Net Price Per Unit In Guidance</p>
+                        </entry>
+                        <entry>
+                           <p>Enable this setting to display the net price per unit in the pricing guidance detail.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Hide Percentile Range In Guidance</p>
+                        </entry>
+                        <entry>
+                           <p>Enable this setting to hide the percentile range in the pricing guidance detail. You can hide either percentile range or price range, not both.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Hide Price Range In Guidance</p>
+                        </entry>
+                        <entry>
+                           <p>Enable this setting to hide the price range in the pricing guidance detail. You can hide either percentile range or price range, not both.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>

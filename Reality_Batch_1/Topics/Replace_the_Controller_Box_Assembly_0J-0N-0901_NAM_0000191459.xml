@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheControllerBoxAssembly0J-0-6A8C847E" xml:lang="en">
+   <title>Replace the Controller Box Assembly 0J-0N-0901</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>50 kVA</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>controller-box-assembly</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>ups-cabinet</indexterm>
+            <indexterm>cable-harness</indexterm>
+            <indexterm>mounting-brackets</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-controller-box-assembly</indexterm>
+            <indexterm>remove-cover</indexterm>
+            <indexterm>disconnect-controller-cables</indexterm>
+            <indexterm>slide-out-controller-box</indexterm>
+            <indexterm>component-disconnection</indexterm>
+            <indexterm>loosen-nuts</indexterm>
+            <indexterm>reverse-installation</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>25-50-75-100-kva-systems</indexterm>
+            <indexterm>industrial-ups-environment</indexterm>
+            <indexterm>electrical-safety-protocols</indexterm>
+            <indexterm>arc-flash-hazard</indexterm>
+            <indexterm>hazardous-voltage-zones</indexterm>
+            <indexterm>ppe-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the Controller Box Assembly 0J-0N-0901"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for removing and replacing the controller box assembly in 25–100 kVA UPS systems, including cable disconnection and sliding the controller box out of the cabinet."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="controller-box-assembly;controller-box;cable-harness;mounting-brackets;ups-cabinet;hazardous-voltage;grounding-conductor;capacitors"/>
+         <othermeta name="taxonomy"
+                    content="domain:ups-maintenance;usecase:replace-controller-box-assembly;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="controller-box,component-removal,cable-handling,ups-maintenance,25-100-kva,slide-out-module"/>
+         <othermeta name="usecase"
+                    content="guided-maintenance-replacement-of-controller-box"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 50
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Loosen the three screws on the right side and the two nuts
+on the left side of the cover and remove the cover.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10686_allkw-powermodule_removecover_w120mm_0000191097.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the controller
+box assembly and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Loosen the two nuts and slide the controller box assembly
+out of the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-0901_allkw-removepowermodulefanass_w120mm_0000191449.png"
+                         scalefit="yes"
+                         scope="local"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+controller box.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

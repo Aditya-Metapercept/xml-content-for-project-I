@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38EF5F6-BDF3-11F0-3023-09173F13E4C5" xml:lang="en-us">
+   <title>Lifting a Forklift using a Crane</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:30:00+05:30"/>
+         <revised modified="2025-11-15T15:30:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>forklift</indexterm>
+            <indexterm>crane</indexterm>
+            <indexterm>lifting-equipment</indexterm>
+            <indexterm>rigging</indexterm>
+            <!-- Process layer -->
+            <indexterm>lifting-procedure</indexterm>
+            <indexterm>rigging-inspection</indexterm>
+            <indexterm>load-securing</indexterm>
+            <indexterm>lift-plan</indexterm>
+            <indexterm>safety-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>warehouse</indexterm>
+            <indexterm>industrial-plant</indexterm>
+            <indexterm>fleet-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Lifting a Forklift Using a Crane"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step procedure and safety checks for lifting a forklift using a crane, including rigging and load control."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="forklift;crane;rigging;slings;shackle"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery-and-industrial-equipment;usecase:lifting;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="lifting,forklift,crane"/>
+         <othermeta name="usecase" content="maintenance-lift-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note type="warning">
+            <ul>
+               <li>If lifting rope breaks, serious injury/damage may occur.</li>
+               <li>The lifting wire rope and stay must be long enough to avoid
+              contact with the forklift. Short rope/stay can damage the vehicle.
+              If it's too long, it may cause interference.</li>
+               <li>Cover the rope/chain with rubber or cloth to prevent damage to
+              the vehicle, as necessary.</li>
+               <li>Rope/chain and other lifting tools must have sufficient
+              strength, and free of any defect or wear.</li>
+               <li>Avoid impact load to the lifting devices/tools.</li>
+            </ul>
+         </note>
+      </context>
+      <ol>
+         <li>
+            <p>Check the weight, length, width and height of the vehicle
+before lifting.</p>
+         </li>
+         <li>
+            <p>Park the crane at an appropriate position.</p>
+         </li>
+         <li>
+            <p>Connect the rope/chain to the points A and B of the figure
+below.</p>
+         </li>
+         <li>
+            <p>If the wire rope/chain contacts the vehicle, insert a rubber
+plate between the rope/chain and the vehicle to protect the
+vehicle.</p>
+         </li>
+         <li>
+            <p>Lift up the vehicle slowly.</p>
+            <p>
+               <fig>
+                  <image href="media/image812.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

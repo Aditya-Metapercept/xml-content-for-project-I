@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SKUNumberDescriptionCountryOfOrigin-0FF670F4" xml:lang="en">
+   <title/>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>pxc-10-80-module</indexterm>
+            <indexterm>power-conversion-module</indexterm>
+            <indexterm>ups-pxc-assembly</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>power-electronics</indexterm>
+            <!-- Process layer -->
+            <indexterm>pxc-installation</indexterm>
+            <indexterm>pxc-configuration</indexterm>
+            <indexterm>module-commissioning</indexterm>
+            <indexterm>firmware-verification</indexterm>
+            <indexterm>parameter-calibration</indexterm>
+            <indexterm>routine-maintenance</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial-power-system</indexterm>
+            <indexterm>plant-commissioning</indexterm>
+            <indexterm>equipment-rack</indexterm>
+            <indexterm>site-configuration</indexterm>
+            <indexterm>technical-support</indexterm>
+            <indexterm>operator-training</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Reality PXC 10–80"/>
+         <othermeta name="shortdesc"
+                    content="Overview and procedures for PXC modules covering 10–80 kVA class: installation, configuration, commissioning and maintenance considerations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="pxc module;power conversion module;control board;firmware;10-80 kVA class"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:pxc-module-ops;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="pxc,installation,commissioning,10-80-kva,firmware"/>
+         <othermeta name="usecase" content="pxc-module-installation-and-commissioning"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>Cabinets</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSH20</p>
+                     </entry>
+                     <entry>Reality PXC 3:3, 10, 20 kVA cabinet</entry>
+                     <entry morerows="7">Philippines</entry>
+                     <entry morerows="7">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSH40</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:3, 30,40 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSH60</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:3, 50,60 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSH80</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:3, 80 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSI20</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:1, 10, 20 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSI40</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:1, 30,40 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSI60</p>
+                     </entry>
+                     <entry>Reality
+PXC 3:1, 50,60 kVA cabinet</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSI80</p>
+                     </entry>
+                     <entry>Reality PXC 3:1, 80
+kVA cabinet</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Power Modules</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS01</p>
+                     </entry>
+                     <entry>
+                        <p>10 kVA module</p>
+                     </entry>
+                     <entry morerows="6">Philippines</entry>
+                     <entry morerows="6">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS02</p>
+                     </entry>
+                     <entry>
+                        <p>20 kVA module</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS03</p>
+                     </entry>
+                     <entry>
+                        <p>30 kVA module</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS04</p>
+                     </entry>
+                     <entry>
+                        <p>40 kVA module</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS05</p>
+                     </entry>
+                     <entry>
+                        <p>50 kVA module</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS06</p>
+                     </entry>
+                     <entry>
+                        <p>60 kVA module</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPS08</p>
+                     </entry>
+                     <entry>
+                        <p>80 kVA module</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Voltage</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSV1</p>
+                     </entry>
+                     <entry>Voltage
+level 380/220 V</entry>
+                     <entry morerows="2">Philippines</entry>
+                     <entry morerows="2">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSV2</p>
+                     </entry>
+                     <entry>Voltage level 400/230
+V</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPSV3</p>
+                     </entry>
+                     <entry>Voltage
+level 415/240 V</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Incoming Box</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC01IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING 3:1 10-40KVA</p>
+                     </entry>
+                     <entry morerows="7">Philippines</entry>
+                     <entry morerows="7">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC01HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING 3:3 10-40KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC02IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING 3:1 50-80KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC02HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING 3:3 50-80KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC03IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING BYP 3:1 10-40KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC03HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING BYP 3:3 10-40KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC04IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING BYP 3:1 50-80KVA</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCINC04HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC UPS INCOMING BYP 3:3 50-80KVA</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Integrated Options</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCOPT1</p>
+                     </entry>
+                     <entry>
+                        <p>Network Management Card PXC/PXP SLOT 2</p>
+                     </entry>
+                     <entry morerows="2">Philippines</entry>
+                     <entry morerows="2">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCOPT2</p>
+                     </entry>
+                     <entry>
+                        <p>IEC-61850 interface</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCOPT4</p>
+                     </entry>
+                     <entry>
+                        <p>Parallel operation
+kit</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>External Options</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCXOPT01IEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Seismic Kit </p>
+                     </entry>
+                     <entry morerows="3">Philippines</entry>
+                     <entry morerows="3">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCXOPT02IEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC DNV Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCXOPT03IEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Interconnection Wiring Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCXOPT01</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC Battery Temp Sensor 5M Cable</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Transformers in the UPS</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST1</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANSFORMER ENGINE KIT_2 TRAFO </p>
+                     </entry>
+                     <entry morerows="33">Philippines</entry>
+                     <entry morerows="33">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST2</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANSFORMER FIELD 400MM _1 TRAFO</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST3</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANSFORMER FIELD 400MM _2 TRAFO</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST4</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC DUAL PSU KIT FOR 50-60KVA UPS</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST6</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 10KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST7</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 20KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST8</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 30KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST9</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 40KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST10</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 60KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST11</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR INPUT 80KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST12</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 10KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST13</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 20KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST14</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 30KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST15</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 40KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST16</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 60KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST17</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 80KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST18</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 10KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST19</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 20KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST20</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 30KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST21</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 40KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST22</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 60KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST23</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR OUTPUT 80KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST24</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 10KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST25</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 20KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST26</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 30KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST27</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 40KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST28</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 60KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST30</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 80KVA 3PH 380-415V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST32</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 10KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST33</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 20KVA 1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST34</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 30KVA 2-1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST35</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 40KVA 2-1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST36</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 60KVA 2-1PH 220-240V</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCUPST38</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC XFMR BYPASS 80KVA 2-1PH 220-240V</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Auxiliary Cabinets</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA400IEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 400MM EMPTY</p>
+                     </entry>
+                     <entry morerows="9">Philippines</entry>
+                     <entry morerows="9">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA600IEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 600MM EMPTY</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA400TIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 400MM TOP ENTRY</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA600TIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 600MM TOP ENTRY</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA400CIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 400MM W. CB</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA600CIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 600MM W. CB</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA400TCIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 400MM TOP ENTRY &amp; CB</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAA600TCIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC AUX CABINET 600MM TOP ENTRY &amp; CB</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAATIKIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC 1PH BUS BAR KIT TOP ENTRY</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAACIKIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC IEC 1PH BUS BAR KIT COUPLING BREAKER </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Transformers in Auxiliary Cabinet</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX10HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 10KVA 3PH 380-415V AUX</p>
+                     </entry>
+                     <entry morerows="13">Philippines</entry>
+                     <entry morerows="13">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX20HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 20KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX30HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 30KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX40HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 40KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX50HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 50KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX60HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 60KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX80HIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 80KVA 3PH 380-415V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX10IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 10KVA 1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX20IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 20KVA 1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX30IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 30KVA 2-1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX40IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 40KVA 2-1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX50IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 50KVA 2-1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX60IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP 60KVA 2-1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCTAUX80IIEC</p>
+                     </entry>
+                     <entry>
+                        <p>PXC TRANS BYP
+80KVA 2-1PH 220-240V AUX</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Cabinets</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCAB600IEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Battery Cabinet Empty 600mm</p>
+                     </entry>
+                     <entry morerows="4">France</entry>
+                     <entry morerows="4">Sarre Union</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAB800IEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Battery Cabinet Empty 800mm</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAB400AIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Battery Cabinet Empty 400mm Adjacent</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAB600AIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Battery Cabinet Empty 600mm Adjacent</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCAB800AIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC
+Battery Cabinet Empty 800mm Adjacent</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Breaker Kits</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCD00KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC Battery Cabinet Terminal Block</p>
+                     </entry>
+                     <entry morerows="7">Poland</entry>
+                     <entry morerows="7">Swiebodzice</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD10KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 10 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD20KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 20 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD30KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 30 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD40KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 40 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD50KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 50 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD60KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 60 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD80KIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 80 kVA Internal Battery Circuit Breaker Kit</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Battery Breaker Box</title>
+         <table pgwide="1">
+            <tgroup cols="4">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <thead>
+                  <row>
+                     <entry valign="top">SKU
+Number</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Country of
+Origin</entry>
+                     <entry valign="top">Manufacturing
+Facility</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>GUPXCD10BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 10 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                     <entry morerows="6">Philippines</entry>
+                     <entry morerows="6">Cavite</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD20BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 20 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD30BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 30 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD40BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 40 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD50BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 50 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD60BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 60 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>GUPXCD80BIEC</p>
+                     </entry>
+                     <entry>
+                        <p>Reality PXC IEC 80 kVA External Battery Circuit Breaker Box</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>

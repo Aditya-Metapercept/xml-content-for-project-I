@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c37CE9B8-BDF3-11F0-1042-09173F13E4C5" xml:lang="en-us">
+   <title>General Warnings to Operator</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T14:44:00+05:30"/>
+         <revised modified="2025-11-14T14:44:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,safety-and-compliance-officers,management,maintenance-personnel"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>operator-controls</indexterm>
+            <indexterm>seat-belt</indexterm>
+            <indexterm>load-capacity</indexterm>
+            <indexterm>stability-system</indexterm>
+            <!-- process layer -->
+            <indexterm>operational-warnings</indexterm>
+            <indexterm>load-handling-guidance</indexterm>
+            <indexterm>pre-operation-checks</indexterm>
+            <indexterm>incident-avoidance</indexterm>
+            <indexterm>reporting-procedures</indexterm>
+            <!-- context layer -->
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>site-specific-hazards</indexterm>
+            <indexterm>fleet-operations</indexterm>
+            <indexterm>maintenance-repair-operations</indexterm>
+            <indexterm>operator-training</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="general warnings to operator"/>
+         <othermeta name="shortdesc"
+                    content="Key operational warnings and cautions for safe equipment handling and load management."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="operator;control-panel;load-chart;stability-system;seat-belt"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery;usecase:operator-warnings;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="operational-warning,load-management,safe-operation"/>
+         <othermeta name="usecase" content="communicate-operational-risks-to-operators"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="media/image4.png" placement="inline"/>
+      </fig>
+      <p>Located on the operator's cell.</p>
+      <note type="warning">
+         <p>Only trained and authorised personnel may operate this machine. For safe operation, read
+        and follow the operation and maintenance Manual furnished with this lift truck and observe
+        the following warnings:</p>
+         <p>
+            <ol id="ol_omk_vmj_ygc">
+               <li>Before starting machine. Check all controls and warning devices for proper
+              operation.</li>
+               <li>Refer to machine identification plate for allowable machine capacity. Do not
+              overload. Operate machines equipped with attachments as partially loaded machines when
+              not handling a load.</li>
+               <li>Put directional control or shift lever in neutral before “ON-OFF” switch is turned
+              on.</li>
+               <li>Start, turn and brake smoothly. Slow down for turns, slippery or uneven surfaces.
+              Extremely poor surfaces should be repaired. Avoid running over loose objects or holes
+              in the roadway surfaces. Use extreme caution when turning on inclines.</li>
+               <li>Travel with load as low as possible and tilted back. If load interferes with
+              visibility, travel with load trailing.</li>
+               <li>On grade operations travel with load up grade.</li>
+               <li>Watch out for pedestrians and obstructions. Check overhead clearances.</li>
+               <li>Do not permit riders on forks or machine at any time.</li>
+               <li>Do not allow anyone to stand or pass under the elevated portion of any
+            machine.</li>
+               <li>Be sure operating surface can safely support machine.</li>
+               <li>Operate machine and attachments only from operator's position.</li>
+               <li>Do not handle unstable or loosely stacked loads.</li>
+               <li>Use minimum tilt when picking up or depositing a load.</li>
+               <li>Use extreme care when handling long, high or wide loads to ensure stability and
+              durability of the truck.</li>
+               <li>Forks should be completely under load and spread apart as far as load
+            permits.</li>
+               <li>Machine should be equipped with overhead guard or equivalent protection. Where load
+              requires it, use load backrest extension. Use extreme caution if operating without
+              these devices.</li>
+               <li>Parking-Lower lifting mechanism to floor. Put directional control or shift lever in
+              neutral. Set parking/secondary brake. Turn “ON - OFF” switch off. Chock wheels if
+              machine is on incline. Disconnect battery when storing electric machines.</li>
+               <li>Observe safety rules when handling fuel for engine powered machine and when
+              changing batteries for electric machines.</li>
+               <li>Avoid overuse of the inching pedal as this may cause the automatic transmission oil
+              to overheat or the clutch to slip. Do not use as a footrest or for long periods of
+              time.</li>
+               <li>If user operates continuously pushing work or both brake pedal and accelerator
+              pedal were depressed at the same time, it may cause the automatic transmission oil to
+              overheat or the clutch to slip.</li>
+            </ol>
+         </p>
+      </note>
+   </body>
+</topic>

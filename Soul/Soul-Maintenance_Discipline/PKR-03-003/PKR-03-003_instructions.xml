@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tC9304BA-BB9C-11F0-2070-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>palletizer</indexterm>
+            <indexterm>work-instruction-kit</indexterm>
+            <indexterm>fasteners</indexterm>
+            <indexterm>inspection-checklist</indexterm>
+            <indexterm>toolset</indexterm>
+            <!-- Process layer -->
+            <indexterm>task-preparation</indexterm>
+            <indexterm>stepwise-procedure</indexterm>
+            <indexterm>pre-check-activities</indexterm>
+            <indexterm>assembly-steps</indexterm>
+            <indexterm>post-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>production-readiness</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>procedural-guidance</indexterm>
+            <indexterm>metr-pkr-soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PKR-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Instructions"/>
+         <othermeta name="shortdesc"
+                    content="Outlines the preparatory steps, required tools, procedure sequence, and verification checks necessary to complete the maintenance task safely."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="tools;checklists;fasteners;palletizer parts"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:instructions;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="instructions, procedure, maintenance, preparation, steps"/>
+         <othermeta name="usecase" content="instructions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol id="steps_q5d_1lx_ncc">
+         <li>
+            <p>Before starting the work instruction activity, perform the following steps:</p>
+            <ol id="substeps_wqf_blx_ncc">
+               <li>
+                  <p>Do not begin these tasks without confirmation that the personnel directly
+                     involved have completed the required training associated with the work
+                     instruction activity and have reviewed this document.</p>
+               </li>
+               <li>
+                  <p>Gather necessary tools and equipment as identified below in the Equipment
+                     Section.</p>
+               </li>
+               <li>
+                  <p>Wear and use any additional Personal Protective Equipment (PPE) and safety
+                     equipment required for this specific work instruction.</p>
+               </li>
+               <li>
+                  <p>Obey all applicable safety requirements and procedures.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel of the activity and the estimated time
+                     needed to complete the tasks.</p>
+               </li>
+               <li>
+                  <p>Follow all Lockout/Tagout procedures when work instruction activity requires
+                     isolating energy in the designated area. Visually inspect and confirm that the
+                     energy is isolated before starting work.</p>
+               </li>
+               <li>
+                  <p>Only after all energy is verified to be isolated, can the protective guarding
+                     be removed and safety interlock gates be opened.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To maintain palletizers, perform the following steps:</p>
+            <ol id="substeps_kbw_dlx_ncc">
+               <li>
+                  <p>Ensure that any outstanding maintenance identified on the monthly maintenance
+                     inspection is completed. Refer to PKR-03-001 Palletizer Monthly
+                     Maintenance.</p>
+                  <p>
+                     <ol id="ol_xsl_1lx_ncc">
+                        <li>If sprockets/pinions show more than 50% tooth wear, replace them.</li>
+                     </ol>
+                  </p>
+               </li>
+               <li>
+                  <p>Visually inspect all chains, sprockets/pinions, and sprocket/pinions take-ups
+                     for wear. </p>
+               </li>
+               <li>
+                  <p>Replace batteries in the programmable logic controller (PLC), if
+                     applicable.</p>
+               </li>
+               <li>
+                  <p>Measure the current draw on the main drive motor.</p>
+                  <p>
+                     <ol id="ol_ysl_1lx_ncc">
+                        <li>If the draw exceeds 80% FLA (full load amps) during normal operation,
+                           investigate the cause.</li>
+                     </ol>
+                  </p>
+               </li>
+               <li>
+                  <p>If any values are found to be out of specification, notify the appropriate
+                     SAP PM contact to issue a planned work order.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Upon completion of tasks, perform the following steps:</p>
+            <ol id="substeps_u1l_hlx_ncc">
+               <li>
+                  <p>Replace protective guarding and close the safety interlock gates.</p>
+               </li>
+               <li>
+                  <p>Confirm that the designated work area is clear and communicate to personnel
+                     the intent to restart energy.</p>
+               </li>
+               <li>
+                  <p>After the designated work area is confirmed clear and personnel are aware of
+                     the pending restart, follow all Lockout/Tagout procedures to restart energy
+                     supplied to the designated area. Visually inspect that the energy is
+                     active.</p>
+               </li>
+               <li>
+                  <p>Perform basic housekeeping duties. Clean up the work space, tools, and
+                     equipment. Dispose of trash. Put tools and equipment in their assigned
+                     areas.</p>
+               </li>
+               <li>
+                  <p>Notify the appropriate personnel that the work instruction activity has been
+                     completed</p>
+               </li>
+               <li>
+                  <p>Record and report findings and results.</p>
+               </li>
+               <li>
+                  <p>Follow appropriate instructions for the notification of findings and results
+                     relating to specifications, targets, and/or reaction limits.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

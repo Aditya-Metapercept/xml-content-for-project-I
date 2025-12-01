@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="mC55854A-BB9C-11F0-7228-09173F13E4C5" xml:lang="en-us">
+   <title>Navigating the SCADA Operating Screens</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2024-02-13"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="SBS-OP-102_navigating_the_scada_operating_screens_.xml">
+      <topicmeta>
+         <othermeta content="SBS-OP-102" name="DocumentNumber"/>
+         <othermeta content="2024-02-13" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="SBS-OP-102_purposeapplication.xml"/>
+      <topicref href="SBS-OP-102_ppe_required.xml"/>
+      <topicref href="SBS-OP-102_safety_hazards.xml"/>
+      <topicref href="SBS-OP-102_respirable_crystalline_silica.xml"/>
+      <topicref href="SBS-OP-102_safety_controls.xml"/>
+      <topicref href="SBS-OP-102_equipment_needed.xml"/>
+      <topicref href="SBS-OP-102_comments.xml"/>
+      <topicref href="SBS-OP-102_related_resources.xml"/>
+      <topicref href="SBS-OP-102_basic_layout_of_each_screen__.xml">
+         <topicref href="SBS-OP-102_overview_area_.xml"/>
+         <topicref href="SBS-OP-102_button_bar.xml"/>
+         <topicref href="SBS-OP-102_working_area_.xml"/>
+         <topicref href="SBS-OP-102_faceplates.xml"/>
+      </topicref>
+      <topicref href="SBS-OP-102_silo_feeding_screens.xml"/>
+      <topicref href="SBS-OP-102_batch_system_screens.xml"/>
+      <topicref href="SBS-OP-102_batch_cullet_weighing_screens.xml"/>
+      <topicref href="SBS-OP-102_maintenance_screens.xml"/>
+      <topicref href="SBS-OP-102_approval.xml"/>
+      <topicref href="SBS-OP-102_revision_history.xml"/>
+   </topicref>
+</topic>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m240955D-BDF2-11F0-2751-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Upgrading Adobe Sign Services</title>
+   <topicref chunk="to-content" href="195693003.xml" xml:lang="en">
+      <topicref href="preparing_for_upgrade.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Preparing for Upgrade</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="upgrading_to_adobe_sign_services_september__22.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>Upgrading to Adobe Sign Services September '22</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="upgrading_adobe_sign_services_from_may__22_to_september__22.xml"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Upgrading Adobe Sign Services from May '22 to September '22</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="upgrading_adobe_sign_services_from_dec_21_to_september_22.xml"/>
+   </topicref>
+</topic>

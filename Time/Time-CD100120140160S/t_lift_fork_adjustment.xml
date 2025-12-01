@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38EDFB9-BDF3-11F0-1396-09173F13E4C5" xml:lang="en-us">
+   <title>Lift Fork Adjustment</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:05:00+05:30"/>
+         <revised modified="2025-11-15T15:05:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Maintenance Personnel, Industrial Engineers, Machine Operators, Reliability Engineers, Safety and Compliance officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>fork-adjustment-kit</indexterm>
+            <indexterm>fork-spacing</indexterm>
+            <indexterm>carriage-mount</indexterm>
+            <indexterm>fork-lock</indexterm>
+            <indexterm>powered-lift-truck</indexterm>
+            <!-- Process layer -->
+            <indexterm>fork-positioning</indexterm>
+            <indexterm>adjustment-procedure</indexterm>
+            <indexterm>torque-specification</indexterm>
+            <indexterm>alignment-check</indexterm>
+            <indexterm>post-adjustment-test</indexterm>
+            <!-- Context layer -->
+            <indexterm>load-balancing</indexterm>
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>mro-maintenance</indexterm>
+            <indexterm>material-handling-safety</indexterm>
+            <indexterm>fleet-uptime</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="adjusting fork position and spacing"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to adjust fork spacing and alignment to match load pallet dimensions and maintain safe handling."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="forks;carriage;adjustment-pins;fasteners;measurement-gauges"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:adjustment;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="fork-adjustment,alignment,torque,load-handling"/>
+         <othermeta name="usecase" content="mechanical adjustment and alignment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note type="warning">
+            <p>When adjusting the fork spread, be careful not to pinch your hand between forks and the
+        carriage slot.</p>
+         </note>
+         <p>For load stability, always adjust the forks as wide as possible.
+Position the load evenly on both forks.</p>
+         <p>
+            <fig id="fig_lkf_qzy_5gc">
+               <image href="media/image810.png" id="image_okf_qzy_5gc" placement="inline"/>
+            </fig>
+         </p>
+         <p>Typical Example of Shaft type Fork</p>
+      </context>
+      <ol>
+         <li>
+            <p>Move up the pin in each fork to slide the fork on the carriage
+bar.</p>
+         </li>
+         <li>
+            <p>Adjust the forks in the position most appropriate for the load
+and as wide as possible for load stability.</p>
+         </li>
+         <li>
+            <p>When adjusting the forks, make sure that the weight of the load
+is centreed on the truck.</p>
+         </li>
+         <li>
+            <p>After adjustment, set the pins to keep the forks in place.</p>
+            <p>
+               <note type="warning">
+                  <p>Make sure the forks are locked before carrying a load.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2372F7D-BDF2-11F0-1602-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Adobe Sign Services for Administrators Map</title>
+   <topicref href="adobe_sign_services_for_a_195696054/195696054.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Adobe Sign Services for Administrators</navtitle>
+      </topicmeta>
+      <mapref href="143887798_1.xml" format="ditamap" xml:lang="en">
+         <topicmeta>
+            <navtitle>Setting Up Adobe Sign Services Map</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="creating_agreement_templa_143887894/143887894_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Creating Agreement Templates</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="adding_the_audit_trail_14_143887808/143887808_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Adding the Audit Trail</navtitle>
+         </topicmeta>
+      </mapref>
+      <topicref href="configuring_mappings_1438_143887809/143887809.xml"
+                format="dita"
+                xml:lang="en">
+         <topicmeta>
+            <navtitle>Configuring Mappings</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="faqs_143887810/143887810.xml" format="dita" xml:lang="en">
+         <topicmeta>
+            <navtitle>FAQs</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

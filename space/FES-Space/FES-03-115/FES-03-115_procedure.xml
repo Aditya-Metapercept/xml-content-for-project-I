@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r2057676-BB02-11F0-7828-09173F13E4C5" xml:lang="en-us">
+   <title>Procedure</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="maintenance,engineering,operations,network"/>
+         <keywords><!-- Product -->
+            <indexterm>software-set-load</indexterm>
+            <indexterm>forming-machine-server</indexterm>
+            <indexterm>software-activation</indexterm>
+            <indexterm>boot-image</indexterm>
+            <indexterm>package-manager</indexterm>
+            <!-- Process -->
+            <indexterm>pre-deployment-checklist</indexterm>
+            <indexterm>backup-config-and-db-dump</indexterm>
+            <indexterm>transfer-image (tftp/ftp/usb)</indexterm>
+            <indexterm>verify-checksum (md5/sha256)</indexterm>
+            <indexterm>signature-verify (GPG/signature)</indexterm>
+            <indexterm>install-and-apply-configuration</indexterm>
+            <indexterm>restart-services-and-daemons</indexterm>
+            <indexterm>post-deployment-validation (OAT)</indexterm>
+            <indexterm>rollback-procedure</indexterm>
+            <!-- Context -->
+            <indexterm>maintenance-window</indexterm>
+            <indexterm>production-impact-assessment</indexterm>
+            <indexterm>CS2-0275-GR01 Appendix B.2.2 (superseded)</indexterm>
+            <indexterm>IDS-050-GR01 Appendix A.2.2 (superseded)</indexterm>
+            <indexterm>MOC-change-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Procedure"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step procedure to load and activate a software set on the forming machine server: backup, transfer, verify, install, activate, validate, and rollback."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="draft"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="internal-network"/>
+         <othermeta name="entities"
+                    content="image file;checksum;GPG signature;database dump;service scripts"/>
+         <othermeta name="taxonomy"
+                    content="domain:operations;usecase:software-deployment;industry:industrial-automation"/>
+         <othermeta name="tags" content="procedure,install,checksum,signature,rollback"/>
+         <othermeta name="usecase"
+                    content="execute-software-load-and-activation-on-forming-machine-server"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ol>
+            <li>In order to install the application software, you must first log off by navigating to:
+                  Start&gt;Log off (account name)…. A Windows message will prompt “Are you sure you want to log off?”
+               Click on <uicontrol>Log Off</uicontrol>.</li>
+            <li>Then, log into the setup account with the User Name: obsetup and the Password:
+                  SetupServer. Click <uicontrol>OK</uicontrol> to log in.</li>
+            <li>There are two directories on the SWSet CD or distribution package. The ConfigMgr directory contains the latest version of the Configuration Manager software used to install and activate a SWSet. This must be installed first by double-clicking on the only file in the ConfigMgr directory, which is ConfigMangerSetup.msi<i>.</i>
+               <ol>
+                  <li>Windows Server 2003: If there is already a version of Configuration Manager installed, the system may ask if the installation should be repaired or removed.  Select the Remove option, then restart ConfigManagerSetup.msi.</li>
+                  <li>Windows Server 2008: If there is already a version of Configuration Manager installed, the system may not permit installation. Instead, the old version will first have to be removed using the “Programs and Features” icon in the Windows Control Panel.</li>
+               </ol>
+            </li>
+            <li>Run the Configuration Manager program by navigating to: Start&gt; Machine Server
+                  Applications&gt; Configuration Manager from the Start menu. A black DOS
+               command window will be displayed where you will either be prompted for the RD Account
+               Password (which is RandD), or the Administrator Account Password (which is
+                  scsgolden (see Figure <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/fig_v4v_zqy_qzb">1</xref>). <fig id="fig_v4v_zqy_qzb">
+                  <title>Figure 1: Configuration Manager Password Prompt</title>
+                  <image href="media/image1.jpg"
+                         placement="break"
+                         align="center"
+                         id="image_w4v_zqy_qzb"/>
+               </fig>
+            </li>
+            <li id="li_qt1_1sy_qzb">After entering the appropriate password, press the
+                  <uicontrol>Enter</uicontrol> key. The Configuration Manager window will then be
+               displayed.</li>
+            <li>There are three methods for installing a new software set on the server displayed on the Configuration Manager window:<ol>
+                  <li>Distribution CD: This tab is used with a physical CD, SCS-0237 (order the CD, or see SOP-08-001-C to create one). If using this method, insert the CD now.
+                  <note>
+                        <p>If you encounter any issues when attempting to use this method, use method
+                           c, below. </p>
+                     </note>
+                  </li>
+                  <li>Floppy Disk: Although this tab is displayed, new software sets are no longer distributed on floppy disks.</li>
+                  <li>Virtual Directory: This tab is used for loading a software set directly
+                     from the server’s hard drive (for instance, where a USB thumb drive is used to
+                     transfer the software to the machine server). If using this method, the
+                     software set must now be copied to the server’s hard disk (into the
+                     C:\FMS_SW\CD\Virtual directory) as shown in Figure <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/fig_gsh_bry_qzb">2</xref>. <note>
+                        <p>This is the preferred method for installing new software. </p>
+                     </note>
+                     <fig id="fig_gsh_bry_qzb">
+                        <title>Figure 2: Virtual Directory Location</title>
+                        <image href="media/image2.jpg"
+                               placement="break"
+                               id="image_ish_bry_qzb"
+                               align="center"/>
+                     </fig>
+                  </li>
+               </ol>
+            </li>
+            <li>Click the <uicontrol>Load Software</uicontrol> tab, and then click the tab that
+               corresponds to the distribution method selected in Step <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/li_qt1_1sy_qzb">5</xref>. The name of the application software will
+               be displayed. Click on the <uicontrol>application software name</uicontrol> once so
+               it is highlighted, and then click on the <uicontrol>Begin Loading  SWSet</uicontrol>
+               button (see Figure <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/fig_ltd_dry_qzb">3</xref>) to start the loading
+               process. <fig id="fig_ltd_dry_qzb">
+                  <title>Figure 3: Load Software Set Tab</title>
+                  <image href="media/image3.jpg"
+                         placement="break"
+                         id="image_ntd_dry_qzb"
+                         align="center"/>
+               </fig>
+            </li>
+            <li>Several windows will display a listing of the files to be copied, along with a
+                  ‘Configuration Manager Information’ window that subsequently displays the
+               files being copied. This process will take several minutes. When it is finished,
+               clicking on <uicontrol>OK</uicontrol> will close the window and redisplay the
+                  Configuration Manager window.</li>
+            <li>Click on the ‘<uicontrol>Activate Software Set</uicontrol>’ tab, and then click on the
+               name of the software set that was just loaded. Be sure to select the ‘Force
+                  Activation of All Components’ option, and then click on the <uicontrol>Make
+                  Active</uicontrol> button (see Figure <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/fig_em5_gry_qzb">4</xref>). <fig id="fig_em5_gry_qzb">
+                  <title>Figure 4: Activate Software Tab</title>
+                  <image href="media/image4.jpg"
+                         placement="break"
+                         id="image_fm5_gry_qzb"
+                         align="center"/>
+               </fig>
+            </li>
+            <li>The Configuration Manager Information window will be displayed, along with several
+                  ‘Activating SWSet’ windows. Click on <uicontrol>Yes</uicontrol> for each
+               window displayed. Several more windows will be displayed showing the files being
+               copied, along with several messages on the Configuration Manager Information screen.
+               This entire process will take several minutes. </li>
+            <li id="li_jmr_c5y_qzb">When the program is finished, a window will be displayed with a
+               message that the new software set is now complete and the Machine Server must be
+               rebooted (see Figure <xref href="#r2057676-BB02-11F0-7828-09173F13E4C5/fig_egp_3ry_qzb">5</xref>). Click
+                  <uicontrol>OK</uicontrol> to finish the activation process. The Machine Server
+               will reboot. <note id="note_nmr_c5y_qzb">
+                  <p>There are several errors that may occur during the activation process. Not  all
+                     of  these errors will result in a failure to activate. If the SWSet activation
+                     fails, repeat it again without restarting the Configuration Manager. If
+                     activation fails a second time, reboot the server and try again.</p>
+               </note>
+               <fig id="fig_egp_3ry_qzb">
+                  <title>Figure 5: Activation Complete</title>
+                  <image href="media/image5.jpg"
+                         placement="break"
+                         id="image_fgp_3ry_qzb"
+                         align="center"/>
+               </fig>
+            </li>
+            <li>Verify that the new software is active by navigating to: Start&gt;Log off Obop… from the Start menu.</li>
+            <li>A prompt will be displayed asking “Are you sure you want to log off?” Click on the
+                  <uicontrol>Log Off</uicontrol> button.</li>
+            <li>Log back into the setup account with the User Name obsetup and the Password
+                  SetupServer. Click <uicontrol>OK</uicontrol> to log in.</li>
+            <li>Run the Configuration Manager program by navigating to:  Start&gt; Machine Server Applications&gt; Configuration Manager from the Start menu. </li>
+            <li>Click on the ‘<uicontrol>Activate Software Set</uicontrol>’ tab.</li>
+            <li>In the ‘Currently Active SWSet’ section, you should see the software set that you just
+               activated. Click on the <uicontrol>X</uicontrol> in the upper right corner of the
+                  ‘Configuration Manager’ window to close it.</li>
+            <li>If the prior SWSet was 222 or earlier, it will be necessary to reconfigure the backups.
+               Launch the Backup Configuration utility, verify the backup server is correct and
+               click the <uicontrol>apply</uicontrol> button. Consult document FES-03-118
+                  <i>Configuring Machine Server Backups</i> if necessary.</li>
+            <li>Launch the SCSSetup Wizard and verify that the configuration is correct. Be sure to
+               click the <uicontrol>finish</uicontrol> button on the last screen. This will trigger
+               another reboot of the Machine Server.</li>
+            <li>Once the Machine Server reboot is complete, any OSI/EICOM, COM-SOC 3, or IDS cabinets which communicate with the server must also be rebooted.<ol>
+                  <li>
+                     <note id="note_w3h_cty_qzb">
+                        <p>Failure to reboot any of these components will cause them to continue to
+                           operate with the old software, which could lead to unexpected
+                           results.</p>
+                     </note>
+                  </li>
+                  <li>
+                     <note id="note_cff_dty_qzb">
+                        <p>Prior to rebooting the IDS cabinet(s), follow SOP-11-001-A to reimage the
+                           IDS Compact Flash cards. Reimaging the IDS Compact Flash cards eliminates
+                           the risk of a corrupted card and increased machine downtime.</p>
+                     </note>
+                  </li>
+                  <li>
+                     <note id="note_lf2_2ty_qzb">
+                        <p>If the prior software set was 222 or earlier, it will be necessary to
+                           reload the job from MOC. The saved data from the OSI/EICOM or COM-SOC 3
+                           that is stored on the Machine Server was changed in structure and will
+                           not be compatible with the new OSI/EICOM and COM-SOC 3 programs.</p>
+                     </note>
+                  </li>
+               </ol>
+            </li>
+            <li>Once the Machine is operational with stable production, follow SOP-16-010 (Manual MDMS Backup) to manually force a machine server backup.</li>
+            <li>Verify the backups are operational using document FES-03-117 <i>Verifying Machine Server Backups.</i>
+            </li>
+         </ol>
+      </section>
+   </body>
+</topic>

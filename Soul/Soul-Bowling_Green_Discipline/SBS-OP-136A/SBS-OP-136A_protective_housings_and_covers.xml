@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC62BAF2-BB9C-11F0-2132-09173F13E4C5" xml:lang="en-us">
+   <title>Protective Housings and Covers</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-10+05:30"/>
+         <revised modified="2025-11-10+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>sbs-op-136a_protective_housings_and_covers</indexterm>
+            <indexterm>protective-housings-and-covers</indexterm>
+            <indexterm>housing</indexterm>
+            <indexterm>cover</indexterm>
+            <indexterm>guard</indexterm>
+            <!-- Process layer -->
+            <indexterm>protective-housings-and-covers</indexterm>
+            <indexterm>install</indexterm>
+            <indexterm>remove</indexterm>
+            <indexterm>inspect</indexterm>
+            <indexterm>secure</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>quality</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="SBS-OP-136A_protective_housings_and_covers"/>
+         <othermeta name="shortdesc" content=""/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sbs-op-136a_protective_housings_and_covers;protective-housings-and-covers;housing;cover;guard"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:sbs-op-136a_protective_housings_and_covers;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="sbs-op-136a_protective_housings_and_covers,protective-housings-and-covers,housing,cover,guard,install,inspect"/>
+         <othermeta name="usecase" content="protective-housings-and-covers"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The drive and tensioning station are covered by hood constructions (1 and 2). The idler rollers and guide gutters are covered by protective covers (3). The ends of the tensioning pulley shaft are covered by a protective grille (4).  The area around the bottom belt has a bottom belt cover (5).</p>
+      <p>
+         <fig>
+            <image href="media/image6.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+      <p>A protective grille with a 30 x 30-mm mesh is attached to the control opening in the drive station cover to prevent anyone from reaching into the metering conveyor scale. The control opening is located in the top hood of the metering conveyor scale drive station to permit the safe observation of the machine’s movements during operation.</p>
+      <p>When the control opening is open, there is a danger of injury, especially to the eyes.  Wear protective glasses. Keep the control opening closed except when looking in..</p>
+      <p>
+         <fig>
+            <image href="media/image7.jpg" placement="break" align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

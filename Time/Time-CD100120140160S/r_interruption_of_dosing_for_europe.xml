@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r3890F59-BDF3-11F0-8998-09173F13E4C5">
+   <title>Interruption of Dosing for Europe</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T16:10:00+05:30"/>
+         <revised modified="2025-11-15T16:10:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel, machine-operators, reliability-engineers, safety-and-compliance-officers, management"/>
+         <keywords><!-- product layer -->
+            <indexterm>urea-dosing-pump</indexterm>
+            <indexterm>dosing-control-module</indexterm>
+            <indexterm>urea-tank</indexterm>
+            <indexterm>dosing-nozzle</indexterm>
+            <indexterm>dosing-harness</indexterm>
+            <!-- process layer -->
+            <indexterm>interruption-detection</indexterm>
+            <indexterm>pump-priming-procedure</indexterm>
+            <indexterm>flow-rate-check</indexterm>
+            <indexterm>contamination-cleanse</indexterm>
+            <indexterm>system-reset-sequence</indexterm>
+            <!-- context layer -->
+            <indexterm>europe-emissions-compliance</indexterm>
+            <indexterm>fleet-urea-management</indexterm>
+            <indexterm>onboard-fluid-systems</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>industrial-equipment-fleet</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Interruption of dosing — Europe"/>
+         <othermeta name="shortdesc"
+                    content="Troubleshooting interruption of urea dosing including pump and nozzle checks for European vehicles and equipment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="dosing-pump;urea-tank;nozzle;filter;dosing-ecu"/>
+         <othermeta name="taxonomy"
+                    content="domain:aftertreatment-systems;usecase:dosing-troubleshooting;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="dosing, urea, troubleshooting, emissions"/>
+         <othermeta name="usecase" content="detect-and-correct-dosing-interruption"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table colsep="1" frame="all" rowsep="1" id="table_et4_psy_5gc">
+         <tgroup cols="9">
+            <colspec colname="col1" colnum="1" colwidth="1.1*"/>
+            <colspec colname="col2" colnum="2" colwidth="1*"/>
+            <colspec colname="col3" colnum="3" colwidth="0.9*"/>
+            <colspec colname="col4" colnum="4" colwidth="1*"/>
+            <colspec colname="col5" colnum="5" colwidth="1.1*"/>
+            <colspec colname="col6" colnum="6" colwidth="1*"/>
+            <colspec colname="col7" colnum="7" colwidth="1*"/>
+            <colspec colname="col8" colnum="8" colwidth="1*"/>
+            <colspec colname="col9" colnum="9" colwidth="1*"/>
+            <thead>
+               <row>
+                  <entry morerows="2">Inducement Stage </entry>
+                  <entry morerows="2">Condition </entry>
+                  <entry morerows="2">Repeat Offence (within 40hrs) </entry>
+                  <entry nameend="col9" namest="col4">Inducement Strategy </entry>
+               </row>
+               <row>
+                  <entry>DEF Level Indicator </entry>
+                  <entry>DEF Indicator </entry>
+                  <entry>Engine Check Lamp </entry>
+                  <entry>Buzzer </entry>
+                  <entry>Torque Reduction </entry>
+                  <entry>
+                     <p>RPM Limit </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <image href="media/image950a.png"
+                            id="image_pbg_xvy_5gc"
+                            placement="inline"/>
+                  </entry>
+                  <entry>
+                     <image href="media/image951a.png"
+                            id="image_qbg_xvy_5gc"
+                            placement="inline"/>
+                  </entry>
+                  <entry>
+                     <image href="media/image763b.png"
+                            id="image_rbg_xvy_5gc"
+                            placement="inline"/>
+                  </entry>
+                  <entry>
+                     <image href="media/image764.png" id="image_sbg_xvy_5gc" placement="inline"/>
+                  </entry>
+                  <entry/>
+                  <entry/>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Normal</entry>
+                  <entry>NA</entry>
+                  <entry morerows="3">≥ 90% of counter value for severe inducement</entry>
+                  <entry>Green ON</entry>
+                  <entry>Off</entry>
+                  <entry>Off</entry>
+                  <entry>Off</entry>
+                  <entry>0%</entry>
+                  <entry>NA</entry>
+               </row>
+               <row>
+                  <entry>Level1</entry>
+                  <entry>
+                     <p>Dosing Interruptio</p>
+                     <p>n detected</p>
+                  </entry>
+                  <entry>Green ON</entry>
+                  <entry>On</entry>
+                  <entry>On</entry>
+                  <entry>Off</entry>
+                  <entry>0%</entry>
+                  <entry>NA</entry>
+               </row>
+               <row>
+                  <entry>Level2</entry>
+                  <entry>10~20hrs</entry>
+                  <entry>Green ON</entry>
+                  <entry>On</entry>
+                  <entry>On</entry>
+                  <entry>At starting &amp; Every 20min</entry>
+                  <entry>25%</entry>
+                  <entry>NA</entry>
+               </row>
+               <row>
+                  <entry>Level3</entry>
+                  <entry>over 20hrs</entry>
+                  <entry>Green ON</entry>
+                  <entry>Blinking</entry>
+                  <entry>Blink</entry>
+                  <entry>Every 10min</entry>
+                  <entry>50%</entry>
+                  <entry>60% (about 1500rpm)</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table colsep="1" frame="all" rowsep="1" id="table_kt4_psy_5gc">
+         <tgroup cols="5">
+            <colspec colname="col1" colnum="1" colwidth="0.7*"/>
+            <colspec colname="col2" colnum="2" colwidth="0.7*"/>
+            <colspec colname="col3" colnum="3" colwidth="0.7*"/>
+            <colspec colname="col4" colnum="4" colwidth="1.2*"/>
+            <colspec colname="col5" colnum="5" colwidth="1.6*"/>
+            <thead>
+               <row>
+                  <entry morerows="2">Inducement Stage </entry>
+                  <entry morerows="2">Condition </entry>
+                  <entry morerows="2">Repeat Offence (within 40hrs) </entry>
+                  <entry nameend="col5" namest="col4">LCD Display </entry>
+               </row>
+               <row>
+                  <entry>Method </entry>
+                  <entry>Message on the Display </entry>
+               </row>
+               <row>
+                  <entry>
+                     <image href="media/image777(1).png"
+                            id="image_lt4_psy_5gc"
+                            placement="inline"/>
+                  </entry>
+                  <entry>
+                     <image href="media/image778(1).png"
+                            id="image_mt4_psy_5gc"
+                            placement="inline"/>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>Normal</entry>
+                  <entry>NA</entry>
+                  <entry morerows="3">≥ 90% of counter value for severe inducement</entry>
+                  <entry>NA</entry>
+                  <entry>NA</entry>
+               </row>
+               <row>
+                  <entry>Level1</entry>
+                  <entry>Dosing Interruption detected</entry>
+                  <entry>At starting &amp; Every 20min</entry>
+                  <entry>
+                     <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                     <p>Engine Power will be Reduced</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Level2</entry>
+                  <entry>10~20hrs</entry>
+                  <entry>Every 10min</entry>
+                  <entry>
+                     <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                     <p>Engine Power is Reduced By 25%</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Level3</entry>
+                  <entry>over 20hrs</entry>
+                  <entry>Continuous</entry>
+                  <entry>
+                     <p>SCR SYSTEM MALFUNCTION CALL Time SERVICE AGENT</p>
+                     <p>Engine Power is Reduced By 50%</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

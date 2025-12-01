@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t23C6204-BDF2-11F0-1706-09173F13E4C5" xml:lang="en">
+   <title>To add Send for Signature button to page layout</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer (6+) -->
+            <indexterm>power-clm</indexterm>
+            <indexterm>power-cpq</indexterm>
+            <indexterm>adobe-sign-admin</indexterm>
+            <indexterm>send-for-signature</indexterm>
+            <indexterm>page-layout</indexterm>
+            <indexterm>custom-buttons</indexterm>
+            <indexterm>account-layout</indexterm>
+            <!-- Process layer (6+) -->
+            <indexterm>add-to-account</indexterm>
+            <indexterm>configure-page-layout</indexterm>
+            <indexterm>edit-page-layout</indexterm>
+            <indexterm>drag-and-drop-button</indexterm>
+            <indexterm>save-layout</indexterm>
+            <indexterm>enable-send-for-signature</indexterm>
+            <!-- Context layer (6+) -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>crm</indexterm>
+            <indexterm>salesforce</indexterm>
+            <indexterm>contact-management</indexterm>
+            <indexterm>contract-management</indexterm>
+            <indexterm>opportunity-management</indexterm>
+            <indexterm>custom-object</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To add Send for Signature button to page layout"/>
+         <othermeta name="shortdesc"
+                    content="Add the Send for Signature button to a Salesforce page layout via the Adobe Sign Admin so users can initiate signatures from record pages."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power-clm;power-cpq;adobe-sign-admin;send-for-signature-button;page-layout;custom-buttons;account-layout;contacts;contracts;opportunities;leads"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:add-send-for-signature-button;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="send-for-signature,page-layout,adobe-sign,custom-button,salesforce,crm"/>
+         <othermeta name="usecase" content="configure-send-for-signature-button"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the App Launcher, find and open the <uicontrol>Power CLM</uicontrol> app. You
+               can perform the same action in <uicontrol>Power CPQ</uicontrol> app as well. </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Adobe Sign Admin</uicontrol> tab from the navigation bar.
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Send for Signature Components</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Add to Account</uicontrol>.</p>
+            <p>
+               <note type="note">
+                  <p>Page Layout customizations can be applied to Contacts, Contracts, Opportunities, and Leads or any custom object as well. Select the appropriate option.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Page Layouts</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Edit</uicontrol> next to the Account Layout you want to customize.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Buttons</uicontrol> on the layout editor.</p>
+         </li>
+         <li>
+            <p>Drag and drop <uicontrol>Send for Signature</uicontrol> to the <uicontrol>Custom Buttons</uicontrol> section on the page layout below.
+               </p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         href="../attachments/143887802/143887828.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

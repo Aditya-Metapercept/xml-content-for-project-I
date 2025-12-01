@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2596862-BDF2-11F0-1699-09173F13E4C5" xml:lang="en">
+   <title>Importing Products</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>importing-products</indexterm>
+            <indexterm>product-import</indexterm>
+            <indexterm>csv-import</indexterm>
+            <indexterm>template-mapping</indexterm>
+            <indexterm>bulk-upload</indexterm>
+            <indexterm>data-validation</indexterm>
+            <!-- Process layer -->
+            <indexterm>map-template</indexterm>
+            <indexterm>upload-csv</indexterm>
+            <indexterm>run-validation</indexterm>
+            <indexterm>apply-import</indexterm>
+            <indexterm>monitor-job</indexterm>
+            <indexterm>rollback-import</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-life-cycle</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>catalog-management</indexterm>
+            <indexterm>data-integration</indexterm>
+            <indexterm>system-of-record</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Importing products"/>
+         <othermeta name="shortdesc"
+                    content="Steps for importing products via CSV: prepare template, map fields, validate data, and run bulk upload."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="importing products; product import; csv import; template mapping; bulk upload; data validation"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="import products, csv import, template mapping, bulk upload, data validation, field mapping"/>
+         <othermeta name="usecase" content="import-products-to-catalog"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can import all qualifications and benefits lines or subcategories from .csv files. You can import the products for page level as well as section level. In the .csv file, you can view the column "Product Classification" to indicate whether each line maps to a qualification product, benefit product, or subcategory products.</p>
+         <note type="note">
+            <p>
+               <uicontrol>Note</uicontrol>
+            </p>
+            <p>If the section id is provided in the .csv file, the CIM will update the existing section. And if the section id is not provided, it will create a new section with all the corresponding qualifications and benefits lines.</p>
+         </note>
+         <p>
+            <uicontrol>Importing Products of an Entire Program</uicontrol>
+         </p>
+         <p>To import all the beneficiary lines of your program:</p>
+      </context>
+      <ol>
+         <li>
+            <p>Navigate to the <uicontrol>Qualifications and Benefits</uicontrol> tab of your program.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Import. </uicontrol>
+            </p>
+            <p>
+               <p>The Import Products pop-up opens.</p>
+            </p>
+         </li>
+         <li>
+            <p>Select <uicontrol>Qualification &amp; Benefits</uicontrol> option to import the qualifications &amp; benefits lines or select <uicontrol>Sub Category Pricing</uicontrol> option to import the subcategory under the corresponding qualifications.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose a file. </uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Select a .csv file from your local drive.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Import</uicontrol>.</p>
+         </li>
+      </ol>
+      <div>
+         <note type="note">
+            <p>You can view the error log details (Import Products pop-up &gt; Log column) for the records which are not imported due to mandatory information that is not available in the .csv file. You need to contact the IT Support team if you get a warning message related to the <uicontrol>UOM</uicontrol>.</p>
+         </note>
+      </div>
+   </body>
+</topic>

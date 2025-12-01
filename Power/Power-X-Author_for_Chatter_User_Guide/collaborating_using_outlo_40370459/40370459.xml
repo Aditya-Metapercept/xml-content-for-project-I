@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan836" xml:lang="en">
+   <title>Collaborating Using Outlook</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>outlook-client</indexterm>
+            <indexterm>chatter-feed</indexterm>
+            <indexterm>message-composer</indexterm>
+            <indexterm>email-editor</indexterm>
+            <indexterm>office-connector</indexterm>
+            <indexterm>feed-post-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>posting-from-outlook</indexterm>
+            <indexterm>entering-posts</indexterm>
+            <indexterm>composing-chatter-messages</indexterm>
+            <indexterm>limiting-attachment-sharing</indexterm>
+            <indexterm>sending-feed-input</indexterm>
+            <indexterm>managing-message-content</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-communication</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>internal-messaging</indexterm>
+            <indexterm>collaboration-tools</indexterm>
+            <indexterm>content-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-chatter-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Collaborating Using Outlook"/>
+         <othermeta name="shortdesc"
+                    content="Explains how Outlook lets users compose and submit Chatter posts, with limitations on sharing email content or attachments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="outlook-client;chatter-feed;email-message;message-composer;office-connector;feed-post-engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="outlook,chatter,post-composition,email-restrictions,office-integration,collaboration"/>
+         <othermeta name="usecase" content="post-messages-from-outlook"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Outlook provides the ability to enter comments into Chatter to solicit feedback. This version of X-Author Chatter Online does not yet support email content or attachment sharing to Chatter.</p>
+   </body>
+</topic>

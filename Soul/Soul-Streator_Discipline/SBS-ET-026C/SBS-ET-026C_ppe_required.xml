@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9F95DD-BB9C-11F0-1869-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>emptying-aid</indexterm>
+            <indexterm>respiratory-protection</indexterm>
+            <indexterm>ppe-kit</indexterm>
+            <indexterm>bump-cap</indexterm>
+            <indexterm>safety-glasses</indexterm>
+            <!-- Process layer -->
+            <indexterm>personal-protection</indexterm>
+            <indexterm>ppe-inspection</indexterm>
+            <indexterm>respirator-deployment</indexterm>
+            <indexterm>silica-release-response</indexterm>
+            <indexterm>hazard-assessment</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>respirable-crystalline-silica</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>workplace-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PPE Required"/>
+         <othermeta name="shortdesc"
+                    content="Lists required personal protective equipment and respiratory options for silica release or toxic batch material spill."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bump-cap; safety-glasses; hearing-protection; safety-toe-shoes; respirator; PAPR; cartridges; silica"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ppe-requirements;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="ppe,respratory-protection,silica,safety,inspection"/>
+         <othermeta name="usecase" content="define-required-personal-protective-equipment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_n3r_3tt_jcc">
+         <title>General</title>
+         <p>Bump cap, safety glasses, hearing protection, long sleeves, safety toe shoes.</p>
+         <p>Have available a respirator with certified cartridges, or a PAPR, in case of a silica
+          release or toxic batch material spill.</p>
+      </section>
+   </body>
+</topic>

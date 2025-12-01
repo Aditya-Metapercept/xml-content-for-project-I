@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UpdateTheFirmwareOnTheInterfaceCard-CE6E6AA1" xml:lang="en">
+   <title>Update the Firmware on the Interface Board</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-19+05:30"/>
+         <revised modified="2025-11-19"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>battery-management</indexterm>
+            <indexterm>communication-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>update-firmware</indexterm>
+            <indexterm>firmware-flash</indexterm>
+            <indexterm>interface-board-upgrade</indexterm>
+            <indexterm>validate-communication</indexterm>
+            <indexterm>rollback-procedure</indexterm>
+            <indexterm>post-flash-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>commissioning</indexterm>
+            <indexterm>maintenance-procedures</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Update the Firmware on the Interface Board"/>
+         <othermeta name="shortdesc"
+                    content="Task-based steps to flash and verify firmware on the UPS interface board, including validation of communications and fallback steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="interface board; control board; communication module; firmware image; programming cable; UPS"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:firmware-update;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="firmware-update,interface-board,validation,rollback,commissioning"/>
+         <othermeta name="usecase" content="firmware-update"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Connect the computer to the interface board at the JTAG
+using the Rlink Raisonance programming kit shown below. You must open
+(cut) the third pin from the right on the JTAG SWD from the programming
+kit to use it.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/raisonance_kit_0000147204.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/raisonance_part_0000147203.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/raisonance_inserted_in_interface_board_0000147202.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+               <fig>
+                  <image href="../Images/pin_must_be_cut_opened_to_work_with_Reality_pxc_0000149186.jpg"
+                         scalefit="yes"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Install and open the <uicontrol>Rflasher7</uicontrol> software,
+and click on <menucascade>
+                  <uicontrol>File</uicontrol>
+                  <uicontrol>New</uicontrol>
+                  <uicontrol>Project</uicontrol>
+               </menucascade> (for first time access).</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/rflasher7_screen1_0000147201.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Choose the interface board MCU chip model: <uicontrol>STR731FV2</uicontrol>, and <uicontrol>create a new project</uicontrol> and click on <uicontrol>Finish</uicontrol>.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/rflasher7_screen2_0000147200.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen3_0000147199.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Click on <menucascade>
+                  <uicontrol>Programming</uicontrol>
+                  <uicontrol>Auto Mode: Configure</uicontrol>
+               </menucascade> (one-time
+setup) and set up the automatic mode configuration.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/rflasher7_screen4_0000147198.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen5_0000147197.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Click on <menucascade>
+                  <uicontrol>Programming</uicontrol>
+                  <uicontrol>Load File</uicontrol>
+               </menucascade> and browse to the firmware
+file.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/rflasher7_screen6_0000147196.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen7_0000147195.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen8_0000147214.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen9_0000147213.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>When the firmware file is loaded, click on <menucascade>
+                  <uicontrol>Programming</uicontrol>
+                  <uicontrol>Auto mode: Go!</uicontrol>
+               </menucascade>, and the interface board firmware upgrade will start.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/rflasher7_screen10_0000147212.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+                  <image href="../Images/rflasher7_screen11_0000147211.jpg"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>When the interface board firmware upgrade is completed,
+restart the UPS system.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

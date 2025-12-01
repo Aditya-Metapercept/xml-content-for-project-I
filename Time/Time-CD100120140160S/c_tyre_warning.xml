@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c386E41B-BDF3-11F0-1233-09173F13E4C5" xml:lang="en-us">
+   <title>Tyre Warning</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-17T12:00:00+05:30"/>
+         <revised modified="2025-11-17T12:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,safety-compliance-officers,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>powered-lift-truck</indexterm>
+            <indexterm>tyre-assembly</indexterm>
+            <indexterm>tyre-valve</indexterm>
+            <indexterm>wheel-rim</indexterm>
+            <!-- Process layer -->
+            <indexterm>tyre-warning-precautions</indexterm>
+            <indexterm>inspect-before-operation</indexterm>
+            <indexterm>tyre-inflation-check</indexterm>
+            <indexterm>repair-and-replacement</indexterm>
+            <indexterm>safe-handling-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse-operations</indexterm>
+            <indexterm>fleet-management</indexterm>
+            <indexterm>maintenance-mro</indexterm>
+            <indexterm>operator-safety</indexterm>
+            <indexterm>material-handling</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Tyre Warning"/>
+         <othermeta name="shortdesc"
+                    content="Safety warnings and precautions for tyre inflation and handling to prevent tyre failure and operator injury."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="tyre;wheel;valve;rim;inflation-gauge"/>
+         <othermeta name="taxonomy"
+                    content="domain:powered-lift-trucks;usecase:safety-and-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="tyre-warning, tyre-safety, inflation-hazard, operator-protection"/>
+         <othermeta name="usecase"
+                    content="warn-operators-about-tyre-hazards-and-required-prechecks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <note type="warning"/>
+      <ol id="ol_epx_jnj_ygc">
+         <li>Don't drive for a prolonged period of time continuously.<p>A tyre can be broken
+            down due to overheating, if operated for a prolonged period of time and moved to a long
+            distance. Therefore, make sure to have a break more than 10 minutes every hour to cool
+            down the tyre temperature.</p>
+         </li>
+         <li>Wheel nut check<p>Wheel slip may occur due to an additional gap while the wheel
+            is secured after the vehicle is shipped out or the tyre is replaced.</p>
+            <p>Please
+          check torques of wheel nuts for at least three days, and tighten up more if torques is not
+          sufficient.</p>
+         </li>
+         <li>Tyre pressure check<p>Tyre pressure lower than the specification can cause early
+            abrasion or break-down. Please check tyre pressure before work and pump air into a tyre,
+            if tyre press is low.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

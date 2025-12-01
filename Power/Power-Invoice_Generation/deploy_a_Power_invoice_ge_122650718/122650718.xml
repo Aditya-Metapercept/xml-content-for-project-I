@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t284401A-BDF2-11F0-1033-09173F13E4C5" xml:lang="en">
+   <title>Deploy a Power Invoice Generation for Salesforce Billing Quick Start</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>power-invoice-generator</indexterm>
+            <indexterm>salesforce-billing</indexterm>
+            <indexterm>installer-package</indexterm>
+            <indexterm>billing-adapter</indexterm>
+            <indexterm>template-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>deploy-invoice-generation</indexterm>
+            <indexterm>install-package</indexterm>
+            <indexterm>configure-billing-flow</indexterm>
+            <indexterm>initialize-settings</indexterm>
+            <indexterm>validate-setup</indexterm>
+            <indexterm>enable-features</indexterm>
+            <!-- Context layer -->
+            <indexterm>salesforce-billing-environment</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>billing-automation</indexterm>
+            <indexterm>enterprise-deployment</indexterm>
+            <indexterm>invoice-processing</indexterm>
+            <indexterm>revops-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Deploy a Power Invoice Generation for Salesforce Billing Quick Start"/>
+         <othermeta name="shortdesc"
+                    content="Quickly deploy Power Invoice Generation for Salesforce Billing by installing the package, configuring required components, and validating the initial setup."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="installer;billing-flow;template;adapter;config-record;billing-data;user"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:billing-invoice-deployment;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="billing,deploy,invoice,package,setup,configuration"/>
+         <othermeta name="usecase" content="billing-invoice-deployment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>How to deploy the Power Invoice Automation for Salesforce Quote to Cash Power Composer Starter Pack.</p>
+         <p>What Quick Starts are Available?</p>
+         <p>Quick Starts include all of the components needed for a document generation solution. The purpose of a Quick Start is to help you get up-and-running quickly with a pre-configured template and pre-determined data sources.</p>
+         <p>The QuickStart solutions for Power Invoice Generation for Salesforce Billing include:</p>
+         <ul id="ul_llv_g3c_5cc">
+            <li>Account Statement</li>
+            <li>Create Receipt</li>
+            <li>Create Credit Memo</li>
+            <li>Create Debit Memo</li>
+            <li>Generate Invoice</li>
+         </ul>
+         <p>How Do You Deploy a QuickStart?</p>
+         <p>To deploy a Quick Start, follow these steps:</p>
+      </context>
+      <ol id="steps_vzm_fsc_5cc">
+         <li>
+            <p>When installing Power Invoice Generation, select Install for All Users.</p>
+         </li>
+         <li>
+            <p>Select Power Invoice Generation from the App dropdown.</p>
+         </li>
+         <li>
+            <p>Click the Power Quick Start tab.</p>
+         </li>
+         <li>
+            <p>Select the Quick Start you want to use.</p>
+         </li>
+         <li>
+            <p>Click Go to Page Layouts.</p>
+         </li>
+         <li>
+            <p>Add the newly created Power Invoice Generation button to the Page layout and click
+               Save.</p>
+         </li>
+      </ol>
+      <div>
+         <p>You will be prompted to enable Remote Sites when you select the QuickStart. You must do this in order for Power Invoice Generation to be able to create the button. Also, you must configure Configure Composer as a Connected App before using the solution.</p>
+      </div>
+   </body>
+</topic>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheExternalConnectionBoard0J-70C3339E" xml:lang="en">
+   <title>Replace the External Connection Board 0J-0P2553</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>37.5 kVA</keyword>
+      <keyword>50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>external-connection-board</indexterm>
+            <indexterm>terminal-block</indexterm>
+            <indexterm>power-interface-board</indexterm>
+            <indexterm>pcb-connector</indexterm>
+            <indexterm>earth-terminal</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-external-connection-board</indexterm>
+            <indexterm>verify-terminal-tightness</indexterm>
+            <indexterm>label-and-reconnect-cables</indexterm>
+            <indexterm>insulation-check</indexterm>
+            <indexterm>electrical-safety-check</indexterm>
+            <indexterm>data-cable-routing</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-field-service</indexterm>
+            <indexterm>on-site-maintenance</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>service-procedure</indexterm>
+            <indexterm>component-replacement</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replace the External Connection Board 0J–0P2553"/>
+         <othermeta name="shortdesc"
+                    content="On-site replacement procedure for external connection board, including cable reconnection and terminal verification."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="external-connection-board;terminal-block;pcb-connector;cable-harness;earth-terminal;insulation-tester"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:replace-component;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="terminal-check;reconnect-cables;insulation-test;on-site-replacement;electrical-safety"/>
+         <othermeta name="usecase" content="replace-external-connection-board"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure shows the 50
+kVA UPS but the procedure is identical for all UPS systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the two nuts and slide out the indicated board as
+far as the cables allow.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p2553_allkw_externalconnboard_removenuts_w120mm_0000193411.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the external
+connection board assembly and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Move the external connection board assembly completely
+out of the UPS cabinet.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p2553_allkw_externalconnboard_removeboard_w120mm_0000193610.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Loosen the four screws and remove the external connection
+board from the assembly.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_external_connection_board_0p2553_remove_board_from_plate_0000102365.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+external connection board.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

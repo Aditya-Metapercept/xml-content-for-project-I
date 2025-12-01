@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2702F73-BDF2-11F0-6276-09173F13E4C5" xml:lang="en">
+   <title>Deal Maximizer for Administrators</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>deal-maximizer</indexterm>
+            <indexterm>metr-deal-power</indexterm>
+            <indexterm>admin-console</indexterm>
+            <indexterm>configuration-service</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>integration-hub</indexterm>
+            <!-- Process layer -->
+            <indexterm>administer-deal-maximizer</indexterm>
+            <indexterm>configure-permissions</indexterm>
+            <indexterm>manage-integrations</indexterm>
+            <indexterm>monitor-system-health</indexterm>
+            <indexterm>apply-updates</indexterm>
+            <indexterm>backup-and-restore</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>it-operations</indexterm>
+            <indexterm>security-compliance</indexterm>
+            <indexterm>operational-support</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-deal-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Deal Maximizer for Administrators"/>
+         <othermeta name="shortdesc"
+                    content="Administrator guidance covering configuration, permissions, integrations and operational tasks for Deal Maximizer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="admin-console; users; roles; integrations; configuration; system-health-metrics"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="administration,permissions,integrations,monitoring,backup,configuration"/>
+         <othermeta name="usecase" content="administer-and-operate-deal-maximizer"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>This section describes the administrative tasks to be performed to set up a deal guidance process to rate deals.</p>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Topic</p>
+                     </entry>
+                     <entry>
+                        <p>Description</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>What's Covered</p>
+                     </entry>
+                     <entry>
+                        <p>This section explains how Deal Maximizer works, how to configure it, and covers the most common use cases for administration.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Primary Audience</p>
+                     </entry>
+                     <entry>
+                        <p>Administrator</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>IT Environment</p>
+                     </entry>
+                     <entry>
+                        <p>Refer to the latest <i>Deal Maximizer </i>
+                           <i>Release Notes </i>for information on System Requirements and Supported Platforms.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Updates</p>
+                     </entry>
+                     <entry>
+                        <p>For a comprehensive list of updates to this section for each release, see the <xref href="../what_s_new_in_deal_maximizer_239537356/239537356.xml"
+                                 format="dita">What's New in Deal Maximizer Documentation</xref> topic.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Other Resources</p>
+                     </entry>
+                     <entry>
+                        <p>Refer to<i> Power Deal Maximizer </i>
+                           <i>Release Notes</i> for information on system requirements and supported platforms, new features and enhancements, fixed issues, and known issues for a specific release.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+      <p>This section describes the following tasks: </p>
+      <ol>
+         <li>
+            Configuring Deal Guidance Dimensions
+         </li>
+         <li>
+            Configuring Deal Guidance Dimension Sets
+         </li>
+         <li>
+            Configuring Deal Guidance Rules
+         </li>
+         <li>
+            Initiating and integrating Deal Guidance
+         </li>
+         <li>
+            Setting Up Deals
+         </li>
+      </ol>
+      <p>Before using Deal Maximizer you must be familiar with Power terms and definitions.</p>
+   </body>
+   <related-links>
+      <linklist>
+         <desc>Select one of the following topics for more information:</desc>
+         <link href="../getting_started_with_deal_195690889/195690889.xml"/>
+         <link href="../setting_up_deals_vmay_22__195691357/195691357.xml"/>
+      </linklist>
+   </related-links>
+</topic>

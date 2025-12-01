@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC66CE30-BB9C-11F0-7950-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Hazards</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>pinch-point</indexterm>
+            <indexterm>entanglement-zone</indexterm>
+            <indexterm>hot-surface</indexterm>
+            <indexterm>chemical-container</indexterm>
+            <indexterm>ppe</indexterm>
+            <!-- Process layer -->
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>hazard-identification</indexterm>
+            <indexterm>mitigation</indexterm>
+            <indexterm>guarding</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>health-safety</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>operational-maintenance</indexterm>
+            <indexterm>incident-prevention</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Hazards"/>
+         <othermeta name="shortdesc"
+                    content="Identifies safety hazards around the conveyor such as pinch points, hot surfaces, and chemical spills, with required controls and mitigations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="pinch-point;entanglement-zone;hot-surface;chemical-container;ppe"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:sbs-op-138a_safety_hazards;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="safety-hazards,pinch-point,hot-surface,mitigation,lockout-tagout"/>
+         <othermeta name="usecase" content="sbs-op-138a_safety_hazards"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheSmartSlotBoard0J-0P2887In-71362075" xml:lang="en">
+   <title>Replace the Smart Slot Board 0J-0P2887 in 25–50 kVA
+Systems</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>25 kVA</keyword>
+      <keyword>37.5 kVA</keyword>
+      <keyword>50 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Reality-Batch_1"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 25–50 kVA systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Slide out the low voltage module as far as the cables allow.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0p2887_25-50kw_smartslotboard_removeass_w120mm_0000195339.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the low voltage
+module and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the smart
+slot board and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Rotate the low voltage module and lift the smart slot board
+up and out.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/img_80_kva_replace_the_smart_slot_board_0j-0p2887_slide_0p2887_upd_and_out_0000102363.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+smart slot board.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

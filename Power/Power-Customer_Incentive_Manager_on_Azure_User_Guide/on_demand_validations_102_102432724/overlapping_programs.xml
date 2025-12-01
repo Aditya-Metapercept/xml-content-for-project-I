@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c25A12AB-BDF2-11F0-1026-09173F13E4C5" xml:lang="en">
+   <title>Overlapping Programs</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>customer-incentive-manager</indexterm>
+            <indexterm>overlap-engine</indexterm>
+            <indexterm>program-overlap-service</indexterm>
+            <indexterm>overlap-policy-module</indexterm>
+            <indexterm>program-policy-manager</indexterm>
+            <!-- Process layer -->
+            <indexterm>allow-program-overlap</indexterm>
+            <indexterm>overlap-evaluation</indexterm>
+            <indexterm>program-classification-check</indexterm>
+            <indexterm>overlap-rule-application</indexterm>
+            <indexterm>policy-based-overlap-resolution</indexterm>
+            <indexterm>conflict-detection-and-allowance</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>partner-programs</indexterm>
+            <indexterm>program-eligibility</indexterm>
+            <indexterm>promotion-overlap</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Overlapping Programs"/>
+         <othermeta name="shortdesc"
+                    content="Customer Incentive Manager allows overlap for specified program types according to configured policies and program classifications."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Program;Policy;Product;Partner;Program Classification;Overlap Engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="program-overlap,overlap-policy,program-classification,promotion-overlap,conflict-resolution,policy-engine"/>
+         <othermeta name="usecase"
+                    content="determine-and-allow-program-overlaps-based-on-policy"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Customer Incentive Manager allows Overlap for the following programs.</p>
+      <p>
+         <table>
+            <tgroup cols="7">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <colspec colname="col4"/>
+               <colspec colname="col5"/>
+               <colspec colname="col6"/>
+               <colspec colname="col7"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Programs </p>
+                     </entry>
+                     <entry>
+                        <p>MEB </p>
+                     </entry>
+                     <entry>
+                        <p>Reward Savings</p>
+                     </entry>
+                     <entry>
+                        <p>Package Savings</p>
+                     </entry>
+                     <entry>
+                        <p> Bundle (top line)</p>
+                     </entry>
+                     <entry>
+                        <p>Bundle (child products)</p>
+                     </entry>
+                     <entry>
+                        <p>Partnership </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>MEB</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Reward Savings</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Package Savings</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bundle Savings (top line)</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bundle Savings (child products)</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>Yes</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Partnership</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                     <entry>
+                        <p>No</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

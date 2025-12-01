@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m28637E5-BDF2-11F0-3709-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Using Playbook</title>
+   <topicref href="using-playbook_45220113_45220113/45220113.xml"
+             format="dita"
+             xml:lang="en">
+      <topicmeta>
+         <navtitle>Using Playbook</navtitle>
+      </topicmeta>
+      <mapref href="inserting_clauses_4522012_45220128/45220128_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Inserting Clauses</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="marking-clauses_45220111_45220111/45220111_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Marking Clauses</navtitle>
+         </topicmeta>
+      </mapref>
+      <mapref href="marking-fields_45220114_45220114/45220114_1.xml"
+              format="ditamap"
+              xml:lang="en">
+         <topicmeta>
+            <navtitle>Marking Fields</navtitle>
+         </topicmeta>
+      </mapref>
+   </topicref>
+</topic>

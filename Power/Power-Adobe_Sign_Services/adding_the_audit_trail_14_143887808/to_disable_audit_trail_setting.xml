@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t2381065-BDF2-11F0-4418-09173F13E4C5" xml:lang="en">
+   <title>To disable audit trail setting</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>audit-trail-module</indexterm>
+            <indexterm>setting-toggle</indexterm>
+            <indexterm>admin-console</indexterm>
+            <indexterm>rest-api</indexterm>
+            <indexterm>permission-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>disable-audit-trail</indexterm>
+            <indexterm>change-permissions</indexterm>
+            <indexterm>confirm-impact</indexterm>
+            <indexterm>update-retention</indexterm>
+            <indexterm>notify-stakeholders</indexterm>
+            <!-- Context layer -->
+            <indexterm>admin-operations</indexterm>
+            <indexterm>security-policy</indexterm>
+            <indexterm>compliance-assessment</indexterm>
+            <indexterm>risk-management</indexterm>
+            <indexterm>enterprise-administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To disable audit trail setting"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for administrators to disable the audit trail setting, assess impact, update permissions and notify stakeholders."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="admin-user;audit-settings;permission;notification;rollback-procedure;impact-report"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:disable-audit-trail-for-specific-environments;industry:revenue-life-cycle-management"/>
+         <othermeta name="tags"
+                    content="disable-audit,admin,settings,impact-assessment,permissions"/>
+         <othermeta name="usecase" content="disable-audit-trail-for-specific-environments"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Go to<menucascade>
+                  <uicontrol> Setup </uicontrol>
+                  <uicontrol> Develop </uicontrol>
+                  <uicontrol> Custom Settings</uicontrol>
+               </menucascade>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Manage</uicontrol> for <uicontrol>Adobe Sign Settings</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Deselect <uicontrol>Add Audit PDF to Attachment List</uicontrol> checkbox.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

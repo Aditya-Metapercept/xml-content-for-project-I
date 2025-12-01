@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="InstallationProcedure-0FDAEC9A" xml:lang="en">
+   <title>Installation Procedure for 75–100 kVA UPS – Single
+Mains</title>
+   <shortdesc>
+      <keyword>Reality NAM UPS with transformer 75–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-pxc-reality</indexterm>
+            <indexterm>ups-75-100-kva</indexterm>
+            <indexterm>power-cabinet</indexterm>
+            <indexterm>transformer-module</indexterm>
+            <indexterm>power-distribution</indexterm>
+            <indexterm>control-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>install-ups-75-100-kva</indexterm>
+            <indexterm>module-installation</indexterm>
+            <indexterm>ac-dc-connection</indexterm>
+            <indexterm>protective-settings</indexterm>
+            <indexterm>pre-commissioning-checks</indexterm>
+            <indexterm>functional-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>plant-room-installation</indexterm>
+            <indexterm>high-power-distribution</indexterm>
+            <indexterm>maintenance-aisles</indexterm>
+            <indexterm>electrical-safety-standards</indexterm>
+            <indexterm>commissioning-environment</indexterm>
+            <indexterm>service-availability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Installation procedure — 75–100 kVA UPS"/>
+         <othermeta name="shortdesc"
+                    content="Installation and commissioning for 75–100 kVA UPS units covering module mounting, AC/DC connections, protective settings and verification."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="UPS-75-100-kVA;transformer-module;power-cabinet;control-unit;protection-relays;mounting-rails;cables"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ups-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="module-installation, protective-settings, ac-dc-connection, commissioning"/>
+         <othermeta name="usecase" content="Install and commission 75–100 kVA UPS"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>Top and bottom entry is available.</note>
+         <fig>
+            <image href="../Images/Reality_75-100_kwsingle_topentryinstalloverview_w120mm_0000164633.svg"
+                   placement="inline"/>
+         </fig>
+         <image href="../Images/gvs_power-signalcablecolor_definition_w120mm_0000160929.svg"
+                scope="local"
+                placement="inline"/>
+      </context>
+      <ol>
+         <li>
+            <p>Move the cabinets to the final location with a forklift
+or a low profile 21 inch pallet jack by lifting from the sides.</p>
+            <stepxmp>
+               <hazardstatement type="warning">
+                  <messagepanel>
+                     <typeofhazard>Tipping hazard</typeofhazard>
+                     <howtoavoid>The cabinet is top-heavy. Move the cabinet carefully with
+a forklift or a low profile 21 inch pallet jack by lifting from the
+sides.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the right side panel from the I/O section of the
+UPS cabinet and install the side panel on the right side of the transformer
+cabinet.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Remove_Kick_Plates_TSK_0000161962.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="75-100_kVA_Install_the_Seismic_Anchoring_Option_0000164647.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Prepare_for_Cables_for_the_75-100_kVA_0000161958.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>Only with adjacent battery cabinet(s): <xref href="Connect_the_Battery_Cables_from_an_Adjacent_Battery_Cabinet_to_the_UPS_TSK_0000110578.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Power_Cables_on_the_75-100_kVA_UPS_0000161957.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Route_the_Control_Cables_75-100_kVA_0000161959.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Control_Cables_for_the_25-50_kVA_UPS_0000161459.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Remote_Emergency_Power_Off_for_25-50_kVA_UPS_0000161515.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Connect_the_Input_Contacts_and_Output_Relays_Option_TSK_0000161513.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+         <li>
+            <p>
+               <xref href="Final_Installation_0000161963.xml"
+                     format="dita"
+                     scope="local"
+                     type="task"/>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Clearance-E194ECF7" xml:lang="en">
+   <title>Clearance</title>
+   <shortdesc>
+      <keyword>Battery cabinet, GUPXCAB600IEC, GUPXCAB600AIEC,
+GUPXCAB800IEC, GUPXCAB800AIEC</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-cabinet</indexterm>
+            <indexterm>battery-rack</indexterm>
+            <indexterm>ventilation-grille</indexterm>
+            <indexterm>rear-clearance</indexterm>
+            <indexterm>access-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>measure-rear-clearance</indexterm>
+            <indexterm>install-battery-cabinet</indexterm>
+            <indexterm>ensure-cooling</indexterm>
+            <indexterm>provide-service-access</indexterm>
+            <indexterm>comply-safety-standards</indexterm>
+            <!-- Context layer -->
+            <indexterm>battery-cabinet-installation</indexterm>
+            <indexterm>electrical-room</indexterm>
+            <indexterm>maintenance-access</indexterm>
+            <indexterm>battery-maintenance</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Clearance"/>
+         <othermeta name="shortdesc"
+                    content="Minimum rear clearance (17 mm) and other placement guidance for battery cabinets to ensure service access and ventilation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery cabinet; rear clearance; ventilation grille; access panel; battery rack"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:battery-cabinet-installation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="battery-cabinet,clearance,ventilation,service-access,safety"/>
+         <othermeta name="usecase" content="installation-guidance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The battery cabinet requires a minimum rear clearance
+of 17 mm. If you place the battery cabinets adjacent to the UPS cabinet,
+please note that the UPS cabinet requires a minimum rear clearance
+of 100 mm.</p>
+         <note>Clearance dimensions are published for airflow
+only. Consult with the local safety codes and standards for additional
+requirements in your local area.</note>
+         <fig>
+            <image href="../Images/battery_cabinet_clearance_Reality_120mm_0000151185.svg"
+                   scope="local"
+                   placement="inline"/>
+         </fig>
+      </section>
+   </body>
+</topic>

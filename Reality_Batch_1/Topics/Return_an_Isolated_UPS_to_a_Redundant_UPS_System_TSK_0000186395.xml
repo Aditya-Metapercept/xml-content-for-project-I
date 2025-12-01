@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReturnAnIsolatedUPSToARedundantUPSS-5E45A3B5" xml:lang="en">
+   <title>Return an Isolated UPS to a Redundant UPS System</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+            <indexterm>isolated-ups</indexterm>
+            <indexterm>parallel-up-module</indexterm>
+            <indexterm>transfer-switch</indexterm>
+            <indexterm>synchronization-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>return-to-redundant-system</indexterm>
+            <indexterm>resynchronize-parallel-operations</indexterm>
+            <indexterm>reconnect-power-and-control</indexterm>
+            <indexterm>verify-load-sharing</indexterm>
+            <indexterm>perform-functional-tests</indexterm>
+            <indexterm>reintegrate-isolated-unit</indexterm>
+            <!-- Context layer -->
+            <indexterm>redundancy-restoration</indexterm>
+            <indexterm>high-availability-power</indexterm>
+            <indexterm>site-power-management</indexterm>
+            <indexterm>maintenance-downtime-procedure</indexterm>
+            <indexterm>industrial-ops-floor</indexterm>
+            <indexterm>safety-and-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Return an Isolated UPS to a Redundant UPS System"/>
+         <othermeta name="shortdesc"
+                    content="Steps to safely return an isolated UPS unit back into a redundant UPS arrangement: reconnect, resynchronize, validate load sharing, and run acceptance tests."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="isolated UPS unit;parallel communications bus;transfer switch;load-sharing controller;bypass feeder"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="redundancy,resynchronization,load-sharing,parallel-ups,return-to-service"/>
+         <othermeta name="usecase" content="redundancy-restoration-and-validation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>Check that the other UPS in the redundant UPS system
+is working correctly with no pending alarms and can supply the load
+by itself.</note>
+      </context>
+      <ol>
+         <li>
+            <p>On the isolated UPS, check that:</p>
+            <ol>
+               <li>
+                  <p>Switch Q001 is open.</p>
+               </li>
+               <li>
+                  <p>Switch Q501 is open.</p>
+               </li>
+               <li>
+                  <p>Coupling switch Q694 for UPS2 or Q692 for UPS1 is open
+(if present).</p>
+               </li>
+               <li>
+                  <p>Battery switch Q201 and/or Q211 is open.</p>
+               </li>
+               <li>
+                  <p>Switch Q601 is in position <ph translate="no">AUTO</ph>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Close the rectifier mains input switch Q001.</p>
+         </li>
+         <li>
+            <p>Close the battery switch Q201 (Q211)<footnote>The system can
+have one internal battery switch Q201, or one battery switch Q211,
+or both.</footnote>.</p>
+         </li>
+         <li>
+            <p>Close the bypass mains input switch Q501. The display will
+turn on after 10 seconds.</p>
+            <stepresult>
+               <note>If the system is programmed for <uicontrol>AUTOSTART</uicontrol> it will start automatically after 60s if the rectifier mains input
+switch Q001 is closed and the input voltage is within tolerance.</note>
+            </stepresult>
+         </li>
+         <li>
+            <p>Press the ON button on the display.</p>
+         </li>
+         <li>
+            <p>Check that the UPS is functioning correctly and that there
+are no alarms pending.</p>
+         </li>
+         <li>
+            <p>Press the ON and the OFF buttons simultaneously on the
+display. The UPS will shut down with no voltage on the output.</p>
+            <stepxmp>
+               <hazardstatement type="danger">
+                  <messagepanel>
+                     <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+                     <howtoavoid>After this operation, power will still be present on the
+power connection terminals. Ensure that the protection covers are
+installed.</howtoavoid>
+                  </messagepanel>
+               </hazardstatement>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Close coupling switch Q694 for UPS2 or Q692 for UPS1 (if
+present).</p>
+         </li>
+         <li>
+            <p>Press the ON button on the display.</p>
+            <stepresult>The load is supplied by both UPS units in redundant operation
+with load sharing.</stepresult>
+         </li>
+      </ol>
+   </body>
+</topic>

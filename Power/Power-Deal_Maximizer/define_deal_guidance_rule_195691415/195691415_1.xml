@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2719E05-BDF2-11F0-1617-09173F13E4C5" xml:lang="en" rev="1.0">
+   <title>Define Deal Guidance Rules</title>
+   <topicref chunk="to-content" href="195691415.xml" xml:lang="en">
+      <topicref href="to_define_deal_guidance_rules.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To define deal guidance rules</navtitle>
+         </topicmeta>
+         <topicref href="../guidance_for_custom_measu_143899590/143899590.xml"
+                   format="dita"
+                   xml:lang="en">
+            <topicmeta>
+               <navtitle>Guidance for Custom Measure</navtitle>
+            </topicmeta>
+         </topicref>
+      </topicref>
+   </topicref>
+</topic>

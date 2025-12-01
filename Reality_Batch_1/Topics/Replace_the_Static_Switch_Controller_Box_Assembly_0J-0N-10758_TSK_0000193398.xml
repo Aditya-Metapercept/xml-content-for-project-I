@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReplaceTheStaticSwitchControllerBox-70BB4005" xml:lang="en">
+   <title>Replace the Static Switch Controller Box Assembly 0J-0N-10758</title>
+   <shortdesc>
+      <keyword>Reality NAM</keyword>
+      <keyword>75 kVA</keyword>
+      <keyword>100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>static-switch-controller-box</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>power-electronics-module</indexterm>
+            <indexterm>main-contactor</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-static-switch-controller-box</indexterm>
+            <indexterm>remove-controller-assembly</indexterm>
+            <indexterm>isolate-upstream-sources</indexterm>
+            <indexterm>discharge-capacitors</indexterm>
+            <indexterm>reinstall-controller-box</indexterm>
+            <indexterm>verify-operational-self-test</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>service-bay-procedure</indexterm>
+            <indexterm>electrical-safety-protocol</indexterm>
+            <indexterm>industrial-engineering-environment</indexterm>
+            <indexterm>redundant-ups-system</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replace the Static Switch Controller Box Assembly 0J-0N-10758"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step procedure to safely remove and replace the static switch controller box assembly; includes isolation, capacitor discharge, removal, and reinstallation checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static switch controller box;controller board;capacitors;main contactor;UPS cabinet;isolation switch"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="controller-replacement,electrical-safety,capacitor-discharge,static-switch,service-procedure"/>
+         <othermeta name="usecase" content="hardware-replacement-and-verification"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="danger">
+            <messagepanel>
+               <typeofhazard>hazard of electric shock, explosion, or arc flash</typeofhazard>
+               <howtoavoid>
+                  <sl>
+                     <sli>Electrical equipment must be installed, operated, serviced, and
+maintained only by qualified personnel.</sli>
+                     <sli>Apply appropriate personal protective equipment (PPE) and follow
+safe electrical work practices.</sli>
+                     <sli>Disconnection devices for AC and DC must be provided by others,
+be readily accessible, and the function of the disconnection device
+marked for its function.</sli>
+                     <sli>Turn off all power supplying the UPS system before working on
+or inside the equipment.</sli>
+                     <sli>Before working on the UPS system, check for hazardous voltage
+between all terminals including the protective earth.</sli>
+                     <sli>The UPS contains an internal energy source. Hazardous voltage
+can be present even when disconnected from the mains supply. Before
+installing or servicing the UPS system, ensure that the units are
+OFF and that mains and batteries are disconnected. Wait five minutes
+before opening the UPS to allow the capacitors to discharge.</sli>
+                     <sli>The UPS must be properly earthed/grounded and due to a high leakage
+current, the earthing/grounding conductor must be connected first.</sli>
+                  </sl>
+               </howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note>This procedure is only applicable
+to 75–100 kVA systems.</note>
+      </context>
+      <ol>
+         <li>
+            <p>Remove the four indicated covers in the given order.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_remove4covers_w120mm_0000193381.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the four screws and loosen the two nuts, and tilt
+the SBS connection box outwards.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_tiltpcba_w120mm_0000193420.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the four screws from the fan module.</p>
+         </li>
+         <li>
+            <p>Slide out the fan module far enough to disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Note the location of the cables connected to the fan module
+and disconnect the cables.</p>
+         </li>
+         <li>
+            <p>Remove the fan module.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_removefanass_w120mm_0000204967.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Note the location of the cables from the static switch
+controller box that are connected to the contactor and disconnect
+the cables.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_disconnectcablescontactor_w120mm_0000193419.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the two screws and slide out the static switch controller
+box.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n10758_75-100kw_sscboxass_slideoutssc_w120mm_0000193418.png"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Remove the static switch controller box.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/replace_0j-0n-10758_75-100kw_sscboxass__changessc_w120mm_0000193417.png"
+                         scalefit="yes"
+                         scope="local"
+                         placement="inline"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Reverse the procedure for installation of the replacement
+static switch controller box.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

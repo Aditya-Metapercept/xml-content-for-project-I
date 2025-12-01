@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t23F2DAE-BDF2-11F0-6013-09173F13E4C5" xml:lang="en">
+   <title>To install Power EchoSign Integration packages</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-echosign-integration</indexterm>
+            <indexterm>adobe-sign</indexterm>
+            <indexterm>adobe-sign-integration-packages</indexterm>
+            <indexterm>metr-asign-power</indexterm>
+            <indexterm>managed-package</indexterm>
+            <indexterm>crm-installation</indexterm>
+            <!-- Process layer -->
+            <indexterm>install-integration-packages</indexterm>
+            <indexterm>package-installation</indexterm>
+            <indexterm>validate-dependencies</indexterm>
+            <indexterm>configure-integration</indexterm>
+            <indexterm>package-download</indexterm>
+            <indexterm>environment-setup</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>crm-integrations</indexterm>
+            <indexterm>document-signing-workflows</indexterm>
+            <indexterm>deployment-governance</indexterm>
+            <indexterm>implementation-preparation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Asign-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="To install Power echosign integration packages"/>
+         <othermeta name="shortdesc"
+                    content="Provides steps to install the required Power echosign integration packages needed for Adobe Sign and Power platform connectivity."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="integration-package;installation-link;dependency-package;environment-setup;crm-org;admin-user;installation-flow"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:integration-package-installation;industry:enterprise-software"/>
+         <othermeta name="tags"
+                    content="package-installation,adobe-sign,power-integration,crm-setup,installation-dependencies"/>
+         <othermeta name="usecase" content="integration-package-installation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note type="note">
+            <p>For agreement, you must install the <i>Power Contract Lifecycle Management</i> package 8.325 or higher.</p>
+            <p>For quotes, you must install the <i>Power Proposal Management</i> package 8.99 or higher.</p>
+         </note>
+      </context>
+      <ol>
+         <li>
+            <p>Go to the <menucascade>
+                  <uicontrol>Resources </uicontrol>
+                  <uicontrol> Install Center</uicontrol>
+               </menucascade> tab on the Community Portal.</p>
+         </li>
+         <li>
+            <p>In <uicontrol>My Packages</uicontrol> navigation window, under the
+                  <uicontrol>Echosign Integration</uicontrol> section, you will see <uicontrol>Power
+                  CLM Adobe Sign Integration</uicontrol> and <uicontrol>Power Quote EchoSign
+                  Integration</uicontrol>. Click the <uicontrol>Details</uicontrol> link to access
+               the VERSION drop-down, select the version that you want to install.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Install Now. </uicontrol>
+            </p>
+         </li>
+         <li>
+            <p>Select the environment in which you want to install the packages.
+               </p>
+            <p>
+               <ul>
+                  <li>Click <uicontrol>Install in Production</uicontrol> to install the packages in your production org.</li>
+                  <li>Click <uicontrol>Install in Sandbox</uicontrol> to install the packages in your sandbox org.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>In the Salesforce login screen, enter your login credentials and click
+                  <uicontrol>Log In</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Enter the<uicontrol> Password</uicontrol> provided.</p>
+         </li>
+         <li>
+            <p>Select the profile for which you want to install the package. </p>
+            <p>
+               <p>You are recommended to select <uicontrol>Install for All Users</uicontrol>.</p>
+            </p>
+         </li>
+         <li>
+            <p>If you want to Install for Specific Profiles, you must define the access level for
+               all profiles. Select from one of the following options.</p>
+            <p>
+               <ul>
+                  <li>
+                     <p>No Access - This is the default setting. Apply this access level to disable
+                        all object permissions.</p>
+                  </li>
+                  <li>
+                     <p>Full Access - Apply this access level to assign users permissions to Read,
+                        Create, Edit, Delete, View All, and Modify All for all objects.</p>
+                  </li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Set</uicontrol>. </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Install</uicontrol>. </p>
+         </li>
+      </ol>
+      <result id="result_l2f_q23_rcc">A message is displayed indicating the installation is
+         underway. </result>
+      <div>
+         <p>Once installed, repeat this procedure for each of the packages.</p>
+      </div>
+   </body>
+</topic>

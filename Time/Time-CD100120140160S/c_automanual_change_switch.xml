@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c375CE84-BDF3-11F0-7878-09173F13E4C5" xml:lang="en-us">
+   <title>Auto/Manual Change Switch</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-14T11:00:00+05:30"/>
+         <revised modified="2025-11-14T11:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,controls-engineers"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>auto-manual-switch</indexterm>
+            <indexterm>drive-mode-selector</indexterm>
+            <indexterm>electrical-switch</indexterm>
+            <indexterm>control-module</indexterm>
+            <!-- process layer -->
+            <indexterm>mode-change-procedure</indexterm>
+            <indexterm>safety-interlock-check</indexterm>
+            <indexterm>electrical-isolation</indexterm>
+            <indexterm>switch-calibration</indexterm>
+            <indexterm>fault-clearing</indexterm>
+            <!-- context layer -->
+            <indexterm>operational-mode-selection</indexterm>
+            <indexterm>automation-vs-manual-operation</indexterm>
+            <indexterm>fleet-configuration</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>site-operational-policies</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Auto/manual change switch"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for switching between automatic and manual drive modes, including safety checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mode-switch;control-module;interlock;operator-console;wiring"/>
+         <othermeta name="taxonomy"
+                    content="domain:controls-engineering;usecase:mode-selection;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="mode-switch,auto,manual,controls,safety"/>
+         <othermeta name="usecase"
+                    content="change-operation-mode-safely-and-verify-systems"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig id="fig_l4x_x5r_5gc">
+         <image href="media/image239.png" id="image_q4x_x5r_5gc" placement="inline"/>
+      </fig>
+      <p>Automatic speed range:</p>
+      <ul>
+         <li>FORWARD: 3 grade speed</li>
+         <li>REVERSE: 3 grade speed.</li>
+      </ul>
+      <fig>
+         <image href="media/image223.png" placement="inline"/>
+      </fig>
+      <p>MAN When this switch is in “MAN”(manual) position, travel mode is switched to “MANUAL” and
+      allows operator to choose speeds manually.</p>
+      <p>A-1<sup>ST</sup> When this switch is in “A-1<sup>ST</sup>”(automatic 1ST) position, gears are
+      started from 1ST speed and changed “AUTOMATICALLY” to the appropriate speed up to the limit
+      set by the gear ratio according to travel load and engine rpm.</p>
+      <p>A-2<sup>ND</sup> When this switch is in “A-2<sup>ND</sup>”(automatic 2ND) position, gears are
+      started from 2ND speed and changed “AUTOMATICALLY” to the appropriate speed up to the limit
+      set by the gear ratio according to travel load and engine rpm.</p>
+   </body>
+</topic>

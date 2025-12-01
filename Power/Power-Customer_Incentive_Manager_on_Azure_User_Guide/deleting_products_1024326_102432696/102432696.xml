@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c256420E-BDF2-11F0-1578-09173F13E4C5" xml:lang="en">
+   <title>Deleting Products</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-26+05:30"/>
+         <revised modified="2025-11-26"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-cim-power</indexterm>
+            <indexterm>reporting-engine</indexterm>
+            <indexterm>quota-manager</indexterm>
+            <indexterm>data-exporter</indexterm>
+            <indexterm>analytics-dashboard</indexterm>
+            <indexterm>integration-adapter</indexterm>
+            <!-- Process layer -->
+            <indexterm>generate-report</indexterm>
+            <indexterm>export-data</indexterm>
+            <indexterm>define-quota</indexterm>
+            <indexterm>schedule-job</indexterm>
+            <indexterm>transform-csv</indexterm>
+            <indexterm>validate-output</indexterm>
+            <!-- Context layer -->
+            <indexterm>enterprise-software</indexterm>
+            <indexterm>revenue-operations</indexterm>
+            <indexterm>documentation-access</indexterm>
+            <indexterm>data-governance</indexterm>
+            <indexterm>support-workflow</indexterm>
+            <indexterm>compliance-audit</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-CIM-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Deleting Products"/>
+         <othermeta name="shortdesc"
+                    content="How to generate and export reports from the reporting engine, schedule jobs, and validate exported outputs for downstream systems."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="report;export;job-schedule;csv;adapter;analytics"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-operations;usecase:documentation-access;industry:revenue-lifecycle-management"/>
+         <othermeta name="tags"
+                    content="reporting,export,schedule,validation,analytics,metadata"/>
+         <othermeta name="usecase" content="generate-and-export-reports"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Delete option enables you to delete added products or benefits.</p>
+      <p>To delete the added products or benefits, please follow the below steps:</p>
+      <ol>
+         <li>Go to the Qualifications &amp; Benefits page.</li>
+         <li>Select the product which you want to delete and then click Delete. Please view the below image.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432696/107118643.jpg"/>
+            </fig>
+         </li>
+         <li>A pop up appears displaying the below message.<fig>
+               <image placement="break"
+                      width="700"
+                      href="../attachments/102432696/107118644.jpg"/>
+            </fig>
+         </li>
+         <li>If you did any changes before deleting any products a warning message appears, "You will lose unsaved changes. Do you want to continue?". <p>Click Yes - To ignore the changes and the selected product is deleted.</p>
+            <p>Click No - To abort the delete action.</p>
+            <note type="note">
+               <p>On deleting the products, the corresponding page refreshes automatically and displays the remaining number of products.</p>
+            </note>
+         </li>
+      </ol>
+   </body>
+</topic>

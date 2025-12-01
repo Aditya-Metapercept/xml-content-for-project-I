@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="tCA48F47-BB9C-11F0-6185-09173F13E4C5" xml:lang="en-us">
+   <title> Replacing the Vulkolian Wheels on the Vertical Carriage </title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>vulkolian-wheels</indexterm>
+            <indexterm>vertical-carriage</indexterm>
+            <indexterm>wheel-assembly</indexterm>
+            <indexterm>fasteners-and-bolts</indexterm>
+            <!-- Process layer -->
+            <indexterm>replace-vulkolian-wheels</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>torque-sequence</indexterm>
+            <indexterm>alignment-adjustment</indexterm>
+            <indexterm>functional-test-post-replacement</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-task-procedure</indexterm>
+            <indexterm>safety-checks</indexterm>
+            <indexterm>downtime-minimisation</indexterm>
+            <indexterm>quality-assurance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Replacing the Vulkolian Wheels on the Vertical Carriage (Task)"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step task procedure to safely remove and replace Vulkolian wheels on the vertical carriage, including lockout-tagout and post-replacement tests."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="vulkolian wheels; bolts; vertical carriage; alignment tools; torque wrench"/>
+         <othermeta name="taxonomy"
+                    content="domain:maintenance-task;usecase:replace-vulkolian-wheels-task;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="vulkolian-wheels,replacement,lockout-tagout,alignment,post-replacement-test"/>
+         <othermeta name="usecase"
+                    content="execute-safe-wheel-replacement-and-verify-operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Move the vertical carriage into the lower maintenance position.</p>
+            <p>
+               <ul>
+                  <li>Follow the instructions in Section 3 to position the vertical carriage.</li>
+                  <li>Follow the instruction in Section 2 above to lockout-tagout-verify the power
+                     to the lifting station is off.</li>
+                  <li>Enter the safety fence area.</li>
+               </ul>
+               <p>
+                  <fig id="fig_mn2_d1l_lcc">
+                     <image placement="break"
+                            href="media/image14.png"
+                            align="center"
+                            id="image_vs5_d1l_lcc"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Insert both safety bolts into the corresponding bores on the vertical carriage
+               lifting mast and fasten the fixing plate.</p>
+            <p>
+               <ul>
+                  <li>Always make sure that the safety bolts for the vertical carriage are properly
+                     installed before carrying out work on or near the carriage.</li>
+               </ul>
+               <note type="danger" id="note_bsg_21l_lcc">
+                  <p>An unsecured vertical carriage can fall down and cause serious injury or even
+                     death.  </p>
+               </note>
+               <p>
+                  <fig id="fig_lfc_f1l_lcc">
+                     <image placement="break"
+                            href="media/image13.png"
+                            align="center"
+                            id="image_dvl_f1l_lcc"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <note type="warning" id="note_opw_f1l_lcc">
+               <p>There are several crushing points on the machine that can cause injuries! Do not
+                  reach between the following points. </p>
+            </note>
+            <p/>
+            <p>
+               <ul>
+                  <li>Vertical carriage and the steel housing</li>
+                  <li>Vertical carriage and the lifting mast</li>
+                  <li>Locking pins and the container</li>
+                  <li>Vertical carriage and the horizontal carriage </li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Remove all guide wheels for the vertical carriage in the following manner</p>
+            <p>
+               <ul>
+                  <li>Loosen the lock nuts (A).</li>
+                  <li>Twist and remove the adjusting screws (B).</li>
+                  <li>Insert a screw (C) into the threaded hold at the end of the axis.</li>
+                  <li>Push the wheel in the direction of the cylindrical cut-out (see red
+                     arrow).</li>
+                  <li>Hold the wheel and pull out the axis with the help of the inserted bolt in the
+                     direction of the blue arrow.</li>
+                  <li>The wheel and the bearings can now be removed from the assembly.</li>
+               </ul>
+               <p>
+                  <fig id="fig_g3j_dbl_lcc">
+                     <image placement="break"
+                            href="media/image22.png"
+                            align="center"
+                            id="image_kfs_dbl_lcc"/>
+                  </fig>
+                  <fig id="fig_eky_2bl_lcc">
+                     <image placement="break"
+                            href="media/image23.png"
+                            align="center"
+                            id="image_i5g_fbl_lcc"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>To replace the guide wheels</p>
+            <p>
+               <ul>
+                  <li>Place the new wheel with the new bearings between the cylindrical
+                     cut-outs.</li>
+                  <li>Push the axis into the bearings of the wheel.</li>
+                  <li>Push the axis in the direction of the running surface.</li>
+                  <li>Twist the adjusting screws until they hold the axis in position.</li>
+                  <li>Tighten the lock nuts.</li>
+                  <li>Remove the bolt.</li>
+                  <li>Check the position of the vertical carriage and correct it if necessary.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>To restart the lifting station</p>
+            <p>
+               <ul>
+                  <li>Remove the safety bolts.</li>
+                  <li>Remove all tools and accessories.</li>
+                  <li>Ensure that all personnel have left the safety fence area and that the safety
+                     fence doors are closed.</li>
+                  <li>Verify that all safety components are in place.</li>
+                  <li>When leaving the fenced area, press the<uicontrol> Door Reset
+                     </uicontrol>button.</li>
+                  <li>Remove LOTO and re-install the 3 circuit breakers in the MSK control
+                     cabinet.</li>
+                  <li>At the control panel, cancel any faults by pressing the Reset Fault button on
+                     the control panel.</li>
+                  <li>Also, press the <uicontrol>Reset Safety Fence Area </uicontrol>button.</li>
+                  <li>Ensure that no personnel are near the equipment, or in the safety fence
+                     area.</li>
+                  <li>Return the system to the Start position in Manual mode.</li>
+                  <li>Then switch the system to Automatic mode. (For details, see SBS-OP-026
+                     Operating the Lifting Station.)</li>
+                  <li>Observe the operation to ensure that the lifting station is working properly.
+                  </li>
+               </ul>
+               <note type="caution" id="note_g55_x1l_lcc">
+                  <p>There is a serious danger for anyone inside the safety fence area when the
+                     lifting station is turned on. </p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
