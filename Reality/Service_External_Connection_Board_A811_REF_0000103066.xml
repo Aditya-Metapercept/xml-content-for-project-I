@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ExternalConnectionBoardA811-4C428247" xml:lang="en">
+   <title>External Connection Board (A811)</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>external-connection-board-a811</indexterm>
+            <indexterm>terminal-interface-board</indexterm>
+            <indexterm>power-termination-board</indexterm>
+            <indexterm>field-terminal-assembly</indexterm>
+            <indexterm>external-i/o-board</indexterm>
+            <!-- Process layer -->
+            <indexterm>terminal-wiring</indexterm>
+            <indexterm>connection-verification</indexterm>
+            <indexterm>earth-grounding-check</indexterm>
+            <indexterm>cable-routing</indexterm>
+            <indexterm>insulation-testing</indexterm>
+            <indexterm>labeling-and-documentation</indexterm>
+            <!-- Context layer -->
+            <indexterm>site-termination</indexterm>
+            <indexterm>plant-electrics</indexterm>
+            <indexterm>incoming-power-feed</indexterm>
+            <indexterm>control-room-interface</indexterm>
+            <indexterm>installation-safety</indexterm>
+            <indexterm>maintenance-access</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="External Connection Board (A811)"/>
+         <othermeta name="shortdesc"
+                    content="Reference for external connection board A811, detailing terminal layout, wiring instructions, and verification checks for site connection."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="external-connection-board-a811;terminal-blocks;cable-lugs;main-fuse;incoming-power-cables;earth-rod"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:site-termination;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="terminals,wiring,installation,verification,earth"/>
+         <othermeta name="usecase" content="site-termination-and-wiring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>external connection board</indexterm>
+         <p>The external
+connection board contains terminals and connectors for external connections
+to and from the UPS. Terminals are mounted for connection to:<ul>
+               <li>
+                  <p>various signalling switches</p>
+               </li>
+               <li>
+                  <p>ON/OFF buttons</p>
+               </li>
+               <li>
+                  <p>emergency stop (may be supplied from an external source)</p>
+               </li>
+               <li>
+                  <p>a temperature sensor</p>
+               </li>
+            </ul>
+         </p>
+         <p>
+            <hazardstatement type="notice">
+               <messagepanel>
+                  <typeofhazard/>
+                  <howtoavoid>
+                     <sl>
+                        <sli>The input contacts on the external connection board are designed
+for internal use only. The wires connected to these terminals must
+not be lead out of the UPS cabinet. No external supply voltage is
+allowed.</sli>
+                     </sl>
+                     <sl>
+                        <sli>Do not interchange wires of different functions (battery temperature
+sensors, EPO, input contacts and output relays) as this will damage
+the board.</sli>
+                     </sl>
+                  </howtoavoid>
+               </messagepanel>
+            </hazardstatement>
+         </p>
+         <fig>
+            <title>Board layout</title>
+            <image href="../Images/0p2553a_pcb_external_connection_board_w120mm_0000104040.svg"
+                   placement="inline"/>
+         </fig>
+      </section>
+      <section>
+         <title>Input Contacts and Output Relays</title>
+         <p>Summary
+of signals:<ul>
+               <li>
+                  <p>1 common alarm output relays</p>
+               </li>
+               <li>
+                  <p>2 free programmable output relays</p>
+               </li>
+               <li>
+                  <p>1 EPO input contact</p>
+               </li>
+               <li>
+                  <p>2 free programmable inputs contacts</p>
+               </li>
+               <li>
+                  <p>1 battery temperature input and/or ambient temperature (free
+programmable)</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Assignment</title>
+         <p>All of the input contacts and
+output relays can be assigned to functions and alarms by configuration
+(no fixed assignments). The Emergency Power OFF (EPO) is an exception
+as it is always assigned as shown in the connection diagram for the
+external connection board. There are two connection options:</p>
+         <table frame="none" pgwide="1">
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry colsep="0">
+                        <fig>
+                           <title>Using the internal supply</title>
+                           <image href="../Images/epoconnection_internal_supply_120mm_0000117942.svg"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                     <entry>
+                        <fig>
+                           <title>Using an external supply</title>
+                           <image href="../Images/epoconnection_external_supply_120mm_0000117941.svg"
+                                  scalefit="yes"
+                                  placement="inline"/>
+                        </fig>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Input Contacts</title>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1" colwidth="20%"/>
+               <colspec colname="col2"/>
+               <colspec colname="COLSPEC0"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Name</entry>
+                     <entry valign="top">Description</entry>
+                     <entry valign="top">Location</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>EPO</entry>
+                     <entry>Emergency Power Off</entry>
+                     <entry>J1602 on 0P2553A</entry>
+                  </row>
+                  <row>
+                     <entry>Option 1 IN</entry>
+                     <entry>Block boost/Initial charge</entry>
+                     <entry>J1600 on 0P2553A</entry>
+                  </row>
+                  <row>
+                     <entry>Option 2 IN</entry>
+                     <entry>Force to boost charge</entry>
+                     <entry>J1601 on 0P2553A</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Technical Data for Input Contacts</title>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <tbody>
+                  <row>
+                     <entry>Internal DC supply voltage</entry>
+                     <entry>24 V limited (10 mA per input)</entry>
+                  </row>
+                  <row>
+                     <entry>Threshold resistance 0 → 1</entry>
+                     <entry>Less than 520 Ohm → 1</entry>
+                  </row>
+                  <row>
+                     <entry>Threshold resistance 1 → 0</entry>
+                     <entry>More than 1050 Ohm → 0</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Output Relays</title>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1" colwidth="20%"/>
+               <colspec colname="col2"/>
+               <colspec colname="COLSPEC1"/>
+               <tbody>
+                  <row>
+                     <entry>Name</entry>
+                     <entry>Description</entry>
+                     <entry>Location</entry>
+                  </row>
+                  <row>
+                     <entry>Common alarm</entry>
+                     <entry>Common alarm</entry>
+                     <entry>J1607 on 0P2553A</entry>
+                  </row>
+                  <row>
+                     <entry>Option 1 OUT</entry>
+                     <entry>Battery operation</entry>
+                     <entry>J1608 on 0P2553A</entry>
+                  </row>
+                  <row>
+                     <entry>Option 2 OUT</entry>
+                     <entry>Static bypass operation</entry>
+                     <entry>J1609 on 0P2553A</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+         <p>The output relays react to an alarm occurrence with a 5
+ seconds delay.</p>
+      </section>
+      <section>
+         <title>Technical Data for Output Relays</title>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="COLSPEC0"/>
+               <tbody>
+                  <row>
+                     <entry>Maximum AC voltage </entry>
+                     <entry nameend="COLSPEC0" namest="col2">400 V</entry>
+                  </row>
+                  <row>
+                     <entry>Minimum AC voltage </entry>
+                     <entry nameend="COLSPEC0" namest="col2">5 V</entry>
+                  </row>
+                  <row>
+                     <entry>Maximum DC voltage</entry>
+                     <entry nameend="COLSPEC0" namest="col2">250 V</entry>
+                  </row>
+                  <row>
+                     <entry>Minimum DC voltage</entry>
+                     <entry nameend="COLSPEC0" namest="col2">5 V</entry>
+                  </row>
+                  <row>
+                     <entry>Maximum AC current</entry>
+                     <entry nameend="COLSPEC0" namest="col2">8 A</entry>
+                  </row>
+                  <row>
+                     <entry>Minimum AC current</entry>
+                     <entry>2 mA at 24 V</entry>
+                     <entry>10 mA at 5 V</entry>
+                  </row>
+                  <row>
+                     <entry>Maximum DC current</entry>
+                     <entry>0.3 mA at 300 V</entry>
+                     <entry>8A at 32 V</entry>
+                  </row>
+                  <row>
+                     <entry>Minimum DC current</entry>
+                     <entry>2 mA at 24 V</entry>
+                     <entry>10 mA at 5 V</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section/>
+      <section>
+         <title>Temperature Sensors</title>
+         <p>
+            <ul>
+               <li>
+                  <p>1 input</p>
+               </li>
+               <li>
+                  <p>Configurable as ambient or battery temperature sensor</p>
+               </li>
+               <li>
+                  <p>Temperature sensor name configurable</p>
+               </li>
+               <li>
+                  <p>Alarm level configurable</p>
+               </li>
+               <li>
+                  <p>Battery temperature compensation function selectable</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+   </body>
+</topic>

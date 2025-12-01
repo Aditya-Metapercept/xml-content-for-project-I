@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DefinitivelyAcknowledgeAlertViaTheD-90AF90DA" xml:lang="en">
+   <title>Acknowledge an Alert via the Display</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>display-alert-acknowledgement</indexterm>
+            <indexterm>display</indexterm>
+            <indexterm>hmi</indexterm>
+            <indexterm>alert-system</indexterm>
+            <indexterm>interface</indexterm>
+            <indexterm>user-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>acknowledge-alert</indexterm>
+            <indexterm>definitive-acknowledgement</indexterm>
+            <indexterm>display-navigation</indexterm>
+            <indexterm>alarm-clear</indexterm>
+            <indexterm>user-interaction</indexterm>
+            <indexterm>logging</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>control-room</indexterm>
+            <indexterm>field-service</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>service-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Acknowledge an Alert via the Display"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step task describing how to acknowledge and clear alerts via the system display to ensure proper logging and operator acknowledgement."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="display;alert;hmi;logs;operator;acknowledgement"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:service-connection-diagrams;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="alert,acknowledgement,display,task,operator,logging"/>
+         <othermeta name="usecase" content="service-connection-diagrams"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note>This action can only be performed by an FSR. This will
+definitively acknowledge a pending alert via the display without the
+need to connect to the service port.</note>
+      </context>
+      <ol>
+         <li>
+            <p>To view the LCM status, select <uicontrol>Diagnosis</uicontrol> &gt; <uicontrol>LCM status</uicontrol>.</p>
+            <stepxmp>
+               <table>
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">LCM status:Tech. check needed</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>To definitively acknowledge the pending alert, press the <uicontrol> ENTER</uicontrol> key on the HMI 5 times within 5 seconds while
+the alert is shown under <uicontrol>LCM status</uicontrol> on the
+screen. The alert is now definitively acknowledged.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

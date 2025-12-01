@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="GroupIdentificationDiagram-98F3E879" xml:lang="en">
+   <title>Group Identification Diagram</title>
+   <shortdesc>
+      <keyword>Profiles for UL and IEC are in this topic + tables</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>group-identification-diagram</indexterm>
+            <indexterm>component-mapping-diagram</indexterm>
+            <indexterm>cabinet-layout</indexterm>
+            <indexterm>wiring-groups</indexterm>
+            <indexterm>identification-key</indexterm>
+            <!-- Process layer -->
+            <indexterm>diagram-reading</indexterm>
+            <indexterm>group-labeling</indexterm>
+            <indexterm>layout-verification</indexterm>
+            <indexterm>documentation-update</indexterm>
+            <indexterm>spare-part-mapping</indexterm>
+            <indexterm>component-tracing</indexterm>
+            <!-- Context layer -->
+            <indexterm>service-documentation</indexterm>
+            <indexterm>installation-planning</indexterm>
+            <indexterm>maintenance-mapping</indexterm>
+            <indexterm>control-cabinet-layout</indexterm>
+            <indexterm>plant-schematic</indexterm>
+            <indexterm>field-service-reference</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Group Identification Diagram"/>
+         <othermeta name="shortdesc"
+                    content="Provides group identification and component-mapping diagrams used to locate assemblies, connectors and service groups within the UPS cabinet."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="group-diagram;cabinet-assembly;connectors;mounting-rails;service-groups;component-ids"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:documentation-and-mapping;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="diagram,layout,mapping,identification,service"/>
+         <othermeta name="usecase" content="component-identification-and-mapping"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <fig otherprops="UL">
+            <image href="../Images/service_Reality_nam_group_identification_diagram_120mm_0000186536.svg"
+                   placement="inline"/>
+         </fig>
+         <fig expanse="page" otherprops="IEC">
+            <image href="../Images/groupidentificationdiagram_0000117138.png"
+                   scalefit="yes"
+                   scope="local"
+                   translate="no"
+                   xml:lang="en"
+                   placement="inline"/>
+         </fig>
+      </section>
+      <section>
+         <title>Groups</title>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="20%"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Group</entry>
+                     <entry valign="top">Description</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>0xx</entry>
+                     <entry>AC incoming</entry>
+                  </row>
+                  <row>
+                     <entry>1xx</entry>
+                     <entry>Power module</entry>
+                  </row>
+                  <row>
+                     <entry>2xx</entry>
+                     <entry>Battery</entry>
+                  </row>
+                  <row>
+                     <entry>4xx</entry>
+                     <entry>Static switch and
+inverter output</entry>
+                  </row>
+                  <row>
+                     <entry>5xx</entry>
+                     <entry>Bypass input</entry>
+                  </row>
+                  <row>
+                     <entry>6xx</entry>
+                     <entry>Manual bypass / coupling and system output</entry>
+                  </row>
+                  <row>
+                     <entry>7xx</entry>
+                     <entry>Auxiliary (heating, light, ...)</entry>
+                  </row>
+                  <row>
+                     <entry>8xx</entry>
+                     <entry>Control electronic</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>Letter Code</title>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="20%"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry valign="top">Letter</entry>
+                     <entry valign="top">Description</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>A</entry>
+                     <entry>PCBs, HMI, control box</entry>
+                  </row>
+                  <row>
+                     <entry>B</entry>
+                     <entry>Current transfomer</entry>
+                  </row>
+                  <row>
+                     <entry>E</entry>
+                     <entry>Fan module</entry>
+                  </row>
+                  <row>
+                     <entry>F</entry>
+                     <entry>Fuse</entry>
+                  </row>
+                  <row otherprops="IEC">
+                     <entry>Q</entry>
+                     <entry>Power switch, breaker,
+SBS</entry>
+                  </row>
+                  <row otherprops="IEC">
+                     <entry>S</entry>
+                     <entry>Switch</entry>
+                  </row>
+                  <row>
+                     <entry>T</entry>
+                     <entry>Power module and transformer</entry>
+                  </row>
+                  <row otherprops="IEC">
+                     <entry>V</entry>
+                     <entry>RFI filter</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+   </body>
+</topic>
