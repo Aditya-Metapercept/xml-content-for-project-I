@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_LIBDOCT">
+   <title>Document Folder Structure</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>document-folder-structure</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>folder-templates</indexterm>
+            <indexterm>document-folders</indexterm>
+            <indexterm>workflow-association</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-folder-template</indexterm>
+            <indexterm>define-folder-hierarchy</indexterm>
+            <indexterm>edit-folder</indexterm>
+            <indexterm>assign-permissions</indexterm>
+            <indexterm>add-files-to-folders</indexterm>
+            <indexterm>select-folder-template</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-documentation</indexterm>
+            <indexterm>contract-documentation</indexterm>
+            <indexterm>workflow-governance</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Document Folder Structure"/>
+         <othermeta name="shortdesc"
+                    content="Create and manage predefined document folder structures, assign workflows and permissions, and add files for use in projects and contracts."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document-folder-template;folder-hierarchy;folder-permissions;workflow-list;document-management-module;document-folder-catalog;file-uploader;project-documents;contract-documents"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:folder-structure-definition;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="folder structure,document templates,permissions,workflow,library management,files,document management"/>
+         <othermeta name="usecase" content="define-and-manage-document-folder-structures"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>The <uicontrol>Document Folder Structure</uicontrol> catalog in the library enables you to create predefined folder structures and save them as templates. You can also add files to folders in thesetemplates. Onselecting a document template when creating a project or a contract, the folder structure and files as defined in the selected template are automatically created in the <uicontrol>Documents</uicontrol> module of the project or contract.You can also assign permissions and associate a workflow to each of the folders in the template that are effective when the folder structure is created automatically in a project or a contract.</p>
+         <p>You can create multiple folder structuresand save these templatesin the library. Each of the templates can be structured differently and be used for various types of projects and contracts.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Document Management</uicontrol>, and then click <uicontrol>Document Folder Structure</uicontrol>.</p>
+            <p>The <uicontrol>DOCUMENT FOLDER STRUCTURE</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>New</uicontrol>. </p>
+            <p>The <uicontrol>DOCUMENT FOLDER STRUCTURE</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Document Folder Structure Name</uicontrol> box, enter the name of the template.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Description</uicontrol> box, enter the description for the folder structure.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+         <li>
+            <p>To define the folder structure for the template, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>DOCUMENT FOLDER STRUCTURE</uicontrol> list page, select a document template, and then click <uicontrol>Settings</uicontrol>.</p>
+                  <p>The <uicontrol>Configure Document Folder Structure</uicontrol> page is displayed.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>DOCUMENT FOLDERS</uicontrol> pane, click a folder to create a folder within the selected folder.</p>
+               </li>
+               <li>
+                  <p>Click  <uicontrol>Folder</uicontrol>, and then click <uicontrol>New Folder</uicontrol> to add a new folder to the document template.</p>
+                  <p>The added folder is displayed in the <uicontrol>DOCUMENT FOLDERS</uicontrol> pane.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>DOCUMENT FOLDERS</uicontrol> pane, enter a name for the folder.</p>
+                  <p>
+                     <note> You cannot duplicate folder names at the same level of hierarchy.</note>
+                  </p>
+               </li>
+               <li>
+                  <p>To edit a folder name, or delete a folder, click the requiredfolder,  click <uicontrol>Folder</uicontrol>, and then click <uicontrol>Edit Folder</uicontrol> or <uicontrol>Delete Folder</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To assign a workflow to a folder, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the<uicontrol>DOCUMENT FOLDERS</uicontrol> pane, click the appropriate folder.</p>
+               </li>
+               <li>
+                  <p>From the <uicontrol>Associate Workflow</uicontrol> drop-down list, select the appropriate workflow to associate with the folder.</p>
+                  <p>Available options are workflows defined for the document management module. <ph product="Exclude_PG_Content">For information on workflows, refer to <xref href="../../../Administration/Configuration_Toolkit/Workflow_Management/WFMgmt.xml">Workflow Management</xref>.</ph>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To define permissions on a folder, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the<uicontrol>DOCUMENT FOLDERS</uicontrol> pane, select the appropriate folder.</p>
+               </li>
+               <li>
+                  <p>Perform either of the following steps:</p>
+                  <p>
+                     <ul>
+                        <li>To inherit permissions from the parent folder, select the <uicontrol>Inherit Parent Folder Permissions</uicontrol>check box.</li>
+                        <li>Alternatively, to define permissions, perform the following steps:<ol>
+                              <li>Click <uicontrol>Folder</uicontrol>, and then click <uicontrol>Permissions</uicontrol>.<p>The <uicontrol>FOLDER PERMISSIONS</uicontrol> page is displayed.</p>
+                                 <p>Roles are available as rows, and permissions as columns.</p>
+                              </li>
+                              <li>Corresponding to each role, select the required check boxes to grant permissions specified in the columns.</li>
+                              <li>Click <uicontrol>Save</uicontrol>.</li>
+                           </ol>
+                        </li>
+                     </ul>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add documents to the folder structure, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the<uicontrol>DOCUMENT FOLDER</uicontrol> section, click the folder to which you want to add a file.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>New </uicontrol> to add a file to the selected folder. </p>
+                  <p>The <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> dialog box is displayed.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Choose File</uicontrol> to select the file to upload.</p>
+                  <p>The <uicontrol>Open</uicontrol>dialog box is displayed.</p>
+               </li>
+               <li>
+                  <p>Click the required file, and then click <uicontrol>Open</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Title</uicontrol> box, enter the name of the file.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Save</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

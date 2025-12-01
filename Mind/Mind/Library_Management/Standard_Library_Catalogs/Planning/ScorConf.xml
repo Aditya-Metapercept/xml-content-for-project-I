@@ -3,8 +3,6 @@
    <title>Scoring Configuration</title>
    <shortdesc/>
    <prolog>
-
-   
       <author>Pallavi</author>
       <critdates>
          <created date="2025-11-21+05:30"/>
@@ -14,21 +12,6 @@
          <audience type="role"
                    otherprops="administrator,engineering,management,external-contractors,analyst"/>
          <keywords><!-- Product layer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <indexterm>scoring-configuration</indexterm>
             <indexterm>project-scoring</indexterm>
             <indexterm>scoring-attributes</indexterm>
