@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmap xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+         format="A4"
+         id="DocumentTypeProductFamilyNameSpecif-BA78BDF3f"
+         linking="none"
+         otherprops="Public"
+         platform="Paper"
+         product="SchneiderElectric"
+         translate="yes"
+         xml:lang="en"
+         ditaarch:DITAArchVersion="1.3"
+         domains="(map mapgroup-d)                            (map bookmap)                            (topic abbrev-d)                            (topic delay-d)                            a(props deliveryTarget)                            (map ditavalref-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic ui-d)                            (topic ut-d)                            (topic xnal-d)                            (topic markup-d xml-d)   ">
+   <booktitle>
+      <booklibrary>Technical Specifications</booklibrary>
+      <mainbooktitle>Reality PXC</mainbooktitle>
+      <booktitlealt>25-100 kVA</booktitlealt>
+      <booktitlealt/>
+      <booktitlealt>
+         <image href="../Images/Realitypxc_fl_v1_25-50_kva_0000104360.svg"
+                height="120mm"
+                scalefit="yes"
+                placement="inline"/>
+      </booktitlealt>
+   </booktitle>
+   <bookmeta>
+      <authorinformation>
+         <organizationinfo>
+            <namedetails>
+               <organizationnamedetails>
+                  <organizationname>Schneider Electric</organizationname>
+               </organizationnamedetails>
+            </namedetails>
+            <addressdetails>
+               <thoroughfare>35 rue Joseph
+Monier</thoroughfare>
+               <locality>
+                  <postalcode>92500</postalcode>
+                  <localityname>Rueil Malmaison</localityname>
+               </locality>
+               <country>France</country>
+            </addressdetails>
+            <contactnumbers>
+               <contactnumber>+ 33 (0) 1 41
+29 70 00</contactnumber>
+            </contactnumbers>
+            <urls>
+               <url href="http://www.schneider-electric.com" scope="external">www.schneider-electric.com</url>
+            </urls>
+         </organizationinfo>
+      </authorinformation>
+      <publisherinformation>
+         <organization>Schneider Electric</organization>
+      </publisherinformation>
+      <bookid>
+         <bookpartno>990–9970A-001</bookpartno>
+         <edition>11/2017</edition>
+      </bookid>
+      <bookrights>
+         <copyrfirst>
+            <year>2016</year>
+         </copyrfirst>
+         <copyrlast>
+            <year>2017</year>
+         </copyrlast>
+         <bookowner>
+            <organization>Schneider
+Electric</organization>
+         </bookowner>
+      </bookrights>
+   </bookmeta>
+   <frontmatter>
+      <booklists>
+         <toc/>
+      </booklists>
+   </frontmatter>
+   <chapter href="../Topics/Safety_Information_REF_0000015590.xml"
+            format="dita"
+            navtitle="Safety Information"
+            scope="local"
+            type="reference">
+      <topicref href="../Topics/FCC_Statement_REF_0000088370.xml"
+                format="dita"
+                navtitle="FCC Statement"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Reality_Safety_Precautions_REF_0000166123.xml"
+                format="dita"
+                navtitle="Safety Precautions"
+                scope="local"
+                type="reference"/>
+   </chapter>
+   <chapter href="../Topics/Technical_Data_REF_0000002710.xml"
+            format="dita"
+            navtitle="Technical Data"
+            scope="local"
+            type="reference">
+      <topicref href="../Topics/Model_List_REF_0000103840.xml"
+                format="dita"
+                navtitle="Model List"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Input_Power_Factor_REF_0000103839.xml"
+                format="dita"
+                navtitle="Input Power Factor"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Efficiency_REF_0000103838.xml"
+                format="dita"
+                navtitle="Efficiency"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Efficiency_for_UPS_with_Transformer_REF_0000162025.xml"
+                format="dita"
+                navtitle="Efficiency for UPS with Transformer"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Battery_Runtimes_REF_0000108730.xml"
+                format="dita"
+                navtitle="Battery Runtimes"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Derating_Due_to_Load_Power_Factor_REF_0000103837.xml"
+                format="dita"
+                navtitle="Derating Due to Load Power Factor"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Compliance_REF_0000103836.xml"
+                format="dita"
+                navtitle="Compliance"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Communication_and_Management_REF_0000003228.xml"
+                format="dita"
+                navtitle="Communication and Management"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/Input_Contacts_and_Output_Relays_Configuration_Settings_REF_0000117007.xml"
+                   format="dita"
+                   navtitle="Input Contacts and Output Relays Configuration Settings"
+                   scope="local"
+                   type="reference"/>
+      </topicref>
+   </chapter>
+   <chapter href="../Topics/Facility_Planning_REF_0000002709.xml"
+            format="dita"
+            navtitle="Facility Planning"
+            scope="local"
+            type="reference">
+      <topicref href="../Topics/UPS_without_Transformer_HEADER_0000162003.xml"
+                format="dita"
+                navtitle="UPS without Transformer"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/Input_Specifications_for_UPS_without_Transformer_REF_0000103835.xml"
+                   format="dita"
+                   navtitle="Input Specifications for UPS without Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Bypass_Specifications_for_UPS_without_Transformer_REF_0000103832.xml"
+                   format="dita"
+                   navtitle="Bypass Specifications for UPS without Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Output_Specifications_REF_0000103853.xml"
+                   format="dita"
+                   navtitle="Output Specifications"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Battery_Specifications_REF_0000103873.xml"
+                   format="dita"
+                   navtitle="Battery Specifications"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Required_Upstream_Protection_REF_0000103872.xml"
+                   format="dita"
+                   navtitle="Required Upstream Protection"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Recommended_Cable_Sizes_REF_0000103871.xml"
+                   format="dita"
+                   navtitle="Recommended Cable Sizes"
+                   scope="local"
+                   type="reference"/>
+      </topicref>
+      <topicref href="../Topics/25-50_kVA_UPS_with_Transformer_REF_0000165991.xml"
+                format="dita"
+                navtitle="25–50 kVA UPS with Transformer"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/Input_Specifications_for_UPS_with_T001_Input_Transformer_REF_0000103834.xml"
+                   format="dita"
+                   navtitle="Input Specifications for 25-50 UPS with T001 Input Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Bypass_Specifications_for_UPS_with_T003_Transformer_REF_0000103831.xml"
+                   format="dita"
+                   navtitle="Bypass Specifications for 25-50 UPS with T003 Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Output_Specifications_for_25-50_kVA_UPS_0000162004.xml"
+                   format="dita"
+                   navtitle="Output Specifications for 25-50 UPS"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/25-50_kVA_Battery_Specifications_REF_0000166236.xml"
+                   format="dita"
+                   navtitle="Battery Specifications"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Recommended_Upstream_Protection_for_75-100_kVA_UPS_REF_0000162000.xml"
+                   format="dita"
+                   navtitle="Recommended Upstream Protection for 25-50 kVA UPS"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Recommended_Cable_Sizes_for_25-50_kVA_UPS_REF_0000161999.xml"
+                   format="dita"
+                   navtitle="Recommended Cable Sizes for 25–50 kVA UPS"
+                   scope="local"
+                   type="reference"/>
+      </topicref>
+      <topicref href="../Topics/75-100_kVA_UPS_with_Transformer_REF_0000165990.xml"
+                format="dita"
+                navtitle="75–100 kVA UPS with Transformer"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/Input_Specifications_for_UPS_with_T001_Input_Transformer_and_T002_Output_0000103833.xml"
+                   format="dita"
+                   navtitle="Input Specifications for 75-100 UPS with T001 Input Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Bypass_Specifications_for_75-100_kVA_UPS_with_T003_Bypass_Transformer_R_0000162005.xml"
+                   format="dita"
+                   navtitle="Bypass Specifications for 75-100 UPS with T003 Transformer"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Output_Specifications_75-100_kVA_0000161914.xml"
+                   format="dita"
+                   navtitle="Output Specifications for 75-100"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/75-100_kVA_Battery_Specifications_REF_0000166237.xml"
+                   format="dita"
+                   navtitle="Battery Specifications"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Recommended_Upstream_Protection_for_75-100_kVA_UPS_REF_0000162001.xml"
+                   format="dita"
+                   navtitle="Recommended Upstream Protection for 75–100 kVA UPS"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Recommended_Cable_Sizes_for_75-100_kVA_UPS_REF_0000161998.xml"
+                   format="dita"
+                   navtitle="Recommended Cable Sizes for 75–100 kVA UPS"
+                   scope="local"
+                   type="reference"/>
+      </topicref>
+      <topicref href="../Topics/Torque_Specifications_REF_0000108729.xml"
+                format="dita"
+                navtitle="Torque Specifications"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/Physical_REF_0000002721.xml"
+                format="dita"
+                navtitle="Physical"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/UPS_without_Transformer_HEADER_0000162003.xml"
+                   format="dita"
+                   navtitle="UPS without Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/UPS_Weights_and_Dimensions_REF_0000103870.xml"
+                      format="dita"
+                      navtitle="UPS Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/UPS_Shipping_Weights_and_Dimensions_REF_0000103869.xml"
+                      format="dita"
+                      navtitle="UPS Shipping Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/Clearance_REF_0000108728.xml"
+                      format="dita"
+                      navtitle="Clearance"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+         <topicref href="../Topics/25-50_kVA_UPS_with_Transformer_REF_0000165991.xml"
+                   format="dita"
+                   navtitle="25–50 kVA UPS with Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/UPS_Weights_and_Dimensions_REF_0000161913.xml"
+                      format="dita"
+                      navtitle="25-50 UPS Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/25-50_kVA_UPS_Shipping_Weights_and_Dimensions_REF_0000162085.xml"
+                      format="dita"
+                      navtitle="25–50 kVA UPS Shipping Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/Clearance_25-50_kVA_0000161965.xml"
+                      format="dita"
+                      navtitle="Clearance 25-50 kVA"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+         <topicref href="../Topics/75-100_kVA_UPS_with_Transformer_REF_0000165990.xml"
+                   format="dita"
+                   navtitle="75–100 kVA UPS with Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/75-100_kVA_UPS_Weights_and_Dimensions_REF_0000161997.xml"
+                      format="dita"
+                      navtitle="75-100 UPS Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/75-100_kVA_UPS_Shipping_Weights_and_Dimensions_REF_0000162084.xml"
+                      format="dita"
+                      navtitle="75–100 kVA UPS Shipping Weights and Dimensions"
+                      scope="local"
+                      type="reference"/>
+            <topicref href="../Topics/Clearance_for_75-100_kVA_UPS_REF_0000161996.xml"
+                      format="dita"
+                      navtitle="Clearance for 75–100 kVA UPS"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+         <topicref href="../Topics/Top_Entry_Cabinet_Weight_and_Dimensions_REF_0000117357.xml"
+                   format="dita"
+                   navtitle="Top Entry Cabinet Weight and Dimensions"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Top_Entry_Cabinet_Shipping_Weight_and_Dimensions_REF_0000117356.xml"
+                   format="dita"
+                   navtitle="Top Entry Cabinet Shipping Weight and Dimensions"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Battery_Cabinet_Weights_and_Dimensions_25-100_kVA_NAM_0000111790.xml"
+                   format="dita"
+                   navtitle="Battery Cabinet Weights and Dimensions"
+                   scope="local"
+                   type="reference"/>
+         <topicref href="../Topics/Battery_Cabinet_Shipping_Weights_and_Dimensions_25-100_kVA_NAM_0000111789.xml"
+                   format="dita"
+                   navtitle="Battery Cabinet Shipping Weights and Dimensions"
+                   scope="local"
+                   type="reference"/>
+      </topicref>
+      <topicref href="../Topics/Environment_25-100_kVA_208V_0000104350.xml"
+                format="dita"
+                navtitle="Environment"
+                scope="local"
+                type="reference">
+         <topicref href="../Topics/UPS_without_Transformer_HEADER_0000162003.xml"
+                   format="dita"
+                   navtitle="UPS without Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/Heat_Dissipation_REF_0000103868.xml"
+                      format="dita"
+                      navtitle="Heat Dissipation"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+         <topicref href="../Topics/25-50_kVA_UPS_with_Transformer_REF_0000165991.xml"
+                   format="dita"
+                   navtitle="25–50 kVA UPS with Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/Heat_Dissipation_REF_0000162024.xml"
+                      format="dita"
+                      navtitle="Heat Dissipation for 25-50 kVA"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+         <topicref href="../Topics/75-100_kVA_UPS_with_Transformer_REF_0000165990.xml"
+                   format="dita"
+                   navtitle="75–100 kVA UPS with Transformer"
+                   scope="local"
+                   type="reference">
+            <topicref href="../Topics/Heat_Dissipation_for_75-100_kVA_0000162083.xml"
+                      format="dita"
+                      navtitle="Heat Dissipation for 75-100 kVA"
+                      scope="local"
+                      type="reference"/>
+         </topicref>
+      </topicref>
+   </chapter>
+   <chapter href="../Topics/Drawings_REF_0000087145.xml"
+            format="dita"
+            navtitle="Drawings"
+            scope="local"
+            type="reference">
+      <topicref href="../Topics/One_Line_Drawings_for_UPS_without_Transformer_REF_0000162694.xml"
+                format="dita"
+                navtitle="One Line Drawings for UPS without Transformer"
+                scope="local"
+                type="reference"/>
+      <topicref href="../Topics/One_Line_Drawings_for_UPS_with_Transformer_REF_0000162695.xml"
+                format="dita"
+                navtitle="One Line Drawings for UPS with Transformer"
+                scope="local"
+                type="reference"/>
+   </chapter>
+   <chapter href="../Topics/Options_REF_0000103867.xml"
+            format="dita"
+            navtitle="Options"
+            scope="local"
+            type="reference"/>
+   <chapter href="../Topics/Schneider_Electric_Limited_Factory_Warranty_0000005458.xml"
+            format="dita"
+            navtitle="APC by Schneider Electric Limited Factory Warranty"
+            scope="local"
+            type="reference"/>
+   <backmatter/>
+</bookmap>
