@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMCrtFldr">
+   <title>Creating a Folder</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>folder-management</indexterm>
+            <indexterm>project-folder-system</indexterm>
+            <indexterm>folder-structure-module</indexterm>
+            <indexterm>access-control-module</indexterm>
+            <indexterm>user-roles-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>creating-folder</indexterm>
+            <indexterm>entering-folder-details</indexterm>
+            <indexterm>setting-default-permissions</indexterm>
+            <indexterm>saving-folder-configuration</indexterm>
+            <indexterm>configuring-folder-metadata</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>project-workspace</indexterm>
+            <indexterm>web-application-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Creating a Folder"/>
+         <othermeta name="shortdesc"
+                    content="Provides steps for creating a new folder within the project workspace and configuring its initial settings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="folder;permissions;roles;project;description-field"/>
+         <othermeta name="taxonomy"
+                    content="domain:folder-management;usecase:create-folder;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="folder,creation,permissions,roles,project-workspace"/>
+         <othermeta name="usecase" content="create-new-folder"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can organize project and contract documents into folders created in the document management system.<note>Based on the roles and permissions defined, the stakeholders can  create a new folder to the pre-defined folder structure.</note>
+      </context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>Click<uicontrol>New</uicontrol>. <image href="../../Icons/NewFolder.png" placement="inline">
+                  <alt>New</alt>
+               </image>
+            </p>
+            <p>The<uicontrol>New Folder</uicontrol> dialog box is displayed.</p>
+            <p>
+               <fig>
+                  <title>New Folder</title>
+                  <image href="../../Icons/Screenshots_Icons/New_Folder.jpg" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Name</uicontrol> box, type the folder name.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Description</uicontrol> box, type a brief description of the folder.</p>
+         </li>
+         <li>
+            <p>Ensure the<uicontrol>Inherit Parent Permissions</uicontrol> check box is selected to provide the same permissions to the folder as its parent folder.</p>
+            <p>Optionally, clear the check box to provide permissions to the folder as defined for the roles of the current user.<note>  If the folder is being created for a project, then the permissions are inherited only for the roles that the user is invited to in the project. </note>
+            </p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+            <p>The folder is created in the selected folder.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_SCORDPT">
+   <title>Scoring Department</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scoring-department</indexterm>
+            <indexterm>planning-module</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>department-configuration</indexterm>
+            <indexterm>weightage-settings</indexterm>
+            <indexterm>department-details-page</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-scoring-department</indexterm>
+            <indexterm>enter-department-name</indexterm>
+            <indexterm>define-department-description</indexterm>
+            <indexterm>set-weightage-percentage</indexterm>
+            <indexterm>navigate-planning-section</indexterm>
+            <indexterm>save-scoring-department</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>evaluation-framework</indexterm>
+            <indexterm>project-scoring</indexterm>
+            <indexterm>performance-weightage</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Scoring Department"/>
+         <othermeta name="shortdesc"
+                    content="Create and configure scoring departments by defining name, description, and weightage percentage in the Planning module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="scoring-department;weightage-field;planning-module;department-details-page;library-module;project-evaluation;department-record"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:scoring-department-setup;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="scoring,departments,planning,weightage,evaluation,configuration"/>
+         <othermeta name="usecase" content="create-and-configure-scoring-departments"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Planning</uicontrol>,and then click <uicontrol>ScoringDepartment</uicontrol>.</p>
+            <p>The <uicontrol>SCORING DEPARTMENT</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The new <uicontrol>SCORING DEPARTMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Name</uicontrol> box, enter the name of the department.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Description</uicontrol> box, enter the description for the department.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Weightage (%)</uicontrol> field, enter the required weightage percentage.</p>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

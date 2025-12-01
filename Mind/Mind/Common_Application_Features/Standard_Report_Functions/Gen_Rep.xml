@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="GenReport">
+   <title>Generating a Report</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>report-generator</indexterm>
+            <indexterm>administration-portal</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>analytics-module</indexterm>
+            <indexterm>common-application-features</indexterm>
+            <!-- Process layer -->
+            <indexterm>generating-report</indexterm>
+            <indexterm>configuring-report-filters</indexterm>
+            <indexterm>accessing-report-data</indexterm>
+            <indexterm>building-analytics-output</indexterm>
+            <indexterm>viewing-report-results</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-reporting</indexterm>
+            <indexterm>operational-analysis</indexterm>
+            <indexterm>administrative-operations</indexterm>
+            <indexterm>data-visualization</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Generating a Report"/>
+         <othermeta name="shortdesc"
+                    content="Users can generate reports containing information based on form data and project involvement."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="report; filter; form-data; project; report-viewer"/>
+         <othermeta name="taxonomy"
+                    content="domain:administration;usecase:report-generation;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="report,generation,analytics,data,projects"/>
+         <othermeta name="usecase" content="generate reports from form and project data"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can generate various  reports that
+comprise information based on the roles assigned to you and the various
+projects to which you are invited.</p>
+         <p>For a few reports, you can use the filter criteria to provide information 
+for the relevant fields and generate the reports.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Perform either of the following as applicable:</p>
+            <p>
+               <ul>
+                  <li>
+                     <p>In the form list page, click <uicontrol>Reports</uicontrol>, and then click the appropriate report.</p>
+                  </li>
+                  <li>
+                     <p>In the navigation pane, click <uicontrol>Report Gallery</uicontrol>, and then double-click the appropriate report.</p>
+                  </li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>If filtering options are necessary, select the appropriate information in the relevant fields, and then click <uicontrol>View Report</uicontrol>. </p>
+            <p>The report is generated and displayed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

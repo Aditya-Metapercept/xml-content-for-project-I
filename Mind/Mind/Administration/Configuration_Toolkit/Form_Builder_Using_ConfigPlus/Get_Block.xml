@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="GetBlock" xml:lang="en-us">
+   <title>Get</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>get-block</indexterm>
+            <indexterm>data-block</indexterm>
+            <indexterm>block-identifier</indexterm>
+            <indexterm>api-endpoint</indexterm>
+            <indexterm>cache-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>block-retrieval</indexterm>
+            <indexterm>cache-lookup</indexterm>
+            <indexterm>api-fetch</indexterm>
+            <indexterm>data-deserialization</indexterm>
+            <indexterm>error-recovery</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>runtime-fetch</indexterm>
+            <indexterm>integration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Get Block"/>
+         <othermeta name="shortdesc"
+                    content="Details how to retrieve blocks at runtime: API endpoints, caching strategies, serialization and recovery patterns for block data."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="block;api;cache;payload;identifier"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:block-retrieval;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="get-block,api,cache,retrieval,serialization"/>
+         <othermeta name="usecase" content="retrieve-block-data"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Get</uicontrol> blocks enable you to get values of the current form
+or  the information stored in variables. The following table provides information on the blocks available in the <uicontrol>Get</uicontrol> block:<table>
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="30%"/>
+               <colspec colname="c2" colnum="2" colwidth="70%"/>
+               <thead>
+                  <row>
+                     <entry>Block Name</entry>
+                     <entry>Description</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <uicontrol>Get Value of</uicontrol>
+                     </entry>
+                     <entry>Enables you to get the value of  any field that is
+available in the current form.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Get Property of</uicontrol>
+                     </entry>
+                     <entry>Enables you to get the information that is stored in any variable. You can select the name of the variable
+and the property for that variable. <note>Properties are useful when multiple
+fields are stored in a variable, and you can specify which field you want to select.</note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Get Workflow Status of Current Form</uicontrol>
+                     </entry>
+                     <entry>Enables you to get the workflow status of the current form.</entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <uicontrol>Get Workflow Status for</uicontrol>
+                     </entry>
+                     <entry>This block  is very similar to the <uicontrol>Get Workflow Status of Current Form</uicontrol> block. Additionally, you can configure the specific Module and Form for which the
+workflow status must  be returned. It can be connected to the <uicontrol>SELECT</uicontrol> block that can retrieve the ID or specific record details to which workflow
+information must be returned.</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

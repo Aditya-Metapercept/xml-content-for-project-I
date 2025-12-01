@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Definitions" xml:lang="en-us">
+   <title>Definitions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>variable-control</indexterm>
+            <indexterm>math-operator</indexterm>
+            <indexterm>logic-block</indexterm>
+            <indexterm>variable-group</indexterm>
+            <indexterm>data-type-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>term-definition</indexterm>
+            <indexterm>variable-initialization</indexterm>
+            <indexterm>math-operation-handling</indexterm>
+            <indexterm>value-calculation-flow</indexterm>
+            <indexterm>logic-computation</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Definitions"/>
+         <othermeta name="shortdesc"
+                    content="Provides definitions for blocks, variables and math operations used in form logic and configuration."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="block;logic;variable;math;calculation"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="definitions,variable,math,calculation,logic"/>
+         <othermeta name="usecase" content="configure-and-manage-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>DEFINITIONS</uicontrol> blocks are reusable entities that enable you to use  many logic components. The  <uicontrol>DEFINITIONS</uicontrol> block has two types of entities:<ul>
+            <li>
+               <xref href="Variables.xml">Variables</xref>
+            </li>
+            <li>
+               <xref href="Math.xml">Math</xref>
+            </li>
+         </ul>
+      </p>
+   </body>
+</topic>

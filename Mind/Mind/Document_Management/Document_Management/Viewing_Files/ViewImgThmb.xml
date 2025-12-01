@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMViewSSThmbnail">
+   <title>Viewing Slideshow and Thumbnails of Images</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product -->
+            <indexterm>thumbnail-view</indexterm>
+            <indexterm>image-browser</indexterm>
+            <indexterm>media-preview</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Process -->
+            <indexterm>view-thumbnail</indexterm>
+            <indexterm>browse-images</indexterm>
+            <indexterm>navigate-media</indexterm>
+            <indexterm>select-image</indexterm>
+            <indexterm>preview-thumbnail</indexterm>
+            <!-- Context -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-application</indexterm>
+            <indexterm>engineering-media</indexterm>
+            <indexterm>software-interface</indexterm>
+            <indexterm>digital-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Viewing Image Thumbnails"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to preview and navigate image thumbnails in the viewer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="thumbnail;image-set;viewer;media-grid;navigation panel"/>
+         <othermeta name="taxonomy"
+                    content="domain:document-management;usecase:thumbnail-navigation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="thumbnail,media browser,image navigation,preview,grid view"/>
+         <othermeta name="usecase" content="navigating image thumbnails"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li href="../../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>To view the slide show:</p>
+            <ol>
+               <li>
+                  <p>Click <uicontrol>More</uicontrol>, and then click <uicontrol>Slide Show</uicontrol> to view a slide show presentation of images in that folder.</p>
+               </li>
+               <li>
+                  <p>Click on the image to view the navigation pane at the bottom of the page. Click <image href="../../../Icons/img_close.jpg" placement="inline">
+                        <alt>Swipe Box Close</alt>
+                     </image> to view the list page of the document folder. Or, click <image href="../../../Icons/next-image.gif" placement="inline">
+                        <alt>Swipe Box Next</alt>
+                     </image> or <image href="../../../Icons/prev-image.gif" placement="inline">
+                        <alt>Swipe Box Previous</alt>
+                     </image> to view the next image or the previous image.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To view thumbnails:</p>
+            <ol>
+               <li>
+                  <p>Click <uicontrol>More</uicontrol>, and then click  <uicontrol>Thumbnail View</uicontrol> to view reduced size images of pictures in the selected folder.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>More</uicontrol>, and then click <uicontrol>List View</uicontrol> to view the document list page.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

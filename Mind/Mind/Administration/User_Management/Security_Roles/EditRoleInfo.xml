@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_USRROLS_Edit">
+   <title>Editing Role Information</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>role-editing</indexterm>
+            <!-- Product layer -->
+            <indexterm>security-roles</indexterm>
+            <!-- Product layer -->
+            <indexterm>user-management</indexterm>
+            <!-- Product layer -->
+            <indexterm>admin-console</indexterm>
+            <!-- Product layer -->
+            <indexterm>access-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>edit-role</indexterm>
+            <!-- Process layer -->
+            <indexterm>update-permissions</indexterm>
+            <!-- Process layer -->
+            <indexterm>change-role-name</indexterm>
+            <!-- Process layer -->
+            <indexterm>review-changes</indexterm>
+            <!-- Process layer -->
+            <indexterm>publish-role-updates</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>role-maintenance</indexterm>
+            <!-- Context layer -->
+            <indexterm>web-admin-portal</indexterm>
+            <!-- Context layer -->
+            <indexterm>administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Editing Role Information"/>
+         <othermeta name="shortdesc"
+                    content="Editing role information enables you to manage role definitions and permissions via the administration module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="role;permission;admin-console;audit-log;module"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:edit-role-information;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="edit-role,permissions,role-info,admin"/>
+         <othermeta name="usecase" content="edit-role-information"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+    Editing role information enables you to manage the system's security by defining permissions to a role  and restricting user access to selective modules or forms in the application.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click<uicontrol>Security Roles</uicontrol>.</p>
+            <p>The<uicontrol>SECURITY ROLES</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the appropriate role, and then click<uicontrol>Edit</uicontrol>.</p>
+            <p>The<uicontrol>SECURITY ROLES</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Update the <uicontrol>Role</uicontrol> and <uicontrol>Description</uicontrol> fields with the appropriate information.</p>
+            <p>For information on permissions, refer to<xref href="../Permissions/ConfigRolePerms.xml">Configuring Role Permissions</xref>.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+      <div>If the role name is modified, ensure that the associated workflows' stakeholders are updated at every stage.<ph>For information on updating a workflow, refer to <xref href="../../Configuration_Toolkit/Workflow_Management/EditWF.xml">Editing a Workflow</xref> .</ph>
+      </div>
+   </body>
+</topic>

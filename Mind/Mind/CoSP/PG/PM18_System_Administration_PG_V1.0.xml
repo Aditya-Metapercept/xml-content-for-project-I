@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ditamap-4418">
+   <title>System Administration</title>
+   <topicref href="../../Administration/Admin.xml"/>
+   <topicref href="../../Administration/System_Configurations/SysConfig.xml">
+      <topicref href="../../Administration/System_Configurations/App_Settings.xml"/>
+      <topicref href="../../Administration/System_Configurations/AuthLoginSettings.xml"/>
+      <topicref href="../../Administration/System_Configurations/WFSettings.xml"/>
+      <topicref href="../../Administration/System_Configurations/ConfigMobSettings.xml"/>
+      <topicref href="../../Administration/System_Configurations/GIS/GIS_Settings/GIS.xml">
+         <topicref href="../../Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.xml"/>
+         <topicref href="../../Administration/System_Configurations/GIS/ESRI_Logs.xml"/>
+      </topicref>
+   </topicref>
+   <topicref href="../../Administration/Functional_Configurations/Funct_Cnfig.xml">
+      <topicref href="../../Administration/Functional_Configurations/Featuresettngs.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/CnfigPlngMgmt.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/CnfigBdgtMgmt.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/ConfigCntMgmt.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/CnfigRsrceMgmt.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/IssueLogColorConfig.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/MobAppSettings.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/MeetingSettings.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/ImpNotifics.xml"/>
+      <topicref href="../../Administration/Functional_Configurations/Report_Management/RepMgmt.xml">
+         <topicref href="../../Administration/Functional_Configurations/Report_Management/CnfigRep.xml"/>
+         <topicref href="../../Administration/Functional_Configurations/Report_Management/UnsubsReps.xml"/>
+      </topicref>
+      <topicref href="../../Administration/Functional_Configurations/Business_Units/BUs.xml">
+         <topicref href="../../Administration/Functional_Configurations/Business_Units/CreateBU.xml"/>
+         <topicref href="../../Administration/Functional_Configurations/Business_Units/AssignBUtoUser.xml"/>
+         <topicref href="../../Administration/Functional_Configurations/Business_Units/RevokeBU.xml"/>
+         <topicref href="../../Administration/Functional_Configurations/Business_Units/DeactBU.xml"/>
+      </topicref>
+   </topicref>
+   <topicref href="../../Administration/User_Management/UserMgmt.xml">
+      <topicref href="../Administration/User_Management/User_Accounts/UserAccs.xml">
+         <topicref href="../Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAcc.xml"/>
+         <topicref href="../Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAccsBulk.xml"/>
+         <topicref href="../Administration/User_Management/User_Accounts/EditUserAccDets.xml"/>
+         <topicref href="../Administration/User_Management/User_Accounts/ChangePassword.xml"/>
+         <topicref href="../Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/UserAccStatus.xml">
+            <topicref href="../Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/ActUsrAcc.xml"/>
+            <topicref href="../Administration/User_Management/User_Accounts/Changing_the_Status_of_a_User_Account/DeActUserAcc.xml"/>
+         </topicref>
+         <topicref href="../Administration/User_Management/User_Accounts/UnlockUsrAcc.xml"/>
+         <topicref href="../Administration/User_Management/User_Accounts/GenUsrAccReps.xml"/>
+      </topicref>
+      <topicref href="../../Administration/User_Management/Security_Roles/SecurityRoles.xml">
+         <topicref href="../../Administration/User_Management/Security_Roles/CreateRole.xml"/>
+         <topicref href="../../Administration/User_Management/Security_Roles/AssignRoletoUsr.xml"/>
+         <topicref href="../../Administration/User_Management/Security_Roles/EditRoleInfo.xml"/>
+         <topicref href="../../Administration/User_Management/Security_Roles/DelSecRole.xml"/>
+      </topicref>
+      <topicref href="../../Administration/User_Management/Permissions/ConfigRolePerms.xml">
+         <topicref href="../../Administration/User_Management/Permissions/ConfigPerms-Role.xml"/>
+         <topicref href="../../Administration/User_Management/Permissions/ConfigPerm-Form.xml"/>
+         <topicref href="../../Administration/User_Management/Permissions/ConfigPermis-Bulk.xml"/>
+      </topicref>
+      <topicref href="../../Administration/User_Management/Auto_Invite/AutoInvite.xml">
+         <topicref href="../../Administration/User_Management/Auto_Invite/CrtAIRule.xml"/>
+         <topicref href="../../Administration/User_Management/Auto_Invite/EditAIRule.xml"/>
+         <topicref href="../../Administration/User_Management/Auto_Invite/ExctAIRul.xml"/>
+         <topicref href="../../Administration/User_Management/Auto_Invite/DelAIRule.xml"/>
+      </topicref>
+      <topicref href="../../Administration/User_Management/Online_Registrations/OnlineAccRegs.xml">
+         <topicref href="../../Administration/User_Management/Online_Registrations/ApprPndRegReq.xml"/>
+         <topicref href="../../Administration/User_Management/Online_Registrations/RjctPndRegReq.xml"/>
+      </topicref>
+      <topicref href="../../Administration/System_Configurations/Authentication_and_Login_Settings_with_AIS/EIP_User.xml"/>
+      <topicref href="../../Administration/User_Management/Online_Users/Online_Users.xml">
+         <topicref href="../../Administration/User_Management/Online_Users/ViewOnlineUsrs.xml"/>
+         <topicref href="../../Administration/User_Management/Online_Users/LogOffUserRemotely.xml"/>
+      </topicref>
+      <topicref href="../../Administration/User_Management/UsrAcctn_config.xml"/>
+      <topicref href="../../Administration/User_Management/Delegation_of_Authority/DOA.xml">
+         <topicref href="../../Administration/User_Management/Delegation_of_Authority/Delegate.xml"/>
+         <topicref href="../../Administration/User_Management/Delegation_of_Authority/EditDOA.xml"/>
+         <topicref href="../../Administration/User_Management/Delegation_of_Authority/ViewDOA.xml"/>
+         <topicref href="../../Administration/User_Management/Delegation_of_Authority/RevkDeleg.xml"/>
+         <topicref href="../../Administration/User_Management/Delegation_of_Authority/DelDOA.xml"/>
+      </topicref>
+   </topicref>
+   <topicref href="../../Administration/Configuration_Toolkit/ConfigToolkit.xml">
+      <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/WFMgmt.xml">
+         <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/CreateWF.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/CreateWFSimple.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/CreateWFAdv.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/EditWF.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Workflow_Management/PublishWF.xml"/>
+      </topicref>
+      <topicref href="../../Administration/Configuration_Toolkit/Form_Builder/FormBuilder.xml">
+         <topicref href="../../Administration/Configuration_Toolkit/Form_Builder/ImportingXMLFileorFormintoFormBuilder.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Form_Builder/UsingFormBuilder.xml"/>
+         <topicref href="../../Administration/Configuration_Toolkit/Form_Builder/PublishForm.xml"/>
+      </topicref>
+   </topicref>
+   <topicref href="../Administration/ViewntegrLogs.xml"/>
+</topic>

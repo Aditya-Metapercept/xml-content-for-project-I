@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PrfmWFAction">
+   <title>Performing a Workflow Action</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>workflow-module</indexterm>
+            <indexterm>state-manager</indexterm>
+            <indexterm>task-queue</indexterm>
+            <indexterm>transition-rules</indexterm>
+            <!-- Process layer -->
+            <indexterm>initiate-transition</indexterm>
+            <indexterm>approve-transition</indexterm>
+            <indexterm>execute-transition</indexterm>
+            <indexterm>validate-preconditions</indexterm>
+            <indexterm>rollback-transition</indexterm>
+            <!-- Context layer -->
+            <indexterm>process-orchestration</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>stakeholder-approval</indexterm>
+            <indexterm>automation</indexterm>
+            <indexterm>operational-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Transition Workflow"/>
+         <othermeta name="shortdesc"
+                    content="Explains workflow transition mechanics, rule validation, approvals and execution of stage changes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="workflow;transition-rule;stage;approval-task;state-manager"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:workflow-transition;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="workflow,transition,approval,automation,stages"/>
+         <othermeta name="usecase" content="manage-workflow-transitions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>A workflow is associated with the record.</li>
+            <li>You are a stakeholder for the particular status in the workflow.</li>
+            <li>You are invited to the project.</li>
+            <li>You have edit permission on the form or document.</li>
+            <li>Workflow action is pending on you.</li>
+         </ul>
+      </prereq>
+      <context>Performing a workflow action in a record transitions therecord from its current workflow status to the subsequent workflow status based on the definition of the workflow.<note> A workflow status is transitioned to the subsequent workflow status based on the workflow action conditions defined. <ph product="Exclude_PG_Content">For information on action conditions, refer to <xref href="../../Administration/Configuration_Toolkit/Workflow_Management/CreateWFSimple.xml">Creating a Workflow, Action Condition Configuration</xref>.</ph>
+         </note>
+      </context>
+      <ol>
+         <li>
+            <p>Open a form list page or document list page.</p>
+            <p>
+               <note> You can view the workflow status of a record in the <uicontrol>Workflow Stage</uicontrol> column of the list page.</note>
+            </p>
+         </li>
+         <li>
+            <p>Perform either of the following steps:</p>
+            <ul>
+               <li>Select the appropriate record.</li>
+               <li>Select multiple records that are in the same workflow status and have the same workflow associated with them.</li>
+               <li>Select the appropriate record, and then click <uicontrol>Edit</uicontrol>.</li>
+            </ul>
+         </li>
+         <li>
+            <p>Click <uicontrol>Select Actions</uicontrol>, and then click the appropriate workflow action.</p>
+            <p>Available actions are based on the definition of the associatedworkflow. </p>
+            <p>The <uicontrol>Notes</uicontrol> dialog box is displayed.</p>
+         </li>
+         <li>
+            <p>Optionally, in the <uicontrol>Notes</uicontrol> box, enter the notes for the workflow transition.</p>
+            <p>You can access these notes from the <uicontrol>Workflow History</uicontrol> dialog box. <ph product="Exclude_PG_Content">For information on viewing the history of workflow transitions of the record, refer to <xref href="ViewWFHistory.xml">Workflow History</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Set Days To Complete for Next Stage</uicontrol> box, enter the number of days for completion of the current status.</p>
+         </li>
+         <li>
+            <p>Optionally, in the <uicontrol>ATTACHMENTS</uicontrol> section, you can attach or link related documents.</p>
+            <p>For additional information on attachments, refer to <xref href="../Attachments/Attachments.xml">Attachments</xref>.</p>
+            <p>You can access these documents from the Workflow History dialog box. <ph product="Exclude_PG_Content">For information on viewing the history of workflow transitions of the record, refer to <xref href="ViewWFHistory.xml">Workflow History</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>OK</uicontrol>.</p>
+         </li>
+      </ol>
+      <result>
+         <note>
+            <ul>
+               <li>Specific workflow statuses cannot be reverted to the previous workflow status. To check if a workflow state can be reverted, click <uicontrol>Status</uicontrol> in the list page.</li>
+               <li>Certain fields in a form may not be available for entry or selection based on the current workflow status of the record.</li>
+            </ul>
+         </note>
+      </result>
+   </body>
+</topic>

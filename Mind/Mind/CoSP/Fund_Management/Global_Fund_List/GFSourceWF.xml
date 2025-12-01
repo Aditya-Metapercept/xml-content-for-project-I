@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WF-GFSource">
+   <title>Global Fund List Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="administrator, engineering, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>global-fund-source-workflow</indexterm>
+            <indexterm>fund-management-module</indexterm>
+            <indexterm>investment-workflow-system</indexterm>
+            <indexterm>fund-source-tracking</indexterm>
+            <indexterm>fund-source-management-tool</indexterm>
+            <!-- Process layer -->
+            <indexterm>global-fund-source-workflow</indexterm>
+            <indexterm>creating-fund-source-proposal</indexterm>
+            <indexterm>approving-fund-source</indexterm>
+            <indexterm>validating-fund-source-data</indexterm>
+            <indexterm>publishing-fund-source-record</indexterm>
+            <indexterm>reviewing-fund-source-status</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>fund-governance</indexterm>
+            <indexterm>investment-fund-processing</indexterm>
+            <indexterm>enterprise-software-system</indexterm>
+            <indexterm>programme-office-environment</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Global Fund Source Workflow"/>
+         <othermeta name="shortdesc"
+                    content="Workflow for managing global fund source in the system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="global fund source;workflow;fund-source record;investment fund"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:manage-fund-source-workflow;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="fund-source,workflow,approval,investment-governance,record-management"/>
+         <othermeta name="usecase" content="manage-global-fund-source-workflow"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table colsep="1" rowsep="1">
+         <desc>
+            <p>The following table provides the workflow actions and status (current and subsequent status) of the <uicontrol>Global Fund List </uicontrol> record.</p>
+            <p>For information on setting a workflow status to the next status, refer to<xref href="../../../Common_Application_Features/Workflow_Management/WFStgTrans.xml">Workflow Status Transitions</xref>.</p>
+         </desc>
+         <tgroup cols="6">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <colspec colname="c3" colnum="3"/>
+            <colspec colname="c4" colnum="4"/>
+            <colspec colname="c5" colnum="5"/>
+            <colspec colname="c6" colnum="6"/>
+            <thead>
+               <row>
+                  <entry> Phase </entry>
+                  <entry> Current Workflow Status </entry>
+                  <entry>Action Stakeholders</entry>
+                  <entry> Action </entry>
+                  <entry> Subsequent Workflow Status </entry>
+                  <entry> Comments </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry> 1 </entry>
+                  <entry> Draft </entry>
+                  <entry morerows="2">Fund Manager</entry>
+                  <entry> Submit </entry>
+                  <entry> Submitted </entry>
+                  <entry> - </entry>
+               </row>
+               <row>
+                  <entry morerows="1"> 2 </entry>
+                  <entry morerows="1"> Submitted </entry>
+                  <entry> Re-Draft </entry>
+                  <entry> Draft </entry>
+                  <entry> - </entry>
+               </row>
+               <row>
+                  <entry> Approve </entry>
+                  <entry> Approved </entry>
+                  <entry> - </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_LIBCLDR">
+   <title>Calendar</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,planner,project-manager,contract-manager,engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>calendar</indexterm>
+            <indexterm>calendar-configuration</indexterm>
+            <indexterm>working-days</indexterm>
+            <indexterm>non-working-days</indexterm>
+            <indexterm>holiday-setup</indexterm>
+            <indexterm>calendar-exceptions</indexterm>
+            <indexterm>resource-calendar</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-working-days</indexterm>
+            <indexterm>set-calendar-exceptions</indexterm>
+            <indexterm>configure-holidays</indexterm>
+            <indexterm>mark-resource-calendar</indexterm>
+            <indexterm>update-calendar-settings</indexterm>
+            <!-- Context layer -->
+            <indexterm>project-management</indexterm>
+            <indexterm>contract-management</indexterm>
+            <indexterm>scheduling-and-planning</indexterm>
+            <indexterm>resource-utilization</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Calendar"/>
+         <othermeta name="shortdesc"
+                    content="Defines organizational working days, non-working days, holidays, and exceptions used when calculating project or contract schedules."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="calendar;holiday;working-days;exceptions;resource-calendar;project-calendar;contract-calendar"/>
+         <othermeta name="taxonomy"
+                    content="domain:project-management;usecase:calendar-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="calendar,working-days,non-working-days,exceptions,resource-calendar,planning"/>
+         <othermeta name="usecase" content="configure-calendar"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>The <uicontrol>Calendar</uicontrol> library catalog enables you to define the working days of the organization. You can also define non-working days and holidays forthe organization ina calendar.During project or contract creation when a calendar is selected, the number of working days of the project or contract iscalculated based on the calendar selected.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Project Management</uicontrol>, and then click<uicontrol>Calendar</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The <uicontrol>CALENDAR </uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Name </uicontrol>box, enter a name for the calendar.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Description </uicontrol>box, enter a description for the calendar.</p>
+         </li>
+         <li>
+            <p>To make the calendar unavailable for selection in projects or contracts, clear the <uicontrol>Is Active</uicontrol> check box.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Non-Working Days</uicontrol>check box options, select the non-working days in a week.</p>
+         </li>
+         <li>
+            <p>To define exceptions to the calendar, that is, to change a specific non-working day to a working day or contrariwise, in the <uicontrol>EXCEPTIONS</uicontrol> section, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click <uicontrol>Add</uicontrol>.</p>
+                  <p>The <uicontrol>New Exceptions</uicontrol> dialog box is displayed.</p>
+               </li>
+               <li>
+                  <p>From the <uicontrol>Date </uicontrol>drop-down list, select the date to define an exception.</p>
+               </li>
+               <li>
+                  <p>From the <uicontrol>Type </uicontrol>drop-down list, select the required option.</p>
+                  <p>If the selected option is <uicontrol>Working Day</uicontrol>, the date is considered when calculating the number of working days in projects.</p>
+                  <p>If the selected option is <uicontrol>Non Working Day</uicontrol>, the date is not considered when calculating the number of working days in projects.</p>
+                  <p>For example, in the <uicontrol>Non-Working Days</uicontrol> options if <uicontrol>Saturday </uicontrol>is selected as a non-working day, and if a particular Saturday needs to be a working day, the exception can be defined here, and the Saturday is considered when calculating the number of working days in the project.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Notes </uicontrol>box, enter any required notes for the exception.</p>
+               </li>
+               <li>
+                  <p>To consider the exception across years when calculating the number of working days in a project, select the <uicontrol>Recurring Annually </uicontrol>check box.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Save</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+            <p>You can mark a calendar as a <uicontrol>Resource Calendar</uicontrol> that is used to calculate a resource's availability at an organization level. The defined resource calendar is used in the <uicontrol>Resource Utilization Report</uicontrol>. The Resource Utilization Report provides an overview of the average utilization of all resourcesallocated to all tasks in all projects and displays resource over-utilization, if any. <ph product="Exclude_PG_Content">For information onthe Resource Utilization Report, refer to<xref href="../../../Enterprise_Management/GenEntReps/GenEntReps.xml">Resource Utilization Report</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>To mark a calendar as the<uicontrol>Resource Calendar</uicontrol>, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>CALENDAR</uicontrol> list page, select the appropriate calendar.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Mark asResource Calendar</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_DOCMDTA">
+   <title>Document Properties</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>document-properties</indexterm>
+            <indexterm>document-attributes</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>folder-association</indexterm>
+            <indexterm>metadata-templates</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-document-properties-template</indexterm>
+            <indexterm>design-form-layout</indexterm>
+            <indexterm>add-controls-to-template</indexterm>
+            <indexterm>set-attribute-fields</indexterm>
+            <indexterm>publish-document-properties-template</indexterm>
+            <indexterm>modify-template-settings</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>document-search</indexterm>
+            <indexterm>project-documentation</indexterm>
+            <indexterm>contract-documentation</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Document Properties"/>
+         <othermeta name="shortdesc"
+                    content="Create and design document properties templates to capture metadata, define custom attributes, and publish templates for use in projects and contracts."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document-properties-template;form-builder;attribute-fields;document-search;document-folder;workflow-association;radio-button-control;multi-line-text-control;metadata-fields;project-document-upload"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:document-properties-template-design;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="document properties,metadata,templates,form design,documents,library management,custom attributes"/>
+         <othermeta name="usecase"
+                    content="design-and-publish-document-properties-templates"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can create custom document properties templates that can be displayed in the<uicontrol>New Document</uicontrol>page to recordadditional information pertaining to documents that are managed in a project or contract.The <uicontrol>Document Properties</uicontrol>form enables youto add attributes when uploading a document. These document attributes can be then utilized in the <uicontrol>Document Search</uicontrol>form to search for documents.</p>
+         <p>You can create multiple document properties templates with variedspecifications for use indifferent project types. For example, a design project may require document properties that referto the architect's numbering scheme to simplify communication, while a construction project may requiredocument propertiesto identify the vendor who provided the document.</p>
+         <p>You can associate a document property template to a folder in the <uicontrol>Documents </uicontrol>module, and also <xref product="Exclude_PG_Content" href="AsctDocProp.xml">associate document property templates to folders defined in a folder structure</xref>
+            <ph product="Include_PG_Content">associate document property templates to folders defined in a folder structure</ph>. The document properties as defined in the template that is selected for a folder are displayed when uploading documents to that folder.</p>
+         <p>Thedocument properties template specification can comprise library items (stored lists), text, numbers and various other information. Also, you can mark fields as mandatory or optional.</p>
+         <p>You can select a document properties template when creating a project or contract, or until a document is uploaded to the<uicontrol>Documents</uicontrol>module. The document properties as defined in the template that is selected for a project or contract is displayed when uploadingdocuments to the<uicontrol>Documents</uicontrol>module.</p>
+         <p>Characteristics of metadata specifications include:</p>
+         <ul>
+            <li>The <uicontrol>Document Properties</uicontrol> template selected for a project or contract cannot be changed after the first document is uploaded in a project.</li>
+            <li>The <uicontrol>Document Properties </uicontrol>template is not applicable to attachments in forms or workflows.</li>
+            <li>The <uicontrol>Document Properties</uicontrol> templateselected for a project or contract is consistently used across theproject or contract.</li>
+         </ul>
+         <p>Defining adocument properties template is similar to the functionalities available with the <uicontrol>Form Builder</uicontrol>utility in the <uicontrol>Administration </uicontrol>module. <ph product="Exclude_PG_Content">For additional information, refer to<xref href="../../../Administration/Configuration_Toolkit/Form_Builder/FormBuilder.xml">Form Builder</xref>.</ph>
+         </p>
+         <p>The following procedure describes the steps to create a sample document properties template that is displayed when uploading a document. The sample document properties template consistsof a text box to enter the document number, and a radio-button control to select the type of document.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Document Management</uicontrol>, and then click <uicontrol>Document Properties</uicontrol>.</p>
+            <p>The <uicontrol>DOCUMENT PROPERTIES</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The <uicontrol>GENERAL </uicontrol>and <uicontrol>DESIGN</uicontrol>tabs for the document properties template are displayed.</p>
+         </li>
+         <li>
+            <p>To modify the form settings,in the <uicontrol>GENERAL </uicontrol>tab, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the<uicontrol>Form ID</uicontrol>box, a unique number to identify theform is displayed. Modify the form ID as required.</p>
+                  <p>The form ID should contain seven alphanumeric characters.</p>
+               </li>
+               <li>
+                  <p>In the<uicontrol>Header</uicontrol>box, the name of the form isdisplayed. Modifythe header information as required.</p>
+                  <p>Header is displayed only after you publish a form.</p>
+               </li>
+               <li>
+                  <p>From the<uicontrol>Parent Module</uicontrol>drop-down list, select the module in which the XML form will be placed.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Folder </uicontrol>box, enter the folder location where the form will be placed in the navigation tree.</p>
+                  <p>Type the complete path of the folder using the '/' separator.</p>
+                  <p>If the folder exists, then the form will be available under the existing folder. Otherwise, a new folder will be created, and the form will be placed under that folder.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To design the layout of the form, first create a section. A section provides a boundary in the design area to add controls.</p>
+            <ol>
+               <li>
+                  <p>Click the <uicontrol>DESIGN</uicontrol> tab.</p>
+               </li>
+               <li>
+                  <p>In the controls pane, expand <uicontrol>GROUP LAYOUT</uicontrol>, and then drag and drop <uicontrol>Section </uicontrol>to the design area.</p>
+                  <p>The label <uicontrol>SECTION &lt;number&gt; </uicontrol>is displayed in the design area.</p>
+               </li>
+               <li>
+                  <p>In the design area, click <uicontrol>SECTION &lt;number&gt;</uicontrol>.</p>
+                  <p>The control attributes pane displays the attributes for <uicontrol>SECTION &lt;number&gt;</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>To define the attributes of the section, enter information in the <uicontrol>COMMON ATTRIBUTES</uicontrol> section, as described in the following table.</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="30%"/>
+                           <colspec colname="c2" colnum="2" colwidth="70%"/>
+                           <thead>
+                              <row>
+                                 <entry>Attribute</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Caption</entry>
+                                 <entry>This denotes the display name of the section. <p>In the <uicontrol>Caption </uicontrol>box, enter <uicontrol>Document Properties</uicontrol>.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Name</entry>
+                                 <entry>This is an automatically generated name to identify the section, and need not be modified. <p>This is also the name of the column in the database, and is used to derive the name of the HTML item that is rendered.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>HelpToolTip</entry>
+                                 <entry>You can enter the tool tip that should be displayed on mouse hover on the Help ('?') icon.</entry>
+                              </row>
+                              <row>
+                                 <entry>HelpDescription</entry>
+                                 <entry>You can enter the title that should be displayed when the Help ('?') icon is clicked.</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add a text box control, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the controls pane, click <uicontrol>SIMPLE INPUT CONTROLS</uicontrol>, and then drag and drop <uicontrol>Multi Line Text</uicontrol> into the <uicontrol>DOCUMENT PROPERTIES</uicontrol> section.</p>
+                  <p>
+                     <note> Drop a control within the confines of the section for the control to be displayed in the design area.</note>
+                  </p>
+               </li>
+               <li>
+                  <p>Double-click <uicontrol>TextBox &lt;number&gt; </uicontrol>and enter <uicontrol>Document Properties</uicontrol>. </p>
+                  <p>The various attributes of the control are listed below:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="30%"/>
+                           <colspec colname="c2" colnum="2" colwidth="70%"/>
+                           <thead>
+                              <row>
+                                 <entry>Attribute</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Caption</entry>
+                                 <entry>This denotes the display name of the control. <p>The name to render on the display surface. If the caption is not set, then the default caption is set to the <uicontrol>Name </uicontrol>attribute of the control. To set a control with no title, delete the caption.</p>
+                                    <p>Enter <uicontrol>Document Properties</uicontrol>.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Name</entry>
+                                 <entry>This is a system generated name to denote the control. You need not modify this field; however, normally a form designer provides names that represent the meaning of the data in the field. Name attributes should not have spaces in them, and they must be unique throughout the form. <p>The name field is used to create the underlying database column name and to derive the name of the rendered HTML item.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>HelpToolTip</entry>
+                                 <entry>You can enter the tool tip that should be displayed on mouse hover on the Help ('?') icon.</entry>
+                              </row>
+                              <row>
+                                 <entry>HelpDescription</entry>
+                                 <entry>You can enter the title that should be displayed when the Help ('?') icon is clicked.</entry>
+                              </row>
+                              <row>
+                                 <entry>Width</entry>
+                                 <entry>This is used to set the width of a control in the user interface.</entry>
+                              </row>
+                              <row>
+                                 <entry>Type</entry>
+                                 <entry>This determines the options to select the type of control required in the form.<p>For example, you can add a text box to a section and later change it to a drop-down list.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Value</entry>
+                                 <entry>You can specify a default value to be displayed in the control. <p>Also, you can also use the Value field to retrieve system level information during display processing.</p>
+                                    <p>The supported format values include the following:</p>
+                                    <p>{CURRENTUSER} - Displays the user name of the logged in user.</p>
+                                    <p>{CURRENTUSERNAME} - Displays the first name of the logged in user.</p>
+                                    <p>{CURRENTDATE} - Displays the current date.</p>
+                                    <p>{CURRENTDATETIME} - Displays the current date and time.</p>
+                                    <p>{CURRENTTIME} - Displays the current time.</p>
+                                    <p>{PROJECTNAME} - Displays the name of the project.</p>
+                                    <p>{PROJECTCODE} - Displays the project code.</p>
+                                    <p>{CONTRACTNAME} - Displays the name of the contract</p>
+                                    <p>{CONTRACTCODE} - Displays the contract code.</p>
+                                    <p>{PRIMECONTRACTOR} - Displays the prime contractor of the project.</p>
+                                    <p>{_FORMULA: formula}</p>
+                                    <p>{_REQUEST: state info field}</p>
+                                    <p>{_DB: db expression}</p>
+                                    <p>{_Picker: [name Of Thepicker that is defined in this xml]}</p>
+                                    <p>"any static text" - Displays the text entered here.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>ReadOnly</entry>
+                                 <entry>If set to true, the data in the form is made read only. That is, the data cannot be modified by the end user.</entry>
+                              </row>
+                              <row>
+                                 <entry>MaxLength</entry>
+                                 <entry>Sets the maximum number of characters that can be entered in the text box.</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To specify the document type in the properties template, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the controls pane, click <uicontrol>SIMPLE INPUT CONTROLS</uicontrol>, and then drag and drop<uicontrol>Radio Button List </uicontrol>into the <uicontrol>DOCUMENT PROPERTIES</uicontrol> section.</p>
+               </li>
+               <li>
+                  <p>Click the radio button group.</p>
+                  <p>The attribute pane displays the radio button control attributes.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Attributes </uicontrol>pane, in the <uicontrol>Caption </uicontrol>attribute,type <uicontrol>Document Type</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Attributes </uicontrol>pane, in the <uicontrol>DataSource</uicontrol>, click <image href="../../../Icons/select.png" placement="inline">
+                        <alt>List</alt>
+                     </image>.</p>
+                  <p>The <uicontrol>Data Source Editor</uicontrol> dialog box is displayed.</p>
+                  <p>
+                     <ol>
+                        <li>In the<uicontrol>ListItems</uicontrol>box, for an additionalradio button,click <uicontrol>Add</uicontrol>.</li>
+                        <li>In the <uicontrol>Display </uicontrol>column, enter <uicontrol>Specifications</uicontrol>for <uicontrol>Option 1</uicontrol>, <uicontrol>Design </uicontrol>for<uicontrol>Option 2</uicontrol>, and <uicontrol>Contract </uicontrol>for <uicontrol>Option 3</uicontrol>.<p>
+                              <note> For newly added radio buttons, you must enter both the <uicontrol>Display </uicontrol>and <uicontrol>Value</uicontrol>.</note>
+                           </p>
+                        </li>
+                        <li>Click <uicontrol>OK</uicontrol>.</li>
+                     </ol>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>The <uicontrol>DOCUMENT PROPERTIES</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>You must publish the properties template to make it available for selection in projects and contracts. To publish the template, perform the following steps: </p>
+            <ol>
+               <li>
+                  <p>In the list page, select the properties template to be published.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Publish</uicontrol>.</p>
+                  <p>A confirmation message is displayed.</p>
+                  <p>On creating a new project, the published document properties template can be selected. When adding a new document to the project, the properties template is displayed.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

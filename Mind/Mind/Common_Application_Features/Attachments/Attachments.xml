@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Attachments" xml:lang="en-us">
+   <title>Attachments</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>attachments-module</indexterm>
+            <indexterm>common-application-features</indexterm>
+            <indexterm>document-repository</indexterm>
+            <indexterm>form-attachments</indexterm>
+            <indexterm>attachment-settings</indexterm>
+            <!-- Process layer -->
+            <indexterm>uploading-attachments</indexterm>
+            <indexterm>linking-files-to-forms</indexterm>
+            <indexterm>attach-via-workflow</indexterm>
+            <indexterm>manage-attachments</indexterm>
+            <indexterm>download-attachment</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-application</indexterm>
+            <indexterm>user-workflow</indexterm>
+            <indexterm>document-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Attachments"/>
+         <othermeta name="shortdesc"
+                    content="Explains how attachments are uploaded or linked in forms and during workflow transitions, and what file types are supported."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="attachment;file;form;workflow;user"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:attachments-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="attachments,linking,upload,documents,forms"/>
+         <othermeta name="usecase" content="attachments-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>You can upload attachments, or link files in the Documents folders to every form and workflow transition. There is no limitation on the number of attachments or the size of attachments that you can upload in a form or during workflow transition.</p>
+      <p>Refer to the following topics to upload or link, and access attachments:<ul>
+            <li>
+               <xref href="AtchFiletoFrm.xml">Attaching Files to a Form</xref>
+            </li>
+            <li>
+               <xref href="AccessAtts.xml">Accessing Attachments</xref>
+            </li>
+         </ul>
+      </p>
+      <p>Additionally, you can <xref href="../../Document_Management/Document_Annotations/Annotations.xml">annotate</xref> and <xref href="DelAtts.xml">delete</xref> attachments.</p>
+      <p>Additionally, you can annotate and delete attachments.</p>
+   </body>
+</topic>

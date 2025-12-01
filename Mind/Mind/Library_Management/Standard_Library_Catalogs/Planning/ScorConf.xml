@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ScoringConfig" xml:lang="en-us">
+   <title>Scoring Configuration</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scoring-configuration</indexterm>
+            <indexterm>project-scoring</indexterm>
+            <indexterm>scoring-attributes</indexterm>
+            <indexterm>department-weightage</indexterm>
+            <indexterm>category-weightage</indexterm>
+            <indexterm>criteria-definition</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-scoring-attributes</indexterm>
+            <indexterm>configure-department-weightage</indexterm>
+            <indexterm>associate-category-to-department</indexterm>
+            <indexterm>set-criteria-scores</indexterm>
+            <indexterm>rank-projects</indexterm>
+            <indexterm>evaluate-project-priority</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-evaluation</indexterm>
+            <indexterm>priority-ranking</indexterm>
+            <indexterm>performance-assessment</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Scoring Configuration"/>
+         <othermeta name="shortdesc"
+                    content="Overview of project scoring configuration, including departments, categories, and criteria used to evaluate and prioritize projects."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="project-scoring;scoring-department;scoring-category;scoring-criteria;project-priority;evaluation-attributes;weightage-settings"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:project-scoring-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="scoring,projects,departments,categories,criteria,weightage,evaluation,ranking"/>
+         <othermeta name="usecase" content="configure-project-scoring-attributes"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Project Scoring Configuration</uicontrol> feature enables you to evaluate projects by defining attributes to scoreand rank projects. A project with a high score indicates high priority.</p>
+      <p>Project scoring attributes are broadly classified into:</p>
+      <ul>
+         <li>
+            <xref href="CrtDept.xml">
+               <uicontrol>Department</uicontrol>
+            </xref> - You can define the name and description of the department, and define the weightage (%) for the department.</li>
+         <li>
+            <xref href="CrtCat.xml">
+               <uicontrol>Category</uicontrol>
+            </xref> - You can create different categories, and associate these categories to a department. You can define the weightage (%) for each category.</li>
+         <li>
+            <xref href="CrtCrit.xml">
+               <uicontrol>Criteria</uicontrol>
+            </xref> - You can definecriteria that are grouped under a category. You can define the maximum value you can score a project on the criteria.</li>
+      </ul>
+   </body>
+</topic>

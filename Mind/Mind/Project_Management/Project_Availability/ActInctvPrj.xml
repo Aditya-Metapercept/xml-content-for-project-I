@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PMActPrj">
+   <title>Activating an Inactive Project</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>project-management</indexterm>
+            <indexterm>project-activation</indexterm>
+            <indexterm>project-status</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>enterprise-projects</indexterm>
+            <!-- Process layer -->
+            <indexterm>activate-project</indexterm>
+            <indexterm>enable-access</indexterm>
+            <indexterm>change-project-status</indexterm>
+            <indexterm>project-activation-validation</indexterm>
+            <indexterm>user-permissions-update</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>enterprise-web</indexterm>
+            <indexterm>project-lifecycle</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Activating an Inactive Project"/>
+         <othermeta name="shortdesc"
+                    content="Activate an inactive project to enable access and make the project available for use."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="project;user-account;permissions;project-status;enterprise-location"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:project-activation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="activate-project,access-control,project-lifecycle,permissions,enterprise"/>
+         <othermeta name="usecase"
+                    content="Procedure to activate an otherwise inactive project so it becomes available to users and systems."/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can activate an inactive project to enable access to the project and enable project usage.</context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/ProjplanNav.dita#task-1465/ProPlanNav">
+            <p/>
+         </li>
+         <li>
+            <p>In the list page, click the appropriate inactive project to activate.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Mark Active/Inactive</uicontrol>.</p>
+            <p>The status of the project is set to active, and the project is available for use.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

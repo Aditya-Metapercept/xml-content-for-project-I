@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_PRJSCNG">
+   <title>Scoring a Planned Project</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>planning-module</indexterm>
+            <indexterm>project-scoring</indexterm>
+            <indexterm>planning-dashboard</indexterm>
+            <indexterm>project-scoring-form</indexterm>
+            <indexterm>scoring-configuration</indexterm>
+            <!-- Process layer -->
+            <indexterm>scoring-planned-projects</indexterm>
+            <indexterm>evaluating-projects</indexterm>
+            <indexterm>assigning-department-scores</indexterm>
+            <indexterm>calculating-weighted-score</indexterm>
+            <indexterm>submitting-scoring-record</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-prioritization</indexterm>
+            <indexterm>infrastructure-planning</indexterm>
+            <indexterm>multi-department-evaluation</indexterm>
+            <indexterm>decision-support</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Scoring a Planned Project"/>
+         <othermeta name="shortdesc"
+                    content="Steps to score planned projects by assigning criteria-based scores across departments, calculating weighted values, and prioritizing projects for program inclusion."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="planned project;department;category;scoring criteria;weighted score;project scoring record;workflow status"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:project-scoring;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="project-scoring,scoring-criteria,weighted-score,planned-projects,department-evaluation"/>
+         <othermeta name="usecase"
+                    content="evaluate and score planned projects for prioritization"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The role of the logged-in user should be one of the following: <p>
+                  <ul>
+                     <li>Engineer of Record</li>
+                     <li>Director</li>
+                     <li>Fund Manager</li>
+                     <li>Manager</li>
+                     <li>Program Manager</li>
+                     <li>Project Manager</li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </prereq>
+      <context>
+         <p>Project scoring enables you to evaluate and rank planned projects based on defined criteria. The planned projects are sorted from high to low priority based on the user score. This enables you to filter high-priority projects  to add them to a program.</p>
+         <p>A project is scored for each of the departments, and a score is provided for each of the criteria for the selected department. <ph product="Exclude_PG_Content">For information on scoring configuration, refer to<xref href="../../../Library_Management/Standard_Library_Catalogs/Planning/ScorConf.xml">Scoring Configuration</xref>.</ph>
+         </p>
+         <p>The project score (<uicontrol>Weighted Score</uicontrol>) is calculated as:</p>
+         <p>
+            <uicontrol>Weighted Score = Round [Σ{Department Score * Department Weightage (%)}]</uicontrol>
+         </p>
+         <p>where,<uicontrol>Department Score</uicontrol>is calculated as:</p>
+         <p>
+            <uicontrol>Department Score= Round [Σ{Category Score * Category Weightage (%)</uicontrol>}]</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Planning</uicontrol>. </p>
+            <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click <uicontrol>Planned Projects</uicontrol>.</p>
+            <p>The <uicontrol>PLANNED PROJECTS</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>In the list page, double-click the appropriate project. </p>
+         </li>
+         <li>
+            <p>In the project navigation pane, expand the project folder, and then click <uicontrol>Project Scoring</uicontrol>.</p>
+            <p>The <uicontrol>PROJECT SCORING</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>. </p>
+            <p>The <uicontrol>PROJECT SCORING</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Scored by</uicontrol> drop-down list, select the user creating the record. The list comprises all users invited to the project and have permissions to the project scoring form. </p>
+            <p>For information on user role permissions, refer to <xref href="../../../Administration/User_Management/Security_Roles/AssignRoletoUsr.xml">Assigning a Role to Users</xref>.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Department</uicontrol> drop-down list, select the department to which the project is associated. </p>
+            <p>Available options are departments defined in the <uicontrol>Department</uicontrol> catalog of the library. Based on the <uicontrol>Department</uicontrol> selected, the associated criteria that are marked active for the selected department are displayed in the table. <ph product="Exclude_PG_Content">For information on departments, categories, and criteria, referto <xref href="../../../Library_Management/Standard_Library_Catalogs/Planning/ScorConf.xml">Scoring Configuration</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Scored on</uicontrol> calendar drop-down box, select the date on which the record is created. </p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Remarks</uicontrol> field, enter any additional information.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>PROJECT SCORING DETAILS</uicontrol> section, in the   <uicontrol>Score </uicontrol>column, for each criteria, click and enter the score for the project.</p>
+            <p>
+               <note> Ensure the score for the criteria does not exceed the value displayed in the corresponding <uicontrol>Max Value</uicontrol> column.</note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p> The <uicontrol>Weighted Score</uicontrol> is calculated and displayed.</p>
+            <p>To perform workflow actions, refer to     <xref href="PrjScrWF.xml">Project Scoring Workflow</xref>. </p>
+         </li>
+         <li>
+            <p>To submit the <uicontrol>Project Scoring</uicontrol> record, perform the following steps:</p>
+            <p>
+               <note>To perform this workflow action, ensure you are assigned the <uicontrol>Fund Manager</uicontrol> or <uicontrol>Program Manager</uicontrol> role.</note>
+            </p>
+            <ol>
+               <li>
+                  <p>In the  list page, select the appropriate record that is in the <uicontrol>Draft</uicontrol> workflow status, and then click <uicontrol>Select Actions</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Submit</uicontrol>, and in the <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> dialog box, click <uicontrol>OK</uicontrol>.</p>
+                  <p>The workflow status of the record is set to <uicontrol>Submitted</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>
