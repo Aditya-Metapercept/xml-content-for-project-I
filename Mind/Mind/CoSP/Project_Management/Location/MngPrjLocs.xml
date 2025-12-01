@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_PRJLOCN">
+   <title>Managing Project Location Details on a Map</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>planned-projects-module</indexterm>
+            <indexterm>location-management-module</indexterm>
+            <indexterm>map-interface</indexterm>
+            <indexterm>esri-integration</indexterm>
+            <indexterm>gis-settings</indexterm>
+            <!-- Process layer -->
+            <indexterm>creating-project-location</indexterm>
+            <indexterm>associating-contract-with-location</indexterm>
+            <indexterm>saving-map-markers</indexterm>
+            <indexterm>editing-location-details</indexterm>
+            <indexterm>saving-to-esri-geodatabase</indexterm>
+            <indexterm>reviewing-esri-save-status</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>planned-projects-workflow</indexterm>
+            <indexterm>programme-office-operations</indexterm>
+            <indexterm>enterprise-software-dashboard</indexterm>
+            <indexterm>geospatial-integration</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Managing Project Location Details on a Map"/>
+         <othermeta name="shortdesc"
+                    content="Steps to add, edit and save project location details on the map and persist geometry to ESRI (ArcGIS)."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="project location;project;contract;map marker;location geometry;ESRI geodatabase;planned project"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:manage-project-location-on-map;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="project-location,map,gis,esri,location-management,planned-projects,save-status"/>
+         <othermeta name="usecase" content="manage-project-location-on-map"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The role of the logged-in user should be one of the following:<p>
+                  <ul>
+                     <li>Administrative Support</li>
+                     <li>Construction Inspector</li>
+                     <li>Construction Manager</li>
+                     <li>Engineer of Record</li>
+                     <li>Engineering Director</li>
+                     <li>Field Supervisor</li>
+                     <li>Fund Manager</li>
+                     <li>Manager</li>
+                     <li>Program Manager</li>
+                     <li>Project Manager</li>
+                     <li>Support Services</li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </prereq>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Planning</uicontrol>. </p>
+            <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click <uicontrol>Planned Projects</uicontrol>.</p>
+            <p>The <uicontrol>PLANNED PROJECTS</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>In the list page, double-click the appropriate project.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand the project folder, and then click<uicontrol>Location</uicontrol>.</p>
+            <p>The<uicontrol>LOCATION</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>New</uicontrol>.</p>
+            <p>
+               <fig product="PG_Screenshot">
+                  <title>Location Page</title>
+                  <image href="../../../Icons/Screenshots_Icons/Location.jpg" placement="inline"/>
+               </fig>
+            </p>
+            <p>The<uicontrol>LOCATION</uicontrol> page displays the following non-editable fields:<table colsep="1" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="30%"/>
+                     <colspec colname="c2" colnum="2" colwidth="70%"/>
+                     <thead>
+                        <row>
+                           <entry>Field Name</entry>
+                           <entry>Description</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>Location ID</entry>
+                           <entry>On saving the record, a unique identification code is automatically generated.</entry>
+                        </row>
+                        <row>
+                           <entry>PWA Project Number</entry>
+                           <entry>When the project workflow status moves to <uicontrol>In-Progress</uicontrol>, a unique identification number is automatically generated for the project.</entry>
+                        </row>
+                        <row>
+                           <entry>Project Name</entry>
+                           <entry>The name of the associated project.</entry>
+                        </row>
+                        <row>
+                           <entry>Project Type</entry>
+                           <entry>The type of the associated project.</entry>
+                        </row>
+                        <row>
+                           <entry>
+        
+        
+        
+        Project Manager</entry>
+                           <entry>The name of the project manager. </entry>
+                        </row>
+                        <row>
+                           <entry>Project Budget ($)</entry>
+                           <entry>The budget of the associated project.</entry>
+                        </row>
+                        <row>
+                           <entry>Start Date</entry>
+                           <entry>The date the project begins.</entry>
+                        </row>
+                        <row>
+                           <entry>End Date</entry>
+                           <entry>The date the project ends.</entry>
+                        </row>
+                        <row>
+                           <entry>Description</entry>
+                           <entry>The description of the project. </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>To associate a contract with the location, from the<uicontrol>Contract</uicontrol>drop-down list, click and select the appropriate contract.</p>
+            <p>Alternatively, type the name of the contract, and then select the contract.<p>Available contracts are all the contracts the user is invited to in the project.</p>
+            </p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Title</uicontrol> box, enter the title for the project location.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Description</uicontrol>box, enter a detailed description of the project location.</p>
+         </li>
+         <li href="../../../../Warehouse/Task_Warehouse/ProjectIssuLogLoca.dita#task-9586/AddLocation">
+            <p/>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+            <p>The map markers are saved on the map.<p>The project location data created in the <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> application is automatically saved in the external system ESRI (ArcGIS). In the list page, the ESRI Save Status column displays the current status of saving data to ESRI.</p>
+               <p>The following are the different statuses:</p>
+               <table colsep="1" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="30%"/>
+                     <colspec colname="c2" colnum="2" colwidth="70%"/>
+                     <thead>
+                        <row>
+                           <entry>Status</entry>
+                           <entry>Description</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>Completed</entry>
+                           <entry>The location geometry is successfully saved from the application to the ESRI geodatabase.<note> Once the geometry drawn on the map is successfully saved to theESRIgeodatabase, the updated or edited geometry will override the current geometry present in ESRI. The changes will not be merged.</note>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>In Progress</entry>
+                           <entry>Saving location data from the application to the ESRI geodatabase is in progress. If the first attempt of saving location data fails, then the system automatically attempts to save the location data, based on the number of tries defined in the <uicontrol>ESRI SAVE SETTINGS</uicontrol> section in the <uicontrol>GIS Settings</uicontrol> page of the <uicontrol>Administration</uicontrol> module. <ph product="Exclude_PG_Content">For information ESRI save settings, refer to<xref href="../../../Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.xml">Configuring the ESRI Save Settings</xref>.</ph>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>Pending</entry>
+                           <entry>Saving of location data to the ESRI geodatabase is pending.</entry>
+                        </row>
+                        <row>
+                           <entry>Failed</entry>
+                           <entry>Saving location data from the application to the ESRI geodatabase has failed despite retrying after the configured number of retries defined in the <uicontrol>ESRI SAVE SETTINGS</uicontrol> section in the <uicontrol>GIS Settings</uicontrol> page of the <uicontrol>Administration</uicontrol> module.<ph product="Exclude_PG_Content">For information ESRI save settings, refer to<xref href="../../../Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.xml">Configuring the ESRI Save Settings</xref>.The following are the different statuses:</ph>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

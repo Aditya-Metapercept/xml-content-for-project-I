@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminWF-PubWF">
+   <title>Publishing a Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-management</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>form</indexterm>
+            <indexterm>list-page</indexterm>
+            <indexterm>publish-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>publish-workflow</indexterm>
+            <indexterm>activate-workflow</indexterm>
+            <indexterm>propagate-changes</indexterm>
+            <indexterm>notify-stakeholders</indexterm>
+            <indexterm>monitor-deployment</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>web-platform</indexterm>
+            <indexterm>enterprise-deployment</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PublishWF"/>
+         <othermeta name="shortdesc"
+                    content="Publish workflow steps and activate the workflow so new form instances trigger the defined processes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="workflow;publish-service;form;instance;notifications"/>
+         <othermeta name="taxonomy"
+                    content="domain:Capital-program-management;usecase:workflow-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="publish-workflow,activate-workflow,monitor-deployment"/>
+         <othermeta name="usecase" content="publish and activate workflows for runtime"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>Once the workflow is created, you need to publish the workflow. Publishing a workflow makes the workflow available to the system. That is, workflow action buttons are made available in a form when a new instance of the associated form is created on the relevant list page in <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Configuration Toolkit</uicontrol> folder, and then click <uicontrol>Workflow Management</uicontrol>.</p>
+            <p>The <uicontrol>WORKFLOW LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>To publish the workflow, perform either of the following steps:</p>
+            <ul>
+               <li>From the list page:<ol>
+                     <li>Select the newly created workflow that must be published.</li>
+                     <li>Click <uicontrol>Publish</uicontrol>.</li>
+                  </ol>
+               </li>
+               <li>From the details page of the workflow:<ol>
+                     <li>Select the newly created workflow that must be published, and then click <uicontrol>Edit</uicontrol>.</li>
+                     <li>Click <uicontrol>Publish</uicontrol>.</li>
+                  </ol>
+               </li>
+            </ul>
+            <p>
+               <note> When existing workflows are modified and published, only new instances of forms are affected. All forms created with the previous workflow continue to operate with the previous definition of the workflow. All-new forms operate with the modified workflow. <p>You can also un-publish a workflow. This is used when a form already associated with an existing workflow has to be assigned with the newly created workflow. You can un-publish the earlier workflow by selecting the published workflow that has to be unpublished and then click <uicontrol>Un-Publish</uicontrol>.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

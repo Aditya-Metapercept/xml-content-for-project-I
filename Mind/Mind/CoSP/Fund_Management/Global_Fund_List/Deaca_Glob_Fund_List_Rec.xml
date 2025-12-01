@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="task-720">
+   <title>Deactivating a Global Fund List Record</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="analyst, external contractors, engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>global-fund-list-record-module</indexterm>
+            <indexterm>fund-source-database</indexterm>
+            <indexterm>fund-list-record-management</indexterm>
+            <indexterm>investment-fund-registry</indexterm>
+            <indexterm>portfolio-fund-list-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>deactivating-global-fund-list-record</indexterm>
+            <indexterm>updating-fund-list-status</indexterm>
+            <indexterm>validating-fund-list-entry</indexterm>
+            <indexterm>marking-record-inactive</indexterm>
+            <indexterm>reviewing-fund-list-record</indexterm>
+            <indexterm>archiving-fund-list-data</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>fund-governance</indexterm>
+            <indexterm>investment-tracking</indexterm>
+            <indexterm>enterprise-software-system</indexterm>
+            <indexterm>programme-office-environment</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Deactivate Global Fund List Record"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to deactivate a global fund list record in the system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="global fund list record;record deactivation;fund-list database"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:deactivate-fund-list-record;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="deactivation,fund-list,archive,governance,record-status"/>
+         <othermeta name="usecase" content="deactivate-fund-list-record"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>
+               <p>The role of the logged-in user should be <uicontrol>Fund Manager</uicontrol>.</p>
+            </li>
+         </ul>
+      </prereq>
+      <context>
+         <p>You can deactivate an active <uicontrol>Global Fund List</uicontrol> record. If a fund source is marked as inactive, then the  fund source will not be available for projects.<note>Deactivating a global fund source that is already assigned to a project does not change the
+assigned fund source data of the project.</note>
+         </p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Home</uicontrol>. </p>
+            <p>The <uicontrol>Enterprise Dashboard</uicontrol> is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand the <uicontrol>Fund Management </uicontrol> folder, and then click <uicontrol>Global Fund List</uicontrol>.</p>
+            <p>The <uicontrol>GLOBAL FUND LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the list page, select the appropriate record to deactivate, and then perform either of the following:</p>
+            <p>
+               <ul>
+                  <li>
+                     <p>In the toolbar, click  <uicontrol>Mark Active/Inactive</uicontrol>, and then click <uicontrol>Mark Inactive</uicontrol>.</p>
+                  </li>
+                  <li>
+                     <p>In the toolbar, click <uicontrol>Edit</uicontrol>, clear  the <uicontrol>Is Active</uicontrol> check box, and then click <uicontrol>Save &amp; Exit</uicontrol>.</p>
+                  </li>
+               </ul>
+            </p>
+            <p>The selected record is marked as inactive.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

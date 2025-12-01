@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReportGallery_ENTPRSE">
+   <title>Generating Enterprise Reports</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>enterprise-reporting-engine</indexterm>
+            <indexterm>enterprise-management-system</indexterm>
+            <indexterm>reporting-module</indexterm>
+            <indexterm>data-analytics-dashboard</indexterm>
+            <indexterm>admin-console</indexterm>
+            <!-- Process layer -->
+            <indexterm>generate-enterprise-report</indexterm>
+            <indexterm>select-report-parameters</indexterm>
+            <indexterm>run-report-query</indexterm>
+            <indexterm>download-report</indexterm>
+            <indexterm>view-report-output</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>enterprise-analytics</indexterm>
+            <indexterm>data-driven-operations</indexterm>
+            <indexterm>web-application</indexterm>
+            <indexterm>performance-monitoring</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Generating Enterprise Reports"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to configure parameters and generate enterprise-level reports."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="report;parameter;dashboard;analytics-engine;dataset"/>
+         <othermeta name="taxonomy"
+                    content="domain:enterprise-management;usecase:report-generation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="reporting, analytics, enterprise reports, data extraction, insights"/>
+         <othermeta name="usecase"
+                    content="generating and viewing enterprise-level analytical reports"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>You are invited to projects.</li>
+            <li>You are invited to projects in the roles that have access permissions to the report.</li>
+         </ul>
+      </prereq>
+      <context>You can generate various enterprise level reports that comprise information based on the roles assigned to you, and thevarious projects you are invited to. You can view selected information using filters, and generate reports in multiple report formats.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Home</uicontrol>. </p>
+            <p>The <uicontrol>Enterprise Dashboard</uicontrol> is displayed. </p>
+         </li>
+         <li>
+            <p>In the navigation pane, click<uicontrol> Report Gallery</uicontrol>. </p>
+            <p>The <uicontrol>REPORT GALLERY</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>REPORT GALLERY</uicontrol> page, double-click the required report.</p>
+         </li>
+         <li>
+            <p>Select the filter criteria to generate the report.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>View Report</uicontrol>. </p>
+            <p>The report is generated and displayed.</p>
+            <p>For additional information on reports, refer to <xref href="../../Common_Application_Features/Standard_Report_Functions/StdRepFncts.xml">Standard Report Functions</xref>. 
+                </p>
+            <p>You can generate the following reports:<ul>
+                  <li>Budget vs Actuals Report
+</li>
+                  <li>Delayed Projects Based on Schedule
+</li>
+                  <li>Enterprise Cost Sheet
+</li>
+                  <li>Mobile Sync Report
+</li>
+                  <li>CIP Status Report
+</li>
+                  <li>Construction Report
+</li>
+                  <li>Fund Summary Report
+</li>
+                  <li>Monthly Submittal Report
+</li>
+                  <li>Project Financial Report
+</li>
+                  <li>Resource Cost Sheet Report </li>
+                  <li>Resource Deficit Report </li>
+                  <li>Resource Utilization Report </li>
+                  <li>Resource Utilization Summary Report </li>
+                  <li>Titles Pending Assignment Report</li>
+               </ul>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
