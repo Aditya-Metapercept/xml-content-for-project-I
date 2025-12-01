@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_FNDMGMT" xml:lang="en-us">
+   <title>Global Fund Sources</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="administrator, analyst, engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>global-fund-sources-module</indexterm>
+            <indexterm>fund-source-management-system</indexterm>
+            <indexterm>investment-fund-registry-tool</indexterm>
+            <indexterm>fund-source-list-interface</indexterm>
+            <indexterm>portfolio-fund-source-dashboard</indexterm>
+            <!-- Process layer -->
+            <indexterm>managing-global-fund-sources</indexterm>
+            <indexterm>listing-fund-sources</indexterm>
+            <indexterm>editing-fund-source-record</indexterm>
+            <indexterm>searching-fund-sources</indexterm>
+            <indexterm>filtering-fund-source-list</indexterm>
+            <indexterm>archiving-fund-sources</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>fund-governance</indexterm>
+            <indexterm>investment-fund-processes</indexterm>
+            <indexterm>enterprise-software-environment</indexterm>
+            <indexterm>programme-office-context</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Global Fund Sources"/>
+         <othermeta name="shortdesc"
+                    content="Overview of the global fund sources module and management capabilities."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="global fund source;fund-source list;record management;filtering"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:manage-fund-sources;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="fund-sources,management,filtering,editing,list-view"/>
+         <othermeta name="usecase" content="manage-global-fund-sources"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Global Fund List</uicontrol> is a repository of all fund sources that  are available to all projects in the enterprise. You can use the list of approved global fund sources for fund reporting in projects.</p>
+      <p>The fund source records are automatically created through data integration.</p>
+      <p>In a scenario where the transaction is done in EBS for the Fund Number
+that is not available in Mind, a new Global Fund should be created and
+approved by the user (Fund Manager).</p>
+      <p>The functional flow for global fund management (manual creation) is as follows:<ol>
+            <li>Global Fund List<ol>
+                  <li>
+                     <xref href="DefineGFSources.xml">Create a global fund source</xref>
+                  </li>
+                  <li product="Include_PG_Content">
+                     <xref href="Approving_a_Global_Fund_Source_Record.xml"/>
+                  </li>
+                  <li product="Exclude_PG_Content">
+                     <xref href="GFSourceWF.xml">Perform workflow actions to implement the business process for fund sources</xref>
+                  </li>
+               </ol>
+            </li>
+         </ol>
+      </p>
+      <p>You can activate or deactivate a fund source at any point in time. By default, only the active records are displayed in the <uicontrol>Global Fund List</uicontrol> page.<ul product="Exclude_PG_Content">
+            <li>
+               <p>To view and activate an inactive fund source, refer to <xref href="Activating_a_Global_Fund_List_Record.xml">Activating a Global Fund List Record</xref>.</p>
+            </li>
+            <li>
+               <p>To deactivate a fund source, refer to <xref href="Deaca_Glob_Fund_List_Rec.xml">Deactivating a Global Fund List Record</xref>. </p>
+            </li>
+         </ul>
+      </p>
+      <p>
+         <u>Permission Matrix</u>:<table colsep="1" rowsep="1">
+            <desc>Global Fund List:</desc>
+            <tgroup cols="5">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2"/>
+               <colspec colname="c3" colnum="3"/>
+               <colspec colname="c4" colnum="4"/>
+               <colspec colname="c5" colnum="5"/>
+               <thead>
+                  <row>
+                     <entry>Role</entry>
+                     <entry>Create</entry>
+                     <entry>Edit</entry>
+                     <entry>View</entry>
+                     <entry>Delete</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>Administrative Support</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Construction Manager</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Engineer of Record</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Engineering Director</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Field Personnel</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Field Supervisor</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Fund Manager</entry>
+                     <entry>Yes</entry>
+                     <entry>Yes</entry>
+                     <entry>Yes</entry>
+                     <entry>Yes</entry>
+                  </row>
+                  <row>
+                     <entry>Internal User</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Program Manager</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Project Manager</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+                  <row>
+                     <entry>Support Services</entry>
+                     <entry>-</entry>
+                     <entry>-</entry>
+                     <entry>Yes</entry>
+                     <entry>-</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

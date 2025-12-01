@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminFBPubFrm">
+   <title>Publishing a Form</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>form-builder</indexterm>
+            <indexterm>publish-service</indexterm>
+            <indexterm>form-repository</indexterm>
+            <indexterm>deployment-service</indexterm>
+            <indexterm>form-designer</indexterm>
+            <!-- Process layer -->
+            <indexterm>publish-form</indexterm>
+            <indexterm>version-release</indexterm>
+            <indexterm>publish-validation</indexterm>
+            <indexterm>approval-workflow</indexterm>
+            <indexterm>rollback</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>production-deployment</indexterm>
+            <indexterm>user-availability</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>web-platform</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Publish Form"/>
+         <othermeta name="shortdesc"
+                    content="Steps to validate, approve and publish a form so it becomes available to end users, including versioning and rollback considerations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="form-version;publish-log;approval-record;deployment-target;rollback-point"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-publishing;industry:software"/>
+         <othermeta name="tags" content="publish,approval,versioning,deployment,rollback"/>
+         <othermeta name="usecase" content="validate-approve-and-publish-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You must publish a formto be made available in the application.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand the <uicontrol>Configuration Toolkit</uicontrol> folder, and then click <uicontrol>Form Builder</uicontrol>.</p>
+            <p>The <uicontrol>FORMS LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the newly created form.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Publish</uicontrol>.</p>
+            <p>The form is now available in the application.</p>
+         </li>
+         <li>
+            <p>To verify if the form is published, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Navigate to the module where the form is published; Library for the example described here. </p>
+                  <p>The form is available in the navigation pane.</p>
+               </li>
+               <li>
+                  <p>In the navigation pane, click the form.</p>
+                  <p>The form list page is displayed.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>New</uicontrol> to display a new form.</p>
+               </li>
+               <li>
+                  <p>Enter the details, and click <uicontrol>Save</uicontrol> to save the form.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To define permissions for the form, refer to <xref href="../../User_Management/Permissions/ConfigRolePerms.xml">Managing Permissions</xref>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

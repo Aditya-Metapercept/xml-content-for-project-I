@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="LibDocPrptTmpl">
+   <title>Associating Document Property Templates to Folders in a Folder Structure</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>document-property-templates</indexterm>
+            <indexterm>document-folder-structure</indexterm>
+            <indexterm>document-properties</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>folder-association</indexterm>
+            <!-- Process layer -->
+            <indexterm>associate-template-with-folder</indexterm>
+            <indexterm>select-folder-structure</indexterm>
+            <indexterm>publish-property-template</indexterm>
+            <indexterm>choose-document-folder</indexterm>
+            <indexterm>assign-metadata-to-folders</indexterm>
+            <indexterm>navigate-document-properties</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-documentation</indexterm>
+            <indexterm>contract-documentation</indexterm>
+            <indexterm>metadata-governance</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Associating Document Property Templates to Folders in a Folder Structure"/>
+         <othermeta name="shortdesc"
+                    content="Associate document property templates with folders defined in selected folder structures and publish templates for use in projects and contracts."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="document-property-template;document-folder-structure;document-properties-list;folder-selection-dialog;library-module;metadata-fields;project-folder;contract-folder"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:metadata-template-association;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="document properties,folder structures,metadata templates,library management,document management,template publishing"/>
+         <othermeta name="usecase"
+                    content="associate-document-property-template-with-folders"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can associate a document property template to folders defined in a folder structure.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Document Management</uicontrol>, and then click <uicontrol>Document Properties</uicontrol>.</p>
+            <p>The <uicontrol>DOCUMENT PROPERTIES</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the required document property, and then click <uicontrol>Associate Document Folder</uicontrol>.</p>
+            <p>The <uicontrol>Associate Document Folder</uicontrol> dialog box is displayed.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Folder Structure</uicontrol> drop-down list, select the folder structure to associate the selected document property template.</p>
+            <p>Available options are folder structures defined in the <uicontrol>Document Folder Structure</uicontrol> catalog of the library. <ph product="Exclude_PG_Content">For information on document folder structures, refer to<xref href="DocFolderStruct.xml">Document Folder Structure</xref>.</ph>
+            </p>
+            <p>The folders defined in the selected document folder structure is displayed in the <uicontrol>Document Folders</uicontrol> section.</p>
+         </li>
+         <li>
+            <p>Select the required folders to associate the selected folder property template.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>You must publish the properties template to make it available for selection in projects and contracts.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>DOCUMENT PROPERTIES</uicontrol> list page, select the properties template form to be published.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Publish</uicontrol>.</p>
+            <p>A confirmation message is displayed.</p>
+            <p>You can choose the applicable <uicontrol>Document Folder Structure</uicontrol> when creating a project or contract. You need to enter all the metadata information at the time of document upload to a folder that has been associated to a <uicontrol>Document Properties</uicontrol> template.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

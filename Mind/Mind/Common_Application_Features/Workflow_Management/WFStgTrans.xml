@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WFStageTransition" xml:lang="en-us">
+   <title>Workflow Status Transitions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>wf-stage-transition</indexterm>
+            <indexterm>stage-manager</indexterm>
+            <indexterm>transition-service</indexterm>
+            <indexterm>state-engine</indexterm>
+            <indexterm>permission-checker</indexterm>
+            <!-- Process layer -->
+            <indexterm>change-stage</indexterm>
+            <indexterm>validate-transition</indexterm>
+            <indexterm>apply-stage-rules</indexterm>
+            <indexterm>notify-stakeholders</indexterm>
+            <indexterm>record-transition-event</indexterm>
+            <!-- Context layer -->
+            <indexterm>process-orchestration</indexterm>
+            <indexterm>approval-flow</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>operational-governance</indexterm>
+            <indexterm>workflow-auditing</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Workflow Status Transitions"/>
+         <othermeta name="shortdesc"
+                    content="Defines stage transition mechanics, rule evaluation, stakeholder notifications and recording of transition events."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="stage;transition-event;permission;notification;state-engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:workflow-stage-transition;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="stage,transition,workflow,notifications,audit"/>
+         <othermeta name="usecase" content="manage-workflow-stage-transitions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>A workflow automates a business process for stakeholders to evaluate a form,make decisions, and then take an appropriate action. Workflows comprise various statuses, and each status is transitioned to the following workflow status through actions taken by stakeholders of the current status. Transitioning a workflow status to the subsequent workflow status is performed in the way of a workflow action.</p>
+      <p>For additional information on workflows, refer to <xref href="../../Administration/Configuration_Toolkit/Workflow_Management/WFMgmt.xml">Workflow Management</xref>. </p>
+      <p>The following topics describe the various workflow related tasks:<ul>
+            <li>
+               <xref href="TransitionWF.xml">Performing Workflow Status Transitions</xref>
+            </li>
+            <li>
+               <xref href="ViewWFHistory.xml">Viewing the Workflow History</xref>
+            </li>
+            <li>
+               <xref href="SelectWFUsers.xml">Selecting Workflow Users</xref>
+            </li>
+            <li>
+               <xref href="AssociateWF.xml">Associating a Workflow</xref>
+            </li>
+         </ul>
+      </p>
+   </body>
+</topic>

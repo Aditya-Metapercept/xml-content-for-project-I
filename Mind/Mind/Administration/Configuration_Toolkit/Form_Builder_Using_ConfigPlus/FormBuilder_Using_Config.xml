@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="FormBuilder_Config" xml:lang="en-us">
+   <title>Form Builder Using Config+</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>configplus-platform</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>template-engine</indexterm>
+            <indexterm>config-file</indexterm>
+            <indexterm>deployment-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>form-deployment</indexterm>
+            <indexterm>configuration-authoring</indexterm>
+            <indexterm>template-binding</indexterm>
+            <indexterm>import-export-config</indexterm>
+            <indexterm>environment-setup</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>configplus</indexterm>
+            <indexterm>web-application</indexterm>
+            <indexterm>administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="FormBuilder Using Config"/>
+         <othermeta name="shortdesc"
+                    content="Guides using ConfigPlus to author, configure and deploy forms with the Form Builder, including templates and environment setup."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="configplus;template;form;deployment;environment"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:configuration-and-deployment;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="configplus,template,deploy,form-builder,configuration"/>
+         <othermeta name="usecase" content="author-and-deploy-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Config+ is the first built-in Do it Yourself (DIY) No-Code engine within   <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>. The drag-and- drop user interface (UI) of Config+ enables you to configure business processes based on your requirements.</p>
+      <p>Config+ enables you to configure business logic in <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> using deep integration with Blockly.</p>
+      <p>In the <uicontrol>Switch to Advanced</uicontrol> mode of the <uicontrol>Form Builder</uicontrol> form, two new tabs are available:</p>
+      <ul>
+         <li>
+            <xref href="Form_Business_Logic.xml">FORM BUSINESS LOGIC</xref> – Used to configure business logic in the form details page.</li>
+         <li>
+            <xref href="List_Page_Business_Logic.xml">LIST PAGE BUSINESS LOGIC</xref> – Used to configure business logic in the list page.</li>
+      </ul>
+   </body>
+</topic>

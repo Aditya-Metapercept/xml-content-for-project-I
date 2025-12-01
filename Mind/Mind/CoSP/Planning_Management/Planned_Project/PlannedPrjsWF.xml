@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WF-PlnPrj">
+   <title>Planned Projects Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>planned-projects-module</indexterm>
+            <indexterm>workflow-management-system</indexterm>
+            <indexterm>project-status-engine</indexterm>
+            <indexterm>program-management-module</indexterm>
+            <indexterm>project-record-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>publishing-planned-project</indexterm>
+            <indexterm>approving-planned-project</indexterm>
+            <indexterm>executing-project-workflow</indexterm>
+            <indexterm>closing-project</indexterm>
+            <indexterm>updating-workflow-status</indexterm>
+            <indexterm>transitioning-project-phases</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>project-governance</indexterm>
+            <indexterm>stakeholder-approval-process</indexterm>
+            <indexterm>programme-office-operations</indexterm>
+            <indexterm>enterprise-software-environment</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Planned Projects Workflow"/>
+         <othermeta name="shortdesc"
+                    content="Describes workflow phases, stakeholder actions, and status transitions for planned project records."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="planned project;workflow status;stakeholder actions;program approval;project phase;status transition matrix"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:understand-planned-projects-workflow;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="workflow,planned-projects,status-transition,approval-process,stakeholders,project-governance"/>
+         <othermeta name="usecase" content="understand-planned-projects-workflow"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table colsep="1" rowsep="1">
+         <desc>
+            <p>The following table provides the workflow actions and status (current and
+subsequent status) of the <uicontrol>Planned
+Project</uicontrol> record.</p>
+            <p>For information on setting a workflow status to the next status, refer to <xref href="../../../Common_Application_Features/Workflow_Management/WFStgTrans.xml"/>.</p>
+         </desc>
+         <tgroup cols="6">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <colspec colname="c3" colnum="3"/>
+            <colspec colname="c4" colnum="4"/>
+            <colspec colname="c5" colnum="5"/>
+            <colspec colname="c6" colnum="6"/>
+            <thead>
+               <row>
+                  <entry>Phase</entry>
+                  <entry>Current Workflow Status</entry>
+                  <entry>Action Stakeholders</entry>
+                  <entry>Action </entry>
+                  <entry>Subsequent Workflow Status</entry>
+                  <entry>Comments</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="1">1</entry>
+                  <entry morerows="1"> Draft </entry>
+                  <entry morerows="1">
+                     <ul>
+                        <li>Director</li>
+                        <li>Fund Manager</li>
+                        <li>Manager</li>
+                        <li>Project Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry>Publish</entry>
+                  <entry>Published</entry>
+                  <entry>
+                     <p>Only funded projects associated with either  <uicontrol>Stormwater Administration</uicontrol> or <uicontrol>Engineering and Capital Improvements Administration</uicontrol> as the Owning Department can Publish a project. </p>
+                     <p>You can now add this planned project to a program. The project is approved when the program is approved. </p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Approve</entry>
+                  <entry>Pre-Award</entry>
+                  <entry>
+                     <ul>
+                        <li>Unfunded &amp; Standalone projects associated with any Owning Department can be approved. These projects do not require any program approval.</li>
+                        <li>Standalone projects that will receive funding and are associated with any Owning Department, except <uicontrol>Stormwater Administration</uicontrol> or <uicontrol>Engineering and Capital Improvements Administration </uicontrol>, can be approved. These projects do not require any program approval. </li>
+                     </ul>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">2</entry>
+                  <entry morerows="2">Published</entry>
+                  <entry morerows="2">
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry morerows="1">Approve</entry>
+                  <entry>Planned</entry>
+                  <entry>If the funded project is Out-Year, the status is updated to Planned.</entry>
+               </row>
+               <row>
+                  <entry>Pre-Award</entry>
+                  <entry>
+                            If the funded project is In-Year, the status is updated to Pre-Award.</entry>
+               </row>
+               <row>
+                  <entry>Un-Publish</entry>
+                  <entry>Draft</entry>
+                  <entry>-</entry>
+               </row>
+               <row>
+                  <entry morerows="1">3</entry>
+                  <entry morerows="1">Planned</entry>
+                  <entry morerows="1">
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry>Pre-Award</entry>
+                  <entry>Pre-Award</entry>
+                  <entry>This workflow action is available only if the start date of the funded project is not in the current
+fiscal year.<p>The project is now available in the<uicontrol>Projects</uicontrol>module and not in the<uicontrol>Planning</uicontrol>module.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Re-Draft</entry>
+                  <entry>Draft</entry>
+                  <entry>If the  funded project associated with either <uicontrol>Stormwater Administration</uicontrol> or <uicontrol>Engineering and Capital Improvements Administration </uicontrol> is already associated with a program, this workflow action will be available. </entry>
+               </row>
+               <row>
+                  <entry morerows="1">4</entry>
+                  <entry morerows="1">Pre-Award</entry>
+                  <entry morerows="1">
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Manager</li>
+                        <li>Project Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry>Execute</entry>
+                  <entry>In Progress</entry>
+                  <entry>-</entry>
+               </row>
+               <row>
+                  <entry>Re-Draft</entry>
+                  <entry>Draft</entry>
+                  <entry>This workflow action can be completed only for unfunded or standalone projects.</entry>
+               </row>
+               <row>
+                  <entry>5</entry>
+                  <entry>In Progress</entry>
+                  <entry>
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Project Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry>Close </entry>
+                  <entry>Closed</entry>
+                  <entry morerows="1">This workflow action can be completed for funded, unfunded, and standalone projects. </entry>
+               </row>
+               <row>
+                  <entry>6</entry>
+                  <entry>Closed</entry>
+                  <entry>
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Manager</li>
+                        <li>Project Manager</li>
+                        <li>Support Services</li>
+                     </ul>
+                  </entry>
+                  <entry>Final Close</entry>
+                  <entry>Final Closed</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMDfnFldrPerms">
+   <title>Defining Folder Permissions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>folder-management</indexterm>
+            <indexterm>folder-permissions</indexterm>
+            <indexterm>project-library</indexterm>
+            <indexterm>access-control-module</indexterm>
+            <indexterm>user-roles-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>defining-permissions</indexterm>
+            <indexterm>editing-folder-settings</indexterm>
+            <indexterm>assigning-role-access</indexterm>
+            <indexterm>configuring-permission-rules</indexterm>
+            <indexterm>updating-folder-properties</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>project-workspace</indexterm>
+            <indexterm>web-application-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Defining Folder Permissions"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to configure and assign permissions for folders within a project workspace."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="folder;permissions;roles;project;description-box"/>
+         <othermeta name="taxonomy"
+                    content="domain:folder-management;usecase:permissions-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="permissions,folder,roles,access-control,project-library"/>
+         <othermeta name="usecase" content="configure-folder-permissions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can control user access to folders in the<uicontrol>Documents</uicontrol> module by configuring permissions to the various roles defined in the project. Controlling accessibility of folders in the document management system ensures a high level of security for the documents in the folder.</p>
+         <note> The Administrator role has all permissions in the application.</note>
+      </context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>Click<uicontrol>Permissions</uicontrol>.</p>
+            <p>The<uicontrol>DOCUMENT PERMISSIONS</uicontrol> page is displayed.</p>
+            <p>The roles available in the project are displayed as the rows of the permissions table and document management featuresare displayed as the columns for you to assign role based permissions to the document folder.</p>
+         </li>
+         <li>
+            <p>Corresponding to each role, select the required check boxes to provide access to or clear the required check boxes to restrict access to the feature in the folder.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+            <p>The permissions defined on the folder are saved and a lock symbol appears.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WF-Pgm">
+   <title>Program Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>program-workflow</indexterm>
+            <indexterm>workflow-management</indexterm>
+            <indexterm>status-transitions</indexterm>
+            <indexterm>program-module</indexterm>
+            <indexterm>program-approval</indexterm>
+            <!-- Process layer -->
+            <indexterm>submit-program</indexterm>
+            <indexterm>approve-program</indexterm>
+            <indexterm>redraft-program</indexterm>
+            <indexterm>close-program</indexterm>
+            <indexterm>archive-program</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-lifecycle</indexterm>
+            <indexterm>financial-planning</indexterm>
+            <indexterm>program-governance</indexterm>
+            <indexterm>scenario-analysis</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Program Workflow"/>
+         <othermeta name="shortdesc"
+                    content="Provides workflow stages, stakeholder actions, and status transitions for managing program records, including submission, approval, redrafting, closing, and archiving."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="program record;workflow status;fund manager;program manager;project forecast;budget estimate;scenario;snapshot"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:program-workflow-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="program,workflow,status-transition,approval,archive"/>
+         <othermeta name="usecase"
+                    content="manage program workflow transitions from draft to archive"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table colsep="1" rowsep="1">
+         <desc>
+            <p>The following table provides the workflow actions and status (current and subsequent status) of the <uicontrol>Program</uicontrol> record.</p>
+            <p>For information on setting a workflow status to the next status, refer to <xref href="../../Common_Application_Features/Workflow_Management/WFStgTrans.xml">Workflow Status Transitions</xref>.</p>
+         </desc>
+         <tgroup cols="6">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <colspec colname="c3" colnum="3"/>
+            <colspec colname="c4" colnum="4"/>
+            <colspec colname="c5" colnum="5"/>
+            <colspec colname="c6" colnum="6"/>
+            <thead>
+               <row>
+                  <entry>Phase</entry>
+                  <entry>Current Workflow Status</entry>
+                  <entry>Stakeholders</entry>
+                  <entry>Action</entry>
+                  <entry>Subsequent Workflow Status</entry>
+                  <entry>Comments</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>1</entry>
+                  <entry>Draft</entry>
+                  <entry>
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>Program Manager</li>
+                     </ul>
+                  </entry>
+                  <entry>Submit</entry>
+                  <entry>Submitted</entry>
+                  <entry>-</entry>
+               </row>
+               <row>
+                  <entry morerows="1">2</entry>
+                  <entry morerows="1">Submitted</entry>
+                  <entry morerows="1">Fund Manager</entry>
+                  <entry>Approve</entry>
+                  <entry>Approved</entry>
+                  <entry>On approval of a program, the following changes occur:<ul>
+                        <li>The published budget estimates of the projects that are part of the program are approved. Also, thecurrent budget of each project is updated with the approved budget estimate items. </li>
+                        <li>If what-if analysisis done, then the project start and end dates, forecast dates, and current budget datesare updated based on the forecast changes done in the program.  </li>
+                        <li> The workflow status of each project that is part of the program is set to<uicontrol>Planned</uicontrol>if the start date of the project is not in the current yearand is set to <uicontrol>Pre-Award</uicontrol>if the start date of the project is in the current year. </li>
+                        <li>A project is moved from the <uicontrol>Planned Projects </uicontrol>list to the <uicontrol>Projects </uicontrol>module list page if the workflow status of the project is set to <uicontrol>Pre-Award</uicontrol>. The project remains in the <uicontrol>Planned Projects </uicontrol>list page if the workflow status of the project is set to <uicontrol>Planned</uicontrol>. </li>
+                        <li>Forecast snapshot is   generated automatically when the program is approved.</li>
+                     </ul>
+                  </entry>
+               </row>
+               <row>
+                  <entry>Redraft</entry>
+                  <entry>Draft</entry>
+                  <entry>-</entry>
+               </row>
+               <row>
+                  <entry morerows="1">3</entry>
+                  <entry morerows="1">Approved</entry>
+                  <entry morerows="1">Fund Manager</entry>
+                  <entry>Close</entry>
+                  <entry>Closed</entry>
+                  <entry>-</entry>
+               </row>
+               <row>
+                  <entry>Archive</entry>
+                  <entry>Archived</entry>
+                  <entry>Archived Programs are not available in the Program list page.</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

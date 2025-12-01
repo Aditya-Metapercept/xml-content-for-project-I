@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminConfigToolkit" xml:lang="en-us">
+   <title>Configuration Toolkit</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>configuration-toolkit</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>workflow-management</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>error-message-configurator</indexterm>
+            <!-- Process layer -->
+            <indexterm>build-forms</indexterm>
+            <indexterm>configure-workflows</indexterm>
+            <indexterm>publish-forms</indexterm>
+            <indexterm>apply-validation-rules</indexterm>
+            <indexterm>manage-error-messages</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>enterprise-web-platform</indexterm>
+            <indexterm>form-and-workflow-automation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configuration Toolkit"/>
+         <othermeta name="shortdesc"
+                    content="Describes the configuration toolkit that enables form creation, workflow configuration and UI error-message management without programming knowledge."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="configuration-toolkit;form-builder;workflow-engine;error-message-configurator;validation-rules"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:configuration-and-workflow-setup;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="configuration,form-builder,workflow-management,error-messages,validation"/>
+         <othermeta name="usecase"
+                    content="configure forms, workflows and UI error messages"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <ph href="../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> Configuration Toolkit enables you to build custom forms and configure workflows.</p>
+      <p>
+         <xref href="Form_Builder/FormBuilder.xml">
+            <uicontrol>Form Builder</uicontrol>
+         </xref>
+      </p>
+      <p>With the Form Builder tool, you can build a form, include validation rules or formulas, and publish your new form to the appropriate users. To build forms in <ph href="../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>, programming knowledge is not a requirement.</p>
+      <p>
+         <xref href="Workflow_Management/WFMgmt.xml">
+            <uicontrol>Workflow Management</uicontrol>
+         </xref>
+      </p>
+      <p>With the powerful workflow engine, you can configure workflows to automate any process, form, or document. To configure workflows in <ph href="../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>, programming knowledge is not a requirement.</p>
+      <p>
+         <xref href="Error_Message_Configurator/Error_Message_Configurator.xml">
+            <uicontrol>Error Message Configurator</uicontrol>
+         </xref>
+      </p>
+      <p>With the Error Message Configurator tool, you can view and modify error messages in the UI. To modify error messages in <ph href="../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>,   programming knowledge is not a requirement.</p>
+   </body>
+</topic>

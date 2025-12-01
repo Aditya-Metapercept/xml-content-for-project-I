@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Before_save" xml:lang="en-us">
+   <title>Before Save</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>form-control</indexterm>
+            <indexterm>field-control</indexterm>
+            <indexterm>validation-rule</indexterm>
+            <indexterm>condition-block</indexterm>
+            <indexterm>event-handler</indexterm>
+            <!-- Process layer -->
+            <indexterm>pre-save-validation</indexterm>
+            <indexterm>pre-commit-check</indexterm>
+            <indexterm>required-field-check</indexterm>
+            <indexterm>data-consistency-evaluation</indexterm>
+            <indexterm>workflow-blocking</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Before Save"/>
+         <othermeta name="shortdesc"
+                    content="Covers pre-save validations, conditional checks, and update logic performed before a form is persisted."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="form;field;logic;event;condition"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="validation,save,condition,form,field"/>
+         <othermeta name="usecase" content="configure-and-manage-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Before Save</uicontrol> event is executed when you click <uicontrol>Save</uicontrol> or <uicontrol>Save &amp; Continue</uicontrol> and the logic is executed before you save the event. This event is used to validate the conditions before the form is saved.</p>
+      <p>
+         <uicontrol>Use Case# Validate if the value of a field exceeds the acceptable limits</uicontrol>
+      </p>
+      <p>In the <uicontrol>Request For Proposal</uicontrol> (RFP) form, if you want a validation message to display if the total amount of the RFP is more than 20% of the total contract cost, then you can use the <uicontrol>Before Save</uicontrol> event to define the acceptable range of a value for the appropriate field.</p>
+      <p>
+         <uicontrol>Use Case# Insert or update fields in a form from another form based on defined condition</uicontrol>
+      </p>
+      <p>In the <uicontrol>Expenses</uicontrol> form, if you want to update the records with the rows from the pay items of the associated Purchase Order (PO), then you can use the <uicontrol>Before Save</uicontrol> event to define the conditions.</p>
+   </body>
+</topic>

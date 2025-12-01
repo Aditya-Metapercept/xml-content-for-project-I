@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WF-PrjSc">
+   <title>Project Scoring Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-management</indexterm>
+            <indexterm>project-scoring</indexterm>
+            <indexterm>workflow-status</indexterm>
+            <indexterm>status-transitions</indexterm>
+            <indexterm>workflow-actions</indexterm>
+            <!-- Process layer -->
+            <indexterm>submitting-project-scoring</indexterm>
+            <indexterm>transitioning-workflow-status</indexterm>
+            <indexterm>reviewing-workflow-states</indexterm>
+            <indexterm>managing-action-stakeholders</indexterm>
+            <indexterm>executing-workflow-actions</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-approval-process</indexterm>
+            <indexterm>fund-management</indexterm>
+            <indexterm>program-management</indexterm>
+            <indexterm>enterprise-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Project Scoring Workflow"/>
+         <othermeta name="shortdesc"
+                    content="Provides the workflow stages, actions, and stakeholder responsibilities for transitioning a Project Scoring record from Draft to subsequent statuses."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="workflow status;project scoring record;action stakeholders;status transition;fund manager;program manager"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:workflow-execution;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="workflow,project-scoring,status-transition,stakeholders,workflow-management"/>
+         <othermeta name="usecase"
+                    content="view and understand workflow actions and transitions for project scoring"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table colsep="1" rowsep="1">
+         <desc>
+            <p>The following table provides the workflow actions and status (current and subsequent status) of the <uicontrol>Project
+Scoring </uicontrol> record.</p>
+            <p>For information on setting a workflow status to the next status, refer to <xref href="../../../Common_Application_Features/Workflow_Management/WFStgTrans.xml">Workflow Status Transitions</xref>.</p>
+         </desc>
+         <tgroup cols="6">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <colspec colname="c3" colnum="3"/>
+            <colspec colname="c4" colnum="4"/>
+            <colspec colname="c5" colnum="5"/>
+            <colspec colname="c6" colnum="6"/>
+            <thead>
+               <row>
+                  <entry> Phase</entry>
+                  <entry>Current Workflow Status</entry>
+                  <entry>Action Stakeholders</entry>
+                  <entry>Action </entry>
+                  <entry>Subsequent Workflow Status</entry>
+                  <entry>Comments</entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>1</entry>
+                  <entry>Draft</entry>
+                  <entry>
+                     <ul>
+                        <li>Fund Manager</li>
+                        <li>
+                           <p>Program Manager</p>
+                        </li>
+                     </ul>
+                  </entry>
+                  <entry>Submit</entry>
+                  <entry>Submitted</entry>
+                  <entry>-</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_SCORCAT">
+   <title>Scoring Category</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-***"/>
+         <keywords><!-- Product layer -->
+            <indexterm>scoring-category</indexterm>
+            <indexterm>planning-module</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>category-configuration</indexterm>
+            <indexterm>department-association</indexterm>
+            <indexterm>weightage-settings</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-scoring-category</indexterm>
+            <indexterm>enter-category-name</indexterm>
+            <indexterm>define-category-description</indexterm>
+            <indexterm>associate-category-with-department</indexterm>
+            <indexterm>set-category-weightage</indexterm>
+            <indexterm>mark-category-inactive</indexterm>
+            <indexterm>save-scoring-category</indexterm>
+            <!-- Context layer -->
+            <indexterm>project-scoring</indexterm>
+            <indexterm>evaluation-framework</indexterm>
+            <indexterm>priority-weightage</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <othermeta name="title" content="Scoring Category"/>
+         <othermeta name="shortdesc"
+                    content="Create and configure scoring categories by defining name, description, department association, and weightage in the Planning module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="scoring-category;department-association;weightage-field;planning-module;category-record"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:scoring-category-setup;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="scoring,category,planning,weightage,evaluation,configuration"/>
+         <othermeta name="usecase" content="create-and-configure-scoring-categories"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Departments are already  defined. <ph product="Exclude_PG_Content">For information on departments, refer to<xref href="CrtDept.xml">Creating a Department</xref>.</ph>
+            </li>
+         </ul>
+      </prereq>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Planning</uicontrol>,and then click <uicontrol>ScoringCategory</uicontrol>.</p>
+            <p>The <uicontrol>SCORING CATEGORY </uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The new <uicontrol>SCORING CATEGORY </uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Name</uicontrol> box, enter the name of the scoring category.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Description</uicontrol> box, enter the description for the scoring category.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Department</uicontrol> drop-down list, select the department to associate the category with.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Weightage (%)</uicontrol> field, enter the required department weightage.</p>
+         </li>
+         <li>
+            <p>Optionally, to mark the category as inactive, clear the <uicontrol>Is Active</uicontrol> check box.</p>
+            <p> Inactive categories are not available for selection in the <uicontrol>Criteria </uicontrol>catalog.</p>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

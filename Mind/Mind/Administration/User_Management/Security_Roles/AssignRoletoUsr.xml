@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminAssgnRoleUsr">
+   <title>Assigning a Role to Users</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>role-assignment</indexterm>
+            <!-- Product layer -->
+            <indexterm>user-management</indexterm>
+            <!-- Product layer -->
+            <indexterm>security-roles</indexterm>
+            <!-- Product layer -->
+            <indexterm>admin-console</indexterm>
+            <!-- Product layer -->
+            <indexterm>access-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>assign-role-to-user</indexterm>
+            <!-- Process layer -->
+            <indexterm>assign-multiple-users</indexterm>
+            <!-- Process layer -->
+            <indexterm>revoke-role</indexterm>
+            <!-- Process layer -->
+            <indexterm>search-users</indexterm>
+            <!-- Process layer -->
+            <indexterm>confirm-assignment</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>user-onboarding</indexterm>
+            <!-- Context layer -->
+            <indexterm>web-admin-portal</indexterm>
+            <!-- Context layer -->
+            <indexterm>access-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Assigning a Role to Users"/>
+         <othermeta name="shortdesc"
+                    content="You can assign a role to multiple users in the application; the procedure shows how to locate Security Roles and apply assignments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="role;user;permission;admin-console;assignment-record"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:assign-roles-to-users;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="assignment,user,role,access-control"/>
+         <othermeta name="usecase" content="assign-roles-to-users"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can assign a role to multiple users in the application.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click<uicontrol>Security Roles</uicontrol>.</p>
+            <p>The<uicontrol>SECURITY ROLES</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Select a role.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Manage Users</uicontrol>.</p>
+            <p>The<uicontrol>MANAGE USERS</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the<uicontrol>Available Users</uicontrol>list, click the required user.</p>
+            <p>Alternatively, to select multiple users, press CTRL, and click each of the required users.</p>
+         </li>
+         <li>
+            <p>Click<image placement="inline" href="../../../Icons/zadd_role.jpg">
+                  <alt>Add</alt>
+               </image>.</p>
+            <p>The selected users are added to the<uicontrol>Users added to this role</uicontrol> box.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

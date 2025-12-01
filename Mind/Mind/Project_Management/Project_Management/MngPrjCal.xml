@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_PROJCLD">
+   <title>Managing the Project Calendar</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>project-calendar</indexterm>
+            <indexterm>calendar-catalog</indexterm>
+            <indexterm>calendar-versions</indexterm>
+            <indexterm>calendar-management</indexterm>
+            <indexterm>admin-console</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-calendar</indexterm>
+            <indexterm>assign-calendar-version</indexterm>
+            <indexterm>view-calendar</indexterm>
+            <indexterm>edit-calendar</indexterm>
+            <indexterm>publish-calendar</indexterm>
+            <!-- Context layer -->
+            <indexterm>project-planning</indexterm>
+            <indexterm>scheduling</indexterm>
+            <indexterm>resource-management</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>operational-scheduling</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Managing the Project Calendar"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for defining, assigning and managing project calendars and calendar versions within the administrative catalog."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="calendar;calendar-version;project;user-role;scheduled-event"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:configure-project-calendar;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="project-calendar,calendar-management,versions,scheduling,planning"/>
+         <othermeta name="usecase" content="configure-project-calendar"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Calendars are defined in the <uicontrol>Calendar</uicontrol> catalog of the library.<p>For more information on defining calendars, refer to <xref href="../../Library_Management/Standard_Library_Catalogs/Project_Management/Calendar.xml">Calendar</xref>.</p>
+            </li>
+            <li>A calendar is selected for the project in the <uicontrol>PROJECT DETAILS</uicontrol> page. </li>
+            <li>The role of the logged-in user should be one of the following:<p>
+                  <ul>
+                     <li>Engineer of Record</li>
+                     <li>Director</li>
+                     <li>Project Manager</li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </prereq>
+      <context>
+         <p>The <uicontrol>Project Calendar</uicontrol> enables you to define the working days of a week and holidays for the project. The configured calendar in a project determines the number of working days in the project. </p>
+         <p>You can configure multiple generic calendars in the <uicontrol>Calendar</uicontrol> catalog of the library. From the available list of configured calendars, an applicable calendar is then selected for the project. Once a calendar is selected for the project, you can later update the project calendar to customize it for the project. Only the latest version is effective in determining the number of working days in the project.</p>
+         <p>You can only update the latest version of the project calendar to customize it for the project. However, if a project calendar is changed in the middle of the project cycle, then the latest version of the calendar is effective for the project from the time the new version of the calendar is selected.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Planning</uicontrol>.</p>
+            <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click <uicontrol>Planned Projects</uicontrol>.</p>
+            <p>The <uicontrol>PLANNED PROJECTS</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>In the list page, click the appropriate project, and then click <uicontrol>View</uicontrol>.</p>
+         </li>
+         <li>
+            <p>In the project navigation pane, click <uicontrol>Project Calendar</uicontrol>.</p>
+            <p>The <uicontrol>PROJECT CALENDAR</uicontrol> list page is displayed. </p>
+            <p>The available calendars are versions of the calendar selected for the project.</p>
+         </li>
+         <li>
+            <p>In the list page, select the latest version of the calendar, and then click <uicontrol>Edit</uicontrol>.</p>
+            <p>
+               <note> The latest version of the calendar is the calendar that has the check box in the<uicontrol>Is Latest</uicontrol> column selected.</note>
+            </p>
+            <p>The <uicontrol>PROJECT CALENDAR</uicontrol> page displays the following information:<table colsep="1" rowsep="1">
+                  <tgroup cols="3">
+                     <colspec colname="c1" colnum="1" colwidth="20%"/>
+                     <colspec colname="c2" colnum="2" colwidth="20%"/>
+                     <colspec colname="c3" colnum="3" colwidth="60%"/>
+                     <thead>
+                        <row>
+                           <entry>Section Name</entry>
+                           <entry>Field Name</entry>
+                           <entry>Description</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry morerows="2">-</entry>
+                           <entry>Name</entry>
+                           <entry>The name of the calendar is displayed.</entry>
+                        </row>
+                        <row>
+                           <entry>Description</entry>
+                           <entry>The description of the calendar is displayed.</entry>
+                        </row>
+                        <row>
+                           <entry>Non-Working Days</entry>
+                           <entry>The check boxes for the non-working days are selected. </entry>
+                        </row>
+                        <row>
+                           <entry> EXCEPTIONS</entry>
+                           <entry>–</entry>
+                           <entry>Any exceptions made in the working days or non-working days apart from the information in the <uicontrol>Non-Working Days</uicontrol> field are displayed.</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>Optionally, enter appropriate details in the <uicontrol>Name</uicontrol>, <uicontrol>Description</uicontrol>, and <uicontrol>Non-Working Days</uicontrol> fields, as applicable.</p>
+         </li>
+         <li>
+            <p>In the calendar, you can change a specific non-working day to a working day or vice versa. To define such exceptions, in the <uicontrol>EXCEPTIONS</uicontrol> section, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click <uicontrol>Add</uicontrol>.</p>
+                  <p>The <uicontrol>New Exceptions</uicontrol> dialog box is displayed.</p>
+               </li>
+               <li>
+                  <p>Provide the appropriate information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="25%"/>
+                           <colspec colname="c2" colnum="2" colwidth="75%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Date</entry>
+                                 <entry>Select the date to define an exception.</entry>
+                              </row>
+                              <row>
+                                 <entry>Type</entry>
+                                 <entry>Select the appropriate option.<ul>
+                                       <li>If the selected option is <uicontrol>Working Day</uicontrol>, the date is considered when calculating the number of working days in the project. </li>
+                                       <li>If the selected option is <uicontrol>Non Working Day</uicontrol>, the date is not considered when calculating the number of working days in the project. <p>For example, in the <uicontrol>Non-Working Days</uicontrol> field, if <uicontrol>Saturday</uicontrol> is selected as a non-working day, and if a particular Saturday needs to be a working day, the exception can be defined here, and the Saturday is considered when calculating the number of working days in the project.</p>
+                                       </li>
+                                    </ul>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Notes</entry>
+                                 <entry>Enter any appropriate notes for the exception.</entry>
+                              </row>
+                              <row>
+                                 <entry>Recurring Annually</entry>
+                                 <entry>Select the check box to consider the exception across years when calculating the number of working days in a project.</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Save</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Optionally, perform any of the following steps, as applicable:</p>
+                  <p>
+                     <ul>
+                        <li>To edit any records, select the appropriate record, click <uicontrol>Edit</uicontrol>, and then repeat steps 6b to 6c, as applicable.</li>
+                        <li>To delete any records, select the appropriate records, click <uicontrol>Delete</uicontrol>, and then click <uicontrol>OK</uicontrol>.</li>
+                     </ul>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>A new version of the project calendar is created, and the number of project working days is updated based on this version.<p>For information on setting calendar options, refer to <xref href="../../Library_Management/Standard_Library_Catalogs/Project_Management/Calendar.xml">Calendar</xref>.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
