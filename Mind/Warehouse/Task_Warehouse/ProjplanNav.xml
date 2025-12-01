@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="task-1465">
+   <title>Project/Planning Navigation</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>project-planning</indexterm>
+            <indexterm>plan-navigation</indexterm>
+            <indexterm>schedule-viewer</indexterm>
+            <indexterm>baseline-management</indexterm>
+            <indexterm>plan-repository</indexterm>
+            <!-- Process layer -->
+            <indexterm>open-project-plan</indexterm>
+            <indexterm>navigate-schedule</indexterm>
+            <indexterm>compare-baselines</indexterm>
+            <indexterm>export-plan-data</indexterm>
+            <indexterm>update-plan-entries</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>planning-and-scheduling</indexterm>
+            <indexterm>stakeholder-review</indexterm>
+            <indexterm>resource-allocation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Project Plan Navigation"/>
+         <othermeta name="shortdesc"
+                    content="Instructions for navigating project plans, schedules and baselines within the planning module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="project-plans;schedules;baselines;milestones;resources"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:plan-navigation;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="project-plan,navigation,schedule,baseline,export"/>
+         <othermeta name="usecase" content="navigate-and-review-project-plans"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <ol>
+            <li id="OLProPlanNav">In the module menu, click <uicontrol>Projects</uicontrol>.
+                    <p>The <uicontrol>PROJECTS</uicontrol> list page is displayed.</p>
+               <p>Alternatively, perform the following steps: <ol>
+                     <li>
+                        <p>In the module menu, click <uicontrol>Planning</uicontrol>.</p>
+                        <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> is displayed.</p>
+                     </li>
+                     <li>
+                        <p>In the navigation pane, click <uicontrol>Planned Projects</uicontrol>.</p>
+                        <p>The <uicontrol>PLANNED PROJECTS</uicontrol>list page is displayed.</p>
+                     </li>
+                  </ol>
+               </p>
+            </li>
+         </ol>
+      </context>
+      <ol>
+         <li id="ProPlanNav">
+            <p>In the module menu, click <uicontrol>Projects</uicontrol>.</p>
+            <p>The <uicontrol>PROJECTS</uicontrol> list page is displayed.</p>
+            <p>Alternatively, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the module menu, click <uicontrol>Planning</uicontrol>.</p>
+                  <p>The <uicontrol>PLANNING DASHBOARD</uicontrol> is displayed.</p>
+               </li>
+               <li>
+                  <p>In the navigation pane, click <uicontrol>Planned Projects</uicontrol>.</p>
+                  <p>The <uicontrol>PLANNED PROJECTS</uicontrol> list page is displayed.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

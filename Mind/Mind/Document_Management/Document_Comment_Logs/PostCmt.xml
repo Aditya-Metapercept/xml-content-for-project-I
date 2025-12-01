@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMPstCmt">
+   <title>Posting a Comment on a Document</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product -->
+            <indexterm>comment-module</indexterm>
+            <indexterm>annotation-system</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>feedback-interface</indexterm>
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Process -->
+            <indexterm>post-comment</indexterm>
+            <indexterm>add-annotation</indexterm>
+            <indexterm>submit-feedback</indexterm>
+            <indexterm>create-comment-thread</indexterm>
+            <indexterm>collaborate-online</indexterm>
+            <!-- Context -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-collaboration</indexterm>
+            <indexterm>technical-review</indexterm>
+            <indexterm>design-feedback</indexterm>
+            <indexterm>digital-workflows</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Posting Comments"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to post comments and provide feedback on documents."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="comment;annotation;comment-window;editor;thread"/>
+         <othermeta name="taxonomy"
+                    content="domain:document-management;usecase:commenting;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="comment,annotation,feedback,posting,thread"/>
+         <othermeta name="usecase" content="adding comments and annotations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can post a comment on a document and associate a reference number with the comment. The date the comment is posted is also recorded.</context>
+      <ol>
+         <li href="../../../Warehouse/Task_Warehouse/AcsPrjContDocsNav.dita#task-5739/AccProContDocFolder">
+            <p/>
+         </li>
+         <li>
+            <p>Select a document, and then click <uicontrol>Comment Log</uicontrol>.</p>
+            <p>The <uicontrol>COMMENT LOG </uicontrol> page is displayed.</p>
+            <p>
+               <fig>
+                  <title>Comment Log</title>
+                  <image href="../../CoSP/Document_Management/Screenshot/Comment_Log.jpg"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Add</uicontrol>.</p>
+            <p>A row is added to the comment log list.</p>
+            <p>The date the comment is posted, and the user name of the user posting the comment are displayed.</p>
+         </li>
+         <li>
+            <p>In the added row, double-click in the <uicontrol>Comments </uicontrol>column, and enter comments for the document.</p>
+         </li>
+         <li>
+            <p>In the added row, double-click in the <uicontrol>Reference Number </uicontrol>column, and enter a reference number for the comment.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

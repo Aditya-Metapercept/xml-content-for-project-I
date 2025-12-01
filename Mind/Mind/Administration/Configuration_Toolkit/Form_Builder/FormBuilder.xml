@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_FRMBLDR" xml:lang="en-us">
+   <title>Form Builder</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>form-builder</indexterm>
+            <indexterm>config-plus</indexterm>
+            <indexterm>form-designer</indexterm>
+            <indexterm>form-library</indexterm>
+            <indexterm>form-repository</indexterm>
+            <!-- Process layer -->
+            <indexterm>creating-forms</indexterm>
+            <indexterm>editing-forms</indexterm>
+            <indexterm>form-versioning</indexterm>
+            <indexterm>business-logic-configuration</indexterm>
+            <indexterm>form-deployment</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>form-management</indexterm>
+            <indexterm>ai-retrieval</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>web-platform</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Form Builder"/>
+         <othermeta name="shortdesc"
+                    content="Overview and usage of the Form Builder tool for creating, editing and publishing XML-based forms integrated with configuration and business logic."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="form;xml-schema;config+;form-template;form-version"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:software"/>
+         <othermeta name="tags"
+                    content="form-builder,xml,form-publishing,versioning,config+"/>
+         <othermeta name="usecase" content="create-and-manage-xml-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> Form Builder is a powerful tool, which enables you to develop customized forms and publish them to the application. <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> provides XML templates to create and configure new forms. This feature provides you with a free hand in adding new forms based on the evolving needs of the organization.</p>
+      <p>The Form Builder tool is integrated with Config+ that enables you to configure business logic within a form. <ph product="Exclude_PG_Content">For more information, refer to  <xref href="../Form_Builder_Using_ConfigPlus/FormBuilder_Using_Config.xml"/>.</ph>
+      </p>
+      <p>In addition, the Workflow Management integrated with the Form Builder enables you to automate any business process according to the business requirements.</p>
+      <p>The following sections describe in detail the various features of the <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>Form Builder:<ul>
+            <li>
+               <xref scope="local" href="#ListPage_FRMBLDR/section-2045">Terminologies used in Form Builder</xref>
+            </li>
+            <li>
+               <xref scope="local" href="#ListPage_FRMBLDR/section-2406">Lifecycle of a Form</xref>
+            </li>
+         </ul>
+      </p>
+      <p>The following sections describe the procedures to create a form, and publish a created form using Form Builder:<ul>
+            <li>
+               <xref href="UsingFormBuilder.xml">Creating a Form Using Form Builder</xref>
+            </li>
+            <li>
+               <xref href="PublishForm.xml">Publishing a Form</xref>
+            </li>
+         </ul>
+      </p>
+      <p>The following section describes the procedure to configure business logic within a form:</p>
+      <p>
+         <ul product="Exclude_PG_Content">
+            <li>
+               <xref href="../Form_Builder_Using_ConfigPlus/Configuring_Business_Logic_in_Form.xml"/>
+            </li>
+         </ul>
+      </p>
+      <section id="section-2045">
+         <title>Before you Begin - Terminologies used in Form Builder</title>
+         <p>Form Builder is usable with ease to create a wide variety of forms based on business requirements.</p>
+         <p>However, before you start creating them, here are some terminologies that you should be familiar with:<ul>
+               <li>
+                  <uicontrol>Group Layout</uicontrol>
+                  <p>A layout holds the controls that define a form. The layout is the framework on which the form is defined.</p>
+                  <p>Following are the various types of layouts available.</p>
+                  <table colsep="1" rowsep="1">
+                     <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="30%"/>
+                        <colspec colname="c2" colnum="2" colwidth="70%"/>
+                        <thead>
+                           <row>
+                              <entry>Layout</entry>
+                              <entry>Description</entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>Section</entry>
+                              <entry>A Section is defined as the part of the form that separates the action items. Multiple sections can be added as required in a form depending on the actions and the purpose. Each section can also be made visible or hidden in the definition of the form based on the workflow requirement.</entry>
+                           </row>
+                           <row>
+                              <entry>Spacer</entry>
+                              <entry>A spacer is used to provide spaces within the form ideally in between sections or grids. It can also accommodate controls within it similar to any other container and is hence listed under containers. You cannot add a section to a spacer.</entry>
+                           </row>
+                           <row>
+                              <entry>Tabs Container, Tab</entry>
+                              <entry>A Tab Container enables you to introduce a tab control within a form. To introduce more than one tab, add the Tab control to the Tabs Container.</entry>
+                           </row>
+                           <row>
+                              <entry>Section without Header, Section with Border</entry>
+                              <entry>These options are available only when you switch to the advanced mode. You can create sections without a header and with a border using the Group Layout types Section without Header and Section with Border.</entry>
+                           </row>
+                           <row>
+                              <entry>Two Column Layout, Three Column Layout</entry>
+                              <entry>These options are available only when you switch to the advanced mode. A column layout introduces two or three sections with two or three text boxes organized in columns. This enables you to organize with ease sections and controls within the two or three columns.</entry>
+                           </row>
+                           <row>
+                              <entry>Stage</entry>
+                              <entry>This option is available only when you switch to the advanced mode. A Stage can contain sections and controls that can be made visible or hidden based on the progress of the associated workflow. You can manage visibility and edit properties of the contents of this stage through Workflow Configuration of the form at stage-level. <ph product="Exclude_PG_Content">For information on workflows, refer to <xref href="../Workflow_Management/WFMgmt.xml">Workflow Management</xref>.</ph>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>Include</entry>
+                              <entry>This option is available only when you switch to the advanced mode. Include enables embedding one form in another. This is useful when you have multiple forms that have the common fields. Improves efficiency by enabling definition of elements in a separate form and include the form in appropriate forms.</entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+               <li>
+                  <uicontrol>Simple Input Controls</uicontrol>
+                  <p>In simple mode, only simple attributes and controls are available.</p>
+                  <p>The default mode of a form builder is simple mode.</p>
+                  <p>To change the form builder mode to advanced mode, click <uicontrol>Switch to Advanced</uicontrol>.</p>
+                  <table colsep="1" rowsep="1">
+                     <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="30%"/>
+                        <colspec colname="c2" colnum="2" colwidth="70%"/>
+                        <thead>
+                           <row>
+                              <entry>Control Name</entry>
+                              <entry>Description</entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>Autogenerated</entry>
+                              <entry>The autogenerated field automatically increments its value every time the form is used and saved.</entry>
+                           </row>
+                           <row>
+                              <entry>Single line text, Multi line text</entry>
+                              <entry>The single line text, and multiline text allows text input.</entry>
+                           </row>
+                           <row>
+                              <entry>Date, Time Input, Date Time</entry>
+                              <entry>The <uicontrol>Date</uicontrol> and <uicontrol>Time Input</uicontrol> options allow date and time entries.</entry>
+                           </row>
+                           <row>
+                              <entry>Numeric, Integer</entry>
+                              <entry>The Numeric, and Integer options allow numeric inputs.</entry>
+                           </row>
+                           <row>
+                              <entry>Drop Down, List Box, Check Box List, Check Box, Radio Button List, Label</entry>
+                              <entry>These controls enable you to define options for a list of values from a data source.</entry>
+                           </row>
+                           <row>
+                              <entry>Formatted Input, Password</entry>
+                              <entry>The options allow formatted input by specifying the format in which you can enter alpha-numeric information.</entry>
+                           </row>
+                           <row>
+                              <entry>Hidden</entry>
+                              <entry>This option can be used as a placeholder text box and is not visible on the form.</entry>
+                           </row>
+                           <row>
+                              <entry>Rich Text</entry>
+                              <entry>This option is available only when you switch to the advanced mode. The rich text option allows you to enter text in HTML.</entry>
+                           </row>
+                           <row>
+                              <entry>Drop Down Tree</entry>
+                              <entry>This option is available only when you switch to the advanced mode. These controls enable you to define options for a list of values from a data source.</entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+               <li>
+                  <uicontrol>Advanced Controls</uicontrol>
+                  <p>In addition to the controls listed in the <uicontrol>SIMPLE INPUT CONTROLS</uicontrol> pane, you can see an <uicontrol>ADVANCED CONTROLS</uicontrol> pane when the advanced mode is selected.</p>
+                  <p>The default mode of a form builder is simple mode. To change the form builder mode to advanced, click <uicontrol>Switch to Advanced</uicontrol>.</p>
+                  <p>To go back to the simple mode, click <uicontrol>Switch to Simple</uicontrol>.</p>
+                  <p>
+                     <uicontrol>New Tabs</uicontrol>
+                  </p>
+                  <p>The following tabs are available only when you  switch to the advanced mode:<table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="30%"/>
+                           <colspec colname="c2" colnum="2" colwidth="70%"/>
+                           <thead>
+                              <row>
+                                 <entry>Tab Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>
+                                    <uicontrol>FORM BUSINESS LOGIC</uicontrol>
+                                 </entry>
+                                 <entry>This tab comprises of several events and blocks that enables you to configure business logic in the form details page.</entry>
+                              </row>
+                              <row>
+                                 <entry>
+                                    <uicontrol>LIST PAGE BUSINESS LOGIC</uicontrol>
+                                 </entry>
+                                 <entry>This tab comprises of only one event and same blocks similar to the <uicontrol>FORM BUSINESS LOGIC</uicontrol> tab except one block. The events and blocks  enable you to configure business logic in the list page.</entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+                  <p>These following options are available only when you switch to the advanced mode:</p>
+                  <table colsep="1" rowsep="1">
+                     <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="30%"/>
+                        <colspec colname="c2" colnum="2" colwidth="70%"/>
+                        <thead>
+                           <row>
+                              <entry>Control Name</entry>
+                              <entry>Description</entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>MultiSelect Drop Down</entry>
+                              <entry>The control enables you to insert a multi-select drop-down list.</entry>
+                           </row>
+                           <row>
+                              <entry>Multi Picker</entry>
+                              <entry>The control enables you to insert a combination of two list boxes, one to show the available options and other to hold the selected options.</entry>
+                           </row>
+                           <row>
+                              <entry>Link</entry>
+                              <entry>The control enables you to insert a link.</entry>
+                           </row>
+                           <row>
+                              <entry>Set</entry>
+                              <entry>This is similar to a text box type control with left and top labels for reference and is used to place controls next to each other. Can be a text box, radio button list, drop-down list, and so on.</entry>
+                           </row>
+                           <row>
+                              <entry>Picker With Textbox</entry>
+                              <entry>The control enables you to insert a text box with a picker that opens a dialog box to select options.</entry>
+                           </row>
+                           <row>
+                              <entry>Picture</entry>
+                              <entry>The control enables you to insert a picture in the section.</entry>
+                           </row>
+                           <row>
+                              <entry>Button</entry>
+                              <entry>The control enables you to insert a button.</entry>
+                           </row>
+                           <row>
+                              <entry>Formula</entry>
+                              <entry>The control enables defining a formula for fields in the section.</entry>
+                           </row>
+                           <row>
+                              <entry>Map</entry>
+                              <entry>The control inserts a map control in the form.</entry>
+                           </row>
+                           <row>
+                              <entry>GISDataMapper</entry>
+                              <entry>When a map control is added to a form, this control enables configuration of user-friendly names for tooltips to by displayed in GIS maps.</entry>
+                           </row>
+                           <row>
+                              <entry>File</entry>
+                              <entry>The control inserts the standard attachment control to the form. You can upload files as attachments to the form.</entry>
+                           </row>
+                           <row>
+                              <entry>Picker Trigger</entry>
+                              <entry>The option inserts the picker control that opens a dialog box to select options.</entry>
+                           </row>
+                           <row>
+                              <entry>Picture Taker</entry>
+                              <entry>The option inserts a control to click a photo or upload an image.</entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol>Child Data Container</uicontrol>
+                  </p>
+                  <p>Following
+are the various options to create child data containers in a form:</p>
+                  <table colsep="1" rowsep="1">
+                     <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="30%"/>
+                        <colspec colname="c2" colnum="2" colwidth="70%"/>
+                        <thead>
+                           <row>
+                              <entry>Container Name</entry>
+                              <entry>Description</entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry> Dynamic Grid </entry>
+                              <entry> These are grids or tables where the number of rows is variable, but the number of columns is fixed as specified when creating the table. </entry>
+                           </row>
+                           <row>
+                              <entry> Picker </entry>
+                              <entry> This allows data configuration for all the Picker Triggers placed in the form. </entry>
+                           </row>
+                           <row>
+                              <entry> Static Grid </entry>
+                              <entry> This option is available only when you switch to the advanced mode. A static grid is defined as a grid or a table where the number of rows and columns are fixed and are defined at the design stage of the form.</entry>
+                           </row>
+                           <row>
+                              <entry> CheckList Group </entry>
+                              <entry> This option is available only when you switch to the advanced mode. These are collection of similar types of checklist items required for recording information while performing a certain operation. Every new checklist item group contains only similar type of controls within them. We are required to create different checklist groups for different types of controls.</entry>
+                           </row>
+                           <row>
+                              <entry> Row </entry>
+                              <entry> This option is available only when you switch to the advanced mode. A row is used to modify the rows in a static grid. The number of rows to be inserted has to be specified during design time of the form.</entry>
+                           </row>
+                           <row>
+                              <entry> Check List </entry>
+                              <entry> This option is available only when you switch to the advanced mode. Checklists define a set of actions to be performed in a specific order.</entry>
+                           </row>
+                           <row>
+                              <entry> Client Dynamic Grid </entry>
+                              <entry> This option is available only when you switch to the advanced mode. This control is a form of Dynamic Grid where number of rows are variable. However, this is a client control and hence data is stored and validated at the client instead of server.</entry>
+                           </row>
+                           <row>
+                              <entry> Discussion Control </entry>
+                              <entry> This option is available only when you switch to the advanced mode. This is used to insert a discussion control where users can record discussions between two users, a question can be raised and the respondent can respond to the question.</entry>
+                           </row>
+                           <row>
+                              <entry> Task Control </entry>
+                              <entry> This option is available only when you switch to the advanced mode. The task control is used where users can assign tasks to another user, can set due dates, respond to the task, and close the task.</entry>
+                           </row>
+                           <row>
+                              <entry> LinkTo Grid Control </entry>
+                              <entry>This option is available only when you switch to the advanced mode. This control is used to link records of one form to another.</entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section id="section-2406">
+         <title>Lifecycle of a Form</title>
+         <p>The typical lifecycle of a form is as below:<ol>
+               <li>
+                  <uicontrol>Design time</uicontrol>
+                  <p>As a form author, you can:</p>
+                  <ul>
+                     <li>Initiate the creation of a new form from the <uicontrol>FORM BUILDER</uicontrol> page</li>
+                     <li>Edit the form definition from the <uicontrol>Form Builder</uicontrol> editor</li>
+                     <li>Specify form location within <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>
+                     </li>
+                     <li>Associate a Workflow to automate business processes</li>
+                     <li>Save the form definition</li>
+                  </ul>
+               </li>
+               <li>
+                  <uicontrol>Publishing</uicontrol>
+                  <p>Once a form is designed and saved, the form is published to make it available in the application. On publishing a form, the form is made available in the module as defined during form design. The toolbar of the form is the predefined <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>standard toolbar and is automatically created by the tool.</p>
+                  <p>On publishing a form, you can define role-based permissions for the form. <ph product="Exclude_PG_Content">For information on defining permissions, refer to <xref href="../../User_Management/Permissions/ConfigRolePerms.xml">Configuring Role Permissions</xref>.</ph>
+                  </p>
+               </li>
+               <li>
+                  <uicontrol>Runtime</uicontrol>
+                  <p>As a user of the form, you can:</p>
+                  <ul>
+                     <li>Initiate the creation of a new form from the form's list page</li>
+                     <li>Enter data into the form</li>
+                     <li>Review, save, submit, or download form data</li>
+                     <li>View the created form in a PDF format</li>
+                     <li>Search for a form using form data</li>
+                     <li>Delete form data</li>
+                     <li>Perform workflow actions on the form</li>
+                  </ul>
+               </li>
+            </ol>
+         </p>
+      </section>
+   </body>
+</topic>

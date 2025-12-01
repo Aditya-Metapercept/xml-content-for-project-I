@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_PROGRAM" xml:lang="en-us">
+   <title>Program</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>program-module</indexterm>
+            <indexterm>program-form</indexterm>
+            <indexterm>fund-categories</indexterm>
+            <indexterm>fund-sources</indexterm>
+            <indexterm>what-if-analysis</indexterm>
+            <!-- Process layer -->
+            <indexterm>group-projects</indexterm>
+            <indexterm>assign-funds</indexterm>
+            <indexterm>view-program-forecast</indexterm>
+            <indexterm>manage-program-revisions</indexterm>
+            <indexterm>approve-projects</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-planning</indexterm>
+            <indexterm>financial-management</indexterm>
+            <indexterm>scenario-planning</indexterm>
+            <indexterm>program-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Program"/>
+         <othermeta name="shortdesc"
+                    content="Explains the purpose of a program and describes how programs group planned projects, allocate funds, perform what-if analysis, and manage revisions and approvals."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="program;planned project;fund category;fund source;forecast;scenario;program revision"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:program-overview;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="program,projects,funds,forecast,what-if-analysis"/>
+         <othermeta name="usecase"
+                    content="provide an overview of program structure, capabilities, and actions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>A program is a collection of proposed and authorized projects.</p>
+      <p>A program provides a comprehensive view of project requirements and available funds.</p>
+      <p>The <uicontrol>Program</uicontrol> form enables you to: <ul>
+            <li>Add multiple planned projects  to a program</li>
+            <li>Group projects under a program and assign funds</li>
+            <li>View funds that are available, remaining, andrequired</li>
+            <li>View details of each fund category and fund source</li>
+            <li>View the forecast of the program over the program period</li>
+            <li> Perform what-if analysis by creating multiple program scenarios and selecting the best scenario for approval</li>
+            <li>Performwhat-if analysisusing fund views</li>
+            <li>Create snapshots for comparison</li>
+            <li>Approve projects </li>
+            <li>Manage program revisions</li>
+            <li>Generate reports</li>
+         </ul>
+      </p>
+      <p>You can perform the following tasks: <ul>
+            <li>
+               <xref href="../../CoSP/Planning_Management/Programs/CreatePrg.xml"/>
+            </li>
+            <li product="Include_PG_Content">
+               <xref href="Approving_a_Program.xml"/>
+            </li>
+            <li product="Exclude_PG_Content">
+               <xref href="ProgramWF.xml"/>
+            </li>
+         </ul>
+      </p>
+   </body>
+</topic>

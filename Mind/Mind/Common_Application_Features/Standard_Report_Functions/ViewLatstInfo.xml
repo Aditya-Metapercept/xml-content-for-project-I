@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RefreshRepData">
+   <title>Viewing Latest Information in a Report</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>info-viewer</indexterm>
+            <indexterm>dashboard-component</indexterm>
+            <indexterm>latest-info-service</indexterm>
+            <indexterm>query-api</indexterm>
+            <indexterm>data-caching</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-latest-information</indexterm>
+            <indexterm>refresh-view</indexterm>
+            <indexterm>query-latest-records</indexterm>
+            <indexterm>filter-latest-data</indexterm>
+            <indexterm>cache-invalidation</indexterm>
+            <!-- Context layer -->
+            <indexterm>operational-monitoring</indexterm>
+            <indexterm>user-dashboard</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>data-retrieval</indexterm>
+            <indexterm>stakeholder-insights</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="View Latest Information"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to view and refresh the latest system information and dashboard records."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="dashboard;latest-record;query-api;cache;viewer"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:view-latest-data;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="view,latest,dashboard,refresh,data"/>
+         <othermeta name="usecase" content="display-latest-system-information"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can refresh the report to view the most updated information.</p>
+      </context>
+      <ol>
+         <li>
+            <p>Generate the required report.</p>
+         </li>
+         <li>
+            <p>In the report toolbar, click<uicontrol>Refresh</uicontrol>.<image href="../../Icons/Refresh_Report.gif" placement="inline">
+                  <alt>Refresh</alt>
+               </image>
+            </p>
+            <p>The report data is refreshed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

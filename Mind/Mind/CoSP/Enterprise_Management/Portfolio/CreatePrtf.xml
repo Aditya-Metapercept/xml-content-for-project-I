@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_PORTENT_New">
+   <title>Creating a Portfolio</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="administrator, engineering, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>capital-programme-management-application</indexterm>
+            <indexterm>portfolio-creation-module</indexterm>
+            <indexterm>project-portfolio-management</indexterm>
+            <indexterm>portfolio-dashboard</indexterm>
+            <indexterm>portfolio-management-system</indexterm>
+            <indexterm>investment-portfolio-setup</indexterm>
+            <!-- Process layer -->
+            <indexterm>creating-portfolio</indexterm>
+            <indexterm>defining-portfolio-parameters</indexterm>
+            <indexterm>assigning-portfolio-manager</indexterm>
+            <indexterm>setting-portfolio-goals</indexterm>
+            <indexterm>saving-new-portfolio</indexterm>
+            <indexterm>initialising-portfolio-structure</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-programme-management</indexterm>
+            <indexterm>portfolio-governance</indexterm>
+            <indexterm>investment-planning</indexterm>
+            <indexterm>enterprise-software-system</indexterm>
+            <indexterm>programme-office-scenario</indexterm>
+            <indexterm>glass-manufacturing-industry</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Create Portfolio"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to create a new portfolio in the application."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="portfolio;portfolio manager;portfolio parameters;investment planning"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-programme-management;usecase:create-portfolio;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="portfolio-creation,setup,governance,investment-planning"/>
+         <othermeta name="usecase" content="create-new-portfolio"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>
+               <p>The role of the logged-in user should be one of the following:<ul>
+                     <li>Administrative Support</li>
+                     <li>Construction Inspector</li>
+                     <li>Construction Manager</li>
+                     <li>Engineer of Record</li>
+                     <li>Director</li>
+                     <li>Field Supervisor</li>
+                     <li>Fund Manager</li>
+                     <li>Manager</li>
+                     <li>Program Manager</li>
+                     <li>Project Manager</li>
+                     <li>Support Services</li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </prereq>
+      <context>You can create a portfolio to group the projects, programs, and sub-portfolios. For ease of tracking, you can create portfolios that are in the purview of a user, and assign projects, programs, and sub-portfolios.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Home</uicontrol>.</p>
+            <p>The<uicontrol>ENTERPRISE DASHBOARD</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click<uicontrol>Portfolio</uicontrol>.</p>
+            <p>The<uicontrol>PORTFOLIO</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>New</uicontrol>.</p>
+            <p>
+               <fig product="PG_Screenshot">
+                  <title>Portfolio Page</title>
+                  <image href="../../../Icons/Portfolio.jpg" placement="inline"/>
+               </fig>
+            </p>
+            <p>The<uicontrol>PORTFOLIO</uicontrol> page  displays the following non-editable  fields:<table colsep="1" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="30%"/>
+                     <colspec colname="c2" colnum="2" colwidth="70%"/>
+                     <thead>
+                        <row>
+                           <entry>Field Name</entry>
+                           <entry>Description</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>Created By</entry>
+                           <entry>Displays the name of the user creating the portfolio.</entry>
+                        </row>
+                        <row>
+                           <entry>Created Date</entry>
+                           <entry>The current date is displayed.</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>In the<uicontrol>DETAILS</uicontrol> tab, provide the required information in the fields, as described in the following table.</p>
+            <p>
+               <table colsep="1" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth="30%"/>
+                     <colspec colname="c2" colnum="2" colwidth="70%"/>
+                     <thead>
+                        <row>
+                           <entry>Field Name</entry>
+                           <entry>Description</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry> Portfolio Name </entry>
+                           <entry>Enter a unique name for the portfolio.
+                                    </entry>
+                        </row>
+                        <row>
+                           <entry> Portfolio Manager </entry>
+                           <entry>To select the portfolio manager, perform the following steps: 
+                                        <ol>
+                                 <li>Click <image href="../../../Icons/select.png" placement="inline">
+                                       <alt>List</alt>
+                                    </image>. <p>The <uicontrol>Portfolio Managers </uicontrol> dialog box is displayed.</p> The list comprises user names of all users in the enterprise.
+                                            </li>
+                                 <li>Select the required portfolio manager, and then click <uicontrol>Select</uicontrol>.</li>
+                              </ol>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry> Description </entry>
+                           <entry>Enter a detailed description of the portfolio.
+ </entry>
+                        </row>
+                        <row>
+                           <entry> Start Date </entry>
+                           <entry>Select the start date of the portfolio.
+                                    </entry>
+                        </row>
+                        <row>
+                           <entry> End Date </entry>
+                           <entry>Select the end date of the portfolio.
+                                    </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>To add projects to the portfolio, in the <uicontrol>PROJECTS</uicontrol> section, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click<uicontrol>Add</uicontrol>.</p>
+                  <p>The<uicontrol>Projects</uicontrol> dialog box is displayed.<p>The list of all the projects in the enterprise is displayed.</p>
+                  </p>
+               </li>
+               <li>
+                  <p>Select the required projects, and then click<uicontrol>Select</uicontrol>.</p>
+                  <p>The selected projects are added to the portfolio.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add programs to the portfolio, in the <uicontrol>PROGRAMS</uicontrol> section, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click<uicontrol>Add</uicontrol>.</p>
+                  <p>The<uicontrol>Programs</uicontrol> dialog box is displayed.<p>The list of all the programs in the enterprise is displayed.</p>
+                  </p>
+               </li>
+               <li>
+                  <p>Select the required programs, and then click<uicontrol>Select</uicontrol>.</p>
+                  <p>The selected programs are added to the portfolio.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add portfolios as sub-portfolios, in the <uicontrol>SUB PORTFOLIOS</uicontrol> section, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click<uicontrol>Add</uicontrol>.</p>
+                  <p>The<uicontrol>Sub Portfolios</uicontrol>dialog box is displayed.<p>The list of all the portfolios in the enterprise is displayed.</p>
+                  </p>
+               </li>
+               <li>
+                  <p>Select the required portfolios, and then click<uicontrol>Select</uicontrol>.</p>
+                  <p>The selected portfolios are added as sub-portfolios to the portfolio.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol> to save the record and return to the list page.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

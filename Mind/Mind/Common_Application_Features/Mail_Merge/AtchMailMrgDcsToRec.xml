@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AttachMMDoc">
+   <title>Attaching Mail Merge Documents to a Record of a Form</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>mail-merge</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>record-management-system</indexterm>
+            <indexterm>document-attachment-module</indexterm>
+            <indexterm>administration-portal</indexterm>
+            <!-- Process layer -->
+            <indexterm>attaching-mail-merge-documents</indexterm>
+            <indexterm>adding-attachments</indexterm>
+            <indexterm>configuring-mail-merge</indexterm>
+            <indexterm>sending-mail-merge-files</indexterm>
+            <indexterm>record-document-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>project-documentation</indexterm>
+            <indexterm>form-records</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>administrative-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Attaching Mail Merge Documents to a Record of a Form"/>
+         <othermeta name="shortdesc"
+                    content="Mail merge documents configured for a form can be attached to individual records and made available in the attachments section."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mail-merge-document; form; record; attachments-section; template"/>
+         <othermeta name="taxonomy"
+                    content="domain:administration;usecase:mail-merge-attachment;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="mail merge,attachments,records,forms,documents"/>
+         <othermeta name="usecase" content="attach mail merge documents to records"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Mail merge is configured for the selected form. <p>For additional information, refer to <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/ConfigMailMerge.xml">Configuring Mail Merge</xref>.</p>
+            </li>
+            <li>You are invited to the project and provided with the <uicontrol>Edit</uicontrol> permission.</li>
+         </ul>
+      </prereq>
+      <context>You can attach a mail merge document to a specific record of a form.</context>
+      <ol>
+         <li>
+            <p>On the required list page of a form, select a record for which the notification has to be attached. </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Mail Merge</uicontrol>, and then click <uicontrol>Merge and Attach</uicontrol>. </p>
+            <p>The <uicontrol>Merge and Attach</uicontrol> dialog box is displayed.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Mail Merge Configuration</uicontrol> drop-down list, select the required configuration. </p>
+            <p>Available options are all the configurations associated with the form. <ph product="Exclude_PG_Content">For additional information, refer to <xref href="../../Library_Management/Standard_Library_Catalogs/Notifications/ConfigMailMerge.xml">Configuring Mail Merge</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>To convert the mail merge document to PDF, select the <uicontrol>Convert to PDF</uicontrol> check box. If the check box is cleared, then the mail merge document is attached in the Word format. </p>
+            <p>
+               <note> If the <uicontrol>Convert to PDF</uicontrol> check box is selected at the time when the mail merge is configured, then this check box is selected. Clear the check box to attach the mail merge document in PDF format.</note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Attach</uicontrol>. </p>
+            <p>The mail merge document is attached to the record and available in the <uicontrol>ATTACHMENTS</uicontrol> section of the record.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

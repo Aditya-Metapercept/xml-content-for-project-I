@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ImprtXMLFileorFormFB">
+   <title>Importing XML File or Form into Form Builder</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>form-builder</indexterm>
+            <indexterm>xml-importer</indexterm>
+            <indexterm>form-designer</indexterm>
+            <indexterm>import-tool</indexterm>
+            <indexterm>form-library</indexterm>
+            <!-- Process layer -->
+            <indexterm>import-xml</indexterm>
+            <indexterm>xml-mapping</indexterm>
+            <indexterm>schema-validation</indexterm>
+            <indexterm>form-migration</indexterm>
+            <indexterm>field-mapping</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>form-integration</indexterm>
+            <indexterm>legacy-form-migration</indexterm>
+            <indexterm>configuration-management</indexterm>
+            <indexterm>web-platform</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Importing XML File or Form into Form Builder"/>
+         <othermeta name="shortdesc"
+                    content="Instructions to import XML files or existing XML-based forms into Form Builder, including mapping, validation and customization steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="xml-file;xsd;form-template;field-mapping;import-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-import-and-migration;industry:software"/>
+         <othermeta name="tags" content="import,xml,validation,mapping,migration"/>
+         <othermeta name="usecase" content="import-and-customize-xml-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>The Import XML feature allows you to either upload an XML file or import an existing XML-based form in Form Builder.<p>This feature allows you to:<ul>
+               <li>
+                  <p>Customize the existing XML-based forms in Form Builder</p>
+               </li>
+               <li>
+                  <p>Import a customized XML-based form into Form Builder</p>
+               </li>
+            </ul>
+         </p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The
+<uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand the <uicontrol>Configuration Toolkit</uicontrol> folder, and then click <uicontrol>Form Builder</uicontrol>.</p>
+            <p>The
+<uicontrol>FORMS LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Import XML</uicontrol>.</p>
+            <p>The <uicontrol>IMPORT FORM</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>To import from a file, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Select <uicontrol>File Upload</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Select File</uicontrol> box, click <uicontrol>Choose File</uicontrol>.</p>
+                  <p>The <uicontrol>Open</uicontrol> dialog box is displayed.</p>
+               </li>
+               <li>
+                  <p>Select the required XML file to be uploaded, and then click <uicontrol>Open</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Import</uicontrol>.</p>
+                  <p>A form is created and displayed in the <uicontrol>FORMS LIST</uicontrol> page.</p>
+               </li>
+               <li>
+                  <p>To modify and update the imported form, select the imported form, and click <uicontrol>Edit</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To import from an existing form, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Select <uicontrol>Form Import</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Select Form</uicontrol> box, click and select the required form from the drop-down list.</p>
+                  <p>Available forms are the forms in <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> that are created using XML.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Import</uicontrol>.</p>
+                  <p>A form with the same <uicontrol>Form ID</uicontrol> and <uicontrol>Form Header</uicontrol> of the selected form is created and displayed in the <uicontrol>FORMS LIST</uicontrol> page.</p>
+               </li>
+               <li>
+                  <p>To modify and update the imported form, select the imported form, and click <uicontrol>Edit</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_TXLIBMM">
+   <title>Mail Merge Templates</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external-contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>mail-merge-templates</indexterm>
+            <indexterm>mail-merge-document</indexterm>
+            <indexterm>notifications-module</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>attachments-module</indexterm>
+            <indexterm>template-details-page</indexterm>
+            <!-- Process layer -->
+            <indexterm>upload-mail-merge-document</indexterm>
+            <indexterm>create-mail-merge-template</indexterm>
+            <indexterm>define-template-description</indexterm>
+            <indexterm>navigate-library-notifications</indexterm>
+            <indexterm>select-template-location</indexterm>
+            <indexterm>save-template-record</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>document-generation</indexterm>
+            <indexterm>workflow-automation</indexterm>
+            <indexterm>form-driven-notifications</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Mail Merge Templates"/>
+         <othermeta name="shortdesc"
+                    content="Create mail merge templates by uploading Word-based merge documents and defining template details in the Notifications module."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mail-merge-document;mail-merge-template;attachments-section;notifications-module;library-catalog;template-details-page;word-document;document-uploader"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:template-creation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="mail merge,templates,notifications,attachments,library management,document upload,workflow automations"/>
+         <othermeta name="usecase"
+                    content="create-mail-merge-templates-for-notification-automation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Mail merge document in the Word format is available.<ph product="Exclude_PG_Content">For information on creating a mail merge document, refer to<xref href="../../../Common_Application_Features/Mail_Merge/CrtMailMergeDcs.xml">Creating Mail Merge Documents with Objects</xref>.</ph>
+            </li>
+         </ul>
+      </prereq>
+      <context>A mail merge template is created by uploading the Word format of the mail merge document. <ph product="Exclude_PG_Content">For information on creating a mail merge document, refer to<xref href="../../../Common_Application_Features/Mail_Merge/CrtMailMergeDcs.xml">Creating Mail Merge Documents with Objects</xref>.</ph>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Notifications</uicontrol>, and then click <uicontrol>Mail Merge Templates</uicontrol>.</p>
+            <p>The <uicontrol>MAIL MERGE TEMPLATES</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The <uicontrol>MAIL MERGE TEMPLATES</uicontrol> details page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Name </uicontrol>field, enter the name of the mail merge template.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Description </uicontrol>field, enter the description about the mail merge template.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>ATTACHMENTS</uicontrol> section, upload the mail merge document.</p>
+            <p>For information on attachments, refer to<xref href="../../../Common_Application_Features/Attachments/Attachments.xml">Attachments</xref>. ​<ph product="Exclude_PG_Content">For information on creating a mail merge document, refer to<xref href="../../../Common_Application_Features/Mail_Merge/CrtMailMergeDcs.xml">Creating Mail Merge Documents with Objects</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PMViewPrjLoc">
+   <title>Viewing Project Locations at the Enterprise Level</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>project-locations</indexterm>
+            <indexterm>enterprise-locations</indexterm>
+            <indexterm>location-view</indexterm>
+            <indexterm>location-permissions</indexterm>
+            <indexterm>project-management</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-project-locations</indexterm>
+            <indexterm>filter-locations</indexterm>
+            <indexterm>manage-location-permissions</indexterm>
+            <indexterm>edit-location-record</indexterm>
+            <indexterm>enterprise-aggregation</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>enterprise-web</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>location-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Viewing Project Locations at the Enterprise Level"/>
+         <othermeta name="shortdesc"
+                    content="View and (where permitted) edit project locations across the enterprise; requires View or Edit permissions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="project-location;enterprise;user-account;permissions;location-record"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:view-project-locations;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="view-locations,permissions,enterprise,filter,edit-record"/>
+         <othermeta name="usecase"
+                    content="Browse and manage project location records at enterprise scope, subject to role-based permissions."/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The role of the logged-in user should be one of the following:<p>
+                  <ul>
+                     <li>Administrative Support</li>
+                     <li>Construction Inspector</li>
+                     <li>Construction Manager</li>
+                     <li>Engineer of Record</li>
+                     <li>Director</li>
+                     <li>Field Supervisor</li>
+                     <li>Fund Manager</li>
+                     <li>Manager</li>
+                     <li>Program Manager</li>
+                     <li>Project Manager</li>
+                     <li>Support Services</li>
+                  </ul>
+               </p>
+            </li>
+         </ul>
+      </prereq>
+      <context>The <uicontrol>Enterprise Map Viewer</uicontrol> enables you to view marked locations of various projects on a single map.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Home</uicontrol>.</p>
+            <p>The <uicontrol>ENTERPRISE DASHBOARD</uicontrol> is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, click <uicontrol>Enterprise Map Viewer</uicontrol>.</p>
+            <p>The <uicontrol>ENTERPRISE MAP VIEWER</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>To search for or add specific projects to view marked locations, perform either of the following steps:</p>
+            <p>
+               <ul>
+                  <li>
+                     <p>To search for specific projects using the search criteria, in the <uicontrol>SEARCH CRITERIA</uicontrol> section, perform the following steps:</p>
+                     <p>
+                        <ol>
+                           <li product="Planning_Module">
+                              <p>In the <uicontrol>Program(s)</uicontrol> box, click and select the appropriate programs.</p>
+                              <p>Alternatively, type the name of the program, and then select the appropriate program.</p>
+                              <p>The list of all program records that have projects containing location data is displayed. <ph product="Exclude_PG_Content">For information managing programs, refer to <xref href="../../Planning_Management/Programs/Program.xml">Program</xref>.</ph>
+                              </p>
+                           </li>
+                           <li product="Portfolio">
+                              <p>In the <uicontrol>Portfolio(s)</uicontrol> box, click and select the appropriate portfolios.</p>
+                              <p>Alternatively, type the name of the portfolio, and then select the appropriate portfolio.</p>
+                              <p>The list of all the portfolio records in the enterprise is displayed. <ph product="Exclude_PG_Content">For information managing portfolios, refer to <xref href="../../CoSP/Enterprise_Management/Portfolio/PrtfMgmt.xml">Portfolio Management</xref>.</ph>
+                              </p>
+                           </li>
+                           <li>
+                              <p>To include inactive projects, select the <uicontrol>Include Inactive Projects(s)</uicontrol> check box.</p>
+                           </li>
+                           <li>
+                              <p>Click <uicontrol>Search</uicontrol>.</p>
+                              <p>The list of projects that match the defined search criteria is displayed in the <uicontrol>SEARCH RESULTS</uicontrol> section.</p>
+                           </li>
+                           <li>
+                              <p>Optionally, click <uicontrol>Reset</uicontrol> to clear the search results in the <uicontrol>SEARCH RESULTS</uicontrol> section.</p>
+                           </li>
+                        </ol>
+                     </p>
+                  </li>
+                  <li>
+                     <p>To add specific projects, in the <uicontrol>SEARCH RESULTS</uicontrol> section, perform the following steps:</p>
+                     <p>
+                        <ol>
+                           <li>
+                              <p>Click <uicontrol>Add</uicontrol>.</p>
+                              <p>The <uicontrol>Project(s)</uicontrol> dialog box is displayed.</p>
+                              <p>The list of all the projects in the enterprise is displayed.</p>
+                           </li>
+                           <li>
+                              <p>Select the appropriate projects, and then click <uicontrol>Select</uicontrol>.</p>
+                              <p>The selected projects are added to the <uicontrol>SEARCH RESULTS</uicontrol> section.</p>
+                           </li>
+                        </ol>
+                     </p>
+                  </li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>To view the marked project locations on the map, in the <uicontrol>SEARCH RESULTS</uicontrol> section, select the appropriate projects, and then click <uicontrol>Generate Map View</uicontrol>.</p>
+            <p>The locations marked for the selected projects are displayed on the map.</p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Base Map</uicontrol> drop-down list, select the required base map.</p>
+            <p>Available options are base maps defined in the <uicontrol>BASE MAPS</uicontrol> section in the <uicontrol>GIS Settings</uicontrol> page of the <uicontrol>Administration</uicontrol> module. <ph product="Exclude_PG_Content">For information on adding base maps, refer to <xref href="../../Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.xml">Adding Base Maps</xref>.</ph>
+            </p>
+         </li>
+         <li>
+            <p>From the <uicontrol>Layer(s)</uicontrol> section, select the required non-editable layer(s).</p>
+            <p>The selected layers are displayed in the <uicontrol>Map View</uicontrol>.<p>Available options are base maps defined in the<uicontrol>LAYERS</uicontrol> section in the <uicontrol>GIS Settings</uicontrol> page of the <uicontrol>Administration</uicontrol> module. <ph product="Exclude_PG_Content">For information on adding layers, refer to<xref href="../../Administration/System_Configurations/GIS/GIS_Settings/GIS_Configuration.xml">Adding Layers</xref>.</ph>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Forms</uicontrol> section, to view the information on a specific form, clear the check box from the remaining forms.</p>
+            <p>
+               <note> By default, the list of forms that have enabled map control is selected. The project information marked on the forms are displayed in the map view.</note>
+            </p>
+         </li>
+         <li>
+            <p>To view project details of a location on a tooltip, click the geometry.</p>
+            <p>Tooltip details of the geometry that is configured for the form are displayed.</p>
+            <p>When multiple geometries are created at the same location, on clicking a geometry, you can view the details of all the geometries in that location by navigating using the left and right arrows in the tooltip.</p>
+         </li>
+         <li>
+            <p>To open the record applicable to the selected geometry, on the tooltip, click <uicontrol>Navigate to Record</uicontrol>.</p>
+            <p>
+               <note> You must have <uicontrol>View</uicontrol> or <uicontrol>Edit</uicontrol> permissions to view or edit a record.</note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="task-7778">
+   <title>Creating a Workflow Using Simple Mode</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-management</indexterm>
+            <indexterm>form</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>list-page</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-workflow</indexterm>
+            <indexterm>use-template</indexterm>
+            <indexterm>define-basic-steps</indexterm>
+            <indexterm>assign-default-roles</indexterm>
+            <indexterm>validate-workflow</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-platform</indexterm>
+            <indexterm>enterprise-deployment</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="CreateWFSimple"/>
+         <othermeta name="shortdesc"
+                    content="Simple workflow creation: step-by-step guide using templates and basic role assignments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="workflow;template;form;roles;list-page"/>
+         <othermeta name="taxonomy"
+                    content="domain:Capital-program-management;usecase:workflow-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="create-workflow,use-template,assign-default-roles"/>
+         <othermeta name="usecase" content="create simple workflows using templates"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The role of the logged in user has permission to create or edit a workflow.</li>
+         </ul>
+      </prereq>
+      <context>This procedure describes the steps to add the following controls to a workflow.<ul>
+            <li>Add a stage with two actions </li>
+            <li>Add a condition to the workflow using the conditions block </li>
+            <li>Configure the workflow to send a standard automated email notification to stakeholders when the associated form is transitioned from one workflow stage to the next workflow stage </li>
+            <li>Define conditions on the users performing a workflow action </li>
+         </ul>
+      </context>
+      <ol>
+         <li>
+            <p>
+               <xref href="CreateWF.xml">Create a basic workflow.</xref>
+            </p>
+            <p>Alternatively, <xref href="EditWF.xml">edit a workflow</xref>.</p>
+         </li>
+         <li>
+            <p>To add a stage to the workflow, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Actions</uicontrol> navigation pane, expand <uicontrol>STAGES</uicontrol>, and then drag the <uicontrol>Stage</uicontrol> action item to the <uicontrol>Workflow</uicontrol> tab.</p>
+                  <p>The new stage item is displayed on the canvas.</p>
+                  <p>Alternatively, to copy a stage, perform the following steps: <ol>
+                        <li>Click the intermediate stage to be copied. </li>
+                        <li>Click <uicontrol>Copy</uicontrol>.<p>The selected intermediate stage is copied.</p>
+                        </li>
+                        <li>Click an action element, and in the properties pane, click <uicontrol>Delete</uicontrol>.<p>Similarly, delete all the other action elements.</p>
+                        </li>
+                     </ol>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the stage.</p>
+                  <p>The stage properties are displayed in the right pane, as illustrated in the following image:<fig>
+                        <title>Workflow Stage Properties</title>
+                        <image href="../../Screenshots/WF5.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Intermediate Stage</uicontrol> properties pane, provide the required information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="20%"/>
+                           <colspec colname="c2" colnum="2" colwidth="80%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Name</entry>
+                                 <entry>Enter the name of the stage. <p>For example, enter <uicontrol>In Review</uicontrol>.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Days to Complete</entry>
+                                 <entry>
+                                    <p>Enter the number of days before which an action must be performed in the current workflow stage.</p>
+                                    <p>If the stakeholder does not perform an action in the specified number of days, an escalation email is sent to users in the <uicontrol>Administrator</uicontrol> role.</p>
+                                    <p>By default, the number of days defined in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page is displayed. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Action Stake Holders</entry>
+                                 <entry>Select the roles with which a user can perform the workflow action for the stage. The <uicontrol>Action Stake Holder</uicontrol> box lists all the roles that are assigned with the<uicontrol>Edit</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    <p>Also, if <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> is selected in the <uicontrol>General Details</uicontrol> tab, then all stakeholders with the<uicontrol>Edit</uicontrol> or <uicontrol>View</uicontrol> or both permissions at the form level are listed in the <uicontrol>Action Stake Holders</uicontrol> drop-down list.</p>
+                                    <note>
+                                       <ul>
+                                          <li>For a role to be available in the list of action stakeholders, the <uicontrol>Edit</uicontrol> permission must be enabled for the role at the form level. <ph product="Exclude_PG_Content">To modify permissions, refer to <xref href="../../User_Management/Security_Roles/EditRoleInfo.xml">Editing Role Information</xref>.</ph>
+                                          </li>
+                                          <li>Ensure that the stakeholders selected in the <uicontrol>Action Stake Holders</uicontrol> box are also selected in the <uicontrol>View Stake Holders</uicontrol> box.</li>
+                                       </ul>
+                                    </note>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>View Stake Holders</entry>
+                                 <entry>
+                                    <p>Select the roles with which a user can view the records that are in the workflow stage but not perform any workflow actions.</p>
+                                    <p>The <uicontrol>View Stake Holders</uicontrol> box lists all the roles that are assigned with <uicontrol>View</uicontrol> permission at the form level.<ph product="Exclude_PG_Content"> For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    </p>
+                                    <note>
+                                       <ul>
+                                          <li>You can view the <uicontrol>View Stake Holders</uicontrol> box only if the <uicontrol>Configure View Permissions</uicontrol> check box is selected in the <uicontrol>General Details</uicontrol> tab.</li>
+                                          <li>If the role is not selected in the <uicontrol>View Stake Holders</uicontrol> box, then that role cannot view the record in the selected form list page.</li>
+                                       </ul>
+                                    </note>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Allow Form Edit</entry>
+                                 <entry>Click <uicontrol>Yes</uicontrol>, to allow the user to edit the record in this stage. <p>Click <uicontrol>No</uicontrol>, to restrict the users from editing the record in this stage.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Select Visibility Of Form Divisions</entry>
+                                 <entry>Sets the visibility of the various sections defined in the form. <p>Click any of the following:<ul>
+                                          <li>
+                                             <uicontrol>Edit</uicontrol> - Enables stakeholders to edit the information in the section in the current workflow stage.</li>
+                                          <li>
+                                             <uicontrol>View</uicontrol> - Enables stakeholders to view information in the section in the current workflow stage.</li>
+                                          <li>
+                                             <uicontrol>Hide</uicontrol> – Hides the information in the section in the current workflow stage. Stakeholders at this workflow stage cannot view information in the section.</li>
+                                       </ul>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Allow Delete</entry>
+                                 <entry>Click either of the following options:<ul>
+                                       <li>Click <uicontrol>Yes</uicontrol>, to allow the users to delete the record in this stage.</li>
+                                       <li>Click <uicontrol>No</uicontrol>, to restrict the users from deleting the record in this stage.</li>
+                                    </ul>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Send Email To Stakeholders</entry>
+                                 <entry>Select the check box, to send a standard automated email notification to the action stakeholders of the subsequent stage whenever the workflow action is performed. <p>The email template is based on the default template selected in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Show stage in Tasks</entry>
+                                 <entry>Ensure the check box is selected, to list the subsequent workflow action in the <p>
+                                       <uicontrol>My Tasks</uicontrol> list of all stakeholders of the subsequent workflow stage.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Ball In Court Request Email Template</entry>
+                                 <entry>Select the required email template to be used to send an automated notification to the user selected to receive form information using the <uicontrol>Ball in Court</uicontrol> feature. <p>Available templates are based on the form that is selected for the workflow.</p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library. <ph product="Exclude_PG_Content">For information on the <uicontrol>Ball in Court</uicontrol> feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Ball In Court Response Email Template</entry>
+                                 <entry>Select the required email template to be used to send an automated response notification to the user who initiated the <uicontrol>Ball in Court</uicontrol> notification. <p>Available templates are based on the form that is selected for the workflow.</p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library. <ph product="Exclude_PG_Content">For information on the <uicontrol>Ball in Court</uicontrol> feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add an action to the workflow stage, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the right pane, click <uicontrol>Add Action</uicontrol>.</p>
+                  <p>Alternatively, right-click the new stage item in the canvas, and then click <uicontrol>New Action</uicontrol>.</p>
+                  <p>The <uicontrol>New Action</uicontrol> box is displayed below the In Review stage as illustrated in the following image:<fig>
+                        <title>Workflow New Action</title>
+                        <image href="../../Screenshots/WF6.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>New Action</uicontrol> item.</p>
+                  <p>The properties of the action item are displayed in the right pane.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Name</uicontrol> box, enter the name of the new action. For example, enter <uicontrol>Review Complete</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Select <uicontrol>Make Comments Mandatory</uicontrol> check box to ensure comments are provided mandatorily in the <uicontrol>Notes</uicontrol> box before performing the next workflow action.</p>
+                  <p>
+                     <note> To delete an action, right-click the action item, and click <uicontrol>Delete Action</uicontrol>.</note>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>You can add a condition to the workflow using the conditions block. To add a <uicontrol>Simple Conditions Block</uicontrol> action item to the workflow, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>From the <uicontrol>Actions</uicontrol> pane, expand <uicontrol>SIMPLE ACTIVITIES</uicontrol>, and then drag the <uicontrol>Conditions Block</uicontrol> action item to the <uicontrol>Workflow</uicontrol> tab. </p>
+                  <p>The <uicontrol>Conditions Block</uicontrol> item is displayed on the canvas. </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>Conditions Block</uicontrol> item. </p>
+               </li>
+               <li>
+                  <p>In the right pane, click <uicontrol>Add Condition</uicontrol>. </p>
+                  <p>Alternatively, right-click the <uicontrol>Conditions Block</uicontrol> item in the canvas, and then click <uicontrol>New If Else Branch</uicontrol>. </p>
+                  <p>The <uicontrol>If Else Branch</uicontrol> is displayed below the conditions block item. </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>If Else Branch</uicontrol> item. </p>
+                  <p>The <uicontrol>If Else Branch</uicontrol> properties are displayed in the right pane, as illustrated in the following image: <fig>
+                        <title>Workflow Conditions Block</title>
+                        <image href="../../Screenshots/WF7.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Name</uicontrol> box, enter the name for the condition. </p>
+                  <p>For example, enter <uicontrol>Amount Greater than 1000</uicontrol>. </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Conditions</uicontrol> field, click <image href="../../../Icons/select.png" placement="inline">
+                        <alt>List</alt>
+                     </image>.</p>
+                  <p>The <uicontrol>RESOURCES</uicontrol> dialog box is displayed. </p>
+                  <p>In the <uicontrol>RESOURCES</uicontrol> dialog box, two sections are displayed as illustrated in the following image: </p>
+                  <p>Using the first section, you can create workflow conditions with the fields of the form selected in the<uicontrol> General Details</uicontrol> tab. Using the second section, you can create workflow conditions with the fields of the <uicontrol>Project Details</uicontrol> and <uicontrol>Contract Details</uicontrol> forms. <fig>
+                        <title>Form Attributes</title>
+                        <image href="../../Screenshots/WF8.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To create a rule or group of rules and define conditions for the workflow, in the <uicontrol>RESOURCES</uicontrol> dialog box, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click <uicontrol>Add rule</uicontrol>. </p>
+                  <p> A new row with a drop-down list is added. <note> The <uicontrol>AND</uicontrol> and <uicontrol>OR</uicontrol> buttons present at the top are unavailable.</note>
+                  </p>
+                  <p>Alternatively, to create a group of rules with a combination of multiple AND and OR conditions, click <uicontrol>Add Group</uicontrol>. <p>A new row with a drop-down list is added.</p>
+                     <note> The <uicontrol>AND</uicontrol> and <uicontrol>OR</uicontrol> present at the top are enabled.</note>
+                  </p>
+               </li>
+               <li>
+                  <p>From the drop-down list, select the required form field. </p>
+                  <p>For example, select <uicontrol>Amount in $</uicontrol>. </p>
+                  <p>Available fields are associated with the form selected in the <uicontrol>General Details</uicontrol> tab. </p>
+                  <p>When a form field is selected, two new fields are added to the row. The second field is a drop-down list and based on the form field selected, the third field can be any of the following. <ul>
+                        <li>Drop-down list </li>
+                        <li>Option list</li>
+                        <li>Text box</li>
+                        <li>Numeric text box</li>
+                        <li>Calendar drop-down box </li>
+                     </ul>
+                  </p>
+               </li>
+               <li>
+                  <p>From the second drop-down list, select the operator. </p>
+                  <p>For example, select greater than &gt;.</p>
+                  <p>The operator creates the condition between the form field you select in the first drop-down list and the value that you enter or select in the third field. </p>
+                  <p>From the second drop-down list, if you select either between or not between, the third and the fourth fields appear, which can be one of the following: <ul>
+                        <li>Numeric text box </li>
+                        <li>Calendar drop-down box </li>
+                     </ul>
+                  </p>
+               </li>
+               <li>
+                  <p>Based on the form field you select in the first field, enter or select a value in the third field. For example, enter <uicontrol>1000</uicontrol>. </p>
+               </li>
+               <li>
+                  <p>Optionally, to add multiple rules to the workflow or group, repeat the above steps 1 to 4. </p>
+                  <p>When you add more than one rule, then the <uicontrol>AND</uicontrol> and <uicontrol>OR</uicontrol> buttons present at the top are enabled. Based on the workflow condition, click either of the following:<ul>
+                        <li>If all the rules must be true to execute the workflow condition, click <uicontrol>AND</uicontrol>.<p>For example, <uicontrol>Amount in $ &gt; 1000 AND Remaining Amount in $ &lt; 500</uicontrol>.</p>
+                           <p>The subsequent workflow stage is<uicontrol> In Review</uicontrol> if the amount entered in the field <uicontrol>Amount in $</uicontrol> is greater than <uicontrol>1000</uicontrol> and the amount entered in the field <uicontrol>Remaining Amount in $</uicontrol> is less than <uicontrol>500</uicontrol>.</p>
+                        </li>
+                        <li>If any one of the rules must be true to execute the workflow condition, click <uicontrol>OR</uicontrol>.<p>For example, <uicontrol>Amount in $ &gt; 1000 OR Remaining Amount in $ &lt; 500</uicontrol>. </p>
+                           <p>The subsequent workflow stage is <uicontrol>In Review</uicontrol> if the amount entered in the field <uicontrol>Amount in $</uicontrol> is greater than <uicontrol>1000</uicontrol> or the amount entered in the field <uicontrol>Remaining Amount in $</uicontrol> is less than <uicontrol>500</uicontrol>.</p>
+                        </li>
+                     </ul>
+                  </p>
+               </li>
+               <li>
+                  <p>Optionally, in the second row, create workflow conditions using the fields of the <uicontrol>Project</uicontrol> and <uicontrol>Contract Details</uicontrol> forms. </p>
+               </li>
+               <li>
+                  <p>Optionally, to delete a row, click <uicontrol>Delete</uicontrol> corresponding to the appropriate row. </p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Save</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To add another condition, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>Conditions Block</uicontrol> item. </p>
+               </li>
+               <li>
+                  <p>In the right pane, click <uicontrol>Add Condition</uicontrol>. Alternatively, right-click the <uicontrol>Conditions Block</uicontrol> item in the canvas, and then click <uicontrol>New If Else Branch</uicontrol>. </p>
+                  <p>The <uicontrol>If Else Branch</uicontrol> is displayed below the <uicontrol>Amount Greater than 1000</uicontrol> item as illustrated in the following image:<fig>
+                        <title>Workflow If Else Branch</title>
+                        <image href="../../Screenshots/WF9.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>If Else Branch</uicontrol> item. </p>
+                  <p>The <uicontrol>If Else Branch</uicontrol> properties are displayed in the right pane.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Name</uicontrol> box, enter the name for the condition.</p>
+                  <p>For example, enter <uicontrol>Else</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>You can send a standard automated email notification to stakeholders when the associated form is transitioned from one workflow stage to the next workflow stage. To customize workflow email notifications, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Actions</uicontrol> navigation pane, expand <uicontrol>SIMPLE ACTIVITIES</uicontrol>, and then drag the <uicontrol>Send Email Notification</uicontrol> action item to the <uicontrol>Workflow</uicontrol> tab.</p>
+                  <p>The <uicontrol>Send Email Notification</uicontrol> item is displayed on the canvas.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>Send Email Notification</uicontrol> item.</p>
+                  <p>The <uicontrol>Send Email Notification</uicontrol> properties are displayed in the right pane, as illustrated in the following image:<fig>
+                        <title>Workflow Email Notification</title>
+                        <image href="../../Screenshots/WF10.png" placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Send Email Notification</uicontrol> properties pane, provide the required information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="20%"/>
+                           <colspec colname="c2" colnum="2" colwidth="80%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Name</entry>
+                                 <entry> Enter the name of the stage. the default stage name is displayed as <uicontrol>Send Email Notification</uicontrol>. If required, enter a new name for the action item.</entry>
+                              </row>
+                              <row>
+                                 <entry> To </entry>
+                                 <entry> Select the required role the email notification will be sent to. <p>Available options in the list are roles that are defined in the application with necessary permissions. </p>
+                                    <p>Optionally, you can type the required email address (For example, <i>john@Mind.com</i>). </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> CC </entry>
+                                 <entry> Select the required roles a copy of the email notification will be sent to. <p>Available options in the list are roles that are defined in the application with necessary permissions. </p>
+                                    <p>Optionally, you can type the required email address. For example, <i>john@Mind.com</i>. </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Select Mail Body Template</entry>
+                                 <entry>Select the required mail body template that must be sent to the stakeholders. <p>Available templates are based on the form that is selected for the workflow. </p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the library. </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Attachments </entry>
+                                 <entry>
+                                    <ul>
+                                       <li>
+                                          <uicontrol>Form Attachment(s)</uicontrol> – Select the check box to send the notification with the files that are attached to the record for which the workflow action is performed.</li>
+                                       <li>
+                                          <uicontrol>Workflow Comment Attachment(s)</uicontrol> – Select the check box to send the notification with the files that are attached to the workflow comments. </li>
+                                       <li>
+                                          <uicontrol>Mail Merge</uicontrol> – Select the required mail merge template. Available options are mail merge templates configured for the selected form. <ph product="Exclude_PG_Content">For information on Mail Merge, refer to <xref href="../../../Common_Application_Features/Mail_Merge/MailMerge.xml">Common Application Features, Mail Merge</xref>.</ph>
+                                       </li>
+                                    </ul>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Notify through Email </entry>
+                                 <entry> Click the required option:<ul>
+                                       <li>Click <uicontrol>Any user completes action</uicontrol> to specify that if any of the action stakeholders transition the record to the next workflow stage, the email notification is sent to the selected stakeholders. </li>
+                                       <li>Click <uicontrol>All user(s) complete action</uicontrol> to specify that all the action stakeholders must transition the record to the next workflow stage to send the email notification to the selected stakeholders. </li>
+                                    </ul>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To connect workflow items to complete the business process, click the port at the item, and drag the port to the port of the required item as illustrated in the following image:</p>
+            <p>
+               <fig>
+                  <title>Edit Workflow</title>
+                  <image href="../../Screenshots/WF11.png" placement="inline"/>
+               </fig>
+               <note> By default, the port is located on the right of the box. To change the location of the port, right-click the new action item and select <uicontrol>Reverse Port</uicontrol>.</note>
+            </p>
+         </li>
+         <li>
+            <p>To define conditions on the users performing a workflow action, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click the required port.</p>
+                  <p>The <uicontrol>Workflow Connection</uicontrol> properties are displayed on the right pane.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Perform Operation After</uicontrol> section, click the required option:</p>
+                  <p>
+                     <ul>
+                        <li>
+                           <uicontrol>Any user completes action</uicontrol>: To specify that if any of the action stakeholders transition the record to the next workflow stage, the record moves to the next workflow stage.</li>
+                        <li>
+                           <uicontrol>All user(s) complete action</uicontrol>: To specify that all the action stakeholders must transition the record to the next workflow stage for the record to move to the next workflow stage.</li>
+                     </ul>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>The workflow is saved and listed on the <uicontrol>WORKFLOW LIST</uicontrol> page. </p>
+         </li>
+      </ol>
+      <div>The workflow must now be published to be made available in the application. <ph product="Exclude_PG_Content">For information on publishing a workflow, refer to <xref href="PublishWF.xml">Publishing a Workflow</xref>.</ph>
+      </div>
+   </body>
+</topic>
