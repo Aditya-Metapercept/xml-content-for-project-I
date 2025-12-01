@@ -12,7 +12,6 @@
 
 
 
-      
          <audience type="role"
                    otherprops="administrator,engineering,management,external contractors,analyst"/>
          <keywords><!-- Product layer -->
