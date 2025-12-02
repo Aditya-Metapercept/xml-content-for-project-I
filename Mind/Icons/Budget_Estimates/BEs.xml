@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_BDGTEST" xml:lang="en-us">
+   <title>Budget Estimates</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>budget-estimates</indexterm>
+            <indexterm>project-budget-module</indexterm>
+            <indexterm>ebs-integration</indexterm>
+            <indexterm>finance-management-system</indexterm>
+            <indexterm>budget-records-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>viewing-budget-estimates</indexterm>
+            <indexterm>accessing-budget-records</indexterm>
+            <indexterm>reviewing-estimate-details</indexterm>
+            <indexterm>cost-estimation-process</indexterm>
+            <indexterm>project-budget-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>enterprise-budgeting</indexterm>
+            <indexterm>project-cost-analysis</indexterm>
+            <indexterm>financial-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Budget Estimates"/>
+         <othermeta name="shortdesc"
+                    content="Defines budget estimates and explains how approved project budget information from EBS is saved and viewed in the Budget Estimates list page."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="budget estimate;project budget;EBS system;approved budget record;Budget Estimates list page"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:viewing-budget-estimates;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="budget estimates, project budget, EBS integration, budget records, cost estimation"/>
+         <othermeta name="usecase" content="viewing-and-understanding-budget-estimates"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>A budget estimateis an estimation of the costofproject implementation.</p>
+      <p>On receiving the project budget details from EBS, in the <uicontrol>BUDGET ESTIMATES</uicontrol> list page, the approved  records are saved.</p>
+      <p>To view the budget estimate information of a project, refer to <xref href="ViewingaBE.xml">Viewing Budget Estimates</xref>.</p>
+   </body>
+</topic>
