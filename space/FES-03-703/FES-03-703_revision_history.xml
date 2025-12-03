@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c21719AA-BB02-11F0-3798-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-fes-space-document</indexterm>
+            <indexterm>proximity-sensor-document</indexterm>
+            <indexterm>revision-log</indexterm>
+            <indexterm>document-control</indexterm>
+            <indexterm>version-history</indexterm>
+            <!-- Process layer -->
+            <indexterm>change-request-recording</indexterm>
+            <indexterm>revision-approval-flow</indexterm>
+            <indexterm>modified-content-summary</indexterm>
+            <indexterm>authoring-and-review</indexterm>
+            <indexterm>effective-date-tracking</indexterm>
+            <!-- Context layer -->
+            <indexterm>document-governance</indexterm>
+            <indexterm>quality-audit-trace</indexterm>
+            <indexterm>configuration-management</indexterm>
+            <indexterm>regulatory-records</indexterm>
+            <indexterm>retention-policy-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision History"/>
+         <othermeta name="shortdesc"
+                    content="Tracks revisions, authors, descriptions of changes, and effective dates for the proximity sensor installation documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="revision entries;authors;approvers;effective-dates;change-descriptions"/>
+         <othermeta name="taxonomy"
+                    content="domain:document-management;usecase:revision-tracking;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="revision-history,version-control,change-log,document-governance"/>
+         <othermeta name="usecase"
+                    content="Maintain auditable revision records for document control and quality traceability"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_gvv_mqg_rzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>2020-02-21</entry>
+                     <entry>
+                        <p>Approved by Juan Ishiguro, IS Machines Discipline Leader</p>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2022-05-09</entry>
+                     <entry>
+                        <p>Approved by Franklin Barrios, Global Leader FES Network.</p>
+                        <p>Moved to GMF Site as FES-03-703</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

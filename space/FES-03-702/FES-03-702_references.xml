@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r215E620-BB02-11F0-2081-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="maintenance,engineering,quality,documentation"/>
+         <keywords><!-- Product -->
+            <indexterm>metR-fes-space</indexterm>
+            <indexterm>vendor-manuals</indexterm>
+            <indexterm>pneumatic-spec</indexterm>
+            <indexterm>valve-datasheet</indexterm>
+            <indexterm>filter-spec</indexterm>
+            <!-- Process -->
+            <indexterm>references</indexterm>
+            <indexterm>kb-article</indexterm>
+            <indexterm>wiring-diagram</indexterm>
+            <indexterm>maintenance-record</indexterm>
+            <indexterm>calibration-sheet</indexterm>
+            <!-- Context -->
+            <indexterm>site-procedures</indexterm>
+            <indexterm>regulatory-guidance</indexterm>
+            <indexterm>knowledge-base</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="References"/>
+         <othermeta name="shortdesc"
+                    content="List of vendor manuals, datasheets, KB articles and calibration sheets relevant to the pneumatic chute control system testing and maintenance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="vendor-manual;datasheet;kb-article;calibration-sheet;maintenance-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:pneumatic-chute-references;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="references,vendor,datasheet,calibration,kb"/>
+         <othermeta name="usecase"
+                    content="Provide supporting documents and datasheets for pneumatic chute maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_vnh_w3g_rzb">
+         <title>Document Classification</title>
+         <ul id="ul_p51_x3g_rzb">
+            <li>Asset Protection and Stability</li>
+            <li>Safety and Environment</li>
+         </ul>
+      </section>
+   </body>
+</topic>

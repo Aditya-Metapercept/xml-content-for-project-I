@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m2062B2D-BB02-11F0-1998-09173F13E4C5" xml:lang="en-us">
+   <title>Configuring a Forming Machine Server for Machine Operation</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="06-29-2022"/>
+      </critdates>
+   </topicmeta>
+   <topicref href="FES-03-116_configuring_a_forming_machine_server_for_machine_operation.xml"
+             chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="FES-03-116"/>
+         <othermeta name="RevisionDate" content="06-29-2022"/>
+      </topicmeta>
+      <topicref href="FES-03-116_purpose.xml"/>
+      <topicref href="FES-03-116_application.xml"/>
+      <topicref href="FES-03-116_procedure.xml"/>
+      <topicref href="FES-03-116_equipment.xml"/>
+      <topicref href="FES-03-116_references.xml"/>
+      <topicref href="FES-03-116_collaboration.xml" audience="internal"/>
+      <topicref href="FES-03-116_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>
