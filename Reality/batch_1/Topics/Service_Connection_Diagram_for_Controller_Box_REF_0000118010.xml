@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ConnectionDiagramForControllerBox-9D9ABFB8" xml:lang="en">
+   <title>Connection Diagram for Controller Box</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>terminal-block</indexterm>
+            <indexterm>power-supply-module</indexterm>
+            <indexterm>communication-interface</indexterm>
+            <!-- Process layer -->
+            <indexterm>service-connection-diagram</indexterm>
+            <indexterm>wire-termination</indexterm>
+            <indexterm>earth-bonding</indexterm>
+            <indexterm>signal-mapping</indexterm>
+            <indexterm>diagnostics-and-test</indexterm>
+            <indexterm>connector-inspection</indexterm>
+            <!-- Context layer -->
+            <indexterm>installation-site</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>maintenance-workshop</indexterm>
+            <indexterm>troubleshooting</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Service Connection Diagram for Controller Box"/>
+         <othermeta name="shortdesc"
+                    content="Controller box connection diagram showing terminal mapping, power inputs and communication interfaces."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;controller-box;control-board;terminal-block;power-supply-module;communication-interface"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:service-connection-diagram;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="controller-box,terminal-mapping,wiring-diagram,communication,service-diagram"/>
+         <othermeta name="usecase" content="service-connection-diagram"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>controller box</indexterm>
+      </section>
+      <section>
+         <fig expanse="page">
+            <image href="../Images/controllerbox_connectiondiagram_0000118001.png"
+                   scalefit="yes"
+                   scope="local"
+                   placement="inline"/>
+         </fig>
+      </section>
+   </body>
+</topic>

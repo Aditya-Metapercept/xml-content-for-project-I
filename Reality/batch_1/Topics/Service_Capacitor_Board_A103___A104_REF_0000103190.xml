@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="CapacitorBoardA103A104-4D3B9C17" xml:lang="en">
+   <title>Capacitor Board (A103 / A104)</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-17+05:30"/>
+         <revised modified="2025-11-17"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>capacitor-board-a103</indexterm>
+            <indexterm>capacitor-board-a104</indexterm>
+            <indexterm>power-capacitor</indexterm>
+            <indexterm>pcb-assembly</indexterm>
+            <indexterm>filter-capacitor</indexterm>
+            <!-- Process layer -->
+            <indexterm>service-capacitor-board</indexterm>
+            <indexterm>replace-capacitors</indexterm>
+            <indexterm>capacitance-measurement</indexterm>
+            <indexterm>leakage-current-test</indexterm>
+            <indexterm>visual-inspection</indexterm>
+            <indexterm>electrolytic-capacitor-replacement</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>maintenance-workshop</indexterm>
+            <indexterm>power-electronics-lab</indexterm>
+            <indexterm>troubleshooting</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>safety-protocols</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Service — Capacitor Board A103 / A104"/>
+         <othermeta name="shortdesc"
+                    content="Service instructions and diagnostic checks for capacitor boards A103 and A104 used in UPS power electronics."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;capacitor-board-a103;capacitor-board-a104;power-capacitor;pcb-assembly;leakage-current-test"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:capacitor-board-service;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="capacitor,service,leakage-test,replace-capacitors,power-electronics"/>
+         <othermeta name="usecase" content="capacitor-board-service"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>capacitor board</indexterm>
+      </section>
+      <section>
+         <p>
+            <fig>
+               <image href="../Images/powerblockprinciplediagram_120mm_0000116662.svg"
+                      scalefit="yes"
+                      translate="yes"
+                      xml:lang="en"
+                      placement="inline"/>
+            </fig>
+         </p>
+         <p>The capacitor board is used to minimize the ripple voltage
+on the DC bus.</p>
+         <p>Number of installed capacitor boards:<table>
+               <tgroup cols="5">
+                  <colspec colname="col1" colwidth="40%"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">System
+configuration</entry>
+                        <entry valign="top">10-20 kVA</entry>
+                        <entry valign="top">30-40 kVA</entry>
+                        <entry valign="top">50-60 kVA</entry>
+                        <entry valign="top">80 kVA</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>1-phase</entry>
+                        <entry>1</entry>
+                        <entry>2</entry>
+                        <entry>3</entry>
+                        <entry>4</entry>
+                     </row>
+                     <row>
+                        <entry>3-phase</entry>
+                        <entry>0</entry>
+                        <entry>0</entry>
+                        <entry>1</entry>
+                        <entry>0</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </p>
+      </section>
+   </body>
+</topic>
