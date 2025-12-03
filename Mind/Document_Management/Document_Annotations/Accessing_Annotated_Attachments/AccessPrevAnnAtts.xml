@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMAccessAnntAttPrevVersion">
+   <title>Accessing Annotated Copies of Previous Versions</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>annotation-attributes</indexterm>
+            <indexterm>annotation-attachments</indexterm>
+            <indexterm>annotation-files</indexterm>
+            <indexterm>annotation-editor</indexterm>
+            <indexterm>document-annotations</indexterm>
+            <indexterm>annotation-storage</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>annotations-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>access-annotations</indexterm>
+            <indexterm>view-annotation-attributes</indexterm>
+            <indexterm>retrieve-annotation-attachments</indexterm>
+            <indexterm>inspect-annotation-metadata</indexterm>
+            <indexterm>manage-annotation-permissions</indexterm>
+            <indexterm>annotation-workflow</indexterm>
+            <indexterm>annotation-lifecycle</indexterm>
+            <indexterm>read-annotation-data</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>enterprise-environment</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>annotation-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="AccessPrevAnnAtts"/>
+         <othermeta name="shortdesc"
+                    content="Procedures to access previous annotation attributes and attachment metadata for annotated files."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="annotation;file;attachment;attribute;version;copy;user;group;document"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:document-annotation-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="annotation-attributes,annotation-attachments,access-annotations,view-metadata,document-annotations"/>
+         <othermeta name="usecase" content="document-annotation-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context/>
+      <ol>
+         <li>
+            <p>In the project navigation pane, click the required form.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>More</uicontrol>, and then click <uicontrol>Attachments</uicontrol>.</p>
+            <p>The list of all attachments are displayed.</p>
+         </li>
+         <li>
+            <p>Click the required file to view annotated copies of its previous versions.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Version History</uicontrol>. </p>
+            <p>The <uicontrol>Version History</uicontrol> dialog box is displayed.</p>
+         </li>
+         <li>
+            <p>To view annotated copies of a document version, in the <uicontrol>Annotations</uicontrol> column of the corresponding file, click <image href="../../../Icons/Annotations_Icon.gif" placement="inline"/>.</p>
+         </li>
+         <li>
+            <p>Select the required annotated file, and then click <uicontrol>View</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

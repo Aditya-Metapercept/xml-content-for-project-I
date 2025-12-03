@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DMViewFiles" xml:lang="en-us">
+   <title>Viewing Documents</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product -->
+            <indexterm>image-files</indexterm>
+            <indexterm>document-management</indexterm>
+            <indexterm>viewer-interface</indexterm>
+            <indexterm>media-handler</indexterm>
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Process -->
+            <indexterm>view-image</indexterm>
+            <indexterm>open-image-file</indexterm>
+            <indexterm>inspect-media</indexterm>
+            <indexterm>image-rendering</indexterm>
+            <indexterm>preview-file</indexterm>
+            <!-- Context -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-application</indexterm>
+            <indexterm>engineering-media</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+            <indexterm>technical-assets</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Viewing Image Files"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to view image files using the system viewer."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="image file;viewer;media renderer;toolbar;zoom controls"/>
+         <othermeta name="taxonomy"
+                    content="domain:document-management;usecase:image-viewing;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="image viewer,media preview,file rendering,zoom,image access"/>
+         <othermeta name="usecase"
+                    content="viewing image files within the application viewer"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Various formats of documents can be<xref product="Exclude_PG_Content" href="ViewDocViewer.xml">viewed in the application</xref>
+         <ph product="Include_PG_Content">viewed in the application </ph>without installing additional document viewer applications on your system.</p>
+      <p>You can also view reduced-size images of pictures and view a slideshow presentation of pictures in a folder using the<xref product="Exclude_PG_Content" href="ViewImgThmb.xml">Thumbnailand theSlide Show</xref>
+         <ph product="Include_PG_Content">Thumbnail and the Slide Show</ph> utilities.<ph product="Forge_Viewer">For drawings, you can view the files either in 2D or 3D mode, based on the file format.</ph>
+         <note product="Forge_Viewer"> You can view the document only when the status of the document in the<uicontrol>File View Status</uicontrol>column is<uicontrol>Ready</uicontrol>.</note>
+      </p>
+   </body>
+</topic>
