@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t3929A22-BDF3-11F0-4295-09173F13E4C5" xml:lang="en-us">
+   <title>Turning the unit on/off</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:00:00+05:30"/>
+         <revised modified="2025-11-15T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,safety-and-compliance-officers,industrial-engineers"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>ignition-switch</indexterm>
+            <indexterm>main-isolation</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>display-module</indexterm>
+            <indexterm>turn-unit-onoff</indexterm>
+            <indexterm>power-up-procedure</indexterm>
+            <indexterm>shutdown-sequence</indexterm>
+            <indexterm>display-initialisation</indexterm>
+            <indexterm>prestart-checks</indexterm>
+            <indexterm>daily-operation</indexterm>
+            <indexterm>operator-checklist</indexterm>
+            <indexterm>safety-isolation</indexterm>
+            <indexterm>electrical-controls</indexterm>
+            <indexterm>start-stop-procedure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Turning the unit onoff"/>
+         <othermeta name="shortdesc"
+                    content="Procedures to power the unit on and off safely including correct switch sequence, display checks and isolation steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ignition-switch;main-isolation;display;control-panel;battery"/>
+         <othermeta name="taxonomy"
+                    content="domain:electrical-controls;usecase:power-up-and-shutdown;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="power-up,shutdown,display,prestart,operator"/>
+         <othermeta name="usecase"
+                    content="safe start up and shutdown procedure for operators"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig>
+            <image href="media/image343.png" placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>Turn your car's ignition key to ACC or
+                IGN (ON) position.</p>
+            <p>
+               <p>Displays the current time.</p>
+               <fig>
+                  <image href="media/image349.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Press the POWER button to turn the power on.
+If the source is ready, playback also starts.
+</p>
+            <p>
+               <p>To turn on the power directly</p>
+               <p>By connecting an USB into the USB port or pressing the AM/FM or
+USB button (while the USB device is connected), you can also turn
+on the power and the unit then plays.</p>
+               <fig>
+                  <image href="media/image353.png" placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>When power is on, press and hold the POWER
+button to turn power off.</p>
+         </li>
+      </ol>
+   </body>
+</topic>
