@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ListPage_MLBDYTM">
+   <title>Mail Body Templates</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-11-21"/>
+      </critdates>
+      <metadata><!-- Audience Personas -->
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product Layer-->
+            <indexterm>mail-body-templates</indexterm>
+            <indexterm>library-management</indexterm>
+            <indexterm>notifications-module</indexterm>
+            <indexterm>forms-picker</indexterm>
+            <indexterm>fields-picker</indexterm>
+            <indexterm>email-template-engine</indexterm>
+            <!-- Process Layer  -->
+            <indexterm>configure-email-body</indexterm>
+            <indexterm>add-field-placeholders</indexterm>
+            <indexterm>select-associated-form</indexterm>
+            <indexterm>format-email-message</indexterm>
+            <indexterm>define-subject-template</indexterm>
+            <indexterm>create-notification-template</indexterm>
+            <!-- Context Layer-->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>workflow-notifications</indexterm>
+            <indexterm>ball-in-court-notifications</indexterm>
+            <indexterm>form-driven-communication</indexterm>
+            <indexterm>web-application-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Mail Body Templates"/>
+         <othermeta name="shortdesc"
+                    content="Configure email subject and message templates using form field placeholders that are dynamically populated during notifications."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mail-body-template;forms-picker;fields-picker;subject-line-placeholders;message-body-editor;notifications-module;library-catalog;workflow-engine"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:email-template-configuration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="email templates,placeholders,notifications,forms,subject configuration,message formatting,library management"/>
+         <othermeta name="usecase"
+                    content="configure-email-body-templates-for-notification-workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can configure email messages that are sent from forms,and save the templatesin the <uicontrol>Mail Body Templates catalog</uicontrol> of the library.</p>
+         <p>You can configure the content of the subject and the body of the email. Also, you can add fields of the associated form as placeholders to the subject and body of the email. The content of these placeholders is replaced with the actual values from the form when the mail merge, workflow, or Ball in Court notification from the form is sent to configured users.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Library</uicontrol>.</p>
+            <p>The <uicontrol>LIBRARY MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Library</uicontrol>, expand <uicontrol>Notifications</uicontrol>, and then click <uicontrol>Mail Body Templates</uicontrol>.</p>
+            <p>The <uicontrol>MAIL BODY TEMPLATES</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The <uicontrol>MAIL BODY TEMPLATES</uicontrol> details page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Name </uicontrol>field, enter the name of the email body template.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>Forms </uicontrol>field, perform the following steps to select the form for which the email body template is being created.</p>
+            <ol>
+               <li>
+                  <p>Click <image href="../../../Icons/select.png" placement="inline">
+                        <alt>List</alt>
+                     </image>.</p>
+                  <p>The <uicontrol>Forms Picker</uicontrol> dialog box is displayed listing all the forms in the application.</p>
+               </li>
+               <li>
+                  <p>Select the required form.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Select</uicontrol>.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>In the <uicontrol>Subject</uicontrol> box, enter the subject of the email body template.</p>
+            <p>You can also add fields from the selected form to the subject line as placeholders. The field placeholdersare later replaced with actual values from the form when notifications are sent from the form. To add field placeholders, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click <image href="../../../Icons/select.png" placement="inline">
+                        <alt>List</alt>
+                     </image>.</p>
+                  <p>The <uicontrol>Fields Picker</uicontrol> dialog box is displayed.</p>
+                  <p>Available options are fields of theselected form.</p>
+               </li>
+               <li>
+                  <p>Click the required field, and then click <uicontrol>Select</uicontrol>.</p>
+                  <p>The selected field is added to the Subject line.</p>
+                  <p>When anotification email is sent from the selected form, the field placeholders are replaced with the actual field values of the selected form.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>In the <uicontrol>Message </uicontrol>box, enter the content of the email body for the template.</p>
+            <p>You can also format the message using the formatting tool bar available in the box.</p>
+            <p>You can also add fields from the selected form to the message bodyas placeholders. The field placeholdersare later replaced with actual values from the form when notifications are sent from the form. To add field placeholders, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click <image href="../../../Icons/select.png" placement="inline">
+                        <alt>List</alt>
+                     </image>.</p>
+                  <p>The <uicontrol>Fields Picker</uicontrol> dialog box is displayed.</p>
+                  <p>Available options are fields of theselected form.</p>
+               </li>
+               <li>
+                  <p>Click the required field, and then click <uicontrol>Select</uicontrol>.</p>
+                  <p>The selected field is added to the message of the email.</p>
+                  <p>When anotification email is sent from the selected form, the field placeholders are replaced with the actual field values of the selected form.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>
+               <ph href="../../../../Warehouse/Task_Warehouse/Save_Options.xml#task-9654/SaveRecord"/>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
