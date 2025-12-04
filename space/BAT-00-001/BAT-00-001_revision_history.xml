@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1A44E71-BB01-11F0-1064-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-11-06"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="documentation-admin,release-manager,auditor"/>
+         <keywords>
+            <indexterm>revision history</indexterm>
+            <indexterm>change log</indexterm>
+            <indexterm>version control</indexterm>
+            <indexterm>revision history</indexterm>
+            <indexterm>change log</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-BAT-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision History — BAT-00-001"/>
+         <othermeta name="shortdesc"
+                    content="Record of changes, authors, dates, and approval statuses for BAT-00-001 deliverables."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="access.groups" content="documentation,release-management,qa"/>
+         <othermeta name="entities"
+                    content="revision-record;change-author;approval-status;version"/>
+         <othermeta name="taxonomy"
+                    content="domain:documentation;usecase:versioning;industry:GlassManufacturing"/>
+         <othermeta name="tags" content="revision,version,change-log,audit"/>
+         <othermeta name="usecase" content="audit-trail"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table frame="all" rowsep="1" colsep="1" id="table_p35_rq5_fzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>2016-05-24</entry>
+                     <entry>
+                        <p>Approved by John Jenkinson, Mechanical Systems Discipline Leader</p>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2019-10-21</entry>
+                     <entry>
+                        <p>Approved by Benjamin Brown, Mechanical Systems Discipline LeaderUpdated with the
+                  following changes:</p>
+                        <p>The reference codes regarding -06 documents were deleted and changed to
+                  “(available in Windchill)” because these documents were retired from Book Space.
+                </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1A4D29A-BB01-11F0-2005-09173F13E4C5" xml:lang="en-us">
+   <title>References</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-05+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-BAT-Space"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <section id="section_z3h_fq3_nzb">
+         <title>Document Classification</title>
+         <ul id="ul_lc2_hq3_nzb">
+            <li>Asset Protection and Stability</li>
+         </ul>
+      </section>
+      <section id="section_nxy_hq3_nzb">
+         <title>Fundamentals</title>
+         <ul id="ul_osf_jq3_nzb">
+            <li>N/A</li>
+         </ul>
+      </section>
+   </body>
+</topic>
