@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m1AC5A09-BB01-11F0-5253-09173F13E4C5" xml:lang="en-us">
+   <title>Cullet Systems Maintenance</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="03-23-2022"/>
+      </critdates>
+      <prodinfo>
+         <prodname/>
+      </prodinfo>
+   </topicmeta>
+   <topicref href="BAT-02-042_cullet_systems_maintenance.xml" chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="BAT-02-042"/>
+         <othermeta name="RevisionDate" content="03-23-2022"/>
+      </topicmeta>
+      <topicref href="BAT-02-042_purpose.xml"/>
+      <topicref href="BAT-02-042_reference.xml"/>
+      <topicref href="BAT-02-042_identification.xml"/>
+      <topicref href="BAT-02-042_procedure.xml"/>
+      <topicref href="BAT-02-042_approval.xml" audience="internal"/>
+      <topicref href="BAT-02-042_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>

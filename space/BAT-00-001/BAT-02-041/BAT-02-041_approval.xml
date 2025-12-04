@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1ABB64E-BB01-11F0-5104-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-11-06"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
+         <keywords>
+            <indexterm>metr-bat-space</indexterm>
+            <indexterm>batch-systems-maintenance</indexterm>
+            <indexterm>approval-signoff</indexterm>
+            <indexterm>system-validation</indexterm>
+            <indexterm>inspection-approval</indexterm>
+            <indexterm>maintenance-record</indexterm>
+            <indexterm>equipment-certification</indexterm>
+            <indexterm>compliance-verification</indexterm>
+            <indexterm>change-authorization</indexterm>
+            <indexterm>maintenance-release</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>maintenance-governance</indexterm>
+            <indexterm>operational-readiness</indexterm>
+            <indexterm>plant-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-BAT-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Batch Systems Maintenance — Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval record for maintenance tasks and system validation in batch systems including inspection, certification, and compliance verification."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="maintenance-record;validation-checklist;approval-signature;change-request;inspection-log"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-production;usecase:governance-and-approval;industry:glassmanufacturing"/>
+         <othermeta name="tags"
+                    content="approval,maintenance,validation,inspection,compliance"/>
+         <othermeta name="usecase" content="governance-approval"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Sanctioning Representatives of the Global Team<table id="simpletable_abh_zgq_nzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Region</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Europe</p>
+                     </entry>
+                     <entry>
+                        <p>Andre Slagboom, Pierluigi Caravaggi, Leslaw Bojarski, Rodolphe Vallienne </p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Latin America</p>
+                     </entry>
+                     <entry>
+                        <p>Andres Ciudad</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>North America</p>
+                     </entry>
+                     <entry>
+                        <p>Randy Mason, David Smith</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Global Operations</p>
+                     </entry>
+                     <entry>
+                        <p>Richard Albanese</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
