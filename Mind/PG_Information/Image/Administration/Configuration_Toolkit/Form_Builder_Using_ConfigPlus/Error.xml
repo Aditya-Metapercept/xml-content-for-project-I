@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Error" xml:lang="en-us">
+   <title>Error</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>error-control</indexterm>
+            <indexterm>alert-unit</indexterm>
+            <indexterm>event-handler</indexterm>
+            <indexterm>validation-block</indexterm>
+            <indexterm>form-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>error-detection</indexterm>
+            <indexterm>error-handling-flow</indexterm>
+            <indexterm>runtime-validation</indexterm>
+            <indexterm>alert-triggering</indexterm>
+            <indexterm>retry-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Error"/>
+         <othermeta name="shortdesc"
+                    content="Describes error conditions, handling strategies, logging and UI feedback that occur within form workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="form;block;event;error;condition"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="error,logging,validation,alert,retry"/>
+         <othermeta name="usecase" content="configure-and-manage-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Error</uicontrol> block enables you to configure messages based
+on defined conditions. This block is available on all events.<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/Error_block.jpg"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>Messages are  of three types:<ul>
+            <li>
+               <p>Error
+– Stops you from proceeding further.</p>
+            </li>
+            <li>Warning
+–  Allows you to continue operation  but a warning message is displayed.</li>
+            <li>Information
+– Displays a message with additional information</li>
+         </ul>
+      </p>
+      <p>You can choose the type of error message that you want to configure and the content of the message. The configured messages appear as a Toast Message.<note>Toast message is a type of message that appears on the top-right corner of the page in red, yellow, or green based on the type of message.</note>
+      </p>
+   </body>
+</topic>

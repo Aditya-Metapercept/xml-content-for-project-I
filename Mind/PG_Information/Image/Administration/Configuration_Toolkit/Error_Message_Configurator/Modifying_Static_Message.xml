@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Mod_Stat_Msg">
+   <title>Modifying Static Messages</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>error-message-configurator</indexterm>
+            <indexterm>message-editor</indexterm>
+            <indexterm>message-repository</indexterm>
+            <indexterm>message-template</indexterm>
+            <indexterm>message-bundle</indexterm>
+            <!-- Process layer -->
+            <indexterm>edit-message</indexterm>
+            <indexterm>update-template</indexterm>
+            <indexterm>save-changes</indexterm>
+            <indexterm>preview-message</indexterm>
+            <indexterm>validate-message</indexterm>
+            <!-- Context layer -->
+            <indexterm>static-messages</indexterm>
+            <indexterm>form-validation</indexterm>
+            <indexterm>user-interface</indexterm>
+            <indexterm>admin-console</indexterm>
+            <indexterm>internal-tools</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Modifying Static Message"/>
+         <othermeta name="shortdesc"
+                    content="Describes the steps to edit static error messages including preview and validation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="message-template;form-field;preview;validation-rule;message-id"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:modify-static-messages;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-messages,preview,validation,message-editing,form-validation"/>
+         <othermeta name="usecase" content="edit and validate static error messages"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can modify static messages directly in UI.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand the <uicontrol>Configuration Toolkit</uicontrol> folder, and then click <uicontrol>Error Message Configurator</uicontrol>.</p>
+            <p>The <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> list page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> list page, select the appropriate error message, and then click <uicontrol>Edit</uicontrol>.</p>
+            <p>The <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Based on the error message in the <uicontrol>Value</uicontrol> field, rewrite the error message in the <uicontrol>New Error Message</uicontrol> field as per your requirement. </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>The modified error message is displayed in the <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> list page for the respective record.</p>
+         </li>
+      </ol>
+      <example product="Include_PG_Content">
+         <title>Use Case# Max value should be greater than the Min value.</title>
+         <p>In the <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> page, the error message that is currently displayed in the <uicontrol>Value</uicontrol> field is <msgph>Invalid range. Min value should be lesser or equal to Max value.</msgph> This error message must be more descriptive and modified to <msgph>Invalid range. Value entered in "Min Risk Score" should be lesser or equal to value entered in the "Max Risk Score.</msgph>
+         </p>
+         <p>The following figure shows the currently displayed error message in the <uicontrol>Value</uicontrol> field in the <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> page: <fig>
+               <title/>
+               <image width="5in"
+                      href="../../../Icons/Screenshots_Icons/StaticMessage_UseCase.jpg"
+                      placement="inline"/>
+            </fig>
+         </p>
+         <p>The following figure shows the currently displayed error message in Mind: <fig>
+               <title/>
+               <image width="5in"
+                      href="../../../Icons/Screenshots_Icons/RiskGrade.jpg"
+                      placement="inline"/>
+            </fig>
+         </p>
+         <p>The following figure shows the modified error message in the <uicontrol>Value</uicontrol> field in the <uicontrol>ERROR MESSAGE CONFIGURATOR</uicontrol> page after modification: <fig>
+               <title/>
+               <image width="5in"
+                      href="../../../Icons/Screenshots_Icons/ErrorConfigMsg_Modification.png"
+                      placement="inline"/>
+            </fig>
+         </p>
+         <p>The following figure shows the modified error message in Mind after modification: <fig>
+               <title/>
+               <image width="5in"
+                      href="../../../Icons/Screenshots_Icons/ErrorMsgConfig_Display_Application.png"
+                      placement="inline"/>
+            </fig>
+         </p>
+      </example>
+   </body>
+</topic>

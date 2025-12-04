@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminRevokeDoA">
+   <title>Revoking a Delegation</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>delegation</indexterm>
+            <indexterm>doa</indexterm>
+            <indexterm>delegation-record</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>approval-delegation</indexterm>
+            <!-- Process layer -->
+            <indexterm>revoke-delegation</indexterm>
+            <indexterm>search-delegation-record</indexterm>
+            <indexterm>validate-revocation</indexterm>
+            <indexterm>update-delegation-status</indexterm>
+            <indexterm>notify-affected-users</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>authority-management</indexterm>
+            <indexterm>authorization</indexterm>
+            <indexterm>workforce-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revoking a Delegation"/>
+         <othermeta name="shortdesc"
+                    content="Steps to revoke an active delegation (Delegation of Authority) record."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="delegation-record;delegator;delegatee;doa;approval-permission"/>
+         <othermeta name="taxonomy"
+                    content="domain:delegation;usecase:revoke-delegated-authority;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="delegation,doa,delegation-record,revoke-delegation,search-delegation-record"/>
+         <othermeta name="usecase" content="revoke-delegated-authority"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The record is in the<uicontrol>Delegated</uicontrol> status.</li>
+         </ul>
+      </prereq>
+      <context>You can revoke a delegation after a user's responsibilities have been delegated to any user.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click <uicontrol>Delegation of Authority</uicontrol>.</p>
+            <p>The<uicontrol>DELEGATION OF AUTHORITY</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the appropriate record, and then click<uicontrol>Edit</uicontrol>.</p>
+            <p>The<uicontrol>DELEGATION OF AUTHORITY</uicontrol>.</p>
+         </li>
+         <li>
+            <p>To revoke a delegation, change the<uicontrol>To Date</uicontrol>as appropriate.</p>
+            <p>The  delegated user's invitation to projects is revoked by the end of the day on the selected date.For example, if you select the current date in the<uicontrol>To Date</uicontrol>field, the system revokes the delegated user's invitation to the projects at the end of the day.<note> You cannot select a past date.</note>
+            </p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

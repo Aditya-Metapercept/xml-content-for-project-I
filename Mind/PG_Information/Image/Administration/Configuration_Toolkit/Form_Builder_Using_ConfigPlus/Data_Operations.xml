@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="DataOperations" xml:lang="en-us">
+   <title>Data Operations</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>data-model</indexterm>
+            <indexterm>data-source</indexterm>
+            <indexterm>form-control</indexterm>
+            <indexterm>field-control</indexterm>
+            <indexterm>data-binding-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>data-read-operation</indexterm>
+            <indexterm>data-update-operation</indexterm>
+            <indexterm>record-fetching</indexterm>
+            <indexterm>data-mapping-flow</indexterm>
+            <indexterm>integration-data-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Data Operations"/>
+         <othermeta name="shortdesc"
+                    content="Covers reading, getting, updating and mapping data in forms, including integration touch points and operations flow."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="form;field;block;data;operations"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="data,read,update,get,integration"/>
+         <othermeta name="usecase" content="configure-and-manage-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>DATA OPERATIONS</uicontrol> block  enables you to read, insert, or update information from any form in <ph href="../../../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>. You can configure <uicontrol>SELECT</uicontrol>, <uicontrol>INSERT</uicontrol>, or <uicontrol>UPDATE</uicontrol> queries using blocks by specifying from where the information must be retrieved and the destination to which the information must be  updated or inserted.</p>
+      <p>The <uicontrol>DATA OPERATIONS</uicontrol> block has three types of entities:</p>
+      <ul>
+         <li>
+            <xref href="Get_Block.xml">Get</xref>
+         </li>
+         <li>
+            <xref href="Read_Data.xml">Read Data</xref>
+         </li>
+         <li>
+            <xref href="Fields.xml">Fields</xref>
+         </li>
+      </ul>
+   </body>
+</topic>
