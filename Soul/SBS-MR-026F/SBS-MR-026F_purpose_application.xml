@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA45DD1-BB9C-11F0-1094-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>lifting-station</indexterm>
+            <indexterm>motor-assembly</indexterm>
+            <indexterm>vertical-carriage</indexterm>
+            <indexterm>maintenance-procedures</indexterm>
+            <!-- Process layer -->
+            <indexterm>motor-maintenance</indexterm>
+            <indexterm>component-replacement</indexterm>
+            <indexterm>safety-prechecks</indexterm>
+            <indexterm>procedure-scope-definition</indexterm>
+            <indexterm>work-instruction</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-equipment-maintenance</indexterm>
+            <indexterm>maintenance-planning</indexterm>
+            <indexterm>operational-safety</indexterm>
+            <indexterm>equipment-availability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose/Application"/>
+         <othermeta name="shortdesc"
+                    content="Defines the purpose and scope for performing motor maintenance on the lifting station."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lifting station; motors; vertical carriage; maintenance procedures; work instructions"/>
+         <othermeta name="taxonomy"
+                    content="domain:purpose-and-application;usecase:motor-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="purpose,scope,motor-maintenance,work-instructions,maintenance-scope"/>
+         <othermeta name="usecase" content="define-purpose-and-scope-for-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Defines the procedures for replacing the Vulkolian wheels on the vertical carriage of the lifting station.</p>
+   </body>
+</topic>
