@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC7FE143-BB9C-11F0-8246-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="safety,production,maintenance,engineering"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-INS-Soul</indexterm>
+            <indexterm>tiama-fta-system</indexterm>
+            <indexterm>inspection-equipment</indexterm>
+            <indexterm>mx4-controller</indexterm>
+            <indexterm>machine-safety</indexterm>
+            <!-- Process layer -->
+            <indexterm>safety-guidelines</indexterm>
+            <indexterm>hazard-assessment</indexterm>
+            <indexterm>risk-mitigation</indexterm>
+            <indexterm>emergency-procedure</indexterm>
+            <indexterm>equipment-lockout</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-safety</indexterm>
+            <indexterm>industrial-compliance</indexterm>
+            <indexterm>maintenance-protocols</indexterm>
+            <indexterm>workplace-safety</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-INS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Guidelines for Tiama FTA System"/>
+         <othermeta name="shortdesc"
+                    content="Outlines safety precautions, PPE requirements, and operational safety measures for working with the Tiama FTA system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Tiama FTA system; safety gear; PPE; emergency-stop; isolation switch"/>
+         <othermeta name="taxonomy"
+                    content="domain:safety;usecase:operational-safety;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,fta-system,ppe,maintenance,compliance"/>
+         <othermeta name="usecase" content="ensuring safety during system operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Soul standard safety requirements and procedures defined by the Global Environmental Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and national requirements. Safety equipment and instructions specific to the completion of this work instruction are detailed in the Instructions Section.</p>
+      <p>
+         <table id="table_gfj_4n2_xcc">
+            <tgroup cols="4">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <colspec colname="c3" colnum="3" colwidth="1*"/>
+               <colspec colname="c4" colnum="4" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
