@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t392C523-BDF3-11F0-9240-09173F13E4C5" xml:lang="en-us">
+   <title>Unloading</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:00:00+05:30"/>
+         <revised modified="2025-11-15T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,warehouse-staff,maintenance-personnel,safety-and-compliance-officers,management"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>forks</indexterm>
+            <indexterm>load-securing</indexterm>
+            <indexterm>lift-mechanism</indexterm>
+            <indexterm>counterweight</indexterm>
+            <indexterm>unloading</indexterm>
+            <indexterm>load-lowering</indexterm>
+            <indexterm>staging-procedure</indexterm>
+            <indexterm>safe-placement</indexterm>
+            <indexterm>stability-check</indexterm>
+            <indexterm>warehouse-unload</indexterm>
+            <indexterm>material-handling</indexterm>
+            <indexterm>site-safety</indexterm>
+            <indexterm>load-management</indexterm>
+            <indexterm>dock-operation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Unloading"/>
+         <othermeta name="shortdesc"
+                    content="Safe unloading procedure for load lowering, placement and stability checks to prevent tip over and load damage."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="forks;load;lift-mechanism;staging-area;dock"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:unloading-and-placement;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="unloading,load,stability,placement,dock"/>
+         <othermeta name="usecase"
+                    content="operational steps to safely unload loads and stage them for handling"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>
+            <fig id="fig_pqt_myy_5gc">
+               <image href="media/image794.png" id="image_rqt_myy_5gc" placement="inline"/>
+            </fig>
+         </p>
+         <p>Typical Example</p>
+      </context>
+      <ol>
+         <li>
+            <p>Move the lift truck into the unloading position. </p>
+            <p>
+               <p>
+                  <fig id="fig_uks_nyy_5gc">
+                     <image href="media/image796.png" id="image_wks_nyy_5gc" placement="inline"/>
+                  </fig>
+               </p>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Tilt the mast FORWARD only when directly over the unloading area.</p>
+            <p>
+               <note type="warning">
+                  <p>Do not tilt the mast forward with the load unless directly over the unloading area,
+            even if the power is off.</p>
+               </note>
+               <p>
+                  <fig id="fig_whk_pyy_5gc">
+                     <image href="media/image798.png" id="image_yhk_pyy_5gc" placement="inline"/>
+                  </fig>
+               </p>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Deposit the load and BACK away carefully to disengage the forks. </p>
+            <p>
+               <p>
+                  <fig id="fig_tvv_pyy_5gc">
+                     <image href="media/image799.png" id="image_uvv_pyy_5gc" placement="inline"/>
+                  </fig>
+               </p>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Lower the carriage and forks to the travel position or to the
+park position.</p>
+         </li>
+      </ol>
+   </body>
+</topic>
