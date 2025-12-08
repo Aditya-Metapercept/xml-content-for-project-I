@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1FBCF1B-BB01-11F0-1023-09173F13E4C5" xml:lang="en-us">
+   <title>Definitions</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-11-07"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="engineering,quality,maintenance"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-FES-Space</indexterm>
+            <indexterm>forming-supervisory-computer</indexterm>
+            <indexterm>fsc</indexterm>
+            <indexterm>integrity-server</indexterm>
+            <indexterm>database-instance</indexterm>
+            <!-- Process layer -->
+            <indexterm>backup-image</indexterm>
+            <indexterm>restore-point</indexterm>
+            <indexterm>checksum-verification</indexterm>
+            <indexterm>hot-swap</indexterm>
+            <indexterm>failover-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>furnace-supervision</indexterm>
+            <indexterm>ot-it-boundary</indexterm>
+            <indexterm>production-availability</indexterm>
+            <indexterm>safety-terminology</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="FES-03-102 — Definitions"/>
+         <othermeta name="shortdesc"
+                    content="Definitions and glossary including full forms of acronyms used in FSC integrity and performance tuning (e.g., Forming Supervisory Computer (FSC))."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Forming Supervisory Computer (FSC);Operational Technology (OT);Information Technology (IT);Integrity Server;Database Instance"/>
+         <othermeta name="taxonomy"
+                    content="domain:operations;usecase:fsc-integrity-tuning;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="definitions,glossary,acronyms"/>
+         <othermeta name="usecase" content="reference"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table id="dl_kpp_h1y_pzb">
+         <tgroup cols="2">
+            <colspec colname="c1" colnum="1"/>
+            <colspec colname="c2" colnum="2"/>
+            <tbody>
+               <row>
+                  <entry>FSC</entry>
+                  <entry>Forming Supervising Computer – The server computer that connects to the Space Forming
+               Machines</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>
