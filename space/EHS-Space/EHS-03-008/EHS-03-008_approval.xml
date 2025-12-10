@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1E3BFEA-BB01-11F0-5852-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T17:00:00+05:30"/>
+         <revised modified="2025-12-02T17:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="plant management, maintenance leads, safety officers, document approvers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>approval-register</indexterm>
+            <indexterm>sign-off-record</indexterm>
+            <indexterm>authority-list</indexterm>
+            <indexterm>governance-document</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-procedure</indexterm>
+            <indexterm>sign-off-workflow</indexterm>
+            <indexterm>authority-validation</indexterm>
+            <indexterm>release-approval</indexterm>
+            <indexterm>document-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-policy</indexterm>
+            <indexterm>operational-accountability</indexterm>
+            <indexterm>compliance-endorsement</indexterm>
+            <indexterm>management-oversight</indexterm>
+            <indexterm>plant-governance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval details and sign off for the lockout tagout and equipment safety document set."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver;role;signature;approval-date;position"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs;usecase:approval-record;industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="approval,sign-off,maintenance"/>
+         <othermeta name="usecase"
+                    content="record-approvals-for-equipment-safety-documents"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Sanctioning Representatives of the Global Team<table id="table_n1x_lnv_pzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Region</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Asia Pacific</p>
+                     </entry>
+                     <entry>
+                        <p>Steve Bourke</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Europe</p>
+                     </entry>
+                     <entry>
+                        <p>Tim Neal</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Latin America</p>
+                     </entry>
+                     <entry>
+                        <p>Isabela Malpighi</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>North America</p>
+                     </entry>
+                     <entry>
+                        <p>Ken Smigielski</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Global Operations</p>
+                     </entry>
+                     <entry>
+                        <p>Jim Joyce, V P</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
