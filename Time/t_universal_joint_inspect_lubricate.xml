@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t392AFD0-BDF3-11F0-6411-09173F13E4C5" xml:lang="en-us">
+   <title>Universal Joint - Inspect, Lubricate</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:00:00+05:30"/>
+         <revised modified="2025-11-15T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance-personnel,industrial-engineers,reliability-engineers,safety-and-compliance-officers,management"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>universal-joint</indexterm>
+            <indexterm>driveshaft</indexterm>
+            <indexterm>yoke</indexterm>
+            <indexterm>grease-nipple</indexterm>
+            <indexterm>inspect-universal-joint</indexterm>
+            <indexterm>lubricate-universal-joint</indexterm>
+            <indexterm>play-check</indexterm>
+            <indexterm>seal-inspection</indexterm>
+            <indexterm>grease-application-procedure</indexterm>
+            <indexterm>power-train-maintenance</indexterm>
+            <indexterm>preventive-lubrication</indexterm>
+            <indexterm>shop-inspection</indexterm>
+            <indexterm>mro-routine</indexterm>
+            <indexterm>component-preservation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Universal Joint - Inspect, Lubricate"/>
+         <othermeta name="shortdesc"
+                    content="Inspection and lubrication task for universal joint and driveshaft components including play checks, seal inspection and grease application."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="universal-joint;driveshaft;yoke;grease-fittings;seals"/>
+         <othermeta name="taxonomy"
+                    content="domain:power-train;usecase:lubrication-and-inspection;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="lubrication,inspection,universal-joint,grease,driveshaft"/>
+         <othermeta name="usecase"
+                    content="preventive lubrication and inspection of driveshaft universal joint"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig id="fig_tt4_1yz_5gc">
+            <image href="media/image925.png" id="image_wt4_1yz_5gc" placement="inline"/>
+         </fig>
+         <p>Typical Example</p>
+      </context>
+      <ol>
+         <li>
+            <p>Lubricate 1 fitting on each universal joint. Total 2 fittings.</p>
+         </li>
+         <li>
+            <p>Lubricate 1 fitting on the drive shaft.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

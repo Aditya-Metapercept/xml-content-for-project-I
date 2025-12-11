@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WorkflowNew_WORKFLW">
+   <title>Creating a Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-management</indexterm>
+            <indexterm>form</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>list-page</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-workflow</indexterm>
+            <indexterm>configure-workflow</indexterm>
+            <indexterm>define-steps</indexterm>
+            <indexterm>assign-roles</indexterm>
+            <indexterm>validate-workflow</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-platform</indexterm>
+            <indexterm>enterprise-deployment</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="CreateWF"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for creating a new workflow: prerequisites, permission references and step-by-step creation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="workflow;form;list-page;roles;permissions"/>
+         <othermeta name="taxonomy"
+                    content="domain:Capital-program-management;usecase:workflow-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="create-workflow,configure-workflow,assign-roles"/>
+         <othermeta name="usecase" content="create and configure workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>The role of the logged in user has permission to create the workflow. <ph product="Exclude_PG_Content">For information on permissions, refer to <xref href="../../User_Management/Permissions/ConfigRolePerms.xml">Managing Permissions</xref>.</ph>
+            </li>
+         </ul>
+      </prereq>
+      <context>The following procedure describes the steps to create a basic workflow using the Workflow Builder. <p>The <uicontrol>Project Fund Transaction</uicontrol> form is used for the sample workflow. </p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATIONS</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Configuration Toolkit</uicontrol>, and then click <uicontrol>Workflow Management</uicontrol>.</p>
+            <p>The <uicontrol>WORKFLOW LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>New</uicontrol>.</p>
+            <p>The <uicontrol>NEW WORKFLOW</uicontrol> page is displayed.<fig>
+                  <title>New Workflow</title>
+                  <image width="15cm"
+                         href="../../../Icons/Screenshots_Icons/New_WF.jpg"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To add information about the workflow, in the <uicontrol>General Details</uicontrol> tab, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Name</uicontrol> box, enter the name of the workflow.</p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Description</uicontrol> box, enter a description of the workflow.</p>
+               </li>
+               <li>
+                  <p>From the <uicontrol>Select Form</uicontrol> drop-down list, select the form for which the workflow is being created. </p>
+                  <p>Alternatively, type the name of the form, and then select the required form.</p>
+                  <p>The options available are all forms available in the application.For example, to create a workflow for Project Fund Transaction, select <uicontrol>Project Fund Transaction</uicontrol> form from the <uicontrol>Select Form</uicontrol> drop-down list. To create a new business process, the first step is to create the form, and then create the workflow. <ph product="Exclude_PG_Content">For information creating a form, refer to <xref href="../Form_Builder/UsingFormBuilder.xml"/>.</ph>
+                  </p>
+               </li>
+               <li>
+                  <p>To select stakeholders who can view records in a stage but not perform any workflow actions, select the <uicontrol>Configure View Permissions</uicontrol> check box.</p>
+                  <p>For example, you can enable this check box when you want to specifically allow or deny view of the record to a user role at any stage of the workflow.<note>
+                        <ul>
+                           <li>During the workflow creation, you can view the <uicontrol>View Stake Holders</uicontrol>box only if the <uicontrol>Configure View Permissions</uicontrol> check box is selected in the <uicontrol>General Details</uicontrol> tab.</li>
+                           <li>You cannot select or clear the <uicontrol>Configure View Permissions</uicontrol> check box after clicking <uicontrol>Apply</uicontrol> in the <uicontrol>General Details</uicontrol> tab.</li>
+                           <li>If the user role is not an action stakeholder and is not selected in the <uicontrol>View Stake Holders</uicontrol> box, then that user role cannot view the record on thelist page of the form selected in the<uicontrol>Select Form</uicontrol> drop-down list.</li>
+                        </ul>
+                     </note>
+                  </p>
+               </li>
+               <li>
+                  <p>To enable the users who have <uicontrol>Edit</uicontrol> permission on the form to edit the record, even if they are not action stakeholders, select the <uicontrol>Enable Editing by Non Action Stakeholders</uicontrol> check box.</p>
+                  <p>For example, you can select this check box when you want a non-action stakeholder with <uicontrol>Edit</uicontrol> permission at the form level to edit the record at any workflow stages.<note>
+                        <ul>
+                           <li>You can select or clear the <uicontrol>Enable Editing by Non Action Stakeholders</uicontrol> check box at any time while creating or while editing the workflow.</li>
+                           <li>The non-action stakeholders with <uicontrol>Edit</uicontrol> permission at the form level can only edit the record and cannot perform workflow action.</li>
+                        </ul>
+                     </note>
+                  </p>
+               </li>
+               <li>
+                  <p>To enable all the stakeholders who have edit or view or both permissions on the form to perform workflow actions, select the <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> check box.</p>
+                  <p>For example, you can enable this check box when you want a user role to only perform workflow action without editing the record.<note>
+                        <ul>
+                           <li>You can select or clear the <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> check box at any time while creating or while editing the workflow. </li>
+                           <li>Selecting <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> check box lists all the roles having edit or view or both permissions at the form level in the <uicontrol>Action Stake Holders</uicontrol> drop-down list.</li>
+                        </ul>
+                     </note>
+                  </p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Apply</uicontrol>.</p>
+                  <p>A pre-created three-stage workflow is displayed in the <uicontrol>Workflow</uicontrol> tab. By default, the workflow is created in simple mode.</p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To configure the properties for a start stage, such as the <uicontrol>Draft</uicontrol> stage, in the <uicontrol>Workflow</uicontrol> tab, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>Click the <uicontrol>Draft</uicontrol> stage.</p>
+                  <p>The <uicontrol>Draft</uicontrol> stage properties are displayed in the right pane, as illustrated in the following image:<fig>
+                        <title>Workflow Draft</title>
+                        <image width="20cm"
+                               href="../../../Icons/Screenshots_Icons/WF_Draft.jpg"
+                               placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Start Stage</uicontrol> properties pane, provide the required information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="20%"/>
+                           <colspec colname="c2" colnum="2" colwidth="80%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Name</entry>
+                                 <entry>Enter the name of the stage. the default stage name is displayed as <uicontrol>Draft</uicontrol>. <p>If required, enter a new name for the stage.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Days to Complete </entry>
+                                 <entry>Enter the number of days before which an action must be performed in the current workflow stage. <p>If the stakeholder does not perform an action in the specified number of days, an escalation email is sent to users in the <uicontrol>Administrator</uicontrol> role. </p>
+                                    <p>By default, the number of days defined in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page is displayed. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Action Stake Holders </entry>
+                                 <entry>Select the roles with which a user can perform the workflow action for the stage. The <uicontrol>Action Stake Holder</uicontrol> box lists all the roles that are assigned with the<uicontrol>Edit</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    <p>Also, if <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> is selected in the <uicontrol>General Details</uicontrol> tab, then all stakeholders with the<uicontrol>Edit</uicontrol> or <uicontrol>View</uicontrol> or both permissions at the form level are listed in the <uicontrol>Action Stake Holders</uicontrol> drop-down list.</p>
+                                    <note>
+                                       <ul>
+                                          <li>For a role to be available in the list of action stakeholders, the <uicontrol>Edit</uicontrol> permission must be enabled for the role at the form level. <ph product="Exclude_PG_Content">To modify permissions, refer to <xref href="../../User_Management/Security_Roles/EditRoleInfo.xml">Editing Role Information</xref>.</ph>
+                                          </li>
+                                          <li>Ensure that the stakeholders selected in the <uicontrol>Action Stake Holders</uicontrol> box are also selected in the <uicontrol>View Stake Holders</uicontrol> box. </li>
+                                       </ul>
+                                    </note>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> View Stake Holders </entry>
+                                 <entry>Select the roles with which a user can view the records that are in the workflow stage but not perform any workflow actions. The <uicontrol>View Stake Holders</uicontrol> box lists all the roles that are assigned with <uicontrol>View</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    <note>
+                                       <ul>
+                                          <li>You can view the <uicontrol>View Stake Holders</uicontrol> box only if the <uicontrol>Configure View Permissions</uicontrol> check box is selected in the <uicontrol>General Details</uicontrol> tab.</li>
+                                          <li>If the role is not selected in the <uicontrol>View Stake Holders</uicontrol> box, then that role cannot view the record in the selected form list page.</li>
+                                       </ul>
+                                    </note>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Allow Delete </entry>
+                                 <entry>Click <uicontrol>Yes</uicontrol>, to allow the users to delete the record in this stage. <p>Click <uicontrol>No</uicontrol>, to restrict the users from deleting the record in this stage. </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Send Email To Stakeholders </entry>
+                                 <entry>Select the check boxto send a standard automated email notification to the action stakeholders of the subsequent stage whenever the workflow action is performed. <p>The email template is based on the default template selected in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Show stage in Tasks </entry>
+                                 <entry>Ensure the check box is selected, to list the subsequent workflow action in the <uicontrol>My Tasks</uicontrol> list of all stakeholders of the subsequent workflow stage. </entry>
+                              </row>
+                              <row>
+                                 <entry> Ball In Court Request Email Template </entry>
+                                 <entry>Select the required email template to be used to send an automated notification to the user selected to receive form information using the <uicontrol>Ball in Court</uicontrol> feature. <p>Available templates are based on the form that is selected for the workflow.</p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library.<ph product="Exclude_PG_Content"> For information on the Ball in Court feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Ball In Court Response Email Template </entry>
+                                 <entry>Select the required email template to be used to send an automated response notification to the user who initiated the <uicontrol>Ball in Court</uicontrol> notification. <p>Available templates are based on the form that is selected for the workflow. </p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library. <ph product="Exclude_PG_Content">For information on the <uicontrol>Ball in Court</uicontrol> feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To configure the properties for an intermediate stage, such as <uicontrol>Submitted</uicontrol> stage, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>Submitted</uicontrol> stage.</p>
+                  <p>The <uicontrol>Submitted</uicontrol> stage properties are displayed in the right pane, as illustrated in the following image:<fig>
+                        <title>Workflow Submitted</title>
+                        <image href="../../../Icons/Screenshots_Icons/WF_Submitted.jpg"
+                               placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>Intermediate Stage</uicontrol> properties pane, provide the required information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="20%"/>
+                           <colspec colname="c2" colnum="2" colwidth="80%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry> Name </entry>
+                                 <entry>Enter the name of the stage. the default stage name is displayed as <uicontrol>Submitted</uicontrol>. If required, enter a new name for the stage. </entry>
+                              </row>
+                              <row>
+                                 <entry> Days to Complete </entry>
+                                 <entry>Enter the number of days before which an action must be performed in the current workflow stage. <p>If the stakeholder does not perform an action in the specified number of days, an escalation email is sent to users in the <uicontrol>Administrator</uicontrol> role. </p>
+                                    <p>By default, the number of days defined in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page is displayed. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Action Stake Holders </entry>
+                                 <entry>Select the roles with which a user can perform the workflow action for the stage. The <uicontrol>Action Stake Holder</uicontrol> box lists all the roles that are assigned with the <uicontrol>Edit</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    <p>Also, if <uicontrol>Allow Workflow Action by All Stakeholders</uicontrol> is selected in the <uicontrol>General Details</uicontrol> tab, then all stakeholders with the <uicontrol>Edit</uicontrol> or <uicontrol>View</uicontrol> or both permissions at the form level are listed in the <uicontrol>Action Stake Holders</uicontrol> drop-down list. </p>
+                                    <p>
+                                       <note>
+                                          <ul>
+                                             <li>For a role to be available in the list of action stakeholders, the <uicontrol>Edit</uicontrol> permission must be enabled for the role at the form level. <ph product="Exclude_PG_Content">To modify permissions, refer to <xref href="../../User_Management/Security_Roles/EditRoleInfo.xml">Editing Role Information</xref>.</ph>
+                                             </li>
+                                             <li>Ensure that the stakeholders selected in the <uicontrol>Action Stake Holders</uicontrol> box are also selected in the <uicontrol>View Stake Holders</uicontrol> box.</li>
+                                          </ul>
+                                       </note>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> View Stake Holders </entry>
+                                 <entry>Select the roles with which a user can view the records that are in the workflow stage but not perform any workflow actions. <p>The <uicontrol>View Stake Holders</uicontrol> box lists all the roles that are assigned with <uicontrol>View</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    </p>
+                                    <p>
+                                       <note>
+                                          <ul>
+                                             <li>You can view the <uicontrol>View Stake Holders</uicontrol> box only if the <uicontrol>Configure View Permissions</uicontrol> check box is selected in the <uicontrol>General Details</uicontrol> tab.</li>
+                                             <li>If the role is not selected in the <uicontrol>View Stake Holders</uicontrol> box, then that role cannot view the record in the selected form list page.</li>
+                                          </ul>
+                                       </note>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Allow Form Edit </entry>
+                                 <entry>Click <uicontrol>Yes</uicontrol>, to allow the user to edit the record in this stage. <p>Click <uicontrol>No</uicontrol>, to restrict the users from editing the record in this stage. </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Allow Delete </entry>
+                                 <entry>Click <uicontrol>Yes</uicontrol>, to allow the users to delete the record in this stage. <p>Click <uicontrol>No</uicontrol>, to restrict the users from deleting the record in this stage. </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Send Email To Stakeholders </entry>
+                                 <entry>Select the check box, to send a standard automated email notification to the action stakeholders of the subsequent stage whenever the workflow action is performed. <p>The email template is based on the default template selected in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Show stage in Tasks </entry>
+                                 <entry>Ensure the check box is selected, to list the subsequent workflow action in the <uicontrol>My Tasks</uicontrol> list of all stakeholders of the subsequent workflow stage. </entry>
+                              </row>
+                              <row>
+                                 <entry> Ball In Court Request Email Template </entry>
+                                 <entry>Select the required email template to be used to send an automated notification to the user selected to receive form information using the <uicontrol>Ball in Court</uicontrol> feature. <p>Available templates are based on the form that is selected for the workflow. </p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library. <ph product="Exclude_PG_Content">For information on the <uicontrol>Ball in Court</uicontrol> feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry> Ball In Court Response Email Template </entry>
+                                 <entry>Select the required email template to be used to send an automated response notification to the user who initiated the <uicontrol>Ball in Court</uicontrol> notification. <p>Available templates are based on the form that is selected for the workflow. </p>
+                                    <p>Available options are templates defined for the form in the <uicontrol>Mail Body Templates</uicontrol> catalog of the Library. <ph product="Exclude_PG_Content">For information on the <uicontrol>Ball in Court</uicontrol> feature, refer to <xref href="../../../Common_Application_Features/Ball_in_Court/BIC.xml">Common Application Features, Ball in Court</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>To configure the properties for an end stage, such as the <uicontrol>Approved</uicontrol> stage, perform the following steps:</p>
+            <ol>
+               <li>
+                  <p>In the <uicontrol>Workflow</uicontrol> tab, click the <uicontrol>Approved</uicontrol> stage.</p>
+                  <p>The <uicontrol>Approved</uicontrol> stage properties are displayed in the right pane, as illustrated in the following image:<fig>
+                        <title>Workflow Approved</title>
+                        <image href="../../../Icons/Screenshots_Icons/WF_Approved.jpg"
+                               placement="inline"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>In the <uicontrol>End Stage</uicontrol> properties pane, provide the required information in the fields, as described in the following table:</p>
+                  <p>
+                     <table colsep="1" rowsep="1">
+                        <tgroup cols="2">
+                           <colspec colname="c1" colnum="1" colwidth="20%"/>
+                           <colspec colname="c2" colnum="2" colwidth="80%"/>
+                           <thead>
+                              <row>
+                                 <entry>Field Name</entry>
+                                 <entry>Description</entry>
+                              </row>
+                           </thead>
+                           <tbody>
+                              <row>
+                                 <entry>Name </entry>
+                                 <entry>Enter the name of the stage. the default stage name is displayed as <uicontrol>Approved</uicontrol>. If required, enter a new name for the stage. </entry>
+                              </row>
+                              <row>
+                                 <entry>View Stake Holders</entry>
+                                 <entry>Select the roles with which a user can view the records that are in the workflow stage but not perform any workflow actions. <p>The <uicontrol>View Stake Holders</uicontrol> box lists all the roles that are assigned with <uicontrol>View</uicontrol> permission at the form level. <ph product="Exclude_PG_Content">For information on roles, refer to <xref href="../../User_Management/Security_Roles/SecurityRoles.xml">Security Roles</xref>.</ph>
+                                    </p>
+                                    <p>
+                                       <note>
+                                          <ul>
+                                             <li>You can view the <uicontrol>View Stake Holders</uicontrol> box only if the <uicontrol>Configure View Permissions</uicontrol> check box is selected in the <uicontrol>General Details</uicontrol> tab. </li>
+                                             <li>If the role is not selected in the <uicontrol>View Stake Holders</uicontrol> box, then that role cannot view the record in the selected form list page.</li>
+                                          </ul>
+                                       </note>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Allow Delete</entry>
+                                 <entry>Click <uicontrol>Yes</uicontrol>, to allow the users to delete the record in this stage. <p>Click <uicontrol>No</uicontrol>, to restrict the users from deleting the record in this stage.</p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Send Email To Stakeholders</entry>
+                                 <entry>Select the check box, to send a standard automated email notification to the action stakeholders of the subsequent stage whenever the workflow action is performed. <p>The email template is based on the default template selected in the <uicontrol>WORKFLOW SETTINGS</uicontrol> page. <ph product="Exclude_PG_Content">For information on workflow settings, refer to <xref href="../../System_Configurations/WFSettings.xml">Administration, Workflow Settings</xref>.</ph>
+                                    </p>
+                                 </entry>
+                              </row>
+                              <row>
+                                 <entry>Show stage in Tasks</entry>
+                                 <entry>Ensure the check box is selected, to list the subsequent workflow action in the <p>
+                                       <uicontrol>My Tasks</uicontrol> list of all stakeholders of the subsequent workflow stage.</p>
+                                 </entry>
+                              </row>
+                           </tbody>
+                        </tgroup>
+                     </table>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+            <p>The workflow is saved and listed on the <uicontrol>WORKFLOW LIST</uicontrol> page.</p>
+         </li>
+      </ol>
+      <div>You can enhance your workflow to include additional features. <ul>
+            <li>
+               <xref href="CreateWFSimple.xml">Workflow using simple mode</xref> – Using the simple mode, you can customize apre-created workflow, and add the required additional stages, define conditions, validations, and so on.</li>
+            <li>
+               <xref href="CreateWFAdv.xml">Workflow using advanced mode</xref> – Using the advanced mode, you can create a complex workflow. Advanced mode enables you to use advanced features, such as expressions, condition block, morph workflow, get form data, set form data, create new form, call form resource, set form status, set due date, set stake holders, and so on.</li>
+         </ul>The workflow must now be published to be made available in the application. <ph product="Exclude_PG_Content">For information on publishing a workflow, refer to <xref href="PublishWF.xml">Publishing a Workflow</xref>.</ph>
+      </div>
+   </body>
+</topic>

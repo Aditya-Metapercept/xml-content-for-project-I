@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c2126EDC-BB02-11F0-1284-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-11+05:30"/>
+         <revised modified="2025-11-11+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="documentation,quality,configuration-management"/>
+         <keywords>
+            <indexterm>metr-fes-space</indexterm>
+            <indexterm>revision-history</indexterm>
+            <indexterm>change-log</indexterm>
+            <indexterm>document-version</indexterm>
+            <indexterm>approval-record</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-FES-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision History"/>
+         <othermeta name="shortdesc"
+                    content="Document revision history and approval records for FES-03-601 topic set."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="entities" content="Revision entry;Author;Date;Notes"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:revision-history;industry:manufacturing"/>
+         <othermeta name="tags" content="revision,history,version,change-log"/>
+         <othermeta name="usecase" content="Track revisions and approvals"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_stf_5y1_rzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>2021-03-04</entry>
+                     <entry>
+                        <p>Originally Released as Process Control SOP-21-001</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2021-10-12</entry>
+                     <entry>
+                        <p>Approved by Franklin Barrios, Global Leader FES Network.</p>
+                        <p>SOP changed into GMF Work Instruction MAC-03-424</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2022-05-09</entry>
+                     <entry>
+                        <p>Approved by Franklin Barrios, Global Leader FES Network.</p>
+                        <p>Moved to GMF Site as FES-03-601</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

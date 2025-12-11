@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingMessages_Tosendamessage" xml:lang="en">
+   <title>To send a message</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>supplier-communication</indexterm>
+            <indexterm>messages-module</indexterm>
+            <indexterm>event-messaging</indexterm>
+            <!-- Process Layer -->
+            <indexterm>open-sourcing-events</indexterm>
+            <indexterm>select-event</indexterm>
+            <indexterm>navigate-to-messages-tab</indexterm>
+            <indexterm>create-new-message</indexterm>
+            <indexterm>send-message</indexterm>
+            <indexterm>supplier-to-buyer-communication</indexterm>
+            <!-- Context Layer -->
+            <indexterm>procurement-environment</indexterm>
+            <indexterm>sourcing-event-collaboration</indexterm>
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>buyer-supplier-interaction</indexterm>
+            <indexterm>enterprise-sourcing</indexterm>
+            <indexterm>communication-workflows</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To send a message"/>
+         <othermeta name="shortdesc"
+                    content="This task describes how to access a sourcing event and send a message to the buyer using the Messages tab."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="sourcing events;messages tab;create new;send;buyer;message text;event selection"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:send-message;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="messages,sourcing-events,communication,supplier,buyer-interaction,send-message"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the <uicontrol>Sourcing Events</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Select the appropriate sourcing event.</p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Messages</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Create New</uicontrol> to create a new message.</p>
+         </li>
+         <li>
+            <p>Type the appropriate Message and click <uicontrol>Send</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image height="250"
+                         placement="break"
+                         href="../attachments/8978491/8978977.png"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

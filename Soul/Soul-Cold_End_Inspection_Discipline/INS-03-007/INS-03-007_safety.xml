@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC6E32DD-BB9C-11F0-8845-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ppe</indexterm>
+            <indexterm>gloves</indexterm>
+            <indexterm>helmet</indexterm>
+            <indexterm>machine-guard</indexterm>
+            <indexterm>fire-extinguisher</indexterm>
+            <!-- Process layer -->
+            <indexterm>safety-lockout</indexterm>
+            <indexterm>emergency-procedure</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>safety-inspection</indexterm>
+            <!-- Context layer -->
+            <indexterm>operator-safety</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-INS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety"/>
+         <othermeta name="shortdesc"
+                    content="Safety requirements, PPE and emergency procedures for operators and maintenance staff."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ppe;gloves;helmet;machine-guard;fire-extinguisher"/>
+         <othermeta name="taxonomy"
+                    content="domain:[industrial-engineering];usecase:[safety-procedure];industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety-lockout ,emergency-procedure ,ppe"/>
+         <othermeta name="usecase" content="safety-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Soul standard safety requirements and procedures defined by the Global Environmental
+      Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+      national requirements. Safety equipment and instructions specific to the completion of this
+      work instruction are detailed in the Instructions Section.<table id="table_bnb_2my_xcc">
+            <tgroup cols="3">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <colspec colname="c3" colnum="3" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

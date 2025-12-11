@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Logic" xml:lang="en-us">
+   <title>Logic</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>logic-block</indexterm>
+            <indexterm>condition-block</indexterm>
+            <indexterm>if-block</indexterm>
+            <indexterm>connector</indexterm>
+            <indexterm>expression-evaluator</indexterm>
+            <!-- Process layer -->
+            <indexterm>condition-definition</indexterm>
+            <indexterm>rule-evaluation</indexterm>
+            <indexterm>connector-routing</indexterm>
+            <indexterm>boolean-evaluation</indexterm>
+            <indexterm>branch-triggering</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>business-logic</indexterm>
+            <indexterm>ui-behaviour</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Logic"/>
+         <othermeta name="shortdesc"
+                    content="Describes logic blocks and condition constructs used to evaluate rules, route connectors and drive branching in form logic."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="logic-block;condition-block;if-block;connector;expression"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:condition-evaluation;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="logic,condition,if-block,connector,rule-evaluation"/>
+         <othermeta name="usecase" content="define-and-evaluate-conditions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Logic</uicontrol> blocks enable you to define any conditional logic. You can define the <uicontrol>If</uicontrol> condition to validate if the condition passes or the <uicontrol>Boolean</uicontrol> condition to define if a condition is true or false.</p>
+      <p>
+         <uicontrol>If Block</uicontrol>
+      </p>
+      <p>The <uicontrol>If</uicontrol> block has two connectors: one input and one output. The condition is specified under the <uicontrol>if</uicontrol> entry point and the action if the condition passes is specified under the <uicontrol>do</uicontrol> entry point.<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/If_Condition_2_Point.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>The <uicontrol>If</uicontrol> block has multiple additional options to define multiple conditions. You can click <image href="../../../Icons/Screenshots_Icons/Settings_If__icon.png"
+                placement="inline"/> to add any level of conditions by dragging either the <uicontrol>else</uicontrol> or <uicontrol>else if</uicontrol> block under the <uicontrol>If</uicontrol> block.<fig>
+            <image href="../../../Icons/Screenshots_Icons/Settings_Else_If_Condition.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>The <uicontrol>else</uicontrol> or <uicontrol>else if</uicontrol> blocks are used only for multiple conditions. For example, if you need to check the logged in user, you can set the conditions as follows: <ul>
+            <li>if the logged in user role is <uicontrol>Contractor</uicontrol>, then hide <uicontrol>Amount </uicontrol>field,</li>
+            <li>else if current user role is <uicontrol>Consultant </uicontrol>, then set the <uicontrol>Amount</uicontrol> field to <uicontrol>Read-only</uicontrol>, and</li>
+            <li>if the current user role is <uicontrol>Project Manager</uicontrol>, then set the <uicontrol>Amount</uicontrol> field to <uicontrol>Mandatory</uicontrol>.</li>
+         </ul>
+      </p>
+      <p>If all the above conditions fail, you can also use a generic fail-safe <uicontrol>else</uicontrol> condition.</p>
+      <p>
+         <uicontrol>Boolean Block</uicontrol>
+      </p>
+      <p>The output of a Boolean block is always either true or false, irrespective of which block you choose. There are five types of Boolean blocks:<ul>
+            <li>Simple Boolean block</li>
+            <li>Dual-check Boolean block</li>
+            <li>Not block </li>
+            <li>True/False block</li>
+            <li>Null block</li>
+         </ul>
+      </p>
+      <p>
+         <uicontrol>Simple Boolean Block</uicontrol>
+      </p>
+      <p>The Simple Boolean block enables you to define comparators in the conditions block. For example, if you want to check the logged in user role of <uicontrol>Contractor</uicontrol>, then a simple Boolean block must be used and connected to the <uicontrol>If</uicontrol> block.<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/Simple_Boolean.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>The first entry of the condition check is a data operation block to check the role of the logged in user, and the second entry is a text field where you type <uicontrol>Contractor</uicontrol>.</p>
+      <p>The configuration of this scenario is illustrated in the following image:<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/Simple_Boolean_Configuration.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>
+         <uicontrol>Dual-check Boolean Block</uicontrol>
+      </p>
+      <p>The Dual-check Boolean block is the next block in the Boolean condition category. This block has two slots that enable you to check both the conditions.<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/DoubleCheck_Boolean.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>For example, if you want to check if the logged in user belongs to the <uicontrol>Contractor</uicontrol> role and the current stage is <uicontrol>Submitted</uicontrol>, then a simple Boolean block is added to each slot.</p>
+      <p>The configuration of this scenario is illustrated in the following image:<fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/DoubleCheck_Boolean_Configuration.png"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>
+         <uicontrol>True/False Block</uicontrol>
+      </p>
+      <p>The <uicontrol>true</uicontrol> or <uicontrol>false</uicontrol> block enables you to validate if the condition is true or false. </p>
+      <p>For example, if you want to check if a check box is set to <uicontrol>true</uicontrol> or <uicontrol>false</uicontrol> and then execute a condition based on it, you can use the <uicontrol>true</uicontrol> or <uicontrol>false</uicontrol> block as required. <fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/True-False_Block.jpg"
+                   placement="inline"/>
+         </fig>
+      </p>
+      <p>
+         <uicontrol>Null Block</uicontrol>
+      </p>
+      <p>The <uicontrol>null</uicontrol> block enables you to check if the information is null and perform appropriate action where information is missing. <fig>
+            <title/>
+            <image href="../../../Icons/Screenshots_Icons/Null_block.jpg"
+                   placement="inline"/>
+         </fig>
+      </p>
+   </body>
+</topic>

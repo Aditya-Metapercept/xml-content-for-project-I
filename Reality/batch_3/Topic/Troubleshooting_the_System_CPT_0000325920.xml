@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Troubleshooting-555BE1D4" xml:lang="en">
+   <title>Troubleshoot from the Alarm Panel</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-03+05:30"/>
+         <revised modified="2025-12-03"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="operations,maintenance,engineering,technical support,system operator,field technician"/>
+         <keywords><!-- Product layer -->
+            <indexterm>system troubleshooting</indexterm>
+            <indexterm>UPS system faults</indexterm>
+            <indexterm>error conditions</indexterm>
+            <indexterm>alarm indicators</indexterm>
+            <indexterm>fault logs</indexterm>
+            <indexterm>power electronic modules</indexterm>
+            <indexterm>control system diagnostics</indexterm>
+            <!-- Process layer -->
+            <indexterm>fault isolation workflow</indexterm>
+            <indexterm>system-level diagnostics</indexterm>
+            <indexterm>root cause analysis procedure</indexterm>
+            <indexterm>corrective action steps</indexterm>
+            <indexterm>parameter verification</indexterm>
+            <indexterm>system recovery workflow</indexterm>
+            <indexterm>preventive action identification</indexterm>
+            <!-- Context layer -->
+            <indexterm>industrial reliability domain</indexterm>
+            <indexterm>critical load environment</indexterm>
+            <indexterm>facility-wide UPS monitoring</indexterm>
+            <indexterm>operational continuity context</indexterm>
+            <indexterm>electrical infrastructure systems</indexterm>
+            <indexterm>maintenance and service environment</indexterm>
+            <indexterm>system-level diagnostics environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Troubleshooting the System"/>
+         <othermeta name="shortdesc"
+                    content="Provides detailed steps for troubleshooting system-level UPS faults, including diagnostics, alarm evaluation, corrective actions, and verification after repair."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="event logs; system controller; inverter; rectifier; sensors; alarm panel; power modules"/>
+         <othermeta name="taxonomy"
+                    content="domain:system diagnostics;usecase:system-wide-UPS-troubleshooting;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="system troubleshooting,UPS diagnostics,alarms,fault isolation,error codes,corrective actions"/>
+         <othermeta name="usecase"
+                    content="Help operators and technicians identify, analyze, and correct system-wide UPS faults"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig expanse="page">
+         <image href="../Images/PxW_Alarm_Display_0000352230.svg" placement="inline"/>
+         <note href="Alarm_Panel_CPT_0000356320.xml#AlarmPanel-83C303AF/NotAllAlarmsAreUsedInAllSystemTypes-04605A90">The alarm text is displayed in English</note>
+         <note>The alarm text is only displayed in English even if another
+system language is used.</note>
+      </fig>
+      <table pgwide="1" platform="PxW WxW">
+         <tgroup cols="3">
+            <colspec colname="COLSPEC0" colwidth="1*"/>
+            <colspec colname="COLSPEC1" colwidth="2*"/>
+            <colspec colname="COLSPEC2" colwidth="2*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <ph id="AlarmIndicator-0F3E4262">Alarm Indicator</ph>
+                  </entry>
+                  <entry valign="top">
+                     <ph id="AlarmNumberAndText-0F3E43BD">Alarm
+Number and Text</ph>
+                  </entry>
+                  <entry valign="top">
+                     <ph id="PossibleSource-0F3E4780">Possible
+Source</ph>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row platform="PxW">
+                  <entry morerows="4">
+                     <ph>(A) Rectifier mains fault[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">26: Rectifier not
+synchronized</ph>
+                  </entry>
+                  <entry>
+                     <ph>Unstable rectifier
+mains input</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph translate="no">27: Mains voltage
+out of tolerance</ph>
+                  </entry>
+                  <entry>
+                     <ph>The input voltage
+(average) is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph translate="no">28: Mains freq out
+of tolerance</ph>
+                  </entry>
+                  <entry>
+                     <ph>The input frequency
+is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph translate="no">29: Mains phase missing</ph>
+                  </entry>
+                  <entry>
+                     <ph>At least one
+phase is not connected</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph translate="no">30: Mains phase order
+incorrect</ph>
+                  </entry>
+                  <entry>
+                     <ph>Wiring at the
+rectifier mains input terminal</ph>
+                  </entry>
+               </row>
+               <row platform="WxW">
+                  <entry>
+                     <ph>(A) —</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">—</ph>
+                  </entry>
+                  <entry>
+                     <ph>—</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry morerows="1">
+                     <ph>(B) Rectifier failure[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">47: Rectifier UI deviation warning</ph>
+                        </sli>
+                        <sli>
+                           <ph>and “Rectifier mains fault” is not active</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>Unstable rectifier mains input</sli>
+                        <sli>Rectifier parameter setting</sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">106: Charger 30° temp shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">104: Charger 0° temp shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>Charger module
+A030 / A031</ph>
+                  </entry>
+               </row>
+               <row platform="WxW">
+                  <entry>
+                     <ph>(B) —</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">—</ph>
+                  </entry>
+                  <entry>
+                     <ph>—</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <ph>(C) DC out of tolerance[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">35: Low DC warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">36: Low DC shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The DC is below the low DC warning/shutdown level</ph>
+                        </sli>
+                        <sli platform="PxW">
+                           <ph platform="PxW">Rectifier inoperable</ph>
+                        </sli>
+                        <sli>
+                           <ph>Battery is discharged or disconnected</ph>
+                        </sli>
+                        <sli platform="WxW">
+                           <ph platform="WxW">The DC power input is out of
+tolerance or unavailable.</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">37: High DC warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">38: High DC shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The DC is above the high DC warning/shutdown level</ph>
+                        </sli>
+                        <sli>
+                           <ph>High load variation</ph>
+                        </sli>
+                        <sli platform="PxW">
+                           <ph platform="PxW">Rectifier parameter setting</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph>(D) Rectifier fuse blown[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">46: Rectifier fuse
+blown</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The fuse trip indicator is not connected</ph>
+                        </sli>
+                        <sli>
+                           <ph>Rectifier output fuse F026 (F027) blown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="WxW">
+                  <entry>
+                     <ph>(D) —</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">—</ph>
+                  </entry>
+                  <entry>
+                     <ph>—</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(E) Battery operation[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">163: Battery operation</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli platform="PxW">
+                           <ph platform="PxW">Rectifier inoperable</ph>
+                        </sli>
+                        <sli platform="PxW">
+                           <ph platform="PxW">Inverter supplied by the battery</ph>
+                        </sli>
+                        <sli platform="WxW">
+                           <ph platform="WxW">Inverter supplied by the battery
+in the external DC UPS system</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry morerows="1">
+                     <ph>(F) Battery discharged[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">35: Low DC warning</ph>
+                  </entry>
+                  <entry>
+                     <ph>The DC is below
+the low DC warning level</ph>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <ph translate="no">57: Battery monitor
+alarm</ph>
+                  </entry>
+                  <entry>
+                     <ph>Battery is
+discharged or disconnected</ph>
+                  </entry>
+               </row>
+               <row platform="WxW">
+                  <entry>
+                     <ph>(F) DC low warning[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">35: Low DC warning</ph>
+                  </entry>
+                  <entry>
+                     <ph>The DC is below the low DC warning
+level</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(G) Batt. disconnected[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">51: Battery breaker open</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">60: External battery breaker open</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>Switch open
+or auxiliary contact not connected</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(H) DC earth fault [5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">58: Earth- leak warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">59: Earth+ leak warning</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>One of the battery poles is connected
+to earth</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <ph>(I) Inverter fault[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">67: Inverter volt out of tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph>and no current overload (&lt; 105%)</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Inverter fuse blown</ph>
+                        </sli>
+                        <sli>
+                           <ph>DC input too low</ph>
+                        </sli>
+                        <sli>
+                           <ph>Inverter inoperable</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">116-139: Power module
+temperature shutdown</ph>
+                  </entry>
+                  <entry>
+                     <ph>The inverter power unit temperature
+is too high</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(J) Overload inv./bypass[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">76: OVERLOAD: load
+is &gt; 100%</ph>
+                  </entry>
+                  <entry>
+                     <ph>The load current
+is higher than the nominal current of the system</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(K) Inverter fuse blown[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">68: Inverter fuse
+blown</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Power fuse F021 (F022... F023)</ph>
+                        </sli>
+                        <sli>
+                           <ph>Inverter input switch Q020 is open</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(L) Asynchronous[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">66: Inverter not synchronized</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The bypass mains frequency is out of tolerance or unstable</ph>
+                        </sli>
+                        <sli>
+                           <ph>The inverter is off</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <ph>(M) Bypass mains fault[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">87: Bypass avg out of tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">88: Bypass fast out of tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">89: Bypass freq out of tolerance</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>The bypass
+mains voltage or the frequency is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">93: Bypass phase order
+incorrect</ph>
+                  </entry>
+                  <entry>
+                     <ph>Wiring at the
+bypass mains input terminal</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(N) Manual bypass on[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">90: System set in
+manual bypass</ph>
+                  </entry>
+                  <entry>
+                     <ph>Manual bypass
+switch Q050 is not at position Auto</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <ph>(O) EN inhibited[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">87: Bypass avg out of tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">88: Bypass fast out of tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">89: Bypass freq out of tolerance</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>The bypass
+mains voltage or the frequency is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">114: SSW EN temp shutdown</ph>
+                  </entry>
+                  <entry>
+                     <ph>The static
+switch EN temperature is too high</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(P) EA inhibited [5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">112: SSW EA temp shutdown</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The inverter is off</ph>
+                        </sli>
+                        <sli>
+                           <ph>The static switch EA temperature is too high</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(Q) Overtemperature [5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli platform="PxW">
+                           <ph platform="PxW" translate="no">103-106: Charger
+temperature warning or shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">107-110: Magnetics temperature warning or
+shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">111-114: Static switches temperature warning
+or shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">116-139: Power module temperature warning
+or shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Obstructed air inlet</ph>
+                        </sli>
+                        <sli>
+                           <ph>Too high ambient temperature </ph>
+                        </sli>
+                        <sli>
+                           <ph>The winding material is too hot </ph>
+                        </sli>
+                        <sli>
+                           <ph>The heat-sink of the power components is too hot</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(R) Fan failure [30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">82: Fan inoperable</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Fans</ph>
+                        </sli>
+                        <sli>
+                           <ph>Fan monitoring board (A055 / A056)</ph>
+                        </sli>
+                        <sli>
+                           <ph>Fan transformer (T051 / T052)</ph>
+                        </sli>
+                        <sli>
+                           <ph>Power supply for the fans</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(S) Power supply fault [5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">6: PSU AC or DC not working </ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">7: AC power supply for parallel inverter fault </ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">8: DC power supply for parallel inverter fault</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Power supply units : PSU A201 / A202</ph>
+                        </sli>
+                        <sli>
+                           <ph>AC or DC power supply sources</ph>
+                        </sli>
+                        <sli>
+                           <ph>Interface A071</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(T) Parallel cable interrupted [5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">96: At least one parallel
+cable interrupted</ph>
+                  </entry>
+                  <entry>
+                     <ph>At least one
+of the parallel cables are inoperable or disconnected</ph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table pgwide="1" platform="SDC">
+         <tgroup cols="3">
+            <colspec colname="COLSPEC0" colwidth="1*"/>
+            <colspec colname="COLSPEC1" colwidth="2*"/>
+            <colspec colname="COLSPEC2" colwidth="2*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <ph href="#./AlarmIndicator-0F3E4262"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./AlarmNumberAndText-0F3E43BD"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./PossibleSource-0F3E4780"/>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="4">
+                     <ph>(A) Rectifier mains fault[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">16: Charger not synchronized</ph>
+                  </entry>
+                  <entry>
+                     <ph>Unstable rectifier mains input</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">17: Mains phase missing</ph>
+                  </entry>
+                  <entry>
+                     <ph>At least one phase is not connected</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">18: Mains phase order
+incorrect</ph>
+                  </entry>
+                  <entry>
+                     <ph>Wiring at the rectifier mains input
+terminal</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">19: Mains freq out
+of range</ph>
+                  </entry>
+                  <entry>
+                     <ph>The input frequency is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">20: Mains voltage
+out of range</ph>
+                  </entry>
+                  <entry>
+                     <ph>The input voltage is out of tolerance</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(B) Rectifier failure[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">32: UI-deviation warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">52: Charger 0° temp shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">54: Charger 30° temp shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph>and “Rectifier mains fault” is not active</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The load current is higher than the nominal current of the
+system</ph>
+                        </sli>
+                        <sli>
+                           <ph>The Input voltage is low but in tolerance</ph>
+                        </sli>
+                        <sli>
+                           <ph>The system is turned off or in standby</ph>
+                        </sli>
+                        <sli>
+                           <ph>The rectifier or PSU is inoperable</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(E) DC out of tolerance[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">22: Low Vdc warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">23: Low Vdc shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">24: High Vdc warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">25: High2 Vdc shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">26: Low Vaux warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">27: Low Vaux shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">28: High Vaux warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">29: High Vaux shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The load current is higher than the nominal current of the
+system</ph>
+                        </sli>
+                        <sli>
+                           <ph>Short-circuit</ph>
+                        </sli>
+                        <sli>
+                           <ph>The system is turned off or in standby</ph>
+                        </sli>
+                        <sli>
+                           <ph>The rectifier or PSU is inoperable</ph>
+                        </sli>
+                        <sli>
+                           <ph>The battery is discharged or disconnected during battery
+operation</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(F) DC Fuse blown[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">31: Charger fuse blown</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The fuse trip indicator is not connected</ph>
+                        </sli>
+                        <sli>
+                           <ph>The load current is higher than the nominal current of the
+system</ph>
+                        </sli>
+                        <sli>
+                           <ph>Short-circuit</ph>
+                        </sli>
+                        <sli>
+                           <ph>Rectifier output fuse F026 (F027) blown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(G) Rect. Overcurrent[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">30: Total DC current
+limit</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The load current is higher than the nominal current of the
+system</ph>
+                        </sli>
+                        <sli>
+                           <ph>Short-circuit</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(H) Load sharing fault[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">48: Loadsharing incorrect</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The output voltage is calibrated incorrectly</ph>
+                        </sli>
+                        <sli>
+                           <ph>The temperature compensation is incorrect</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="1">
+                     <ph>(I) Battery discharged[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">22: Low Vdc warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">26: Low Vaux warning</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>One or more battery cells are defective</ph>
+                        </sli>
+                        <sli>
+                           <ph>The battery is discharged</ph>
+                        </sli>
+                        <sli>
+                           <ph>The system is turned off or in standby</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">42: Battery defective</ph>
+                  </entry>
+                  <entry>
+                     <ph>The battery monitor not reset after
+installation of new battery</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(J) Battery disconnected[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">35: Battery breaker
+open</ph>
+                  </entry>
+                  <entry>
+                     <ph>Battery breaker open or auxiliary
+contact not connected</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(K) DC earth fault[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">43: Earth + leak warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">44: Earth - leak warning</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>One of the battery poles is connected
+to earth</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(M) Control power fault[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">5: AC PSU not working</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">6: DC PSU not working</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Connector cable is missing to at least one of the PSUs</ph>
+                        </sli>
+                        <sli>
+                           <ph>The rectifier mains is not available or the rectifier mains
+input breaker is open</ph>
+                        </sli>
+                        <sli>
+                           <ph>The battery is disconnected or a battery breaker is open</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="3">
+                     <ph>(N) Overtemperature[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">51: Charger 0° temp warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">52: Charger 0° temp shutdown</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">53: Charger 30° temp warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">54: Charger 30° temp shutdown</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>Overtemperature on the rectifier
+power components</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">55: Transformer temp
+warning</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Air inlet obstructed</ph>
+                        </sli>
+                        <sli>
+                           <ph>The fans are inoperable</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">56: Choke temp warning</ph>
+                  </entry>
+                  <entry>
+                     <ph>The ambient temperature is too high</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph translate="no">57: Diode temp warning</ph>
+                  </entry>
+                  <entry>
+                     <ph>The sensor contacts are not connected</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>(O) Fan failure [30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">61-68: Fan 1-8 inoperable</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>One or more fans are blocked, rotating too slow or disconnected</ph>
+                        </sli>
+                        <sli>
+                           <ph>Fan supply missing</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p>There are multiple LED’s on the display that can be used
+for optional alarms. Here are information on how to troubleshoot some
+of the standard options:</p>
+      <note>Not all alarms are possible for all system configurations.</note>
+      <table pgwide="1" platform="PxW WxW">
+         <tgroup cols="3">
+            <colspec colname="1" colwidth="1*"/>
+            <colspec colname="2" colwidth="2*"/>
+            <colspec colname="3" colwidth="2*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <ph href="#./AlarmIndicator-0F3E4262"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./AlarmNumberAndText-0F3E43BD"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./PossibleSource-0F3E4780"/>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row platform="PxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Rectifier
+output switch Q003 open [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <sl>
+                        <sli>
+                           <ph translate="no">25: Mains breaker open</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">140–145: Option x</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph>The rectifier
+output switch Q003 is open. The battery and the load are disconnected
+from the rectifier. The load can only be supplied by the bypass mains
+or from the battery. The rectifier is turned off.</ph>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Inverter
+input switch Q020 open [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <sl>
+                        <sli>
+                           <ph translate="no">65: Inverter breaker open</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">140–145: Option x</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph platform="PxW">The inverter input switch Q020 has automatically or
+manually been opened. The inverter is disconnected from the rectifier
+and battery. The load can only be supplied by the bypass mains. The
+alarm Inv. fuse blown will be activated.</ph>
+                     <ph platform="WxW">The
+inverter input switch Q020 has automatically or manually been opened.
+The inverter is disconnected from the DC input power. The load can
+only be supplied by the bypass mains. The alarm Inv. fuse blown will
+be activated.</ph>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Inverter
+output switch Q030 open[5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">140–145: Option x</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph>The inverter
+output switch Q030 is open. The load can only be supplied via the
+static switch EN or from the bypass mains via the manual bypass switch
+Q050 at position Bypass.</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Distribution
+input Q100 open [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <sl>
+                        <sli>
+                           <ph translate="no">71: Output breaker open</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">140–145: Option x</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <sl>
+                        <sli>
+                           <ph>The load output switch Q100 is open.</ph>
+                        </sli>
+                        <sli>
+                           <ph>The system output is disconnected from the inverter. </ph>
+                        </sli>
+                        <sli>
+                           <ph>The load is no longer supplied.</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Distribution
+MCB tripped [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">140–145: Option x</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <sl>
+                        <sli>
+                           <ph>One or more of the outgoing feeders in the AC distribution
+has tripped.</ph>
+                        </sli>
+                        <sli>
+                           <ph>Overload or short-circuit on one of the outgoing feeders.</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Distribution
+MCB open [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">140–145: Option x</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <sl>
+                        <sli>
+                           <ph>One or more of the outgoing feeders in the AC distribution
+are open. </ph>
+                        </sli>
+                        <sli>
+                           <ph>Overload or short-circuit on one of the outgoing feeders.</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Distribution
+AC earth fault [5 seconds]</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">140–145: Option x</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <sl>
+                        <sli>
+                           <ph>Earth fault on the AC output.</ph>
+                        </sli>
+                        <sli>
+                           <ph>The insulation resistance to earth is below set point.</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table pgwide="1" platform="SDC">
+         <tgroup cols="3">
+            <colspec colname="COLSPEC0" colwidth="1*"/>
+            <colspec colname="COLSPEC1" colwidth="2*"/>
+            <colspec colname="COLSPEC2" colwidth="2*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <ph href="#./AlarmIndicator-0F3E4262"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./AlarmNumberAndText-0F3E43BD"/>
+                  </entry>
+                  <entry valign="top">
+                     <ph href="#./PossibleSource-0F3E4780"/>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <ph>Q003 open[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">45: Load breaker open</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>Q003 is open or auxiliary contact is not connected</ph>
+                        </sli>
+                        <sli>
+                           <ph>Q003 auxiliary contact is not connected to its input on the
+interface</ph>
+                        </sli>
+                        <sli>
+                           <ph>Q003 auxiliary contact is only connected to an option input</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Q100 open[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <ph>Distribution input switch Q100 is
+open or auxiliary contact is not connected</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>High DC
+warning[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">24: High Vdc warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">28: High Vaux warning</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <ph>DC voltage output from the rectifier
+is too high</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Low DC
+warning[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph translate="no">22: Low Vdc warning</ph>
+                        </sli>
+                        <sli>
+                           <ph translate="no">26: Low Vaux warning</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The load current is higher than the nominal current of the
+system</ph>
+                        </sli>
+                        <sli>
+                           <ph>Short-circuit</ph>
+                        </sli>
+                        <sli>
+                           <ph>The system is turned off or in standby</ph>
+                        </sli>
+                        <sli>
+                           <ph>The rectifier or PSU is inoperable</ph>
+                        </sli>
+                        <sli>
+                           <ph>The battery is disconnected or a battery breaker is open</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Dropper
+voltage out of tolerance[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <ph>The dropper voltage is outside the
+tolerance window</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Dropper
+fan failure[30 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>The dropper fans are inoperable or too slow.</ph>
+                        </sli>
+                        <sli>
+                           <ph>Supply to the fans are missing</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Distribution
+MCB tripped[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>One or more of the outgoing feeders in the DC distribution
+has tripped</ph>
+                        </sli>
+                        <sli>
+                           <ph>Overload or short-circuit on one of the outgoing feeders</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Distribution
+MCB open[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>
+                           <ph>One or more of the outgoing feeders in the DC distribution
+are open</ph>
+                        </sli>
+                        <sli>
+                           <ph>Overload or short-circuit on one of the outgoing feeders</ph>
+                        </sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <ph>Distribution DC earth fault[5 seconds]</ph>
+                  </entry>
+                  <entry>
+                     <ph translate="no">71-78: Option 1-8</ph>
+                  </entry>
+                  <entry>
+                     <ph>Earth fault
+on the DC output in the distribution</ph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

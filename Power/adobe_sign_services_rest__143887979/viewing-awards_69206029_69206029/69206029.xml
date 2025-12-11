@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan752" xml:lang="en">
+   <title>Viewing Awards</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>award-management</indexterm>
+            <indexterm>sourcing-award-evaluation</indexterm>
+            <indexterm>weighted-score-award</indexterm>
+            <indexterm>award-details-access</indexterm>
+            <!-- Process Layer -->
+            <indexterm>view-award</indexterm>
+            <indexterm>access-award-information</indexterm>
+            <indexterm>navigate-award-tab</indexterm>
+            <indexterm>view-item-level-details</indexterm>
+            <indexterm>check-award-status</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>procurement-lifecycle</indexterm>
+            <indexterm>award-decision-making</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="Viewing Awards"/>
+         <othermeta name="shortdesc"
+                    content="Explains how suppliers view award outcomes, access award details from the Award tab, and review product groups, items, and pricing modifiers associated with awarded deals."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="awards;sourcing-events;weighted-score;award-winner;product-group;sub-group;items;price-modifiers"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:viewing-awards;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="awards,award-details,sourcing-event,winner,price-modifiers,product-group"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Award is selecting the winner of a sourcing event. Considering the evaluation, the supplier who has the best weighted score is selected and awarded with the deal. It is possible that more than one award winner exists. </p>
+      <p>You will receive a notification whether you have won or lost the sourcing event. The Award tab is visible to the suppliers who have won the sourcing event. You can access the details of your sourcing event that you have won from the Award tab on supplier portal. You can also view the details like Product Group, Sub-Group, Items, Price Modifiers by clicking the View More button on Award tab. If you have lost the sourcing event, the Award tab will be grayed. </p>
+      <p>In our example, Rex Klenney of Roxop Cleaners is the winner of the Disinfecting Wipes sourcing event. Hence, he can view the details of the award from Award tab.</p>
+   </body>
+</topic>

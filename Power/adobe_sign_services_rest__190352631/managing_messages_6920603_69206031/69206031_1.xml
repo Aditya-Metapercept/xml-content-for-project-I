@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic xml:lang="en" rev="1.0">
+   <title>Managing Messages</title>
+   <topicref chunk="to-content" href="69206031.xml" xml:lang="en">
+      <topicref href="to_receive_a_message.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To receive a message</navtitle>
+         </topicmeta>
+      </topicref>
+      <topicref href="to_send_a_message.xml" xml:lang="en">
+         <topicmeta>
+            <navtitle>To send a message</navtitle>
+         </topicmeta>
+      </topicref>
+   </topicref>
+</topic>

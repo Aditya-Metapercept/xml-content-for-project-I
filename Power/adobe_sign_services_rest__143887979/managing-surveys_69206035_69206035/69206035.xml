@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="d13aAjan743" xml:lang="en">
+   <title>Managing Surveys</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>survey-management</indexterm>
+            <indexterm>supplier-onboarding-surveys</indexterm>
+            <indexterm>preview-sidebar</indexterm>
+            <indexterm>survey-wizard</indexterm>
+            <!-- Process Layer -->
+            <indexterm>survey-completion</indexterm>
+            <indexterm>survey-preview</indexterm>
+            <indexterm>progress-tracking</indexterm>
+            <indexterm>wizard-step-navigation</indexterm>
+            <indexterm>response-correction</indexterm>
+            <indexterm>supplier-survey-workflow</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-onboarding</indexterm>
+            <indexterm>buyer-assigned-surveys</indexterm>
+            <indexterm>survey-deadlines</indexterm>
+            <indexterm>supplier-task-flow</indexterm>
+            <indexterm>sourcing-environment</indexterm>
+            <indexterm>enterprise-procurement-surveys</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="Managing Surveys"/>
+         <othermeta name="shortdesc"
+                    content="This topic explains how suppliers complete surveys, track their progress, and use the Preview Sidebar to review or navigate survey steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="surveys;questionnaire;preview sidebar;wizard steps;completion progress;responses;onboarding;deadlines"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:managing-surveys;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="surveys,onboarding,preview-sidebar,wizard,progress-tracking,supplier-tasks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Surveys are in a form of a questionnaire which will help the buyer to receive information. You, as a supplier, will fill the surveys at the time of onboarding and when a buyer will assign you a survey. You must fill the surveys within the mentioned deadline. </p>
+      <p>Now, you can preview the steps of your surveys using the Preview Sidebar. You can use the Preview Sidebar to:</p>
+      <ul>
+         <li>Preview a future step in the Wizard.</li>
+         <li>Track overall completion progress.</li>
+         <li>Return to a previous step in the Wizard to complete responses or correct a mistake.</li>
+         <li>View a full preview of all completed responses.</li>
+      </ul>
+      <note type="tip">
+         <p>Use Case</p>
+         <p>Edward Jones is a microphone supplier and he fills up the survey.</p>
+         <p>&lt;image&gt;</p>
+         <fig id="fig_brb_11g_12c">
+            <image placement="break"
+                   width="700"
+                   href="../attachments/69206035/69206132.png"
+                   id="image_crb_11g_12c"/>
+         </fig>
+      </note>
+   </body>
+</topic>

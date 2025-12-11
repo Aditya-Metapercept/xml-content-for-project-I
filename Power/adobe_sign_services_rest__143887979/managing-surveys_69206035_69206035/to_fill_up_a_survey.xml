@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ManagingSurveys_Tofillupasurvey" xml:lang="en">
+   <title>To fill up a survey</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>apttus-stp</indexterm>
+            <indexterm>survey-wizard</indexterm>
+            <indexterm>preview-sidebar</indexterm>
+            <indexterm>supplier-survey</indexterm>
+            <indexterm>survey-response-process</indexterm>
+            <!-- Process Layer -->
+            <indexterm>open-survey-from-email</indexterm>
+            <indexterm>respond-to-survey-questions</indexterm>
+            <indexterm>auto-save-progress</indexterm>
+            <indexterm>wizard-step-navigation</indexterm>
+            <indexterm>conditional-survey-steps</indexterm>
+            <indexterm>add-comments-and-attachments</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-onboarding</indexterm>
+            <indexterm>buyer-assigned-surveys</indexterm>
+            <indexterm>survey-deadlines</indexterm>
+            <indexterm>survey-user-experience</indexterm>
+            <indexterm>sourcing-environment</indexterm>
+            <indexterm>enterprise-procurement-surveys</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To fill up a survey"/>
+         <othermeta name="shortdesc"
+                    content="This task guides suppliers through completing a survey, navigating the Wizard, previewing steps, adding comments or attachments, and submitting responses."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="survey link;survey page;responses;preview sidebar;wizard steps;conditional steps;comments;attachments;manage attachments;save;submit to buyer"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:survey-completion;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="survey,wizard,preview-sidebar,attachments,comments,supplier-tasks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click on the link that you have received in your email. You will be redirected to the Survey page.</p>
+         </li>
+         <li>
+            <p>Respond to the questions by selecting the appropriate responses. </p>
+            <p>
+               <note type="note">
+                  <p>Partially completed questions are saved automatically. When the user partially completes a survey, closes it, and re-opens the survey, they will be redirected to the last page that they had completed with all of the previously completed questions populated.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>The runtime wizard displays the Preview Sidebar in collapsed view. Click on the Preview Sidebar to expand it. Click the </p>
+            <p>
+                icon to collapse the Preview Sidebar. <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206035/69206072.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click on any sidebar step to preview it. You will see one of two possible views: </p>
+            <p>
+               <ul>
+                  <li>If you are running a linear, step-by-step Wizard with no conditionally-shown steps, you will be able to see and navigate to any step in the Wizard.</li>
+                  <li>If the Wizard you are running contains any conditional steps, you will only see the current step and the "Preview" step. The preview sidebar will display additional steps as you complete the current step and conditions are satisfied to include the other steps in the Wizard.<fig>
+                        <image placement="break"
+                               width="700"
+                               href="../attachments/69206035/69206069.png"/>
+                     </fig>
+                  </li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Some Wizard steps may include the option to add comments and/or attachments in addition to providing traditional responses. You can add comments in the text area provided (500 character limit), and/or click <uicontrol>Attach Files</uicontrol> to attach files to the Wizard step. When you use the Wizard to create a record, the attached files are added to the Notes &amp; Attachments Related List of the new record along with the recorded comments. To add an attachment:</p>
+            <ol>
+               <li>
+                  <p>Click the <uicontrol>Attachment(s)</uicontrol> link below the Comments box. The Manage Attachments window is displayed.</p>
+                  <p>
+                     <fig>
+                        <image placement="break"
+                               width="700"
+                               href="../attachments/69206035/69206071.png"/>
+                     </fig>
+                  </p>
+               </li>
+               <li>
+                  <p>Click <uicontrol>Add Files</uicontrol>. Browse for a file on your machine and add it as an attachment. The attachment uploads to the Wizard and displays in the Manage Attachments window.</p>
+               </li>
+               <li>
+                  <p>Repeat the previous step for each attachment you want to add. Close the window when you are finished adding attachments.</p>
+                  <p>
+                     <fig>
+                        <image placement="break"
+                               width="400"
+                               href="../attachments/69206035/69206070.png"/>
+                     </fig>
+                  </p>
+               </li>
+            </ol>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol> to save the survey.</p>
+            <p>
+               <p>-or-</p>
+               <p>Click <uicontrol>Submit to the Buyer</uicontrol> to submit the survey to your buyer.</p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

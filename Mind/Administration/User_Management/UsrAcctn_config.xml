@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_USRSETT">
+   <title>User Settings</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>user-account</indexterm>
+            <indexterm>account-configuration</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>access-control</indexterm>
+            <indexterm>profile-settings</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-account</indexterm>
+            <indexterm>update-profile</indexterm>
+            <indexterm>reset-password</indexterm>
+            <indexterm>assign-permissions</indexterm>
+            <indexterm>verify-email</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>user-provisioning</indexterm>
+            <indexterm>access-governance</indexterm>
+            <indexterm>identity-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="User Account Configuration"/>
+         <othermeta name="shortdesc"
+                    content="Configuration steps for user accounts including profile setup, permissions and verification."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="user account;profile settings;access control;permissions;email verification"/>
+         <othermeta name="taxonomy"
+                    content="domain:Capital-program-management;usecase:usracctn-config;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="account,configure,profile,permissions,verification"/>
+         <othermeta name="usecase" content="usracctn-config"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>The User Management Settings feature enables you to define validations and restrictions on user accounts to access the application for enhanced security. You can define the default account expiry period for user accounts. The default user account expiry date is set as the default date when creating a user account in the <ph product="Include_PG_Content">
+            <uicontrol>Account Expiry Date</uicontrol>
+         </ph>
+         <ph product="Exclude_PG_Content">
+            <xref href="../../CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAcc.xml">Account Expiry Date</xref>
+         </ph> field of the <uicontrol>ADD USER</uicontrol> page. <ph product="Exclude_PG_Content">For information on creating a user account, refer to<xref href="../../CoSP/Administration/User_Management/User_Accounts/Creating_User_Account/CreateUserAcc.xml">Creating a User Account</xref>.</ph>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.
+
+
+
+
+
+
+
+
+
+
+</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>User Management</uicontrol>, and then click <uicontrol>User Settings</uicontrol>.
+
+</p>
+            <p>The <uicontrol>USER SETTINGS</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the <uicontrol>USER ACCOUNT CONFIGURATIONS</uicontrol> section, from the <uicontrol>Account Expiration Period Type</uicontrol> drop-down list, select the period type to specify the validity period of a user account.</p>
+         </li>
+         <li>
+            <p>Based on the selection in the <uicontrol>Account Expiration Period Type</uicontrol> drop-down list, enter either of the following details:
+</p>
+            <ul>
+               <li>
+                  <p>If you have selected<uicontrol>Date</uicontrol>, then from the<uicontrol>Enter Date</uicontrol>calendar drop-down box, select the date onwhich the user account will expire.</p>
+               </li>
+               <li>If you have selected <uicontrol>Weeks</uicontrol>, then in the <uicontrol>Enter Weeks</uicontrol> box, enter the number of weeks after which the user account will expire.</li>
+            </ul>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol> to save the user account configuration details.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

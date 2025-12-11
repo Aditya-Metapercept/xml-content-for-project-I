@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UtilityHome">
+   <title>Administration</title>
+   <shortdesc xml:lang="UtilityHome"/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer (systems, modules, tools) -->
+            <indexterm>administration-module</indexterm>
+            <indexterm>security-management</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>reports-management</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <!-- Process layer (actions, operations, workflows) -->
+            <indexterm>configure-application-settings</indexterm>
+            <indexterm>manage-user-roles</indexterm>
+            <indexterm>manage-project-controls</indexterm>
+            <indexterm>manage-form-controls</indexterm>
+            <indexterm>perform-application-debugging</indexterm>
+            <!-- Context layer (domain, environment, conceptual framing) -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>application-governance</indexterm>
+            <indexterm>system-administration</indexterm>
+            <indexterm>enterprise-configuration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Administration"/>
+         <othermeta name="shortdesc"
+                    content="The Administration module enables configuration and management of application-wide settings, security controls, user roles, reports, and workflows."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="administration-module;customer-administrator;mind-system-administrator;workflow;application-settings;project-controls;form-controls"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:administration-and-governance;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="administration,roles,permissions,application-settings,workflows"/>
+         <othermeta name="usecase" content="administration-and-governance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <ph href="../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>
+         <uicontrol>Administration</uicontrol> module enables
+            you to configure and manage various functionalities that apply to the entire <ph href="../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> application.</p>
+      <p>Using the <uicontrol>Administration</uicontrol> module, you can perform security management, user
+            management, reports management, and manage custom forms and workflows.</p>
+      <section product="Include_in_Emp_PG">
+         <title>Roles in Administration</title>
+         <p>There are two types of default
+                admin roles in <ph href="../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/>:</p>
+         <ul>
+            <li>Customer Administrator</li>
+            <li>Mind System Administrator</li>
+         </ul>
+         <p>The Customer Administrator and the Mind System Administrator
+                have different field-level permissions assigned to their respective roles. The
+                Customer Administrator and the Mind System Administrator share control over the
+                administration module.</p>
+         <p>The customer manages all project and
+                form-level controls.</p>
+         <p>The Mind System Administrator has
+                additional control to:​</p>
+         <ul>
+            <li>Configure application-wide settings</li>
+            <li>Manage other critical controls for the customer</li>
+            <li>Workflow Management - Mind can help create workflows for the
+                    customer without accessing the customer database</li>
+         </ul>
+         <p>The Mind System Administrator manages all critical and
+                technical application-level controls. During implementation, the Mind system
+                administrator configures the application as a one-time setting.</p>
+         <p>The Mind System Admin should be able to assist the customer if
+                required without accessing the customer's <ph href="../../Warehouse/Product_Name_Warehouse.xml#reference-9043/product_name"/> application. The Mind system administrator retains control
+                over specific configurations to debug the system.​</p>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ViewingAwardsToviewawards" xml:lang="en">
+   <title>To view awards</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-27+05:30"/>
+         <revised modified="2025-11-27"/>
+      </critdates>
+      <metadata><!-- Audience -->
+         <audience type="role"
+                   otherprops="supplier,production,maintenance,quality,engineering,management"/>
+         <!-- Keywords -->
+         <keywords><!-- Product Layer -->
+            <indexterm>metR-PayUG-Power</indexterm>
+            <indexterm>award-management</indexterm>
+            <indexterm>award-details-view</indexterm>
+            <indexterm>sourcing-event-awards</indexterm>
+            <indexterm>award-winning-deal</indexterm>
+            <!-- Process Layer -->
+            <indexterm>view-awards</indexterm>
+            <indexterm>navigate-sourcing-event</indexterm>
+            <indexterm>view-award-details</indexterm>
+            <indexterm>open-product-group-details</indexterm>
+            <indexterm>access-pricing-modifiers</indexterm>
+            <!-- Context Layer -->
+            <indexterm>supplier-engagement</indexterm>
+            <indexterm>sourcing-events</indexterm>
+            <indexterm>procurement-lifecycle</indexterm>
+            <indexterm>enterprise-procurement</indexterm>
+            <indexterm>supplier-performance</indexterm>
+         </keywords>
+         <!-- Product Info -->
+         <prodinfo>
+            <prodname>metR-PayUG-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <!-- General Metadata -->
+         <othermeta name="title" content="To view awards"/>
+         <othermeta name="shortdesc"
+                    content="Describes how suppliers navigate a sourcing event, access the Award tab, and view award details including product groups, item-level information, and pricing modifiers."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <!-- Entities -->
+         <othermeta name="entities"
+                    content="awards;sourcing-events;award-details;product-group;sub-group;items;price-modifiers;back-to-sourcing"/>
+         <!-- Taxonomy -->
+         <othermeta name="taxonomy"
+                    content="domain:Source-to-Pay;usecase:to-view-awards;industry:enterprise-software"/>
+         <!-- Tags -->
+         <othermeta name="tags"
+                    content="awards,sourcing-event,award-details,product-group,pricing,view-more"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Click the <uicontrol>Sourcing Events (Portal)</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Select the appropriate sourcing event and click <uicontrol>View</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206029/69206093.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Award</uicontrol> tab and you can view the details of your Award winning deal.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206029/69206104.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To view more details like product group, sub-group, items, and price-modifiers of your awarded deal, click <uicontrol>View More</uicontrol>.</p>
+            <p>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206029/69206113.png"/>
+               </fig>
+               <fig>
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206029/69206139.png"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To go back to the Sourcing Event page, click the <uicontrol>Back to Sourcing Event </uicontrol>link.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

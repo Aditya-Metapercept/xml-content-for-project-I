@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TransportTheCrateBeforeUnpacking-91302069" xml:lang="en">
+   <title>Transport the Crate Before Unpacking</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-03+05:30"/>
+         <revised modified="2025-12-03"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="logistics,handling technician,installation team,warehouse staff,maintenance,site preparation"/>
+         <keywords><!-- Product layer -->
+            <indexterm>equipment crate</indexterm>
+            <indexterm>transport packaging</indexterm>
+            <indexterm>shipping pallet</indexterm>
+            <indexterm>transport locks</indexterm>
+            <indexterm>protective materials</indexterm>
+            <indexterm>handling labels</indexterm>
+            <indexterm>crate stability components</indexterm>
+            <!-- Process layer -->
+            <indexterm>crate transport procedure</indexterm>
+            <indexterm>safe handling workflow</indexterm>
+            <indexterm>pre-unpacking steps</indexterm>
+            <indexterm>risk assessment for movement</indexterm>
+            <indexterm>cart and forklift positioning</indexterm>
+            <indexterm>crate inspection steps</indexterm>
+            <indexterm>shock and tilt indicator checks</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse movement environment</indexterm>
+            <indexterm>delivery logistics domain</indexterm>
+            <indexterm>industrial equipment transport</indexterm>
+            <indexterm>pre-installation site readiness</indexterm>
+            <indexterm>facility safety protocols</indexterm>
+            <indexterm>material handling context</indexterm>
+            <indexterm>equipment protection standards</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Transport the Crate Before Unpacking"/>
+         <othermeta name="shortdesc"
+                    content="Provides instructions for safely transporting the equipment crate before unpacking, including handling guidelines, inspection steps, and movement precautions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="shipping crate; pallet; transport locks; forklift; pallet truck; shock indicators; tilt indicators"/>
+         <othermeta name="taxonomy"
+                    content="domain:equipment logistics;usecase:crate-transport-before-unpacking;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="crate transport,handling,movement,inspection,logistics,pre-unpacking"/>
+         <othermeta name="usecase"
+                    content="Guide logistics and installation teams in moving the equipment crate safely before unpacking"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/heavy_crate">
+            <messagepanel>
+               <typeofhazard/>
+               <howtoavoid/>
+            </messagepanel>
+         </hazardstatement>
+         <note> The gross weight of the crate
+is printed on the crate.</note>
+         <p>When transporting the crate make
+sure to check:</p>
+         <ul>
+            <li>
+               <p>That the transport equipment can carry the weight and size
+of the crate in a safe way.</p>
+            </li>
+            <li>
+               <p>Observe the position of the center of gravity on the crate,
+make sure it is correctly placed.</p>
+            </li>
+            <li>
+               <p>Make sure that the crate is positioned correctly on the forks.</p>
+            </li>
+            <li>
+               <p>Make sure that the floor can support the weight of the system
+during transport.</p>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <p>Before unpacking remove the delivery note that is attached
+in an envelope on the side of the crate. Keep the delivery note to
+check that the description and quantity of all the items of the packing
+list is correct. If any discrepancies are found this must be reported
+to <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"/> as soon as possible.</p>
+      </div>
+   </body>
+</topic>

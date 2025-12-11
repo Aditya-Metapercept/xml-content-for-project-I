@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TroubleshootTheSystem-0462DF02" xml:lang="en">
+   <title>Troubleshoot the System</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-02+05:30"/>
+         <revised modified="2025-12-02"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="operations,maintenance,technical support,engineering,system operator,field technician"/>
+         <keywords><!-- Product layer -->
+            <indexterm>system troubleshooting</indexterm>
+            <indexterm>UPS system faults</indexterm>
+            <indexterm>error messages</indexterm>
+            <indexterm>alarm conditions</indexterm>
+            <indexterm>event log entries</indexterm>
+            <indexterm>power module behavior</indexterm>
+            <indexterm>system controllers</indexterm>
+            <!-- Process layer -->
+            <indexterm>fault diagnosis workflow</indexterm>
+            <indexterm>step-by-step troubleshooting</indexterm>
+            <indexterm>root cause identification</indexterm>
+            <indexterm>corrective action execution</indexterm>
+            <indexterm>verification after repair</indexterm>
+            <indexterm>system restart procedure</indexterm>
+            <indexterm>preventive action analysis</indexterm>
+            <!-- Context layer -->
+            <indexterm>critical infrastructure environment</indexterm>
+            <indexterm>high-availability operations</indexterm>
+            <indexterm>facility power protection domain</indexterm>
+            <indexterm>industrial diagnostics</indexterm>
+            <indexterm>operational continuity context</indexterm>
+            <indexterm>service and maintenance domain</indexterm>
+            <indexterm>system reliability engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Troubleshoot the System"/>
+         <othermeta name="shortdesc"
+                    content="Provides comprehensive troubleshooting steps for diagnosing system-level UPS faults, resolving alarms, analyzing error logs, and restoring normal operation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="system controller; power modules; sensors; event logs; alarm panel; cooling subsystem; rectifier-inverter chain"/>
+         <othermeta name="taxonomy"
+                    content="domain:system diagnostics;usecase:ups-system-level-troubleshooting;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="system troubleshooting,fault diagnosis,UPS errors,event logs,corrective actions"/>
+         <othermeta name="usecase"
+                    content="Help operators and technicians diagnose system-wide UPS faults and restore proper operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/troubleshoot-info">
+         <messagepanel>
+            <typeofhazard/>
+            <howtoavoid/>
+         </messagepanel>
+      </hazardstatement>
+      <note>The alarm text is only displayed in English even if another
+system language is used.</note>
+      <table pgwide="1" platform="PxW WxW">
+         <tgroup cols="3">
+            <colspec colname="1" colwidth="40.00mm"/>
+            <colspec colname="2" colwidth="1.50*"/>
+            <colspec colname="3" colwidth="1.50*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Issue</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Alarm Number
+and Text</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Possible
+Source</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row platform="PxW">
+                  <entry colname="1" morerows="4" nameend="1" namest="1">
+                     <p>Rectifier does not start</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>6: PSU1 AC or DC not working</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>At least one of the standard redundant supplies (AC or DC) is not
+working.</p>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>25: Mains breaker open</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Rectifier mains input breaker is open.</p>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <p>27: Mains voltage out of tolerance</p>
+                  </entry>
+                  <entry>
+                     <p>Mains voltage (average) is out of tolerance.</p>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <p>105: Charger 30° temp warning</p>
+                     <p>106: Charger 30° temp shutdown</p>
+                  </entry>
+                  <entry>
+                     <p>The rectifier power components are overheated.</p>
+                  </entry>
+               </row>
+               <row platform="PxW">
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry>
+                     <p>Plug connection between the electronics and the rectifier bridge.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="4" nameend="1" namest="1">
+                     <p>Inverter does not start</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>6: PSU1 AC or DC not working</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>At least one of the standard redundant supplies (AC or DC) is not
+working.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>35: Low DC warning</p>
+                     <p>37: High DC
+warning</p>
+                  </entry>
+                  <entry>
+                     <p>DC voltage out of tolerance.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>65: Inverter breaker open</p>
+                  </entry>
+                  <entry>
+                     <p>The inverter input breaker is open.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>116-139: Power module temperature warning or shutdown</p>
+                  </entry>
+                  <entry>
+                     <p>Overtemperature on the inverter power components.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry>
+                     <p>Plug connection between the electronics and the power modules.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="5">
+                     <p>No switch
+over from EN to EA</p>
+                  </entry>
+                  <entry>
+                     <p>66: Inverter not synchronized</p>
+                  </entry>
+                  <entry>
+                     <p>The inverter is not synchronized to the bypass.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>67: Inverter volt out of tolerance</p>
+                  </entry>
+                  <entry>
+                     <p>Inverter voltage out of tolerance.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>76: OVERLOAD load is &gt; 100%</p>
+                  </entry>
+                  <entry>
+                     <p>Overload.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>112: SSW EA temp shutdown</p>
+                  </entry>
+                  <entry>
+                     <p>Overtemperature on the EA power components.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>155: System lock in oper mode</p>
+                  </entry>
+                  <entry>
+                     <p>The inverter has changed more than 8 times to bypass and back in
+two minutes.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>156: System locked bypass operation</p>
+                  </entry>
+                  <entry>
+                     <p>The system is
+locked in bypass operation.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table pgwide="1" platform="SDC">
+         <tgroup cols="3">
+            <colspec colname="1" colwidth="40.00mm"/>
+            <colspec colname="COLSPEC0" colwidth="1.50*"/>
+            <colspec colname="3" colwidth="1.50*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Issue</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Alarm Number
+and Text</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Possible
+Source</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry morerows="4">
+                     <p>Rectifier
+does not start</p>
+                  </entry>
+                  <entry>
+                     <p>5: AC PSU not working</p>
+                     <p>6: DC PSU
+not working</p>
+                  </entry>
+                  <entry>
+                     <p>Internal power supply is unavailable or out of tolerance.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>15: Mains breaker open</p>
+                  </entry>
+                  <entry>
+                     <p>Rectifier mains input breaker is open.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>18: Mains phase order incorrect</p>
+                     <p>20: Mains voltage out of range</p>
+                  </entry>
+                  <entry>
+                     <p>Rectifier mains voltage is out of tolerance or wrong phase sequence.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>53: Charger 30° temp warning</p>
+                     <p>54: Charger 30° temp shutdown</p>
+                  </entry>
+                  <entry>
+                     <p>The rectifier power components are overheated.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry>
+                     <p>Plug connection
+between the electronics and the rectifier bridge.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

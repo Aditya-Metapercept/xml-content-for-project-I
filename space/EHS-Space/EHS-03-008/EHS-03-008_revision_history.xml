@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1E44F83-BB01-11F0-7993-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T17:00:00+05:30"/>
+         <revised modified="2025-12-02T17:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="document controllers, safety officers, maintenance leads, records managers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>document-revision-log</indexterm>
+            <indexterm>change-history</indexterm>
+            <indexterm>version-audit</indexterm>
+            <indexterm>approval-record</indexterm>
+            <!-- Process layer -->
+            <indexterm>revision-entry</indexterm>
+            <indexterm>change-justification</indexterm>
+            <indexterm>version-release</indexterm>
+            <indexterm>revision-approval</indexterm>
+            <indexterm>document-archive</indexterm>
+            <!-- Context layer -->
+            <indexterm>policy-administration</indexterm>
+            <indexterm>compliance-traceability</indexterm>
+            <indexterm>maintenance-documentation</indexterm>
+            <indexterm>plant-governance</indexterm>
+            <indexterm>records-retention</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision History"/>
+         <othermeta name="shortdesc"
+                    content="Revision log for the equipment safety and lockout tagout procedures."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="document;version;change;approver;date"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs;usecase:revision-history;industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="revision history,document control"/>
+         <othermeta name="usecase" content="maintain-and-query-document-revisions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_idw_qnv_pzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>2015-12-30</entry>
+                     <entry>
+                        <p>Approved by Jim Joyce, V P</p>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
