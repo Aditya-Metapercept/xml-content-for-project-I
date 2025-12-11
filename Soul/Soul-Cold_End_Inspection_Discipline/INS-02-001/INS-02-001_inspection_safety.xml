@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <topic id="cC695DD7-BB9C-11F0-1512-09173F13E4C5" xml:lang="en-us">
-   <title>Inspection Safety</title>
+   <title>
+   </title>
    <prolog>
       <author>Yashshree</author>
       <critdates>
@@ -13,10 +14,17 @@
          <keywords><!-- Product layer -->
             <indexterm>metR-ins-soul</indexterm>
             <indexterm>safety-gear</indexterm>
+
+
+
+
             <indexterm>inspection-tools</indexterm>
             <indexterm>equipment-sensors</indexterm>
             <indexterm>monitoring-console</indexterm>
             <!-- Process layer -->
+
+
+            
             <indexterm>inspect-equipment</indexterm>
             <indexterm>verify-safety</indexterm>
             <indexterm>monitor-process</indexterm>
