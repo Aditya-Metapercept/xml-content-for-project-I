@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_CONTCNF">
+   <title>Managing Contract Configurations</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>contract-management</indexterm>
+            <indexterm>contract-configuration</indexterm>
+            <indexterm>contract-templates</indexterm>
+            <indexterm>document-workflows</indexterm>
+            <indexterm>functional-configurations</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-contract</indexterm>
+            <indexterm>edit-contract</indexterm>
+            <indexterm>approve-contract</indexterm>
+            <indexterm>manage-contract-documents</indexterm>
+            <indexterm>configure-contract-types</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>vendor-management</indexterm>
+            <indexterm>project-administration</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>construction-programs</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Configuring Contract Management"/>
+         <othermeta name="shortdesc"
+                    content="Defines how to configure contract types, document workflows, approval routes, and supporting metadata used for managing contracts in capital-program environments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="contract;contract-type;contract-template;approval-route;workflows;vendors"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:contract-management;industry:software"/>
+         <othermeta name="tags"
+                    content="contract-management,workflows,templates,approvals,document-control"/>
+         <othermeta name="usecase" content="configure-contract-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can configure forms related to the contract management module displayed in the contract navigation pane.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Functional Configurations</uicontrol>, and then click <uicontrol>Contract Management</uicontrol>. </p>
+            <p>The <uicontrol>CONTRACT MANAGEMENT</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Provide the required information in the fields, as described in the following table.</p>
+            <p>
+               <table colsep="1" rowsep="1">
+                  <tgroup cols="2">
+                     <colspec colname="c1" colnum="1" colwidth=".75"/>
+                     <colspec colname="c2" colnum="2"/>
+                     <thead>
+                        <row>
+                           <entry>Section
+</entry>
+                           <entry>Description
+</entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>PAY ESTIMATE CONFIGURATIONS</entry>
+                           <entry>
+                              <uicontrol>Default Retention Percentage</uicontrol>
+                              <p>Enter the retention percentage for pay estimates.
+
+</p>
+                              <p>The retention percentage of all pay estimates of all contracts that are created is set to this defined percentage value.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>FINAL PAY ESTIMATE CONFIGURATIONS
+
+</entry>
+                           <entry>
+                              <uicontrol>Required Validation</uicontrol>
+                              <p>Select the check box to enforce the corresponding validation when generating the final pay estimate of a contract. 
+
+These validations are enforced for all new contracts that are created.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol>.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

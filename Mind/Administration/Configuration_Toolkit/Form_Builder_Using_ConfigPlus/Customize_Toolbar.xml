@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="CustomizeToolbarEvent" xml:lang="en-us">
+   <title>Customize Toolbar Event</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>toolbar-control</indexterm>
+            <indexterm>command-button</indexterm>
+            <indexterm>ui-control</indexterm>
+            <indexterm>action-control</indexterm>
+            <indexterm>event-handler</indexterm>
+            <!-- Process layer -->
+            <indexterm>toolbar-customization</indexterm>
+            <indexterm>action-binding</indexterm>
+            <indexterm>button-configuration</indexterm>
+            <indexterm>toolbar-event-mapping</indexterm>
+            <indexterm>command-visibility-control</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>software</indexterm>
+            <indexterm>web</indexterm>
+            <indexterm>infrastructure</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Customize Toolbar"/>
+         <othermeta name="shortdesc"
+                    content="Shows how to configure and customize the form toolbar, bind actions and set UI behaviors using conditions and events."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="toolbar;form;action;event;condition"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:form-builder;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="toolbar,customization,ui,action,event"/>
+         <othermeta name="usecase" content="configure-and-manage-forms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Customize Toolbar</uicontrol> event enables you  to show or hide a toolbar menu item based on some conditions. It is the only  available event in the   <uicontrol>LIST PAGE BUSINESS LOGIC</uicontrol>. For more information on events, refer to <xref href="Events.xml"/>.</p>
+   </body>
+</topic>
