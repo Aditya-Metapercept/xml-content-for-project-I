@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="to_respond_to_rfq_0">
+   <title>To respond to RFQ</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-21+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   platform="web"
+                   product="metR-Power-Source_To_Pay_User_Guide_Final"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <context/>
+      <ol>
+         <li>
+            <p>Click the<uicontrol>Sourcing Events</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Select the appropriate sourcing event and click View.</p>
+            <p>
+               <fig id="fig_bch_bcg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206098.png"
+                         id="image_cch_bcg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>RFQ</uicontrol> tab.</p>
+         </li>
+         <li>
+            <p>Click View RFQ. </p>
+            <p>
+               <fig id="fig_uc3_2cg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206100.png"
+                         id="image_vc3_2cg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To download the RFQ, click Download.</p>
+            <p>
+               <fig id="fig_x14_fcg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206121.png"
+                         id="image_y14_fcg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To respond to the RFQ, click Create Response.</p>
+            <p>
+               <fig id="fig_vtp_gcg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206127.png"
+                         id="image_wtp_gcg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Enter the appropriate responses.</p>
+         </li>
+         <li>
+            <p>Select the Group Name check box and click Refresh to view the
+                        Total.</p>
+         </li>
+         <li>
+            <p>Select the price modifiers that are applicable. You can add comments in the
+                        Comment text box. </p>
+         </li>
+         <li>
+            <p>To upload an attachment, click Upload.</p>
+            <p>
+               <fig id="fig_bwj_kcg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206163.png"
+                         id="image_cwj_kcg_12c"/>
+               </fig>
+               <note type="note" id="note_jlz_kcg_12c">
+                  <p>For the Attachments in Apttus STP, you can upload any file. We
+                            allow files of the following extension types: (.PDF), (.RTF), (.RTX),
+                            (.TXT), (.JPG), (.JPEG), (.PNG), (.GIF), (.TIF), (.BMP), (.DOC),
+                            (.DOCX), (.DOCM), (.PPT), (.PPTX), (.PPTM), (.PPS), (.PPSX), (.XLS),
+                            (.XLSX), (.XLSM), (.ZIP), (.MP3), (.M4A), (.OGG), (.WAV), (.MP4),
+                            (.M4V), (.MOV), (.OGV), (.3GP), (.3G2). The application might become
+                            slow if you upload a file higher than 25 MB.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Choose File</uicontrol> and select the appropriate file.</p>
+         </li>
+         <li>
+            <p>Enter the FileDescription.</p>
+         </li>
+         <li>
+            <p>Select the appropriate permission from the Permissions picklist menu.</p>
+            <p>
+               <table id="table_hq3_ncg_12c">
+                  <tgroup cols="2">
+                     <thead>
+                        <row>
+                           <entry>
+                              <p>Permission</p>
+                           </entry>
+                           <entry>
+                              <p>Description</p>
+                           </entry>
+                        </row>
+                     </thead>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <p>Public</p>
+                           </entry>
+                           <entry>
+                              <p>To make the attachment available to all the
+                                            Suppliers.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Private</p>
+                           </entry>
+                           <entry>
+                              <p>To make the attachment available to only the Buyer.</p>
+                           </entry>
+                        </row>
+                        <row>
+                           <entry>
+                              <p>Selective Public</p>
+                           </entry>
+                           <entry>
+                              <p>To make the attachment available to the selected
+                                            Supplier(s).</p>
+                              <p>Note: At least one supplier must be selected for
+                                            this option.</p>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Attach.</uicontrol>
+            </p>
+            <p>
+               <fig id="fig_x4v_4cg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206056.png"
+                         id="image_y4v_4cg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click Save.</p>
+            <p>
+               <fig id="fig_uwl_qcg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206142.png"
+                         id="image_vwl_qcg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To edit an attachment, click Edit.</p>
+         </li>
+         <li>
+            <p>To delete an attachment, click Delete.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Submit Response</uicontrol>. </p>
+            <p>
+               <fig id="fig_u4r_scg_12c">
+                  <image placement="break"
+                         width="700"
+                         href="../attachments/69206020/69206133.png"
+                         id="image_v4r_scg_12c"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>Click the <uicontrol>Back to Sourcing Event link</uicontrol> .</p>
+            <p>
+               <note type="note" id="note_yjs_tcg_12c">
+                  <p>Once you submit your response to the buyer, View RFQ and View
+                                Response links are visible on the Sourcing Event Detail page.
+                            You can edit the responses before the RFQ deadline. Ensure that you
+                            click Submit Response after you have edited the response.</p>
+               </note>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
