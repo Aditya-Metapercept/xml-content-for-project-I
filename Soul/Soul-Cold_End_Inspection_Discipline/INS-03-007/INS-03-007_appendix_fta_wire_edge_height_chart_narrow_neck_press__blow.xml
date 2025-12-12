@@ -17,7 +17,12 @@
 
 
 
-         
+
+
+
+
+
+
                    otherprops="production,maintenance,quality,safety,engineering,management"/>
          <keywords><!-- Product layer -->
             <indexterm>fta-wire-edge-chart</indexterm>
@@ -71,6 +76,14 @@
                <colspec colname="c4" colwidth="21.34%"/>
                <colspec colname="c5" colwidth="21.32%"/>
                <thead>
+
+
+
+
+
+
+
+               
                   <row>
                      <entry namest="c1" nameend="c2">Specification</entry>
                      <entry namest="c3" nameend="c5">NNPB Examples</entry>
