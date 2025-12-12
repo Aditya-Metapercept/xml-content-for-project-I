@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m1D0677A-BB01-11F0-5410-09173F13E4C5" xml:lang="en-us">
+   <title>Life Saving Protocol - Electrical Safety</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="07-31-2016"/>
+      </critdates>
+      <prodinfo>
+         <prodname/>
+      </prodinfo>
+   </topicmeta>
+   <topicref href="EHS-01-113_life_saving_protocol-electrical_safety.xml"
+             chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="EHS-01-113"/>
+         <othermeta name="RevisionDate" content="07-31-2016"/>
+      </topicmeta>
+      <topicref href="EHS-01-113_purpose.xml"/>
+      <topicref href="EHS-01-113_scope.xml"/>
+      <topicref href="EHS-01-113_requirements.xml"/>
+      <topicref href="EHS-01-113_approval.xml" audience="internal"/>
+      <topicref href="EHS-01-113_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>
