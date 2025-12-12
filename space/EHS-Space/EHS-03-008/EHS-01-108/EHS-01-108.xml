@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m1CDFE08-BB01-11F0-1689-09173F13E4C5" xml:lang="en-us">
+   <title>Life Saving Protocol - Hot Works</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="10-04-2017"/>
+      </critdates>
+      <prodinfo>
+         <prodname/>
+      </prodinfo>
+   </topicmeta>
+   <topicref href="EHS-01-108_life_saving_protocol-hot_works.xml" chunk="to-content">
+      <topicmeta>
+         <othermeta name="DocumentNumber" content="EHS-01-108"/>
+         <othermeta name="RevisionDate" content="10-04-2017"/>
+      </topicmeta>
+      <topicref href="EHS-01-108_purpose.xml"/>
+      <topicref href="EHS-01-108_scope.xml"/>
+      <topicref href="EHS-01-108_process_requirements.xml"/>
+      <topicref href="EHS-01-108_approval.xml" audience="internal"/>
+      <topicref href="EHS-01-108_revision_history.xml" audience="internal"/>
+   </topicref>
+</topic>
