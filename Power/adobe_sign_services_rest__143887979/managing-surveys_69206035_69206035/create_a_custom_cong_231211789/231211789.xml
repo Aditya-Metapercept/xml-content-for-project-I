@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c283238F-BDF2-11F0-1756-09173F13E4C5" xml:lang="en">
+   <title>Create a Custom Power Invoice Generation: Salesforce Revenue Cloud for Salesforce Billing Solution</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-25+05:30"/>
+         <revised modified="2025-11-25"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-invoice-power</indexterm>
+            <indexterm>power-invoice-generator</indexterm>
+            <indexterm>salesforce-revenue-cloud</indexterm>
+            <indexterm>billing-solution</indexterm>
+            <indexterm>template-engine</indexterm>
+            <indexterm>composer-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>build-custom-invoice-solution</indexterm>
+            <indexterm>configure-templates</indexterm>
+            <indexterm>define-workflows</indexterm>
+            <indexterm>map-billing-fields</indexterm>
+            <indexterm>validate-invoice-logic</indexterm>
+            <indexterm>deploy-invoice-solution</indexterm>
+            <!-- Context layer -->
+            <indexterm>revenue-cloud-integration</indexterm>
+            <indexterm>salesforce-billing</indexterm>
+            <indexterm>revenue-lifecycle-management</indexterm>
+            <indexterm>enterprise-document-generation</indexterm>
+            <indexterm>invoice-processing</indexterm>
+            <indexterm>revops-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-invoice-Power</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Create a Custom Power Invoice Generation: Salesforce Revenue Cloud for Salesforce Billing Solution"/>
+         <othermeta name="shortdesc"
+                    content="Create a customized invoice generation process tailored for Salesforce Revenue Cloud and Billing by configuring templates, mapping data, and defining workflow logic."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="template;invoice-record;billing-data;workflow;composer;adapter;config-file"/>
+         <othermeta name="taxonomy"
+                    content="domain:revenue-lifecycle-management;usecase:custom-revenue-cloud-invoice-generation;industry:revenue life-cycle-management"/>
+         <othermeta name="tags"
+                    content="revenue-cloud,invoices,billing,template,workflow,composer"/>
+         <othermeta name="usecase" content="custom-revenue-cloud-invoice-generation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>If you want to create a custom Power Invoice Automation for Salesforce Quote to Cash solution, you can do so from the Power Solutions tab using the Power Solution Manager.</p>
+   </body>
+</topic>
