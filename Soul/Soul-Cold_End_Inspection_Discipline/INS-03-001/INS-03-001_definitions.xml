@@ -41,6 +41,10 @@
             <colspec colname="c2" colnum="2"/>
             <tbody>
                <row>
+
+
+
+               
                   <entry>No Step container type</entry>
                   <entry>Improve Wire Edge or Overpress Finish detection on containers with no or very slight
           step downs. Only use this type after plant evaluation of tradeoffs against commercial ware
