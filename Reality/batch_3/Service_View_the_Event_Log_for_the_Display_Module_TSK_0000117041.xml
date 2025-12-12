@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ViewTheEventLogForTheDisplayModule-97F5C324" xml:lang="en">
+   <title>View the Event Log for the HMI</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>display-module</indexterm>
+            <indexterm>event-log</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>controller-box</indexterm>
+            <!-- Process layer -->
+            <indexterm>view-event-log</indexterm>
+            <indexterm>display-diagnostics</indexterm>
+            <indexterm>event-log-analysis</indexterm>
+            <indexterm>procedure-2</indexterm>
+            <indexterm>procedure-3</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>fault-investigation</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>usecase-5</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="View the Event Log for the Display Module"/>
+         <othermeta name="shortdesc"
+                    content="Task instructions for viewing the display module event log to support diagnostics and traceability."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;display-module;event-log;ups;controller-box"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-operations;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="display,event-log,diagnostics"/>
+         <othermeta name="usecase" content="maintenance-operations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Connect your laptop to the service port (J405) located
+on the rear side of the front panel (A810).</p>
+            <stepxmp>
+               <note>Use the service port cable 940–0024D for the
+proper connection of all required signals.</note>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Launch the UPS Tuner, click <uicontrol>Next</uicontrol> , select <uicontrol>Display Module (HMI)</uicontrol> and click <uicontrol>Next</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Type 1 followed by the <uicontrol>Enter</uicontrol> key to open <uicontrol>System Information</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Type 3 followed by the <uicontrol>Enter</uicontrol> key to open the <uicontrol>Eventlog</uicontrol>. The first 20 events
+will now be displayed. To view all events, type 2 followed
+by the <uicontrol>Enter</uicontrol> key.</p>
+            <stepxmp>When the logs have finished loading into the terminal window,
+the event logs can be filtered.</stepxmp>
+         </li>
+         <li>
+            <p>In the bottom of the UPS Tuner window, click <uicontrol>Event Log Viewer</uicontrol>.</p>
+            <stepxmp>The event logs can now be filtered by module, date, event
+type or event description for an easy overview of a single alarm.<p/>
+               <p/>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

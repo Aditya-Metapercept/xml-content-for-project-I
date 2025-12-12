@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UpdateTheFirmwareOnTheControllerBox-8EBAFFA2" xml:lang="en">
+   <title>Update the Firmware of the Controller Box (A102)</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>a102-controller</indexterm>
+            <indexterm>controller-firmware</indexterm>
+            <indexterm>service-port</indexterm>
+            <indexterm>tuner</indexterm>
+            <indexterm>control-electronics</indexterm>
+            <!-- Process layer -->
+            <indexterm>firmware-update</indexterm>
+            <indexterm>connect-laptop-to-service-port</indexterm>
+            <indexterm>flash-firmware</indexterm>
+            <indexterm>backup-configuration</indexterm>
+            <indexterm>verify-controller</indexterm>
+            <indexterm>rollback-procedure</indexterm>
+            <indexterm>post-update-test</indexterm>
+            <!-- Context layer -->
+            <indexterm>service-portal</indexterm>
+            <indexterm>maintenance-workshop</indexterm>
+            <indexterm>ups-maintenance</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>on-site-service</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Update the Firmware of the Controller Box (A102)"/>
+         <othermeta name="shortdesc"
+                    content="A102 controller box firmware update task: connect via the service port, flash the firmware, verify operation and run post-update checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="controller box;a102 controller;service port;tuner;control electronics"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:firmware-update-hmi-controller;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="firmware-update,controller-box,service-port,flash-firmware,post-update-test"/>
+         <othermeta name="usecase" content="firmware-update-hmi-controller"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <indexterm>controller box</indexterm>
+         <indexterm>Tuner</indexterm>
+         <note>The update of the firmware on the controller box can be done
+via a RS232 serial connection.</note>
+      </prereq>
+      <ol>
+         <li>
+            <p>Connect your laptop to the service port (J223) located
+on the front side of the controller box.</p>
+            <stepxmp>
+               <fig>
+                  <image href="../Images/main_controller_service_port_0000116520.svg"
+                         scope="local"
+                         translate="no"
+                         xml:lang="en"
+                         placement="inline"/>
+               </fig>
+               <note>Use the service port cable 940–0024D for the proper
+connection of all required signals.</note>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Launch the UPS Tuner and select <uicontrol>Controller Box</uicontrol>. After start-up, your laptop will automatically log in and the main
+menu appears on the terminal screen.</p>
+            <stepxmp>
+               <note>Navigate through the menu tree by typing the number
+of the submenu you wish to enter.</note>
+            </stepxmp>
+            <stepxmp>
+               <table>
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">&gt;&gt; Welcome to Service Port Main Menu &lt;&lt;1: Configure Factory Settings (Locked)2: Configure System Parameters3: System Information Inquiry4: Upgrade Controller Firmware5: System Reboot/Shutdown0: End Session   Choose [1-5, 0]:</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Type 4 (<uicontrol translate="no">Upgrade Controller Firmware</uicontrol>).</p>
+         </li>
+         <li>
+            <p>Select the <uicontrol>Send file</uicontrol> function for
+the terminal application to transfer the new firmware hex file to
+the SRAM.</p>
+         </li>
+         <li>
+            <p>Type 1 (<uicontrol>Erase FLASH &amp; program new code</uicontrol>) to program the code into the flash memory.</p>
+            <stepxmp>
+               <table>
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Download complete - HEX data is validSelection:1. Erase FLASH  &amp; program new code9. Abort &amp; Exit   Choose [1, 9]:</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Type <uicontrol>y</uicontrol> to confirm the update and
+copy the new firmware from the SRAM to the FLASH memory.</p>
+            <stepxmp>
+               <note>If you wish to cancel the update and keep the old firmware,
+press the <uicontrol>ESC</uicontrol> key.</note>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Restart the system.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

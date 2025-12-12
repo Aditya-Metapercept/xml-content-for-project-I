@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UPSTuner-96600D28" xml:lang="en">
+   <title>UPS Tuner</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>ups-tuner</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>display-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>tuner-operations</indexterm>
+            <indexterm>information-retrieval</indexterm>
+            <indexterm>configure-settings</indexterm>
+            <indexterm>procedure-2</indexterm>
+            <indexterm>procedure-3</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>usecase-5</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="UPS Tuner"/>
+         <othermeta name="shortdesc"
+                    content="Reference for UPS tuner functions and parameters for monitoring and configuring UPS behaviour."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;ups;ups-tuner;controller-box;display-module"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-operations;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="ups-tuner,parameters,monitoring"/>
+         <othermeta name="usecase" content="maintenance-operations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <indexterm>UPS tuner</indexterm>
+      </section>
+      <section>
+         <p>Connect the UPS Tuner to the service ports on either a
+controller box or a display module (HMI) to perform critical functions,
+e.g. firmware upgrades, UPS configuration, global report, logs analysis,
+and LCM management.</p>
+         <note type="note">Standard terminal applications
+like Hyper Terminal or Tera Term cannot be used anymore to perform
+any of the functions covered by the UPS Tuner. </note>
+         <note type="note">You need a license to use the UPS Tuner software. See Service View
+for details about obtaining a license or contact your local Schneider
+Electric support.</note>
+      </section>
+      <section>
+         <title>Overview</title>
+         <fig>
+            <image href="../Images/upstuner_screenoverview_120mm_0000117184.svg"
+                   placement="inline"/>
+            <ol>
+               <li>
+                  <p>Terminal window</p>
+               </li>
+               <li>
+                  <p>Information retrieval tabs</p>
+               </li>
+               <li>
+                  <p>Communication status bar</p>
+               </li>
+            </ol>
+         </fig>
+      </section>
+   </body>
+</topic>

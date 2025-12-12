@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SetBatteryChargeMode-461B9BC2" xml:lang="en">
+   <title>Set Battery Charge Mode</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>battery-charge-mode</indexterm>
+            <indexterm>controller-box</indexterm>
+            <!-- Process layer -->
+            <indexterm>set-battery-charge-mode</indexterm>
+            <indexterm>battery-maintenance</indexterm>
+            <indexterm>configure-settings</indexterm>
+            <indexterm>procedure-2</indexterm>
+            <indexterm>procedure-3</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>battery-care</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>usecase-5</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Set Battery Charge Mode"/>
+         <othermeta name="shortdesc"
+                    content="Task steps to select and set the correct battery charge mode for the UPS battery system."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;ups;battery;battery-charge-mode;controller-box"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:battery-maintenance;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="battery,charge-mode,maintenance"/>
+         <othermeta name="usecase" content="battery-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>System Control</uicontrol>
+                  <uicontrol>Charge mode</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. </p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Charge mode:      FloatUbat: 440.3V  438  VIbat:+004.2A  007.2A</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Charge mode:      CyclicUbat: 440.3V  438  VIbat:+004.2A  007.2A↓</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <p>
+                  <uicontrol>Cyclic</uicontrol> charge mode has a second
+page that shows the configured period and charge time.</p>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Press the ENTER key to start modifying the parameter values.</p>
+         </li>
+         <li>
+            <p>Press the UP/DOWN keys to modify the parameter values and
+press the ENTER key to confirm modification.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">Charge mode:↕      FloatUbat: 440.3V  438  VIbat:+004.2A  007.2A</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>
