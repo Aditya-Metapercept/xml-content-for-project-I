@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1A60F6D-BB01-11F0-2651-09173F13E4C5" xml:lang="en-us">
+   <title>Reference</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-06+05:30"/>
+         <revised modified="2025-11-06"/>
+      </critdates>
+      <metadata>
+         <audience type="role" otherprops="operator,maintenance,safety-engineer"/>
+         <keywords>
+            <indexterm>metr-bat-space</indexterm>
+            <indexterm>batch-house-pest-control</indexterm>
+            <indexterm>reference-documents</indexterm>
+            <indexterm>inspection-forms</indexterm>
+            <indexterm>chemical-specifications</indexterm>
+            <indexterm>approved-suppliers</indexterm>
+            <indexterm>sanitation-schedule</indexterm>
+            <indexterm>validation-protocols</indexterm>
+            <indexterm>quality-records</indexterm>
+            <indexterm>traceability-documents</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>technical-standards</indexterm>
+            <indexterm>maintenance-reference</indexterm>
+            <indexterm>environmental-safety</indexterm>
+            <indexterm>procurement-guidelines</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-BAT-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Batch House Pest Control — References"/>
+         <othermeta name="shortdesc"
+                    content="Reference list for pest control materials, approved suppliers, sanitation schedules, and validation protocols for batch house buildings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="chemical-specifications;approved-suppliers;inspection-forms;validation-protocols;traceability-documents"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-production;usecase:reference-and-specification;industry:glassmanufacturing"/>
+         <othermeta name="tags"
+                    content="references,specifications,chemicals,suppliers,validation"/>
+         <othermeta name="usecase" content="reference-list"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_whr_dy3_nzb">
+         <title>Document Classification</title>
+         <ul id="ul_irq_2y3_nzb">
+            <li>Safety and Environment</li>
+         </ul>
+      </section>
+      <section id="section_bsy_fy3_nzb">
+         <title>Fundamentals</title>
+         <ul id="ul_lts_gy3_nzb">
+            <li>N/A</li>
+         </ul>
+      </section>
+   </body>
+</topic>
