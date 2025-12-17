@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WF_Action_Complete" xml:lang="en-us">
+   <title>Workflow Action Complete</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator, engineering, management, external contractors, analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-action-complete</indexterm>
+            <indexterm>workflow-event</indexterm>
+            <indexterm>post-workflow-hook</indexterm>
+            <indexterm>action-outcome</indexterm>
+            <indexterm>notification-unit</indexterm>
+            <!-- Process layer -->
+            <indexterm>workflow-completion</indexterm>
+            <indexterm>post-action-processing</indexterm>
+            <indexterm>status-update</indexterm>
+            <indexterm>notification-dispatch</indexterm>
+            <indexterm>handoff-to-next-step</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>process-orchestration</indexterm>
+            <indexterm>approval-flow</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Workflow Action Complete"/>
+         <othermeta name="shortdesc"
+                    content="Explains the Workflow Action Complete event and post-workflow processing: status updates, notifications and handoffs to subsequent steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="workflow-event;status;notification;action;handoff"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:workflow-completion;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="workflow,completion,notification,status,handoff"/>
+         <othermeta name="usecase" content="handle-post-workflow-actions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The <uicontrol>Workflow Action Complete</uicontrol> event enables you to execute the logic once you perform a workflow action. You can use this event  to execute  a logic  on clicking the workflow action. </p>
+      <section product="Include_PG_Content">
+         <title>Use Case # Insert a new record on performing a workflow action such as Submit</title>
+         <p>In the   RFP form, once you perform the workflow action <uicontrol>Submit</uicontrol> for the  <uicontrol>Create Change Order</uicontrol> page, it creates a new record in the <uicontrol>Change Order</uicontrol> form for the same contract.</p>
+      </section>
+   </body>
+</topic>

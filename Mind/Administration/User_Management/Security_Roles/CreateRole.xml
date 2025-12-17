@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Form_USRROLS_New">
+   <title>Creating Security Roles</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>role-creation</indexterm>
+            <!-- Product layer -->
+            <indexterm>security-roles</indexterm>
+            <!-- Product layer -->
+            <indexterm>admin-console</indexterm>
+            <!-- Product layer -->
+            <indexterm>user-management</indexterm>
+            <!-- Product layer -->
+            <indexterm>access-control</indexterm>
+            <!-- Process layer -->
+            <indexterm>create-role</indexterm>
+            <!-- Process layer -->
+            <indexterm>define-role-permissions</indexterm>
+            <!-- Process layer -->
+            <indexterm>assign-default-perms</indexterm>
+            <!-- Process layer -->
+            <indexterm>role-template</indexterm>
+            <!-- Process layer -->
+            <indexterm>review-role</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>security-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>web-admin-portal</indexterm>
+            <!-- Context layer -->
+            <indexterm>administration</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Creating Security Roles"/>
+         <othermeta name="shortdesc"
+                    content="Creating roles enables you to manage the system's security by defining role names and assigning appropriate access to application modules."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="role;permission;role-template;admin-console;module"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:create-security-roles;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="create-role,security,role-template,permissions"/>
+         <othermeta name="usecase" content="create-security-roles"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>Creating roles enables you to manage the system's security by definingpermissions to a role and restricting user access to selective modules or forms in the application. <p>For example, a Project Manager role has access to all applicationmodules and permissions to create, edit, delete, approve, or reject any project-relatedinformation. Any user or group of users assigned the Project Manager role would haveaccess to all the privileges granted to a project manager.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click<uicontrol>Security Roles</uicontrol>.</p>
+            <p>The<uicontrol>SECURITY ROLES</uicontrol>list page is displayed.</p>
+         </li>
+         <li>
+            <p>To create user roles, perform either of the following procedures:</p>
+            <ul>
+               <li>To create a single role:<ol>
+                     <li>Click<uicontrol>New</uicontrol>.<p>The <uicontrol>SECURITY ROLES</uicontrol> page is displayed.</p>
+                     </li>
+                     <li>In the<uicontrol>Role</uicontrol> box, enter the name of the role.</li>
+                     <li>In the<uicontrol>Description</uicontrol> box, enter a description for the role.</li>
+                     <li>Click<uicontrol>Save</uicontrol>. <p>For information on setting rolepermissions, refer to <xref href="../Permissions/ConfigRolePerms.xml">Configuring Role Permissions</xref>.</p>
+                     </li>
+                  </ol>
+               </li>
+               <li>Create multiple roles by importing role information in an Excel worksheet:<ol>
+                     <li>Click <uicontrol>Excel Import / Export</uicontrol>, and then click<uicontrol>Excel Template</uicontrol>.</li>
+                     <li>Save the Excel template to your local storage.</li>
+                     <li>Open the saved Excel template.</li>
+                     <li>In the<uicontrol>Role</uicontrol>column, enter the role name.</li>
+                     <li>In the<uicontrol>Description</uicontrol>column, enter the description of the role.</li>
+                     <li>Save the Excel workbook.</li>
+                     <li>To import role information, click<uicontrol>Excel Import / Export</uicontrol>, and then click<uicontrol>Excel Import</uicontrol>. <p>The <uicontrol>IMPORT DETAILS FROM EXCEL FILE</uicontrol> is displayed.</p>
+                     </li>
+                     <li>Click<uicontrol>Choose File</uicontrol>, and select the updatedExcel workbook with role information.</li>
+                     <li>Click<uicontrol>Save</uicontrol>. <p>The roles defined in the Excel file are updated to the list of roles. <ph product="Exclude_PG_Content">For information on setting rolepermissions, refer to <xref href="../Permissions/ConfigRolePerms.xml">Configuring Role Permissions</xref>.</ph>
+                        </p>
+                        <note> Once the security role is created, role permissions will need to be configured for the role.</note>
+                     </li>
+                  </ol>
+               </li>
+            </ul>
+         </li>
+      </ol>
+   </body>
+</topic>

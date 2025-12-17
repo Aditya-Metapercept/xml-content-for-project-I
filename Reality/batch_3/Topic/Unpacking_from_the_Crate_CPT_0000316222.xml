@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UnpackingTheSystem-4D16465D" xml:lang="en">
+   <title>Unpack the System from the Crate/Frame</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-01+05:30"/>
+         <revised modified="2025-12-01"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="logistics,installation,maintenance,warehouse staff,field technician,handling engineer"/>
+         <keywords><!-- Product layer -->
+            <indexterm>crated equipment</indexterm>
+            <indexterm>packaged UPS system</indexterm>
+            <indexterm>shipping crate</indexterm>
+            <indexterm>protective packaging</indexterm>
+            <indexterm>transport bolts</indexterm>
+            <indexterm>pallet supports</indexterm>
+            <indexterm>shock indicators</indexterm>
+            <!-- Process layer -->
+            <indexterm>unpacking workflow</indexterm>
+            <indexterm>crate removal steps</indexterm>
+            <indexterm>inspection upon arrival</indexterm>
+            <indexterm>safe lifting procedure</indexterm>
+            <indexterm>damage-check process</indexterm>
+            <indexterm>component verification</indexterm>
+            <indexterm>material handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse handling environment</indexterm>
+            <indexterm>shipping and logistics domain</indexterm>
+            <indexterm>industrial equipment delivery</indexterm>
+            <indexterm>installation preparation</indexterm>
+            <indexterm>site readiness</indexterm>
+            <indexterm>equipment safety guidelines</indexterm>
+            <indexterm>pre-installation checks</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Unpacking from the Crate"/>
+         <othermeta name="shortdesc"
+                    content="Describes the correct procedure to unpack the system from the shipping crate, including safety precautions, inspection steps, and handling instructions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="shipping crate; pallet; shock indicator; packing foam; straps; transport bolts; protective covering"/>
+         <othermeta name="taxonomy"
+                    content="domain:equipment logistics;usecase:unpacking;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="unpacking,crate removal,shipping,inspection,handling,packaging"/>
+         <othermeta name="usecase"
+                    content="Guide technicians and logistics staff to safely unpack the system from its crate and inspect for transport damage"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <hazardstatement type="caution">
+            <messagepanel>
+               <typeofhazard>risk of crushing and Sharp edges</typeofhazard>
+               <howtoavoid>Always use protective gloves when unpacking the system.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <p>Use the right tool depending on
+the construction of the crate/frame:<ul>
+               <li>
+                  <p>For screws use a screwdriver.</p>
+               </li>
+               <li>
+                  <p>For metal clamps use a flat screwdriver.</p>
+               </li>
+            </ul>
+            <note>For solid crates it is not necessary to remove the skids.</note>
+         </p>
+         <ol>
+            <li>
+               <p>Remove the top with the correct tool.</p>
+            </li>
+            <li>
+               <p>Remove the side walls with the correct tool one after another
+until all side walls are removed.</p>
+            </li>
+         </ol>
+         <p>Now the system is on the pallet with the inner packing protection.</p>
+         <note href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/dispose_waste_note"/>
+      </div>
+   </body>
+</topic>

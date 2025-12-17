@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38CC25A-BDF3-11F0-4541-09173F13E4C5" xml:lang="en-us">
+   <title>Drive Wheel</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:15:00+05:30"/>
+         <revised modified="2025-11-15T15:15:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords>
+            <indexterm>drive-wheel</indexterm>
+            <indexterm>tyre</indexterm>
+            <indexterm>axle</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>drive-assembly</indexterm>
+            <indexterm>clean-terminals</indexterm>
+            <indexterm>corrosion-check</indexterm>
+            <indexterm>lubrication</indexterm>
+            <indexterm>inspect-tyre</indexterm>
+            <indexterm>wheel-maintenance</indexterm>
+            <indexterm>battery-maintenance</indexterm>
+            <indexterm>routine-inspection</indexterm>
+            <indexterm>warehouse-floor</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>safety-check</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Drive Wheel"/>
+         <othermeta name="shortdesc"
+                    content="Inspection and maintenance guidance for drive wheel and related electrical terminal cleaning"/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="drive-wheel;tyre;axle;battery;terminals"/>
+         <othermeta name="taxonomy"
+                    content="domain:powered-lift-trucks;usecase:t_drive_wheel;industry:heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags"
+                    content="drive-wheel,inspection,terminals,corrosion,maintenance"/>
+         <othermeta name="usecase" content="operation-and-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <fig id="fig_n1d_4yz_5gc">
+            <image href="media/image933.png" id="image_q1d_4yz_5gc" placement="inline"/>
+         </fig>
+      </context>
+      <ol>
+         <li>
+            <p>Clean the top of the battery and terminals.</p>
+         </li>
+         <li>
+            <p>Check terminals for corrosion. Coat terminals with heavy grease.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

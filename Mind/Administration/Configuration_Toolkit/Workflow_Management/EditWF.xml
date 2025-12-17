@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="WorkflowNew_WORKFLW_Edit">
+   <title>Editing a Workflow</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>workflow-management</indexterm>
+            <indexterm>form</indexterm>
+            <indexterm>workflow-engine</indexterm>
+            <indexterm>form-builder</indexterm>
+            <indexterm>list-page</indexterm>
+            <!-- Process layer -->
+            <indexterm>edit-workflow</indexterm>
+            <indexterm>update-steps</indexterm>
+            <indexterm>change-approvals</indexterm>
+            <indexterm>modify-assignments</indexterm>
+            <indexterm>test-updates</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>web-platform</indexterm>
+            <indexterm>enterprise-deployment</indexterm>
+            <indexterm>infrastructure-software</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="EditWF"/>
+         <othermeta name="shortdesc"
+                    content="Steps to edit an existing workflow: verifying if workflow is type X, updating steps, and testing changes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="workflow;steps;approvals;assignments;form"/>
+         <othermeta name="taxonomy"
+                    content="domain:Capital-program-management;usecase:workflow-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="edit-workflow,update-steps,change-approvals"/>
+         <othermeta name="usecase" content="modify and test existing workflows"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <ul>
+            <li>Workflow is not marked as a <uicontrol>Validation</uicontrol> workflow.
+                    <p>To determine if a workflow is a <uicontrol>Validation</uicontrol> workflow, perform the following steps:<ol>
+                     <li>In the module menu, click <uicontrol>Administration</uicontrol>.
+                            </li>
+                     <li>In the navigation pane, expand <uicontrol>Configuration Toolkit</uicontrol>, and then click <uicontrol>Workflow Management</uicontrol>.<p>The <uicontrol>WORKFLOW LIST</uicontrol> page is displayed.
+</p>
+                     </li>
+                     <li>In the <uicontrol>Validation</uicontrol> column, if the check box is selected, then the corresponding workflow is a system workflow and cannot be edited. However, you can take a copy of the workflow and then make updates to the workflow.
+                            </li>
+                  </ol>
+               </p>
+            </li>
+         </ul>
+         <p>
+            <note> Any modifications to an existing workflow are effective to newer versions of the associated forms after the modified workflow has been published. <p>For example, if you introduce new stages and actions to the <uicontrol>Daily Progress Report</uicontrol> form and then publish the edited workflow, only newer instances of the <uicontrol>Daily Progress Report</uicontrol> form will reflect the changes saved and not the ones created previous to the modification.</p>
+            </note>
+         </p>
+      </prereq>
+      <context>You can edit an existing workflow that is not checked in the Validation column.</context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>Configuration Toolkit</uicontrol>, and then click <uicontrol>Workflow Management</uicontrol>.</p>
+            <p>The <uicontrol>WORKFLOW LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the workflow to be edited, and then click <uicontrol>Edit</uicontrol>.</p>
+            <p>The <uicontrol>EDIT WORKFLOW</uicontrol> page is displayed.<note> A published workflow is unpublished.</note>
+            </p>
+         </li>
+         <li>
+            <p>Make the required changes.</p>
+            <p>For information on creating workflows, refer to <xref href="CreateWFSimple.xml">Creating a Workflow Using Simple Mode</xref> or <xref href="CreateWFAdv.xml">Creating a Workflow Using Advanced Mode</xref>.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Save</uicontrol> to save the changes.</p>
+            <p>The <uicontrol>WORKFLOW LIST</uicontrol> page is displayed.</p>
+         </li>
+      </ol>
+      <div>The workflow must now be published to be made available in the application. <ph product="Exclude_PG_Content">For information on publishing a workflow, refer to <xref href="PublishWF.xml">Publishing a Workflow</xref>.</ph>
+      </div>
+   </body>
+</topic>
