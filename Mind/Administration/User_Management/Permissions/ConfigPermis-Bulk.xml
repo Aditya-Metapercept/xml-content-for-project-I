@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="task-5461">
+   <title>Configuring Permissions in Bulk Using an Excel Workbook</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>permissions-module</indexterm>
+            <!-- Product layer -->
+            <indexterm>bulk-permissions</indexterm>
+            <!-- Product layer -->
+            <indexterm>excel-import</indexterm>
+            <!-- Product layer -->
+            <indexterm>role-management</indexterm>
+            <!-- Product layer -->
+            <indexterm>admin-console</indexterm>
+            <!-- Process layer -->
+            <indexterm>configure-permissions-bulk</indexterm>
+            <!-- Process layer -->
+            <indexterm>import-excel-permissions</indexterm>
+            <!-- Process layer -->
+            <indexterm>map-worksheet-to-forms</indexterm>
+            <!-- Process layer -->
+            <indexterm>validate-bulk-updates</indexterm>
+            <!-- Process layer -->
+            <indexterm>apply-bulk-changes</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <!-- Context layer -->
+            <indexterm>capital-program-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>excel-driven-workflow</indexterm>
+            <!-- Context layer -->
+            <indexterm>web-admin-portal</indexterm>
+            <!-- Context layer -->
+            <indexterm>user-access-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Configuring Permissions in Bulk Using an Excel Workbook"/>
+         <othermeta name="shortdesc"
+                    content="You can configure role permissions on each form in bulk using the Excel workbook import workflow to map worksheets to form-level permissions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="role;user;permission;excel-workbook;form"/>
+         <othermeta name="taxonomy"
+                    content="domain:capital-program-management;usecase:configure-role-permissions-in-bulk;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="bulk-permissions,excel,import,role,form"/>
+         <othermeta name="usecase" content="configure-role-permissions-in-bulk"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>You can configure role permissions on each form in bulk using the Excel Import/Export feature.</p>
+      </context>
+      <ol>
+         <li>
+            <p>In the module menu, click<uicontrol>Administration</uicontrol>.</p>
+            <p>The<uicontrol>ADMINISTRATION</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand<uicontrol>User Management</uicontrol>, and then click<uicontrol>Permissions</uicontrol>.</p>
+            <p>The<uicontrol>PERMISSIONS</uicontrol>page is displayed.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Excel Import / Export</uicontrol>, and then click<uicontrol>Excel Template With Data</uicontrol>.</p>
+            <p>All configured permissions are downloaded in an Excel workbook to your local storage.</p>
+            <p>Alternatively, to download the template without any data, click<uicontrol>Excel Template</uicontrol>. </p>
+            <p>Thetemplate as an Excel file is downloaded to your local storage.</p>
+            <p>The Excel workbook comprises the following columns:<ul>
+                  <li>Module Name - The path and name of the module. </li>
+                  <li>FormId - The form identification code.</li>
+                  <li>Form Name - The name of the form.</li>
+                  <li>Permissions - The permissions defined for the form.</li>
+                  <li>Roles - Roles defined in the application.</li>
+               </ul>
+               <p>If you have exported permission configurations to an Excel workbook, a<uicontrol>Y</uicontrol> in the columns with role names signifies a granted permission and an<uicontrol>N</uicontrol> signifies arevoked permission.<note> All permissions that have the check box cleared in the<uicontrol>PERMISSIONS</uicontrol>page are exported to the Excel workbook with thecorresponding permissions set as<uicontrol>N</uicontrol>.</note>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>To update a permission, corresponding to the required form, permission, and role, enter<uicontrol>Y</uicontrol>to grant the permission or enter<uicontrol>N</uicontrol>to revoke the permission.</p>
+            <p>Alternatively, enter the required information in the columns as follows:<ul>
+                  <li>Module Name - Enter the path and name of the module.</li>
+                  <li>FormId - Enter the form identification code.</li>
+                  <li>Form Name - Enter the name of the form.</li>
+                  <li>Permissions - Enter the permissionsdefined for the form.</li>
+                  <li>Roles - Corresponding to each role, enter<uicontrol>Y</uicontrol>to grant the permission or enter<uicontrol>N</uicontrol> to revoke the permission.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Save the Excel workbook.</p>
+         </li>
+         <li>
+            <p>In the application, click<uicontrol>Excel Import / Export</uicontrol>, and then click<uicontrol>Excel Import</uicontrol>.</p>
+            <p>The<uicontrol>IMPORT DETAILS FROM EXCEL FILE</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Choose File</uicontrol> to select the workbook with updated permission information.</p>
+            <p>The <uicontrol>Open</uicontrol> dialog box is displayed.</p>
+         </li>
+         <li>
+            <p>Select the appropriate workbook, and then click<uicontrol>Open</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Click<uicontrol>Upload</uicontrol> to import permission information from the Excel workbook.</p>
+         </li>
+         <li href="../../../../Warehouse/Task_Warehouse/Error_Log.dita#task-2380/error_log">
+            <p/>
+         </li>
+         <li>
+            <p>Click<uicontrol>Save</uicontrol>.</p>
+            <p>The items in the uploaded Excel workbook are uploaded to the page.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

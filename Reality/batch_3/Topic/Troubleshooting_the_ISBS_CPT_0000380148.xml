@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="TroubleshootingTheISBS-A004E3B0" xml:lang="en">
+   <title>Troubleshoot the ISBS</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-03+05:30"/>
+         <revised modified="2025-12-03"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="maintenance,engineering,technical support,system operator,field technician,service engineer"/>
+         <keywords><!-- Product layer -->
+            <indexterm>Independent Static Bypass Switch</indexterm>
+            <indexterm>ISBS</indexterm>
+            <indexterm>bypass switch assembly</indexterm>
+            <indexterm>static switch module</indexterm>
+            <indexterm>ISBS control electronics</indexterm>
+            <indexterm>bypass line circuitry</indexterm>
+            <indexterm>ISBS status indicators</indexterm>
+            <!-- Process layer -->
+            <indexterm>ISBS troubleshooting</indexterm>
+            <indexterm>bypass fault isolation</indexterm>
+            <indexterm>static switch diagnostics</indexterm>
+            <indexterm>signal verification steps</indexterm>
+            <indexterm>alarm interpretation workflow</indexterm>
+            <indexterm>thermal and electrical load checks</indexterm>
+            <indexterm>ISBS recovery procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>critical load transfer environment</indexterm>
+            <indexterm>bypass operation domain</indexterm>
+            <indexterm>industrial power continuity</indexterm>
+            <indexterm>UPS redundancy context</indexterm>
+            <indexterm>equipment protection environment</indexterm>
+            <indexterm>facility electrical infrastructure</indexterm>
+            <indexterm>service and repair context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Troubleshooting the ISBS"/>
+         <othermeta name="shortdesc"
+                    content="Provides diagnostic guidance for the Independent Static Bypass Switch (ISBS), including fault isolation steps, alarm interpretation, electrical and thermal checks, and recovery procedures."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ISBS module; bypass line; static switch; control electronics; sensors; status LEDs; fault logs"/>
+         <othermeta name="taxonomy"
+                    content="domain:static bypass systems;usecase:ISBS-troubleshooting;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="ISBS,troubleshooting,static bypass,fault isolation,UPS bypass,diagnostics"/>
+         <othermeta name="usecase"
+                    content="Guide technicians in isolating, diagnosing, and correcting faults in the Independent Static Bypass Switch (ISBS)"/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig expanse="page">
+         <image href="../Images/A703_SBS_Controller_Board_LED_ZOOM_0000356099.png"
+                placement="inline"/>
+      </fig>
+      <table pgwide="1">
+         <tgroup cols="6">
+            <colspec colname="col1" colwidth="20.00mm"/>
+            <colspec colname="col2" colwidth="20.00mm"/>
+            <colspec colname="COLSPEC2" colwidth="20.00mm"/>
+            <colspec colname="col4" colwidth="2.67*"/>
+            <colspec colname="COLSPEC1" colwidth="2.67*"/>
+            <colspec colname="col6" colwidth="2.67*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Position</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Name on
+Board</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Name Description</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Normal Status
+and Description</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Abnormal
+Status and Description</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Corrective
+Action for Abnormal Status</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>(A)</p>
+                  </entry>
+                  <entry>
+                     <p>15V(D1237)</p>
+                  </entry>
+                  <entry>
+                     <p>15V supply ok</p>
+                  </entry>
+                  <entry>
+                     <p>On: The internal 15V power supply is ok. Delivered
+from the bypass mains.</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Bypass mains not available or there is a hardware issue
+present</p>
+                  </entry>
+                  <entry>
+                     <p>Check bypass mains power supply and connection.</p>
+                     <p>Contact <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"
+                              scope="local"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>(B)</p>
+                  </entry>
+                  <entry>
+                     <p>5V(D1238)</p>
+                  </entry>
+                  <entry>
+                     <p>5V supply ok</p>
+                  </entry>
+                  <entry>
+                     <p>On: The internal 5V power supply is ok. Delivered
+from the internal 15V power supply.</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Bypass mains not available or there is a hardware issue
+present.</p>
+                  </entry>
+                  <entry>
+                     <p>Check bypass mains power supply and connection.</p>
+                     <p>Contact <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"
+                              scope="local"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>(C)</p>
+                  </entry>
+                  <entry>
+                     <p>15V FAN(D1239)</p>
+                  </entry>
+                  <entry nameend="col6" namest="COLSPEC2">
+                     <p> Not used</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>(D)</p>
+                  </entry>
+                  <entry>
+                     <p>24V FAN(D1240)</p>
+                  </entry>
+                  <entry>
+                     <p>20V supply for EN &amp; fan ok</p>
+                  </entry>
+                  <entry>
+                     <p>On: The 20V power supply used to power supply the
+static bypass switch EN and the fans is ok. Delivered from the bypass
+mains.</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Bypass mains not available or there is a hardware issue
+present.</p>
+                  </entry>
+                  <entry>
+                     <p>Check bypass mains power supply and connection.</p>
+                     <p>Contact <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"
+                              scope="local"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry morerows="2">
+                     <p>(E)</p>
+                  </entry>
+                  <entry morerows="2">
+                     <p>STATUS_1(D1242)</p>
+                  </entry>
+                  <entry morerows="2">
+                     <p>System firmware status indication</p>
+                  </entry>
+                  <entry>
+                     <p> System firmware status indication. Shows what mode the
+system is in:On: System is in Standby</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Bypass mains not available or there is a firmware or
+wiring issue present.</p>
+                  </entry>
+                  <entry>
+                     <p>Check bypass mains power supply and connection.</p>
+                     <p>Contact <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"
+                              scope="local"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Slow flashing (0.5Hz): System is in normal operation.</p>
+                  </entry>
+                  <entry morerows="1">
+                     <p>Very fast flashing (4Hz): The
+system is in ISBS operation. There is an issue present with the main
+controller, or the main controller was manually reset during operation.</p>
+                  </entry>
+                  <entry morerows="1">
+                     <p>Transfer the system to manual bypass,
+for details see chapter <xref href="How_to_Switch_From_ISBS_Operation_to_Normal_Operation_CPT_0000356483.xml"
+                              scope="local"
+                              type="concept"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Fast flashing (2Hz): System is in bypass operation (over the
+static switch), switched over by the main controller.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>(F)</p>
+                  </entry>
+                  <entry>
+                     <p>STATUS_2(D1243)</p>
+                  </entry>
+                  <entry>
+                     <p>ISBS status ok</p>
+                  </entry>
+                  <entry>
+                     <p>On: The ISBS system is ok and ready transfer to ISBS
+operation if needed.</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Bypass mains not available or there is a firmware or
+wiring issue present.</p>
+                  </entry>
+                  <entry>
+                     <p>Check bypass mains power supply and connection.</p>
+                     <p>Contact <xref href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/Reality_service_centers"
+                              scope="local"/>.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>(G)</p>
+                  </entry>
+                  <entry>
+                     <p>STATUS_3(D1283)</p>
+                  </entry>
+                  <entry>
+                     <p>ISBS operation active</p>
+                  </entry>
+                  <entry>
+                     <p>Off: Indicated that the controller has not switched
+to ISBS.</p>
+                  </entry>
+                  <entry>
+                     <p>On: The system is in ISBS operation. There is an issue present
+with the main controller, or the main controller was manually reset
+during operation.</p>
+                  </entry>
+                  <entry>
+                     <p>Transfer the system to manual bypass, for details see chapter <xref href="How_to_Switch_From_ISBS_Operation_to_Normal_Operation_CPT_0000356483.xml"
+                              scope="local"
+                              type="concept"/>.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

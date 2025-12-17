@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1D1EA97-BB01-11F0-5503-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T13:00:00+05:30"/>
+         <revised modified="2025-12-02T13:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="executive leadership,plant management,safety and compliance officers,document controllers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>approval-workflow</indexterm>
+            <indexterm>electronic-signoff</indexterm>
+            <indexterm>record-storage</indexterm>
+            <indexterm>notification-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>document-approval</indexterm>
+            <indexterm>management-review</indexterm>
+            <indexterm>signoff-procedure</indexterm>
+            <indexterm>approval-audit</indexterm>
+            <indexterm>version-release</indexterm>
+            <!-- Context layer -->
+            <indexterm>waste-management-policy</indexterm>
+            <indexterm>regulatory-approval</indexterm>
+            <indexterm>plant-governance</indexterm>
+            <indexterm>internal-controls</indexterm>
+            <indexterm>leadership-accountability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval authorities and workflows for the waste management topic and associated EHS documents."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver;approval-record;notification;document;version"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery-and-industrial-equipment;usecase:document-approval;industry:glass-manufacturing-heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags" content="approval,signoff,waste-management"/>
+         <othermeta name="usecase" content="establish-approval-and-signoff-process"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Sanctioning Representatives of the Global Team<table id="table_clv_xh5_4zb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="32.32%"/>
+               <colspec colname="c2" colwidth="57.84%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>IH Roundtable</p>
+                     </entry>
+                     <entry>
+                        <p>Michael Berakis</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Safety Roundtable</p>
+                     </entry>
+                     <entry>
+                        <p>Ken Smigielski</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Environmental Roundtable</p>
+                     </entry>
+                     <entry>
+                        <p>Luca Severini</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>VP Global EHS</p>
+                     </entry>
+                     <entry>
+                        <p>Reinaldo Carnevali</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

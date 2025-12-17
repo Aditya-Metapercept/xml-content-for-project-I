@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="UseTheUPSTunerToShutDownTheUPSViaTh-966E65B2" xml:lang="en">
+   <title>Shut Down/Reboot the UPS System after Firmware Update</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>ups-tuner</indexterm>
+            <indexterm>main-contactors</indexterm>
+            <!-- Process layer -->
+            <indexterm>shutdown-procedure</indexterm>
+            <indexterm>safe-shutdown</indexterm>
+            <indexterm>controller-operations</indexterm>
+            <indexterm>tuner-operations</indexterm>
+            <indexterm>procedure-2</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>safety-procedures</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>industrial-production-floor</indexterm>
+            <indexterm>ups-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Use the UPS Tuner to Shut Down the UPS via the Controller Box"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step instructions to shut down the UPS using the UPS Tuner via the controller box safely."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;ups;controller-box;ups-tuner;main-contactors"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:shutdown-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="shutdown,controller-box,ups-tuner"/>
+         <othermeta name="usecase" content="shutdown-procedure"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <note>If shutdown via the display has been disabled, all commands
+to shut down or reboot the UPS system have been disabled. The only
+way to turn off the UPS is by using the system enable switch on the
+front of the UPS by removing all sources.</note>
+      </prereq>
+      <ol>
+         <li>
+            <p>Press down the ON and OFF buttons simultaneously to shut
+down the UPS.</p>
+         </li>
+         <li>
+            <p>Wait 20 seconds for the display to power down.</p>
+         </li>
+         <li>
+            <p>Press the ON button to reboot the UPS.</p>
+            <stepxmp>
+               <note>To perform the UPS shutdown, the load must be disconnected
+form the UPS or the load must be supplied by the external bypass.</note>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

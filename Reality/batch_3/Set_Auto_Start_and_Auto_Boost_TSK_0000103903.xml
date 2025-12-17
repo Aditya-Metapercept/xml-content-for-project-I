@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SetAutoStartAndAutoBoost-53F1B956" xml:lang="en">
+   <title>Set <uicontrol>Auto Start</uicontrol>, <uicontrol>Auto Boost</uicontrol>, <uicontrol>LCM Alerts</uicontrol>, and <uicontrol>ECO Mode</uicontrol>
+   </title>
+   <shortdesc>
+      <keyword>Reality NAM 25–100 kVA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production, maintenance, quality, safety, engineering, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>ups</indexterm>
+            <indexterm>battery</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>ups-tuner</indexterm>
+            <!-- Process layer -->
+            <indexterm>set-auto-start-and-auto-boost</indexterm>
+            <indexterm>configure-settings</indexterm>
+            <indexterm>parameter-adjustment</indexterm>
+            <indexterm>procedure-2</indexterm>
+            <indexterm>procedure-3</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>operational-optimization</indexterm>
+            <indexterm>production-environment</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>usecase-5</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Set Auto Start and Auto Boost (alternate)"/>
+         <othermeta name="shortdesc"
+                    content="Alternate task version for configuring auto-start and auto-boost parameters on UPS units."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metr-pxc-reality;ups;battery;controller-box;ups-tuner"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:configure-settings;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="auto-start,auto-boost,configuration"/>
+         <othermeta name="usecase" content="configure-settings"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>From the <uicontrol>Main Menu</uicontrol>, select <menucascade>
+                  <uicontrol>Settings</uicontrol>
+                  <uicontrol>System</uicontrol>
+               </menucascade> using the UP/DOWN keys and the ENTER key. You can press
+the ESC key at any time to cancel the modification of the parameter
+values.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">System:►Auto Start : On Auto Boost : Off LCM Alerts: On↓</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">System:↑►ECO Mode : On </screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+         </li>
+         <li>
+            <p>Select <uicontrol>Auto Start</uicontrol>, <uicontrol>Auto
+Boost</uicontrol>, <uicontrol>LCM Alerts</uicontrol>, or <uicontrol>ECO Mode</uicontrol> using the UP/DOWN keys and the ENTER key.</p>
+         </li>
+         <li>
+            <p>Select <uicontrol>On</uicontrol> or <uicontrol>Off</uicontrol> using the UP/DOWN keys and the ENTER key to save the setting.</p>
+            <stepxmp>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">System:↕Auto Start:  On Auto Boost:  Off LCM Alerts: On↓</screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+               <table outputclass="font:10">
+                  <tgroup cols="1">
+                     <colspec colname="col1"/>
+                     <tbody>
+                        <row>
+                           <entry>
+                              <screen xml:space="preserve">System:↑↕ECO Mode : On </screen>
+                           </entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </stepxmp>
+            <stepresult>
+               <p>The UPS will go to ECO mode one minute after turning
+on the inverter.</p>
+            </stepresult>
+         </li>
+      </ol>
+   </body>
+</topic>

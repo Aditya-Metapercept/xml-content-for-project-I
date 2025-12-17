@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t39258E4-BDF3-11F0-1928-09173F13E4C5" xml:lang="en-us">
+   <title>Traveling with the Load</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15+05:30"/>
+         <revised modified="2025-11-15+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,safety-compliance-officers,management,training-officers"/>
+         <keywords><!-- product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>forks</indexterm>
+            <indexterm>load-carriage</indexterm>
+            <indexterm>mast</indexterm>
+            <indexterm>stability-system</indexterm>
+            <!-- process layer -->
+            <indexterm>travel-with-load</indexterm>
+            <indexterm>load-stability-check</indexterm>
+            <indexterm>speed-control</indexterm>
+            <indexterm>path-clearance</indexterm>
+            <indexterm>operator-communication</indexterm>
+            <!-- context layer -->
+            <indexterm>worksite-navigation</indexterm>
+            <indexterm>warehouse-aisles</indexterm>
+            <indexterm>load-handling</indexterm>
+            <indexterm>operator-safety</indexterm>
+            <indexterm>fleet-operation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Traveling With the Load"/>
+         <othermeta name="shortdesc"
+                    content="Guidance and safety practices for moving while carrying a load to preserve stability and avoid incidents."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="forks;load;mast;operator;ground-surface"/>
+         <othermeta name="taxonomy"
+                    content="domain:operations;usecase:load-transport;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="travel-with-load,stability,safety"/>
+         <othermeta name="usecase" content="safe transportation of loads within site"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <note id="note_evk_jyy_5gc" type="notice">
+            <p>Travel with the load as low as possible, while still maintaining ground clearance.</p>
+         </note>
+         <p>
+            <fig id="fig_ppb_kyy_5gc">
+               <image href="media/image791.png" id="image_spb_kyy_5gc" placement="inline"/>
+            </fig>
+         </p>
+         <p>Typical Example</p>
+      </context>
+      <ol>
+         <li>
+            <p>Carry the load as low as possible but maintain clearance.</p>
+         </li>
+         <li>
+            <p>On grades, always travel with the load on the UPHILL side, as shown above. </p>
+            <p>
+               <p>
+                  <fig id="fig_asm_kyy_5gc">
+                     <image href="media/image792.png" id="image_csm_kyy_5gc" placement="inline"/>
+                  </fig>
+               </p>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>For better vision, travel in reverse with bulky loads.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

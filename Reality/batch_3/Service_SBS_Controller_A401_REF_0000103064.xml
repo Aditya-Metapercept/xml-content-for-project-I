@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SBSControllerA401-4C4567B9" xml:lang="en">
+   <title>Static Bypass Switch Controller Board (A401)</title>
+   <shortdesc>
+      <keyword>Reality EMEA</keyword>
+   </shortdesc>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-11-18+05:30"/>
+         <revised modified="2025-11-18"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>static-bypass-switch</indexterm>
+            <indexterm>controller-box</indexterm>
+            <indexterm>controller-board</indexterm>
+            <indexterm>sbs-module</indexterm>
+            <indexterm>interface-board</indexterm>
+            <indexterm>main-contactor</indexterm>
+            <!-- Process layer -->
+            <indexterm>start-up</indexterm>
+            <indexterm>firmware-update</indexterm>
+            <indexterm>troubleshooting</indexterm>
+            <indexterm>diagnostics</indexterm>
+            <indexterm>replace-module</indexterm>
+            <indexterm>measure-voltage-and-current</indexterm>
+            <indexterm>status-monitoring</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-installation</indexterm>
+            <indexterm>ups-troubleshooting</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-operations</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>safety-procedures</indexterm>
+            <indexterm>maintenance-workshop</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Static Bypass Switch Controller Board (A401)"/>
+         <othermeta name="shortdesc"
+                    content="The static bypass switch has its own controller; this topic describes the A401 controller board, its role and interactions with the static bypass switch."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static bypass switch;controller board;interface board;main contactor;power module"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-and-service;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="static-bypass,controller-board,firmware,diagnostics,status-monitoring"/>
+         <othermeta name="usecase" content="maintenance-and-service"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <p>The static bypass switch has its own controller. If the
+output voltage goes out of tolerance due to a malfunction in the main
+controller, the static bypass switch controller becomes active and
+independent. Following a malfunction in the main controller, the static
+bypass switch controller takes over and transfers immediately to static
+bypass.</p>
+         <p>Under normal operating conditions, the static bypass
+switch is fully controlled by the UPS controller. The static bypass
+switch controller analyses the control signals from the UPS controller,
+performs the corresponding tasks, and returns a status signal to the
+UPS controller. If the communication fails, the static bypass switch
+can operate independently.</p>
+         <p>The firmware mainly performs the
+following tasks:<ul>
+               <li>
+                  <p>Measures the control frequency coming from the UPS controller
+and reacts accordingly</p>
+               </li>
+               <li>
+                  <p>Controls the thyristors</p>
+               </li>
+               <li>
+                  <p>Generates a status feedback signal for the UPS controller</p>
+               </li>
+               <li>
+                  <p>Monitors the PSU</p>
+               </li>
+               <li>
+                  <p>Controls three LEDs and two open collector outputs to display
+the actual state</p>
+               </li>
+               <li>
+                  <p>Measures and evaluates the system output voltage</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Status LEDs for the Static Bypass Switch Controller</title>
+         <fig>
+            <image href="../Images/Reality_static_switch_controller_board_status_leds_120mm_0000152213.svg"
+                   scalefit="yes"
+                   placement="inline"/>
+         </fig>
+         <table>
+            <tgroup cols="4">
+               <colspec colname="COLSPEC1" colwidth="20%"/>
+               <colspec colname="COLSPEC0" colwidth="30%"/>
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <thead>
+                  <row>
+                     <entry valign="top">LED
+number </entry>
+                     <entry valign="top">LED
+function</entry>
+                     <entry valign="top">LED
+status</entry>
+                     <entry valign="top">Controller
+status</entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry morerows="3">1</entry>
+                     <entry morerows="3">Indication
+of the operation mode</entry>
+                     <entry>LED
+ON</entry>
+                     <entry>
+                        <uicontrol>DISARM</uicontrol> mode<footnote>The system is in standby mode.</footnote>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Slow
+flashing LED</entry>
+                     <entry>
+                        <uicontrol>ARM</uicontrol> mode<footnote>The system is in normal operation.</footnote>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Fast
+flashing LED </entry>
+                     <entry>
+                        <uicontrol>FIRE</uicontrol> mode<footnote>The system is in requested or temporary
+static bypass operation.</footnote>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>Very
+fast flashing LED</entry>
+                     <entry>
+                        <uicontrol>INDEPENDENT FIRE</uicontrol> mode</entry>
+                  </row>
+                  <row>
+                     <entry>2</entry>
+                     <entry>Controller OK</entry>
+                     <entry>LED
+ON</entry>
+                     <entry>Controller
+OK</entry>
+                  </row>
+                  <row>
+                     <entry>3</entry>
+                     <entry>Independent
+operation<footnote>When the static bypass switch is in the operation mode <uicontrol>ARM</uicontrol> or <uicontrol>FIRE</uicontrol> and the control signal
+from the UPS controller is lost, the static bypass switch controller
+can become independent.</footnote>
+                     </entry>
+                     <entry>LED ON</entry>
+                     <entry>Independent operation</entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </section>
+      <section>
+         <title>ARM State (Normal Operation)</title>
+         <p>When the control
+signal is lost in ARM state, the output voltage is monitored by the
+fast-detector during 500 ms:<ul>
+               <li>
+                  <p>If the output voltage remains OK, the static bypass switch
+switches to <uicontrol>DISARM</uicontrol> after 500 ms.</p>
+               </li>
+               <li>
+                  <p>If the output voltage is lost within these 500 ms, the static
+bypass switch switches to <uicontrol>FIRE</uicontrol> state.</p>
+               </li>
+            </ul>After the static bypass switch has switched to <uicontrol>FIRE</uicontrol> state, it again monitors the output voltage (RMS detector and DC
+detector):<ul>
+               <li>
+                  <p>If the voltage is lost, the static bypass switch switches to <uicontrol>ERROR</uicontrol> state. A reset is then required in order to turn
+on the static bypass switch again. Within the first 200 ms after switching
+to <uicontrol>FIRE</uicontrol>, the static bypass switch does not
+switch off.</p>
+               </li>
+               <li>
+                  <p>If DC is detected on the output, the static bypass switch switches
+to <uicontrol>ERROR</uicontrol> state. A reset is then required in
+order to turn on the static bypass switch again. Within the first
+200 ms after switching to <uicontrol>FIRE</uicontrol>, the static
+bypass switch does not switch off.</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>FIRE State (Requested or Temporary Static Bypass Operation)</title>
+         <p>When the control signal is lost in the <uicontrol>FIRE</uicontrol> state, the static bypass switch stays in the <uicontrol>FIRE</uicontrol> state. The static bypass switch monitors the output voltage (RMS
+detector and DC detector):<ul>
+               <li>
+                  <p>If the voltage is lost, the static bypass switch switches to <uicontrol>ERROR</uicontrol> state. A reset is then required in order to turn
+on the static bypass switch again.</p>
+               </li>
+               <li>
+                  <p>If DC is detected on the output, the static bypass switch switches
+to <uicontrol>ERROR</uicontrol> state. A reset is then required in
+order to turn on the static bypass switch again.</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Regaining Control over the Static Bypass Switch</title>
+         <p>When the UPS controller recovers from an inoperable state or a
+cable is reconnected, control over the static bypass switch can be
+regained.<ul>
+               <li>
+                  <p>If the static bypass switch is independently in <uicontrol>FIRE</uicontrol> state, control cannot be regained. A firmware restart
+(reset) is required.</p>
+               </li>
+               <li>
+                  <p>If the static bypass switch is in <uicontrol>ERROR</uicontrol> state due to independent switching off from <uicontrol>FIRE</uicontrol> state (low voltage or DC detection), control cannot be regained.
+A firmware restart (reset) is required.</p>
+               </li>
+               <li>
+                  <p>If the static bypass switch is in another state, it reacts
+immediately to the regained control signal.</p>
+               </li>
+            </ul>
+         </p>
+      </section>
+      <section>
+         <title>Overview of the Static Bypass Switch Controller Board</title>
+         <p>
+            <fig>
+               <title>Static bypass switch controller board</title>
+               <image href="../Images/0j-0p2560_sbscontrollerboard_120mm_0000117137.svg"
+                      scalefit="yes"
+                      translate="no"
+                      xml:lang="en"
+                      placement="inline"/>
+               <ol>
+                  <li>
+                     <p>To interface board: SBS control in</p>
+                  </li>
+                  <li>
+                     <p>Bypass input</p>
+                  </li>
+                  <li>
+                     <p>To power connection board: sense of bypass voltage</p>
+                  </li>
+                  <li>
+                     <p>Voltage selection for static bypass switch supply T403</p>
+                  </li>
+                  <li>
+                     <p>To thyristor (Q401)</p>
+                  </li>
+                  <li>
+                     <p>Voltage selection / Output (bypass) / Voltage measuring</p>
+                  </li>
+                  <li>
+                     <p>To fan module: E401 fan supply and fan speed sense</p>
+                  </li>
+                  <li>
+                     <p>To interface board: fan speed control and fan speed monitoring</p>
+                  </li>
+                  <li>
+                     <p>LED indications</p>
+                  </li>
+               </ol>
+            </fig>
+         </p>
+      </section>
+   </body>
+</topic>

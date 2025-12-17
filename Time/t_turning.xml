@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t392848A-BDF3-11F0-9705-09173F13E4C5" xml:lang="en-us">
+   <title>Turning</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T14:00:00+05:30"/>
+         <revised modified="2025-11-15T14:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-and-compliance-officers"/>
+         <keywords>
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>steering-system</indexterm>
+            <indexterm>turntable</indexterm>
+            <indexterm>hydraulic-steering</indexterm>
+            <indexterm>operator-controls</indexterm>
+            <indexterm>turning</indexterm>
+            <indexterm>steering-manoeuvre</indexterm>
+            <indexterm>turn-radius-check</indexterm>
+            <indexterm>obstruction-clearance</indexterm>
+            <indexterm>safe-manoeuvre-practice</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>warehouse-navigation</indexterm>
+            <indexterm>site-safety</indexterm>
+            <indexterm>load-handling</indexterm>
+            <indexterm>workplace-ergonomics</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Turning"/>
+         <othermeta name="shortdesc"
+                    content="Operational guidance for turning and steering the unit safely including clearance checks, correct manoeuvre technique and turn radius awareness."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="steering-wheel;hydraulic-valve;operator-controls;turn-radius;load"/>
+         <othermeta name="taxonomy"
+                    content="domain:operator-procedures;usecase:manoeuvre-guidance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="turning,steering,clearance,manoeuvre,operator"/>
+         <othermeta name="usecase"
+                    content="safe turning and steering operation guidance for operators"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>
+            <fig id="fig_ldr_syy_5gc">
+               <image href="media/image800.png" id="image_ndr_syy_5gc" placement="inline"/>
+            </fig>
+         </p>
+      </context>
+      <ol>
+         <li>
+            <p>When turning sharp corners, keep close to the inside corner. Begin the turn when the
+        inside drive wheel meets the corner. </p>
+            <p>
+               <p>
+                  <fig id="fig_y2l_tyy_5gc">
+                     <image href="media/image801.png" id="image_afl_tyy_5gc" placement="inline"/>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>In narrow aisles, keep away from the stockpile when turning
+into the aisle. Allow for counterweight swing.</p>
+         </li>
+      </ol>
+   </body>
+</topic>

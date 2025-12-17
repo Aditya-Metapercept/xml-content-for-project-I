@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Ventilation-4D0AA606" xml:lang="en">
+   <title>Environment and Ventilation</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-01+05:30"/>
+         <revised modified="2025-12-01"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="installation,engineering,facility planner,maintenance,HVAC technician,site readiness"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ventilation</indexterm>
+            <indexterm>airflow path</indexterm>
+            <indexterm>cooling fans</indexterm>
+            <indexterm>heat dissipation</indexterm>
+            <indexterm>thermal management</indexterm>
+            <indexterm>exhaust outlets</indexterm>
+            <indexterm>air intake grills</indexterm>
+            <!-- Process layer -->
+            <indexterm>ventilation planning</indexterm>
+            <indexterm>thermal load calculation</indexterm>
+            <indexterm>clearance requirement assessment</indexterm>
+            <indexterm>airflow verification</indexterm>
+            <indexterm>installation site evaluation</indexterm>
+            <indexterm>cooling requirement analysis</indexterm>
+            <indexterm>obstruction removal procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>facility HVAC environment</indexterm>
+            <indexterm>equipment room design</indexterm>
+            <indexterm>industrial thermal conditions</indexterm>
+            <indexterm>site preparation</indexterm>
+            <indexterm>UPS cooling guidelines</indexterm>
+            <indexterm>continuous operation context</indexterm>
+            <indexterm>heat management strategy</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Environment and Ventilation"/>
+         <othermeta name="shortdesc"
+                    content="Describes the ventilation requirements for the system, including airflow paths, clearance distances, cooling considerations, and site preparation guidelines."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="cooling fans; air intake grills; exhaust openings; heat sinks; temperature sensors; airflow channels"/>
+         <othermeta name="taxonomy"
+                    content="domain:thermal management;usecase:ventilation-guidelines;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="ventilation,airflow,cooling,clearance,HVAC,thermal management"/>
+         <othermeta name="usecase"
+                    content="Guide installers and facility planners in preparing adequate ventilation for safe UPS operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/vent_space_req">
+         <messagepanel>
+            <typeofhazard/>
+            <howtoavoid/>
+         </messagepanel>
+      </hazardstatement>
+      <p>For sufficient ventilation make sure that the system placement
+follows the minimum clearances. Make sure that the system environment
+is within the specifications. For information about the environment
+specifications, see the <i>Technical Data</i>.</p>
+      <p>The necessary quantity of air cooling per hour from the cooling
+system depends on:<ul>
+            <li>
+               <p>The size and number of systems</p>
+            </li>
+            <li>
+               <p>The specified ambient temperature</p>
+            </li>
+            <li>
+               <p>The temperature of the incoming cold air from the cooling system</p>
+            </li>
+         </ul>
+      </p>
+   </body>
+</topic>

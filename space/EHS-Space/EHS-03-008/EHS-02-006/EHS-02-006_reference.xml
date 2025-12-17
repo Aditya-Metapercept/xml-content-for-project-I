@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1D2462F-BB01-11F0-1861-09173F13E4C5" xml:lang="en-us">
+   <title>Reference</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T13:00:00+05:30"/>
+         <revised modified="2025-12-02T13:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="safety and compliance officers,plant management,legal and regulatory affairs"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>reference-library</indexterm>
+            <indexterm>regulatory-links</indexterm>
+            <indexterm>standards-repository</indexterm>
+            <indexterm>external-guidance</indexterm>
+            <!-- Process layer -->
+            <indexterm>reference-materials</indexterm>
+            <indexterm>regulatory-references</indexterm>
+            <indexterm>standards-alignment</indexterm>
+            <indexterm>citation-management</indexterm>
+            <indexterm>document-linking</indexterm>
+            <!-- Context layer -->
+            <indexterm>local-environmental-regulations</indexterm>
+            <indexterm>industry-standards</indexterm>
+            <indexterm>waste-classification-guidance</indexterm>
+            <indexterm>plant-compliance</indexterm>
+            <indexterm>external-audit-sources</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Reference"/>
+         <othermeta name="shortdesc"
+                    content="References to regulations, standards and external guidance relevant to waste management and EHS compliance."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="regulation;standard;guidance-document;external-agency;reference-link"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery-and-industrial-equipment;usecase:regulatory-reference;industry:glass-manufacturing-heavy-machinery-and-industrial-equipment"/>
+         <othermeta name="tags" content="reference,regulation,standards"/>
+         <othermeta name="usecase"
+                    content="provide-authoritative-references-for-compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ul id="ul_zxs_vzt_4zb">
+            <li>EHS-02-006-F001Waste Determination</li>
+            <li>EHS-02-006-F002Weekly Waste Inspection</li>
+         </ul>
+      </section>
+      <section id="section_fzr_wzt_4zb">
+         <title>Document Classification</title>
+         <p>
+            <ul id="ul_idr_xzt_4zb">
+               <li>Safety and Environment</li>
+            </ul>
+         </p>
+      </section>
+   </body>
+</topic>

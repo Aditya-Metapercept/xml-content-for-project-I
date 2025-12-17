@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1CE78A1-BB01-11F0-2465-09173F13E4C5" xml:lang="en-us">
+   <title>Revision History</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T12:00:00+05:30"/>
+         <revised modified="2025-12-02T12:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Document Control, Management, Safety Compliance Officers, Quality Assurance, Regulatory Affairs"/>
+         <keywords>
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>document-control-system</indexterm>
+            <indexterm>revision-log</indexterm>
+            <indexterm>version-history</indexterm>
+            <indexterm>audit-trail</indexterm>
+            <indexterm>revision-history-record</indexterm>
+            <indexterm>change-control-process</indexterm>
+            <indexterm>document-approval</indexterm>
+            <indexterm>versioning-procedure</indexterm>
+            <indexterm>update-notification</indexterm>
+            <indexterm>compliance-recordkeeping</indexterm>
+            <indexterm>governance-controls</indexterm>
+            <indexterm>regulatory-audit</indexterm>
+            <indexterm>management-review</indexterm>
+            <indexterm>plant-documentation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Revision history for EHS01-108"/>
+         <othermeta name="shortdesc"
+                    content="Tracks revisions, change reasons and approvers for EHS01-108 to support governance and audits."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="revision-entries;approvers;change-descriptions;effective-dates;document-owners"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs;usecase:revision-tracking;industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="revision-history,version-control,change-management,audit-trail"/>
+         <othermeta name="usecase"
+                    content="record-and-track-document-revisions-for-compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table frame="all" rowsep="1" colsep="1" id="table_vcq_s5z_2zb">
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>2015-12-30</entry>
+                     <entry>
+                        <p>Approved by Jim Joyce, V P</p>
+                        <p>Original Issue</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>2017-10-04</entry>
+                     <entry>
+                        <p>Approved by Joseph St. John, GT EHS Manager</p>
+                        <p>Updated with the following changes:</p>
+                        <p>Replaced fire plan section with emergency response plan section</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

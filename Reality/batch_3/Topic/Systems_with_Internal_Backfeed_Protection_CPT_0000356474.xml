@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SystemsWithInternalBackfeedProtecti-844B4EFE" xml:lang="en">
+   <title>Internal Backfeed Protection</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-03+05:30"/>
+         <revised modified="2025-12-03"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="engineering,system designer,maintenance,installation team,operations,technical support"/>
+         <keywords><!-- Product layer -->
+            <indexterm>internal backfeed protection</indexterm>
+            <indexterm>UPS protection circuitry</indexterm>
+            <indexterm>internal relay system</indexterm>
+            <indexterm>protection logic</indexterm>
+            <indexterm>backfeed monitoring</indexterm>
+            <indexterm>bypass protection integration</indexterm>
+            <indexterm>internal isolation mechanisms</indexterm>
+            <!-- Process layer -->
+            <indexterm>fault isolation workflow</indexterm>
+            <indexterm>internal protection operation</indexterm>
+            <indexterm>backfeed detection procedure</indexterm>
+            <indexterm>protection sequence steps</indexterm>
+            <indexterm>system integrity checks</indexterm>
+            <indexterm>safety validation process</indexterm>
+            <indexterm>operational event analysis</indexterm>
+            <!-- Context layer -->
+            <indexterm>electrical safety environment</indexterm>
+            <indexterm>industrial UPS protection</indexterm>
+            <indexterm>facility power safety domain</indexterm>
+            <indexterm>fault event mitigation context</indexterm>
+            <indexterm>critical infrastructure reliability</indexterm>
+            <indexterm>internal switching environment</indexterm>
+            <indexterm>system protection architecture</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Systems with Internal Backfeed Protection"/>
+         <othermeta name="shortdesc"
+                    content="Explains the operation and design of UPS systems equipped with internal backfeed protection, including detection logic, isolation behavior, and system safety functions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="internal protection relay; detection circuitry; inverter; bypass line; load bus; control electronics; isolation mechanism"/>
+         <othermeta name="taxonomy"
+                    content="domain:system protection;usecase:internal-backfeed-protection;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="backfeed protection,internal relay,UPS safety,protection logic,fault isolation"/>
+         <othermeta name="usecase"
+                    content="Help engineers and operators understand the operation and safety behavior of UPS systems using internal backfeed protection mechanisms"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <p>With internal backfeed protection selected the AC bypass supply
+connection(s) are provided with suitable protection and isolators.</p>
+      </div>
+   </body>
+</topic>

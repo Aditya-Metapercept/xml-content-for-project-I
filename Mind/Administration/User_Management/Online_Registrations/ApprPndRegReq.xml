@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="AdminApprPndgReg">
+   <title>Approving a Pending Registration Request</title>
+   <shortdesc/>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-20+05:30"/>
+         <revised modified="2025-11-20"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="administrator,engineering,management,external contractors,analyst"/>
+         <keywords><!-- Product layer -->
+            <indexterm>pending-registrations</indexterm>
+            <indexterm>approval-queue</indexterm>
+            <indexterm>user-management</indexterm>
+            <indexterm>registration-form</indexterm>
+            <indexterm>account-creation</indexterm>
+            <!-- Process layer -->
+            <indexterm>approve-registration</indexterm>
+            <indexterm>validate-user-details</indexterm>
+            <indexterm>assign-default-role</indexterm>
+            <indexterm>notify-user</indexterm>
+            <indexterm>record-approval</indexterm>
+            <!-- Context layer -->
+            <indexterm>mind-administration-guide</indexterm>
+            <indexterm>capital-program-management</indexterm>
+            <indexterm>user-onboarding</indexterm>
+            <indexterm>access-provisioning</indexterm>
+            <indexterm>compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>Mind-Administration-Guide</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approve Pending Registration Request"/>
+         <othermeta name="shortdesc"
+                    content="Steps to approve a pending user registration request."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="registration-request;approver;user-account;role;notification"/>
+         <othermeta name="taxonomy"
+                    content="domain:pending-registrations;usecase:approve-pending-registration;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="approve-registration,validate-user-details,assign-default-role,notify-user,record-approval"/>
+         <othermeta name="usecase" content="approve-pending-registration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>You can approve a pending user account registration for non-Active Directory users.  After approving the pending account, you will need to access the user account and assign roles to the new user. </context>
+      <ol>
+         <li>
+            <p>In the module menu, click <uicontrol>Administration</uicontrol>.</p>
+            <p>The <uicontrol>ADMINISTRATION</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>In the navigation pane, expand <uicontrol>User Management</uicontrol>, and then click <uicontrol>Pending Registrations</uicontrol>.</p>
+            <p>The <uicontrol>PENDING REGISTRATIONS LIST</uicontrol> page is displayed.</p>
+         </li>
+         <li>
+            <p>Select the required user registration request to approve.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>Approve</uicontrol>.</p>
+            <p>A confirmation message is displayed.</p>
+         </li>
+         <li>
+            <p>Click <uicontrol>OK</uicontrol>. </p>
+            <p>The user is added to the application database. You can view the user account in the <uicontrol>USER ACCOUNTS</uicontrol> page. <note> The approved user accounts require the Administrator to define the user details, roles, and business units. </note>
+               <ph product="Exclude_PG_Content">For information on accessing the <uicontrol>USER ACCOUNTS</uicontrol> page, refer to<xref href="../../../CoSP/Administration/User_Management/User_Accounts/UserAccs.xml">User Accounts</xref>.</ph>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>
