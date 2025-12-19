@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38FFB33-BDF3-11F0-1312-09173F13E4C5" xml:lang="en-us">
+   <title>Moving and Stopping the Lift Truck</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:00:00+05:30"/>
+         <revised modified="2025-11-15T15:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-compliance-officers,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>powered-lift-truck</indexterm>
+            <indexterm>braking-system</indexterm>
+            <indexterm>drive-train</indexterm>
+            <indexterm>steering-assembly</indexterm>
+            <!-- Process layer -->
+            <indexterm>moving-and-stopping-procedure</indexterm>
+            <indexterm>controlled-stop</indexterm>
+            <indexterm>velocity-management</indexterm>
+            <indexterm>brake-application-technique</indexterm>
+            <indexterm>obstacle-avoidance</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse-traffic-management</indexterm>
+            <indexterm>load-stability</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>safety-zone-procedures</indexterm>
+            <indexterm>fleet-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="moving and stopping the lift truck"/>
+         <othermeta name="shortdesc"
+                    content="Procedures for moving, controlling speed and safely stopping the lift truck under normal and loaded conditions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="brake-system;drive-motor;steering-column;forks;load-center"/>
+         <othermeta name="taxonomy"
+                    content="domain:material-handling;usecase:operator-maneuvering;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags"
+                    content="stopping-technique,brake-application,motion-control"/>
+         <othermeta name="usecase"
+                    content="safe maneuvering and stopping guidance for operators"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Start the engine. See item “Starting the
+                Engine”</p>
+         </li>
+         <li>
+            <p>Release the parking brake button
+                </p>
+            <p>
+               <fig>
+                  <image href="media/image783.png" placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+            </p>
+         </li>
+         <li>
+            <p>Select the direction of travel by PUSHING the directional lever
+                FORWARD for forward direction or PULLING the lever BACK for reverse
+                direction.</p>
+            <p>
+               <fig>
+                  <image href="media/image756(1).png" placement="inline"/>
+               </fig>
+               <p>Typical Example</p>
+               <note>
+                  <p>From a stooped position, move the lift truck in first (low) range ONLY.</p>
+               </note>
+               <note type="warning">
+                  <p>A lift truck with the engine running but without an operator can
+                        move slowly (creep) if the transmission is left engaged.</p>
+                  <p>This could result in personal injury.</p>
+                  <p>Always place the transmission control levers in the NEUTRAL
+                        (centre) position and apply the parking brake before dismounting
+                        from the lift truck.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>RELEASE the service foot brake.</p>
+         </li>
+         <li>
+            <p>PUSH DOWN on the accelerator pedal to obtain the desired travel
+                speed. RELEASE the pedal to decrease travel speed.</p>
+         </li>
+         <li>
+            <p>Transmission speed changes to second and third speed range can
+                be made on the go, without deceleration or braking. When faster
+                travel speed is needed.
+                </p>
+            <p>
+               <note type="notice">
+                  <p>Come to a complete stop before changing direction of travel.</p>
+               </note>
+               <note type="warning">
+                  <p>Sudden reversal of a loaded lift truck traveling forward can
+                        cause the load to fail or the lift truck to tip over.</p>
+                  <p>Stop the loaded lift truck completely, before shifting to
+                        reverse.</p>
+                  <p>Failure to comply could result in personal injury.</p>
+               </note>
+               <note type="note">
+                  <p>Where conditions permit, directional changes
+                        can be made under full power at speeds up to 8 km/h (5 mph). A
+                        speed of 8 km/h (5 mph) is a fast walk. Directional shift changes
+                        at speeds above 8 km/h (5 mph) are considered abusive. Bring the
+                        lift truck to a complete stop where load stability or other factors
+                        prevent safe operation under full power shifts.</p>
+               </note>
+            </p>
+         </li>
+         <li>
+            <p>To change the lift truck direction of travel, RELEASE the
+                accelerator pedal.</p>
+         </li>
+         <li>
+            <p>PUSH DOWN on the service foot brake pedal to bring the lift
+                truck to a complete stop.</p>
+         </li>
+         <li>
+            <p>SHIFT the directional lever to the desired direction of travel.
+                Rotate the speed selector lever to first (low) speed range, if it
+                is not already in this position.</p>
+         </li>
+         <li>
+            <p>RELEASE the service foot brake. PUSH DOWN on the accelerator
+                pedal to obtain the desired travel speed.</p>
+         </li>
+         <li>
+            <p>To stop the lift truck when traveling in either direction,
+                RELEASE accelerator pedal.</p>
+         </li>
+         <li>
+            <p>PUSH DOWN on service foot brake pedal and bring the lift truck
+                to a smooth stop.</p>
+         </li>
+      </ol>
+   </body>
+</topic>
