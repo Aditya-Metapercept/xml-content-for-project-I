@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC8A9F43-BB9C-11F0-1251-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>approval-record</indexterm>
+            <indexterm>sign-off</indexterm>
+            <indexterm>authorization</indexterm>
+            <indexterm>document-control</indexterm>
+            <indexterm>official-record</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-process</indexterm>
+            <indexterm>review</indexterm>
+            <indexterm>authorization-workflow</indexterm>
+            <indexterm>escalation</indexterm>
+            <indexterm>validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>metr-mlt-soul</indexterm>
+            <indexterm>management</indexterm>
+            <indexterm>quality</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Approval and sign-off metadata for the procedure."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver;signature;date;department;authority level"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:approval-and-signoff;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="approval,signoff,authorization,review,validation"/>
+         <othermeta name="usecase" content="approval-and-signoff"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Representatives of the Soul Approval Team<table id="table_o2y_thz_5cc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="28.75%"/>
+               <colspec colname="c2" colwidth="39.65%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Person</p>
+                     </entry>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Michael Hu</p>
+                     </entry>
+                     <entry>
+                        <p>Melting Process Engineer – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Connie Martin</p>
+                     </entry>
+                     <entry>
+                        <p>Process Global Safety Manager</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
