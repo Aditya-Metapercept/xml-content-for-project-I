@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t38B28F2-BDF3-11F0-3539-09173F13E4C5" xml:lang="en-us">
+   <title>Carriage Chain Adjustment</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-11-15T15:30:00+05:30"/>
+         <revised modified="2025-11-15T15:30:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-time-cd100120140160s</indexterm>
+            <indexterm>carriage</indexterm>
+            <indexterm>chain</indexterm>
+            <indexterm>drive-system</indexterm>
+            <indexterm>roller</indexterm>
+            <!-- Process layer -->
+            <indexterm>adjustment</indexterm>
+            <indexterm>tensioning</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>lubrication</indexterm>
+            <indexterm>alignment</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance</indexterm>
+            <indexterm>mro</indexterm>
+            <indexterm>warehouse</indexterm>
+            <indexterm>industrial-plant</indexterm>
+            <indexterm>fleet-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-Time-CD100120140160S</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Carriage Chain Adjustment"/>
+         <othermeta name="shortdesc"
+                    content="Procedure to inspect and adjust carriage chain tension and alignment to ensure smooth operation and avoid premature wear."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="chain;carriage;roller;tensioner"/>
+         <othermeta name="taxonomy"
+                    content="domain:heavy-machinery-and-industrial-equipment;usecase:drive-system-maintenance;industry:heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="carriage,chain,adjustment"/>
+         <othermeta name="usecase" content="preventive-maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <p>
+            <image href="media/image957.png" placement="inline"/>
+         </p>
+         <p>Typical example for carriage chain</p>
+         <p>Make sure that carriage height is correct. If correct, adjust
+chain for equal tension. If not, adjust chain for correct carriage
+height by adjusting anchor nuts ①.</p>
+         <note id="note_nf5_f11_vgc" type="note">
+            <p>See the previous section, “Carriage Roller Extrusion” in “When Required” for proper
+        carriage height.</p>
+         </note>
+      </context>
+      <ol>
+         <li>
+            <p>Fully lower the carriage and tilt mast forward or lift the
+carriage and put blocks under the carriage to release the tension
+from the lift chains.</p>
+         </li>
+         <li>
+            <p>Remove bolt ② washer ③, spacer ④ stopper
+⑤ and adjust nut ① to get proper distance from bottom
+of inner upright to the bottom of carriage bearing.</p>
+         </li>
+         <li>
+            <p>Make adjustment anchor nut ① for equal chain
+tension.</p>
+         </li>
+         <li>
+            <p>Set the mast vertical and raise the carriage and check equal
+chain tension. If not equal, repeat the same procedure as step 1
+through step 3.</p>
+         </li>
+         <li>
+            <p>Put LOCTITE No. 242 tread lock on the threads of the anchor
+nuts ① after the adjustment is completed.</p>
+         </li>
+      </ol>
+   </body>
+</topic>
