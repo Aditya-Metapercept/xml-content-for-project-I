@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1E829B9-BB01-11F0-1477-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T18:00:00+05:30"/>
+         <revised modified="2025-12-02T18:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="environmental-technicians,safety-and-compliance-officers,operations-teams,plant-management,maintenance-personnel"/>
+         <keywords><!-- Product layer -->
+            <indexterm>environmental-safety-guidance</indexterm>
+            <indexterm>sampling-ppe-guideline</indexterm>
+            <indexterm>hazard-control-measures</indexterm>
+            <indexterm>safe-sampling-protocols</indexterm>
+            <indexterm>spill-response-procedure</indexterm>
+            <!-- Process layer -->
+            <indexterm>site-hazard-assessment</indexterm>
+            <indexterm>spill-containment</indexterm>
+            <indexterm>ppe-requirements</indexterm>
+            <indexterm>decontamination-procedure</indexterm>
+            <indexterm>waste-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>stormwater-hazard-risks</indexterm>
+            <indexterm>environmental-protection</indexterm>
+            <indexterm>plant-operational-safety</indexterm>
+            <indexterm>regulatory-safety-standards</indexterm>
+            <indexterm>emergency-response-capability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety"/>
+         <othermeta name="shortdesc"
+                    content="Safety considerations for stormwater sampling, PPE requirements, spill response and decontamination to protect personnel and the environment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ppe;spill-kits;decontamination-stations;waste-containers;sampling-labels"/>
+         <othermeta name="taxonomy"
+                    content="domain:environmental-management/usecase:safety-and-emergency-response/industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="safety,ppe,spill-response,decontamination"/>
+         <othermeta name="usecase"
+                    content="ensure-safety-during-environmental-sampling-and-response"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Space standard safety requirements and procedures defined by the Global Environmental
+         Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+         national requirements. Safety equipment and instructions specific to the completion of this
+         work instruction are detailed in the <xref href="EHS-03-010_instructions.xml">Instructions</xref> Section.<table id="table_jhj_ytv_pzb">
+            <tgroup cols="5">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <colspec colname="c3" colwidth="1*"/>
+               <colspec colname="c4" colwidth="1*"/>
+               <colspec colname="c5" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <fig id="fig_khj_ytv_pzb">
+                              <title>Danger</title>
+                              <image href="media/image1.jpg"
+                                     placement="break"
+                                     id="image_lhj_ytv_pzb"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_mhj_ytv_pzb">
+                              <title>Slip</title>
+                              <image href="media/image2.jpg"
+                                     placement="break"
+                                     id="image_nhj_ytv_pzb"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_ohj_ytv_pzb">
+                              <title>Trip</title>
+                              <image href="media/image3.jpg"
+                                     placement="break"
+                                     id="image_phj_ytv_pzb"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_qhj_ytv_pzb">
+                              <title>Drop</title>
+                              <image href="media/image4.jpg"
+                                     placement="break"
+                                     id="image_rhj_ytv_pzb"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_shj_ytv_pzb">
+                              <title>Crush Hand</title>
+                              <image href="media/image5.jpg"
+                                     placement="break"
+                                     id="image_thj_ytv_pzb"
+                                     align="center"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1E7B199-BB01-11F0-1365-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T18:00:00+05:30"/>
+         <revised modified="2025-12-02T18:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="operations-teams,maintenance-personnel,environmental-technicians,safety-and-compliance-officers,plant-supervisors"/>
+         <keywords><!-- Product layer -->
+            <indexterm>stormwater-sampling-protocol</indexterm>
+            <indexterm>sampling-equipment-guide</indexterm>
+            <indexterm>field-sampling-kit</indexterm>
+            <indexterm>lab-submission-tool</indexterm>
+            <indexterm>sampling-logbook</indexterm>
+            <!-- Process layer -->
+            <indexterm>sampling-instructions</indexterm>
+            <indexterm>sample-collection</indexterm>
+            <indexterm>chain-of-custody</indexterm>
+            <indexterm>sample-preservation</indexterm>
+            <indexterm>site-selection</indexterm>
+            <!-- Context layer -->
+            <indexterm>environmental-compliance</indexterm>
+            <indexterm>stormwater-management</indexterm>
+            <indexterm>plant-effluent-monitoring</indexterm>
+            <indexterm>regulatory-permit-requirements</indexterm>
+            <indexterm>zero-discharge-controls</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Instructions"/>
+         <othermeta name="shortdesc"
+                    content="Stepwise instructions for periodic stormwater sampling including site selection, sample collection, preservation and chain-of-custody."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="sampling-points;sample-containers;coolers;chain-of-custody-forms;lab-kits"/>
+         <othermeta name="taxonomy"
+                    content="domain:environmental-management/usecase:stormwater-sampling/industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="sampling,instructions,stormwater,environmental"/>
+         <othermeta name="usecase"
+                    content="collect-and-preserve-stormwater-samples-for-compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ol>
+            <li>Before starting the work instruction activity, perform the following steps:<ol>
+                  <li>Do not begin these tasks without confirmation that personnel directly involved have completed the required training associated with the work instruction activity and have reviewed this document.</li>
+                  <li>Gather necessary tools and equipment as identified below in the <xref href="EHS-03-010_equipment.xml">Equipment</xref> Section.</li>
+                  <li>Wear and use additional Personal Protective Equipment (PPE) and safety equipment required for this specific work instruction.</li>
+                  <li>Obey all applicable safety requirements and procedures.</li>
+                  <li>Notify appropriate personnel of the activity and estimated time needed to complete the tasks.</li>
+                  <li>Clearly identify, mark off, and secure the designated area defined by the work instruction activity.</li>
+                  <li>Follow all Lockout/Tagout procedures when work instruction activity requires isolating energy in the designated area. Verify energy is isolated before starting work.</li>
+                  <li>Only after energy is verified to be isolated, can the protective guarding be removed and safety interlock gates be opened.</li>
+               </ol>
+            </li>
+            <li>To properly sample stormwater, perform the following steps:<ol>
+                  <li>Obtain a copy of EHS-02-131-F002 Periodic Stormwater Sampling. <fig>
+                        <image href="media/image6.jpg" placement="break" align="center"/>
+                     </fig>
+                  </li>
+                  <li>Collect sample as soon as possible, or as local legislation directs, from a measurable storm event.</li>
+                  <li>Use a pick or hook to open the manhole at appropriate Outfall(s) <fig>
+                        <image href="media/image7.jpg" placement="break" align="center"/>
+                     </fig>
+                  </li>
+                  <li>Attach the sampling container to the pole.
+            <ol>
+                        <li>Collect sample in clean, clear glass or plastic container.</li>
+                     </ol>
+                  </li>
+                  <li>Use a pole to safely sample from above ground. 
+               <p>CAUTION: DO NOT ENTER THE MANHOLE.</p>
+                     <ol>
+                        <li>Place the opening of the collection container upstream so that the flow enters the container directly.</li>
+                        <li>Avoid touching the sides or bottom of the manhole or pipes with the collection
+                           container to prevent contamination. <fig>
+                              <image href="media/image8.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Examine in a well-lit area.
+               <ol>
+                        <li>Use a sheet of white paper beneath the sample for more accurate observation. <fig>
+                              <image href="media/image9.jpg" placement="break" align="center"/>
+                           </fig>
+                           <fig>
+                              <image href="media/image10.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Maintain the sample on-site.</li>
+               </ol>
+            </li>
+            <li>To identify indicators of stormwater pollution, perform the following steps:
+         <ol>
+                  <li>Observe the color
+            <ol>
+                        <li>Color may indicate inappropriate discharges, especially from industrial sources. Industrial discharges may be any color. </li>
+                        <li>Dark colors, such as brown, gray, or black, are most common. </li>
+                        <li>Contamination from industrial areas may come from process waters (slug or continuous discharges); from equipment and work area wash water discharged to floor drains; or from spills washed into storm drains.</li>
+                     </ol>
+                  </li>
+                  <li>Check for odor.
+            <ol>
+                        <li>Discharge odors can vary widely. Some may indicate the source of contamination. </li>
+                        <li>Industrial discharges may smell like a particular spoiled product, oil, gasoline, a specific chemical, or a solvent.
+               <ol>
+                              <li>For example, the decomposition of organic wastes in a discharge will release sulfide compounds, creating an intense smell of rotten eggs.</li>
+                           </ol>
+                        </li>
+                        <li>Significant sanitary wastewater contributions will also cause pronounced and distinctive odors.</li>
+                     </ol>
+                  </li>
+                  <li>Check Clarity (turbidity)
+            <ol>
+                        <li>Clarity is often affected by the degree of gross contamination. </li>
+                        <li>Industrial flows can be cloudy (moderate) or opaque (high). </li>
+                        <li>Undiluted industrial discharges, such as those coming from continual flow sources or intermittent spills, are often highly turbid. </li>
+                        <li>Sanitary wastewater is also often cloudy in nature. <fig>
+                              <image href="media/image11.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Check for floating solids
+            <ol>
+                        <li>A contaminated flow may also contain floatable solids or liquids. </li>
+                        <li>Identifying floatables can aid in finding the source of the contamination, because these substances are usually direct products or byproducts of the manufacturing process or the sanitary system.
+               <ol>
+                              <li>Examples of floatables of industrial origin are oils, solvents, sawdust, foams, packing materials, and fuel.</li>
+                           </ol>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Check for suspended and settled solids
+            <ol>
+                        <li>Suspended solids describe particulates of varied origin, including soils, metals,
+                           organic materials and debris that are suspended in a body of water.</li>
+                        <li>Turbulence keeps the particulates suspended in water allowing the solids to be transported downstream. For this reason, suspended solids may become settled solids in the sample.</li>
+                     </ol>
+                  </li>
+                  <li>Check for foam
+            <ol>
+                        <li>Soaps and detergents usually contain substances called brighteners, which help the detergent keep a bright white color and prevent staining. </li>
+                        <li>Soap-formed foam will retain its bright white color for many days regardless of
+                           the color or clarity of the water.</li>
+                        <li>Soaps are more efficient surfactants so they can create larger bubbles, so bubbles in soapy foams often are large and of variable size. </li>
+                        <li>Soapy foams are able to disperse easily, so they often spread out from their source. </li>
+                        <li>Natural foams are formed by organics that rapidly biodegrade and usually begin to turn brown within hours of being formed.</li>
+                        <li>Natural foams cannot create large bubbles easily, so they tend to have small bubbles that are more uniform in size. </li>
+                        <li>Natural foams do not disperse as well, so they tend to stay close to the source. <fig>
+                              <image href="media/image12.jpg" placement="break" align="center"/>
+                           </fig>
+                           <fig>
+                              <image href="media/image13.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Check for oil sheen.<ol>
+                        <li>Ensure the sheen identified is oil-based and not biological. </li>
+                        <li>Biological sheens tend to be silver, dull in color and if disturbed will break into small pieces and not reform. </li>
+                        <li>Petroleum sheens are typically shiny, rainbow colored, and will float back
+                           together if disturbed. <fig>
+                              <title>Biological oil sheen</title>
+                              <image href="media/image14.jpg" placement="break" align="center"/>
+                           </fig>
+                           <fig>
+                              <title>Petroleum sheen at a storm drain</title>
+                              <image href="media/image15.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+               </ol>
+            </li>
+            <li>To properly document, perform the following steps:<ol>
+                  <li>Specify the location where the sample was collected.</li>
+                  <li>Date and time of sample collection and examination.</li>
+                  <li>Rainfall/snowmelt amount, storm event duration, time since the last storm event, start time of discharge.</li>
+                  <li>Personnel is collecting the sample and performing a visual assessment and their signatures.</li>
+                  <li>Nature of the discharge (runoff source).<ol>
+                        <li>Rainfall or snowmelt?</li>
+                     </ol>
+                  </li>
+                  <li>Results of observations (parameters).</li>
+                  <li>Probable sources of any observed stormwater contamination.</li>
+               </ol>
+            </li>
+            <li>Upon completion of tasks, perform the following steps:<ol>
+                  <li>Replace protective guarding and close safety interlock gates.</li>
+                  <li>Confirm the designated work area is clear and communicate to personnel the intent to restart energy.</li>
+                  <li>After the designated work area is confirmed clear and personnel are aware of the pending restart, follow all Lockout/Tagout procedures to restart energy supplied to the designated area. Verify energy is active.</li>
+                  <li>Remove signs and markings from the designated work area.</li>
+                  <li>Perform basic housekeeping duties. Clean up the work space, tools and equipment. Dispose of trash. Put tools and equipment in assigned area.</li>
+                  <li>Notify appropriate personnel that the work instruction activity has been completed.</li>
+                  <li>Record and report findings and results.</li>
+                  <li>Follow appropriate instructions for notification of findings and results relating to specifications, targets and/or reaction limits.</li>
+               </ol>
+            </li>
+         </ol>
+      </section>
+   </body>
+</topic>
