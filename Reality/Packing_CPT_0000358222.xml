@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Packing-8744D7DB" xml:lang="en">
+   <title>Packing Process Information</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>packing-instructions</indexterm>
+            <indexterm>packaging-materials</indexterm>
+            <indexterm>protective-packing</indexterm>
+            <indexterm>internal-foam</indexterm>
+            <indexterm>outer-crate</indexterm>
+            <indexterm>securing-straps</indexterm>
+            <!-- Process layer -->
+            <indexterm>packing-procedure</indexterm>
+            <indexterm>component-securing</indexterm>
+            <indexterm>labelling-procedure</indexterm>
+            <indexterm>inspection-before-shipment</indexterm>
+            <indexterm>tightening-and-securing</indexterm>
+            <indexterm>shock-absorption-setup</indexterm>
+            <!-- Context layer -->
+            <indexterm>warehouse-packaging</indexterm>
+            <indexterm>transport-preparation</indexterm>
+            <indexterm>site-delivery</indexterm>
+            <indexterm>logistics-workflow</indexterm>
+            <indexterm>fragile-equipment-handling</indexterm>
+            <indexterm>storage-conditions</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Packing Process Information"/>
+         <othermeta name="shortdesc"
+                    content="Step-by-step packing instructions to secure equipment for handling and transit."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="protective packing;pallets;securing straps;crates;foam inserts;shipping labels"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:packing; industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags" content="packing,packaging,inspection,labelling,transport"/>
+         <othermeta name="usecase"
+                    content="Provide packing teams with detailed steps to prepare equipment for shipment."/>
+      </metadata>
+   </prolog>
+   <body>
+      <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/VIC_chemicals_message">
+         <messagepanel>
+            <typeofhazard/>
+            <howtoavoid/>
+         </messagepanel>
+      </hazardstatement>
+      <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/loss_package_protection">
+         <messagepanel>
+            <typeofhazard/>
+            <howtoavoid/>
+         </messagepanel>
+      </hazardstatement>
+      <section>
+         <sectiondiv>
+            <p>The inner and outer packing options depends
+on customer requests, country of origin and type of freight (land,
+sea, air).</p>
+            <p>Inner packing options:<ul>
+                  <li>
+                     <p>Plastic wrap</p>
+                  </li>
+                  <li>
+                     <p>VCI plastic cover</p>
+                  </li>
+                  <li>
+                     <p>Vacuum sealed aluminium foil</p>
+                  </li>
+               </ul>
+               <note>There are multiple variations of the inner packing options.
+There can be different types on extra protections like foam, rubber
+pads, paper, additional layers or combinations of options.</note>
+            </p>
+         </sectiondiv>
+      </section>
+      <section>
+         <sectiondiv>
+            <p>Outer packing options:<ul>
+                  <li>
+                     <p>Solid wood frame</p>
+                  </li>
+                  <li>
+                     <p>Plywood crate</p>
+                  </li>
+                  <li>
+                     <p>Solid wood crate</p>
+                  </li>
+               </ul>
+            </p>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>
