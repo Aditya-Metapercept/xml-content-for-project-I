@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OverviewOfTerminalsAndBars-99CA2302" xml:lang="en">
+   <title>Overview of Terminals and Bars</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>protective-earth-bar</indexterm>
+            <indexterm>neutral-bar</indexterm>
+            <indexterm>system-terminals</indexterm>
+            <indexterm>dc-terminals</indexterm>
+            <indexterm>battery-terminals</indexterm>
+            <indexterm>busbar-assembly</indexterm>
+            <!-- Process layer -->
+            <indexterm>identify-terminals</indexterm>
+            <indexterm>trace-electrical-connections</indexterm>
+            <indexterm>verify-terminal-labels</indexterm>
+            <indexterm>connect-cables-safely</indexterm>
+            <indexterm>inspect-terminal-arrangement</indexterm>
+            <indexterm>document-terminal-layout</indexterm>
+            <!-- Context layer -->
+            <indexterm>ups-electrical-interface</indexterm>
+            <indexterm>power-distribution-panel</indexterm>
+            <indexterm>equipment-wiring-area</indexterm>
+            <indexterm>installation-environment</indexterm>
+            <indexterm>system-commissioning</indexterm>
+            <indexterm>field-maintenance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Overview of Terminals and Bars"/>
+         <othermeta name="shortdesc"
+                    content="Describes the location and purpose of the protective earth bar, neutral bar, system terminals, DC connections, and battery terminals."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="protective earth bar; neutral bar; system terminals; dc terminals; battery terminals; busbar assembly"/>
+         <othermeta name="taxonomy"
+                    content="domain:electrical-interface-overview;usecase:terminal-and-bar-identification;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="terminals, bars, earth bar, neutral bar, dc wiring, battery connections"/>
+         <othermeta name="usecase"
+                    content="identify and understand terminals and bars for wiring, installation, and maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <fig>
+            <image href="../Images/Reality-Prime_40kVA-800mm_Terminal_Overview_DD00630295.svg"
+                   scope="local"
+                   placement="inline"/>
+         </fig>
+         <sl>
+            <sli>(A) Protective earth bar</sli>
+            <sli>(B) Rectifier mains terminals</sli>
+            <sli>(C) Bypass input terminals</sli>
+            <sli>(D) Output terminals</sli>
+            <sli>(E) Battery terminals</sli>
+         </sl>
+      </div>
+   </body>
+</topic>

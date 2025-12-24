@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="OperateTheSystem-53BB7457" xml:lang="en">
+   <title>Operate the System</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-system</indexterm>
+            <indexterm>system-display</indexterm>
+            <indexterm>system-controls</indexterm>
+            <indexterm>single-line-diagram</indexterm>
+            <indexterm>breaker-panel</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>operate-system</indexterm>
+            <indexterm>follow-startup-procedure</indexterm>
+            <indexterm>monitor-system-status</indexterm>
+            <indexterm>review-operational-warnings</indexterm>
+            <indexterm>check-breaker-positions</indexterm>
+            <indexterm>follow-safety-instructions</indexterm>
+            <!-- Context layer -->
+            <indexterm>system-operation-environment</indexterm>
+            <indexterm>operator-responsibilities</indexterm>
+            <indexterm>maintenance-readiness</indexterm>
+            <indexterm>power-distribution-setup</indexterm>
+            <indexterm>commissioning-operations</indexterm>
+            <indexterm>load-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Operate the System"/>
+         <othermeta name="shortdesc"
+                    content="Provides essential instructions for operating the system safely, including warnings, display navigation, and verification of breaker positions via the single line diagram."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups system; system display; system controls; single line diagram; breaker panel; inverter module"/>
+         <othermeta name="taxonomy"
+                    content="domain:system-operation;usecase:operate-ups-system;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="system operation, startup procedure, breaker positions, display navigation, operator safety, load management"/>
+         <othermeta name="usecase"
+                    content="provide operational guidance for safely running and supervising the ups system"/>
+      </metadata>
+   </prolog>
+   <body>
+      <hazardstatement type="notice">
+         <messagepanel>
+            <typeofhazard>UNINTENDED EQUIPMENT OPERATION</typeofhazard>
+            <howtoavoid>Only operate the system if you are qualified and familiar
+with the system. For the actual name, location and number of breakers
+check the <i>Single Line Diagram</i> for your configured/engineered
+system.</howtoavoid>
+         </messagepanel>
+      </hazardstatement>
+   </body>
+</topic>

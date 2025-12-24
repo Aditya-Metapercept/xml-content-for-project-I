@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RemoveLiftingEyeBolts-961F2623" xml:lang="en">
+   <title>Remove Lifting Eye Bolts</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>lifting-eye-bolts</indexterm>
+            <indexterm>cabinet-roof</indexterm>
+            <indexterm>roof-screws</indexterm>
+            <indexterm>mounting-points</indexterm>
+            <indexterm>equipment-frame</indexterm>
+            <indexterm>ups-cabinet</indexterm>
+            <!-- Process layer -->
+            <indexterm>remove-lifting-bolts</indexterm>
+            <indexterm>unscrew-hardware</indexterm>
+            <indexterm>secure-cabinet-top</indexterm>
+            <indexterm>reinstall-roof-screws</indexterm>
+            <indexterm>inspect-threaded-holes</indexterm>
+            <indexterm>complete-post-lifting-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>post-transport-handling</indexterm>
+            <indexterm>installation-preparation</indexterm>
+            <indexterm>mechanical-safety</indexterm>
+            <indexterm>equipment-stabilisation</indexterm>
+            <indexterm>on-site-assembly</indexterm>
+            <indexterm>commissioning-readiness</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Remove Lifting Eye Bolts"/>
+         <othermeta name="shortdesc"
+                    content="Describes how to remove the lifting eye bolts after positioning the system and secure the cabinet roof using the designated screws."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lifting eye bolts; roof screws; cabinet roof; mounting points; equipment frame; ups cabinet"/>
+         <othermeta name="taxonomy"
+                    content="domain:mechanical-installation;usecase:lifting-bolt-removal;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="lifting bolts, removal procedure, roof screws, mechanical prep, installation readiness, stabilisation"/>
+         <othermeta name="usecase"
+                    content="remove lifting hardware and secure the cabinet roof after transport"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Unscrew and remove the lifting eye bolts (B).</p>
+            <p>
+               <image href="../Images/Prime_Lifting_Remove-LiftingNut_DD00625400.svg"
+                      scope="local"
+                      placement="inline"/>
+            </p>
+         </li>
+         <li>
+            <p>Attach the roof screws (A) and tighten.</p>
+            <p>
+               <image href="../Images/Prime_Lifting_Attach-RoofScrews_DD00714035.svg"
+                      placement="inline"/>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

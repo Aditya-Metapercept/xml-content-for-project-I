@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RatingPlate-532FD26C" xml:lang="en">
+   <title>Rating Plate</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>rating-plate</indexterm>
+            <indexterm>system-type</indexterm>
+            <indexterm>system-serial-number</indexterm>
+            <indexterm>electrical-specifications</indexterm>
+            <indexterm>ups-identification</indexterm>
+            <indexterm>nameplate-information</indexterm>
+            <!-- Process layer -->
+            <indexterm>verify-system-details</indexterm>
+            <indexterm>confirm-electrical-rating</indexterm>
+            <indexterm>identify-system-model</indexterm>
+            <indexterm>record-serial-number</indexterm>
+            <indexterm>cross-check-installation-data</indexterm>
+            <indexterm>validate-system-labels</indexterm>
+            <!-- Context layer -->
+            <indexterm>commissioning-documents</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>equipment-identification</indexterm>
+            <indexterm>installation-audit</indexterm>
+            <indexterm>technical-inspection</indexterm>
+            <indexterm>site-documentation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Rating Plate"/>
+         <othermeta name="shortdesc"
+                    content="Shows the system type, serial number, electrical characteristics, and other identification details found on the rating plate."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="rating plate; system type; serial number; electrical specifications; ups identification; nameplate information"/>
+         <othermeta name="taxonomy"
+                    content="domain:equipment-identification;usecase:interpret-rating-plate-information;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="rating plate, serial number, system type, electrical data, identification, specification label"/>
+         <othermeta name="usecase"
+                    content="identify system characteristics and specifications using the rating plate information"/>
+      </metadata>
+   </prolog>
+   <body>
+      <table pgwide="1">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1.00*"/>
+            <colspec colname="col2" colwidth="1.00*"/>
+            <tbody>
+               <row>
+                  <entry align="right" colsep="0">
+                     <fig>
+                        <image href="../Images/Reality_Prime_Rating_Plate_Overview_DD00627795.svg"
+                               scope="local"
+                               placement="inline"/>
+                     </fig>
+                  </entry>
+                  <entry>
+                     <sl>
+                        <sli>(A) System type</sli>
+                        <sli>(B) System type designation</sli>
+                        <sli>(C) Mains input values</sli>
+                        <sli>(D) Bypass input values</sli>
+                        <sli>(E) Battery values</sli>
+                        <sli>(F) Output values</sli>
+                        <sli>(G) Protection degree, ambient temperature range and other
+environmental values.</sli>
+                        <sli>(H) Place for certification/conformity mark (e.g. CE,
+EAC, UL) and any customer specific text.</sli>
+                        <sli>(I) Unique identifier and manufacturing information:</sli>
+                     </sl>
+                     <ul>
+                        <li>
+                           <p>Reality project number</p>
+                        </li>
+                        <li>
+                           <p>System serial number</p>
+                        </li>
+                        <li>
+                           <p>Transport unit number</p>
+                        </li>
+                        <li>
+                           <p>Year of manufacturing</p>
+                        </li>
+                        <li>
+                           <p>Country of origin / Country of manufacturing</p>
+                        </li>
+                     </ul>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section>
+         <title>System Type Designation</title>
+         <sectiondiv>
+            <p>The
+top section (B) of the rating plate contains the system type
+designation. The system type designation contains information about
+the system configuration. </p>
+            <fig>
+               <image href="../Images/Reality_Prime_Rating_Plate_System-Type_DD00627794.svg"
+                      scope="local"
+                      placement="inline"/>
+            </fig>
+            <table>
+               <tgroup cols="3">
+                  <colspec colname="col1" colwidth="1*"/>
+                  <colspec colname="col2" colwidth="2*"/>
+                  <colspec colname="col3" colwidth="3*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <ph>Position</ph>
+                        </entry>
+                        <entry valign="top">
+                           <ph>Description</ph>
+                        </entry>
+                        <entry valign="top">
+                           <ph>Options</ph>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>(J)</entry>
+                        <entry>
+                           <ph>System type</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>PM – UPS with IGBT</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(K)</entry>
+                        <entry>
+                           <ph>Manufacturing process</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>C – CTO, Configure to order</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(L)</entry>
+                        <entry>
+                           <ph>Output phases</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>1 – Single phase output</sli>
+                              <sli>3 – Three phase output</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(M)</entry>
+                        <entry>
+                           <ph>Output rating  (kVA)</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>40 kVA</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(N)</entry>
+                        <entry>
+                           <ph>Input voltage (V)</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>400 V – Always phase to phase.</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(O)</entry>
+                        <entry>
+                           <ph>DC voltage (V)</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>220 V</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(P)</entry>
+                        <entry>
+                           <ph>Output voltage (V)</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>230 V – Phase to neutral for one phase, phase to
+phase for three phase.</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(Q)</entry>
+                        <entry>
+                           <ph>Isolator at inverter output</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>C – Contactor</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(R)</entry>
+                        <entry>
+                           <ph>Bypass configuration</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>W – Bypass static switch without bypass transformer</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>(S)</entry>
+                        <entry>
+                           <ph>Redundancy</ph>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>S1 – Single system</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Unique Identifier</title>
+         <sectiondiv>
+            <p>The bottom
+section (I) on the rating plate contains the unique identifier.
+The unique identifier is built up of sections to make it possible
+to identify the cabinet.</p>
+            <fig>
+               <image href="../Images/Reality_Prime_Rating_Plate_Unique-Identifier_DD00627793.svg"
+                      scope="local"
+                      placement="inline"/>
+            </fig>
+            <table>
+               <tgroup cols="3">
+                  <colspec colname="col1" colwidth="20.00mm"/>
+                  <colspec colname="col2" colwidth="1.50*"/>
+                  <colspec colname="col3" colwidth="1.50*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <ph>Position</ph>
+                        </entry>
+                        <entry valign="top">
+                           <ph>Name</ph>
+                        </entry>
+                        <entry valign="top">
+                           <ph>Description</ph>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <ph>(T)</ph>
+                        </entry>
+                        <entry>
+                           <ph>Reality project number</ph>
+                        </entry>
+                        <entry>
+                           <ph>A unique number for each project.</ph>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <ph>(U)</ph>
+                        </entry>
+                        <entry>
+                           <ph>System serial number</ph>
+                        </entry>
+                        <entry>
+                           <ph>Indicates a specific system number in the project.</ph>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <ph>(V)</ph>
+                        </entry>
+                        <entry>
+                           <ph>Transport unit number</ph>
+                        </entry>
+                        <entry>
+                           <ph>The number indicates a transport unit. A system may consist
+of multiple transport units that can be separated for transportation.</ph>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>
