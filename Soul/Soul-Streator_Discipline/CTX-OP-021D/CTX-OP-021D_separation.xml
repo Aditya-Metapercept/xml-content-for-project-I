@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9CF53E-BB9C-11F0-1474-09173F13E4C5" xml:lang="en-us">
+   <title>Separation</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The ISWatch systems needs to separate camera images into bottle images.<ul id="ul_d2x_dk3_fcc">
+            <li>By default, camera images are automatically separated into images of the bottle
+               (Automatic Separation activated).</li>
+            <li>When halve bottle images are shown on the screen the automatic separation does not
+               work correctly, the separation should be done manually. </li>
+         </ul>
+      </p>
+      <p>Follow the steps described below. (See the image below.)<ol id="ol_qld_gk3_fcc">
+            <li>Deselect Automatic Separation.</li>
+            <li>Press Show Graphs to get an intensity curves over one machine cycle.</li>
+            <li>Set the Limit for each camera, the limit is shown in the graph with a red line.</li>
+         </ol>
+      </p>
+      <p>At the point where the intensity graph is higher than the red line (Limit value), the
+         system will separate a bottle image.<note type="note" id="note_q33_lk3_fcc">
+            <p>NOTE: Do not set the limit too low, or too many bottles will be identified as
+               stuck ware. Do not set the limit too high, or too many bottles will not be detected
+               correctly. <fig id="fig_r33_lk3_fcc">
+                  <image href="media/image4.jpg"
+                         placement="break"
+                         align="center"
+                         scale="50"
+                         id="image_s33_lk3_fcc"/>
+               </fig>
+            </p>
+         </note>
+      </p>
+   </body>
+</topic>

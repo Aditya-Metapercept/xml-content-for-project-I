@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC97AF38-BB9C-11F0-1508-09173F13E4C5" xml:lang="en-us">
+   <title>Rejects Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Rejects Screen shows information on the last bottles that are rejected, and some reject
+         statistics. <fig id="fig_rf4_zvj_fcc">
+            <image href="media/image5.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_sf4_zvj_fcc"/>
+         </fig>
+      </p>
+      <p>Use the new buttons in bottom middle of the screen for the following actions:</p>
+      <p>Images: Scroll through the images with the arrow keys, or press on the image. Press
+         on the top or bottom of the image to scroll up and down. On the navigation bar to the right
+         of the containers:<ul id="ul_wf1_cwj_fcc">
+            <li>Press the circle icon (top image in the expanded icon box) to show the measurement
+               regions.</li>
+            <li>Press the camera icon (middle image) to view the images of another camera.</li>
+            <li>Press the squares icon (bottom image) to change how the images are positioned on the
+               screen.</li>
+         </ul>
+      </p>
+      <p>Timeframe: Use the three buttons on the left top to select the timeframe of the
+         rejects: the current shift, one hour, or the last 20 minutes. This selection influences all
+         information shown on this screen, including the images and statistics.</p>
+      <p>Rejector: With the three buttons at the top right of the screen, you can:<ul id="ul_prc_gwj_fcc">
+            <li>Turn Store Images Off and the Rejector Off.</li>
+            <li>Turn Store Images On and the Rejector Off.</li>
+            <li>Turn Store Images On and the Rejector On. Do this to test the setup of the system.
+               Images are stored, but the bottles are not removed from the conveyor with the
+               Rejector.</li>
+         </ul>
+      </p>
+      <p>The list shows the camera that has caused the rejection (camera 1,2,3,4 etc.), the reject
+         date and time, the section, the article number, and information on the cause of the
+         rejection. Scroll through the list using the icons in the middle of the screen (go to top,
+         one up, one down), or by pressing the top of the image (go up) or the bottom of the image
+         (go down).</p>
+      <p>Statistics: The Rejects (%) graph shows the percentage of bottles that are rejected
+         (for all causes). A line at the bottom of the graph indicates if the rejector was on
+         (white) or off (black).<ul id="ul_dyz_jwj_fcc">
+            <li>The Worst Causes graph shows the causes of the rejects, e.g. inclusions, glass
+               distribution. Press on one of the causes to show only the images of this cause in the
+               list. To turn the selection off, press the &lt;Cancel&gt; button in the Worst
+               Cavities title.</li>
+            <li>The Worst Cavities graph shows the amount of rejects per cavity. You can press on
+               one of the cavities and only show the images of this cavity in the list. To turn the
+               selection off press the &lt;Cancel&gt; button in the Worst Causes title.</li>
+         </ul>
+      </p>
+      <p>Show Cycle: With the Show Cycle arrow buttons, you can see the bottle from the
+         cavity before and after the reject. This is a fast way to check if the system has caught
+         all bottles with a defect. For example, if a fin is detected, you can see if the bottles
+         before and after have a fin or not.</p>
+   </body>
+</topic>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c4161572-CAB4-11F0-3664-09173F13E4C5" xml:lang="en-us">
+   <title>Respirable Crystalline Silica</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>respirable-crystalline-silica</indexterm>
+            <indexterm>silica</indexterm>
+            <indexterm>ppe</indexterm>
+            <indexterm>respirator</indexterm>
+            <indexterm>monitoring-equipment</indexterm>
+            <!-- Process layer -->
+            <indexterm>hazard-assessment</indexterm>
+            <indexterm>respiratory-protection</indexterm>
+            <indexterm>monitoring</indexterm>
+            <indexterm>control-measures</indexterm>
+            <indexterm>spill-response</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>occupational-health</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>production-line</indexterm>
+            <indexterm>quality-assurance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname> metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Respirable Crystalline Silica"/>
+         <othermeta name="shortdesc"
+                    content="Describes hazards, control measures and PPE recommendations for respirable crystalline silica exposure in mixer operations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="respirable-crystalline-silica;silica;ppe;respirator;papr"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:maintenance;industry:industrial-engineering"/>
+         <othermeta name="tags"
+                    content="respirable-crystalline-silica,respiratory-protection,hazard-assessment,ppe,safety"/>
+         <othermeta name="usecase" content="safety guidance and hazard control"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Crystalline silica has been classified as a human lung carcinogen. Additionally, breathing
+         crystalline silica dust can cause silicosis, which in severe cases can be disabling, or
+         even fatal.<fig id="fig_rxv_kwr_lcc">
+            <image href="media/image1.jpg"
+                   placement="break"
+                   id="image_sxv_kwr_lcc"
+                   align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c42DC172-CAB4-11F0-4856-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators, maintenance-personnel, industrial-engineers, reliability-engineers, safety-and-compliance-officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>lifting-station-procedure</indexterm>
+            <indexterm>operational-procedure</indexterm>
+            <indexterm>safety-document</indexterm>
+            <indexterm>work-instruction</indexterm>
+            <indexterm>control-panel-guidance</indexterm>
+            <!-- Process layer -->
+            <indexterm>purpose-statement</indexterm>
+            <indexterm>scope-definition</indexterm>
+            <indexterm>application-boundary</indexterm>
+            <indexterm>operator-responsibilities</indexterm>
+            <indexterm>maintenance-scope</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-safety</indexterm>
+            <indexterm>plant-operations</indexterm>
+            <indexterm>cold-end</indexterm>
+            <indexterm>operational-controls</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose and Application"/>
+         <othermeta name="shortdesc"
+                    content="Explains the purpose, scope and intended application of the stopping/restarting and safety topics for the lifting station in the glass manufacturing environment."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lifting station; operators; maintenance team; control procedures; safety standards"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:scope-and-purpose;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="purpose, scope, application, operator-responsibility"/>
+         <othermeta name="usecase"
+                    content="define purpose and applicability of operational and safety instructions"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Defines the procedures for stopping and restarting the lifting station.</p>
+   </body>
+</topic>

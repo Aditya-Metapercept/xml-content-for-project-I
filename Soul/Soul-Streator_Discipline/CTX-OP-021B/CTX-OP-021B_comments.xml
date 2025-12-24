@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC96AE30-BB9C-11F0-1500-09173F13E4C5" xml:lang="en-us">
+   <title>Comments</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <ul>
+         <li>Read a section thoroughly before starting the work.  Personnel performing these tasks must have completed the required training.</li>
+         <li>For additional information, refer to:<ul id="ul_zzp_csj_fcc">
+               <li>CTX-ET-021 Troubleshooting the ISWatch System</li>
+               <li>CTX-MR-021 ISWatch Maintenance</li>
+               <li>CTX-SU-021 ISWatch Job Change and Job Setup</li>
+               <li>CTX-SU-022 Setting the ISWatch Alarms and Rejects</li>
+               <li>Vendor manual in the Resources library</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c421B010-CAB4-11F0-2974-09173F13E4C5" xml:lang="en-us">
+   <title>Purpose/Application</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>compressor-application</indexterm>
+            <indexterm>system-purpose</indexterm>
+            <indexterm>scope</indexterm>
+            <indexterm>operational-boundary</indexterm>
+            <!-- Process layer -->
+            <indexterm>usecase-definition</indexterm>
+            <indexterm>scope-definition</indexterm>
+            <indexterm>application-guidance</indexterm>
+            <indexterm>operational-limits</indexterm>
+            <indexterm>safety-constraints</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>cold-end-operations</indexterm>
+            <indexterm>maintenance-department</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Purpose and Application"/>
+         <othermeta name="shortdesc"
+                    content="Explains the purpose, intended application and operational boundaries of the compressor documentation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="system-purpose;scope;operational-boundary"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:purpose-and-application;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="purpose,application,scope"/>
+         <othermeta name="usecase" content="purpose-and-application"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Describes an overview of the Sullair DSP air compressor.</p>
+   </body>
+</topic>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t415CCFA-CAB4-11F0-2756-09173F13E4C5" xml:lang="en-us">
+   <title>Replacing Mixing Arms and Outer Scrapper Arms</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>mixing-arm</indexterm>
+            <indexterm>outer-scrapper-arm</indexterm>
+            <indexterm>scraper-blade</indexterm>
+            <indexterm>spacer-tube</indexterm>
+            <indexterm>adjusting-ring</indexterm>
+            <indexterm>adjustment-screw</indexterm>
+            <indexterm>threaded-plate</indexterm>
+            <indexterm>plug-bolt</indexterm>
+            <!-- Process layer -->
+            <indexterm>removal-procedure</indexterm>
+            <indexterm>installation-procedure</indexterm>
+            <indexterm>torque-tightening</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>re-tightening</indexterm>
+            <indexterm>arm-alignment</indexterm>
+            <indexterm>component-replacement</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>mixer-maintenance</indexterm>
+            <indexterm>equipment-reliability</indexterm>
+            <indexterm>plant-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname> metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Replacing Mixing Arms and Outer Scrapper Arms"/>
+         <othermeta name="shortdesc"
+                    content="Procedure for replacing the mixing arms and outer scrapper arms on the pan mixer, including required isolation and inspection steps."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="mixing-arm;outer-scrapper-arm;pan-mixer;mixer;scraper-blade"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:maintenance;industry:industrial-engineering"/>
+         <othermeta name="tags"
+                    content="replacing-mixing-arms,inspection,lockout-tagout,pan-mixer,maintenance"/>
+         <othermeta name="usecase" content="maintenance and replacement procedures"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <p>Replacing the top part of the mixing arm and/or the outer scraper arm:</p>
+            <p>
+               <ul>
+                  <li>Unscrew the adjustment screws (6 &amp; 11) far enough for the spring (8) and
+                     plug bolt (4) to be pulled out.</li>
+                  <li>Remove the insertable sheet (10).</li>
+                  <li>Remove the feather key (7) by moving the adjusting rings (5 &amp; 9) to the
+                     side.</li>
+                  <li>Pull the top part of the mixing arm (14) out of the rotor case (12).</li>
+                  <li>To reassemble, complete the steps in reverse order.</li>
+               </ul>
+               <p>
+                  <fig id="fig_wfs_twr_lcc">
+                     <image href="media/image2.jpg"
+                            placement="break"
+                            id="image_xfs_twr_lcc"
+                            align="center"/>
+                     <p>
+                        <table id="table_isz_vwr_lcc">
+                           <tgroup cols="2">
+                              <colspec colname="c1" colnum="1" colwidth="1*"/>
+                              <colspec colname="c2" colnum="2" colwidth="1*"/>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <p>1</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Outerscraper arm</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>2</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Compensation ring</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>3</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Spacer tube</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>4</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Plug bolt</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>5</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Adjusting ring</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>6</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Adjustment screw</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>7</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Feather key</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>8</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Spring (preload length 210 mm)</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>9</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Adjusting ring</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>10</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Insertable sheet</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>11</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Adjustment screw</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>12</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Rotor case</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>13</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Bottom part of mixing arm</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>14</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Top part of mixing arm</p>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>If replacing only the bottom part of the mixing arm (5 in image on the
+                  right):</p>
+            <p>
+               <ul>
+                  <li>Remove the screws (3, 4), and remove the threaded plate (1).</li>
+                  <li>The arm should be free.</li>
+               </ul>
+               <note type="note" id="note_ylh_wxr_lcc">
+                  <p>Re-tighten the connections between the top part of the mixing arm and the
+                     bottom part of the mixing arm after 5 hours of operating time.</p>
+               </note>
+               <p>
+                  <fig id="fig_n52_xxr_lcc">
+                     <image href="media/image3.jpg"
+                            placement="break"
+                            id="image_o52_xxr_lcc"
+                            align="center"/>
+                     <p>
+                        <table id="table_qrz_yxr_lcc">
+                           <tgroup cols="2">
+                              <colspec colname="c1" colnum="1" colwidth="1*"/>
+                              <colspec colname="c2" colnum="2" colwidth="1.36*"/>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <p>1</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Threadedplate</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>2</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Top part of mixing arm</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>3</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Disk</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>4</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Screw</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>5</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Bottom part of mixing arm</p>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Replacing the mixing arm bearings:</p>
+            <p>
+               <ul>
+                  <li>The mixing arm bearings (1) are bushings that are inserted into the drilled holes of the rotor, and into which the mixing arms are inserted.</li>
+                  <li>The mixing arm bearings can only be replaced after the mixing arms have been
+                     removed.</li>
+               </ul>
+               <p>
+                  <fig id="fig_ip2_f1s_lcc">
+                     <image href="media/image4.jpg"
+                            placement="break"
+                            id="image_jp2_f1s_lcc"
+                            align="center"/>
+                     <p>
+                        <table id="table_gbd_g1s_lcc">
+                           <tgroup cols="2">
+                              <colspec colname="c1" colnum="1" colwidth="1*"/>
+                              <colspec colname="c2" colnum="2" colwidth="1.47*"/>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <p>1</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Mixingarm bearing</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>2</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Mixing armscraper</p>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </fig>
+               </p>
+            </p>
+         </li>
+         <li>
+            <p>Replacing the mixing arm scrapers:</p>
+            <p>
+               <ul>
+                  <li>The scraper (2) is a sealing ring that is inserted into the same drilled hole in the rotor into which the mixing arm is inserted.  (See image in step 3 above.)</li>
+                  <li>The scrapers can only be replaced after the mixing arms have been removed.</li>
+               </ul>
+            </p>
+         </li>
+         <li>
+            <p>Replacing the mixing paddles:</p>
+            <p>
+               <ul>
+                  <li>Undo the screws (1), and remove the paddles (2).</li>
+                  <li>Before installing the new mixing paddles, soak an intermediate textile or
+                     paper gasket layer (3) in water.</li>
+                  <li>Place the paper layer between the mounting part and the mixing paddle.</li>
+                  <li>Ensure that the mixing paddles (2) are attached so that their top edge
+                     overlaps the mounting part.</li>
+                  <li>Readjust the paddle height using the slotted holes.</li>
+                  <li>Before tightening up the fastening screws, make sure that there is a parallel
+                     gap between the bottom of the paddle and the trough floor wear liner (1-2 mm,
+                     or 0.04 to 0.08 inch).</li>
+               </ul>
+               <note type="note" id="note_z5w_s1s_lcc">
+                  <p>Re-tighten theconnection between the mixing paddles and the scraper paddles
+                     after five hours of operating time.</p>
+               </note>
+               <note type="note" id="note_avw_s1s_lcc">
+                  <p>Inspect all mixing paddles at regular interval s for wear and damage. Replace
+                     if necessary. Using worn or damaged paddles can lead to serious damage to the
+                     mixer.</p>
+               </note>
+               <p>
+                  <fig id="fig_ah3_t1s_lcc">
+                     <image href="media/image5.jpg"
+                            placement="break"
+                            id="image_bh3_t1s_lcc"
+                            align="center"/>
+                     <p>
+                        <table id="table_yfz_51s_lcc">
+                           <tgroup cols="2">
+                              <colspec colname="c1" colnum="1" colwidth="1*"/>
+                              <colspec colname="c2" colnum="2" colwidth="1*"/>
+                              <tbody>
+                                 <row>
+                                    <entry>
+                                       <p>1</p>
+                                    </entry>
+                                    <entry>
+                                       <p>T-headbolts</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>2</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Mixingpaddle</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>3</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Intermediatelayer of paper</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>4</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Bottompart of mixing </p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>5</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Washers</p>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry>
+                                       <p>6</p>
+                                    </entry>
+                                    <entry>
+                                       <p>Hexagonnuts</p>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </p>
+                  </fig>
+               </p>
+            </p>
+         </li>
+      </ol>
+   </body>
+</topic>

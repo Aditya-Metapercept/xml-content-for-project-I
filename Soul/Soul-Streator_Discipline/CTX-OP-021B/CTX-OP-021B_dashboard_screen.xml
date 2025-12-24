@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC96E19C-BB9C-11F0-2135-09173F13E4C5" xml:lang="en-us">
+   <title>Dashboard Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Depending on the activated alarms, alarm indicators are displayed on this screen.  The screen below shows that the bottle in cavity 7A is rejected for a Thick Bottom, and cavity 1A has an alarm for a Thick Finish.</p>
+      <p>To activate the alarms on the Overview screen, see Section 4.6 Start/Main Menu User
+         Interface Screen.<fig id="fig_yq3_cxj_fcc">
+            <image href="media/image10.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_zq3_cxj_fcc"/>
+         </fig>
+      </p>
+      <section id="section_jhd_bb4_fcc">
+         <title>Overview Screen </title>
+         <p>The Overview screen shows the images of all bottles — and all warnings, alarms, and
+            rejects.</p>
+         <p>This system has three infrared cameras. Select a camera by pressing the camera button at
+            the lower right bottom.<ul id="ul_uck_2b4_fcc">
+               <li>Changing the camera can be useful to see if the cameras images are good, and if
+                  the system is correctly synchronized. </li>
+               <li>If the camera images of the second or third camera are not the same, the system
+                  needs to be synchronized again.<fig id="fig_vck_2b4_fcc">
+                     <image href="media/image11.jpg"
+                            placement="break"
+                            align="center"
+                            scale="50"
+                            id="image_wck_2b4_fcc"/>
+                  </fig>
+               </li>
+            </ul>
+         </p>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c420FE93-CAB4-11F0-2030-09173F13E4C5" xml:lang="en-us">
+   <title>Comments</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>document-notes</indexterm>
+            <indexterm>comments-section</indexterm>
+            <indexterm>revision-history</indexterm>
+            <indexterm>control-screen</indexterm>
+            <!-- Process layer -->
+            <indexterm>feedback-capture</indexterm>
+            <indexterm>peer-review</indexterm>
+            <indexterm>issue-logging</indexterm>
+            <indexterm>comment-resolution</indexterm>
+            <indexterm>document-update</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>maintenance-department</indexterm>
+            <indexterm>research-and-development</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Comments"/>
+         <othermeta name="shortdesc"
+                    content="Placeholder for stakeholder comments and notes relevant to the procedure or equipment topic."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities" content="document-notes;commenter"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:comments;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="comments,feedback,notes"/>
+         <othermeta name="usecase" content="comments"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Read a section thoroughly before starting the work. Personnel performing the tasks in this document must have completed the required training.</li>
+         <li>For additional information, refer to:<ul id="ul_myp_dp3_ncc">
+               <li>SBS-ET-040 Troubleshooting the Compressor</li>
+               <li>SBS-MR-040 Compressor Maintenance</li>
+               <li>Vendor manual in the Resources library</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</topic>

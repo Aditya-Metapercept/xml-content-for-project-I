@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m4170BE7-CAB4-11F0-2624-09173F13E4C5" xml:lang="en-us">
+   <title>Replacing Wear Elements</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2022-10-01"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content" href="SBS-MR-031C_replacing_wear_elements_.xml">
+      <topicmeta>
+         <othermeta content="SBS-MR-031C" name="DocumentNumber"/>
+         <othermeta content="2022-10-01" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="SBS-MR-031C_purpose_application.xml"/>
+      <topicref href="SBS-MR-031C_ppe_required.xml"/>
+      <topicref href="SBS-MR-031C_safety_hazards.xml"/>
+      <topicref href="SBS-MR-031C_respirable_crystalline_silica.xml"/>
+      <topicref href="SBS-MR-031C_safety_controls.xml"/>
+      <topicref href="SBS-MR-031C_equipment_needed.xml"/>
+      <topicref href="SBS-MR-031C_comments.xml"/>
+      <topicref href="SBS-MR-031C_replacing_wear_elements.xml"/>
+      <topicref href="SBS-MR-031C_approval.xml"/>
+      <topicref href="SBS-MR-031C_revision_history.xml"/>
+   </topicref>
+</topic>

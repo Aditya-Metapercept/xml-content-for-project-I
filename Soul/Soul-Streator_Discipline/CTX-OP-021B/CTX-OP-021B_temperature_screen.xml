@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC981729-BB9C-11F0-1822-09173F13E4C5" xml:lang="en-us">
+   <title>Temperature Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Temperature screen shows the calculated temperatures of the glass bottles at the camera position.</p>
+      <p>The Temperature calculation depends on the glass emissivity which depends on the glass color and glass thickness. The emissivity is fixed in the system.  The calculated temperature can differ from the real glass temperature when the emissivity is not correct.</p>
+      <p>The Relative Temperature graph shows the difference between the measured temperature and the fit line in the upper graph. The fit line is the temperature you would expect if the bottles leave the section with the same temperature but are cooled down on the conveyor.</p>
+      <p>The Relative Temperature can be used to correct/minimize temperature differences between
+         sections and to find problems with the cooling.<fig id="fig_bfz_mxj_fcc">
+            <image href="media/image15.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_cfz_mxj_fcc"/>
+         </fig>
+      </p>
+   </body>
+</topic>

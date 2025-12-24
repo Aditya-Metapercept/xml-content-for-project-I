@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA6BFEF-BB9C-11F0-8110-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>ppe</indexterm>
+            <indexterm>safety-goggles</indexterm>
+            <indexterm>gloves</indexterm>
+            <indexterm>respirators</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-selection</indexterm>
+            <indexterm>ppe-validation</indexterm>
+            <indexterm>inspection</indexterm>
+            <indexterm>usage</indexterm>
+            <indexterm>storage</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>workplace-safety</indexterm>
+            <indexterm>respirable-dust-control</indexterm>
+            <indexterm>compliance</indexterm>
+            <indexterm>occupational-health</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PPE Required"/>
+         <othermeta name="shortdesc"
+                    content="Personal protective equipment guidelines to ensure operator safety during glass production operations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metR-sbs-soul ; ppe ; safety-goggles ; gloves ; respirators"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:safety-procedures;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metR-sbs-soul , ppe , safety-goggles , gloves , respirators , ppe-selection , ppe-validation , inspection , usage , storage , glass-manufacturing , workplace-safety , respirable-dust-control , compliance , occupational-health"/>
+         <othermeta name="usecase" content="safety-procedures"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_ilv_zdm_lcc">
+         <title>General</title>
+         <p> Bump cap, safety glasses, hearing protection, long sleeves, safety-toed shoes.</p>
+         <p>Respirator or PAPR in case of a toxic batch material spill</p>
+      </section>
+   </body>
+</topic>

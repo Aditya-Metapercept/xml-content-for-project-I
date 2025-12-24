@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC9831E1-BB9C-11F0-3363-09173F13E4C5" xml:lang="en-us">
+   <title>Transport Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>Use the Transport screen to access four other screens by pressing on the buttons at the bottom center of the screen:</p>
+      <section id="section_an2_vyn_fcc">
+         <title>X-Position Screen (Dashboard V button) This screen is divided into three
+            regions.</title>
+         <p>The blue left region shows a table with the section number, measured X-position,
+            deviation in mm, and the pushout adjustment necessary to place the bottles on the
+            optimum x-position.<ul id="ul_zlc_zyn_fcc">
+               <li>Press on one of the section numbers to use the section as the reference. </li>
+               <li>By selecting All, the average of all sections is used as a reference</li>
+            </ul>
+         </p>
+         <p>The middle graph shows the last measured x-position (white dot) and the variation of the
+            x-position. </p>
+         <p>The right graph shows the x-position for each cavity.<fig id="fig_whv_qwj_fcc">
+               <image href="media/image6.jpg"
+                      placement="break"
+                      id="image_xhv_qwj_fcc"
+                      align="center"
+                      scale="50"/>
+            </fig>
+         </p>
+      </section>
+      <section id="section_ezn_czn_fcc">
+         <title>Y-Position Screen (Dashboard Y button)</title>
+         <p>The upper graph shows the Y-position measurement of the section,</p>
+         <p>The lower graph shows the variation of the Y position.<fig id="fig_pbj_twj_fcc">
+               <image href="media/image7.jpg"
+                      placement="break"
+                      align="center"
+                      scale="50"
+                      id="image_qbj_twj_fcc"/>
+            </fig>
+         </p>
+      </section>
+      <section id="section_wbk_fzn_fcc">
+         <title>X-Trend Screen (Overview button) </title>
+         <p>This screen shows the X-position of the bottles in a time graph. <fig id="fig_npm_5wj_fcc">
+               <image href="media/image8.jpg"
+                      placement="break"
+                      align="center"
+                      scale="50"
+                      id="image_opm_5wj_fcc"/>
+            </fig>
+         </p>
+      </section>
+   </body>
+</topic>

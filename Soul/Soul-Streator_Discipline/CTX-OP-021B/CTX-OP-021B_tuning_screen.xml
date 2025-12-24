@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC984C79-BB9C-11F0-5313-09173F13E4C5" xml:lang="en-us">
+   <title>Tuning Screen</title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Tuning screen shows the vertical glass distribution of all bottles in one screen.  This makes it easy to compare the glass distribution and to adjust the glass distribution of a cavity.</p>
+      <p>The bottle is divided by the system into eight fixed regions. The amount of glass in each
+         region is calculated by the system. <ul id="ul_rly_nxj_fcc">
+            <li>The white point in the graph is the last measured value. </li>
+            <li>The blue bars show the variation over the last 5 minutes (the period can be changed
+               in the Engineer level).</li>
+         </ul>
+      </p>
+      <p>The glass distribution is optimal when the points are on the center vertical line. A point
+         to the right of the center means more glass, and a point to the left means less glass.</p>
+      <p>The red lines in the curves are alarm limits. When the measurement value crossed this
+         limit, the bar will turn red. You can set this alarm limit in the Settings Menu &gt; Tuning
+         &gt; Scaling Limit.<fig id="fig_cqh_rxj_fcc">
+            <image href="media/image16.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_dqh_rxj_fcc"/>
+         </fig>
+      </p>
+   </body>
+</topic>

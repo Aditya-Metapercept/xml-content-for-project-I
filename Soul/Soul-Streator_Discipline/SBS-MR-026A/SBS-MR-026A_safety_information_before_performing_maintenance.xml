@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c42CB5D5-CAB4-11F0-2274-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Information Before Performing Maintenance</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>electrical-power-supply</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>lifting-station</indexterm>
+            <indexterm>pneumatic-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>isolation-procedure</indexterm>
+            <indexterm>lockout-tagout-procedure</indexterm>
+            <indexterm>safe-maintenance-practice</indexterm>
+            <indexterm>workspace-preparation</indexterm>
+            <indexterm>tool-securement</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>plant-safety</indexterm>
+            <indexterm>electrical-hazard-management</indexterm>
+            <indexterm>operator-guidance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Information Before Performing Maintenance"/>
+         <othermeta name="shortdesc"
+                    content="Warnings and stepwise safety instructions including power isolation, lockout tagout and workspace preparation to avoid electric shock and falling hazards."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="electrical power supply;lockout-tagout devices;lifting carriage;pneumatic hoses;tools"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:pre-maintenance-safety;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="lockout,isolation,safety,warnings,preparation"/>
+         <othermeta name="usecase"
+                    content="provide essential safety instructions before maintenance activities"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_trd_wd2_lcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="danger" id="note_mtp_yd2_lcc">
+                           <p>Danger of electric shock! Contact with live components poses a
+                              risk of serious injury or even death!<ul id="ul_hfp_zh2_lcc">
+                                 <li>Before starting work, switch off the electric power supply.
+                                    Follow plant requirements for lockout tagout.</li>
+                              </ul>
+                           </p>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="danger" id="note_irx_v15_jcc">
+                           <p>Life threatening hazard due to a falling vertical carriage!The
+                              unsecured vertical carriage can fall down and cause serious injury or
+                              even death! <ul id="ul_afm_jg2_lcc">
+                                 <li>Always make sure that the safety bolts of the vertical carriage
+                                    are properly installed before carrying out work on / near the
+                                    carriage</li>
+                              </ul>
+                           </p>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note id="note_ppy_lg2_lcc" type="warning">
+                           <p>Danger of injury from improperly performed maintenance!Improper
+                              maintenance can result in serious personal injury or material
+                              damage!</p>
+                           <ul id="ul_ifp_zh2_lcc">
+                              <li>Before starting work, ensure that you have sufficient space!</li>
+                              <li>Handle open, sharp-edged components with care!</li>
+                              <li>Pay attention to cleanliness and orderliness at the place of work!
+                                 Loose components and tools lying around are a potential cause of
+                                 accidents!</li>
+                              <li>Install all components correctly. Observe the prescribed bolt
+                                 tightening torques! Secure the bolts with bolt locking com- pound
+                                 (e.g. Weicon AN 302-43 (blue)) “medium strength”!</li>
+                              <li>Secure components so that they cannot fall down or fall over!</li>
+                              <li>Operating elements of the Emergency Stop system must be freely
+                                 accessible!</li>
+                              <li>Operate the machine only when all the safety devices, e.g. safety
+                                 fence, light barriers and safety bolts are installed and fully
+                                 functional!</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="warning" id="note_eqf_pg2_lcc">
+                           <p> Risk of injury from stored pneumatic energy! Pneumatic energy
+                              may be stored in the machine that can lead to uncontrolled movements
+                              of components and injuries!<ul id="ul_fvm_qg2_lcc">
+                                 <li>Follow plant requirements for lockout tagout of the system.
+                                    Only then start the maintenance work!</li>
+                              </ul>
+                           </p>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="danger" id="note_lqw_rg2_lcc">
+                           <p>Danger of crushing! There are several crushing points on the
+                              machine that can cause injuries!</p>
+                           <ul id="ul_jfp_zh2_lcc">
+                              <li>Do not reach between the following points: </li>
+                              <li>the vertical carriage and the steel housing</li>
+                              <li>the vertical carriage and the lifting mast</li>
+                              <li>the locking pins and the container</li>
+                              <li>the vertical carriage and the horizontal carriage!</li>
+                           </ul>
+                           <ul id="ul_kfp_zh2_lcc">
+                              <li>No person is allowed inside the safety fence area when the machine
+                                 is switched on!</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="danger" id="note_ezt_5g2_lcc">
+                           <p> Danger due to non-observance of the prohibition of transporting
+                                 persons! The MSK transfer system can pose a serious risk in the
+                              event of non-compliance and/or circumvention of the prohibition of
+                              trans- porting persons.</p>
+                           <ul id="ul_lfp_zh2_lcc">
+                              <li>Only operate the transfer system when all safety devices are in
+                                 place and in proper working condition, such as the programmed
+                                 safety interlocks and physical E-Stops.</li>
+                              <li>No persons are allowed on the transfer system!</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="warning" id="note_drz_gh2_lcc">
+                           <p> Risk of injury due to stored hydraulic energy! Hydraulic
+                              energy can be stored in the machine and cause the un- controlled
+                              movement of components, which can lead to severe in- juries!</p>
+                           <ul id="ul_mfp_zh2_lcc">
+                              <li>Switch off the MSK system, as explained in this document.</li>
+                              <li>Do not begin maintenance work until then!</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="warning" id="note_c2y_jh2_lcc">
+                           <p> Risk of injury due to laser radiation! Laser radiation can
+                              cause serious eye damage. Connie needs to follow-up with Steven and
+                              Kirk. We may need additional training.</p>
+                           <ul id="ul_nfp_zh2_lcc">
+                              <li>Do not look into the laser beam!</li>
+                              <li>If it is not possible to avoid looking directly into the laser
+                                 beam (e.g., during maintenance work), suitable eye protection must
+                                 be worn.</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry>
+                        <note type="caution" id="note_xbw_mh2_lcc">
+                           <p>Danger of electric shock ! Parts of the machine may still be
+                              live even when the emergency stop switch has been pressed! </p>
+                           <ul id="ul_rc2_qh2_lcc">
+                              <li>Do not touch live parts and leads!</li>
+                              <li>Observe the instructions in the operating manual!</li>
+                           </ul>
+                        </note>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

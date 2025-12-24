@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c423A1D8-CAB4-11F0-1283-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Controls</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators,Maintenance Personnel,Industrial engineers,reliability engineers,Safety and Compliance officers,Management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>section-screen</indexterm>
+            <indexterm>iswatch-hmi</indexterm>
+            <indexterm>cortex</indexterm>
+            <indexterm>is-machine</indexterm>
+            <indexterm>section-screens</indexterm>
+            <!-- Process layer -->
+            <indexterm>safety-controls</indexterm>
+            <indexterm>emergency-action-plan-review</indexterm>
+            <indexterm>hazard-mitigation</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>safety-compliance-checks</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>plant-floor-safety</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>operator-safety</indexterm>
+            <indexterm>quality-assurance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname> metR-CTX-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Controls"/>
+         <othermeta name="shortdesc"
+                    content="Review the Emergency Action Plan before performing work."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="emergency action plan;ppe;section screen;iswatch hmi;cortex"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:safety-management;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="safety,emergency,ppe,controls,compliance"/>
+         <othermeta name="usecase" content="safety-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Review the Emergency Action Plan before performing work.</p>
+   </body>
+</topic>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="t42E76F6-CAB4-11F0-1621-09173F13E4C5" xml:lang="en-us">
+   <title>Stopping and Restarting the Lifting Station</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators, maintenance-personnel, industrial-engineers, reliability-engineers, safety-and-compliance-officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>lifting-station</indexterm>
+            <indexterm>control-panel</indexterm>
+            <indexterm>start-stop-button</indexterm>
+            <indexterm>pneumatic-cylinder</indexterm>
+            <indexterm>interlock-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>stop-procedure</indexterm>
+            <indexterm>restart-procedure</indexterm>
+            <indexterm>emergency-shutdown</indexterm>
+            <indexterm>pre-start-inspection</indexterm>
+            <indexterm>sequence-verification</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>operator-procedure</indexterm>
+            <indexterm>safety-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Stopping and Restarting the Lifting Station"/>
+         <othermeta name="shortdesc"
+                    content="Stepwise instructions to stop and restart the lifting station safely, including emergency shutdown, isolation, and pre-start checks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="lifting station; control panel; emergency stop button; pneumatic cylinder; interlock"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:operational-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="stop-procedure, restart, pre-start-check, emergency-shutdown, isolation"/>
+         <othermeta name="usecase"
+                    content="provide operator steps for safe stopping and restarting of lifting station"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li>
+            <note type="caution" id="note_kjy_cm5_jcc">
+               <p>In an emergency, or if there is a risk of injury or damage to property or the
+                  environment, either: </p>
+            </note>
+            <p/>
+            <p>
+               <ul>
+                  <li>Stop the lifting station at the control panel by pressing the Start/Stop button.  </li>
+                  <li>Press the E-Stop for the lifting station. This will also stop all SBS operations,
+                     including the pneumatic sender.   </li>
+               </ul>
+               <note type="note" id="note_zqs_fm5_jcc">
+                  <p>When the E-Stop button is pressed, all movements of the lifting station are
+                     stopped, and pneumatic cylinders end their stroke after reaching the end
+                     position. </p>
+               </note>
+               <note type="note" id="note_bbh_gm5_jcc">
+                  <p>Frequent emergency stops result in high mechanical loads and increased wear.
+                  </p>
+               </note>
+            </p>
+            <stepxmp>
+               <fig id="fig_lyh_2m5_jcc">
+                  <image href="media/image2.jpg"
+                         placement="break"
+                         id="image_myh_2m5_jcc"
+                         align="center"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <note type="note" id="note_fps_gm5_jcc">
+               <p>The gate in the safety fence is equipped with a safety limit switch. When the gate
+                  is opened, an E-Stop occurs that stops the lifting station and the rest of SBS.
+               </p>
+            </note>
+            <p>Follow these steps to enter the fenced area: </p>
+            <p>
+               <ul>
+                  <li>Inform the operating personnel and the batch supervisor that maintenance is
+                     being performed.</li>
+                  <li>Stop the lifting station at the MSK control panel by pressing the Start/Stop
+                     button.</li>
+                  <li>In the MSK control cabinet in the control room, trip the 3 circuit breakers. <ul>
+                        <li>Remove the circuit breakers.</li>
+                        <li>Lockout-tagout-verify the power per plant requirements.</li>
+                     </ul>
+                  </li>
+                  <li>At the safety fence door, press the Request Door Open button.</li>
+                  <li>When the light turns green, open the gate. Then close it after entering.</li>
+                  <li>Press th<uicontrol>e Door Reset</uicontrol> (blue) button.  </li>
+               </ul>
+            </p>
+            <stepxmp>
+               <fig id="fig_v4b_3m5_jcc">
+                  <image href="media/image3.jpg"
+                         placement="break"
+                         id="image_w4b_3m5_jcc"
+                         align="center"/>
+               </fig>
+               <fig id="fig_vd3_3m5_jcc">
+                  <image href="media/image4.jpg"
+                         placement="break"
+                         id="image_wd3_3m5_jcc"
+                         align="center"/>
+               </fig>
+            </stepxmp>
+         </li>
+         <li>
+            <p>After completing the maintenance work:</p>
+            <p>
+               <ul>
+                  <li>Make sure that the equipment can operate properly.</li>
+                  <li>Verify that all safety components are in place.</li>
+                  <li>When leaving the fenced area, press the <uicontrol>Door Reset</uicontrol>
+                     button.</li>
+                  <li>Remove LOTO, and re-install the 3 circuit breakers in the MSK control cabinet.</li>
+                  <li>At the control panel, cancel all faults by pressing the Reset Fault button on the control panel.</li>
+                  <li>Also, press the <uicontrol>Reset Safety Fence Area </uicontrol>button.</li>
+                  <li>Ensure that no personnel are near the equipment, or in the safety fence area.</li>
+                  <li>Press the<uicontrol> Start</uicontrol> button on the control panel.</li>
+                  <li>Observe the operation to ensure that the lifting station is working properly.  </li>
+               </ul>
+               <note type="caution" id="note_acf_rm5_jcc">
+                  <p> There is a serious danger for anyone inside the safety fence area when the
+                     lifting station is turned on. </p>
+               </note>
+            </p>
+            <stepxmp>
+               <fig id="fig_d5c_km5_jcc">
+                  <image href="media/image5.jpg"
+                         placement="break"
+                         id="image_e5c_km5_jcc"
+                         align="center"/>
+               </fig>
+            </stepxmp>
+         </li>
+      </ol>
+   </body>
+</topic>

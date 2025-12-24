@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC96F9DE-BB9C-11F0-1680-09173F13E4C5" xml:lang="en-us">
+   <title>Diameter Screen  </title>
+   <prolog>
+      <author>Metapercept</author>
+      <critdates>
+         <created date="2025-11-07+05:30"/>
+         <revised modified="2025-05-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role" platform="web" product="metR-Soul-Streator_Discipline"/>
+         <keywords>
+            <keyword/>
+            <indexterm/>
+            <indexterm/>
+         </keywords>
+         <othermeta name="title" content=""/>
+         <othermeta name="shortdesc" content=""/>
+      </metadata>
+      <resourceid appid="" appname="" id="" ux-source-priority="topic-and-map"/>
+   </prolog>
+   <body>
+      <p>The Diameter screen shows the diameter measurements for each section.</p>
+      <p>The diameter measurement takes the conveyor belt speed into account. As a result, the diameter value can differ from the actual value when the conveyor belt speed is not entered correctly into the system.</p>
+      <p>For non-round bottles, the diameter measurements have large variations in the non-round areas when the bottles rotate on the conveyor.</p>
+      <p>A stable positioning of the bottles on the conveyor is necessary because the diameter
+         measurement changes when the bottles are closer or further away from the camera<fig id="fig_vs4_lxj_fcc">
+            <image href="media/image14.jpg"
+                   placement="break"
+                   align="center"
+                   scale="50"
+                   id="image_ws4_lxj_fcc"/>
+         </fig>
+      </p>
+   </body>
+</topic>

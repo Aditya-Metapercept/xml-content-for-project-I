@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c42B8A50-CAB4-11F0-1258-09173F13E4C5" xml:lang="en-us">
+   <title>Equipment Needed</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators, Maintenance Personnel, Industrial engineers, Reliability engineers, Safety and Compliance officers, Management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>msk-control-panel</indexterm>
+            <indexterm>lifting-station</indexterm>
+            <indexterm>fire-extinguisher</indexterm>
+            <indexterm>tool-kit</indexterm>
+            <indexterm>hand-tools</indexterm>
+            <!-- Process layer -->
+            <indexterm>equipment-check</indexterm>
+            <indexterm>tools-verification</indexterm>
+            <indexterm>site-preparation</indexterm>
+            <indexterm>safety-equipment-check</indexterm>
+            <indexterm>material-handling</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-bay</indexterm>
+            <indexterm>workplace-safety</indexterm>
+            <indexterm>production-support</indexterm>
+            <indexterm>shift-operations</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Equipment Needed"/>
+         <othermeta name="shortdesc"
+                    content="Lists required equipment such as access to control panel, fire extinguisher, and maintenance tools needed to perform the task."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="msk control panel;fire extinguisher;tool kit;access ladders;maintenance tools"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-preparation;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="equipment,tools,preparation,access,safety"/>
+         <othermeta name="usecase"
+                    content="identify and prepare required equipment for maintenance tasks"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Access to the MSK control panel</li>
+         <li>Fire extinguisher in the cage</li>
+      </ul>
+   </body>
+</topic>

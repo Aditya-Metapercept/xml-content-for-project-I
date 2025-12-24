@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA23D65-BB9C-11F0-1990-09173F13E4C5" xml:lang="en-us">
+   <title>Equipment Needed</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-12+05:30"/>
+         <revised modified="2025-11-12+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metR-sbs-soul</indexterm>
+            <indexterm>lifting-station</indexterm>
+            <indexterm>tool-kit</indexterm>
+            <indexterm>torque-wrench</indexterm>
+            <indexterm>alignment-gauge</indexterm>
+            <indexterm>personal-protective-equipment</indexterm>
+            <indexterm>measuring-instruments</indexterm>
+            <!-- Process layer -->
+            <indexterm>equipment-inspection</indexterm>
+            <indexterm>tool-preparation</indexterm>
+            <indexterm>pre-maintenance-setup</indexterm>
+            <indexterm>verification-procedure</indexterm>
+            <indexterm>equipment-readiness-check</indexterm>
+            <indexterm>calibration-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>maintenance-operations</indexterm>
+            <indexterm>shop-floor-environment</indexterm>
+            <indexterm>workstation-safety</indexterm>
+            <indexterm>industrial-equipment</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Equipment Needed"/>
+         <othermeta name="shortdesc"
+                    content="Lists the tools, gauges, and protective equipment required to perform alignment, maintenance, and inspection activities on the lifting station and its assemblies."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="metR-sbs-soul; lifting-station; tool-kit; torque-wrench; alignment-gauge; personal-protective-equipment; measuring-instruments; equipment-inspection; tool-preparation; pre-maintenance-setup; verification-procedure; equipment-readiness-check; calibration-validation"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:maintenance-procedure;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="metR-sbs-soul, lifting-station, tool-kit, torque-wrench, alignment-gauge, personal-protective-equipment, measuring-instruments, equipment-inspection, tool-preparation, pre-maintenance-setup, verification-procedure, equipment-readiness-check, calibration-validation, glass-manufacturing, maintenance-operations, shop-floor-environment, workstation-safety, industrial-equipment, preventive-maintenance"/>
+         <othermeta name="usecase"
+                    content="reference list of equipment required for maintenance and inspection"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ul>
+         <li>Access to the MSK control panel</li>
+         <li>Fire extinguisher in the cage</li>
+      </ul>
+   </body>
+</topic>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c4219A06-CAB4-11F0-1019-09173F13E4C5" xml:lang="en-us">
+   <title>PPE Required</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-24+05:30"/>
+         <revised modified="2025-11-24"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>personal-protective-equipment</indexterm>
+            <indexterm>ppe</indexterm>
+            <indexterm>safety-signage</indexterm>
+            <indexterm>lockout-tagout</indexterm>
+            <!-- Process layer -->
+            <indexterm>ppe-selection</indexterm>
+            <indexterm>donning-and-doffing</indexterm>
+            <indexterm>safety-checks</indexterm>
+            <indexterm>hazard-assessment</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>plant-floor</indexterm>
+            <indexterm>maintenance-department</indexterm>
+            <indexterm>safety-management</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="PPE Required"/>
+         <othermeta name="shortdesc"
+                    content="Defines required personal protective equipment and selection guidance for compressor work."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ppe;personal-protective-equipment;safety-signage"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:ppe-required;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="ppe,safety,hazard"/>
+         <othermeta name="usecase" content="ppe-required"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section id="section_akh_w43_ncc">
+         <title>General</title>
+         <p>Bump cap, safety glasses, hearing protection, long sleeves, steel toed safety shoes.</p>
+         <p>Have available a respirator with certified cartridges, or a PAPR, in case of a silica
+               release or toxic batch material spill.</p>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cCA107F7-BB9C-11F0-2195-09173F13E4C5" xml:lang="en-us">
+   <title>Respirable Crystalline Silica</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-14+05:30"/>
+         <revised modified="2025-11-14+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>dust-extraction-system</indexterm>
+            <indexterm>air-filtration-unit</indexterm>
+            <indexterm>respiratory-protection-device</indexterm>
+            <indexterm>industrial-vacuum-system</indexterm>
+            <indexterm>ventilation-control-panel</indexterm>
+            <!-- Process layer -->
+            <indexterm>hazard-identification</indexterm>
+            <indexterm>exposure-assessment</indexterm>
+            <indexterm>air-quality-monitoring</indexterm>
+            <indexterm>silica-control-procedure</indexterm>
+            <indexterm>environmental-safety-check</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>occupational-health</indexterm>
+            <indexterm>industrial-engineering</indexterm>
+            <indexterm>production-floor</indexterm>
+            <indexterm>metr-sbs-soul</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Respirable Crystalline Silica"/>
+         <othermeta name="shortdesc"
+                    content="Health hazards, exposure controls, and protective measures for respirable crystalline silica."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="silica;dust-extraction;air-filtration;respiratory-protection;ventilation"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:health-hazard-management;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="silica,health-hazard,air-quality,respiratory-protection"/>
+         <othermeta name="usecase" content="health-hazard-management"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Crystalline silica has been classified as a human lung carcinogen. Additionally, breathing
+         crystalline silica dust can cause silicosis, which in severe cases can be disabling, or
+         even fatal.<fig id="fig_flm_svt_jcc">
+            <image href="media/image1.jpg"
+                   placement="break"
+                   id="image_glm_svt_jcc"
+                   align="center"/>
+         </fig>
+      </p>
+   </body>
+</topic>

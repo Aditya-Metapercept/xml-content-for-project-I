@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="m4150A33-CAB4-11F0-1060-09173F13E4C5" xml:lang="en-us">
+   <title>Replacing Mixing Arms and Outer Scrapper Arms</title>
+   <topicmeta>
+      <critdates>
+         <revised modified="2022-10-01"/>
+      </critdates>
+   </topicmeta>
+   <topicref chunk="to-content"
+             href="SBS-MR-031B_replacing_mixing_arms_and_outer_scrapper_arms_.xml">
+      <topicmeta>
+         <othermeta content="SBS-MR-031B" name="DocumentNumber"/>
+         <othermeta content="2022-10-01" name="RevisionDate"/>
+      </topicmeta>
+      <topicref href="SBS-MR-031B_purpose_application.xml"/>
+      <topicref href="SBS-MR-031B_ppe_required.xml"/>
+      <topicref href="SBS-MR-031B_safety_hazards.xml"/>
+      <topicref href="SBS-MR-031B_respirable_crystalline_silica.xml"/>
+      <topicref href="SBS-MR-031B_safety_controls.xml"/>
+      <topicref href="SBS-MR-031B_equipment_needed.xml"/>
+      <topicref href="SBS-MR-031B_comments.xml"/>
+      <topicref href="SBS-MR-031B_replacing_mixing_arms_and_outer_scrapper_arms.xml"/>
+      <topicref href="SBS-MR-031B_approval.xml"/>
+      <topicref href="SBS-MR-031B_revision_history.xml"/>
+   </topicref>
+</topic>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c4172655-CAB4-11F0-1717-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-sbs-soul</indexterm>
+            <indexterm>approval</indexterm>
+            <indexterm>authority</indexterm>
+            <indexterm>signature</indexterm>
+            <indexterm>approval-matrix</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-workflow</indexterm>
+            <indexterm>document-signoff</indexterm>
+            <indexterm>role-assignment</indexterm>
+            <indexterm>review-and-approve</indexterm>
+            <indexterm>change-authorization</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>document-control</indexterm>
+            <indexterm>quality-management</indexterm>
+            <indexterm>governance</indexterm>
+            <indexterm>management-review</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-SBS-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Lists reviewers and approvers for the document and records the approval signatures and dates."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="approver; reviewer; approval-date; signature; approval-matrix"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:document-approval;industry:industrial-engineering"/>
+         <othermeta name="tags" content="approval,signoff,review,authority,compliance"/>
+         <othermeta name="usecase" content="record-approval-and-signoff"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Representatives of the MAGMA Approval Team<table id="table_ldn_cjs_lcc">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="25.2%"/>
+               <colspec colname="c2" colwidth="46.8%"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Person</p>
+                     </entry>
+                     <entry>
+                        <p>Role</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Johnathan Fisher</p>
+                     </entry>
+                     <entry>
+                        <p>SBS Manager – R&amp;D</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Phillip Wilson</p>
+                     </entry>
+                     <entry>
+                        <p>EHS Continuous Improvement Manager</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Jeremy Singletary</p>
+                     </entry>
+                     <entry>
+                        <p>Shift Leader, Research &amp; Development</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

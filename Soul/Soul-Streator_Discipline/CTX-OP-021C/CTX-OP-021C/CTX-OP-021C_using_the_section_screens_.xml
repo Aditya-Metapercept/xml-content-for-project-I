@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c424E09F-CAB4-11F0-1479-09173F13E4C5" xml:lang="en-us">
+   <title>Using the Section Screens </title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="Machine Operators,Maintenance Personnel,Industrial engineers,reliability engineers,Safety and Compliance officers,Management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>section-screen</indexterm>
+            <indexterm>iswatch-hmi</indexterm>
+            <indexterm>cortex</indexterm>
+            <indexterm>is-machine</indexterm>
+            <indexterm>section-screens</indexterm>
+            <!-- Process layer -->
+            <indexterm>using-section-screens</indexterm>
+            <indexterm>navigating-hmi</indexterm>
+            <indexterm>interpreting-graphs</indexterm>
+            <indexterm>changing-settings</indexterm>
+            <indexterm>monitoring-trends</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>forming</indexterm>
+            <indexterm>operator-training</indexterm>
+            <indexterm>quality-assurance</indexterm>
+            <indexterm>operator-hmi</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname> metR-CTX-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Using the Section Screens"/>
+         <othermeta name="shortdesc"
+                    content="Defines procedures for using the IS Watch section screens."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="section screens;iswatch hmi;cortex;is machine;graphs"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:section-screen-operations;industry:glass-manufacturing"/>
+         <othermeta name="tags" content="usage,navigation,hmi,graphs,training"/>
+         <othermeta name="usecase" content="section-screen-operations"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>CTX-OP-021C</p>
+      <p>Revised: 2023-05-22</p>
+   </body>
+</topic>
