@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="cC870EBD-BB9C-11F0-1998-09173F13E4C5" xml:lang="en-us">
+   <title>Safety Hazard</title>
+   <prolog>
+      <author>Yashshree</author>
+      <critdates>
+         <created date="2025-11-13+05:30"/>
+         <revised modified="2025-11-13"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>hot-surfaces</indexterm>
+            <indexterm>molten-glass-zone</indexterm>
+            <indexterm>ventilation-system</indexterm>
+            <indexterm>heat-exposure-monitor</indexterm>
+            <indexterm>barrier-guards</indexterm>
+            <!-- Process layer -->
+            <indexterm>hazard-assessment</indexterm>
+            <indexterm>control-measures</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>monitoring</indexterm>
+            <indexterm>mitigation-planning</indexterm>
+            <!-- Context layer -->
+            <indexterm>metR-MLT-Soul</indexterm>
+            <indexterm>glass-manufacturing</indexterm>
+            <indexterm>safety</indexterm>
+            <indexterm>hazard-zone</indexterm>
+            <indexterm>occupational-health</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-MLT-Soul</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety Hazard"/>
+         <othermeta name="shortdesc"
+                    content="Hazard assessment details for hot surfaces, molten glass zones, and high-heat exposure areas."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="hot surfaces;molten glass;heat exposure;ventilation system;protective barriers"/>
+         <othermeta name="taxonomy"
+                    content="domain:glass-manufacturing;usecase:hazard-assessment;industry:glass-manufacturing"/>
+         <othermeta name="tags"
+                    content="hazard,heat,mitigation,assessment,occupational-health"/>
+         <othermeta name="usecase" content="hazard-assessment"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>
+         <table id="table_cwk_rjf_vcc">
+            <tgroup cols="4">
+               <colspec colname="c1" colnum="1" colwidth="1*"/>
+               <colspec colname="c2" colnum="2" colwidth="1*"/>
+               <colspec colname="c3" colnum="3" colwidth="1*"/>
+               <colspec colname="c4" colnum="4" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+                  <row>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                     <entry/>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
