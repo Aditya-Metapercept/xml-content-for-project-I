@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1E5BF36-BB01-11F0-4167-09173F13E4C5" xml:lang="en-us">
+   <title>Approval</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T18:00:00+05:30"/>
+         <revised modified="2025-12-02T18:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,industrial-engineers,reliability-engineers,safety-and-compliance-officers,plant-management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-ehs-space</indexterm>
+            <indexterm>ladder-inspection-app</indexterm>
+            <indexterm>ehs-recording-system</indexterm>
+            <indexterm>equipment-inspection-tool</indexterm>
+            <indexterm>compliance-management-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>approval-workflow</indexterm>
+            <indexterm>document-signoff</indexterm>
+            <indexterm>change-control</indexterm>
+            <indexterm>record-retention</indexterm>
+            <indexterm>management-review</indexterm>
+            <!-- Context layer -->
+            <indexterm>glass-manufacturing-ehs</indexterm>
+            <indexterm>plant-safety-governance</indexterm>
+            <indexterm>regulatory-compliance</indexterm>
+            <indexterm>zero-incident-culture</indexterm>
+            <indexterm>leadership-accountability</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Approval"/>
+         <othermeta name="shortdesc"
+                    content="Defines approval authorities and signoff workflow for EHS documents and inspections relevant to ladder inspection and plant safety."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ladders;inspection-forms;approval-signatures;ehs-policies;inspection-logs"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs/usecase:document-approval/industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="approval,signoff,inspection-records,compliance"/>
+         <othermeta name="usecase"
+                    content="establish-approval-and-signoff-process-for-inspections"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Sanctioning Representatives of the Global Team<table id="simpletable_ztp_zrv_pzb">
+            <tgroup cols="2">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <thead>
+                  <row>
+                     <entry>
+                        <p>Region</p>
+                     </entry>
+                     <entry>
+                        <p>Representative</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Asia Pacific</p>
+                     </entry>
+                     <entry>
+                        <p>Steve Bourke</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Europe</p>
+                     </entry>
+                     <entry>
+                        <p>Tim Neal</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Latin America</p>
+                     </entry>
+                     <entry>
+                        <p>Isabela Malpighi</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>North America</p>
+                     </entry>
+                     <entry>
+                        <p>Ken Smigielski</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Global Operations</p>
+                     </entry>
+                     <entry>
+                        <p>Jim Joyce, V P</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>

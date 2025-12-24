@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="r1E5D7D0-BB01-11F0-1124-09173F13E4C5" xml:lang="en-us">
+   <title>Instructions</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T18:00:00+05:30"/>
+         <revised modified="2025-12-02T18:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,safety-and-compliance-officers,supervisors,industrial-engineers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>inspection-instructions</indexterm>
+            <indexterm>work-at-height-procedure</indexterm>
+            <indexterm>mobile-inspection-guidance</indexterm>
+            <indexterm>maintenance-workflow</indexterm>
+            <indexterm>ehs-operational-checklist</indexterm>
+            <!-- Process layer -->
+            <indexterm>step-by-step-instructions</indexterm>
+            <indexterm>pre-use-inspection</indexterm>
+            <indexterm>safe-use-procedures</indexterm>
+            <indexterm>defect-reporting</indexterm>
+            <indexterm>escalation-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>plant-floor-operations</indexterm>
+            <indexterm>equipment-maintenance-routine</indexterm>
+            <indexterm>worker-safety-practices</indexterm>
+            <indexterm>mro-operational-guidance</indexterm>
+            <indexterm>incident-prevention</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Instructions"/>
+         <othermeta name="shortdesc"
+                    content="Detailed stepwise instructions for performing ladder inspections, identifying defects and initiating corrective actions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="inspection-steps;defect-categories;report-forms;work-permit;corrective-actions"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs/usecase:operational-instructions/industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="instructions,steps,defects,reporting"/>
+         <othermeta name="usecase"
+                    content="guide-operators-and-maintainers-through-inspection-steps"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <ol>
+            <li>The following visual checks shall be made on portable and fixed ladders:<ol>
+                  <li>Inspect each portable and fixed ladder for the following:<ol>
+                        <li>Broken or loose members.</li>
+                        <li>All joints between steps and side rails are tight. </li>
+                        <li>All hardware and fittings securely attached.</li>
+                        <li>All moveable parts operate freely without binding or undue play.</li>
+                        <li>Side rail dents, bends or excessively dented rungs.</li>
+                        <li>Fiberglass ladders shall be check for splinters and cracks.</li>
+                        <li>Other faults. <fig>
+                              <image href="media/image6.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Check that all rivets are in good condition:
+            <ol>
+                        <li>Free from rust.</li>
+                        <li>Not loose.</li>
+                        <li>Check for missing rivet heads.</li>
+                        <li>All shafts are intact.
+                  <ol>
+                              <li>
+                                 <i>The image in the right hand column shows an intact rivet head but the shaft has cut through.
+                                    </i>
+                                 <fig id="fig_jsc_xqv_pzb">
+                                    <image href="media/image15.jpg"
+                                           placement="break"
+                                           id="image_ksc_xqv_pzb"
+                                           align="center"/>
+                                 </fig>
+                              </li>
+                           </ol>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Non-slip feet are present and not cracked. <fig>
+                        <image href="media/image7.jpg" placement="break" align="center"/>
+                     </fig>
+                  </li>
+                  <li>Check that all rungs are unpainted and free of grease and oil.
+            <ol>
+                        <li>Paint or other coatings on ladders may prevent defects from being visible during inspection.</li>
+                        <li>Steps, rungs, cleats, broken side rails and all other sections of the ladder shall be kept free of dirt, grease and oil.</li>
+                     </ol>
+                  </li>
+                  <li>Rungs spaced one foot apart.
+            <ol>
+                        <li>All rungs shall have a minimum diameter of three-fourths inch for metal ladders.</li>
+                        <li>The distance between rungs, cleats, and steps shall not exceed 300 mm (12 inch)
+                           and shall be uniform throughout the length of the ladder. <fig>
+                              <image href="media/image8.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Side rails a minimum of 300 mm (12 inch). <fig>
+                        <image href="media/image9.jpg" placement="break" align="center"/>
+                     </fig>
+                  </li>
+                  <li>Extension ladder rope in good condition and have all of the following:
+            <ol>
+                        <li>Polymer end caps</li>
+                        <li>External guides at top of base section</li>
+                        <li>Heavy duty pulley and rope</li>
+                        <li>Full length interlocking side rails</li>
+                        <li>Slip-resistant D-rungs</li>
+                        <li>Aluminum locks</li>
+                        <li>Heavy cast aluminum shoe assembly</li>
+                        <li>Rope meets manufacturer’s spec <fig>
+                              <image href="media/image10.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Extension ladders not separated
+            <ol>
+                        <li>Tie-Off</li>
+                        <li>Fly (Upper Section)</li>
+                        <li>Extension Lock</li>
+                        <li>Base (Lower Section)</li>
+                        <li>Non-Slip Feet <fig>
+                              <image href="media/image11.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Spreader arms not bent or broken
+            <ol>
+                        <li>A metal spreader or locking device of sufficient size and strength to securely
+                           hold the front and back sections in the open position shall be a
+                           component of each stepladder. The spreader shall have all sharp points or
+                           edges covered or removed to protect the user. <fig>
+                              <image href="media/image12.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Maximum length of ladder (measured by side rail) shall not be more than:
+            <ol>
+                        <li>Step ladder – 20’</li>
+                        <li>Single ladder – 30’ </li>
+                        <li>Extension ladder (2-piece) – 50’</li>
+                        <li>Extension ladder (3+ pieces) – 60’</li>
+                     </ol>
+                  </li>
+                  <li>Fixed ladders are secured to the structure
+            <ol>
+                        <li>The preferred pitch of fixed ladders shall fall within the range of 75 degrees and 90 degrees with the horizontal.</li>
+                        <li>Fixed ladders shall be considered as substandard if they are installed within the substandard pitch range of 60 and 75 degrees with the horizontal. Substandard fixed ladders are permitted only where it is found necessary to meet conditions of installation.</li>
+                        <li>Ladders having a pitch in excess of 90 degrees with the horizontal are
+                           prohibited. <fig>
+                              <image href="media/image13.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+                  <li>Cages are undamaged on fixed ladders requiring them
+            <ol>
+                        <li>Cages shall be provided on ladders of more than 6 meters (20 feet) to a maximum unbroken length of 9 meters (30 feet).</li>
+                        <li>Cages shall extend a minimum of 1 meter (42 inches) above the top of the landing, unless other acceptable protection is provided.</li>
+                        <li>Cages shall extend down the ladder to a point not less than 2 meters (7 feet) nor more than 2.5 meters (8 feet) above the base of the ladder, with bottom flared not less than 100 mm (4 inches), or portion of cage opposite ladder shall be carried to the base.</li>
+                        <li>Cages shall not be less than 690 mm (27 inches) in width.</li>
+                        <li>Insides of cage are clear of projections.</li>
+                        <li>Vertical bars are located at a maximum spacing of 40 degrees around the
+                           circumference of the cage. <fig>
+                              <image href="media/image14.jpg" placement="break" align="center"/>
+                           </fig>
+                        </li>
+                     </ol>
+                  </li>
+               </ol>
+            </li>
+         </ol>
+      </section>
+   </body>
+</topic>

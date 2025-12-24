@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="c1E65381-BB01-11F0-1628-09173F13E4C5" xml:lang="en-us">
+   <title>Safety</title>
+   <prolog>
+      <author>Suchitra</author>
+      <critdates>
+         <created date="2025-12-02T18:00:00+05:30"/>
+         <revised modified="2025-12-02T18:00:00+05:30"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="machine-operators,maintenance-personnel,safety-and-compliance-officers,plant-management,health-officers"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ehs-safety-guideline</indexterm>
+            <indexterm>personal-protective-equipment-guide</indexterm>
+            <indexterm>fall-protection-procedures</indexterm>
+            <indexterm>hazard-assessment-tool</indexterm>
+            <indexterm>safe-work-practice</indexterm>
+            <!-- Process layer -->
+            <indexterm>risk-assessment</indexterm>
+            <indexterm>hazard-identification</indexterm>
+            <indexterm>incident-reporting</indexterm>
+            <indexterm>control-measures</indexterm>
+            <indexterm>emergency-response</indexterm>
+            <!-- Context layer -->
+            <indexterm>work-at-height-risk</indexterm>
+            <indexterm>plant-safety-standards</indexterm>
+            <indexterm>maintenance-safety-practices</indexterm>
+            <indexterm>occupational-health</indexterm>
+            <indexterm>zero-incident-initiative</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-EHS-Space</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Safety"/>
+         <othermeta name="shortdesc"
+                    content="Safety requirements, PPE, risk controls and emergency response measures for ladder use and related maintenance tasks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ppe;ladders;hazard-controls;emergency-equipment;first-aid-kits"/>
+         <othermeta name="taxonomy"
+                    content="domain:ehs/usecase:safety-controls-and-ppe/industry:glass manufacturing heavy machinery and industrial equipment"/>
+         <othermeta name="tags" content="safety,ppe,risk-control,emergency"/>
+         <othermeta name="usecase" content="specify-safety-requirements-and-controls"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Observe Space standard safety requirements and procedures defined by the Global Environmental
+         Health &amp; Safety (EH&amp;S) organization, as well as all applicable local, regional, and
+         national requirements. Safety equipment and instructions specific to the completion of this
+         work instruction are detailed in the <xref href="EHS-03-009_instructions.xml">Instructions</xref> Section.<table id="simpletable_v3l_qqv_pzb">
+            <tgroup cols="5">
+               <colspec colname="c1" colwidth="1*"/>
+               <colspec colname="c2" colwidth="1*"/>
+               <colspec colname="c3" colwidth="1*"/>
+               <colspec colname="c4" colwidth="1*"/>
+               <colspec colname="c5" colwidth="1*"/>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>
+                           <fig id="fig_w3l_qqv_pzb">
+                              <title>Danger</title>
+                              <image href="media/image1.jpg"
+                                     placement="break"
+                                     align="center"
+                                     id="image_x3l_qqv_pzb"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_y3l_qqv_pzb">
+                              <title>Slip</title>
+                              <image href="media/image2.jpg"
+                                     placement="break"
+                                     align="center"
+                                     id="image_z3l_qqv_pzb"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_ajl_qqv_pzb">
+                              <title>Trip</title>
+                              <image href="media/image3.jpg"
+                                     placement="break"
+                                     align="center"
+                                     id="image_bjl_qqv_pzb"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_cjl_qqv_pzb">
+                              <title>Drop</title>
+                              <image href="media/image4.jpg"
+                                     placement="break"
+                                     align="center"
+                                     id="image_djl_qqv_pzb"/>
+                           </fig>
+                        </p>
+                     </entry>
+                     <entry>
+                        <p>
+                           <fig id="fig_ejl_qqv_pzb">
+                              <title>Bump Hazard</title>
+                              <image href="media/image5.jpg"
+                                     placement="break"
+                                     align="center"
+                                     id="image_fjl_qqv_pzb"/>
+                           </fig>
+                        </p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </p>
+   </body>
+</topic>
