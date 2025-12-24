@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BypassStaticSwitch-7FE2B013" xml:lang="en">
+   <title>Bypass Static Switch and Inverter Output Contactor</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>static-bypass-switch</indexterm>
+            <indexterm>inverter-output-contactor</indexterm>
+            <indexterm>bypass-line</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>bypass-power-path</indexterm>
+            <indexterm>transfer-control-circuit</indexterm>
+            <!-- Process layer -->
+            <indexterm>activate-static-bypass</indexterm>
+            <indexterm>transfer-load-to-bypass</indexterm>
+            <indexterm>enable-inverter-transfer</indexterm>
+            <indexterm>synchronize-inverter-with-bypass</indexterm>
+            <indexterm>monitor-transfer-conditions</indexterm>
+            <indexterm>protect-load-during-transfer</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintain-load-continuity</indexterm>
+            <indexterm>fault-handling-environment</indexterm>
+            <indexterm>power-switching-operations</indexterm>
+            <indexterm>ups-protection-mechanisms</indexterm>
+            <indexterm>operational-safety-context</indexterm>
+            <indexterm>industrial-power-distribution</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Bypass Static Switch and Inverter Output Contactor"/>
+         <othermeta name="shortdesc"
+                    content="Describes the function of the static bypass switch and inverter output contactor, including load transfer, inverter synchronization, and protection mechanisms."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static bypass switch; inverter output contactor; bypass line; inverter module; bypass power path; transfer control circuit"/>
+         <othermeta name="taxonomy"
+                    content="domain:system-operation-modes;usecase:understand-static-bypass-function;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="static switch, bypass mode, inverter transfer, synchronization, load transfer, protection"/>
+         <othermeta name="usecase"
+                    content="explain how the ups manages load transfer between inverter and bypass using the static switch and output contactor"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The static switch can automatically without interruption switch
+between supplying the load from the inverter output or the bypass
+mains. This can occur if the inverter output voltage or frequency
+is outside of the defined tolerances, for example, if there is a short
+circuit or the inverter is overloaded.</p>
+      <p>The status of the inverter output contactor is controlled by the
+bypass static switch controller control, so that the activation of
+the bypass static switch is always done together with the opening
+of the inverter output contactor.</p>
+      <p>When the inverter output is back within the tolerance, the static
+switch will automatically switch back to inverter operation (normal
+operation).</p>
+      <p>It is also possible to manually switch to either inverter output
+(force inverter operation) or bypass static switch output (force bypass
+operation).</p>
+   </body>
+</topic>

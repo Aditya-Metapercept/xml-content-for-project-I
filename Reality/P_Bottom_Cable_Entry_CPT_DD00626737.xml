@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BottomCableEntry-979D956C" xml:lang="en">
+   <title>Bottom Cable Entry</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>bottom-cable-entry</indexterm>
+            <indexterm>cable-routing-chamber</indexterm>
+            <indexterm>ups-cabinet</indexterm>
+            <indexterm>cable-gland-plate</indexterm>
+            <indexterm>ac-power-cables</indexterm>
+            <indexterm>dc-power-cables</indexterm>
+            <!-- Process layer -->
+            <indexterm>route-cables-through-bottom-entry</indexterm>
+            <indexterm>install-cable-glands</indexterm>
+            <indexterm>separate-ac-and-dc-cables</indexterm>
+            <indexterm>apply-mechanical-protection</indexterm>
+            <indexterm>ensure-cable-clearance</indexterm>
+            <indexterm>verify-entry-alignment</indexterm>
+            <!-- Context layer -->
+            <indexterm>installation-environment</indexterm>
+            <indexterm>industrial-wiring-guidelines</indexterm>
+            <indexterm>power-distribution-setup</indexterm>
+            <indexterm>cabinet-access-management</indexterm>
+            <indexterm>electrical-safety-environment</indexterm>
+            <indexterm>ups-system-installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Bottom Cable Entry"/>
+         <othermeta name="shortdesc"
+                    content="Explains the bottom cable entry design, including cable routing, mechanical protection, and installation requirements for AC, DC, control, and grounding cables."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="bottom cable entry; cable routing chamber; ups cabinet; cable gland plate; ac power cables; dc power cables"/>
+         <othermeta name="taxonomy"
+                    content="domain:system-installation;usecase:install-bottom-cable-entry;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="cable entry, bottom routing, ac cables, dc cables, cable glands, installation guidelines"/>
+         <othermeta name="usecase"
+                    content="guide installers in configuring and routing cables through the bottom entry of the ups cabinet"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The cable entry is closed during transportation. To open the bottom
+cable entry slide the front part (A) towards the door. The
+entry between the plates (B) is covered by bristles that cables
+can be guided through.</p>
+      <fig>
+         <image href="../Images/Prime_Cable-entry_Open_DD00626726.svg"
+                scope="local"
+                placement="inline"/>
+      </fig>
+   </body>
+</topic>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryTemperatureSensorPT1000-8008854B" xml:lang="en">
+   <title>Battery Temperature Sensor (PT1000)</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-temperature-sensor</indexterm>
+            <indexterm>pt1000-sensor</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>temperature-compensation-module</indexterm>
+            <indexterm>ups-controller</indexterm>
+            <indexterm>battery-charging-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>install-temperature-sensor</indexterm>
+            <indexterm>measure-battery-temperature</indexterm>
+            <indexterm>enable-temperature-compensation</indexterm>
+            <indexterm>place-sensor-in-battery-bank</indexterm>
+            <indexterm>connect-sensor-wiring</indexterm>
+            <indexterm>monitor-charging-adjustments</indexterm>
+            <!-- Context layer -->
+            <indexterm>battery-maintenance-environment</indexterm>
+            <indexterm>thermal-compensation-context</indexterm>
+            <indexterm>ups-battery-protection</indexterm>
+            <indexterm>energy-storage-environment</indexterm>
+            <indexterm>industrial-power-systems</indexterm>
+            <indexterm>preventive-maintenance-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery Temperature Sensor (PT1000)"/>
+         <othermeta name="shortdesc"
+                    content="Describes the PT1000 battery temperature sensor used for charging voltage compensation and explains its installation and placement in the battery bank."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery temperature sensor; pt1000 sensor; battery bank; temperature compensation module; ups controller; battery charging system"/>
+         <othermeta name="taxonomy"
+                    content="domain:battery-maintenance;usecase:install-battery-temperature-sensor;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="battery temperature, pt1000, thermal compensation, charging system, sensor installation, battery bank monitoring"/>
+         <othermeta name="usecase"
+                    content="explain the purpose and installation of the pt1000 sensor for battery temperature compensation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <p>As an option, if battery temperature compensation or measurement
+is needed a battery temperature sensor can be selected.</p>
+         <p>The
+battery temperature sensor connection is located on the monitoring
+controller.</p>
+         <note>After the batteries are installed the position
+of the temperature sensor should be checked. It is recommended to
+place the temperature sensor close to a battery cell in the middle
+of the battery bank.</note>
+         <fig>
+            <image href="../Images/Prime_Relays_Battery-Sensor_DD00633081.svg"
+                   placement="inline"/>
+         </fig>
+         <table>
+            <tgroup cols="3">
+               <colspec colname="col1"/>
+               <colspec colname="col2"/>
+               <colspec colname="col3"/>
+               <thead>
+                  <row>
+                     <entry valign="top">
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/Relay-9BD5AFD1"/>
+                     </entry>
+                     <entry valign="top">
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/RelayName-9BD5B113"/>
+                     </entry>
+                     <entry valign="top">
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/PinoutDescription-9BD5B2C8"/>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry morerows="1" valign="middle">
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/XG401-9BD5B4E4"/>
+                     </entry>
+                     <entry morerows="1" valign="middle">
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/BatteryTemperatureSensor-9BD5B37E"/>
+                     </entry>
+                     <entry>
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/ph-12315132-9BB730BE"/>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <ph href="P_Customer_Connection_Board_CPT_DD00631107.xml#CustomerConnectionBoard-9B567D06/ph-12315212-9BB738D9"/>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </div>
+   </body>
+</topic>

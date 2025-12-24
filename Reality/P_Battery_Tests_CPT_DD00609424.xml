@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryTests-86A7E8DA" xml:lang="en">
+   <title>Battery Tests</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-bank</indexterm>
+            <indexterm>battery-test-controller</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>battery-capacity-module</indexterm>
+            <indexterm>dc-discharge-path</indexterm>
+            <indexterm>system-display</indexterm>
+            <!-- Process layer -->
+            <indexterm>perform-battery-tests</indexterm>
+            <indexterm>run-capacity-test</indexterm>
+            <indexterm>run-duration-test</indexterm>
+            <indexterm>monitor-test-progress</indexterm>
+            <indexterm>evaluate-test-results</indexterm>
+            <indexterm>record-test-data</indexterm>
+            <!-- Context layer -->
+            <indexterm>battery-health-assessment</indexterm>
+            <indexterm>preventive-maintenance-environment</indexterm>
+            <indexterm>energy-storage-evaluation</indexterm>
+            <indexterm>industrial-ups-maintenance</indexterm>
+            <indexterm>system-reliability-testing</indexterm>
+            <indexterm>operational-safety-context</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery Tests"/>
+         <othermeta name="shortdesc"
+                    content="Describes the types of battery tests available, including capacity and duration tests, and outlines how the UPS manages and monitors battery testing activities."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery bank; battery test controller; ups system; battery capacity module; dc discharge path; system display"/>
+         <othermeta name="taxonomy"
+                    content="domain:battery-maintenance;usecase:perform-battery-tests;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="battery tests, capacity test, duration test, battery monitoring, preventive maintenance, discharge evaluation"/>
+         <othermeta name="usecase"
+                    content="explain test types and procedures for evaluating ups battery condition and performance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div id="ThereAreTwoTypesOfBatteryTests.TheT-AEE9FFCA">
+         <p>There are
+two types of battery tests. The tests can be started manually but
+also be configured to automatically start at certain interval, if
+allowed to start.</p>
+         <p>The battery circuit test checks that the battery
+is available and ready to supply the load if the rectifier output
+is reduced. </p>
+         <p>The battery capacity test will discharge the battery
+either to a set capacity level or for a set duration.</p>
+      </div>
+   </body>
+</topic>

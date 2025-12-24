@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="BatteryTest-87B3F025" xml:lang="en">
+   <title>Battery Test</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-test-function</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>rectifier-module</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>dc-discharge-path</indexterm>
+            <indexterm>system-display</indexterm>
+            <!-- Process layer -->
+            <indexterm>initiate-battery-test</indexterm>
+            <indexterm>monitor-battery-voltage</indexterm>
+            <indexterm>observe-test-duration</indexterm>
+            <indexterm>evaluate-test-status</indexterm>
+            <indexterm>record-battery-performance</indexterm>
+            <indexterm>interpret-test-results</indexterm>
+            <!-- Context layer -->
+            <indexterm>battery-health-assessment</indexterm>
+            <indexterm>preventive-maintenance-environment</indexterm>
+            <indexterm>energy-storage-testing</indexterm>
+            <indexterm>ups-diagnostic-procedures</indexterm>
+            <indexterm>system-reliability-validation</indexterm>
+            <indexterm>maintenance-testing-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Battery Test"/>
+         <othermeta name="shortdesc"
+                    content="Explains how the UPS performs a battery test, monitors battery condition, and interprets results to evaluate system readiness."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery test function; battery bank; rectifier module; ups system; dc discharge path; system display"/>
+         <othermeta name="taxonomy"
+                    content="domain:battery-maintenance;usecase:perform-battery-test;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="battery test, discharge, battery monitoring, diagnostics, performance evaluation, preventive maintenance"/>
+         <othermeta name="usecase"
+                    content="explain how the ups battery test function assesses battery condition and readiness"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <p>If the <uicontrol translate="no">Unit state</uicontrol> is <uicontrol translate="no">Batterytest running</uicontrol> a battery test is currently
+in progress.</p>
+         <note href="P_Normal_Operation_CPT_DD00570732.xml#NormalOperation-6CF31FC2/TheUnitStateisIndicatedInTheBottomL-87B3C55D"/>
+         <div href="P_Battery_Tests_CPT_DD00609424.xml#BatteryTests-86A7E8DA/ThereAreTwoTypesOfBatteryTests.TheT-AEE9FFCA"/>
+         <fig>
+            <image href="../Images/Reality-Prime_System-Diagram_Battery-operation_DD00611147.svg"
+                   placement="inline"/>
+         </fig>
+      </div>
+   </body>
+</topic>
