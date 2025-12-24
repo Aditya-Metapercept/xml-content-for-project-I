@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="HowToStartTheBatteryCapacityTest-86AFF04C" xml:lang="en">
+   <title>How to Start the Battery Capacity Test</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-system</indexterm>
+            <indexterm>battery-capacity-test</indexterm>
+            <indexterm>system-display</indexterm>
+            <indexterm>battery-modules</indexterm>
+            <indexterm>test-controller</indexterm>
+            <indexterm>dc-bus</indexterm>
+            <!-- Process layer -->
+            <indexterm>start-battery-test</indexterm>
+            <indexterm>monitor-test-progress</indexterm>
+            <indexterm>review-test-results</indexterm>
+            <indexterm>abort-test-condition</indexterm>
+            <indexterm>evaluate-battery-runtime</indexterm>
+            <indexterm>verify-battery-health</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance-diagnostics</indexterm>
+            <indexterm>battery-performance-assessment</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>ups-battery-management</indexterm>
+            <indexterm>safety-monitoring</indexterm>
+            <indexterm>runtime-evaluation-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="How to Start the Battery Capacity Test"/>
+         <othermeta name="shortdesc"
+                    content="Provides instructions on starting the battery capacity test, reviewing parameters, monitoring results, and understanding conditions that cause the test to abort."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery system; battery capacity test; system display; battery modules; test controller; dc bus"/>
+         <othermeta name="taxonomy"
+                    content="domain:battery-diagnostics;usecase:start-battery-capacity-test;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="battery test, capacity evaluation, runtime, test monitoring, battery health, diagnostics"/>
+         <othermeta name="usecase"
+                    content="guide operators through initiating and monitoring a battery capacity test"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <hazardstatement href="M_How_to_Start_the_Battery_Test_TSK_0000755300.xml#HowToStartTheBatteryTest-0057898C/LossOfOutputVoltageAfterABatteryTes-1B1944A9">
+            <messagepanel>
+               <typeofhazard/>
+               <howtoavoid/>
+            </messagepanel>
+         </hazardstatement>
+         <p href="P_How_to_Start_the_Battery_Circuit_Test_TSK_DD00609423.dita#HowToStartTheBatteryCircuitTest-86A8A365/IfItIsNotPossibleToStartTheBatteryT-AEE914FE"/>
+      </prereq>
+      <ol>
+         <li href="M_How_to_Start_the_Relay_Tests_TSK_0000752494.dita#HowToStartTheRelayTests-FD3177D6/M_User-Access_Service">
+            <p/>
+         </li>
+         <li href="P_How_to_Start_the_Battery_Circuit_Test_TSK_DD00609423.dita#HowToStartTheBatteryCircuitTest-86A8A365/PressTheMainMenuIconAndNavigateToSe-86A93CF4">
+            <p/>
+         </li>
+         <li>
+            <p>Press the <uicontrol translate="no">Battery capacity test</uicontrol> bar to expand the content if needed.</p>
+         </li>
+         <li>
+            <p>Press the <uicontrol translate="no">Start</uicontrol> button
+in line with <uicontrol translate="no">Battery capacity test</uicontrol> to start the test.</p>
+            <p>
+               <fig>
+                  <image href="../Images/PRIME_Battery-tests_Battery-capacity-test_DD00610413.png"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+         <li>
+            <p>To end the battery test early, press the <uicontrol translate="no">Stop</uicontrol> button.</p>
+            <p/>
+         </li>
+      </ol>
+      <result>It is possible to configure the batter capacity test to discharge
+to a set capacity or for a set duration. In addition it can also be
+done with fixed current or fixed power.<p>The available settings are:<ul>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Capacity</uicontrol>: The battery
+is discharged until a set capacity, variable current and variable
+power.</p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Capacity with fixed current</uicontrol>: A The battery is discharged until a set capacity, fixed current
+and variable power.</p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Capacity with fixed power</uicontrol>: The battery is discharged until a set capacity, variable current
+and fixed power.</p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Support time</uicontrol>: The battery
+is discharged for a set duration with variable current and variable
+power.</p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Support time with fixed current</uicontrol>: The battery is discharged for a set duration with fixed current
+and variable power.</p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">Support time with fixed power</uicontrol>: The battery is discharged for a set duration with variable current
+and fixed power.</p>
+               </li>
+            </ul>If the cell voltage is above the abort voltage until the set
+capacity warning level is reached or the set duration have elapsed
+the battery capacity test is successful. If the battery cell voltage
+at any time does not stay above the abort voltage, the test is interrupted
+and considered unsuccessful.</p>
+         <p>To check the settings navigate
+to <uicontrol translate="no">Service &gt; PRIME &gt; Battery tests</uicontrol> while logged in as a user with <uicontrol translate="no">Service</uicontrol> access.</p>
+      </result>
+   </body>
+</topic>

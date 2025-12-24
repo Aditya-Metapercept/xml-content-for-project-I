@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="HowToChangeToNormalOperation-7413030D" xml:lang="en">
+   <title>How to Change to Normal Operation</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>ups-system</indexterm>
+            <indexterm>inverter</indexterm>
+            <indexterm>rectifier</indexterm>
+            <indexterm>static-switch</indexterm>
+            <indexterm>system-display</indexterm>
+            <indexterm>operation-menu</indexterm>
+            <!-- Process layer -->
+            <indexterm>switch-to-normal-operation</indexterm>
+            <indexterm>restore-normal-mode</indexterm>
+            <indexterm>activate-inverter-path</indexterm>
+            <indexterm>exit-bypass-operation</indexterm>
+            <indexterm>confirm-mode-update</indexterm>
+            <indexterm>verify-load-on-inverter</indexterm>
+            <!-- Context layer -->
+            <indexterm>system-operation-management</indexterm>
+            <indexterm>power-conditioning-environment</indexterm>
+            <indexterm>load-supply-continuity</indexterm>
+            <indexterm>fault-recovery-process</indexterm>
+            <indexterm>maintenance-completion</indexterm>
+            <indexterm>safe-operational-transition</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="How to Change to Normal Operation"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to switch the UPS from a forced mode or bypass operation back to normal operation, ensuring the load is supplied through the inverter path."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="ups system; inverter; rectifier; static switch; system display; operation menu"/>
+         <othermeta name="taxonomy"
+                    content="domain:system-operation-modes;usecase:change-to-normal-operation;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="normal operation, inverter mode, bypass exit, load supply, operation mode change, system control"/>
+         <othermeta name="usecase"
+                    content="guide operators in restoring the ups to normal operation after being in a forced or bypass mode"/>
+      </metadata>
+   </prolog>
+   <body>
+      <ol>
+         <li href="P_How_to_Turn_On_the_System_TSK_DD00542944.dita#HowToTurnOnTheSystem-57B429E6/PressTheSwitchOperationIconInTheSta-8614C86A">
+            <p/>
+         </li>
+         <li id="PressTheNormalOperationButton.TheCu-779BB53B">
+            <p>Press
+the <uicontrol translate="no">Normal operation</uicontrol> button.
+Confirm the change.</p>
+            <p>
+               <note id="TheCurrentActiveInverterOperationMo-74A8EF63">The
+current active inverter operation mode is indicated by the green icon.</note>
+            </p>
+         </li>
+         <li>
+            <p>Press the <uicontrol>Home</uicontrol> icon and check that
+the power flow indicates normal operation and that the <uicontrol translate="no">Unit state</uicontrol> is <uicontrol translate="no">Online mode</uicontrol>.</p>
+            <p>
+               <image href="../Images/Prime_Mimic_Normal-operation_DD00612324.png"
+                      placement="inline"/>
+            </p>
+         </li>
+      </ol>
+      <result id="TheSystemHaveSwitchedToNormalOperat-779E6C38">The system
+have switched to normal operation and the load is supplied from the
+inverter.</result>
+   </body>
+</topic>

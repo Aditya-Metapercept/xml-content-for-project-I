@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="HowToChangeToForcedStaticSwitchOper-7413AC65" xml:lang="en">
+   <title>How to Change to Forced Bypass Operation</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>static-switch</indexterm>
+            <indexterm>bypass-path</indexterm>
+            <indexterm>ups-system</indexterm>
+            <indexterm>system-display</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>bypass-source</indexterm>
+            <!-- Process layer -->
+            <indexterm>activate-forced-bypass</indexterm>
+            <indexterm>override-normal-operation</indexterm>
+            <indexterm>confirm-bypass-mode</indexterm>
+            <indexterm>lock-operation-mode</indexterm>
+            <indexterm>monitor-bypass-status</indexterm>
+            <indexterm>verify-load-supplied-from-bypass</indexterm>
+            <!-- Context layer -->
+            <indexterm>system-operation-management</indexterm>
+            <indexterm>maintenance-bypass-environment</indexterm>
+            <indexterm>fault-handling</indexterm>
+            <indexterm>load-supply-protection</indexterm>
+            <indexterm>system-mode-override</indexterm>
+            <indexterm>ups-safety-control</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="How to Change to Forced Bypass Operation"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to switch the system to forced bypass mode, confirm the operational override, and understand that the mode remains locked until manually changed."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="static switch; bypass path; ups system; system display; inverter module; bypass source"/>
+         <othermeta name="taxonomy"
+                    content="domain:system-operation-modes;usecase:change-to-forced-bypass-operation;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="forced bypass, static switch, bypass mode, load supply, mode lock, operation override"/>
+         <othermeta name="usecase"
+                    content="guide operators in switching the ups into forced bypass using the static switch path"/>
+      </metadata>
+   </prolog>
+   <body>
+      <context>
+         <hazardstatement type="warning">
+            <messagepanel>
+               <typeofhazard>SYSTEM OPERATION LOCKED</typeofhazard>
+               <howtoavoid>In forced bypass operation there is no automatic switch
+over to inverter output if the bypass mains becomes unavailable.</howtoavoid>
+            </messagepanel>
+         </hazardstatement>
+         <note id="ThisModeIsATemporaryModeAndShouldNo-8695221D" type="important">This mode is a temporary mode and should not be used for an extended
+period of time.</note>
+      </context>
+      <ol>
+         <li href="P_How_to_Turn_On_the_System_TSK_DD00542944.dita#HowToTurnOnTheSystem-57B429E6/PressTheSwitchOperationIconInTheSta-8614C86A">
+            <p/>
+         </li>
+         <li id="PressTheForceBypassOperationButton.-779B7358">
+            <p>Press
+the <uicontrol translate="no">Force bypass operation</uicontrol> button.
+Confirm the change.</p>
+            <p>
+               <note href="P_How_to_Change_to_Normal_Operation_TSK_DD00581158.xml#HowToChangeToNormalOperation-7413030D/TheCurrentActiveInverterOperationMo-74A8EF63">The current active operation mode is indicated by the green icon.</note>
+            </p>
+         </li>
+         <li>
+            <p>Press the <uicontrol>Home</uicontrol> icon and check that
+the power flow indicates static switch operation and that the <uicontrol translate="no">Unit state</uicontrol> is <uicontrol translate="no">Bypass operation</uicontrol>.</p>
+            <p>
+               <note id="TheLEDAlarmForAndWillActivate.-87994B06">The LED alarm
+for <ph conkeyref="LEDs/N_P-LED-8"/>, <ph conkeyref="LEDs/N_P-LED-12"/> and <ph conkeyref="LEDs/N_P-LED-17"/> will activate.</note>
+               <fig>
+                  <image href="../Images/Prime_Mimic_Bypass-operation_DD00598552.png"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+      <result>The system have switched to forced bypass operation and the
+load is supplied from the bypass. The inverter is turned off. The
+system is locked in this operation mode until it is manually changed.</result>
+   </body>
+</topic>

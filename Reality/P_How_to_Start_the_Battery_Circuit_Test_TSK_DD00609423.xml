@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="HowToStartTheBatteryCircuitTest-86A8A365" xml:lang="en">
+   <title>How to Start the Battery Circuit Test</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>battery-circuit</indexterm>
+            <indexterm>battery-modules</indexterm>
+            <indexterm>system-display</indexterm>
+            <indexterm>dc-bus</indexterm>
+            <indexterm>battery-test-controller</indexterm>
+            <indexterm>ups-battery-system</indexterm>
+            <!-- Process layer -->
+            <indexterm>start-battery-circuit-test</indexterm>
+            <indexterm>verify-test-conditions</indexterm>
+            <indexterm>monitor-battery-test</indexterm>
+            <indexterm>check-abort-criteria</indexterm>
+            <indexterm>evaluate-test-result</indexterm>
+            <indexterm>confirm-battery-readiness</indexterm>
+            <!-- Context layer -->
+            <indexterm>battery-diagnostics</indexterm>
+            <indexterm>preventive-maintenance</indexterm>
+            <indexterm>battery-performance-validation</indexterm>
+            <indexterm>runtime-evaluation</indexterm>
+            <indexterm>ups-maintenance-environment</indexterm>
+            <indexterm>safety-testing-procedures</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="How to Start the Battery Circuit Test"/>
+         <othermeta name="shortdesc"
+                    content="Explains how to initiate the battery circuit test, review the prerequisites, observe test progression, and interpret conditions that interrupt the test."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="battery circuit; battery modules; system display; dc bus; test controller; ups battery system"/>
+         <othermeta name="taxonomy"
+                    content="domain:battery-diagnostics;usecase:start-battery-circuit-test;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="battery test, circuit test, battery diagnostics, runtime evaluation, test interruption, battery readiness"/>
+         <othermeta name="usecase"
+                    content="guide the operator to initiate and monitor a battery circuit test as part of preventive maintenance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <prereq>
+         <p id="IfItIsNotPossibleToStartTheBatteryT-AEE914FE">If it
+is not possible to start the battery test it could be because: <ul>
+               <li>
+                  <p>The system is not in float charge. If this is the case a bar
+will be visible in orange that links to the <uicontrol translate="no">Switching operations</uicontrol> page.</p>
+               </li>
+               <li>
+                  <p>The test is blocked.</p>
+               </li>
+            </ul>
+         </p>
+      </prereq>
+      <ol>
+         <li href="M_How_to_Start_the_Relay_Tests_TSK_0000752494.dita#HowToStartTheRelayTests-FD3177D6/M_User-Access_Service">
+            <p/>
+         </li>
+         <li id="PressTheMainMenuIconAndNavigateToSe-86A93CF4">
+            <p>Press
+the <uicontrol>Main menu icon</uicontrol> and navigate to <uicontrol translate="no">Service &gt; PRIME &gt; Battery tests</uicontrol>.</p>
+         </li>
+         <li>
+            <p>Press the <uicontrol translate="no">Battery circuit test</uicontrol> bar to expand the content if needed.</p>
+         </li>
+         <li>
+            <p>Press the <uicontrol translate="no">Start</uicontrol> button
+in line with <uicontrol translate="no">Battery circuit test</uicontrol> to start the test.</p>
+            <p>
+               <fig>
+                  <image href="../Images/PRIME_Battery-tests_Battery-circuit-test_DD00610414.png"
+                         placement="inline"/>
+               </fig>
+            </p>
+         </li>
+      </ol>
+      <result>
+         <p>This test does not discharge the battery, it only checks
+that the battery is correctly connected to the circuit.</p>
+         <p>If the
+voltage stays above the set voltage level for the set time, the battery
+circuit test is successful.</p>
+         <p>In case the voltage drops below
+the set voltage level at any time, the test is interrupted and considered
+unsuccessful.</p>
+      </result>
+   </body>
+</topic>
