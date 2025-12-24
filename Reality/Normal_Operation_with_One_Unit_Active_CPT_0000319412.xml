@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="NormalOperationWithOneUnitActive-502E5668" xml:lang="en">
+   <title>Operation with One Unit Active (Redundant Systems)</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>single-unit-operation</indexterm>
+            <indexterm>inverter-module</indexterm>
+            <indexterm>bypass-unit</indexterm>
+            <indexterm>control-board</indexterm>
+            <indexterm>monitoring-sensors</indexterm>
+            <!-- Process layer -->
+            <indexterm>one-unit-active-mode</indexterm>
+            <indexterm>failover-procedure</indexterm>
+            <indexterm>load-transfer</indexterm>
+            <indexterm>maintenance-mode</indexterm>
+            <indexterm>manual-switch-over</indexterm>
+            <indexterm>isolation-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>redundancy-reduced</indexterm>
+            <indexterm>maintenance-window</indexterm>
+            <indexterm>degraded-mode</indexterm>
+            <indexterm>emergency-operation</indexterm>
+            <indexterm>test-environment</indexterm>
+            <indexterm>commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Normal Operation with One Unit Active"/>
+         <othermeta name="shortdesc"
+                    content="Guidance for operating the system when only one unit is active, including load transfer and failover considerations."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="active-unit; standby-unit; transfer-switch; control-logic; measurement-sensors; alarms"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:single-unit-operation-and-failover;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="single-unit,failover,load-transfer,maintenance,degraded-mode,commissioning"/>
+         <othermeta name="usecase"
+                    content="operate and manage the system when only one unit is active, including safe load transfer"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <p>Only one unit might be in operation because:<ul>
+               <li platform="PxW WxW">
+                  <p>One unit is in <xref href="Hot_Standby_CPT_0000358503.xml" scope="local" type="concept"/>.</p>
+               </li>
+               <li>
+                  <p>One unit is isolated.</p>
+               </li>
+               <li>
+                  <p>One unit is inoperable.</p>
+               </li>
+            </ul>
+         </p>
+         <p>As an example, the active unit is shown in <ph platform="PxW WxW">normal operation</ph>
+            <ph platform="SDC">float charge</ph> mode.</p>
+         <note>The status of the parts and energized paths will
+depend on the status of in the inactive unit and on the operation
+mode of the active unit. </note>
+         <fig platform="PxW">
+            <image href="../Images/FD_PxW_Operating_Modes_R_One_Unit_Active_0000355457.svg"
+                   placement="inline"/>
+         </fig>
+         <fig platform="WxW">
+            <image href="../Images/FD_WxW_Operating_Modes_R_One_Unit_Active_0000478966.svg"
+                   placement="inline"/>
+         </fig>
+         <fig platform="SDC">
+            <image href="../Images/FD_SDC_Operating_Modes_R_One_Unit_Active_0000510870.svg"
+                   placement="inline"/>
+         </fig>
+      </div>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="col1" colwidth="40.00mm"/>
+            <colspec colname="col2" colwidth="2.00*"/>
+            <colspec colname="COLSPEC0" colwidth="2.00*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Part</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Status (Active
+Unit)</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Status (Inactive
+Unit)</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>Rectifier mains</p>
+                     <p>DC input power</p>
+                  </entry>
+                  <entry>
+                     <p>Available and
+within the tolerance range.</p>
+                  </entry>
+                  <entry>
+                     <p>May be unavailable or outside the tolerance range.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Rectifier mains breaker(s)</p>
+                     <p>Inverter input switch(es)</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Bypass mains</p>
+                  </entry>
+                  <entry>
+                     <p>Available and
+can be either within or outside the tolerance range.</p>
+                  </entry>
+                  <entry>
+                     <p>Available and can be either within or outside the tolerance range.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Bypass mains breaker(s)</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Bypass isolation switches</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Manual bypass switch</p>
+                  </entry>
+                  <entry align="center" nameend="COLSPEC0" namest="col2">
+                     <p>In Auto position.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry>
+                     <p>Battery</p>
+                  </entry>
+                  <entry>
+                     <p>If charged, available and within the tolerance range.</p>
+                  </entry>
+                  <entry>
+                     <p>If charged, available and within the tolerance range.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry>
+                     <p>Battery breaker(s)</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry>
+                     <p>Rectifier</p>
+                  </entry>
+                  <entry>
+                     <p>On</p>
+                  </entry>
+                  <entry>
+                     <p>On/Off, depends on cause.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Inverter</p>
+                  </entry>
+                  <entry>
+                     <p>On</p>
+                  </entry>
+                  <entry>
+                     <p>For systems with EA: On/Off, depends on cause.</p>
+                     <p>For
+systems without EA: Off<footnote> Path will be energized up to the inverter
+on the output side.</footnote>
+                     </p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Static switch EN</p>
+                  </entry>
+                  <entry>
+                     <p>Off, but available.</p>
+                  </entry>
+                  <entry>
+                     <p>Off</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>Static switch EA</p>
+                  </entry>
+                  <entry>
+                     <p>On</p>
+                  </entry>
+                  <entry>
+                     <p>Off</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Output isolation
+switches</p>
+                     <p>Rectifier output switches</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+                  <entry>
+                     <p>Closed</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>Output</p>
+                  </entry>
+                  <entry nameend="COLSPEC0" namest="col2">
+                     <p>Available and within the tolerance
+range. The load is supplied by the active unit.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

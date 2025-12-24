@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Off-502E674B" xml:lang="en">
+   <title>Off</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>off-mode</indexterm>
+            <indexterm>standby-circuit</indexterm>
+            <indexterm>bypass-switch</indexterm>
+            <indexterm>control-module</indexterm>
+            <indexterm>maintenance-lockout</indexterm>
+            <!-- Process layer -->
+            <indexterm>shutdown-procedure</indexterm>
+            <indexterm>safe-isolation</indexterm>
+            <indexterm>power-down</indexterm>
+            <indexterm>de-energize</indexterm>
+            <indexterm>restart-preparation</indexterm>
+            <indexterm>maintenance-lock</indexterm>
+            <!-- Context layer -->
+            <indexterm>maintenance</indexterm>
+            <indexterm>decommissioning</indexterm>
+            <indexterm>safe-work</indexterm>
+            <indexterm>outage</indexterm>
+            <indexterm>troubleshooting</indexterm>
+            <indexterm>installation</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Off"/>
+         <othermeta name="shortdesc"
+                    content="Procedures for taking the system to off state, including safe shutdown, isolation and restart preparation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="breaker; switch; safety-interlock; control-relay; power-supply; grounding-point"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:shutdown-and-safe-isolation;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="shutdown,isolation,safety,maintenance,de-energize,restart"/>
+         <othermeta name="usecase"
+                    content="safely shut down, isolate and prepare the system for maintenance or decommissioning"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/still_energized_general">
+            <messagepanel>
+               <typeofhazard/>
+               <howtoavoid/>
+            </messagepanel>
+            <messagepanel>
+               <typeofhazard/>
+               <howtoavoid/>
+            </messagepanel>
+         </hazardstatement>
+         <hazardstatement href="../Library/Warnings_Library_0000325173.xml#war_lib/inform_consumers">
+            <messagepanel>
+               <typeofhazard/>
+               <howtoavoid/>
+            </messagepanel>
+         </hazardstatement>
+         <p>The system is turned off and is
+ready to be placed in standby and switched on. There is no output
+voltage and the load is not supplied. For information about how to
+turn off the system see the chapter <xref href="Turn_Off_the_System_From_Normal_Operation_CPT_0000337202.xml"
+                  scope="local"
+                  type="concept"/>.</p>
+         <fig platform="PxW">
+            <image href="../Images/FD_PxW_Operating_Modes_Off_0000348571.svg"
+                   placement="inline"/>
+         </fig>
+         <fig platform="WxW">
+            <image href="../Images/FD_WxW_Operating_Modes_Off_0000478967.svg"
+                   placement="inline"/>
+         </fig>
+         <fig platform="SDC">
+            <image href="../Images/FD_SDC_Operating_Modes_Off_0000510871.svg"
+                   placement="inline"/>
+         </fig>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="40.00mm"/>
+               <colspec colname="col2" colwidth="2.00*"/>
+               <thead>
+                  <row>
+                     <entry valign="top">
+                        <p>Part</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>Status</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Rectifier mains</p>
+                        <p>DC input power</p>
+                     </entry>
+                     <entry>
+                        <p>Available or unavailable.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Rectifier mains breaker(s)</p>
+                        <p>Inverter input switch(es)</p>
+                     </entry>
+                     <entry>
+                        <p>Open</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Bypass mains</p>
+                     </entry>
+                     <entry>
+                        <p>Available or unavailable.</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Bypass mains breaker(s)</p>
+                     </entry>
+                     <entry>
+                        <p>Open</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Manual bypass switch</p>
+                     </entry>
+                     <entry>
+                        <p>Can be in any position.</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW SDC">
+                     <entry>
+                        <p>Battery</p>
+                     </entry>
+                     <entry>
+                        <p>Disconnected from the system.</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW SDC">
+                     <entry>
+                        <p>Battery breaker(s)</p>
+                     </entry>
+                     <entry>
+                        <p>Open</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW SDC">
+                     <entry>
+                        <p>Rectifier</p>
+                     </entry>
+                     <entry>
+                        <p>Off</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Inverter</p>
+                     </entry>
+                     <entry>
+                        <p>Off</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Static switch EN</p>
+                     </entry>
+                     <entry>
+                        <p>Off</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW WxW">
+                     <entry>
+                        <p>Static switch EA</p>
+                     </entry>
+                     <entry>
+                        <p>Off</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output</p>
+                     </entry>
+                     <entry>
+                        <p>No output voltage.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </div>
+   </body>
+</topic>

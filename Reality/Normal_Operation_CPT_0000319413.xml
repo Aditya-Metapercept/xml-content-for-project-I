@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="NormalOperation-502E4D7C" xml:lang="en">
+   <title>Normal Operation</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>rectifier</indexterm>
+            <indexterm>inverter</indexterm>
+            <indexterm>battery-bank</indexterm>
+            <indexterm>control-system</indexterm>
+            <indexterm>power-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>normal-operation</indexterm>
+            <indexterm>power-conversion</indexterm>
+            <indexterm>voltage-regulation</indexterm>
+            <indexterm>load-management</indexterm>
+            <indexterm>battery-charging</indexterm>
+            <indexterm>automatic-transfer</indexterm>
+            <!-- Context layer -->
+            <indexterm>continuous-operation</indexterm>
+            <indexterm>production-facility</indexterm>
+            <indexterm>power-distribution</indexterm>
+            <indexterm>steady-state</indexterm>
+            <indexterm>uptime-maintenance</indexterm>
+            <indexterm>equipment-monitoring</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Normal Operation"/>
+         <othermeta name="shortdesc"
+                    content="Describes normal operational behaviour where the rectifier supplies the inverter and the system manages voltage and battery charging under steady-state conditions."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="rectifier; inverter; dc-bus; battery; load; control-algorithm"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:normal-operational-guidance;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="operation,rectifier,inverter,battery,regulation,monitoring"/>
+         <othermeta name="usecase"
+                    content="document expected behaviour and checks during normal system operation"/>
+      </metadata>
+   </prolog>
+   <body>
+      <div>
+         <p>In normal operation the rectifier supplies
+the inverter and charges the battery. The inverter supplies the load.</p>
+         <p>In normal operation the inverter supplies the load.</p>
+         <p>The rectifier mains input feeds the phase angle
+controlled rectifier via a matching transformer and converts the AC
+to DC. The rectifier maintains a constant DC by compensating for both
+variations in the input voltage and load.</p>
+         <p>The inverter converts
+the DC to AC with optimized sine wave pulse width control (PWM).</p>
+         <p>For systems with a bypass: If the inverter is unavailable
+or overloaded (by default, load at 150% for more than 1 minute or
+load at 125% for more than 10 minutes), the system will change to
+bypass operation. For more information see chapter <xref href="Bypass_Operation_System_Operation_CPT_0000319410.xml"
+                  format="dita"
+                  scope="local"
+                  type="concept"/>.</p>
+         <p>For systems with manual bypass switches: When
+the load is supplied in normal operation the manual bypass switch
+is always in Auto position.</p>
+         <fig platform="PxW">
+            <image href="../Images/FD_PxW_Operating_Modes_Normal_Operation_0000339347.svg"
+                   placement="inline"/>
+         </fig>
+         <fig platform="WxW">
+            <image href="../Images/FD_WxW_Operating_Modes_Normal_Operation_0000478922.svg"
+                   placement="inline"/>
+         </fig>
+         <table>
+            <tgroup cols="2">
+               <colspec colname="col1" colwidth="40.00mm"/>
+               <colspec colname="col2" colwidth="2.00*"/>
+               <thead>
+                  <row>
+                     <entry valign="top">
+                        <p>Part</p>
+                     </entry>
+                     <entry valign="top">
+                        <p>Status</p>
+                     </entry>
+                  </row>
+               </thead>
+               <tbody>
+                  <row>
+                     <entry>
+                        <p>Rectifier mains</p>
+                        <p>DC input
+power</p>
+                     </entry>
+                     <entry>
+                        <p>Available and within the tolerance range.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Rectifier mains breaker(s)</p>
+                        <p>Inverter input switch(es)</p>
+                     </entry>
+                     <entry>
+                        <p>Closed</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bypass mains</p>
+                     </entry>
+                     <entry>
+                        <p>Available and can be either within or outside the tolerance
+range.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Bypass mains breaker(s)</p>
+                     </entry>
+                     <entry>
+                        <p>Closed</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Manual bypass switch</p>
+                     </entry>
+                     <entry>
+                        <p>In Auto position.</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW">
+                     <entry>
+                        <p>Battery</p>
+                     </entry>
+                     <entry>
+                        <p>If charged, available and within the tolerance range.</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW">
+                     <entry>
+                        <p>Battery breaker(s)</p>
+                     </entry>
+                     <entry>
+                        <p>Closed</p>
+                     </entry>
+                  </row>
+                  <row platform="PxW">
+                     <entry>
+                        <p>Rectifier</p>
+                     </entry>
+                     <entry>
+                        <p>On</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Inverter</p>
+                     </entry>
+                     <entry>
+                        <p>On</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Static switch EN</p>
+                     </entry>
+                     <entry>
+                        <p>Off, but available.</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Static switch EA</p>
+                     </entry>
+                     <entry>
+                        <p>On</p>
+                     </entry>
+                  </row>
+                  <row>
+                     <entry>
+                        <p>Output</p>
+                     </entry>
+                     <entry>
+                        <p>Available and within the tolerance range. The load is supplied.</p>
+                     </entry>
+                  </row>
+               </tbody>
+            </tgroup>
+         </table>
+      </div>
+   </body>
+</topic>

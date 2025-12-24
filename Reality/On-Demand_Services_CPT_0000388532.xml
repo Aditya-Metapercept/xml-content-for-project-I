@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="On-DemandServices-A85B944A" xml:lang="en">
+   <title>On-Demand Services</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>on-demand-services</indexterm>
+            <indexterm>remote-support</indexterm>
+            <indexterm>training-module</indexterm>
+            <indexterm>diagnostic-tool</indexterm>
+            <indexterm>firmware-service</indexterm>
+            <!-- Process layer -->
+            <indexterm>service-request</indexterm>
+            <indexterm>remote-diagnostics</indexterm>
+            <indexterm>scheduled-maintenance</indexterm>
+            <indexterm>firmware-deployment</indexterm>
+            <indexterm>training-delivery</indexterm>
+            <indexterm>subscription-management</indexterm>
+            <!-- Context layer -->
+            <indexterm>customer-support</indexterm>
+            <indexterm>service-contracts</indexterm>
+            <indexterm>remote-commissioning</indexterm>
+            <indexterm>warranty-service</indexterm>
+            <indexterm>field-support</indexterm>
+            <indexterm>uptime-assurance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="On Demand Services"/>
+         <othermeta name="shortdesc"
+                    content="Describes on-demand customer services such as remote diagnostics, training, firmware updates and subscription-based support offerings."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="service-portal; support-engineer; training-materials; diagnostic-logs; service-scheduler; remote-connection"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:on-demand-service-delivery;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="service,support,remote,training,firmware,subscription"/>
+         <othermeta name="usecase"
+                    content="provide and manage on-demand services including remote diagnostics and training"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>There are multiple customer service offers that can be ordered
+when required. The following sections gives an overview of the different
+services.</p>
+      <section>
+         <title>Customer Training</title>
+         <sectiondiv>
+            <p>Depending
+on the level and type of training needed there are standard courses
+or customized courses available.</p>
+            <p>The standard courses provide
+general theoretical knowledge about Reality systems. The project specific
+courses provide both practical and theoretical knowledge for your
+customized system.</p>
+            <table pgwide="1">
+               <tgroup cols="4">
+                  <colspec colname="col1" colwidth="30.00mm"/>
+                  <colspec colname="col2" colwidth="2.25*"/>
+                  <colspec colname="COLSPEC0" colwidth="30.00mm"/>
+                  <colspec colname="col3" colwidth="2.25*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <p>Training
+course name</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Curriculum</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Typical duration (participants)</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Available locations</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry nameend="col3" namest="col1">
+                           <p>Standard
+courses</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Reality Systems Introduction</p>
+                        </entry>
+                        <entry>
+                           <p> Introduction to the world of Reality systems. Covers the
+basics theory of a UPS, charger and inverter.</p>
+                        </entry>
+                        <entry>
+                           <p>1½ days(Min. 4 persons)</p>
+                        </entry>
+                        <entry morerows="1">
+                           <p>Training centers in Switzerland, Malaysia,
+United Arab Emirates and United States</p>
+                           <p>Customer site</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Reality System Care</p>
+                        </entry>
+                        <entry>
+                           <p>Reality system introduction + theoretic information about
+how to maintain a Reality system.</p>
+                        </entry>
+                        <entry>
+                           <p>2 days(Min. 4 persons)</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry nameend="col3" namest="col1">
+                           <p>Project
+specific courses</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Level 1Operators</p>
+                        </entry>
+                        <entry>
+                           <p>Operation, system principles, practical exercises and safe
+operation.</p>
+                        </entry>
+                        <entry>
+                           <p>2–3 days(2–8 persons)</p>
+                        </entry>
+                        <entry morerows="1">
+                           <p>Training centers in Switzerland, Malaysia,
+United Arab Emirates and United States<footnote> Limited availability of
+system types for practical portion.  </footnote>
+                           </p>
+                           <p>Customer site</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Level 1-2Maintenance</p>
+                        </entry>
+                        <entry>
+                           <p>Maintenance, replacements, settings, batteries and basic
+troubleshooting.</p>
+                        </entry>
+                        <entry>
+                           <p>4–6 days(2–8 persons)</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>Level 1-3Advanced</p>
+                        </entry>
+                        <entry>
+                           <p>Configuration, calibration, repairs and extensive troubleshooting.</p>
+                        </entry>
+                        <entry>
+                           <p>5–10 days(2–5 persons)</p>
+                        </entry>
+                        <entry>
+                           <p>Training centers in Switzerland and Malaysia</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Installation Supervision and Commissioning</title>
+         <sectiondiv>
+            <p>Service engineer(s) supervise the installation process
+and performs the commissioning of the systems on site.</p>
+            <p>The supervision
+includes the follow inspections:<ul>
+                  <li>
+                     <p>Location and environment for the system and battery</p>
+                  </li>
+                  <li>
+                     <p>System and battery wiring connections</p>
+                  </li>
+                  <li>
+                     <p>Internal power and communication components</p>
+                  </li>
+               </ul>
+            </p>
+         </sectiondiv>
+         <sectiondiv>
+            <p>The commissioning process also
+includes:<ul>
+                  <li>
+                     <p>Check and record measurements for the system input, system
+output and voltage for each individual cell</p>
+                  </li>
+                  <li>
+                     <p>A battery bank discharge test</p>
+                  </li>
+                  <li>
+                     <p>If necessary, additional calibrations and adjustments</p>
+                  </li>
+               </ul>
+            </p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Preventive Maintenance</title>
+         <sectiondiv>
+            <ul>
+               <li>
+                  <p>Yearly preventive maintenance</p>
+               </li>
+               <li>
+                  <p>4-6 years preventive maintenance, minor material replacement</p>
+               </li>
+               <li>
+                  <p>8-10 years preventive maintenance, major material replacement</p>
+               </li>
+            </ul>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Corrective Maintenance</title>
+         <sectiondiv>
+            <p>Our service
+engineers are available to assist on-site in the event that technical
+repairs or part replacement services are needed.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Spare Parts</title>
+         <sectiondiv>
+            <ul>
+               <li>
+                  <p>Spare parts used during commissioning </p>
+               </li>
+               <li>
+                  <p>Spare parts used during preventive maintenance</p>
+               </li>
+               <li>
+                  <p>Strategical and critical spare parts to have on stock, with
+a spare parts and interchangeability record (SPIR)</p>
+               </li>
+            </ul>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Updates, Upgrades and Modifications</title>
+         <sectiondiv>
+            <p>Software and firmware updates to the latest revision with the
+latest functions.</p>
+            <p>During a system’s lifespan customer
+needs might change and modifications might be necessary. Optional
+features may be added to existing systems for example a network management
+card (NMC) or a battery management system (BMS).</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Digital Services</title>
+         <sectiondiv>
+            <p>Monitor and
+manage critical assets on site or remotely with high cyber security
+can increase efficiency. It can help to efficiently operate selected
+systems and reduce operation costs with flexible service plans.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Battery Replacement</title>
+         <sectiondiv>
+            <p>The lifetime
+of batteries varies between 4 and 20 years depending on the type of
+battery, environmental conditions and maintenance.</p>
+            <p>Even with
+proper maintenance batteries will have to be replaced at some time.
+Reality provides service offers for preventive maintenance and replacement
+of batteries.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Retrofit or Replace</title>
+         <sectiondiv>
+            <p>Retrofit:  Replace an existing system with the same design and dimensions as
+the existing system.</p>
+            <p>Replace:  Replace an existing system
+with a new design meeting the latest industry requirement.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Site Audit</title>
+         <sectiondiv>
+            <p>Reality system have
+a designed lifetime of 20 years, during this time your site might
+grow or change. Reality can assist with a detailed on-site check to: <ul>
+                  <li>
+                     <p>Prepare for future service recommendations</p>
+                  </li>
+                  <li>
+                     <p>Discuss retrofit or replacement for systems nearing expected
+end of life</p>
+                  </li>
+                  <li>
+                     <p>Organize installed base</p>
+                  </li>
+                  <li>
+                     <p>Review of the site environment for external factors that can
+affect the system</p>
+                  </li>
+               </ul>
+            </p>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>
