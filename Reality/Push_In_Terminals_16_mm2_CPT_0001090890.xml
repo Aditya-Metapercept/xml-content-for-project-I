@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PushInTerminals16Mm2-FECB99DD" xml:lang="en">
+   <title>Push In Terminal Type Size ≤ 16 mm<sup>2</sup> (AWG
+6)</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>push-in-terminals-16-mm2</indexterm>
+            <indexterm>push-in-terminal</indexterm>
+            <indexterm>terminal-block-16mm2</indexterm>
+            <indexterm>wire-entry-slot</indexterm>
+            <indexterm>push-connector</indexterm>
+            <indexterm>current-rating-16mm2</indexterm>
+            <!-- Process layer -->
+            <indexterm>wire-insertion-procedure</indexterm>
+            <indexterm>locking-mechanism-check</indexterm>
+            <indexterm>wire-stripping-length</indexterm>
+            <indexterm>connection-verification</indexterm>
+            <indexterm>torque-not-required-installation</indexterm>
+            <indexterm>functional-testing</indexterm>
+            <!-- Context layer -->
+            <indexterm>control-panel-wiring</indexterm>
+            <indexterm>power-distribution-connections</indexterm>
+            <indexterm>maintenance-environment</indexterm>
+            <indexterm>production-equipment-interface</indexterm>
+            <indexterm>plant-electrical-setup</indexterm>
+            <indexterm>space-constrained-panels</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Push-In Terminals 16 mm2"/>
+         <othermeta name="shortdesc"
+                    content="Installation and wiring guidance for 16 mm² push-in terminal blocks."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="push-in terminal 16 mm2;wire gauge;terminal-block;locking clip;wire-entry slot;mounting rail"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:terminal-installation; industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="push-in,terminals,16mm2,wiring,installation,control-panel"/>
+         <othermeta name="usecase"
+                    content="Describe installation, wiring, and testing for 16 mm² push-in terminals."/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="../Images/Push-In_Terminals_16mm_0001090880.svg"
+                placement="inline"/>
+      </fig>
+      <section>
+         <title>Insert Cables</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Fully Insert the cable in (B).</p>
+                  <ol>
+                     <li>
+                        <p>If the cable can’t be fully inserted manually, the tension
+spring needs to be opened by carefully pressing down (A) with
+a flat screwdriver.</p>
+                        <p>For terminal type size ≤ 4 mm<sup>2</sup> (AWG 12): use a flat screwdriver of the size <u>0.6 x
+3.5 mm (0.02 x 0.13 in)</u>. </p>
+                        <p>For terminal type size ≥
+6 mm<sup>2</sup> (AWG 10): use a flat screwdriver of the size <u>1 x 5.5 mm (0.03 x 0.21 in)</u>.</p>
+                     </li>
+                  </ol>
+               </li>
+               <li>
+                  <p>Make sure the cable is securely fastened.</p>
+               </li>
+            </ol>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Remove Cables</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Carefully press down the orange part (A) with a flat
+screwdriver of the size to open the tension spring.</p>
+                  <p>For terminal
+type size ≤  4 mm<sup>2</sup> (AWG 12): use a flat screwdriver
+of the size <u>0.6 x 3.5 mm (0.02 x 0.13 in)</u>. </p>
+                  <p>For terminal
+type size ≥ 6 mm<sup>2</sup> (AWG 10): use a flat screwdriver
+of the size <u>1 x 5.5 mm (0.03 x 0.21 in)</u>.</p>
+               </li>
+               <li>
+                  <p>Remove the cable from (B).</p>
+               </li>
+               <li>
+                  <p>Remove the screwdriver from (A).</p>
+               </li>
+            </ol>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RealityXXWSDCApplicationapc_hw05_sxw_-2C2751CF" xml:lang="en">
+   <title>Reality <ph platform="PxW WxW SDC">XXW/SDC</ph>
+      <ph platform="PXP">PXC/PXP</ph> Application (apc_hw05_<ph platform="PxW WxW SDC">sxw</ph>
+      <ph platform="PXP">pxc</ph>_704. bin)</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>reality-xxw-sdc</indexterm>
+            <indexterm>sdc-application</indexterm>
+            <indexterm>control-software</indexterm>
+            <indexterm>system-controller</indexterm>
+            <indexterm>sensor-data-collector</indexterm>
+            <indexterm>application-module</indexterm>
+            <!-- Process layer -->
+            <indexterm>application-setup</indexterm>
+            <indexterm>sdc-configuration</indexterm>
+            <indexterm>data-collection</indexterm>
+            <indexterm>signal-processing</indexterm>
+            <indexterm>integration-testing</indexterm>
+            <indexterm>parameter-tuning</indexterm>
+            <!-- Context layer -->
+            <indexterm>control-room</indexterm>
+            <indexterm>monitoring-application</indexterm>
+            <indexterm>industrial-automation</indexterm>
+            <indexterm>ups-management</indexterm>
+            <indexterm>system-integration</indexterm>
+            <indexterm>field-deployment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Reality XXW/SDC"/>
+         <othermeta name="shortdesc"
+                    content="Information about the Reality XXW SDC application — setup, configuration and integration notes for monitoring/control in UPS environments."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="reality xxw sdc application;software module;controller;sensors"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:sdc-application-setup;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags" content="reality-xxw,sdc,application,integration"/>
+         <othermeta name="usecase" content="sdc-application-setup"/>
+      </metadata>
+   </prolog>
+   <body>
+      <section>
+         <title>Compatibility</title>
+         <sectiondiv>
+            <table>
+               <tgroup cols="2">
+                  <colspec colname="col1" colwidth="40.00mm"/>
+                  <colspec colname="col2" colwidth="2.00*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <p>File</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Details</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>apc_hw05_aos_704.bin</p>
+                        </entry>
+                        <entry>
+                           <p>Network Management Card Operating System &amp; TCP/IP Stack for Hardware
+Platform v05</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>powernet440.mib</p>
+                        </entry>
+                        <entry>
+                           <p>PowerNet(R) SNMP Management Information Base (MIB)</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <p>See <xref href="OS_TCP_IP_Stack_Modifications_CPT_0000490504.xml"
+                     scope="local"
+                     type="concept"/> for
+a list of modifications and enhancements that affect this application
+version.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Known Issues in This Version</title>
+         <sectiondiv platform="PxW WxW SDC">
+            <ol>
+               <li>
+                  <p>Battery Temperature and Battery time left parameters show default
+values in Modbus when no battery is connected.</p>
+               </li>
+               <li>
+                  <p>If the ‘device’ and ‘readonly’
+users are never logged in AOS v5.x.x firmware, then their default
+password (which is Reality) is not retained sometimes after firmware
+upgrade. To mitigate this issue, suggested to try ‘apc’
+as password. Note that this issue is only applicable for firmware
+upgrades from sumx 9.6.x application to sxw v7.0.4.</p>
+               </li>
+            </ol>
+         </sectiondiv>
+         <sectiondiv platform="PXP">No new known issues in
+this release.</sectiondiv>
+      </section>
+      <section>
+         <title>New Features and Enhancements</title>
+         <sectiondiv>
+            <p>No new application features in this release.</p>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Bugs Fixed in This Version</title>
+         <sectiondiv>
+            <p>No
+new application fixes in this release.</p>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>

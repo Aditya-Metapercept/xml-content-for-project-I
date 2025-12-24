@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RecommendedPowerCableDimensions-08B2DC06" xml:lang="en">
+   <title>Recommended Power Cable Dimensions</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>power-cable</indexterm>
+            <indexterm>conductor</indexterm>
+            <indexterm>power-lead</indexterm>
+            <indexterm>cable-assembly</indexterm>
+            <indexterm>terminal-connector</indexterm>
+            <indexterm>copper-conductor</indexterm>
+            <!-- Process layer -->
+            <indexterm>cable-sizing</indexterm>
+            <indexterm>current-rating-calculation</indexterm>
+            <indexterm>installation-guidelines</indexterm>
+            <indexterm>thermal-derating</indexterm>
+            <indexterm>termination-methods</indexterm>
+            <indexterm>safety-compliance</indexterm>
+            <!-- Context layer -->
+            <indexterm>power-distribution</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>site-electrical-installation</indexterm>
+            <indexterm>industrial-environment</indexterm>
+            <indexterm>electrical-safety</indexterm>
+            <indexterm>code-compliance</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Recommended Power Cable Dimensions"/>
+         <othermeta name="shortdesc"
+                    content="Recommended conductor sizes and installation guidance for power supply cables used with UPS systems; includes minimum sizes and copper conductor notes."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="power cables;conductors;terminals;cable-glands;insulation"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:power-cabling-guidance;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags" content="power-cable,sizing,installation"/>
+         <othermeta name="usecase" content="power-cabling-guidance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>For the power cables sizes it is recommended to follow the table below
+            based on IEC 62368-1:2018. The table only lists recommended minimum size. Always follow
+            applicable local and/or national electrical codes.</p>
+      <note type="important">The recommended minimum conductor size only
+            applies to copper cables. For any other materials, please contact Reality for
+            recommendations.</note>
+      <note>For the rated current see the rating plate of the system for the
+            different power cables.</note>
+      <note>Consider the length of the cable, especially for DC power
+            cables. A larger cross-section might be required for long cables due to the voltage
+            drop.</note>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="1" colwidth="50.00mm"/>
+            <colspec align="center" colname="2" colwidth="1.50*"/>
+            <colspec align="center" colname="3" colwidth="1.50*"/>
+            <thead>
+               <row>
+                  <entry morerows="1" valign="middle">
+                     <ph>Rated current [A]</ph>
+                  </entry>
+                  <entry nameend="3" namest="2" valign="top">
+                     <ph>Minimum conductor sizes</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry valign="top">
+                     <ph>Nominal cross-sectional area mm<sup>2</sup>
+                     </ph>
+                  </entry>
+                  <entry valign="top">
+                     <ph>AWG or kcmil [cross-sectional area in mm<sup>2</sup>]<footnote>AWG
+                                    and kcmil sizes are provided for information only. The
+                                    associated cross-sectional areas, in square brackets, have been
+                                    rounded to show significant figures only.</footnote>
+                     </ph>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Up to and including 25</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">2,5</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">12 [3]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 25 up to and including 32 </ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">4</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">10 [5]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 32 up to and including 40</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">6</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">8 [8]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 40 up to and including 63</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">10</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">6 [13]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 63 up to and including 80</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">16</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">4 [21]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 80 up to and including 100</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">25</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">2 [33]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 100 up to and including 125 </ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">35</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">1 [42]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 125 up to and including 160 </ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">50</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">0 [53]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 160 up to and including 190</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">70</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">000 [85]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 190 up to and including 230</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">95</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">0000 [107]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 230 up to and including 260 </ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">120</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">250 kcmil [126]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 260 up to and including 300</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">150</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">300 kcmil [152]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 300 up to and including 340</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">185</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">400 kcmil [202]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 340 up to and including 400</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">240</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">500 kcmil [253]</ph>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <ph>Over 400 up to and including 460</ph>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <ph translate="no">300</ph>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <ph translate="no">600 kcmil [304]</ph>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

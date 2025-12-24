@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="RatingPlate-66F0A508" xml:lang="en">
+   <title>Rating Plate</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>rating-plate</indexterm>
+            <indexterm>nameplate</indexterm>
+            <indexterm>system-plate</indexterm>
+            <indexterm>serial-number-plate</indexterm>
+            <indexterm>specification-label</indexterm>
+            <indexterm>identification-plate</indexterm>
+            <!-- Process layer -->
+            <indexterm>reading-rating-plate</indexterm>
+            <indexterm>data-recording</indexterm>
+            <indexterm>compliance-check</indexterm>
+            <indexterm>label-replacement</indexterm>
+            <indexterm>spec-verification</indexterm>
+            <indexterm>inspection-procedure</indexterm>
+            <!-- Context layer -->
+            <indexterm>factory-installation</indexterm>
+            <indexterm>equipment-identification</indexterm>
+            <indexterm>service-records</indexterm>
+            <indexterm>asset-management</indexterm>
+            <indexterm>ups-equipment</indexterm>
+            <indexterm>maintenance-ops</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Rating Plate"/>
+         <othermeta name="shortdesc"
+                    content="Describes the rating plate contents and guidance for reading and verifying system specifications on the nameplate."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="rating plate;serial number;manufacturing date;model number;voltage rating"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:identification-and-compliance;industry:uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags" content="rating-plate,identification,compliance"/>
+         <othermeta name="usecase" content="identification-and-compliance"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The rating plate contains system specifications, operation parameters
+and installation requirements. The rating plate is mounted on each
+transport unit for identification.</p>
+      <table pgwide="1">
+         <tgroup cols="2">
+            <colspec colname="col1" colwidth="1.00*"/>
+            <colspec colname="col2" colwidth="1.00*"/>
+            <tbody>
+               <row>
+                  <entry align="right" colsep="0">
+                     <fig platform="PxW">
+                        <image href="../Images/Reality_PxW_Rating_Plate_Overview_0000357993.svg"
+                               placement="inline"/>
+                     </fig>
+                     <fig platform="WxW">
+                        <image href="../Images/Reality_WxW_Rating_Plate_Overview_0000484787.svg"
+                               placement="inline"/>
+                     </fig>
+                     <fig platform="SDC">
+                        <image href="../Images/Reality_SDC_Rating_Plate_Overview_0000530587.svg"
+                               placement="inline"/>
+                     </fig>
+                  </entry>
+                  <entry>
+                     <p>
+                        <sl>
+                           <sli>(A) System type</sli>
+                           <sli>(B) System type designation</sli>
+                           <sli>(C) Mains input values</sli>
+                           <sli>(D)<ph platform="PxW WxW">Bypass input values</ph>
+                              <ph platform="SDC">(Not used)</ph>
+                           </sli>
+                           <sli>(E)<ph platform="PxW SDC">Battery values</ph>
+                              <ph platform="WxW">(Not used)</ph>
+                           </sli>
+                           <sli>(F) Output values</sli>
+                           <sli>(G) Protection degree and ambient temperature range</sli>
+                           <sli>(H) Place for certification/conformity mark (e.g. CE,
+EAC, UL)</sli>
+                           <sli>(I) Unique identifier and manufacturing information:</sli>
+                        </sl>
+                        <ul>
+                           <li>
+                              <p>Reality project number</p>
+                           </li>
+                           <li>
+                              <p>System serial number</p>
+                           </li>
+                           <li>
+                              <p>Transport unit number</p>
+                           </li>
+                           <li>
+                              <p>Year of manufacturing</p>
+                           </li>
+                           <li>
+                              <p>Country of origin / Country of manufacturing</p>
+                           </li>
+                        </ul>
+                     </p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section>
+         <title>System Type Designation</title>
+         <sectiondiv>
+            <p>The
+top section (B) of the rating plate contains the system type
+designation. The system type designation contains information about
+the system configuration. </p>
+            <fig platform="PxW">
+               <image href="../Images/Reality_PxW_Rating_Plate_System-Type_0000358470.svg"
+                      placement="inline"/>
+            </fig>
+            <fig platform="WxW">
+               <image href="../Images/Reality_WxW_Rating_Plate_System-Type_0000484786.svg"
+                      placement="inline"/>
+            </fig>
+            <fig platform="SDC">
+               <image href="../Images/Reality_SDC_Rating_Plate_System-Type_0000530586.svg"
+                      placement="inline"/>
+            </fig>
+            <table platform="PxW WxW">
+               <tgroup cols="3">
+                  <colspec colname="col1" colwidth="20.00mm"/>
+                  <colspec colname="col2" colwidth="1.50*"/>
+                  <colspec colname="col3" colwidth="1.50*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <p>Position</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Description</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Options</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>(J)</p>
+                        </entry>
+                        <entry>
+                           <p>
+                              <ph id="TheRealitySystemType.-5A63E3C0">The Reality system type.</ph> The x in <ph platform="PxW">PxW</ph>
+                              <ph platform="WxW">WxW</ph> is
+a placeholder for:<sl>
+                                 <sli>E = Single-phase output</sli>
+                                 <sli>D = Three-phase output</sli>
+                              </sl>
+                           </p>
+                        </entry>
+                        <entry>
+                           <sl translate="no">
+                              <sli platform="PxW">Reality PEW</sli>
+                              <sli platform="PxW">Reality PDW</sli>
+                              <sli platform="WxW">Reality WEW</sli>
+                              <sli platform="WxW">Reality WDW</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(K)</p>
+                        </entry>
+                        <entry>
+                           <p>Indicates how many phases the system output has.</p>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>1 = Single-phase output</sli>
+                              <sli>3 = Three-phase output</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(L)</p>
+                        </entry>
+                        <entry>
+                           <p>The apparent output power in kVA.</p>
+                        </entry>
+                        <entry>
+                           <p id="BasedOnCustomerSpecification-5A7C2A0A">Based on customer
+specification</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(M)</p>
+                        </entry>
+                        <entry>
+                           <p id="TheNominalDCVoltageInVDC.-5A648561">The nominal DC voltage
+in V DC.</p>
+                        </entry>
+                        <entry>
+                           <p>Standard values are: 110, 125, 220 and 400.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(N)</p>
+                        </entry>
+                        <entry>
+                           <p>The AC output<footnote> Line-line voltage for three-phase systems.</footnote> voltage in V AC.</p>
+                        </entry>
+                        <entry>
+                           <p>Based on customer specification</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(O)</p>
+                        </entry>
+                        <entry>
+                           <p>Indicates if and what static switches the system has.</p>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>EA = Static switch EA (Inverter)</sli>
+                              <sli>EN = Static switch EN (Bypass)</sli>
+                              <sli>EAN = Both static switches EA and EN</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(P)</p>
+                        </entry>
+                        <entry>
+                           <p id="IndicatesTheSystemType.-5A64B706">Indicates the system
+type.</p>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>None = Single system</sli>
+                              <sli>R = Redundant system</sli>
+                              <sli>D = Dual system</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table platform="SDC">
+               <tgroup cols="3">
+                  <colspec colname="col1" colwidth="20.00mm"/>
+                  <colspec colname="col2" colwidth="1.50*"/>
+                  <colspec colname="col3" colwidth="1.50*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <p>Position</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Description</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Options</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>(J)</p>
+                        </entry>
+                        <entry>
+                           <p>
+                              <ph href="#./TheRealitySystemType.-5A63E3C0"/>
+                           </p>
+                        </entry>
+                        <entry>
+                           <p>Reality SDC</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(K)</p>
+                        </entry>
+                        <entry>
+                           <p href="#./TheNominalDCVoltageInVDC.-5A648561"/>
+                        </entry>
+                        <entry>
+                           <p>Standard values are: 24, 48, 110, 125 and 220.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(L)</p>
+                        </entry>
+                        <entry>
+                           <p>The output current in A.</p>
+                        </entry>
+                        <entry>
+                           <p href="#./BasedOnCustomerSpecification-5A7C2A0A"/>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(M)</p>
+                        </entry>
+                        <entry>
+                           <p href="#./IndicatesTheSystemType.-5A64B706"/>
+                        </entry>
+                        <entry>
+                           <sl>
+                              <sli>None = Single system</sli>
+                              <sli otherprops="typeD">D = Dual system</sli>
+                              <sli>R = Redundant system</sli>
+                           </sl>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Unique Identifier</title>
+         <sectiondiv>
+            <p>The bottom
+section (I) on the rating plate contains the unique identifier.
+The unique identifier is built up of sections to make it possible
+to identify the cabinet.</p>
+            <fig platform="PxW">
+               <image href="../Images/Reality_PxW_Rating_Plate_Unique-Identifier_0000358467.svg"
+                      placement="inline"/>
+            </fig>
+            <fig platform="WxW">
+               <image href="../Images/Reality_WxW_Rating_Plate_Unique-Identifier_0000484785.svg"
+                      placement="inline"/>
+            </fig>
+            <fig platform="SDC">
+               <image href="../Images/Reality_SDC_Rating_Plate_Unique-Identifier_0000530585.svg"
+                      placement="inline"/>
+            </fig>
+            <table>
+               <tgroup cols="3">
+                  <colspec colname="col1" colwidth="20.00mm"/>
+                  <colspec colname="col2" colwidth="1.50*"/>
+                  <colspec colname="col3" colwidth="1.50*"/>
+                  <thead>
+                     <row>
+                        <entry valign="top">
+                           <p>Position</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Name</p>
+                        </entry>
+                        <entry valign="top">
+                           <p>Description</p>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>
+                           <p>(Q)</p>
+                           <p>(N)</p>
+                        </entry>
+                        <entry>
+                           <p>Reality project number</p>
+                        </entry>
+                        <entry>
+                           <p>A unique number for each project.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(R)</p>
+                           <p>(O)</p>
+                        </entry>
+                        <entry>
+                           <p> System serial number</p>
+                        </entry>
+                        <entry>
+                           <p>Indicates a specific system number in the project.</p>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry>
+                           <p>(S)</p>
+                           <p>(P)</p>
+                        </entry>
+                        <entry>
+                           <p> Transport unit number</p>
+                        </entry>
+                        <entry>
+                           <p>The number indicates a transport unit. A system may consist
+of multiple transport units that can be separated for transportation.</p>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>

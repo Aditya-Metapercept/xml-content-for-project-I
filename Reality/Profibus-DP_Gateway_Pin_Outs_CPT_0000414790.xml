@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="Profibus-DPGatewayPinOuts-C4A68CE3" xml:lang="en">
+   <title>Profibus-DP GSD File</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>gateway-pin-outs</indexterm>
+            <indexterm>profibus-gateway-connector</indexterm>
+            <indexterm>gateway-terminal-block</indexterm>
+            <indexterm>power-input-pin</indexterm>
+            <indexterm>signal-pin-mapping</indexterm>
+            <indexterm>gateway-led-pins</indexterm>
+            <!-- Process layer -->
+            <indexterm>pin-identification</indexterm>
+            <indexterm>gateway-wiring</indexterm>
+            <indexterm>power-connection-check</indexterm>
+            <indexterm>functional-verification</indexterm>
+            <indexterm>firmware-update-connection</indexterm>
+            <indexterm>pinout-documentation</indexterm>
+            <!-- Context layer -->
+            <indexterm>communication-gateway-installation</indexterm>
+            <indexterm>control-room-environment</indexterm>
+            <indexterm>electrical-installation-standards</indexterm>
+            <indexterm>maintenance-environment</indexterm>
+            <indexterm>industrial-network-topology</indexterm>
+            <indexterm>field-commissioning</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Profibus-DP Gateway Pin Outs"/>
+         <othermeta name="shortdesc"
+                    content="Pin mapping and connection instructions for Profibus-DP gateway devices."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="Profibus-DP gateway;terminal blocks;power input pins;signal pins;LED indicators;grounding point"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:gateway-connection; industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="gateway,pinout,profibus,wiring,terminal-blocks,commissioning"/>
+         <othermeta name="usecase"
+                    content="Document pinouts and connector usage for Profibus-DP gateway commissioning and maintenance."/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The general station description (GSD) file extension used is developed
+by PROFIBUS &amp; PROFINET International. The GSD file defines how
+devices communicates on a Profibus-DP bus.</p>
+      <p>When using the LUFP7 gateway on a Profibus-DP bus the primary device
+must use the GSD file: <codeph>tele071f-gsd-file-for-profibus-v3.gsd</codeph>
+      </p>
+      <p>For additional information about the LUFP7 gateway and download
+of the GSD file for implementation see <xref href="https://www.anybus.com/lufp" scope="external" format="html">https://www.anybus.com/lufp</xref>.</p>
+   </body>
+</topic>

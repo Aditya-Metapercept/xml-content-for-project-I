@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="PushInTerminals35Mm2-FECBDDF3" xml:lang="en">
+   <title>Push In Terminal Type Size ≥ 35 mm<sup>2</sup> (AWG
+2)</title>
+   <shortdesc/>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>push-in-terminals-35-mm2</indexterm>
+            <indexterm>push-in-terminal</indexterm>
+            <indexterm>terminal-block-35mm2</indexterm>
+            <indexterm>heavy-current-terminal</indexterm>
+            <indexterm>wire-entry-slot</indexterm>
+            <indexterm>locking-mechanism</indexterm>
+            <!-- Process layer -->
+            <indexterm>wire-insertion-procedure</indexterm>
+            <indexterm>seating-verification</indexterm>
+            <indexterm>wire-preparation</indexterm>
+            <indexterm>functional-testing</indexterm>
+            <indexterm>strain-relief-setup</indexterm>
+            <indexterm>connection-validation</indexterm>
+            <!-- Context layer -->
+            <indexterm>power-distribution-panels</indexterm>
+            <indexterm>industrial-installation</indexterm>
+            <indexterm>maintenance-environment</indexterm>
+            <indexterm>production-equipment-interface</indexterm>
+            <indexterm>plant-electrical-setup</indexterm>
+            <indexterm>high-current-connections</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Push-In Terminals 35 mm2"/>
+         <othermeta name="shortdesc"
+                    content="Guidance for installation and verification of 35 mm² push-in terminal blocks for high-current connections."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="push-in terminal 35 mm2;high-current terminal;wire gauge;strain relief;terminal-block;mounting rail"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:heavy-current-connections; industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="push-in,terminals,35mm2,high-current,installation,testing"/>
+         <othermeta name="usecase"
+                    content="Document installation and testing steps for 35 mm² push-in terminals in high-current applications."/>
+      </metadata>
+   </prolog>
+   <body>
+      <fig>
+         <image href="../Images/Push-In_Terminals_35mm_0001090879.svg"
+                placement="inline"/>
+      </fig>
+      <section>
+         <title>Insert Cables</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Make sure the orange rotating part (C) is in the open
+position (away from the center of the terminal).</p>
+               </li>
+               <li>
+                  <p>Insert the cable in (E) and keep the cable in place.</p>
+               </li>
+               <li>
+                  <p>Insert a flat screwdriver of the size <u>1 x 5.5 mm (0.03 x
+0.21 in)</u> in the indent (D).</p>
+               </li>
+               <li>
+                  <p>Use the screwdriver as a lever and rotate (C) to the
+closed position (towards the center of the terminal), until it snaps
+into place.</p>
+               </li>
+               <li>
+                  <p>Remove the screwdriver and make sure the cable is securely
+fastened.</p>
+               </li>
+            </ol>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Remove Cables</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Insert a flat screwdriver of the size <u>1 x 5.5 mm (0.03 x
+0.21 in)</u> in the indent (D).</p>
+               </li>
+               <li>
+                  <p>Use the screwdriver as a lever and rotate (C) to the
+open position (away from the center of the terminal), until it snaps
+into place.</p>
+               </li>
+               <li>
+                  <p>Remove the cable from (E).</p>
+               </li>
+               <li>
+                  <p>Remove the screwdriver from (C).</p>
+               </li>
+            </ol>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>
