@@ -23,8 +23,7 @@
 
 
 
-      
-      <metadata>
+            <metadata>
          <audience type="role"
                    otherprops="machine operators, maintenance personnel, industrial engineers, reliability engineers, safety and compliance officers, management"/>
          <keywords><!-- Product layer -->
