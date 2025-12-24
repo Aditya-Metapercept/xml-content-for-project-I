@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="ReadHoldingRegisterFunctionCall03-8032EA76" xml:lang="en">
+   <title>Modbus Read Holding Register (Function Call 03)</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>modbus-holding-register</indexterm>
+            <indexterm>modbus-protocol</indexterm>
+            <indexterm>function-03</indexterm>
+            <indexterm>analog-measures</indexterm>
+            <indexterm>register-map</indexterm>
+            <!-- Process layer -->
+            <indexterm>read-holding-register</indexterm>
+            <indexterm>pdu-construction</indexterm>
+            <indexterm>value-scaling</indexterm>
+            <indexterm>register-mapping</indexterm>
+            <indexterm>response-validation</indexterm>
+            <indexterm>diagnostic-interpretation</indexterm>
+            <!-- Context layer -->
+            <indexterm>telemetry-acquisition</indexterm>
+            <indexterm>scada-integration</indexterm>
+            <indexterm>measurement-systems</indexterm>
+            <indexterm>commissioning</indexterm>
+            <indexterm>plant-monitoring</indexterm>
+            <indexterm>ups-network-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="Modbus Read Holding Register (Function Call 03)"/>
+         <othermeta name="shortdesc"
+                    content="Reference for Modbus Read Holding Register (function 03) with addresses and mapping for analog values such as voltages and frequencies."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="holding-register; modbus-pdu; scaled-value; register-address; analog-sensor; measurement-unit"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:modbus-holding-register-read-and-scaling;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="modbus,function-03,holding-register,telemetry,analog,scada"/>
+         <othermeta name="usecase"
+                    content="read analog measured values via Modbus function 03 for telemetry and SCADA integration"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>The read holding register contains analog information, the measured
+value from the parameters.</p>
+      <p>The data is stored as 16-bit unsigned integer, with the hexadecimal
+format FFFF of 4 digits. This corresponds to a numeric value between
+0-65535.</p>
+      <p>
+         <ph platform="PxW WxW SDC">The factor for all values is 1. </ph>This information can be used to trigger alarms, actions or other
+events.</p>
+      <note>It is recommended that the delay poll is more than 10 seconds
+because the refresh rate of the register is about 10 seconds.</note>
+      <note platform="PxW WxW SDC">All holding registers between 40001-40047
+are reserved even if not listed in the table.</note>
+      <table pgwide="1" platform="PxW WxW SDC">
+         <title>Modbus Read Holding Register List</title>
+         <tgroup cols="3">
+            <colspec colname="1" colwidth="20.00mm"/>
+            <colspec colname="2" colwidth="70.00mm"/>
+            <colspec colname="3" colwidth="3.00*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Holding Register</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Parameter
+[Unit of Measure]</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="1" nameend="1" namest="1">
+                     <p>40001</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>1–phase: Output voltage L1 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>1–phase: Phase L1 to neutral.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>3–phase: Output voltage L1 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>3–phase: Phase L1 to phase L2.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40002</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output voltage L2 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>3–phase:  Phase L2 to phase L3. Only for three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40003</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output voltage L3 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>3–phase:  Phase L3 to phase L1. Only for three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40004</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage
+L1 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Phase L1
+to phase L2.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40005</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage
+L2 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Phase L2
+to phase L3.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40006</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage
+L3 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Phase L3
+to phase L1.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="1" nameend="1" namest="1">
+                     <p>40007</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>1–phase:  Bypass voltage L1 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>1–phase:  Phase L1 to neutral.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry>
+                     <p>3–phase:  Bypass voltage L1 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>3–phase:  Phase L1 to phase L2.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40008</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Bypass voltage L2 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>3–phase:  Phase L2 to phase L3. Only for three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40009</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Bypass voltage L3 [V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>3–phase:  Phase L3 to phase L1. Only for three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40010</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input current
+L1 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40011</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input current
+L2 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40012</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input current
+L3 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40013</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output current
+L1 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40014</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output current L2 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40015</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output current L3 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40016</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output peak
+current L1 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40017</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output peak current L2 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40018</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>3–phase:  Output peak current L3 [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+three phase systems.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40019</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Total DC
+current [A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40020</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Battery current [A]</p>
+                     <p>DC current
+[A]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40022</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>System operation
+mode</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Value reflects
+the actual operation mode of the system: </p>
+                     <sl platform="PxW WxW">
+                        <sli>1 = Standby.</sli>
+                        <sli>2 = Charger only.</sli>
+                        <sli>3 = Normal operation.</sli>
+                        <sli>4 = Battery operation.</sli>
+                        <sli>5 = Bypass operation.</sli>
+                        <sli>6 = Hot standby.</sli>
+                        <sli>7 = Economy operation.</sli>
+                        <sli>8 = Battery test active.</sli>
+                     </sl>
+                     <sl platform="SDC">
+                        <sli>1 = Initializing after reset.</sli>
+                        <sli>2 = Standby.</sli>
+                        <sli>3 = Battery operation.</sli>
+                        <sli>4 = Float charge.</sli>
+                        <sli>5 = Boost charge.</sli>
+                        <sli>6 = Initial charge.</sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40029</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Battery voltage [V]</p>
+                     <p>DC voltage
+[V]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40031</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Active systems</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <sl>
+                        <sli>1 = Single.</sli>
+                        <sli>2 = Parallel.</sli>
+                     </sl>
+                  </entry>
+               </row>
+               <row platform="SDC">
+                  <entry>
+                     <p>40033</p>
+                  </entry>
+                  <entry>
+                     <p>DC Vaux. voltage [V]</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40035</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Battery
+temperature [°C or °F]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only available
+if optional battery temperature sensor is installed at the battery.
+Shows Fahrenheit or Celsius value depending on firmware setting. If
+the temperature sensor is not installed this field will show a default
+value (around 226).</p>
+                  </entry>
+               </row>
+               <row platform="PxW WxW">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40038</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output frequency
+[Hz]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>The phase
+output frequency of the system.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40040</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>System load
+[%]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Percent
+of the output power capacity currently used.</p>
+                  </entry>
+               </row>
+               <row platform="PxW SDC">
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40041</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Battery
+time left [minutes]</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p id="OnlyAvailableIfOptionalRealityBattery-2F36DB11">Only available if
+optional Reality battery ABM is installed in the system.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40045</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>NMC AOS
+firmware version</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>The APP
+firmware version for the NMC.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40046</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>NMC APP
+firmware version</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>The AOS
+firmware version for the NMC.</p>
+                  </entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <table pgwide="1" platform="PXP">
+         <title>Modbus Read Holding Register List</title>
+         <tgroup cols="4">
+            <colspec colname="1" colwidth="20.00mm"/>
+            <colspec colname="2" colwidth="70.00mm"/>
+            <colspec colname="COLSPEC0" colwidth="20.00mm"/>
+            <colspec colname="3" colwidth="6.00*"/>
+            <thead>
+               <row>
+                  <entry valign="top">
+                     <p>Holding
+Register</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Parameter [Unit of Measure]</p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Factor<footnote> The actual measured value
+is multiplied with a factor.</footnote>
+                     </p>
+                  </entry>
+                  <entry valign="top">
+                     <p>Description</p>
+                  </entry>
+               </row>
+            </thead>
+            <tbody>
+               <row>
+                  <entry>
+                     <p>40001</p>
+                  </entry>
+                  <entry>
+                     <p>System load [% of VA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40002</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>System load [% of W]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40003</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Apparent system load [kVA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40004</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Real system load [kW]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40005</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output apparent power L1 [kVA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40006</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output apparent power L2 [kVA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40007</p>
+                  </entry>
+                  <entry>
+                     <p>Output apparent power L3 [kVA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40008</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output real power L1 [kW]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40009</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output real power L2 [kW]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40010</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output real power L3 [kW]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40011</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output power factor L1</p>
+                  </entry>
+                  <entry>
+                     <p>100</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40012</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output power factor L2</p>
+                  </entry>
+                  <entry>
+                     <p>100</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40013</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output power factor L3</p>
+                  </entry>
+                  <entry>
+                     <p>100</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40015</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Total output load [% of VA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+redundant systems.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40016</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Total output load [% of W]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+redundant systems.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40017</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Total output load [VA]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+redundant systems.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40018</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Total Output load [W]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3">
+                     <p>Only for
+redundant systems.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40019</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output frequency [Hz]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40020</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output voltage L1 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40021</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output voltage L2 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40022</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output voltage L3 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40023</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output current L1 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40024</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output current L2 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40025</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Output current L3 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40035</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input frequency [Hz]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40036</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage L1 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40037</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage L2 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40038</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input voltage L3 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry colname="1" morerows="0" nameend="1" namest="1">
+                     <p>40045</p>
+                  </entry>
+                  <entry colname="2" morerows="0" nameend="2" namest="2">
+                     <p>Input current L1 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry colname="3" morerows="0" nameend="3" namest="3"/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40046</p>
+                  </entry>
+                  <entry>
+                     <p>Input current L2 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40047</p>
+                  </entry>
+                  <entry>
+                     <p>Input current L3 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40057</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass frequency [Hz]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40058</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass voltage L1 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Phase L1 to Phase L2. 0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40059</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass voltage L2 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Phase L2 to Phase L3. 0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40060</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass voltage L3 [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Phase L3 to Phase L1. 0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40061</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass current L1 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Measured before the bypass transformer.
+0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40062</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass current L2 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Measured before the bypass transformer.
+0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40063</p>
+                  </entry>
+                  <entry>
+                     <p>Input bypass current L3 [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p>Measured before the bypass transformer.
+0 if not available.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40071</p>
+                  </entry>
+                  <entry>
+                     <p>Battery current [A]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40072</p>
+                  </entry>
+                  <entry>
+                     <p>Battery voltage [V]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40075</p>
+                  </entry>
+                  <entry>
+                     <p>Battery temperature [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p href="#./OnlyAvailableIfOptionalRealityBattery-2F36DB11"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40076</p>
+                  </entry>
+                  <entry>
+                     <p>Expected battery runtime [minutes]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p href="#./OnlyAvailableIfOptionalRealityBattery-2F36DB11"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40077</p>
+                  </entry>
+                  <entry>
+                     <p>Percentage of battery capacity [%]</p>
+                  </entry>
+                  <entry>
+                     <p>10</p>
+                  </entry>
+                  <entry>
+                     <p href="#./OnlyAvailableIfOptionalRealityBattery-2F36DB11"/>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40090</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature sensor 1 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40091</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature sensor 2 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40092</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature sensor 3 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40093</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature T001 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40094</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature T401 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40095</p>
+                  </entry>
+                  <entry>
+                     <p>Temperature T501 [°C or °F]</p>
+                  </entry>
+                  <entry>
+                     <p>1</p>
+                  </entry>
+                  <entry>
+                     <p>The temperature sensor needs to be
+installed.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40245</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 001-016</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry>
+                     <p>The registers are lined up the following
+way: 16-13 12-9 8-5 4-1.</p>
+                  </entry>
+               </row>
+               <row>
+                  <entry>
+                     <p>40246</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 017-032</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40247</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 033-048</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40248</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 049-064</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40249</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 065-080</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40250</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 081-096</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40251</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 097-112</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40252</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 113-128</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40253</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 129-144</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40254</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 145-160</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40255</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 161-176</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40256</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 177-192</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+               <row>
+                  <entry>
+                     <p>40257</p>
+                  </entry>
+                  <entry>
+                     <p>Read coil register 193-208</p>
+                  </entry>
+                  <entry>
+                     <p>—</p>
+                  </entry>
+                  <entry/>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+   </body>
+</topic>

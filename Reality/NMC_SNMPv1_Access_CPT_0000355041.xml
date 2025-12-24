@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SNMPv1Access-80A305E2" xml:lang="en">
+   <title>SNMPv1 Access</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-05+05:30"/>
+         <revised modified="2025-12-05"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>snmpv1-agent</indexterm>
+            <indexterm>network-management-card</indexterm>
+            <indexterm>snmp-mib</indexterm>
+            <indexterm>trap-destination</indexterm>
+            <indexterm>community-string</indexterm>
+            <!-- Process layer -->
+            <indexterm>snmpv1-configuration</indexterm>
+            <indexterm>community-string-setup</indexterm>
+            <indexterm>snmp-get-and-set</indexterm>
+            <indexterm>mib-query</indexterm>
+            <indexterm>trap-enabling</indexterm>
+            <indexterm>port-configuration</indexterm>
+            <!-- Context layer -->
+            <indexterm>legacy-monitoring</indexterm>
+            <indexterm>management-network</indexterm>
+            <indexterm>data-centre-telemetry</indexterm>
+            <indexterm>monitoring-integration</indexterm>
+            <indexterm>remote-operations</indexterm>
+            <indexterm>ups-network-management</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title" content="NMC SNMPv1 Access"/>
+         <othermeta name="shortdesc"
+                    content="Guidance on configuring SNMPv1 access to the Network Management Card including community string setup and MIB queries."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="snmpv1; community-string; oid; trap-destination; agent-port; mib-file"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:snmpv1-access-configuration;industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags" content="snmpv1,community,mib,traps,monitoring,legacy"/>
+         <othermeta name="usecase"
+                    content="configure SNMPv1 access for monitoring integration and trap notifications"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>SNMPv1 uses access communities to define what IP addresses on the
+network have access to the SNMP communication from the NMC.</p>
+      <section>
+         <title>SNMPv1 Access Communities</title>
+         <sectiondiv>
+            <p>To
+use SNMPv1 an access community is used. Each access community has
+a community name, an IP name or a host name and an access type. It
+is possible to defined up to four different access communities.</p>
+            <ul>
+               <li>
+                  <p>
+                     <uicontrol translate="no">The community name:</uicontrol> Used
+for access by a network management station (NMS). The maximum length
+of a community name is 15 ASCII characters. </p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">The NMS IP/host name:</uicontrol> The IPv4 or IPv6 address, IP address mask, or host name that controls
+access by NMSs. A host name or a specific IP address (for example,
+149.225.12.1) allows access only by the NMS at that location. IP addresses
+that contain 255 restrict access as follows:<ul>
+                        <li>
+                           <p>149.225.12.255: Access by NMS on the 149.225.12 segment.</p>
+                        </li>
+                        <li>
+                           <p>149.225.255.255: Access by NMS on the 149.225 segment.</p>
+                        </li>
+                        <li>
+                           <p>149.255.255.255: Access by NMS on the 149 segment.</p>
+                        </li>
+                        <li>
+                           <p>0.0.0.0 (the default setting) which can also be expressed as
+255.255.255.255: Access by NMS on any segment.</p>
+                        </li>
+                     </ul>
+                  </p>
+               </li>
+               <li>
+                  <p>
+                     <uicontrol translate="no">The access type:</uicontrol> There
+are four different access types:<ul>
+                        <li>
+                           <p>Read: GETS only, at any time</p>
+                        </li>
+                        <li>
+                           <p>Write: GETS at any time, and SETS when no user is logged onto
+the UI or command line interface.</p>
+                        </li>
+                        <li>
+                           <p>Write+: GETS and SETS at any time.</p>
+                        </li>
+                        <li>
+                           <p>Disable: No GETS or SETS at any time.</p>
+                        </li>
+                     </ul>
+                  </p>
+               </li>
+            </ul>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Configure SNMPv1 from the CLI</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Log in to the CLI.</p>
+               </li>
+               <li>
+                  <p>To see the configuration options type <codeph translate="no">snmp ?</codeph>
+                     <note>In the table <codeph translate="no">[n]</codeph> is the access community number 1, 2, 3 or 4.</note>
+                  </p>
+                  <table>
+                     <tgroup cols="4">
+                        <colspec colname="COLSPEC0" colwidth="1*"/>
+                        <colspec colname="col1" colwidth="1*"/>
+                        <colspec colname="col2" colwidth="1*"/>
+                        <colspec colname="col3" colwidth="2*"/>
+                        <thead>
+                           <row>
+                              <entry valign="top">
+                                 <ph>Setting</ph>
+                              </entry>
+                              <entry valign="top">
+                                 <ph>Command</ph>
+                              </entry>
+                              <entry valign="top">
+                                 <ph>Argument</ph>
+                              </entry>
+                              <entry valign="top">
+                                 <ph>Description</ph>
+                              </entry>
+                           </row>
+                        </thead>
+                        <tbody>
+                           <row>
+                              <entry>
+                                 <ph>Help</ph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">?</codeph>
+                              </entry>
+                              <entry/>
+                              <entry>
+                                 <ph>Shows the command help.</ph>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <ph>SNMPv1
+access</ph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">–S</codeph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">enable | disable</codeph>
+                              </entry>
+                              <entry>
+                                 <ph>Enables or disables SNMP version
+1.</ph>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <ph>Community
+name</ph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">–c[n]</codeph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">&lt;Community
+Name&gt;</codeph>
+                              </entry>
+                              <entry>
+                                 <ph>Specify a community name.</ph>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <ph>Community
+access type</ph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">–a[n]</codeph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">read | write |
+writeplus | disable</codeph>
+                              </entry>
+                              <entry>
+                                 <ph>Set the access type of a community.</ph>
+                              </entry>
+                           </row>
+                           <row>
+                              <entry>
+                                 <ph>Community IPv4/IPv6 address or host
+name</ph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">–n[n]</codeph>
+                              </entry>
+                              <entry>
+                                 <codeph translate="no">&lt;IP address&gt; | &lt;Host Name&gt;</codeph>
+                              </entry>
+                              <entry>
+                                 <ph>Specify the
+IPv4/IPv6 address or the host name of community.</ph>
+                              </entry>
+                           </row>
+                        </tbody>
+                     </tgroup>
+                  </table>
+               </li>
+            </ol>
+         </sectiondiv>
+      </section>
+      <section>
+         <title>Configure SNMPv1 from the Web Interface</title>
+         <sectiondiv>
+            <ol>
+               <li>
+                  <p>Log in to the web interface.</p>
+               </li>
+               <li>
+                  <p>Navigate to <uicontrol translate="no">Configuration &gt; Network
+&gt; SNMPv1 &gt; Access Control</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Click on a community name to configure <uicontrol translate="no">Community Name</uicontrol>, <uicontrol translate="no">NMS IP/Host
+Name</uicontrol> and <uicontrol translate="no">Access Type</uicontrol>.</p>
+               </li>
+               <li>
+                  <p>Click <uicontrol translate="no">Apply</uicontrol> to save any
+changes.</p>
+                  <note href="../Library/Reference_Library_CPT_0000338844.xml#Reference_Library-69E2C789/restart_to_apply_change">A reboot of the NMC might be necessary to activate changes.</note>
+               </li>
+            </ol>
+            <image href="../Images/NMC_Configuration_Network_SNMPv1_Access-Control_Configure-Comunity_0000337186.png"
+                   placement="inline"/>
+         </sectiondiv>
+      </section>
+   </body>
+</topic>
