@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic id="SingleSystemWithRectifierOutputSwit-5F297BAE" xml:lang="en">
+   <title>Single System with Blocking Diode and Rectifier Output Switch</title>
+   <prolog>
+      <author>Pallavi</author>
+      <critdates>
+         <created date="2025-12-04+05:30"/>
+         <revised modified="2025-12-04"/>
+      </critdates>
+      <metadata>
+         <audience type="role"
+                   otherprops="production,maintenance,quality,safety,engineering,management"/>
+         <keywords><!-- Product layer -->
+            <indexterm>blocking-diode</indexterm>
+            <indexterm>rectifier-output-switch</indexterm>
+            <indexterm>single-system-module</indexterm>
+            <indexterm>metr-pxc-reality</indexterm>
+            <indexterm>isolation-diode</indexterm>
+            <indexterm>control-switch</indexterm>
+            <!-- Process layer -->
+            <indexterm>rectifier-output-switching</indexterm>
+            <indexterm>diode-isolation</indexterm>
+            <indexterm>single-system-commissioning</indexterm>
+            <indexterm>output-switch-configuration</indexterm>
+            <indexterm>manual-override</indexterm>
+            <indexterm>protection-checks</indexterm>
+            <!-- Context layer -->
+            <indexterm>single-system-deployment</indexterm>
+            <indexterm>site-commissioning</indexterm>
+            <indexterm>field-installation</indexterm>
+            <indexterm>maintenance</indexterm>
+            <indexterm>ups-installation</indexterm>
+            <indexterm>industrial-environment</indexterm>
+         </keywords>
+         <prodinfo>
+            <prodname>metR-PXC-Reality</prodname>
+            <platform>web</platform>
+         </prodinfo>
+         <othermeta name="title"
+                    content="Single System with Blocking Diode and Rectifier Output Switch"/>
+         <othermeta name="shortdesc"
+                    content="Optionally a single system can have a blocking diode and rectifier output switch; details switching and isolation."/>
+         <othermeta name="language" content="en-GB"/>
+         <othermeta name="version" content="1.0.0"/>
+         <othermeta name="docStage" content="approved"/>
+         <othermeta name="access.role" content="internal"/>
+         <othermeta name="data.classification" content="non-sensitive"/>
+         <othermeta name="retention.policy" content="standard-36m"/>
+         <othermeta name="entities"
+                    content="blocking-diode;rectifier;output-switch;protection-relay;control-panel;fuse"/>
+         <othermeta name="taxonomy"
+                    content="domain:industrial-engineering;usecase:configure-single-system-output-switch; industry: uninterruptible power supply (UPS) systems"/>
+         <othermeta name="tags"
+                    content="rectifier-output-switching,diode-isolation,single-system-commissioning,output-switch-configuration,manual-override,protection-checks"/>
+         <othermeta name="usecase" content="configure-single-system-output-switch"/>
+      </metadata>
+   </prolog>
+   <body>
+      <p>Optionally a single system can have:<ul>
+            <li>
+               <p>A blocking diode before or after the battery connection.</p>
+            </li>
+            <li>
+               <p>A rectifier output switch after the battery connection.</p>
+            </li>
+         </ul>
+      </p>
+      <fig>
+         <title>Blocking Diode After the Battery Connection with Rectifier
+Output Switch</title>
+         <image href="../Images/FD_SDC_Configuration-Options_Single-after-battery_0000534882.svg"
+                placement="inline"/>
+      </fig>
+      <fig>
+         <title>Blocking Diode Before the Battery Connection with Rectifier
+Output Switch</title>
+         <image href="../Images/FD_SDC_Configuration-Options_Single-befor-battery_0000534883.svg"
+                placement="inline"/>
+      </fig>
+   </body>
+</topic>
